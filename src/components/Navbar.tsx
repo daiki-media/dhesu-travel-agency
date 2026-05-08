@@ -7,11 +7,9 @@ import PromoSubmenu from "./PromoSubmenu";
 
 export default function Navbar() {
   return (
-    <header className="relative z-[100] w-full bg-white shadow-sm">
+    <header className="relative z-[100] w-full bg-/0 shadow-lg">
       <div className="container mx-auto flex items-center justify-between gap-8">
-        
-        {/* Logo */}
-        <div className="flex-shrink-0">
+        <Link className="flex-shrink-0" href="/">
           <Image
             src="/images/dhesu_logos.png"
             alt="dhesu logo"
@@ -20,7 +18,7 @@ export default function Navbar() {
             priority
             className="object-contain"
           />
-        </div>
+        </Link>
 
         {/* Desktop Menu */}
         <nav className="hidden lg:flex items-center gap-8">

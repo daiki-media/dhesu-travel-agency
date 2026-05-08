@@ -28,7 +28,7 @@ const packages = [
 
 export default function SpecialPackages() {
   return (
-    <section className="bg-dark py-20 text-white">
+    <section className="bg-primarydark/10 py-20 text-white">
       <div className="container mx-auto px-4">
         {/* Header Section */}
         <div className="mb-12 text-center lg:text-left">
@@ -47,7 +47,7 @@ export default function SpecialPackages() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="group relative overflow-hidden rounded-[24px] bg-[#1a1a1a] p-5 shadow-2xl transition-all hover:bg-[#222]"
+              className="group relative overflow-hidden rounded-[24px] bg-secondary/50 p-5 shadow-2xl transition-all hover:bg-secondary"
             >
               {/* Image Container */}
               <div className="relative h-[240px] w-full overflow-hidden rounded-[20px]">

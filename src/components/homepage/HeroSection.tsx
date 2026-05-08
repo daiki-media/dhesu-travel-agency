@@ -66,7 +66,7 @@ export default function TravelHero() {
   const next = destinations[getIndex(active + 1)];
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-black text-white">
+    <section className="relative min-h-screen overflow-hidden bg-black text-white pt-70 -mt-50">
       {/* Background */}
       <div className="absolute inset-0">
         <Image
@@ -85,9 +85,8 @@ export default function TravelHero() {
         <div className="container-main grid min-h-screen items-center gap-10 lg:grid-cols-[0.95fr_1.05fr]">
           {/* LEFT */}
           <div className="relative max-w-[620px] pt-10 lg:pt-0">
-            {/* Arrow decoration */}
             <div className="mb-8 flex">
-              {[...Array(5)].map((_, i) => (
+              {[...Array(7)].map((_, i) => (
                 <ChevronRight
                   key={i}
                   size={42}
@@ -95,25 +94,12 @@ export default function TravelHero() {
                 />
               ))}
             </div>
-
-            {/* Title */}
             <div className="relative">
               <div className="absolute left-0 top-3 h-[220px] w-[8px] bg-white" />
-
               <h1
-                className="
-                  pl-10
-                  text-[72px]
-                  font-black
-                  uppercase
-                  leading-[0.95]
-                  tracking-[-3px]
-                  lg:text-[110px]
-                "
-              >
+                className="pl-10 text-[72px] font-black uppercase leading-[0.95] tracking-[-3px] lg:text-[110px]">
                 Explore
                 <br />
-
                 <span className="text-gradient">
                   The World
                 </span>
@@ -185,7 +171,7 @@ export default function TravelHero() {
 
             {/* Bottom arrows */}
             <div className="mt-16 flex">
-              {[...Array(5)].map((_, i) => (
+              {[...Array(7)].map((_, i) => (
                 <ChevronRight
                   key={i}
                   size={42}
@@ -212,7 +198,7 @@ export default function TravelHero() {
                 items-center
                 justify-center
                 rounded-full
-                border-[5px]
+                border-[2px]
                 border-white
                 gradient
                 shadow-2xl
@@ -238,7 +224,7 @@ export default function TravelHero() {
                 items-center
                 justify-center
                 rounded-full
-                border-[5px]
+                border-[2px]
                 border-white
                 gradient
                 shadow-2xl
@@ -354,7 +340,7 @@ function SliderCard({
   return (
     <div
       className={`
-        rounded-none
+        rounded
         bg-white
         p-6
         text-black

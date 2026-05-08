@@ -28,7 +28,7 @@ export default function PromoSubmenu() {
               href={promo.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group/promo block p-4 rounded-lg hover:bg-gray-50 transition-all duration-300 border border-transparent hover:border-border"
+              className="group/promo block p-4 rounded-lg hover:bg-primarydark/10 transition-all duration-300 border border-transparent hover:border-border"
             >
               <div className="font-semibold text-foreground group-hover/promo:text-primary transition-colors mb-1">
                 {promo.name}
