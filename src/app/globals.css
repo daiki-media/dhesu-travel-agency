@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --font-primary: var(--font-montserrat);
+
+  --color-primary: #FF0000;
+  --color-secondary: #CC0000;
+  --color-primarydark: #990000;
+
+  --color-dark: #000;
+  --color-light: #fff;
+
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
+
+  /* Radius */
+  --radius-main: 16px;
+
+  /* Container */
+  --container-width: 1280px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: var(--color-background);
+  color: var(--color-foreground);
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin-inline: auto;
+}
+
+.padding {
+  padding-block: 80px;
+}
+
+.heading-primary {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+@layer components {
+  .text-gradient {
+    background: linear-gradient(
+      to right, 
+      var(--color-primary), 
+      var(--color-primarydark)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+
+  .gradient {
+    background: linear-gradient(
+      to right, 
+      var(--color-primary), 
+      var(--color-primarydark)
+    );
+    color: var(--color-light);
+  }
+}
