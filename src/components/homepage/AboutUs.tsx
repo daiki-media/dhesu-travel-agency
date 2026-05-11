@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 export default function AboutUs() {
@@ -19,10 +18,7 @@ export default function AboutUs() {
           {/* LEFT SIDE: Overlapping Images (Matching your reference) */}
           <div className="relative h-[500px] w-full">
             {/* Background Image (The larger one) */}
-            <motion.div 
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+            <div 
               className="absolute left-0 top-0 h-[350px] w-[80%] overflow-hidden rounded-main shadow-2xl"
             >
               <Image
@@ -31,14 +27,10 @@ export default function AboutUs() {
                 fill
                 className="object-cover"
               />
-            </motion.div>
+            </div>
 
             {/* Foreground Image (The overlapping one) */}
-            <motion.div 
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-              viewport={{ once: true }}
+            <div 
               className="absolute bottom-0 right-0 z-20 h-[300px] w-[70%] overflow-hidden rounded-main border-[10px] border-white shadow-[-20px_20px_50px_rgba(0,0,0,0.2)]"
             >
               <Image
@@ -47,7 +39,7 @@ export default function AboutUs() {
                 fill
                 className="object-cover"
               />
-            </motion.div>
+            </div>
           </div>
 
           {/* RIGHT SIDE: Text Content */}
@@ -77,15 +69,14 @@ export default function AboutUs() {
             </p>
 
             {/* CTA Button */}
-            <motion.button 
-              whileHover={{ x: 10 }}
+            <button 
               className="group mt-4 flex items-center gap-4 self-start text-xl font-black uppercase tracking-widest text-black"
             >
               Read Our Story 
               <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white transition-colors group-hover:bg-primarydark">
                 <ArrowRight size={24} />
               </span>
-            </motion.button>
+            </button>
           </div>
 
         </div>

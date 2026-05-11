@@ -3,7 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import { CheckCircle2, ChevronRight } from "lucide-react";
-import { motion } from "framer-motion";
 
 const packages = [
   {
@@ -41,12 +40,8 @@ export default function SpecialPackages() {
         {/* Cards Grid */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {packages.map((pkg, idx) => (
-            <motion.div
+            <div
               key={pkg.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: idx * 0.1 }}
-              viewport={{ once: true }}
               className="group relative overflow-hidden rounded-[24px] bg-secondary/50 p-5 shadow-2xl transition-all hover:bg-secondary"
             >
               {/* Image Container */}
@@ -84,7 +79,7 @@ export default function SpecialPackages() {
                   BOOK NOW
                 </button>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

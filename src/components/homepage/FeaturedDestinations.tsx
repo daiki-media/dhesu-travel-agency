@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { ChevronRight, MapPin, Star } from "lucide-react";
 
 const featuredDestinations = [
@@ -75,11 +74,7 @@ export default function FeaturedDestinations() {
       <div className="container">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
+          <div
           >
             <span className="text-primary font-bold text-sm uppercase tracking-wider border-l-4 border-primary pl-3">
               EXPLORE DESTINATIONS
@@ -90,20 +85,14 @@ export default function FeaturedDestinations() {
             <p className="text-gray-600 max-w-2xl mx-auto">
               Discover the world's most amazing places with our exclusive travel packages
             </p>
-          </motion.div>
+          </div>
         </div>
 
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {featuredDestinations.map((dest, idx) => (
-            <motion.div
+            <div
               key={dest.id}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: idx * 0.1 }}
-              viewport={{ once: true }}
-              onMouseEnter={() => setHoveredId(dest.id)}
-              onMouseLeave={() => setHoveredId(null)}
               className="group relative"
             >
               <Link href={dest.url} target="_blank">
@@ -137,25 +126,20 @@ export default function FeaturedDestinations() {
                         <span className="text-2xl font-bold text-primary">{dest.price}</span>
                         <span className="text-sm"> /person</span>
                       </div>
-                      <motion.div
-                        animate={hoveredId === dest.id ? { x: 5 } : { x: 0 }}
+                      <div
                         className="gradient rounded-full p-2 shadow-lg"
                       >
                         <ChevronRight size={20} />
-                      </motion.div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.6 }}
-          viewport={{ once: true }}
+        <div
           className="text-center mt-12"
         >
           <Link
@@ -165,7 +149,7 @@ export default function FeaturedDestinations() {
             View All Destinations
             <ChevronRight className="group-hover:translate-x-1 transition-transform" size={18} />
           </Link>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

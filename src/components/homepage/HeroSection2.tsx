@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 
 const destinations = [
@@ -96,11 +95,7 @@ export default function TravelHero() {
               const style = getCardStyles(i);
               
               return (
-                <motion.div
-                  key={item.id}
-                  initial={false}
-                  animate={style}
-                  transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                <div
                   className="absolute w-[380px] cursor-pointer"
                   onClick={() => setIndex(i)}
                 >
@@ -119,7 +114,7 @@ export default function TravelHero() {
                       </button>
                     </div>
                   </div>
-                </motion.div>
+                </div>
               );
             })}
           </div>

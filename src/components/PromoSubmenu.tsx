@@ -1,6 +1,4 @@
-// components/PromoSubmenu.tsx
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 interface PromoItem {
   name: string;

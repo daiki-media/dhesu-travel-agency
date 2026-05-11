@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { Quote, ChevronRight,  Star } from "lucide-react";
 
 const testimonials = [
@@ -52,12 +51,7 @@ export default function Testimonial() {
         {/* Testimonials Grid */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((item, idx) => (
-            <motion.div
-              key={item.id}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: idx * 0.1 }}
-              viewport={{ once: true }}
+            <div
               className="relative rounded-main bg-[#111] p-8 border border-white/5 hover:border-primary/30 transition-colors group"
             >
               {/* Quote Icon */}
@@ -92,7 +86,7 @@ export default function Testimonial() {
                   <p className="text-sm text-primary font-medium">{item.role}</p>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
 
