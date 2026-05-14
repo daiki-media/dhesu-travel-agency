@@ -3,6 +3,7 @@ import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/homepage/Navbar";
 import Hero from "@/src/components/homepage/Hero";
 import TourCategories from "@/src/components/homepage/TourCategories";
+import Tourcat2 from "@/src/components/homepage/Tourcat2";
 import PopularDestination from "@/src/components/homepage/PopularDestination";
 import PlanYourTrip from "@/src/components/homepage/PlanYourTrip";
 import PopularTours from "@/src/components/homepage/PopularTours";
@@ -18,7 +19,8 @@ export default function Home() {
       <TopBar />
       <Navbar />
       <Hero />
-      <TourCategories />
+      {/* <TourCategories /> */}
+      <Tourcat2 />
       <PopularDestination />
       <PlanYourTrip />
       <PopularTours />
