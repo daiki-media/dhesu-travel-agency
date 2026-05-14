@@ -81,12 +81,12 @@ export default function Hero() {
               transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             >
               {/* Subtitle with Script Font */}
-              <p className="font-montez text-white text-3xl md:text-4xl mb-4 drop-shadow-md opacity-90">
+              <p className="font-secondary text-white text-3xl md:text-4xl mb-4 drop-shadow-md opacity-90">
                 {slides[current].subtitle}
               </p>
               
               {/* Bold Header */}
-              <h1 className="font-manrope text-6xl md:text-8xl font-bold text-white leading-[1.05] mb-10 tracking-tight">
+              <h1 className="font-primary text-6xl md:text-8xl font-bold text-white leading-[1.05] mb-10 tracking-tight">
                 {slides[current].title1}
                 <br />
                 {slides[current].title2}

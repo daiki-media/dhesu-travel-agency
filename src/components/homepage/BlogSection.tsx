@@ -3,6 +3,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import Button from "../Button";
 
 const posts = [
   {
@@ -50,9 +51,7 @@ export default function BlogSection() {
               News &amp; Articles From Tourm
             </h2>
           </div>
-          <button className="shrink-0 flex items-center gap-2 border border-teal-navy text-teal-navy px-6 py-2.5 rounded-full font-medium text-sm hover:bg-teal-navy hover:text-white transition-all duration-300">
-            See More Articles <ArrowRight size={12} />
-          </button>
+          <Button showArrow variant="dark" size="lg"> See More Articles </Button>
         </motion.div>
 
         {/* Blog cards */}
@@ -88,10 +87,7 @@ export default function BlogSection() {
                 {post.title}
               </h3>
 
-              {/* Read More */}
-              <button className="flex items-center gap-2 border border-teal-navy/60 text-teal-navy px-5 py-2 rounded-full text-sm font-medium hover:bg-teal-navy hover:text-white hover:border-teal-navy transition-all duration-300">
-                Read More <ArrowRight size={11} />
-              </button>
+                <Button showArrow variant="dark" size="sm"> Read More </Button>
             </motion.article>
           ))}
         </div>

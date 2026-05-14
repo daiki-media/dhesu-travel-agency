@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 export default function TopBar() {
   return (
-    <div className="bg-white border-b border-gray-100 py-2">
+    <div className="bg-white border-b border-gray-100 py-2 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between text-sm text-gray-600">
         <div className="flex items-center gap-6">
           <span className="flex items-center gap-1.5">

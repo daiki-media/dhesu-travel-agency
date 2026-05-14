@@ -13,12 +13,12 @@
   --primary-color: #1CA8CB;
   --title-color: #113D48;
 }
-.font-manrope {
-  font-family: var(--font-manrope);
+.font-primary {
+  font-family: var(--font-primary);
 }
 
-.font-montez {
-  font-family: var(--font-montez);
+.font-secondary {
+  font-family: var(--font-secondary);
 }
 html {
   scroll-behavior: smooth;
@@ -35,7 +35,6 @@ body {
 .btn-base {
   position: relative;
   overflow: hidden;
-  padding: 12px 26px;
   border-radius: 999px;
   font-weight: 500;
   cursor: pointer;

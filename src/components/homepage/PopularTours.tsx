@@ -3,6 +3,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { MapPin, Clock, Users, ArrowRight, Star} from "lucide-react";
+import Button from "@/src/components/Button"
 
 const tours = [
   {
@@ -69,10 +70,10 @@ export default function PopularTours() {
           animate={inView ? { y: 0, opacity: 1 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <p className="font-dancing text-primary-dark text-2xl md:text-3xl mb-2">
+          <p className="font-secondary text-primary-dark text-2xl md:text-3xl mb-2">
             Best Place For You
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold text-teal-navy mb-4">
+          <h2 className="font-primary text-4xl md:text-5xl font-bold text-teal-navy mb-4">
             Most Popular Tour
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto text-[15px]">
@@ -140,9 +141,7 @@ export default function PopularTours() {
                     <span className="text-xl font-bold text-primary">{tour.price}</span>
                     <span className="text-gray-400 text-xs">/Person</span>
                   </div>
-                  <button className="flex items-center gap-1.5 bg-primary-dark text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-primary transition-colors duration-200">
-                    Book Now <ArrowRight size={10} />
-                  </button>
+                  <Button variant="dark" size="sm"> Book Now</Button>
                 </div>
               </div>
             </motion.div>

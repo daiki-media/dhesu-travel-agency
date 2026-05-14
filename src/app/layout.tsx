@@ -8,14 +8,14 @@ const montserrat = Montserrat({
 });
 const manrope = Manrope({
   subsets: ["latin"],
-  variable: "--font-manrope",
+  variable: "--font-primary",
   display: "swap",
 });
 
 const montez = Montez({
   weight: "400",
   subsets: ["latin"],
-  variable: "--font-montez",
+  variable: "--font-secondary",
   display: "swap",
 })
 export const metadata: Metadata = {

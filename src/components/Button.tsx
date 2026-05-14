@@ -25,7 +25,7 @@ export default function Button({
 }: ButtonProps) {
   // Size classes
   const sizeClasses = {
-    sm: "px-5 py-2 text-sm",
+    sm: "px-4 py-2 text-sm",
     md: "px-7 py-3 text-[15px]",
     lg: "px-10 py-4 text-base",
   };

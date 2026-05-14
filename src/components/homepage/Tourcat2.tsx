@@ -125,10 +125,10 @@ export default function TourCategories() {
           animate={inView ? { y: 0, opacity: 1 } : {}}
           transition={{ duration: 0.55 }}
         >
-          <p className="font-montez text-primary-dark text-2xl md:text-3xl mb-1">
+          <p className="font-secondary text-primary-dark text-2xl md:text-3xl mb-1">
             Wonderful Place For You
           </p>
-          <h2 className="font-manrope text-4xl md:text-5xl font-bold text-teal-navy">
+          <h2 className="font-primary text-4xl md:text-5xl font-bold text-teal-navy">
             Tour Categories
           </h2>
         </motion.div>
@@ -189,7 +189,7 @@ export default function TourCategories() {
                     />
                   </div>
                   <h3
-                    className="font-manrope font-extrabold text-[#0d2b3e] mt-4"
+                    className="font-primary font-extrabold text-[#0d2b3e] mt-4"
                     style={{ fontSize: s.fs, transition: `font-size ${DUR} ${EASE}` }}
                   >
                     {cat.name}

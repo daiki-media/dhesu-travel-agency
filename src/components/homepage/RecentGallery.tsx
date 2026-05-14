@@ -56,7 +56,7 @@ export default function RecentGallery() {
           animate={inView ? { y: 0, opacity: 1 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <p className="font-dancing text-primary-dark text-2xl md:text-3xl mb-2">
+          <p className="font-secondary text-primary-dark text-2xl md:text-3xl mb-2">
             Make Your Tour More Pleasure
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-teal-navy">

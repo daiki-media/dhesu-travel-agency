@@ -34,28 +34,6 @@ const socials = [
 export default function Footer() {
   return (
     <footer>
-      {/* Newsletter bar */}
-      <div className="bg-white border-t border-gray-100 py-10">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-          <h3 className="text-2xl md:text-3xl font-bold text-teal-navy leading-tight max-w-xs">
-            Get Updated The Latest Newsletter
-          </h3>
-          <div className="flex items-center gap-3 w-full max-w-xl">
-            <input
-              type="email"
-              placeholder="Enter Email"
-              className="flex-1 border border-gray-200 rounded-full px-6 py-3.5 text-sm text-gray-700 placeholder:text-gray-400 outline-none focus:border-primary transition-colors"
-            />
-            <button className="shrink-0 flex items-center gap-2 bg-primary-dark text-white px-7 py-3.5 rounded-full font-semibold text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
-              Subscribe Now <Plane size={13} />
-            </button>
-          </div>
-        </div>
-        <div className="max-w-7xl mx-auto px-6 mt-10">
-          <hr className="border-gray-200" />
-        </div>
-      </div>
-
       {/* Main footer */}
       <div className="bg-white pt-10 pb-12">
         <div className="max-w-7xl mx-auto px-6">
