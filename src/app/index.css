@@ -1,0 +1,210 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #17B3C8;
+  --color-primary-dark: #0D5C6B;
+  --color-primary-hover: #0EA2B5;
+  --color-teal-navy: #1B3A4A;
+  --color-teal-light: #EBF9FC;
+
+}
+
+:root {
+  --primary-color: #1CA8CB;
+  --title-color: #113D48;
+}
+.font-manrope {
+  font-family: var(--font-manrope);
+}
+
+.font-montez {
+  font-family: var(--font-montez);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* =======================
+   BUTTON STYLES
+   Base Button - No overlap with Tailwind
+======================= */
+.btn-base {
+  position: relative;
+  overflow: hidden;
+  padding: 12px 26px;
+  border-radius: 999px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Text stays above animation */
+.btn-content {
+  position: relative;
+  z-index: 2;
+  transition: color 0.3s ease;
+}
+
+/* Light Button - bg primary, hover title color */
+.btn-light {
+  background: var(--primary-color);
+  color: white;
+}
+
+.btn-light::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 0%;
+  background: var(--title-color);
+  transition: width 0.4s ease;
+  z-index: 1;
+}
+
+.btn-light:hover::before {
+  width: 100%;
+}
+
+.btn-light:hover .btn-content {
+  color: white;
+}
+
+/* Dark Button - bg title color, hover primary color */
+.btn-dark {
+  background: var(--title-color);
+  color: white;
+}
+
+.btn-dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 0%;
+  background: var(--primary-color);
+  transition: width 0.4s ease;
+  z-index: 1;
+}
+
+.btn-dark:hover::before {
+  width: 100%;
+}
+
+.btn-dark:hover .btn-content {
+  color: white;
+}
+/* Transparent Button */
+.btn-transparent {
+  position: relative;
+  overflow: hidden;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  color: white;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-transparent::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 0%;
+  background: white;
+  transition: width 0.4s ease;
+  z-index: 1;
+}
+
+.btn-transparent:hover::before {
+  width: 100%;
+}
+
+.btn-transparent:hover .btn-content {
+  color: var(--title-color, #113D48);
+  position: relative;
+  z-index: 2;
+}
+
+.btn-transparent:hover {
+  border-color: white;
+}
+/* =======================
+   SWIPER PAGINATION
+======================= */
+.swiper-pagination-bullet {
+  background-color: #d1d5db !important;
+  opacity: 1 !important;
+  width: 11px !important;
+  height: 11px !important;
+  border: 2px solid #d1d5db !important;
+  transition: all 0.3s !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #17B3C8 !important;
+  border-color: #17B3C8 !important;
+  width: 28px !important;
+  border-radius: 5px !important;
+}
+
+.hero-dots .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.5) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.hero-dots .swiper-pagination-bullet-active {
+  background: white !important;
+  border-color: white !important;
+}
+
+/* =======================
+   TICKER MARQUEE
+======================= */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* =======================
+   BACKGROUND PATTERN
+======================= */
+.bg-pattern {
+  background-color: #EBF9FC;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%2317B3C8' stroke-width='1.2' opacity='0.12'%3E%3Ccircle cx='20' cy='20' r='8'/%3E%3Cpath d='M16 20h8M20 16v8'/%3E%3Crect x='55' y='10' width='14' height='10' rx='2'/%3E%3Cpath d='M58 10V8h8v2'/%3E%3Ccircle cx='100' cy='25' r='7'/%3E%3Cpath d='M100 18v-4M100 36v-4M93 25h-4M111 25h-4'/%3E%3Cpath d='M10 80 Q20 70 30 80 Q40 90 50 80'/%3E%3Crect x='75' y='75' width='16' height='20' rx='2'/%3E%3Cpath d='M79 75v-3h8v3'/%3E%3Cpath d='M85 88h4l-2-8h-8l-2 8h4'/%3E%3Ccircle cx='20' cy='100' r='6'/%3E%3Cpath d='M17 97l6 6M23 97l-6 6'/%3E%3Cpath d='M90 100 L95 90 L105 90 L110 100 Z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* =======================
+   DESTINATION COVERFLOW
+======================= */
+.dest-swiper .swiper-slide {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.dest-swiper .swiper-slide:not(.swiper-slide-active) {
+  filter: blur(1px) brightness(0.75);
+  transform: scale(0.88);
+}
+
+.dest-swiper .swiper-slide-active {
+  filter: none;
+  transform: scale(1);
+}
