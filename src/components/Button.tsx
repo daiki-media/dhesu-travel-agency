@@ -1,6 +1,6 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
-
+// import { ArrowRight } from "lucide-react";
+import ArrowRight from "@/src/components/icons/ArrowRight";
 type ButtonVariant = "light" | "dark" | "transparent";
 type ButtonSize = "sm" | "md" | "lg";
 
@@ -39,9 +39,9 @@ export default function Button({
 
   // Arrow size based on button size
   const arrowSize = {
-    sm: 14,
-    md: 16,
-    lg: 18,
+    sm: 16,
+    md: 30,
+    lg: 40,
   };
 
   return (

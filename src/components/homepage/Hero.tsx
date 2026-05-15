@@ -3,12 +3,9 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import SearchHero from '@/src/components/homepage2/SearchHero';
+import ArrowUp from "@/src/components/icons/ArrowUp";
+import ArrowDown from "@/src/components/icons/ArrowDown";
 import Button from "../Button"; // Ensure your Button component supports 'rounded-full'
-import {
-  ArrowUp,
-  ArrowDown,
-} from "lucide-react";
-
 const slides = [
   {
     bg: "https://www.holidayidea.com.my/promo/img/frntbck2.jpg",
@@ -84,7 +81,15 @@ export default function Hero() {
               <p className="font-secondary text-white text-3xl md:text-4xl mb-4 drop-shadow-md opacity-90">
                 {slides[current].subtitle}
               </p>
-              
+              <svg width="50" height="50" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path 
+                  d="M30 42V19M30 19C27 24 23 27 18 29M30 19C33 24 37 27 42 29" 
+                  stroke="white" 
+                  strokeWidth="2.5" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round"
+                />
+              </svg>
               {/* Bold Header */}
               <h1 className="font-primary text-6xl md:text-8xl font-bold text-white leading-[1.05] mb-10 tracking-tight">
                 {slides[current].title1}
@@ -113,7 +118,7 @@ export default function Hero() {
           onClick={goPrev}
           className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center hover:bg-primary transition-colors duration-900 ease-in-out mb-4"
         >
-          <ArrowUp size={30} strokeWidth={1} />
+          <ArrowUp />
         </button>
 
         {/* The Vertical Indicator Track */}
@@ -133,7 +138,7 @@ export default function Hero() {
           onClick={goNext}
           className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center hover:bg-primary transition-colors duration-900 ease-in-out mt-4"
         >
-          <ArrowDown size={30} strokeWidth={1} />
+          <ArrowDown />
         </button>
       </div>
        <SearchHero/>
