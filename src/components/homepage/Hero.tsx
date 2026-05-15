@@ -67,8 +67,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40 z-[1]" />
 
       {/* Main Content */}
-      <div className="relative z-10 h-full max-w-7xl mx-auto px-8 flex items-center">
-        <div className="max-w-7xl">
+      <div className="relative z-10 h-full max-w-8xl mx-auto px-8 flex items-center">
+        <div className="max-w-8xl">
           <AnimatePresence mode="wait">
             <motion.div
               key={current}

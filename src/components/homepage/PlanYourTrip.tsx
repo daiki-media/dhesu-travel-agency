@@ -38,7 +38,7 @@ export default function PlanYourTrip() {
 
   return (
     <section className="py-12 sm:py-16 md:py-20 lg:py-24 xl:py-28 bg-white overflow-hidden" ref={ref}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 xl:gap-20 items-center">
           
           {/* Left Image Gallery - Completely responsive layout */}
@@ -53,7 +53,7 @@ export default function PlanYourTrip() {
               {/* Main Image - Full width on mobile */}
               <div className="relative w-full h-[280px] sm:h-[350px] overflow-hidden rounded-2xl shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=600&auto=format&fit=crop"
+                  src="https://www.holidayidea.com.my/upload/gallery/14620.jpg"
                   alt="Mountain hiker"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-700"
@@ -87,9 +87,9 @@ export default function PlanYourTrip() {
 
             {/* Desktop Layout (Original design) */}
             <div className="hidden lg:flex lg:gap-6 h-[520px] items-center">
-              <div className="relative w-[50%] h-full overflow-hidden rounded-t-full rounded-b-[40px] shadow-xl">
+              <div className="relative w-[50%] h-full overflow-hidden rounded-t-full rounded-bl-full shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=600&auto=format&fit=crop"
+                  src="https://www.holidayidea.com.my/upload/gallery/14620.jpg"
                   alt="Mountain hiker"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-700"
@@ -98,7 +98,7 @@ export default function PlanYourTrip() {
                 />
               </div>
               <div className="flex flex-col gap-6 w-[50%]">
-                <div className="relative overflow-hidden rounded-t-full rounded-bl-full aspect-[1.1/1] shadow-lg group">
+                <div className="relative overflow-hidden rounded-t-full rounded-br-full aspect-[1.1/1] shadow-lg group">
                   <Image
                     src="https://images.unsplash.com/photo-1472745433479-4556f22e32c2?q=80&w=500&auto=format&fit=crop"
                     alt="Kayaking"

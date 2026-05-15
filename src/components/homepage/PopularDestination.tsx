@@ -60,7 +60,7 @@ export default function PopularDestination() {
 
   return (
     <section className="py-20 bg-white overflow-hidden" ref={ref}>
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-8xl mx-auto px-6">
         {/* Heading */}
         <motion.div
           className="text-center mb-14"
