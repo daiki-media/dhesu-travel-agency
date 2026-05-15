@@ -9,6 +9,7 @@ import {
   Mail,
   MapPin,
 } from "lucide-react";
+import { InstagramIcon, YouTubeIcon, XIcon, FacebookIcon } from "@/src/components/icons/SocialIcons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -24,9 +25,10 @@ const instagramPhotos = [
 ];
 
 const socials = [
-  { icon: <MessageCircle size={16} />, href: "#" },
-  { icon: <MessageCircle size={16} />, href: "#" },
-  { icon: <MessageCircle size={16} />, href: "#" },
+  { icon: <InstagramIcon size={16} />, href: "#" },
+  { icon: <FacebookIcon size={16} />, href: "#" },
+  { icon: <XIcon size={16} />, href: "#" },
+  { icon: <YouTubeIcon size={16} />, href: "#" },
 ];
 
 export default function Footer() {
