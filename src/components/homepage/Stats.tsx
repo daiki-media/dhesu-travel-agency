@@ -74,7 +74,7 @@ export default function Stats() {
                 />
 
                 {/* Inner filled circle */}
-                <div className="w-36 h-36 rounded-full bg-teal-light flex flex-col items-center justify-center shadow-inner">
+                <div className="w-36 h-36 rounded-full bg-primary-dark/10 flex flex-col items-center justify-center shadow-inner">
                   <div className="text-4xl font-black text-teal-navy">
                     <Counter end={stat.value} suffix={stat.suffix} start={inView} />
                   </div>

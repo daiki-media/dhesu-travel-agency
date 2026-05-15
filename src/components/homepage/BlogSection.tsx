@@ -34,7 +34,7 @@ export default function BlogSection() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section className="py-20 bg-teal-light" ref={ref}>
+    <section className="py-20 bg-primary-dark/10" ref={ref}>
       <div className="max-w-7xl mx-auto px-6">
         {/* Header row */}
         <motion.div
@@ -44,7 +44,7 @@ export default function BlogSection() {
           transition={{ duration: 0.6 }}
         >
           <div>
-            <p className="font-dancing text-primary-dark text-2xl md:text-3xl mb-2">
+            <p className="font-secondary text-primary-dark text-2xl md:text-3xl mb-2">
               About Us Restaurant
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-teal-navy">

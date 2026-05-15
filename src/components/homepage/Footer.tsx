@@ -42,7 +42,7 @@ export default function Footer() {
             <div>
                   <Link href="/">
                     <Image
-                      src="/images/dhesu-logo2.png"
+                      src="/images/dhesu_logos.png"
                       alt="dhesu logo"
                       height={100}
                       width={150}
@@ -59,7 +59,7 @@ export default function Footer() {
                   <a
                     key={i}
                     href={s.href}
-                    className="w-9 h-9 rounded-full border border-primary/40 text-primary flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all duration-300"
+                    className="w-9 h-9 rounded-full border border-primary/40 text-primary flex items-center justify-center hover:bg-primary-dark hover:text-white hover:border-primary transition-all duration-300"
                   >
                     {s.icon}
                   </a>
@@ -75,7 +75,7 @@ export default function Footer() {
                   <li key={link}>
                     <Link
                       href="#"
-                      className="flex items-center gap-2 text-gray-500 hover:text-primary text-sm transition-colors duration-200 group"
+                      className="flex items-center gap-2 text-gray-500 hover:text-primary-dark text-sm transition-colors duration-200 group"
                     >
                       <ChevronRight
                         size={9}
@@ -93,8 +93,8 @@ export default function Footer() {
               <h4 className="font-bold text-teal-navy text-lg mb-5">Address</h4>
               <div className="flex flex-col gap-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-teal-light flex items-center justify-center shrink-0">
-                    <Phone size={13} className="text-primary" />
+                  <div className="w-8 h-8 rounded-full bg-primary-dark/10 flex items-center justify-center shrink-0">
+                    <Phone size={13} className="text-primary-dark" />
                   </div>
                   <div className="text-gray-500 text-sm leading-relaxed">
                     <p>+01 234 567 890</p>
@@ -102,8 +102,8 @@ export default function Footer() {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-teal-light flex items-center justify-center shrink-0">
-                    <  Send size={13} className="text-primary" />
+                  <div className="w-8 h-8 rounded-full bg-primary-dark/10 flex items-center justify-center shrink-0">
+                    <  Send size={13} className="text-primary-dark" />
                   </div>
                   <div className="text-gray-500 text-sm leading-relaxed">
                     <p>mailinfo00@tourm.com</p>
@@ -111,8 +111,8 @@ export default function Footer() {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-teal-light flex items-center justify-center shrink-0">
-                    <MapPin size={14} className="text-primary" />
+                  <div className="w-8 h-8 rounded-full bg-primary-dark/10 flex items-center justify-center shrink-0">
+                    <MapPin size={14} className="text-primary-dark" />
                   </div>
                   <p className="text-gray-500 text-sm leading-relaxed">
                     789 Inner Lane, Holy park,

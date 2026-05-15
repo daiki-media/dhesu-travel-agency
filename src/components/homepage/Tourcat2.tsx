@@ -286,8 +286,8 @@ export default function TourCategories() {
                     width:        active ? "clamp(24px, 6vw, 32px)" : "clamp(8px, 2vw, 10px)",
                     height:       "clamp(8px, 2vw, 10px)",
                     borderRadius: 999,
-                    background:   active ? "#06b6d4" : "transparent",
-                    border:       `1.5px solid ${active ? "#06b6d4" : "#b0d4e0"}`,
+                    background:   active ? "#990000" : "transparent",
+                    border:       `1.5px solid ${active ? "#990000" : "#990000"}`,
                     padding:      0,
                     cursor:       "pointer",
                   }}

@@ -78,12 +78,12 @@ export default function Navbar() {
     >
       <div className="flex md:items-center">
         {/* Logo block with diagonal clip */}
-        <div className="bg-primary-dark px-5 py-4 h-full md:pl-[120px] md:pr-[50]"
+        <div className=" px-5 py-4 h-full md:pl-[120px] md:pr-[50]"
           style={{ clipPath: "polygon(0 0, 100% 0, 88% 100%, 0 100%)"}} >
 
             <Link href="/">
               <Image
-                src="/images/dhesu-logo2.png"
+                src="/images/dhesu_logos.png"
                 alt="dhesu logo"
                 height={100}
                 width={150}

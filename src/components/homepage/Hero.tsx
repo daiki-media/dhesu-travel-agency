@@ -107,7 +107,7 @@ export default function Hero() {
       <div className="absolute right-4 md:right-12 top-1/2 -translate-y-1/2 z-20 flex flex-col items-center">
         <button
           onClick={goPrev}
-          className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center hover:bg-primary transition-colors duration-900 ease-in-out mb-4"
+          className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center hover:bg-primary-dark transition-colors duration-900 ease-in-out mb-4"
         >
           <ArrowUp />
         </button>
@@ -119,7 +119,7 @@ export default function Hero() {
                 <div 
                     key={i} 
                     className={`relative z-10 w-2 h-2 rounded-full transition-all duration-500 ${
-                        i === current ? "bg-[#1EB1D1] scale-150 shadow-[0_0_10px_#1EB1D1]" : "bg-white/60"
+                        i === current ? "bg-primary-dark scale-150 shadow-[0_0_10px_#1EB1D1]" : "bg-white/60"
                     }`}
                 />
             ))}
@@ -127,7 +127,7 @@ export default function Hero() {
 
         <button
           onClick={goNext}
-          className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center hover:bg-primary transition-colors duration-900 ease-in-out mt-4"
+          className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center hover:bg-primary-dark transition-colors duration-900 ease-in-out mt-4"
         >
           <ArrowDown />
         </button>

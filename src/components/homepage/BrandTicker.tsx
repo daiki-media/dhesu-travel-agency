@@ -61,7 +61,7 @@ const brands = [
 
 function BrandCard({ brand }: { brand: (typeof brands)[0] }) {
   return (
-    <div className="flex items-center justify-center mx-8 shrink-0 w-44 h-28 text-primary select-none">
+    <div className="flex items-center justify-center mx-8 shrink-0 w-44 h-28 text-primary-dark select-none">
       {brand.type === "script" && (
         <div className="text-center border border-primary/30 rounded px-3 py-2 w-full">
           <p className="text-[7px] tracking-[3px] uppercase opacity-70">{brand.top}</p>
@@ -80,7 +80,7 @@ function BrandCard({ brand }: { brand: (typeof brands)[0] }) {
           <p className="text-[7px] tracking-[2px] uppercase opacity-60 mb-1">{brand.top}</p>
           <div className="relative flex items-center justify-center">
             {/* Mountain SVG */}
-            <svg width="52" height="38" viewBox="0 0 52 38" fill="none" className="text-primary">
+            <svg width="52" height="38" viewBox="0 0 52 38" fill="none" className="text-primary-dark">
               <path d="M8 36 L26 6 L44 36 Z" stroke="currentColor" strokeWidth="1.5" fill="currentColor" fillOpacity="0.12" />
               <path d="M0 36 L18 10 L36 36 Z" stroke="currentColor" strokeWidth="1.5" fill="currentColor" fillOpacity="0.08" />
               <path d="M22 16 L26 10 L30 16" stroke="currentColor" strokeWidth="1" fill="currentColor" />

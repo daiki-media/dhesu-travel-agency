@@ -11,12 +11,12 @@ import {
 
 const features = [
   {
-    icon: <BadgeDollarSign size={24} className="text-white" />,
+    icon: <BadgeDollarSign size={24} className="text-white transition-transform duration-300 group-hover:rotate-360" />,
     title: "Exclusive Trip",
     desc: "There are many variations of passages of available but the majority.",
   },
   {
-    icon: <Users size={24} className="text-white" />,
+    icon: <Users size={24} className="text-white transition-transform duration-300 group-hover:rotate-360" />,
     title: "Professional Guide",
     desc: "There are many variations of passages of available but the majority.",
   },
@@ -151,7 +151,7 @@ export default function PlanYourTrip() {
                   animate={inView ? { y: 0, opacity: 1 } : {}}
                   transition={{ duration: 0.5, delay: 0.3 + (idx * 0.1) }}
                 >
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full bg-primary flex items-center justify-center shrink-0 shadow-md group-hover:bg-primary-dark transition-colors duration-300">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full bg-primary-dark flex items-center justify-center shrink-0 shadow-md group-hover:bg-primary transition-colors duration-300 group">
                     {f.icon}
                   </div>
                   <div className="flex-1">
