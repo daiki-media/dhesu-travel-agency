@@ -1,14 +1,18 @@
 "use client";
-import { useRef } from "react";
-import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay, EffectCoverflow } from "swiper/modules";
-import { motion, useInView } from "framer-motion";
-import "swiper/css/effect-coverflow";
-import "swiper/css";
-import "swiper/css/pagination";
 
-const categories = [
+import { useState, useEffect, useCallback, useRef } from "react";
+import Image from "next/image";
+import { motion, useInView } from "framer-motion";
+
+// ─── Types ───────────────────────────────────────────────────────────────
+interface Category {
+  name: string;
+  link: string;
+  image: string;
+}
+
+// ─── Data ────────────────────────────────────────────────────────────────
+const categories: Category[] = [
   {
     name: "Hiking",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Hiking",
@@ -61,145 +65,247 @@ const categories = [
   },
 ];
 
+// ─── Constants ───────────────────────────────────────────────────────────
+const VISIBLE = 5;
+const CARD_W = 380;
+const CARD_H = 320;
+const RADIUS = 1400;
+const SLOT_ANGLES = [-25, -12.5, 0, 12.5, 25];
+const ROT_FACTOR = 1;
+const AUTO_DELAY = 4000;
 
+// ─── Helpers ─────────────────────────────────────────────────────────────
+const mod = (n: number, m: number) => ((n % m) + m) % m;
+
+function getSlotPos(slotAngle: number, stageW: number) {
+  const rad = (slotAngle * Math.PI) / 180;
+  const cx = stageW / 2;
+  const cy = RADIUS + 60;
+
+  return {
+    x: cx + RADIUS * Math.sin(rad) - CARD_W / 2,
+    y: cy - RADIUS * Math.cos(rad),
+    rot: slotAngle * ROT_FACTOR,
+  };
+}
+
+// ─── Component ───────────────────────────────────────────────────────────
 export default function TourCategories() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-80px" });
+  const sectionRef = useRef<HTMLElement>(null);
+  const stageRef = useRef<HTMLDivElement>(null);
+  const autoRef = useRef<NodeJS.Timeout | null>(null);
+  const animatingRef = useRef(false);
+
+  const inView = useInView(sectionRef, {
+    once: true,
+    margin: "-80px",
+  });
+
+  const total = categories.length;
+
+  const [centerIdx, setCenterIdx] = useState(2);
+  const [stageW, setStageW] = useState(680);
+
+  // Measure width
+  useEffect(() => {
+    const measure = () => {
+      if (stageRef.current) {
+        setStageW(stageRef.current.offsetWidth);
+      }
+    };
+
+    measure();
+
+    window.addEventListener("resize", measure);
+
+    return () => window.removeEventListener("resize", measure);
+  }, []);
+
+  // Shift slides
+  const shift = useCallback(
+    (delta: number) => {
+      if (animatingRef.current) return;
+
+      animatingRef.current = true;
+
+      setCenterIdx((prev) => mod(prev + delta, total));
+
+      setTimeout(() => {
+        animatingRef.current = false;
+      }, 650);
+    },
+    [total]
+  );
+
+  // Go to slide
+  const goTo = useCallback(
+    (idx: number) => {
+      if (animatingRef.current || idx === centerIdx) return;
+
+      animatingRef.current = true;
+
+      setCenterIdx(idx);
+
+      setTimeout(() => {
+        animatingRef.current = false;
+      }, 650);
+    },
+    [centerIdx]
+  );
+
+  // Auto play
+  const stopAuto = useCallback(() => {
+    if (autoRef.current) clearInterval(autoRef.current);
+  }, []);
+
+  const startAuto = useCallback(() => {
+    stopAuto();
+
+    autoRef.current = setInterval(() => {
+      shift(1);
+    }, AUTO_DELAY);
+  }, [shift, stopAuto]);
+
+  useEffect(() => {
+    startAuto();
+
+    return stopAuto;
+  }, [startAuto, stopAuto]);
+
+  // Keyboard navigation
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") shift(-1);
+      if (e.key === "ArrowRight") shift(1);
+    };
+
+    window.addEventListener("keydown", handler);
+
+    return () => window.removeEventListener("keydown", handler);
+  }, [shift]);
+
+  // Visible slots
+  const slots = Array.from({ length: VISIBLE }, (_, slot) => {
+    const slotOffset = slot - Math.floor(VISIBLE / 2);
+    const catIdx = mod(centerIdx + slotOffset, total);
+
+    return {
+      slot,
+      slotOffset,
+      catIdx,
+      pos: getSlotPos(SLOT_ANGLES[slot], stageW),
+    };
+  });
+
+  const stageH =
+    Math.max(...slots.map(({ pos }) => pos.y)) + CARD_H + 20;
 
   return (
-    <section className="py-50 bg-pattern " ref={ref}>
-      <div className=" px-6">
+    <section ref={sectionRef} className="pt-100 lg:pt-50 pb-20 bg-pattern overflow-hidden">
+      <div
+        onMouseEnter={stopAuto}
+        onMouseLeave={startAuto}
+      >
         {/* Heading */}
         <motion.div
-          className="text-center mb-12"
-          initial={{ y: 30, opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 1 } : {}}
-          transition={{ duration: 0.6 }}
+          initial={{ opacity: 0, y: 30 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5 }}
+          className="mb-10 text-center lg:mb-14"
         >
-          <p className="font-secondary text-primary-dark text-2xl md:text-3xl mb-2">
+          <p className="font-secondary text-primary-dark mb-2 text-2xl">
             Wonderful Place For You
           </p>
-          <h2 className="font-primary text-4xl md:text-5xl font-bold text-teal-navy">
+
+          <h2 className="font-primary text-teal-navy text-4xl font-bold md:text-5xl lg:text-6xl">
             Tour Categories
           </h2>
         </motion.div>
 
-        {/* Swiper */}
+        {/* Stage */}
         <motion.div
-          initial={{ y: 40, opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 1 } : {}}
+          ref={stageRef}
+          initial={{ opacity: 0, y: 40 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
+          style={{ height: stageH }}
+          className="relative w-full"
         >
-          <Swiper
-              modules={[Pagination, Autoplay, EffectCoverflow]}
-              effect="coverflow"
-              grabCursor={true}
-              centeredSlides={true}
-              loop={true}
-              speed={1000}
-              slidesPerView={"auto"}
-              
-              coverflowEffect={{
-                rotate: 0,
-                stretch: -40,
-                depth: 180,
-                modifier: 1.8,
-                scale: 0.9,
-                slideShadows: false,
-              }}
+          {slots.map(({ slot, slotOffset, catIdx, pos }) => {
+            const cat = categories[catIdx];
 
-              autoplay={{
-                delay: 3500,
-                disableOnInteraction: false,
-              }}
-
-              pagination={{
-                clickable: true,
-              }}
-
-              breakpoints={{
-                320: {
-                  spaceBetween: -30,
-                },
-                768: {
-                  spaceBetween: -60,
-                },
-                1024: {
-                  spaceBetween: -90,
-                },
-              }}
-
-              className="travel-slider"
-            >
-            {categories.map((cat, index) => (
-              <SwiperSlide
-                className="!w-[240px] md:!w-[280px] lg:!w-[320px]"
+            return (
+              <div
+                key={slot}
+                role="button"
+                tabIndex={0}
+                aria-label={cat.name}
+                onClick={() => {
+                  if (slotOffset !== 0) {
+                    goTo(catIdx);
+                  } else {
+                    window.open(cat.link, "_blank");
+                  }
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    if (slotOffset !== 0) {
+                      goTo(catIdx);
+                    } else {
+                      window.open(cat.link, "_blank");
+                    }
+                  }
+                }}
+                style={{
+                  left: pos.x,
+                  top: pos.y,
+                  transform: `rotate(${pos.rot}deg)`,
+                  zIndex: VISIBLE - Math.abs(slotOffset),
+                }}
+                className="absolute flex w-[380px] cursor-pointer flex-col items-center transition-all duration-700 ease-in-out"
               >
-                <div className="group text-center">
-                  
-                  <div className="relative overflow-hidden rounded-[2rem] aspect-[0.78]">
-                    <Image
-                      src={cat.image}
-                      alt={cat.name}
-                      fill
-                      className="object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
-                  </div>
+                {/* Image */}
+                <div className="group relative h-[320px] w-[280px] overflow-hidden rounded-[22px] shadow-xl transition-all duration-300 hover:shadow-2xl">
+                  <Image
+                    src={cat.image}
+                    alt={cat.name}
+                    fill
+                    sizes="280px"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
 
-                  <h3 className="mt-6 font-primary text-3xl font-extrabold text-[#0d2b3e]">
+                {/* Content */}
+                <div className="mt-2 text-center">
+                  <h3 className="font-primary text-primary-dark text-sm font-bold">
                     {cat.name}
                   </h3>
 
-                  <p className="mt-2 text-gray-500">
+                  <p className="hover:text-primary-dark mt-1 text-xs text-black transition-colors sm:text-sm">
                     See More
                   </p>
-
                 </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+              </div>
+            );
+          })}
         </motion.div>
+
+        {/* Dots */}
+        <div className="relative z-10 flex justify-center gap-3">
+          {categories.map((cat, i) => (
+            <button
+              key={cat.name}
+              aria-label={`Go to ${cat.name}`}
+              onClick={() => goTo(i)}
+              className={`h-4 border border-[#990000] transition-all duration-300 ${
+                i === centerIdx
+                  ? "w-8 rounded-full bg-[#990000]"
+                  : "w-4 rounded-full bg-transparent"
+              }`}
+            />
+          ))}
+        </div>
       </div>
-        <style jsx global>{`
-          .travel-slider {
-            padding-top: 40px;
-            padding-bottom: 80px;
-          }
-
-          .travel-slider .swiper-slide {
-            transition: all 0.7s ease;
-            opacity: 0.45;
-            transform: scale(0.82);
-          }
-
-          .travel-slider .swiper-slide-active {
-            opacity: 1;
-            transform: scale(1);
-            z-index: 20;
-          }
-
-          .travel-slider .swiper-slide-prev {
-            transform: translateY(30px) scale(0.88);
-          }
-
-          .travel-slider .swiper-slide-next {
-            transform: translateY(30px) scale(0.88);
-          }
-
-          .travel-slider .swiper-pagination-bullet {
-            width: 10px;
-            height: 10px;
-            background: #cbd5e1;
-            opacity: 1;
-            transition: all 0.4s ease;
-          }
-
-          .travel-slider .swiper-pagination-bullet-active {
-            width: 34px;
-            border-radius: 999px;
-            background: #06b6d4;
-          }
-        `}</style>
     </section>
   );
 }

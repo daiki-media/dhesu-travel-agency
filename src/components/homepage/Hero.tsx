@@ -41,7 +41,7 @@ export default function Hero() {
   const goPrev = () => setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
 
   return (
-    <section className="relative h-[700px] bg-slate-900">
+    <section className="relative h-[700px] bg-slate-900 overflowX-hidden">
       {/* Background slides */}
       <AnimatePresence initial={false}>
         <motion.div

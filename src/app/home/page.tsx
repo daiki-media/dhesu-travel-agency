@@ -19,11 +19,11 @@ export default function Home() {
       <TopBar />
       <Navbar />
       <Hero />
-      {/* <TourCategories /> */}
-      <Tourcat2 />
+      <TourCategories />
       <PopularDestination />
       <PlanYourTrip />
       <PopularTours />
+      <Tourcat2 />
       <RecentGallery />
       <Stats />
       <BrandTicker />
