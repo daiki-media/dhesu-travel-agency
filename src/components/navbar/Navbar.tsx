@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Button from "../Button";
+import Button from "@/src/components/Button";
 import Link from "next/link";
 import {
   ChevronDown,

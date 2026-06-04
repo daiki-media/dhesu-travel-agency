@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import SearchHero from '@/src/components/homepage2/SearchHero';
+import SearchHero from '@/src/components/homepage/SearchHero';
 import ArrowUp from "@/src/components/icons/ArrowUp";
 import ArrowDown from "@/src/components/icons/ArrowDown";
 import Button from "../Button"; // Ensure your Button component supports 'rounded-full'

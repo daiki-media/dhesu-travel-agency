@@ -237,8 +237,11 @@ export default function TourCategories() {
             return (
               <motion.div key={slot} role="button" tabIndex={0} 
                 onClick={() => { if (slotOffset !== 0) goTo(catIdx); else window.open(cat.link, "_blank"); }} 
-                onKeyDown={(e) => { if (e.key === "Enter") { if (slotOffset !== 0) goTo(catIdx); else window.open(cat.link, "_blank"); } }} animate={{ left: pos.x, top: pos.y, rotate: pos.rot, scale: slotOffset === 0 ? 1 : 0.88, opacity: slotOffset === 0 ? 1 : 0.6 }} transition={{ type: "spring", stiffness: 120, damping: 20 }} style={{ zIndex: VISIBLE - Math.abs(slotOffset) }} className="absolute flex w-[380px] cursor-pointer flex-col items-center">
-                {/* Image */}
+                onKeyDown={(e) => { if (e.key === "Enter") { if (slotOffset !== 0) goTo(catIdx); else window.open(cat.link, "_blank"); } }} 
+                animate={{ left: pos.x, top: pos.y, rotate: pos.rot, scale: slotOffset === 0 ? 1 : 0.88, opacity: slotOffset === 0 ? 1 : 0.6 }} 
+                transition={{ type: "spring", stiffness: 120, damping: 20 }} style={{ zIndex: VISIBLE - Math.abs(slotOffset) }} 
+                className="absolute flex w-[380px] cursor-pointer flex-col items-center">
+                  
                 <div className="group relative h-[320px] w-[280px] overflow-hidden rounded-[22px] shadow-xl transition-all duration-300 hover:shadow-2xl">
                   <Image
                     src={cat.image}
