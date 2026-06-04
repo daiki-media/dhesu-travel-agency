@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "name": "Nepal",
+    "title": "Nepal Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Trek the Himalayas, explore Kathmandu and discover Pokhara. Nepal tour packages from Malaysia with Dhesu. Fully guided, affordable. Since 1988.",
+    "slug": "nepal",
+    "targetKeyword": "Nepal tour package from Malaysia"
+  },
+  "hero": {
+    "badge": "Eight of the World's Ten Highest Peaks",
+    "headline": "It Makes You Feel Small",
+    "headlineAccent": "in the Best Way.",
+    "body": "Stand in the Kathmandu Valley on a clear morning and look north. It is not a mountain range. It is a white wall at the top of the world, so large and so close your brain argues about whether it is real.",
+    "bgImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1920&auto=format&fit=crop",
+    "stats": [
+      { "value": "8 of 10", "label": "Highest Peaks on Earth" },
+      { "value": "35+", "label": "Years of Travel Expertise" },
+      { "value": "1988", "label": "Trusted Since" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Nepal",
+    "heading": "Where the Spiritual, Physical and Natural All Meet",
+    "subheading": "Nepal draws adventurers, obviously. But it also draws people who simply want to be somewhere that feels genuinely different from everywhere else they have been.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "Kathmandu at the World's Crossroads",
+        "body": "Joyfully chaotic streets that open suddenly into courtyards with ancient temples. Medieval Durbar Square, the sacred cremation ghats of Pashupatinath, the watching eyes of Boudhanath Stupa, and the 365 steps up to Swayambhunath, the Monkey Temple.",
+        "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&auto=format&fit=crop",
+        "places": ["Durbar Square", "Boudhanath Stupa", "Swayambhunath"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Pokhara and the Sarangkot Sunrise",
+        "body": "On a clear day Phewa Lake holds the Annapurna range upside down in still water. Drive up Sarangkot in the dark, and watch the peaks catch first light and burn gold while the valley sleeps. One of the best ten minutes in travel.",
+        "image": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&auto=format&fit=crop",
+        "places": ["Phewa Lake", "Sarangkot Sunrise", "Annapurna Range"]
+      },
+      {
+        "icon": "wave",
+        "title": "Trekking for Every Level",
+        "body": "You do not need to be a mountaineer. A three-day walk into the Annapurna foothills means teahouses, dal bhat and views from magazines. For the experienced, Annapurna Base Camp takes 7 to 12 days and Everest Base Camp 12 to 14.",
+        "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop",
+        "places": ["Annapurna Foothills", "Annapurna Base Camp", "Everest Base Camp"]
+      },
+      {
+        "icon": "food",
+        "title": "Chitwan: Rhinos in the Jungle",
+        "body": "In the southern lowlands the mountains vanish into subtropical jungle and elephant grass. Chitwan protects the greater one-horned rhino and is home to Bengal tigers, gharials and 500+ bird species. Most visitors never know it is there.",
+        "image": "https://images.unsplash.com/photo-1571401835393-8c5f35328320?w=800&auto=format&fit=crop",
+        "places": ["One-Horned Rhino", "Rapti River Canoe", "Tharu Villages"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Nepal Regions",
+    "heading": "Where to Go and Why",
+    "subheading": "Most Nepal trips link the Kathmandu Valley, the Pokhara lakes and a Himalayan viewpoint, with Chitwan as a wild lowland add-on.",
+    "areas": [
+      {
+        "name": "Kathmandu",
+        "tag": "Temples & Culture",
+        "tagColor": "orange",
+        "description": "The historic capital, packed with UNESCO temples, stupas and ancient squares. Joyfully chaotic, and every Nepal trip starts here.",
+        "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=800&auto=format&fit=crop",
+        "vibe": "Historic"
+      },
+      {
+        "name": "Pokhara",
+        "tag": "Lakes & Peaks",
+        "tagColor": "blue",
+        "description": "Serene lakeside town beneath the Annapurna range. Phewa Lake boating, Sarangkot sunrises and the gateway to the great treks.",
+        "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop",
+        "vibe": "Relaxed"
+      },
+      {
+        "name": "Nagarkot",
+        "tag": "Sunrise Views",
+        "tagColor": "purple",
+        "description": "A hill station at 2,200 metres with a 200-kilometre arc of the Himalaya, Everest included, from the viewing tower. Stay overnight for the sunrise.",
+        "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&auto=format&fit=crop",
+        "vibe": "Scenic"
+      },
+      {
+        "name": "Chitwan",
+        "tag": "Jungle Safari",
+        "tagColor": "green",
+        "description": "Subtropical lowland national park. Jeep safaris, Rapti River canoe trips and Tharu villages, a complete change of pace from the peaks.",
+        "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop",
+        "vibe": "Wild"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit Nepal from Malaysia",
+    "body": "Clear mountain views depend heavily on season, so timing matters more in Nepal than almost anywhere. Kathmandu and Chitwan can be visited year-round.",
+    "seasons": [
+      {
+        "name": "Autumn",
+        "months": "October to December",
+        "badge": "Most Popular",
+        "badgeColor": "red",
+        "description": "The clearest air of the year after the monsoon, with crisp skies and the best Himalayan views. Prime trekking and sightseeing season.",
+        "icon": "sun"
+      },
+      {
+        "name": "Spring",
+        "months": "March to May",
+        "badge": "Rhododendron Blooms",
+        "badgeColor": "red",
+        "description": "Clear skies and hillsides covered in rhododendron blooms. The second prime window for trekking and mountain views.",
+        "icon": "sun"
+      },
+      {
+        "name": "Monsoon Season",
+        "months": "June to September",
+        "badge": "Culture & Chitwan",
+        "badgeColor": "blue",
+        "description": "Mountains are often clouded and trekking is difficult, but Kathmandu's culture and the Chitwan jungle can still be enjoyed.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days Do You Actually Need?",
+    "options": [
+      {
+        "days": "4 Days",
+        "label": "Kathmandu Valley",
+        "description": "Enough for Durbar Square, Pashupatinath, Boudhanath and Swayambhunath, plus a Nagarkot sunrise."
+      },
+      {
+        "days": "6-8 Days",
+        "label": "Sweet Spot",
+        "description": "The classic Kathmandu and Pokhara combination, or the full circuit adding Nagarkot and Chitwan.",
+        "recommended": true
+      },
+      {
+        "days": "14 Days",
+        "label": "Everest Base Camp",
+        "description": "A fully guided high-altitude trek with a proper acclimatisation schedule, within reach of reasonably fit travellers."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Nepal Packages for Every Traveller",
+    "subheading": "We design trekking packages across the full range, from easy foothills day walks to full expedition-style high-altitude treks. Visa documentation assistance and airport transfers included.",
+    "ctaNote": "Private and group packages available on request.",
+    "items": [
+      {
+        "id": "nepal-kathmandu",
+        "slug": "kathmandu",
+        "name": "Kathmandu Highlights",
+        "duration": "From 4D",
+        "price": "From RM1,388",
+        "priceNote": "per person",
+        "tag": "Cultural",
+        "tagColor": "orange",
+        "highlights": ["Durbar Square", "Pashupatinath Temple", "Boudhanath Stupa", "Swayambhunath"],
+        "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "nepal-classic",
+        "slug": "kathmandu-pokhara",
+        "name": "Kathmandu & Pokhara",
+        "duration": "From 6D",
+        "price": "From RM1,888",
+        "priceNote": "per person",
+        "tag": "Most Popular",
+        "tagColor": "red",
+        "highlights": ["Kathmandu Temples", "Phewa Lake Pokhara", "Sarangkot Sunrise", "Annapurna Views"],
+        "image": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&auto=format&fit=crop",
+        "popular": true
+      },
+      {
+        "id": "nepal-circuit",
+        "slug": "grand-nepal",
+        "name": "Full Nepal Circuit",
+        "duration": "From 8D",
+        "price": "From RM2,488",
+        "priceNote": "per person",
+        "tag": "Complete",
+        "tagColor": "teal",
+        "highlights": ["Kathmandu & Pokhara", "Nagarkot Sunrise", "Chitwan Safari", "Himalayan Views"],
+        "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "nepal-himalayas",
+        "slug": "himalayas",
+        "name": "Himalaya Trekking",
+        "duration": "Flexible",
+        "price": "On Request",
+        "priceNote": "per person",
+        "tag": "Trekking",
+        "tagColor": "blue",
+        "highlights": ["Annapurna Foothills", "Teahouse Trails", "Multi-Day Treks", "Guided & Permitted"],
+        "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "nepal-everest-base-camp",
+        "slug": "everest-base-camp",
+        "name": "Everest Base Camp Trek",
+        "duration": "14D13N",
+        "price": "On Request",
+        "priceNote": "per person",
+        "tag": "Expedition",
+        "tagColor": "purple",
+        "highlights": ["EBC at 5,364m", "Acclimatisation Schedule", "Fully Guided", "Teahouse Lodging"],
+        "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "nepal-chitwan",
+        "slug": "chitwan-national-park",
+        "name": "Chitwan Jungle Safari",
+        "duration": "From 3D",
+        "price": "From RM988",
+        "priceNote": "per person",
+        "tag": "Wildlife",
+        "tagColor": "green",
+        "highlights": ["Jeep Safari", "One-Horned Rhino", "Rapti River Canoe", "Tharu Village Visit"],
+        "image": "https://images.unsplash.com/photo-1571401835393-8c5f35328320?w=800&auto=format&fit=crop",
+        "popular": false
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Nepal Trip Through Dhesu",
+    "body": "Nepal is not a destination where you want to leave things to chance. The mountain weather changes, flights to Pokhara and Lukla are sometimes delayed, and the trekking logistics need people who know what they are doing. The right preparation turns a good trip into an extraordinary one. We provide the preparation.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed and registered. We assist with visa documentation as part of every Nepal package."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "description": "35+ years arranging Himalayan journeys and bringing travellers home with the trip of a lifetime."
+      },
+      {
+        "icon": "map",
+        "title": "Guides Who Know the Mountains",
+        "description": "Not just the trail. Plus permits, teahouse bookings and the right pace and acclimatisation for the altitude."
+      },
+      {
+        "icon": "tag",
+        "title": "The Right Rooms & Season",
+        "description": "Kathmandu hotels with genuine rooftop Boudhanath views, and the right window for clear peaks."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Nepal Trip",
+    "subheading": "The mountains are waiting. Tell us when you want to go.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=1920&auto=format&fit=crop"
+  }
+}

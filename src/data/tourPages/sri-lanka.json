@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "name": "Sri Lanka",
+    "title": "Sri Lanka Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Discover Sri Lanka's ancient cities, hill country tea estates and pristine beaches. Affordable packages from Malaysia. Dhesu Travel, trusted since 1988.",
+    "slug": "sri-lanka",
+    "targetKeyword": "Sri Lanka tour package from Malaysia"
+  },
+  "hero": {
+    "badge": "Small Island, Enormous Country",
+    "headline": "It Looks Small.",
+    "headlineAccent": "It Is Anything But.",
+    "body": "Ancient capitals older than Rome, hill country so green the air feels medicinal, beaches on three coasts, leopards, elephants and blue whales. And Sri Lanka does it all quietly, without the crowds.",
+    "bgImage": "https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?w=1920&auto=format&fit=crop",
+    "stats": [
+      { "value": "2,500", "label": "Years of History to Explore" },
+      { "value": "35+", "label": "Years of Travel Expertise" },
+      { "value": "1988", "label": "Trusted Since" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Sri Lanka",
+    "heading": "More Packed Into One Small Island Than Anywhere",
+    "subheading": "You can still stand before a 1,500-year-old cave painting with almost no one else around. That is increasingly rare in Asia.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "Sigiriya and the Ancient Cities",
+        "body": "A single rock rises 200 metres from the jungle, topped by a 5th-century palace. You climb past frescoes of celestial maidens painted onto the sheer cliff to views over the forest canopy in every direction. Photographs cannot prepare you for it.",
+        "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=800&auto=format&fit=crop",
+        "places": ["Sigiriya Rock", "Dambulla Caves", "Polonnaruwa"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Hill Country, Tea and Slow Trains",
+        "body": "The Kandy to Ella train is rated one of Asia's most scenic rail journeys, an old blue-and-cream train drifting through tea slopes and cloud-filled valleys. Nuwara Eliya at 1,900 metres feels oddly English and distinctly Sri Lankan at once.",
+        "image": "https://images.unsplash.com/photo-1588258219511-64eb629cb833?w=800&auto=format&fit=crop",
+        "places": ["Kandy to Ella Train", "Nine Arch Bridge", "Nuwara Eliya"]
+      },
+      {
+        "icon": "wave",
+        "title": "Three Coasts and Blue Whales",
+        "body": "Beaches on the west, south and east coasts, each at its best at a different time of year. Off Mirissa, blue whales pass between November and April, and a morning that ends with one surfacing near your boat is a great wildlife experience.",
+        "image": "https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?w=800&auto=format&fit=crop",
+        "places": ["Mirissa Whales", "Unawatuna", "Arugam Bay"]
+      },
+      {
+        "icon": "food",
+        "title": "Yala: The Leopard Capital",
+        "body": "Sri Lanka has the highest density of leopards on earth, and Yala is where most of them live. A morning game drive might bring leopards in the trees, elephants in the bush, crocodiles at the water and over 200 bird species.",
+        "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?w=800&auto=format&fit=crop",
+        "places": ["Yala National Park", "Leopard Safari", "Elephants & Birds"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Sri Lanka Regions",
+    "heading": "Where to Go and Why",
+    "subheading": "Sri Lanka is compact, so a single loop can take you from ancient cities to tea hills to safari to the sea.",
+    "areas": [
+      {
+        "name": "Cultural Triangle",
+        "tag": "Ancient Cities",
+        "tagColor": "orange",
+        "description": "Sigiriya, Dambulla and Polonnaruwa. Rock fortresses, cave temples and ruined royal capitals that were powerful when Rome was still young.",
+        "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=800&auto=format&fit=crop",
+        "vibe": "Historic"
+      },
+      {
+        "name": "Kandy",
+        "tag": "Last Royal Capital",
+        "tagColor": "green",
+        "description": "The Temple of the Tooth, the evening Puja ceremony, Kandy Lake and the Peradeniya botanical gardens. The cultural heart of the hill country.",
+        "image": "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?w=800&auto=format&fit=crop",
+        "vibe": "Spiritual"
+      },
+      {
+        "name": "Nuwara Eliya",
+        "tag": "Tea Country",
+        "tagColor": "blue",
+        "description": "Cool highland air, tea plantations and colonial charm at 1,900 metres. Reached by the famous Kandy to Ella hill-country train.",
+        "image": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&auto=format&fit=crop",
+        "vibe": "Cool"
+      },
+      {
+        "name": "South Coast",
+        "tag": "Safari & Beach",
+        "tagColor": "red",
+        "description": "Yala's leopard safaris paired with Galle Fort, the whale-watching boats of Mirissa and the golden beaches of the south.",
+        "image": "https://images.unsplash.com/photo-1546708973-b339540b5162?w=800&auto=format&fit=crop",
+        "vibe": "Wild"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit Sri Lanka from Malaysia",
+    "body": "Two monsoons hit different coasts, so time it right and somewhere on the island is always in season. The interior cultural sites can be visited any time of year.",
+    "seasons": [
+      {
+        "name": "West, South & Cultural Triangle",
+        "months": "December to March",
+        "badge": "Most Popular",
+        "badgeColor": "red",
+        "description": "The best window for the cultural triangle, hill country and the west and south coast beaches like Hikkaduwa and Unawatuna.",
+        "icon": "sun"
+      },
+      {
+        "name": "East Coast Season",
+        "months": "May to September",
+        "badge": "Beaches & Safari",
+        "badgeColor": "blue",
+        "description": "Dry and beautiful on the east coast, ideal for Arugam Bay and Trincomalee. November and April work well as shoulder months for both coasts.",
+        "icon": "sun"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days Do You Actually Need?",
+    "options": [
+      {
+        "days": "5 Days",
+        "label": "South & Coast",
+        "description": "Enough for the south coast, whale watching, Galle Fort and a Yala safari."
+      },
+      {
+        "days": "7 Days",
+        "label": "Classic Loop",
+        "description": "The classic route, Colombo, Sigiriya, Kandy, Nuwara Eliya and back. The sweet spot for most visitors.",
+        "recommended": true
+      },
+      {
+        "days": "10+ Days",
+        "label": "Complete Island",
+        "description": "Cover north to south, all the highlights, with time for the hill-country train and the beaches."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Sri Lanka Packages for Every Traveller",
+    "subheading": "All packages include airport transfers, hotels, daily breakfast and guided sightseeing. International flights can be added on request.",
+    "ctaNote": "Custom itineraries for independent travellers and families available on request.",
+    "items": [
+      {
+        "id": "sl-classic",
+        "slug": "classic-sri-lanka",
+        "name": "Classic Sri Lanka",
+        "duration": "From 7D",
+        "price": "From RM1,688",
+        "priceNote": "per person",
+        "tag": "Most Popular",
+        "tagColor": "red",
+        "highlights": ["Colombo & Sigiriya", "Kandy Tooth Temple", "Nuwara Eliya Tea Country", "Scenic Hill Train"],
+        "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=800&auto=format&fit=crop",
+        "popular": true
+      },
+      {
+        "id": "sl-heritage",
+        "slug": "sigiriya",
+        "name": "Heritage Circuit",
+        "duration": "5D4N",
+        "price": "From RM1,388",
+        "priceNote": "per person",
+        "tag": "Ancient Cities",
+        "tagColor": "orange",
+        "highlights": ["Sigiriya Rock", "Anuradhapura", "Polonnaruwa", "Dambulla Caves"],
+        "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "sl-hill-train",
+        "slug": "nuwara-eliya",
+        "name": "Hill Country & Scenic Train",
+        "duration": "5D4N",
+        "price": "From RM1,488",
+        "priceNote": "per person",
+        "tag": "Scenic",
+        "tagColor": "green",
+        "highlights": ["Kandy to Ella Train", "Nine Arch Bridge", "Tea Estate Visit", "Little Adam's Peak"],
+        "image": "https://images.unsplash.com/photo-1588258219511-64eb629cb833?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "sl-south-coast",
+        "slug": "south-coast",
+        "name": "South Coast: Beaches & Whales",
+        "duration": "From 5D",
+        "price": "From RM1,488",
+        "priceNote": "per person",
+        "tag": "Beach & Whales",
+        "tagColor": "blue",
+        "highlights": ["Mirissa Whale Watching", "Galle Fort", "Unawatuna Beach", "Southern Drives"],
+        "image": "https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "sl-yala",
+        "slug": "yala-national-park",
+        "name": "Yala Safari & Coast",
+        "duration": "5D4N",
+        "price": "From RM1,588",
+        "priceNote": "per person",
+        "tag": "Wildlife",
+        "tagColor": "purple",
+        "highlights": ["Yala Leopard Safari", "Coastal Stay", "Galle Fort", "Bird Watching"],
+        "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "sl-complete",
+        "slug": "grand-sri-lanka",
+        "name": "Complete Sri Lanka",
+        "duration": "From 10D",
+        "price": "From RM2,288",
+        "priceNote": "per person",
+        "tag": "Extended",
+        "tagColor": "teal",
+        "highlights": ["North to South", "Ancient Cities & Tea Hills", "Safari & Beaches", "All Highlights"],
+        "image": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&auto=format&fit=crop",
+        "popular": false
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Sri Lanka Trip Through Dhesu",
+    "body": "Sri Lanka has been one of our most popular destinations for years, and we know it well. These details are the difference between a trip that is good and one you remember for the rest of your life.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed and registered. Drivers, guides and hotels arranged end to end."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "description": "35+ years sending Malaysians across Sri Lanka and bringing them home happy."
+      },
+      {
+        "icon": "map",
+        "title": "We Book Ahead",
+        "description": "The Kandy to Ella train sells out weeks ahead in peak season. We secure tickets and buffer-zone stays near Sigiriya for crowd-free sunrises."
+      },
+      {
+        "icon": "tag",
+        "title": "Responsible Operators",
+        "description": "We know which Mirissa whale-watching operators are responsible, and which to avoid."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Sri Lanka Trip",
+    "subheading": "Tell us what you want from Sri Lanka and we will build the right trip.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?w=1920&auto=format&fit=crop"
+  }
+}

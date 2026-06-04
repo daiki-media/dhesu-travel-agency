@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "name": "Thailand",
+    "title": "Thailand Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Phuket, Krabi, Bangkok, Chiang Mai. Thailand tour packages from Malaysia starting from RM688. Book with Dhesu, trusted since 1988.",
+    "slug": "thailand",
+    "targetKeyword": "Thailand tour package from Malaysia"
+  },
+  "hero": {
+    "badge": "So Close, So Good, So Surprising",
+    "headline": "Often the First Trip.",
+    "headlineAccent": "Never the Last.",
+    "body": "Come back a second time and Thailand surprises you again. A third time and you realise you have barely scratched it. Beaches, a great world city, and cool mountain temples, all at once, and somehow it feels natural.",
+    "bgImage": "https://images.unsplash.com/photo-1528181304800-259b08848526?w=1920&auto=format&fit=crop",
+    "stats": [
+      { "value": "RM688", "label": "Packages Starting From" },
+      { "value": "35+", "label": "Years of Travel Expertise" },
+      { "value": "2.5h", "label": "Flight from Kuala Lumpur" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Thailand",
+    "heading": "One Country, Four Completely Different Holidays",
+    "subheading": "The finest beaches in Asia, one of the world's great cities, and a cool cultural north. Thailand holds all of it simultaneously.",
+    "highlights": [
+      {
+        "icon": "wave",
+        "title": "Phuket: The Famous Island",
+        "body": "Big, well-connected and lively, with genuinely lovely beaches. Day trips reach Phi Phi's turquoise water and the karst formations of James Bond Island in Phang Nga Bay. The pastel Sino-Portuguese Old Town is worth half a day too.",
+        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
+        "places": ["Patong Beach", "Phi Phi Island", "James Bond Island"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Krabi: Cliffs and Emerald Water",
+        "body": "Towering limestone karsts rise straight out of the sea. Railay Beach, reachable only by boat, is one of the most beautiful in the world. The Four Islands tour and world-class rock climbing make Krabi the one people love more quietly.",
+        "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
+        "places": ["Railay Beach", "Four Islands Tour", "Tiger Cave Temple"]
+      },
+      {
+        "icon": "temple",
+        "title": "Bangkok: The City That Never Gets Old",
+        "body": "The Emerald Buddha, Wat Pho's 46-metre Reclining Buddha and Wat Arun. Then Chatuchak's 15,000 stalls, Jodd Fairs, the riverside Asiatique, and street food that is world class at every price point.",
+        "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&auto=format&fit=crop",
+        "places": ["Grand Palace", "Wat Arun", "Chatuchak Market"]
+      },
+      {
+        "icon": "food",
+        "title": "Chiang Mai: The North That Surprises",
+        "body": "A moated old city with over 300 temples, Doi Suthep on the mountain, hill-tribe treks and the famous Walking Streets. The responsible elephant sanctuaries in the hills are among the best experiences in Thailand right now.",
+        "image": "https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?w=800&auto=format&fit=crop",
+        "places": ["Doi Suthep", "Elephant Sanctuary", "Sunday Walking Street"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Thailand Regions",
+    "heading": "Where to Go and Why",
+    "subheading": "Thailand splits neatly into city buzz, southern islands and the cool north. Most trips mix two of them.",
+    "areas": [
+      {
+        "name": "Bangkok",
+        "tag": "City & Culture",
+        "tagColor": "red",
+        "description": "Temples, mega-markets, the Chao Phraya River and the best street food on earth. Chaotic, magnificent and completely its own thing.",
+        "image": "https://images.unsplash.com/photo-1551636898-47668aa61de2?w=800&auto=format&fit=crop",
+        "vibe": "Vibrant"
+      },
+      {
+        "name": "Phuket",
+        "tag": "Beach & Nightlife",
+        "tagColor": "orange",
+        "description": "Thailand's biggest island. Resorts, international infrastructure, Phi Phi day trips and a nightlife scene that runs until dawn.",
+        "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&auto=format&fit=crop",
+        "vibe": "Lively"
+      },
+      {
+        "name": "Krabi",
+        "tag": "Cliffs & Lagoons",
+        "tagColor": "green",
+        "description": "Dramatic limestone karsts, Railay Beach and the Four Islands tour. Quieter and more scenic than Phuket, and a climber's paradise.",
+        "image": "https://images.unsplash.com/photo-1598935898639-81586f7d2129?w=800&auto=format&fit=crop",
+        "vibe": "Scenic"
+      },
+      {
+        "name": "Chiang Mai",
+        "tag": "Mountains & Temples",
+        "tagColor": "blue",
+        "description": "Cool northern air, 300 temples, ethical elephant sanctuaries and night bazaars. The Thailand that surprises people most.",
+        "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?w=800&auto=format&fit=crop",
+        "vibe": "Peaceful"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit Thailand from Malaysia",
+    "body": "Thailand has three seasons. Bangkok is excellent year-round, but the coasts each have their own wet season, so it is worth checking which one you are heading to.",
+    "seasons": [
+      {
+        "name": "Cool Dry Season",
+        "months": "November to February",
+        "badge": "Most Popular",
+        "badgeColor": "red",
+        "description": "The most popular and most comfortable window. Manageable temperatures, clear skies and the beaches at their best.",
+        "icon": "sun"
+      },
+      {
+        "name": "Hot Season",
+        "months": "March to May",
+        "badge": "Calm Seas",
+        "badgeColor": "red",
+        "description": "Very warm, particularly in Bangkok and the interior. The beaches are still good and the southern seas are generally calm.",
+        "icon": "sun"
+      },
+      {
+        "name": "Rainy Season",
+        "months": "June to October",
+        "badge": "Check Your Coast",
+        "badgeColor": "blue",
+        "description": "The Gulf and Andaman coasts have slightly different wet seasons. Lush, quieter and cheaper, with Bangkok still excellent throughout.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days Do You Actually Need?",
+    "options": [
+      {
+        "days": "3 Days",
+        "label": "Quick Getaway",
+        "description": "Perfect for a Bangkok temples-and-markets weekend or a short Phuket or Krabi beach break."
+      },
+      {
+        "days": "4 Days",
+        "label": "Sweet Spot",
+        "description": "Enough to settle into one destination properly, island-hop, or fit in Chiang Mai's temples and elephants.",
+        "recommended": true
+      },
+      {
+        "days": "5+ Days",
+        "label": "Two Regions",
+        "description": "Combine Bangkok with Chiang Mai, or Phuket with Krabi, and see two very different sides of Thailand."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Thailand Packages for Every Trip",
+    "subheading": "Packages include transfers, accommodation we have personally vetted, and guided tours where they add real value. The rest of the time is yours. International flights can be added on request.",
+    "ctaNote": "Honeymoon and romantic escapes available for all destinations.",
+    "items": [
+      {
+        "id": "thailand-phuket",
+        "slug": "phuket",
+        "name": "Phuket Island & Phi Phi",
+        "duration": "3D / 4D",
+        "price": "From RM688",
+        "priceNote": "per person",
+        "tag": "Most Popular",
+        "tagColor": "red",
+        "highlights": ["Phi Phi Day Trip", "Island Hopping", "Beach Resort", "Phuket Old Town"],
+        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
+        "popular": true
+      },
+      {
+        "id": "thailand-krabi",
+        "slug": "krabi",
+        "name": "Krabi Railay & Four Islands",
+        "duration": "3D / 4D",
+        "price": "From RM788",
+        "priceNote": "per person",
+        "tag": "Scenic",
+        "tagColor": "green",
+        "highlights": ["Railay Beach", "Four Islands Tour", "Tiger Cave Temple", "Beachfront Stay"],
+        "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "thailand-bangkok",
+        "slug": "bangkok",
+        "name": "Bangkok Temples, Markets & River",
+        "duration": "3D / 4D",
+        "price": "From RM688",
+        "priceNote": "per person",
+        "tag": "City Break",
+        "tagColor": "orange",
+        "highlights": ["Grand Palace & Wat Pho", "Chao Phraya River", "Night Markets", "Street Food"],
+        "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "thailand-chiang-mai",
+        "slug": "chiang-mai",
+        "name": "Chiang Mai Temples & Elephants",
+        "duration": "4D3N",
+        "price": "From RM988",
+        "priceNote": "per person",
+        "tag": "Culture",
+        "tagColor": "blue",
+        "highlights": ["Doi Suthep Temple", "Ethical Elephant Sanctuary", "Night Bazaar", "Old City Tour"],
+        "image": "https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "thailand-bangkok-chiang-mai",
+        "slug": "bangkok-chiang-mai-combo",
+        "name": "Bangkok + Chiang Mai Combo",
+        "duration": "From 5D",
+        "price": "From RM1,488",
+        "priceNote": "per person",
+        "tag": "City + North",
+        "tagColor": "purple",
+        "highlights": ["City Sightseeing", "Northern Temples", "Internal Flight", "Daily Breakfast"],
+        "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "thailand-phuket-krabi",
+        "slug": "phuket-krabi-combo",
+        "name": "Phuket + Krabi Combo",
+        "duration": "From 5D",
+        "price": "From RM1,388",
+        "priceNote": "per person",
+        "tag": "Two Coasts",
+        "tagColor": "teal",
+        "highlights": ["Phi Phi & Four Islands", "Railay Beach", "Speedboat Transfers", "Beach Resorts"],
+        "image": "https://images.unsplash.com/photo-1598935898639-81586f7d2129?w=800&auto=format&fit=crop",
+        "popular": false
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Thailand Trip Through Dhesu",
+    "body": "Thailand is easy to plan, we know that. But after 35 years we have watched travellers come back either completely happy or slightly frustrated, because the resort was not what the photos suggested, the day-trip operator cancelled, or no one told them the Phi Phi ferry schedule changes in the wet season. We handle the details so you just show up and enjoy.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed and registered. Transfers, hotels and tours arranged with care."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "description": "35+ years sending Malaysians to Thailand and bringing them home happy."
+      },
+      {
+        "icon": "map",
+        "title": "Personally Vetted",
+        "description": "Accommodation we have checked ourselves and guided tours only where they add real value."
+      },
+      {
+        "icon": "tag",
+        "title": "The Details Handled",
+        "description": "Ferry schedules, day-trip operators and seasons sorted so nothing catches you out."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Thailand Trip",
+    "subheading": "Tell us which part of Thailand you want to explore. We will take care of the rest.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?w=1920&auto=format&fit=crop"
+  }
+}

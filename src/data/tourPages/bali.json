@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "name": "Bali",
+    "title": "Bali Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Plan your Bali trip with Dhesu Travel. 3D to 6D packages from RM398. Gates of Heaven, Nusa Penida, private villas and more. Trusted since 1988.",
+    "slug": "bali",
+    "targetKeyword": "Bali tour package from Malaysia"
+  },
+  "hero": {
+    "badge": "Most Popular Destination",
+    "headline": "The Island That",
+    "headlineAccent": "Never Lets You Go",
+    "body": "Step off the plane and the warm air hits your face and something in your chest just settles. Like you have been somewhere you needed to be.",
+    "bgImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1920&auto=format&fit=crop",
+    "stats": [
+      { "value": "35+", "label": "Years Sending Malaysians to Bali" },
+      { "value": "RM398", "label": "Packages Starting From" },
+      { "value": "6", "label": "Package Options Available" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Bali",
+    "heading": "What Makes Bali Worth Every Ringgit",
+    "subheading": "A lot of destinations promise a lot. Bali just delivers. Here is why it stays at the top of the list for Malaysians.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "The Temples Are Alive",
+        "body": "Bali has over 20,000 temples, and they are used every day. You will walk past a family laying flowers at a shrine. You will hear gamelan orchestra drifting from somewhere you cannot quite see.",
+        "image": "https://images.unsplash.com/photo-1555400082-5e4a9e3d0f97?w=800&auto=format&fit=crop",
+        "places": ["Pura Besakih", "Tanah Lot", "Tirta Empul"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Ubud Is a State of Mind",
+        "body": "People go to Ubud thinking it is just an arts town. Then they spend two days there and do not want to leave. The food, the terraces, the sunrise walk up Mount Batur.",
+        "image": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?w=800&auto=format&fit=crop",
+        "places": ["Tegallalang Rice Terraces", "Monkey Forest", "Mount Batur"]
+      },
+      {
+        "icon": "wave",
+        "title": "Nusa Penida Will Shake You",
+        "body": "A short boat ride from Sanur beach brings you to Bali's wilder little sister. The roads are rough. The cliffs are dramatic. Nusa Penida is not polished. That is the whole point.",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop",
+        "places": ["Kelingking Beach", "Angel's Billabong", "Broken Beach"]
+      },
+      {
+        "icon": "food",
+        "title": "The Food Is Ridiculous",
+        "body": "Nasi goreng, bebek betutu, babi guling at a local warung, lawar from Balinese family ceremonies. And the coffee. Do not leave without sitting at a proper cafe in Ubud with a cold brew.",
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&auto=format&fit=crop",
+        "places": ["Warung local spots", "Ubud cafes", "Canggu coffee scene"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Bali Zones",
+    "heading": "Where to Go and Why",
+    "subheading": "Bali is not one place. Different parts of the island feel completely different.",
+    "areas": [
+      {
+        "name": "Seminyak & Canggu",
+        "tag": "Beach & Social",
+        "tagColor": "red",
+        "description": "Beachfront restaurants, sunset events and a social scene. Good for couples and groups who want to eat well and be by the water.",
+        "image": "https://images.unsplash.com/photo-1573790387438-4da905039392?w=800&auto=format&fit=crop",
+        "vibe": "Lively"
+      },
+      {
+        "name": "Ubud",
+        "tag": "Culture & Nature",
+        "tagColor": "green",
+        "description": "Cooler, greener, quieter. Art galleries, cooking classes, rice field walks and temple ceremonies. Ubud is for people who want something more real.",
+        "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&auto=format&fit=crop",
+        "vibe": "Serene"
+      },
+      {
+        "name": "Uluwatu",
+        "tag": "Dramatic Cliffs",
+        "tagColor": "orange",
+        "description": "Dramatic cliffs dropping into the Indian Ocean. The Kecak fire dance at sunset here is one of the most visually striking things you will see anywhere in Southeast Asia.",
+        "image": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?w=800&auto=format&fit=crop",
+        "vibe": "Dramatic"
+      },
+      {
+        "name": "Lovina",
+        "tag": "Quiet & Untouched",
+        "tagColor": "blue",
+        "description": "Up in the north, far quieter. Famous for dolphin watching at sunrise. The pace is slower, the crowds smaller. If you want a Bali that feels untouched, Lovina is worth the drive.",
+        "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?w=800&auto=format&fit=crop",
+        "vibe": "Peaceful"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit Bali from Malaysia",
+    "body": "Bali sits just below the equator so it is warm all year round.",
+    "seasons": [
+      {
+        "name": "Dry Season",
+        "months": "April to October",
+        "badge": "Most Popular",
+        "badgeColor": "red",
+        "description": "Clear skies, bright green rice terraces, and more frequent ceremonies. July and August are the peak months.",
+        "icon": "sun"
+      },
+      {
+        "name": "Wet Season",
+        "months": "November to March",
+        "badge": "Budget Friendly",
+        "badgeColor": "blue",
+        "description": "Heavy downpours in the afternoon that clear by evening. Flights are cheaper, the island is quieter. Perfectly fine if you do not mind some rain.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days Do You Actually Need?",
+    "options": [
+      {
+        "days": "3 Days",
+        "label": "Quick Escape",
+        "description": "A taste. See the highlights, get a feel for the island."
+      },
+      {
+        "days": "4-5 Days",
+        "label": "Sweet Spot",
+        "description": "The ideal length for most first-time visitors. Temples, terraces, coast and some breathing room.",
+        "recommended": true
+      },
+      {
+        "days": "6+ Days",
+        "label": "Go Deeper",
+        "description": "Drive north, spend nights in Ubud, do Nusa Penida, and still have time to just sit somewhere and breathe."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Bali Packages for Every Budget",
+    "subheading": "All packages include airport transfers, hotel, daily breakfast and guided tours. International flights can be added on request.",
+    "ctaNote": "Custom itineraries available if you have something specific in mind.",
+    "items": [
+      {
+        "id": "bali-3d-saver",
+        "slug": "3-day-bali-super-saver",
+        "name": "3 Days Bali Super Saver",
+        "duration": "3D2N",
+        "price": "RM398",
+        "priceNote": "per couple",
+        "tag": "Best Value",
+        "tagColor": "green",
+        "highlights": ["Full-day Ubud Tour", "Airport Transfers", "Hotel Stay", "Daily Breakfast"],
+        "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "bali-4d-best",
+        "slug": "4-day-best-of-bali",
+        "name": "4 Days Best of Bali",
+        "duration": "4D3N",
+        "price": "From RM588",
+        "priceNote": "per person",
+        "tag": "Most Popular",
+        "tagColor": "red",
+        "highlights": ["Temples & Rice Terraces", "Coastal Scenery", "Airport Transfers", "Daily Breakfast"],
+        "image": "https://images.unsplash.com/photo-1555400082-5e4a9e3d0f97?w=800&auto=format&fit=crop",
+        "popular": true
+      },
+      {
+        "id": "bali-4d-nusa",
+        "slug": "4-day-bali-nusa-penida",
+        "name": "4 Days Bali + Nusa Penida",
+        "duration": "4D3N",
+        "price": "From RM688",
+        "priceNote": "per person",
+        "tag": "Adventure",
+        "tagColor": "orange",
+        "highlights": ["Kelingking Beach", "Angel's Billabong", "Bali Highlights", "Boat Transfer"],
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "bali-4d-gates",
+        "slug": "4-day-gates-of-heaven",
+        "name": "4 Days Gates of Heaven",
+        "duration": "4D3N",
+        "price": "From RM688",
+        "priceNote": "per person",
+        "tag": "Iconic",
+        "tagColor": "purple",
+        "highlights": ["Lempuyang Temple", "Gates of Heaven Photo", "Ubud Highlights", "Daily Breakfast"],
+        "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "bali-4d-romantic",
+        "slug": "4-day-bali-honeymoon-pool-villa",
+        "name": "4 Days Bali Romantic Escape",
+        "duration": "4D3N",
+        "price": "From RM888",
+        "priceNote": "per couple",
+        "tag": "Couples",
+        "tagColor": "pink",
+        "highlights": ["Private Pool Villa", "Romantic Dinner", "Couples Spa", "Honeymoon Setup"],
+        "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "bali-5d-explorer",
+        "slug": "5-day-bali-bliss",
+        "name": "5 Days Bali Explorer",
+        "duration": "5D4N",
+        "price": "From RM988",
+        "priceNote": "per person",
+        "tag": "Extended",
+        "tagColor": "teal",
+        "highlights": ["North Bali Lovina", "Dolphin Watching", "Nusa Penida", "Full Island Coverage"],
+        "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?w=800&auto=format&fit=crop",
+        "popular": false
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Bali Trip Through Dhesu",
+    "body": "You could plan a Bali trip yourself. Everything is on the internet. But there is a difference between reading about Bali and someone who has sent thousands of Malaysian travellers there since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed and registered. No surprises when you land."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "description": "35+ years of sending Malaysians to Bali and watching them come home happy."
+      },
+      {
+        "icon": "map",
+        "title": "Local Knowledge",
+        "description": "We know which driver to trust in Ubud, which villa gives best value, which tours are worth your time."
+      },
+      {
+        "icon": "tag",
+        "title": "Fair Pricing",
+        "description": "Packages are priced fairly with no hidden surprises. What you see is what you pay."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Bali Trip",
+    "subheading": "Tell us when you want to go, how many people are travelling and what kind of experience you are after. We will put together the right package for you.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1920&auto=format&fit=crop"
+  }
+}

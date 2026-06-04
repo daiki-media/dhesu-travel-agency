@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "name": "India",
+    "title": "India Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "From the Himalayas to Kerala backwaters, explore India with Dhesu. Trusted Malaysian travel agency since 1988. Group, custom and honeymoon packages available.",
+    "slug": "india",
+    "targetKeyword": "India tour package from Malaysia"
+  },
+  "hero": {
+    "badge": "A Continent Pretending to Be a Country",
+    "headline": "India Is Not",
+    "headlineAccent": "Just One Trip.",
+    "body": "The India at the foot of the Taj Mahal at dawn is a different India from the Kerala backwaters, which is different again from the ancient ghats of Varanasi. It asks a lot of you, and gives back far more.",
+    "bgImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1920&auto=format&fit=crop",
+    "stats": [
+      { "value": "35+", "label": "Years Sending Malaysians to India" },
+      { "value": "1988", "label": "Trusted Since" },
+      { "value": "MATTA", "label": "& IATA Registered" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why India",
+    "heading": "No Two Trips to India Are Ever the Same",
+    "subheading": "It is loud, dense and full of surprises. But travellers who go once almost always go again, and they almost always go somewhere different.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "The Golden Triangle",
+        "body": "Where most first-timers start. Delhi's old-city lanes and spice markets, the Taj Mahal in Agra at sunrise turning gold, and Jaipur's Pink City forts and bazaars. More beautiful in person than any photograph.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "places": ["Taj Mahal", "Amber Fort", "Chandni Chowk"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Kashmir Stops People Mid-Sentence",
+        "body": "Wooden houseboats and shikaras gliding across Dal Lake at dawn. The impossibly green meadows of Gulmarg in summer, deep snow in winter, and the pine valleys of Pahalgam. It should be on every India itinerary.",
+        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&auto=format&fit=crop",
+        "places": ["Dal Lake", "Gulmarg", "Pahalgam"]
+      },
+      {
+        "icon": "wave",
+        "title": "Kerala Slows Time Right Down",
+        "body": "Drift through hundreds of kilometres of backwater channels on a converted rice barge, palm trees leaning over the water and kingfishers on the banks. Up in the hills, Munnar's tea plantations roll on as far as you can see.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop",
+        "places": ["Alleppey Backwaters", "Munnar Tea Hills", "Cochin"]
+      },
+      {
+        "icon": "food",
+        "title": "Varanasi Will Change You",
+        "body": "One of the oldest living cities on earth. The Ganga Aarti at Dashashwamedh Ghat, with fire, flowers and bells at sunset, has been performed every day for centuries. Confronting, deeply real, and impossible to forget.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "places": ["Ganga Aarti", "Dashashwamedh Ghat", "Rishikesh"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "India Regions",
+    "heading": "Where to Go and Why",
+    "subheading": "India is a continent disguised as a country. Each region feels like an entirely different holiday.",
+    "areas": [
+      {
+        "name": "Golden Triangle",
+        "tag": "Monuments & History",
+        "tagColor": "orange",
+        "description": "Delhi, Agra and Jaipur. Mughal monuments, royal palaces and the Taj Mahal. The classic first-timer route through the north.",
+        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop",
+        "vibe": "Iconic"
+      },
+      {
+        "name": "Kashmir",
+        "tag": "Lakes & Mountains",
+        "tagColor": "blue",
+        "description": "Dal Lake houseboats, alpine meadows and snow in winter. The Himalayan north at its most beautiful, cool even in summer.",
+        "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&auto=format&fit=crop",
+        "vibe": "Serene"
+      },
+      {
+        "name": "Kerala",
+        "tag": "Backwaters & Spice",
+        "tagColor": "green",
+        "description": "Houseboats, tea plantations and the slow green south between the Western Ghats and the Arabian Sea. Where the pace finally drops.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop",
+        "vibe": "Tranquil"
+      },
+      {
+        "name": "Shimla & Manali",
+        "tag": "Hill Stations",
+        "tagColor": "purple",
+        "description": "Colonial hill towns, the Shimla toy train and the high snow fields of the Rohtang Pass beyond Manali. Lower-Himalayan air and silence.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=800&auto=format&fit=crop",
+        "vibe": "Cool"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit India from Malaysia",
+    "body": "India is large enough that the best time depends on where you are going.",
+    "seasons": [
+      {
+        "name": "Cool Season",
+        "months": "October to March",
+        "badge": "Most Comfortable",
+        "badgeColor": "red",
+        "description": "The most comfortable window for most destinations, especially the north and centre. Prime time for the Golden Triangle and Rajasthan.",
+        "icon": "sun"
+      },
+      {
+        "name": "Summer & Monsoon",
+        "months": "April to October",
+        "badge": "Hills & Kerala",
+        "badgeColor": "blue",
+        "description": "Hot on the northern plains, but this is when the hill stations and the Himalayas (May to October) come into their own. Kerala stays fine year-round.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days Do You Actually Need?",
+    "options": [
+      {
+        "days": "7 Days",
+        "label": "One Region",
+        "description": "Enough to do a single region properly, like the Golden Triangle or a focused Kashmir or Kerala escape."
+      },
+      {
+        "days": "10 Days",
+        "label": "Sweet Spot",
+        "description": "If it is your first time and you want a real sense of the country, plan for at least 10 days.",
+        "recommended": true
+      },
+      {
+        "days": "14+ Days",
+        "label": "North & South",
+        "description": "Two weeks lets you combine north and south meaningfully, adding Varanasi or the Himalayas along the way."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "India Packages for Every Traveller",
+    "subheading": "Every Dhesu India package comes with English-speaking guides, airport transfers and a team you can call if something goes sideways. International flights can be added on request.",
+    "ctaNote": "Custom and group packages built to your requirements.",
+    "items": [
+      {
+        "id": "india-golden-triangle",
+        "slug": "golden-triangle",
+        "name": "North India: Golden Triangle",
+        "duration": "From 5D",
+        "price": "From RM1,288",
+        "priceNote": "per person",
+        "tag": "Most Popular",
+        "tagColor": "red",
+        "highlights": ["Delhi Old & New City", "Taj Mahal Sunrise", "Amber Fort Jaipur", "English-Speaking Guide"],
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "popular": true
+      },
+      {
+        "id": "india-kashmir",
+        "slug": "kashmir",
+        "name": "Kashmir: Srinagar, Gulmarg & Pahalgam",
+        "duration": "From 5D",
+        "price": "From RM1,988",
+        "priceNote": "per person",
+        "tag": "Scenic",
+        "tagColor": "blue",
+        "highlights": ["Dal Lake Houseboat", "Gulmarg Meadows", "Pahalgam Valley", "Mughal Gardens"],
+        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "india-9d-shimla-manali",
+        "slug": "north-india/9-day-shimla-manali",
+        "name": "9 Days Shimla & Manali",
+        "duration": "9D8N",
+        "price": "From RM2,488",
+        "priceNote": "per person",
+        "tag": "Himalayan",
+        "tagColor": "purple",
+        "highlights": ["Rohtang Pass", "Shimla Toy Train", "Hadimba Temple", "Mountain Resorts"],
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "india-kerala",
+        "slug": "kerala",
+        "name": "Kerala: Backwaters, Munnar & Cochin",
+        "duration": "From 6D",
+        "price": "From RM1,788",
+        "priceNote": "per person",
+        "tag": "Relaxing",
+        "tagColor": "green",
+        "highlights": ["Alleppey Houseboat", "Munnar Tea Estates", "Cochin Heritage", "Daily Breakfast"],
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "india-south",
+        "slug": "south-india",
+        "name": "South India: Bangalore, Mysore & Ooty",
+        "duration": "From 6D",
+        "price": "From RM1,888",
+        "priceNote": "per person",
+        "tag": "Temples & Hills",
+        "tagColor": "teal",
+        "highlights": ["Temple Architecture", "Mysore Palace", "Ooty Hill Station", "South Indian Cuisine"],
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop",
+        "popular": false
+      },
+      {
+        "id": "india-spiritual",
+        "slug": "spiritual-india",
+        "name": "Spiritual India: Varanasi, Rishikesh & Amritsar",
+        "duration": "7D6N",
+        "price": "From RM1,988",
+        "priceNote": "per person",
+        "tag": "Soul-Searching",
+        "tagColor": "orange",
+        "highlights": ["Ganga Aarti Ceremony", "Varanasi Ghats", "Rishikesh", "Golden Temple Amritsar"],
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "popular": false
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your India Trip Through Dhesu",
+    "body": "India is one of those destinations that benefits enormously from having the right people in your corner. We have been sending Malaysians to India since 1988, and we know the guides who know their history, the hotels with rooms that actually face the river, and the routes that avoid the traffic.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed and registered. We handle e-Visa documentation guidance for all India packages."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "description": "35+ years arranging India journeys, from the Taj Mahal to the Himalayas to Kerala."
+      },
+      {
+        "icon": "map",
+        "title": "The Right People on the Ground",
+        "description": "Guides who know their history, vetted hotels, and a team you can call if something goes sideways."
+      },
+      {
+        "icon": "tag",
+        "title": "Group, Custom & Honeymoon",
+        "description": "English-speaking guides and airport transfers included. Packages built to your requirements."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your India Trip",
+    "subheading": "Tell us which part of India calls to you. We will plan the rest.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1920&auto=format&fit=crop"
+  }
+}
