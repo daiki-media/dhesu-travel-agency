@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "6 Days Amritsar + Dharamsala from Malaysia | Dhesu Travel & Tours",
+    "description": "6-day tour of Amritsar Golden Temple and Dharamshala McLeod Ganj Tibetan culture, private vehicle and guide. From RM1388 per person.",
+    "keywords": "6 Days Amritsar + Dharamsala from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/6-day-amritsar-dharamsala",
+    "canonicalUrl": "/tours/india/north-india/6-day-amritsar-dharamsala",
+    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "pkgid": "2467"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "6 Days, Amritsar & Dharamsala.",
+    "titleAccent": "The Golden Temple and the Home of the Dalai Lama.",
+    "intro": "Two very different souls of North India. Amritsar's Golden Temple and Punjabi warmth, then up into the hills to Dharamshala and McLeod Ganj, the home of the Dalai Lama and Tibetan culture in exile.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "6 Days Amritsar + Dharamsala",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Dharamshala McLeod Ganj Tibetan monastery Himalayas"
+  },
+  "quickFacts": {
+    "duration": "6 Days / 5 Nights",
+    "startingPrice": "From RM1,388",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,666",
+    "saving": "Save RM555 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (5 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Wagah Border Visit"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "6 Days Amritsar + Dharamsala: The Full Picture",
+    "body": [
+      "This 6 day journey pairs the spiritual heart of Sikhism with the centre of Tibetan Buddhism in exile. Amritsar brings the Golden Temple, the Wagah border and Punjabi food, while Dharamshala and McLeod Ganj, set in the Himalayan foothills, are home to the Dalai Lama, Tibetan monasteries and a serene mountain atmosphere.",
+      "Arranged privately from Malaysia, the trip moves from the plains to the hills with your own vehicle and driver guide. The contrast between Amritsar's golden grandeur and Dharamshala's peaceful Tibetan culture makes for a rich, varied North India experience."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "The Golden Temple, Amritsar",
+        "body": "Harmandir Sahib at dawn and after dark, the langar, and the moving spiritual atmosphere of Sikhism's holiest shrine.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "imageAlt": "Golden Temple Amritsar"
+      },
+      {
+        "title": "McLeod Ganj & the Dalai Lama",
+        "body": "The Tsuglagkhang Complex, home of the Dalai Lama, the Tibetan monasteries, prayer flags and the relaxed mountain town of McLeod Ganj.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "McLeod Ganj Tibetan monastery Dharamshala"
+      },
+      {
+        "title": "Himalayan Foothills",
+        "body": "Pine forests, mountain views, the Bhagsu waterfall and the serene Norbulingka Institute of Tibetan arts in the hills around Dharamshala.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Dharamshala Himalayan foothills"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 6 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Amritsar",
+        "meals": "No meals",
+        "description": "Met at Amritsar airport and transferred to your hotel. Evening at the illuminated Golden Temple.",
+        "suggestedActivities": [
+          "Evening Golden Temple visit",
+          "Langar experience",
+          "Lassi and kulcha"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Amritsar & Wagah Border",
+        "meals": "Breakfast",
+        "description": "Golden Temple, Jallianwala Bagh and the Wagah border ceremony.",
+        "suggestedActivities": [
+          "Morning Golden Temple darshan",
+          "Jallianwala Bagh",
+          "Wagah border ceremony",
+          "Old city food walk"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Amritsar to Dharamshala",
+        "meals": "Breakfast",
+        "description": "Scenic drive up into the Himalayan foothills.",
+        "suggestedActivities": [
+          "Drive to Dharamshala",
+          "Evening in McLeod Ganj",
+          "Tibetan dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "McLeod Ganj Sightseeing",
+        "meals": "Breakfast",
+        "description": "The Dalai Lama's complex, monasteries and Tibetan culture.",
+        "suggestedActivities": [
+          "Tsuglagkhang Complex (Dalai Lama temple)",
+          "Namgyal Monastery",
+          "Tibetan Museum",
+          "Bhagsu waterfall"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Dharamshala Leisure",
+        "meals": "Breakfast",
+        "description": "More of the hills, with the cricket stadium, monasteries and viewpoints.",
+        "suggestedActivities": [
+          "Norbulingka Institute",
+          "HPCA cricket stadium",
+          "Dal Lake (Dharamshala)",
+          "Cafes and shopping"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Depart",
+        "meals": "Breakfast",
+        "description": "Descend for your onward flight from Dharamshala or Amritsar.",
+        "suggestedActivities": [
+          "Scenic descent",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1388 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1338 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1288 per person"
+          }
+        ],
+        "fromPrice": "RM1388"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1688 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1648 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1608 per person"
+          }
+        ],
+        "fromPrice": "RM1688",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2088 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2058 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2028 per person"
+          }
+        ],
+        "fromPrice": "RM2088"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Plains and Peaks, One Smooth Journey",
+    "body": "Linking Amritsar and Dharamshala means coordinating the plains and the hills with a mountain drive. We handle the route and the timing so the contrast becomes the journey's strength. Dhesu has run North India tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Amritsar & Dharamsala Tour from Malaysia",
+        "body": "This 6 day package pairs two of North India's most distinctive destinations: Amritsar, with its Golden Temple, and Dharamshala, the home of the Dalai Lama and Tibetan culture in exile.\n\nA private vehicle and driver guide link the plains and the hills, with the scenic drive up to the foothills part of the experience.\n\nThe contrast between Sikh grandeur and Tibetan serenity makes this one of the most rewarding short tours in the north."
+      },
+      {
+        "heading": "Dharamshala and McLeod Ganj",
+        "body": "Dharamshala and the upper town of McLeod Ganj have been the seat of the Tibetan government in exile and the home of the Dalai Lama since 1959. The Tsuglagkhang Complex, the monasteries and the prayer flags give the town a deeply peaceful, spiritual atmosphere.\n\nSet in the Himalayan foothills with pine forests and mountain views, it is a serene counterpoint to the energy of Amritsar."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Amritsar or Dharamshala (Gaggal) Airport (ATQ / DHM). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "Will I see the Dalai Lama?",
+        "answer": "The Dalai Lama occasionally gives public teachings at the Tsuglagkhang Complex in McLeod Ganj, but his schedule varies and is not guaranteed. The complex, monasteries and Tibetan culture are wonderful to experience regardless. We can advise if any teachings coincide with your dates."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "March to June and September to November offer the most pleasant weather across both the plains and the hills. Winter brings cold and possible snow to Dharamshala. The monsoon (July to August) is lush but can affect hill roads."
+      },
+      {
+        "question": "How far is Dharamshala from Amritsar?",
+        "answer": "Dharamshala is around 5 to 6 hours by road from Amritsar, a scenic drive up into the Himalayan foothills. The private vehicle makes the journey comfortable, with stops along the way."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-3d-amritsar-golden-temple",
+      "name": "3 Days Amritsar: Golden Temple",
+      "price": "From RM398",
+      "duration": "3D2N",
+      "slug": "north-india/3-day-amritsar-golden-temple",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-golden-triangle-amritsar",
+      "name": "7 Days Golden Triangle + Amritsar",
+      "price": "From RM1,888",
+      "duration": "7D6N",
+      "slug": "north-india/7-day-golden-triangle-amritsar",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-manali",
+      "name": "6 Days Manali",
+      "price": "From RM1,598",
+      "duration": "6D5N",
+      "slug": "north-india/6-day-manali",
+      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Amritsar and Dharamsala?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "6 Days Amritsar Dharamsala Tour from Malaysia",
+    "description": "6-day tour of Amritsar Golden Temple and Dharamshala McLeod Ganj Tibetan culture, private vehicle and guide. From RM1388 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/6-day-amritsar-dharamsala",
+    "startLocation": "Sri Guru Ram Dass Jee International Airport",
+    "endLocation": "Kangra Gaggal Airport",
+    "duration": "P6D",
+    "offers": {
+      "price": "1388",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

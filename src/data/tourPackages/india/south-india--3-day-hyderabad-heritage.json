@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "title": "3 Days Hyderabad Heritage & Culture Tour from Malaysia | Dhesu Travel & Tours",
+    "description": "3-day Hyderabad heritage tour with Charminar, Golconda Fort, pearl shopping, private driver guide and hotel. From RM498 per person.",
+    "keywords": "3 Days Hyderabad Heritage & Culture Tour from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
+    "slug": "south-india/3-day-hyderabad-heritage",
+    "canonicalUrl": "/tours/india/south-india/3-day-hyderabad-heritage",
+    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "pkgid": "2464"
+  },
+  "hero": {
+    "badge": "South India",
+    "title": "3 Days in Hyderabad.",
+    "titleAccent": "Pearls, Palaces and the Best Biryani in India.",
+    "intro": "The City of Pearls earns its nickname. Hyderabad blends Nizami grandeur, Charminar's old-city buzz, and a food culture built around the most famous biryani in the country. Three days, properly spent.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "3 Days Hyderabad Heritage & Culture Tour",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Charminar Hyderabad old city at dusk"
+  },
+  "quickFacts": {
+    "duration": "3 Days / 2 Nights",
+    "startingPrice": "From RM498",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM598",
+    "saving": "Save RM199 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (2 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "100% Private Tour"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "3 Days Hyderabad Heritage & Culture Tour: The Full Picture",
+    "body": [
+      "Hyderabad is one of India's great underrated city breaks. The cultural heart of Telangana carries the legacy of the Nizams, once among the richest rulers on earth, in its palaces, its pearl trade and its extraordinary kitchens. The old city around Charminar still hums with the same energy it has for centuries.",
+      "This 3 day Hyderabad tour package from Malaysia runs privately, with your own vehicle and driver guide. You will see the iconic Charminar, the mighty Golconda Fort, the serene Hussain Sagar lake, and shop for the famous Hyderabadi pearls, all on a schedule you control."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Charminar & the Old City",
+        "body": "The 16th-century Charminar is Hyderabad's defining monument, surrounded by the bustling Laad Bazaar where bangles, pearls and perfumes have been traded for generations. Come hungry.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Charminar Hyderabad old city"
+      },
+      {
+        "title": "Golconda Fort",
+        "body": "A vast hilltop fortress famous for its acoustics and the legend of the Koh-i-Noor diamond, which was once traded here. The climb rewards you with sweeping views over the city.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Golconda Fort Hyderabad"
+      },
+      {
+        "title": "Pearls & the Famous Biryani",
+        "body": "Hyderabad has been India's pearl capital for centuries. Pair a shopping trip with a plate of Hyderabadi dum biryani, slow-cooked and unrivalled. Your guide knows the legendary kitchens.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Hyderabadi biryani and pearls"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 3 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Hyderabad",
+        "meals": "No meals",
+        "description": "Met at Rajiv Gandhi International Airport and transferred to your hotel. Evening free, perhaps a first biryani near your hotel.",
+        "suggestedActivities": [
+          "Settle in",
+          "First Hyderabadi biryani",
+          "Evening at Hussain Sagar lakefront"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Full Day Hyderabad Sightseeing",
+        "meals": "Breakfast",
+        "description": "Your private vehicle and guide cover the city's heritage highlights at a relaxed pace.",
+        "suggestedActivities": [
+          "Charminar and Laad Bazaar",
+          "Golconda Fort",
+          "Qutb Shahi Tombs",
+          "Chowmahalla Palace",
+          "Pearl shopping"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Free Morning, Depart",
+        "meals": "Breakfast",
+        "description": "Checkout at noon. Last shopping or a lakeside stroll before your airport transfer.",
+        "suggestedActivities": [
+          "Hussain Sagar and Buddha statue",
+          "Last pearl or bangle shopping",
+          "Final biryani"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "Quality Inn / Minerva Grand or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM498 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM448 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM398 per person"
+          }
+        ],
+        "fromPrice": "RM498"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "Lemon Tree / Marigold or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM648 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM608 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM568 per person"
+          }
+        ],
+        "fromPrice": "RM648",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "Taj Krishna / ITC Kohenur or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM898 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM868 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM838 per person"
+          }
+        ],
+        "fromPrice": "RM898"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "South India Heritage, Handled Locally",
+    "body": "Hyderabad's old city is wonderful but dense, and the heritage sites are spread out. A private guide threads it all together and gets you to the right biryani. Dhesu has run South India tours since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Hyderabad Tour Package from Malaysia: City of Pearls",
+        "body": "Hyderabad is a brilliant short break for travellers who want heritage, shopping and food without the crowds of the bigger tourist trails. The Nizami legacy gives the city a unique character, grand yet down to earth.\n\nThis private package means you cover Charminar, Golconda and the pearl markets at your own pace, with a guide who knows the old city's rhythm and the best places to eat.\n\nWant a slightly longer version? Our 4 day Hyderabad Heritage Escape adds more time for the palaces and shopping."
+      },
+      {
+        "heading": "What to Buy in Hyderabad",
+        "body": "Pearls top the list. Hyderabad has been India's pearl trading centre for centuries, with reputable dealers offering everything from simple strands to elaborate sets at competitive prices.\n\nLaad Bazaar near Charminar is famous for lac bangles studded with stones, a Hyderabadi specialty. Attars (traditional perfumes) and Bidri metalware are other distinctive buys."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Rajiv Gandhi International Airport, Hyderabad (HYD). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Hyderabad?",
+        "answer": "October to February is the most comfortable, with mild, dry weather ideal for sightseeing. March to May gets hot. The monsoon (June to September) is moderate. Winter is the ideal window for exploring the old city and forts."
+      },
+      {
+        "question": "Is Hyderabad safe and easy for Malaysian tourists?",
+        "answer": "Yes. Hyderabad is a large, cosmopolitan city used to visitors, with widespread English and a strong food and shopping culture. Standard travel precautions apply, and your driver guide handles local navigation."
+      },
+      {
+        "question": "Can I get halal food in Hyderabad?",
+        "answer": "Easily. Hyderabad has a large Muslim community and the city's signature biryani culture is deeply rooted in it. Halal restaurants and biryani houses are everywhere, particularly around the old city and Charminar."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-4d-hyderabad-heritage-escape",
+      "name": "4 Days Hyderabad Heritage Escape",
+      "price": "From RM898",
+      "duration": "4D3N",
+      "slug": "south-india/4-day-hyderabad-heritage-escape",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-3d-bangalore-highlights",
+      "name": "3 Days Bangalore Highlights",
+      "price": "From RM498",
+      "duration": "3D2N",
+      "slug": "south-india/3-day-bangalore-highlights",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-south-india-discover",
+      "name": "7 Days Discover South India",
+      "price": "From RM1,668",
+      "duration": "7D6N",
+      "slug": "south-india/7-day-discover",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Hyderabad?",
+    "subheading": "Tell us your dates and group size for a quick, confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "3 Days Hyderabad Tour Package from Malaysia",
+    "description": "3-day Hyderabad heritage tour with Charminar, Golconda Fort, pearl shopping, private driver guide and hotel. From RM498 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/south-india/3-day-hyderabad-heritage",
+    "startLocation": "Rajiv Gandhi International Airport",
+    "endLocation": "Rajiv Gandhi International Airport",
+    "duration": "P3D",
+    "offers": {
+      "price": "498",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

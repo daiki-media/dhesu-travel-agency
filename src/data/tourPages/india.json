@@ -11,7 +11,7 @@
     "headline": "India Is Not",
     "headlineAccent": "Just One Trip.",
     "body": "The India at the foot of the Taj Mahal at dawn is a different India from the Kerala backwaters, which is different again from the ancient ghats of Varanasi. It asks a lot of you, and gives back far more.",
-    "bgImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1920&auto=format&fit=crop",
+    "bgImage": "/images/gallery/14634.png",
     "stats": [
       { "value": "35+", "label": "Years Sending Malaysians to India" },
       { "value": "1988", "label": "Trusted Since" },
@@ -190,7 +190,7 @@
         "tag": "Budget",
         "tagColor": "gray",
         "highlights": ["Chennai City Tour", "Mahabalipuram Temples", "Local Shopping", "English-Speaking Guide"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
+        "image": "/images/gallery/14620.jpg",
         "pkgid": "67",
         "popular": false
       },
@@ -270,7 +270,7 @@
         "tag": "Culture",
         "tagColor": "green",
         "highlights": ["Kathakali Performance", "Fort Kochi Heritage", "Spice Markets", "Colonial Architecture"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "2111",
         "popular": false
       },
@@ -350,7 +350,7 @@
         "tag": "Temple Trail",
         "tagColor": "orange",
         "highlights": ["Tirupati Balaji Temple", "Thiruvannamalai Temple", "Kanchipuram Silk", "Temple Rituals"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "82",
         "popular": false
       },
@@ -382,7 +382,7 @@
         "tag": "Pilgrimage",
         "tagColor": "saffron",
         "highlights": ["9 Celestial Temples", "Suryanar Koil", "Traditional Rituals", "Tamil Nadu Heritage"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "2279",
         "popular": false
       },
@@ -414,7 +414,7 @@
         "tag": "Relaxing",
         "tagColor": "green",
         "highlights": ["Alleppey Backwaters", "Cochin Heritage", "Spice Plantations", "Kathakali Show"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "99",
         "popular": false
       },
@@ -478,7 +478,7 @@
         "tag": "Budget Pick",
         "tagColor": "gray",
         "highlights": ["Dal Lake Houseboat", "Mughal Gardens", "Srinagar Sightseeing", "English-Speaking Guide"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
+        "image": "/images/gallery/14620.jpg",
         "pkgid": "2466",
         "popular": false
       },
@@ -574,7 +574,7 @@
         "tag": "Relaxing",
         "tagColor": "green",
         "highlights": ["Alleppey Backwaters Cruise", "Fort Kochi Heritage", "Coimbatore Temples", "Daily Breakfast"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "2459",
         "popular": false
       },
@@ -606,7 +606,7 @@
         "tag": "Relaxing",
         "tagColor": "green",
         "highlights": ["Cochin Heritage", "Kovalam Sunset", "Alleppey Backwaters", "Trivandrum Tour"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "105",
         "popular": false
       },
@@ -638,7 +638,7 @@
         "tag": "Pilgrimage",
         "tagColor": "saffron",
         "highlights": ["6 Murugan Sacred Abodes", "Tamil Nadu Temples", "Expert Guide", "Spiritual Circuit"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "2280",
         "popular": false
       },
@@ -702,7 +702,7 @@
         "tag": "Temple Tour",
         "tagColor": "orange",
         "highlights": ["Dravidian Temples", "Rock Fort Trichy", "Brihadeeswara Temple", "Tamil Heritage"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "2281",
         "popular": false
       },
@@ -734,7 +734,7 @@
         "tag": "Scenic",
         "tagColor": "green",
         "highlights": ["Overnight Houseboat Cruise", "Munnar Tea Estates", "Cochin Heritage", "Backwaters Village Life"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "173",
         "popular": false
       },
@@ -750,7 +750,7 @@
         "tag": "Pilgrimage",
         "tagColor": "saffron",
         "highlights": ["Murugan Sacred Abodes", "Navagraha Temples", "Tamil Nadu Heritage", "Expert Guide"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "2283",
         "popular": false
       },
@@ -782,7 +782,7 @@
         "tag": "Wildlife",
         "tagColor": "green",
         "highlights": ["Periyar Tiger Reserve", "Periyar Lake Cruise", "Munnar Tea Hills", "Alleppey Backwaters"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "2110",
         "popular": false
       },
@@ -846,7 +846,7 @@
         "tag": "Adventure",
         "tagColor": "blue",
         "highlights": ["Gulmarg Ski Resort", "Gondola Cable Car Ride", "Dal Lake Houseboat", "Pahalgam Saffron Fields"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
+        "image": "/images/gallery/14620.jpg",
         "pkgid": "2166",
         "popular": false
       },
@@ -878,7 +878,7 @@
         "tag": "Complete Kerala",
         "tagColor": "green",
         "highlights": ["Cochin, Munnar & Thekkady", "Alleppey Houseboat", "Trivandrum & Kovalam", "Daily Breakfast"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "147",
         "popular": false
       },
@@ -926,7 +926,7 @@
         "tag": "Popular",
         "tagColor": "blue",
         "highlights": ["Dal Lake Houseboat", "Gulmarg Cable Car", "Saffron Fields", "Delhi Shopping Bazaars"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
+        "image": "/images/gallery/14620.jpg",
         "pkgid": "114",
         "popular": false
       },
@@ -958,7 +958,7 @@
         "tag": "Grand Kerala",
         "tagColor": "green",
         "highlights": ["Kanyakumari Sunrise", "Alleppey Houseboat", "Munnar Tea Gardens", "Kovalam Beach"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg",
+        "image": "/images/gallery/12929.jpg",
         "pkgid": "2458",
         "popular": false
       },
@@ -974,7 +974,7 @@
         "tag": "Best Combo",
         "tagColor": "blue",
         "highlights": ["Gulmarg Skiing", "Gondola Cable Car", "Taj Mahal Agra", "Kashmir + North India"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
+        "image": "/images/gallery/14620.jpg",
         "pkgid": "121",
         "popular": false
       },
@@ -1006,7 +1006,7 @@
         "tag": "Scenic",
         "tagColor": "blue",
         "highlights": ["Kashmir Valley", "Dal Lake Houseboat", "Taj Mahal Sunrise", "Gulmarg Meadows"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
+        "image": "/images/gallery/14620.jpg",
         "pkgid": "2071",
         "popular": false
       },
@@ -1022,7 +1022,7 @@
         "tag": "Premium",
         "tagColor": "purple",
         "highlights": ["Dal Lake Houseboat", "Gulmarg Overnight", "Pahalgam Valley", "Private Tour"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
+        "image": "/images/gallery/14620.jpg",
         "pkgid": "2072",
         "popular": false
       },
@@ -1150,7 +1150,7 @@
         "tag": "Best Combo",
         "tagColor": "blue",
         "highlights": ["Kashmir Dal Lake", "Gulmarg Gondola", "Varanasi Ganga Aarti", "Domestic Flights Included"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
+        "image": "/images/gallery/14620.jpg",
         "pkgid": "2137",
         "popular": false
       },
@@ -1182,7 +1182,7 @@
         "tag": "Epic Journey",
         "tagColor": "purple",
         "highlights": ["Srinagar to Leh Highway", "Himalayan Mountain Passes", "Pangong Lake", "Postcard Landscapes"],
-        "image": "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
+        "image": "/images/gallery/14620.jpg",
         "pkgid": "2360",
         "popular": false
       }

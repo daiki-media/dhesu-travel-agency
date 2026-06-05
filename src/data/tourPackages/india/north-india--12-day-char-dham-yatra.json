@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "12 Days Char Dham Yatra from Malaysia | Dhesu Travel & Tours",
+    "description": "12-day Char Dham Yatra to Yamunotri, Gangotri, Kedarnath and Badrinath Himalayan shrines, private vehicle and yatra assistance. From RM5188 per person.",
+    "keywords": "12 Days Char Dham Yatra from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/12-day-char-dham-yatra",
+    "canonicalUrl": "/tours/india/north-india/12-day-char-dham-yatra",
+    "ogImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "pkgid": "2105"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "12 Days, Char Dham.",
+    "titleAccent": "The Four Sacred Himalayan Shrines.",
+    "intro": "The most revered pilgrimage in Hinduism. The Char Dham, the four sacred shrines of Yamunotri, Gangotri, Kedarnath and Badrinath, high in the Garhwal Himalayas. Twelve days of devotion, mountain roads and the source of the holy rivers.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "12 Days Char Dham Yatra",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Char Dham Yatra Kedarnath Badrinath Himalayan shrines"
+  },
+  "quickFacts": {
+    "duration": "12 Days / 11 Nights",
+    "startingPrice": "From RM5,188",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM6,226",
+    "saving": "Save RM2,075 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Guesthouse Stay (11 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Yatra Assistance"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (11-15 Days) RM85",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "12 Days Char Dham Yatra: The Full Picture",
+    "body": [
+      "The Char Dham Yatra is the holiest pilgrimage in Hinduism, visiting the four sacred shrines of the Garhwal Himalayas: Yamunotri, source of the Yamuna; Gangotri, source of the Ganges; Kedarnath, one of the twelve Jyotirlingas of Shiva; and Badrinath, sacred to Vishnu. Completing the circuit is the spiritual aspiration of a lifetime for many devotees.",
+      "This 12 day Char Dham package from Malaysia is arranged privately, beginning from Haridwar or Rishikesh and winding high into the mountains. The journey involves significant driving on mountain roads, and treks or pony rides to reach Yamunotri and Kedarnath. We provide yatra assistance throughout, with helicopter options available for Kedarnath. It is a demanding but deeply rewarding pilgrimage."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Kedarnath",
+        "body": "One of the twelve Jyotirlingas of Lord Shiva, set dramatically beneath snow peaks at over 3,500 metres, reached by a trek or pony ride (or helicopter). The most demanding and revered of the four shrines.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Kedarnath temple Himalayas"
+      },
+      {
+        "title": "Badrinath",
+        "body": "Sacred to Lord Vishnu, the colourful Badrinath temple sits in a stunning mountain setting near the Tibet border, with the Tapt Kund hot springs below.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Badrinath temple Garhwal Himalayas"
+      },
+      {
+        "title": "Yamunotri & Gangotri",
+        "body": "The sources of the holy Yamuna and Ganges rivers, high in the mountains, where the Char Dham pilgrimage begins amid glaciers, hot springs and dramatic scenery.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Gangotri source of the Ganges"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 12 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Haridwar / Rishikesh",
+        "meals": "No meals",
+        "description": "Met at Dehradun airport and transferred to Haridwar for the evening Ganga Aarti.",
+        "suggestedActivities": [
+          "Har Ki Pauri Ganga Aarti",
+          "Settle in",
+          "Yatra briefing"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "To Barkot",
+        "meals": "Breakfast",
+        "description": "Drive towards Yamunotri, overnight at Barkot.",
+        "suggestedActivities": [
+          "Scenic mountain drive",
+          "Kempty Falls",
+          "Overnight Barkot"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Yamunotri",
+        "meals": "Breakfast",
+        "description": "Trek or pony to Yamunotri, the first dham.",
+        "suggestedActivities": [
+          "Trek or pony from Janki Chatti",
+          "Yamunotri Temple",
+          "Surya Kund hot spring",
+          "Return to Barkot"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Barkot to Uttarkashi",
+        "meals": "Breakfast",
+        "description": "Drive towards Gangotri, overnight at Uttarkashi.",
+        "suggestedActivities": [
+          "Drive to Uttarkashi",
+          "Vishwanath Temple",
+          "Overnight Uttarkashi"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Gangotri",
+        "meals": "Breakfast",
+        "description": "Visit Gangotri, the source shrine of the Ganges.",
+        "suggestedActivities": [
+          "Drive to Gangotri",
+          "Gangotri Temple",
+          "Bhagirathi river",
+          "Return to Uttarkashi"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Uttarkashi to Guptkashi",
+        "meals": "Breakfast",
+        "description": "Long mountain drive towards Kedarnath.",
+        "suggestedActivities": [
+          "Scenic mountain drive",
+          "Tehri Dam viewpoint",
+          "Overnight Guptkashi"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "To Kedarnath",
+        "meals": "Breakfast",
+        "description": "Trek, pony or helicopter to Kedarnath; overnight near the shrine.",
+        "suggestedActivities": [
+          "Trek or pony from Gaurikund (or helicopter)",
+          "Kedarnath Temple darshan",
+          "Evening aarti",
+          "Overnight Kedarnath"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Kedarnath to Guptkashi",
+        "meals": "Breakfast",
+        "description": "Morning darshan, then descend.",
+        "suggestedActivities": [
+          "Morning Kedarnath darshan",
+          "Descend to Gaurikund",
+          "Drive to Guptkashi"
+        ]
+      },
+      {
+        "day": 9,
+        "title": "To Badrinath",
+        "meals": "Breakfast",
+        "description": "Drive to Badrinath, the fourth dham, near the Tibet border.",
+        "suggestedActivities": [
+          "Scenic drive via Joshimath",
+          "Badrinath Temple evening darshan",
+          "Tapt Kund hot spring"
+        ]
+      },
+      {
+        "day": 10,
+        "title": "Badrinath & Mana Village",
+        "meals": "Breakfast",
+        "description": "Morning darshan and the last village before Tibet.",
+        "suggestedActivities": [
+          "Morning Badrinath darshan",
+          "Mana, the last Indian village",
+          "Vyas Gufa and Bheem Pul",
+          "Begin descent"
+        ]
+      },
+      {
+        "day": 11,
+        "title": "Badrinath to Rishikesh",
+        "meals": "Breakfast",
+        "description": "Long scenic drive back down to Rishikesh.",
+        "suggestedActivities": [
+          "Descend via Devprayag",
+          "Confluence viewpoints",
+          "Evening in Rishikesh"
+        ]
+      },
+      {
+        "day": 12,
+        "title": "Depart",
+        "meals": "Breakfast",
+        "description": "Transfer to Dehradun or Delhi for your onward flight.",
+        "suggestedActivities": [
+          "Final Ganga blessing",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "Standard hotels and guesthouses or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM5188 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM5138 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM5088 per person"
+          }
+        ],
+        "fromPrice": "RM5188"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "Deluxe hotels where available or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM5688 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM5648 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM5608 per person"
+          }
+        ],
+        "fromPrice": "RM5688",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "Premium hotels where available or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM6488 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM6458 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM6428 per person"
+          }
+        ],
+        "fromPrice": "RM6488"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The Char Dham, Arranged With Care",
+    "body": "The Char Dham involves high altitude, mountain roads, treks and a narrow seasonal window. We handle the routing, the yatra assistance and helicopter options, with experienced mountain drivers. Dhesu has arranged Himalayan pilgrimages for many years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Char Dham Yatra from Malaysia",
+        "body": "The Char Dham Yatra is the holiest pilgrimage in Hinduism, visiting the four sacred Himalayan shrines of Yamunotri, Gangotri, Kedarnath and Badrinath. This 12 day package handles the demanding logistics so you can focus on the devotion.\n\nThe journey involves significant mountain driving and treks or pony rides to reach Yamunotri and Kedarnath, with helicopter options available. We provide yatra assistance throughout and use experienced mountain drivers.\n\nIt is a once-in-a-lifetime pilgrimage for devotees, demanding but profoundly rewarding."
+      },
+      {
+        "heading": "Season, Altitude and Preparation",
+        "body": "The Char Dham shrines open roughly from late April or May to October or November, closing for the harsh Himalayan winter. This narrow window is the only time the yatra can be done, so booking well ahead is essential.\n\nThe high altitude and treks make a reasonable level of fitness important, and we strongly advise consulting your doctor before travelling. Helicopter and pony options reduce the physical demands of the most difficult sections, such as Kedarnath."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Dehradun or Delhi Airport (DED / DEL). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "When is the Char Dham Yatra open?",
+        "answer": "The four shrines open roughly from late April or May to October or November, closing for the Himalayan winter. The exact dates vary each year with conditions. This narrow window is the only time the yatra can be undertaken, so book well in advance."
+      },
+      {
+        "question": "How physically demanding is the yatra?",
+        "answer": "It is demanding. There is significant mountain driving, and reaching Yamunotri and Kedarnath involves treks or pony rides at altitude. Helicopter options are available for Kedarnath. A reasonable level of fitness is important, and we advise consulting your doctor before travelling."
+      },
+      {
+        "question": "Are helicopter options available?",
+        "answer": "Yes. Helicopter services to Kedarnath, and helicopter-assisted Char Dham options, can reduce the physical demands and time involved. These are subject to availability and weather and carry additional cost. Let us know your preference when booking."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-11d-sacred-trails",
+      "name": "11 Days Sacred Trails of India",
+      "price": "From RM3,888",
+      "duration": "11D10N",
+      "slug": "north-india/11-day-sacred-trails",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-4d-delhi-haridwar-rishikesh",
+      "name": "4 Days Delhi, Haridwar & Rishikesh",
+      "price": "From RM988",
+      "duration": "4D3N",
+      "slug": "north-india/4-day-delhi-haridwar-rishikesh",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-sacred-triangle-varanasi-rishikesh",
+      "name": "6 Days India's Sacred Triangle",
+      "price": "From RM2,488",
+      "duration": "6D5N",
+      "slug": "north-india/6-day-sacred-triangle",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the Char Dham Yatra?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "12 Days Char Dham Yatra from Malaysia",
+    "description": "12-day Char Dham Yatra to Yamunotri, Gangotri, Kedarnath and Badrinath Himalayan shrines, private vehicle and yatra assistance. From RM5188 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/12-day-char-dham-yatra",
+    "startLocation": "Dehradun Airport",
+    "endLocation": "Dehradun Airport",
+    "duration": "P12D",
+    "offers": {
+      "price": "5188",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

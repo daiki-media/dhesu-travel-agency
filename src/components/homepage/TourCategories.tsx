@@ -16,52 +16,52 @@ const categories: Category[] = [
   {
     name: "Hiking",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Hiking",
-    image: "https://www.holidayidea.com.my/upload/gallery/14145.jpg",
+    image: "/images/gallery/14145.jpg",
   },
   {
     name: "Cruises",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Cruises",
-    image: "https://www.holidayidea.com.my/upload/gallery/15205.jpg",
+    image: "/images/gallery/15205.jpg",
   },
   {
     name: "Airbirds",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Airbirds",
-    image: "https://www.holidayidea.com.my/upload/gallery/14410.jpg",
+    image: "/images/gallery/14410.jpg",
   },
   {
     name: "Wildlife",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Wildlife",
-    image: "https://www.holidayidea.com.my/upload/gallery/3370.png",
+    image: "/images/gallery/3370.png",
   },
   {
     name: "Walking",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Walking",
-    image: "https://www.holidayidea.com.my/upload/gallery/14479.jpg",
+    image: "/images/gallery/14479.jpg",
   },
   {
     name: "Camping",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Camping",
-    image: "https://www.holidayidea.com.my/upload/gallery/3404.jpg",
+    image: "/images/gallery/3404.jpg",
   },
   {
     name: "Surfing",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Surfing",
-    image: "https://www.holidayidea.com.my/upload/gallery/15198.jpg",
+    image: "/images/gallery/15198.jpg",
   },
   {
     name: "Safari",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Safari",
-    image: "https://www.holidayidea.com.my/upload/gallery/14981.jpg",
+    image: "/images/gallery/14981.jpg",
   },
   {
     name: "Diving",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Diving",
-    image: "https://www.holidayidea.com.my/upload/gallery/10531.jpg",
+    image: "/images/gallery/10531.jpg",
   },
   {
     name: "Skiing",
     link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Skiing",
-    image: "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
+    image: "/images/gallery/14620.jpg",
   },
 ];
 

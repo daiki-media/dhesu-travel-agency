@@ -4,25 +4,32 @@ import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/homepage/Footer";
 import TourPackageDetailTemplate from "@/src/components/tours/TourPackageDetailTemplate";
-import { getTourPackage, tourPackageSlugs } from "@/src/data/tourPackages";
+import packageDetails, { getPackageDetail } from "@/src/data/tourPackages";
 
 type PageProps = {
   params: Promise<{ destination: string; packageSlug: string[] }>;
 };
 
 // Pre-render every registered package detail page at build time.
+// The registry is keyed by package slug, so we derive the `destination`
+// segment from each package's canonical URL — keeps it correct as more
+// countries (bali, thailand, ...) are added to the registry.
 export function generateStaticParams() {
-  return tourPackageSlugs.map((fullPath) => {
-    const [destination, ...packageSlug] = fullPath.split("/");
+  return Object.values(packageDetails).map((data) => {
+    const path = data.meta.canonicalUrl.replace(/^\/+tours\/+/, "");
+    const [destination, ...packageSlug] = path.split("/");
     return { destination, packageSlug };
   });
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { destination, packageSlug } = await params;
-  const data = getTourPackage(`${destination}/${packageSlug.join("/")}`);
+  const slug = packageSlug.join("/");
+  const data = getPackageDetail(slug);
 
-  if (!data) {
+  // Guard against cross-country slug reuse: only serve when the package's
+  // canonical URL actually belongs to this destination.
+  if (!data || data.meta.canonicalUrl !== `/tours/${destination}/${slug}`) {
     return { title: "Package Not Found | Dhesu Travel & Tours" };
   }
 
@@ -43,9 +50,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function TourPackageDetailPage({ params }: PageProps) {
   const { destination, packageSlug } = await params;
-  const data = getTourPackage(`${destination}/${packageSlug.join("/")}`);
+  const slug = packageSlug.join("/");
+  const data = getPackageDetail(slug);
 
-  if (!data) {
+  if (!data || data.meta.canonicalUrl !== `/tours/${destination}/${slug}`) {
     notFound();
   }
 

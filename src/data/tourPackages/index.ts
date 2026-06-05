@@ -1,25 +1,143 @@
+// Auto-generated data registry for India tour package detail pages.
+// Maps URL key '{destination}/{slug}' to its imported detail JSON.
+// Detail JSON filenames use '--' in place of '/' from the slug.
+
 import type { PackageDetailData } from "@/src/components/tours/TourPackageDetailTemplate";
 
+import eastIndia3DayKolkataHeritage from "./india/east-india--3-day-kolkata-heritage.json";
+import kashmir12DaySrinagarLehRoadTrip from "./india/kashmir--12-day-srinagar-leh-road-trip.json";
+import kashmir4DaySuperSaver from "./india/kashmir--4-day-super-saver.json";
+import kashmir5DayParadiseDelhiShopping from "./india/kashmir--5-day-paradise-delhi-shopping.json";
+import kashmir5DaySkiResortCableCar from "./india/kashmir--5-day-ski-resort-cable-car.json";
+import kashmir5DaySkiTajMahal from "./india/kashmir--5-day-ski-taj-mahal.json";
+import kashmir6DayBestOfKashmirTaj from "./india/kashmir--6-day-best-of-kashmir-taj.json";
+import kashmir7DayExclusiveEscape from "./india/kashmir--7-day-exclusive-escape.json";
+import kashmir7DayVaranasiKashmir from "./india/kashmir--7-day-varanasi-kashmir.json";
+import kerala3DayCultureKathakali from "./india/kerala--3-day-culture-kathakali.json";
+import kerala4DayExplore from "./india/kerala--4-day-explore.json";
+import kerala5DayCochinAlleppeyCoimbatore from "./india/kerala--5-day-cochin-alleppey-coimbatore.json";
+import kerala5DayMostImportantPlaces from "./india/kerala--5-day-most-important-places.json";
+import kerala6DayBackwatersOvernight from "./india/kerala--6-day-backwaters-overnight.json";
+import kerala6DayBeautifulThekkady from "./india/kerala--6-day-beautiful-thekkady.json";
+import kerala8DayBestOf from "./india/kerala--8-day-best-of.json";
+import kerala8DayCompleteCircuit from "./india/kerala--8-day-complete-circuit.json";
+import kerala9DayKanyakumari from "./india/kerala--9-day-kanyakumari.json";
+import northIndia10DayGoldenTriangleManali from "./india/north-india--10-day-golden-triangle-manali.json";
+import northIndia11DayBuddhistPilgrimage from "./india/north-india--11-day-buddhist-pilgrimage.json";
+import northIndia11DaySacredTrails from "./india/north-india--11-day-sacred-trails.json";
+import northIndia12DayCharDhamYatra from "./india/north-india--12-day-char-dham-yatra.json";
+import northIndia3DayAmritsarGoldenTemple from "./india/north-india--3-day-amritsar-golden-temple.json";
+import northIndia3DayAyodhya from "./india/north-india--3-day-ayodhya.json";
+import northIndia3DayVaranasiGangaAarti from "./india/north-india--3-day-varanasi-ganga-aarti.json";
+import northIndia4DayDelhiHaridwarRishikesh from "./india/north-india--4-day-delhi-haridwar-rishikesh.json";
+import northIndia4DayJaipur from "./india/north-india--4-day-jaipur.json";
+import northIndia4DayTajMahalAgra from "./india/north-india--4-day-taj-mahal-agra.json";
+import northIndia4DayVaranasiBest from "./india/north-india--4-day-varanasi-best.json";
+import northIndia4DayVaranasiFlights from "./india/north-india--4-day-varanasi-flights.json";
+import northIndia5DayGoldenTriangle from "./india/north-india--5-day-golden-triangle.json";
+import northIndia5DayGoldenTriangleMuslim from "./india/north-india--5-day-golden-triangle-muslim.json";
+import northIndia5DayShimlaChandigarh from "./india/north-india--5-day-shimla-chandigarh.json";
+import northIndia5DayVaranasiAyodhya from "./india/north-india--5-day-varanasi-ayodhya.json";
+import northIndia6DayAmritsarDharamsala from "./india/north-india--6-day-amritsar-dharamsala.json";
+import northIndia6DayManali from "./india/north-india--6-day-manali.json";
+import northIndia6DaySacredTriangle from "./india/north-india--6-day-sacred-triangle.json";
+import northIndia7DayGoldenTriangleAmritsar from "./india/north-india--7-day-golden-triangle-amritsar.json";
+import northIndia7DayGoldenTriangleComfort from "./india/north-india--7-day-golden-triangle-comfort.json";
+import northIndia7DayLadakh from "./india/north-india--7-day-ladakh.json";
+import northIndia7DaySikkim from "./india/north-india--7-day-sikkim.json";
+import northIndia8DayGoldenTriangleKashmir from "./india/north-india--8-day-golden-triangle-kashmir.json";
+import northIndia9DayGoldenTriangleBestKashmir from "./india/north-india--9-day-golden-triangle-best-kashmir.json";
+import northIndia9DayGoldenTriangleShimla from "./india/north-india--9-day-golden-triangle-shimla.json";
+import northIndia9DayRajasthanDesertSafari from "./india/north-india--9-day-rajasthan-desert-safari.json";
+import northIndia9DayShimlaManali from "./india/north-india--9-day-shimla-manali.json";
+import southIndia3DayBangaloreHighlights from "./india/south-india--3-day-bangalore-highlights.json";
 import chennaiSuperSaver from "./india-package-detail-chennai-super-saver.json";
+import southIndia3DayHyderabadHeritage from "./india/south-india--3-day-hyderabad-heritage.json";
+import southIndia4DayHyderabadHeritageEscape from "./india/south-india--4-day-hyderabad-heritage-escape.json";
+import southIndia4DayNavagrahaTemples from "./india/south-india--4-day-navagraha-temples.json";
+import southIndia4DayTirupatiTemples from "./india/south-india--4-day-tirupati-temples.json";
+import southIndia5DayBangaloreMysoreOoty from "./india/south-india--5-day-bangalore-mysore-ooty.json";
+import southIndia5DayChennaiMahabalipuram from "./india/south-india--5-day-chennai-mahabalipuram.json";
+import southIndia6DayArupadaiVeeduTemples from "./india/south-india--6-day-arupadai-veedu-temples.json";
+import southIndia7DayArupadaiNavagraha from "./india/south-india--7-day-arupadai-navagraha.json";
+import southIndia7DayDiscover from "./india/south-india--7-day-discover.json";
+import southIndia7DayTamilNaduTour from "./india/south-india--7-day-tamil-nadu-tour.json";
+import southIndia9DayBestOf from "./india/south-india--9-day-best-of.json";
+import westIndia3DayShirdiPilgrimage from "./india/west-india--3-day-shirdi-pilgrimage.json";
+import westIndia4DayMumbaiBollywood from "./india/west-india--4-day-mumbai-bollywood.json";
+import westIndia4DayShirdiNashikShani from "./india/west-india--4-day-shirdi-nashik-shani.json";
+import westIndia5DayMumbaiGoa from "./india/west-india--5-day-mumbai-goa.json";
 
-/**
- * Registry of individual tour package detail pages.
- *
- * The key is the FULL route path after `/tours/`, i.e. `{destination}/{packageSlug}`.
- * Package slugs are two levels deep (e.g. "south-india/3-day-chennai-super-saver"),
- * so a key looks like "india/south-india/3-day-chennai-super-saver".
- *
- * To add a package: create its JSON file, add one import above and one line below.
- */
-export const tourPackages: Record<string, PackageDetailData> = {
-  "india/south-india/3-day-chennai-super-saver": chennaiSuperSaver as PackageDetailData,
+const packageDetails: Record<string, PackageDetailData> = {
+  "east-india/3-day-kolkata-heritage": eastIndia3DayKolkataHeritage as PackageDetailData,
+  "kashmir/12-day-srinagar-leh-road-trip": kashmir12DaySrinagarLehRoadTrip as PackageDetailData,
+  "kashmir/4-day-super-saver": kashmir4DaySuperSaver as PackageDetailData,
+  "kashmir/5-day-paradise-delhi-shopping": kashmir5DayParadiseDelhiShopping as PackageDetailData,
+  "kashmir/5-day-ski-resort-cable-car": kashmir5DaySkiResortCableCar as PackageDetailData,
+  "kashmir/5-day-ski-taj-mahal": kashmir5DaySkiTajMahal as PackageDetailData,
+  "kashmir/6-day-best-of-kashmir-taj": kashmir6DayBestOfKashmirTaj as PackageDetailData,
+  "kashmir/7-day-exclusive-escape": kashmir7DayExclusiveEscape as PackageDetailData,
+  "kashmir/7-day-varanasi-kashmir": kashmir7DayVaranasiKashmir as PackageDetailData,
+  "kerala/3-day-culture-kathakali": kerala3DayCultureKathakali as PackageDetailData,
+  "kerala/4-day-explore": kerala4DayExplore as PackageDetailData,
+  "kerala/5-day-cochin-alleppey-coimbatore": kerala5DayCochinAlleppeyCoimbatore as PackageDetailData,
+  "kerala/5-day-most-important-places": kerala5DayMostImportantPlaces as PackageDetailData,
+  "kerala/6-day-backwaters-overnight": kerala6DayBackwatersOvernight as PackageDetailData,
+  "kerala/6-day-beautiful-thekkady": kerala6DayBeautifulThekkady as PackageDetailData,
+  "kerala/8-day-best-of": kerala8DayBestOf as PackageDetailData,
+  "kerala/8-day-complete-circuit": kerala8DayCompleteCircuit as PackageDetailData,
+  "kerala/9-day-kanyakumari": kerala9DayKanyakumari as PackageDetailData,
+  "north-india/10-day-golden-triangle-manali": northIndia10DayGoldenTriangleManali as PackageDetailData,
+  "north-india/11-day-buddhist-pilgrimage": northIndia11DayBuddhistPilgrimage as PackageDetailData,
+  "north-india/11-day-sacred-trails": northIndia11DaySacredTrails as PackageDetailData,
+  "north-india/12-day-char-dham-yatra": northIndia12DayCharDhamYatra as PackageDetailData,
+  "north-india/3-day-amritsar-golden-temple": northIndia3DayAmritsarGoldenTemple as PackageDetailData,
+  "north-india/3-day-ayodhya": northIndia3DayAyodhya as PackageDetailData,
+  "north-india/3-day-varanasi-ganga-aarti": northIndia3DayVaranasiGangaAarti as PackageDetailData,
+  "north-india/4-day-delhi-haridwar-rishikesh": northIndia4DayDelhiHaridwarRishikesh as PackageDetailData,
+  "north-india/4-day-jaipur": northIndia4DayJaipur as PackageDetailData,
+  "north-india/4-day-taj-mahal-agra": northIndia4DayTajMahalAgra as PackageDetailData,
+  "north-india/4-day-varanasi-best": northIndia4DayVaranasiBest as PackageDetailData,
+  "north-india/4-day-varanasi-flights": northIndia4DayVaranasiFlights as PackageDetailData,
+  "north-india/5-day-golden-triangle": northIndia5DayGoldenTriangle as PackageDetailData,
+  "north-india/5-day-golden-triangle-muslim": northIndia5DayGoldenTriangleMuslim as PackageDetailData,
+  "north-india/5-day-shimla-chandigarh": northIndia5DayShimlaChandigarh as PackageDetailData,
+  "north-india/5-day-varanasi-ayodhya": northIndia5DayVaranasiAyodhya as PackageDetailData,
+  "north-india/6-day-amritsar-dharamsala": northIndia6DayAmritsarDharamsala as PackageDetailData,
+  "north-india/6-day-manali": northIndia6DayManali as PackageDetailData,
+  "north-india/6-day-sacred-triangle": northIndia6DaySacredTriangle as PackageDetailData,
+  "north-india/7-day-golden-triangle-amritsar": northIndia7DayGoldenTriangleAmritsar as PackageDetailData,
+  "north-india/7-day-golden-triangle-comfort": northIndia7DayGoldenTriangleComfort as PackageDetailData,
+  "north-india/7-day-ladakh": northIndia7DayLadakh as PackageDetailData,
+  "north-india/7-day-sikkim": northIndia7DaySikkim as PackageDetailData,
+  "north-india/8-day-golden-triangle-kashmir": northIndia8DayGoldenTriangleKashmir as PackageDetailData,
+  "north-india/9-day-golden-triangle-best-kashmir": northIndia9DayGoldenTriangleBestKashmir as PackageDetailData,
+  "north-india/9-day-golden-triangle-shimla": northIndia9DayGoldenTriangleShimla as PackageDetailData,
+  "north-india/9-day-rajasthan-desert-safari": northIndia9DayRajasthanDesertSafari as PackageDetailData,
+  "north-india/9-day-shimla-manali": northIndia9DayShimlaManali as PackageDetailData,
+  "south-india/3-day-bangalore-highlights": southIndia3DayBangaloreHighlights as PackageDetailData,
+  "south-india/3-day-chennai-super-saver": chennaiSuperSaver as PackageDetailData,
+  "south-india/3-day-hyderabad-heritage": southIndia3DayHyderabadHeritage as PackageDetailData,
+  "south-india/4-day-hyderabad-heritage-escape": southIndia4DayHyderabadHeritageEscape as PackageDetailData,
+  "south-india/4-day-navagraha-temples": southIndia4DayNavagrahaTemples as PackageDetailData,
+  "south-india/4-day-tirupati-temples": southIndia4DayTirupatiTemples as PackageDetailData,
+  "south-india/5-day-bangalore-mysore-ooty": southIndia5DayBangaloreMysoreOoty as PackageDetailData,
+  "south-india/5-day-chennai-mahabalipuram": southIndia5DayChennaiMahabalipuram as PackageDetailData,
+  "south-india/6-day-arupadai-veedu-temples": southIndia6DayArupadaiVeeduTemples as PackageDetailData,
+  "south-india/7-day-arupadai-navagraha": southIndia7DayArupadaiNavagraha as PackageDetailData,
+  "south-india/7-day-discover": southIndia7DayDiscover as PackageDetailData,
+  "south-india/7-day-tamil-nadu-tour": southIndia7DayTamilNaduTour as PackageDetailData,
+  "south-india/9-day-best-of": southIndia9DayBestOf as PackageDetailData,
+  "west-india/3-day-shirdi-pilgrimage": westIndia3DayShirdiPilgrimage as PackageDetailData,
+  "west-india/4-day-mumbai-bollywood": westIndia4DayMumbaiBollywood as PackageDetailData,
+  "west-india/4-day-shirdi-nashik-shani": westIndia4DayShirdiNashikShani as PackageDetailData,
+  "west-india/5-day-mumbai-goa": westIndia5DayMumbaiGoa as PackageDetailData,
 };
 
-export const tourPackageSlugs = Object.keys(tourPackages);
+export const packageSlugs = Object.keys(packageDetails);
 
-/** Look up a package by its full route path, e.g. "india/south-india/3-day-chennai-super-saver". */
-export function getTourPackage(fullPath: string): PackageDetailData | undefined {
-  return tourPackages[fullPath];
+export function getPackageDetail(slug: string): PackageDetailData | null {
+  return packageDetails[slug] ?? null;
 }
 
-export type { PackageDetailData } from "@/src/components/tours/TourPackageDetailTemplate";
+export default packageDetails;

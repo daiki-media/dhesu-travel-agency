@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "title": "5 Days Cochin, Alleppey & Coimbatore from Malaysia | Dhesu Travel & Tours",
+    "description": "5-day Kerala tour with Cochin, Alleppey houseboat, Coimbatore and Western Ghats, private vehicle and guide. From RM1388 per person.",
+    "keywords": "5 Days Cochin, Alleppey & Coimbatore from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
+    "slug": "kerala/5-day-cochin-alleppey-coimbatore",
+    "canonicalUrl": "/tours/india/kerala/5-day-cochin-alleppey-coimbatore",
+    "ogImage": "/images/gallery/12929.jpg",
+    "pkgid": "2459"
+  },
+  "hero": {
+    "badge": "Kerala",
+    "title": "5 Days, Kerala & the Hills.",
+    "titleAccent": "Backwaters, Spice Country and Cool Coimbatore.",
+    "intro": "From the harbour town of Cochin to a houseboat night in Alleppey and on to the gateway hills around Coimbatore. Five days that blend Kerala's backwaters with the cool, green edge of the Western Ghats.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "5 Days Cochin, Alleppey & Coimbatore",
+        "href": null
+      }
+    ],
+    "heroImage": "/images/gallery/12929.jpg",
+    "heroImageAlt": "Kerala backwaters and Western Ghats"
+  },
+  "quickFacts": {
+    "duration": "5 Days / 4 Nights",
+    "startingPrice": "From RM1,388",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,666",
+    "saving": "Save RM555 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (4 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Overnight Houseboat Cruise"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "5 Days Cochin, Alleppey & Coimbatore: The Full Picture",
+    "body": [
+      "This 5 day journey strings together three distinct sides of the region: the colonial harbour of Cochin, the serene backwaters of Alleppey, and Coimbatore, the cotton city at the foot of the Western Ghats that serves as a gateway to hill country.",
+      "Arranged privately from Malaysia, the trip pairs an overnight Alleppey houseboat with the heritage of Fort Kochi and the cooler, greener landscapes near Coimbatore. Your own vehicle and driver guide make the transitions smooth and the pace relaxed."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Alleppey Backwater Houseboat",
+        "body": "Spend a night on a private houseboat drifting through the Alleppey backwaters, with fresh Kerala meals cooked onboard and village life floating past.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Alleppey houseboat Kerala"
+      },
+      {
+        "title": "Fort Kochi Heritage",
+        "body": "The old harbour quarter's Chinese fishing nets, colonial churches and spice markets make a characterful start to the trip.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Fort Kochi heritage"
+      },
+      {
+        "title": "Coimbatore & the Western Ghats",
+        "body": "Coimbatore, the gateway to the Nilgiri hills, offers temples, textile heritage and the cool green edge of the Western Ghats.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Coimbatore Western Ghats"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 5 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Cochin",
+        "meals": "No meals",
+        "description": "Met at Cochin airport and transferred to your hotel. Evening at the fishing nets.",
+        "suggestedActivities": [
+          "Sunset fishing nets",
+          "Fort Kochi walk",
+          "Seafood dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Cochin to Alleppey Houseboat",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "Morning Kochi sights, then board your Alleppey houseboat.",
+        "suggestedActivities": [
+          "Fort Kochi heritage",
+          "Drive to Alleppey",
+          "Board houseboat",
+          "Backwater cruise with meals"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Alleppey to Coimbatore",
+        "meals": "Breakfast",
+        "description": "Morning cruise, then a scenic drive to Coimbatore.",
+        "suggestedActivities": [
+          "Morning backwater cruise",
+          "Scenic drive to Coimbatore",
+          "Evening at leisure"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Coimbatore Sightseeing",
+        "meals": "Breakfast",
+        "description": "Explore Coimbatore's temples and surroundings at the foot of the Ghats.",
+        "suggestedActivities": [
+          "Marudhamalai Temple",
+          "Adiyogi Shiva statue (Isha)",
+          "Textile shopping",
+          "Optional hill viewpoint"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Depart Coimbatore",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to Coimbatore airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1388 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1338 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1288 per person"
+          }
+        ],
+        "fromPrice": "RM1388"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1588 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1548 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1508 per person"
+          }
+        ],
+        "fromPrice": "RM1588",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1988 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1958 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1928 per person"
+          }
+        ],
+        "fromPrice": "RM1988"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Kerala Plus the Ghats, Linked Seamlessly",
+    "body": "Combining the backwaters with Coimbatore takes good routing and timing. We link Cochin, Alleppey and Coimbatore with a private vehicle so the journey feels effortless. Dhesu has run South India tours since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Cochin, Alleppey & Coimbatore Tour from Malaysia",
+        "body": "This 5 day trip is ideal for travellers who want Kerala's famous backwaters plus a taste of the cooler hill country gateway at Coimbatore. The route blends heritage, a houseboat night and green Western Ghats scenery.\n\nA private vehicle and driver guide make the multi-stop journey smooth and relaxed, with the Alleppey houseboat as the clear highlight.\n\nFor more hill country and tea estates, see our Munnar and Thekkady Kerala packages."
+      },
+      {
+        "heading": "Why Add Coimbatore to a Kerala Trip",
+        "body": "Coimbatore sits at the foot of the Western Ghats and acts as a gateway to the Nilgiri hills. It is known for its textile industry, temples like Marudhamalai, and the towering Adiyogi Shiva statue at the Isha Yoga Center.\n\nIt also offers a convenient airport, making it a practical end point for a Kerala loop that includes the backwaters."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Cochin or Coimbatore Airport (COK / CJB). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "September to March offers the most pleasant weather across both Kerala and the Coimbatore hills. The monsoon brings lush greenery but heavy rain. Coimbatore is generally cooler than coastal Kerala thanks to its position near the Ghats."
+      },
+      {
+        "question": "Does the trip start and end in different cities?",
+        "answer": "It typically begins in Cochin and ends in Coimbatore, both of which have airports. We arrange flights and transfers to suit. Let us know your preferred routing when booking."
+      },
+      {
+        "question": "Is the houseboat included?",
+        "answer": "Yes. The package includes a private overnight houseboat on the Alleppey backwaters, with a crew cooking fresh Kerala meals onboard, which is the highlight of the trip for most travellers."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-4d-kerala-explore",
+      "name": "4 Days Explore Kerala: God's Own Country",
+      "price": "From RM988",
+      "duration": "4D3N",
+      "slug": "kerala/4-day-explore",
+      "image": "/images/gallery/12929.jpg"
+    },
+    {
+      "id": "india-6d-kerala-thekkady",
+      "name": "6 Days Beautiful Kerala + Thekkady",
+      "price": "From RM1,928",
+      "duration": "6D5N",
+      "slug": "kerala/6-day-beautiful-thekkady",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-8d-kerala-munnar-thekkady",
+      "name": "8 Days Best of Kerala: Munnar & Thekkady",
+      "price": "From RM2,398",
+      "duration": "8D7N",
+      "slug": "kerala/8-day-best-of",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Kerala and the Ghats?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/12929.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "5 Days Cochin Alleppey Coimbatore Tour from Malaysia",
+    "description": "5-day Kerala tour with Cochin, Alleppey houseboat, Coimbatore and Western Ghats, private vehicle and guide. From RM1388 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kerala/5-day-cochin-alleppey-coimbatore",
+    "startLocation": "Cochin International Airport",
+    "endLocation": "Coimbatore International Airport",
+    "duration": "P5D",
+    "offers": {
+      "price": "1388",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

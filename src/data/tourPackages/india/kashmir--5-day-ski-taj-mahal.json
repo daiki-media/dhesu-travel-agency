@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "title": "5 Days Kashmir Ski + Taj Mahal from Malaysia | Dhesu Travel & Tours",
+    "description": "5-day tour with Kashmir Gulmarg gondola, Dal Lake houseboat and Taj Mahal at sunrise, domestic flight included. From RM2798 per person.",
+    "keywords": "5 Days Kashmir Ski + Taj Mahal from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
+    "slug": "kashmir/5-day-ski-taj-mahal",
+    "canonicalUrl": "/tours/india/kashmir/5-day-ski-taj-mahal",
+    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "pkgid": "121"
+  },
+  "hero": {
+    "badge": "Kashmir",
+    "title": "5 Days, Kashmir & the Taj.",
+    "titleAccent": "Snowy Peaks and India's Greatest Monument.",
+    "intro": "Two of India's absolute icons in one trip: the snow and meadows of Kashmir's Gulmarg, and the Taj Mahal at sunrise. Mountains and marble, paradise and poetry, linked by a quick domestic flight.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "5 Days Kashmir Ski + Taj Mahal",
+        "href": null
+      }
+    ],
+    "heroImage": "/images/gallery/14620.jpg",
+    "heroImageAlt": "Kashmir Gulmarg snow and Taj Mahal combination"
+  },
+  "quickFacts": {
+    "duration": "5 Days / 4 Nights",
+    "startingPrice": "From RM2,798",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM3,358",
+    "saving": "Save RM1,119 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (4 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Domestic Flight Srinagar-Delhi"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Meals (as itinerary)"
+      },
+      {
+        "icon": "car",
+        "label": "Guided Tours"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "transfer",
+        "label": "Domestic Flights"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "5 Days Kashmir Ski + Taj Mahal: The Full Picture",
+    "body": [
+      "This trip pairs the two experiences most travellers dream of in India: the alpine beauty of Kashmir and the Taj Mahal. You begin in the Srinagar valley with Dal Lake and the Gulmarg gondola, then fly south to see the Taj Mahal at sunrise, with a taste of Delhi too.",
+      "Arranged privately from Malaysia, this 5 day Kashmir and Taj Mahal package includes the domestic flight and a private vehicle with driver guide at each end. It is the ideal combination for a first big India trip, capturing both the mountains and the country's most famous monument."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "The Gulmarg Gondola",
+        "body": "One of the highest cable cars in the world, rising towards the Apharwat peak with stunning views over snow and meadow. World-class skiing in winter.",
+        "image": "/images/gallery/14620.jpg",
+        "imageAlt": "Gulmarg gondola Kashmir snow"
+      },
+      {
+        "title": "The Taj Mahal at Sunrise",
+        "body": "See the Taj Mahal glow at dawn, the white marble shifting through pink and gold. One of travel's truly unforgettable moments.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Taj Mahal sunrise Agra"
+      },
+      {
+        "title": "Dal Lake & a Houseboat Night",
+        "body": "A shikara ride and a night on a traditional Dal Lake houseboat, framed by the gardens and peaks of the Srinagar valley.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Dal Lake houseboat Srinagar"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 5 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar, Houseboat",
+        "meals": "No meals",
+        "description": "Met at Srinagar airport and transferred to your Dal Lake houseboat. Evening shikara ride.",
+        "suggestedActivities": [
+          "Check in to houseboat",
+          "Evening shikara ride",
+          "Sunset on Dal Lake"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Gulmarg Excursion",
+        "meals": "Breakfast",
+        "description": "Drive to Gulmarg for the gondola and mountain scenery.",
+        "suggestedActivities": [
+          "Drive to Gulmarg",
+          "Gulmarg Gondola",
+          "Meadow walks",
+          "Return to Srinagar"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Fly Srinagar to Delhi, Drive to Agra",
+        "meals": "Breakfast",
+        "description": "Domestic flight to Delhi, then drive to Agra for the night.",
+        "suggestedActivities": [
+          "Flight to Delhi",
+          "Drive to Agra",
+          "Evening at leisure"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Taj Mahal Sunrise, Agra Fort, Delhi",
+        "meals": "Breakfast",
+        "description": "Sunrise at the Taj, Agra Fort, then back to Delhi for sightseeing.",
+        "suggestedActivities": [
+          "Taj Mahal at sunrise",
+          "Agra Fort",
+          "Drive to Delhi",
+          "India Gate and Qutub Minar"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Depart Delhi",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2798 per person"
+          }
+        ],
+        "fromPrice": "RM2798"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM3198 per person"
+          }
+        ],
+        "fromPrice": "RM3198",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM3898 per person"
+          }
+        ],
+        "fromPrice": "RM3898"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Mountains and Marble, Perfectly Linked",
+    "body": "Pairing Kashmir with the Taj means coordinating a flight and timing the Taj at sunrise. We handle the logistics so two bucket-list experiences flow into one smooth trip. Dhesu has arranged India tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Kashmir & Taj Mahal Tour from Malaysia",
+        "body": "This 5 day package combines two of India's greatest experiences: the alpine beauty of Kashmir and the Taj Mahal at sunrise. The domestic flight links the valley and the plains efficiently.\n\nYou get the Gulmarg gondola, Dal Lake and a houseboat night, then the Taj Mahal, Agra Fort and a taste of Delhi. It is the ultimate first-time India combination.\n\nA private vehicle and driver guide at each end ensure smooth, flexible travel throughout."
+      },
+      {
+        "heading": "Timing the Taj Mahal",
+        "body": "We always aim for a sunrise visit to the Taj Mahal, when the light is softest and the crowds smallest. The marble appears to change colour through the early hours, a magical sight.\n\nThe Taj is closed on Fridays, so we plan your itinerary around that. After the snow and meadows of Kashmir, the contrast of the Taj's marble perfection is striking."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Srinagar and Delhi Airports (SXR / DEL). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "Is the domestic flight included?",
+        "answer": "Yes. This package includes the domestic flight from Srinagar to Delhi, linking the Kashmir valley with Agra and the Taj Mahal. International flights are not included."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "April to October is ideal for Kashmir, while October to March is best for Agra and Delhi. Spring and autumn offer good weather in both regions. Winter brings snow to Gulmarg and the most atmospheric (if occasionally misty) light at the Taj."
+      },
+      {
+        "question": "Is the Gulmarg gondola included?",
+        "answer": "The package includes the Gulmarg excursion. The gondola ticket has a separate cost, which we can include or advise on. We confirm all inclusions when you book and recommend timing for the clearest mountain views."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-5d-kashmir-ski-resort",
+      "name": "5 Days Kashmir Ski Resort + Cable Car",
+      "price": "From RM2,388",
+      "duration": "5D4N",
+      "slug": "kashmir/5-day-ski-resort-cable-car",
+      "image": "/images/gallery/14620.jpg"
+    },
+    {
+      "id": "india-6d-kashmir-taj-mahal",
+      "name": "6 Days Best of Kashmir + Taj Mahal",
+      "price": "From RM3,118",
+      "duration": "6D5N",
+      "slug": "kashmir/6-day-best-of-kashmir-taj",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-8d-golden-triangle-kashmir",
+      "name": "8 Days Golden Triangle + Kashmir",
+      "price": "From RM3,688",
+      "duration": "8D7N",
+      "slug": "north-india/8-day-golden-triangle-kashmir",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Kashmir and the Taj?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "5 Days Kashmir Ski Taj Mahal Tour from Malaysia",
+    "description": "5-day tour with Kashmir Gulmarg gondola, Dal Lake houseboat and Taj Mahal at sunrise, domestic flight included. From RM2798 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kashmir/5-day-ski-taj-mahal",
+    "startLocation": "Sheikh ul-Alam International Airport",
+    "endLocation": "Indira Gandhi International Airport",
+    "duration": "P5D",
+    "offers": {
+      "price": "2798",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

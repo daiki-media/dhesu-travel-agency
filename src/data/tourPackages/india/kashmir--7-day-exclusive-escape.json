@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "title": "7 Days Kashmir Exclusive Escape from Malaysia | Dhesu Travel & Tours",
+    "description": "7-day complete Kashmir tour with Srinagar, Sonamarg, Gulmarg, Pahalgam, Dal Lake houseboat and shikara. From RM3288 per person.",
+    "keywords": "7 Days Kashmir Exclusive Escape from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
+    "slug": "kashmir/7-day-exclusive-escape",
+    "canonicalUrl": "/tours/india/kashmir/7-day-exclusive-escape",
+    "ogImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+    "pkgid": "2072"
+  },
+  "hero": {
+    "badge": "Kashmir",
+    "title": "7 Days in Kashmir.",
+    "titleAccent": "The Whole Valley, Slowly and in Style.",
+    "intro": "A full week to lose yourself in paradise. Srinagar, Gulmarg, Pahalgam and Sonamarg, with houseboat nights and time to breathe. The most complete and unhurried way to experience the Kashmir valley.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "7 Days Kashmir Exclusive Escape",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Kashmir valley exclusive escape Sonamarg meadow"
+  },
+  "quickFacts": {
+    "duration": "7 Days / 6 Nights",
+    "startingPrice": "From RM3,288",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM3,946",
+    "saving": "Save RM1,315 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (6 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Shikara Ride on Dal Lake"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "7 Days Kashmir Exclusive Escape: The Full Picture",
+    "body": [
+      "Seven days is the luxury of time in Kashmir. This exclusive escape covers all four of the valley's great destinations: Srinagar with its Dal Lake and gardens, Gulmarg with its gondola, Pahalgam with its alpine valleys, and Sonamarg, the meadow of gold, gateway to glaciers and the Himalayas.",
+      "Arranged privately from Malaysia, this 7 day Kashmir package is for travellers who want to experience the valley fully and at a relaxed pace, with houseboat nights, mountain excursions and time simply to enjoy the scenery. Your own vehicle and driver guide are with you throughout."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Sonamarg, the Meadow of Gold",
+        "body": "Often missed on shorter trips, Sonamarg is a stunning meadow surrounded by glaciers and snow peaks, the gateway to the higher Himalayas and a highlight of a longer Kashmir tour.",
+        "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&auto=format&fit=crop",
+        "imageAlt": "Sonamarg meadow Kashmir glaciers"
+      },
+      {
+        "title": "Gulmarg & Pahalgam",
+        "body": "The gondola at Gulmarg and the alpine valleys of Pahalgam, both included with time to savour them rather than rush.",
+        "image": "/images/gallery/14620.jpg",
+        "imageAlt": "Gulmarg and Pahalgam Kashmir"
+      },
+      {
+        "title": "Dal Lake Houseboat Living",
+        "body": "Houseboat nights and shikara rides on Srinagar's Dal Lake, with the Mughal gardens and floating markets all around.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Dal Lake houseboat Kashmir"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 7 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar, Houseboat",
+        "meals": "No meals",
+        "description": "Met at Srinagar airport and transferred to your Dal Lake houseboat. Evening shikara ride.",
+        "suggestedActivities": [
+          "Check in to houseboat",
+          "Evening shikara ride",
+          "Sunset on Dal Lake"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Srinagar Sightseeing",
+        "meals": "Breakfast",
+        "description": "The Mughal gardens and old city of Srinagar.",
+        "suggestedActivities": [
+          "Shalimar Bagh and Nishat Bagh",
+          "Shankaracharya Temple",
+          "Old city and handicrafts"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Sonamarg Excursion",
+        "meals": "Breakfast",
+        "description": "A full day at the meadow of gold.",
+        "suggestedActivities": [
+          "Drive to Sonamarg",
+          "Thajiwas Glacier (pony ride optional)",
+          "Meadow walks",
+          "Return to Srinagar"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Srinagar to Gulmarg",
+        "meals": "Breakfast",
+        "description": "Drive to Gulmarg and overnight in the resort.",
+        "suggestedActivities": [
+          "Drive to Gulmarg",
+          "Gulmarg Gondola",
+          "Meadow walks",
+          "Overnight Gulmarg"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Gulmarg to Pahalgam",
+        "meals": "Breakfast",
+        "description": "Scenic drive to Pahalgam and overnight.",
+        "suggestedActivities": [
+          "Drive to Pahalgam",
+          "Betaab and Aru Valleys",
+          "Lidder river",
+          "Overnight Pahalgam"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Pahalgam to Srinagar",
+        "meals": "Breakfast",
+        "description": "More of Pahalgam, then return to Srinagar.",
+        "suggestedActivities": [
+          "Chandanwari (optional)",
+          "Return to Srinagar",
+          "Final shopping"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Depart Srinagar",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM3288 per person"
+          }
+        ],
+        "fromPrice": "RM3288"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM3688 per person"
+          }
+        ],
+        "fromPrice": "RM3688",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM4488 per person"
+          }
+        ],
+        "fromPrice": "RM4488"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The Whole Valley, at Leisure",
+    "body": "Seven days lets you reach Sonamarg and overnight in the resorts, experiencing Kashmir the way few visitors do. We craft the pace so the valley unfolds slowly. Dhesu has arranged Kashmir tours for many years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Kashmir Exclusive Escape from Malaysia",
+        "body": "This 7 day package is the most complete Kashmir tour we offer, covering all four of the valley's great destinations at a relaxed, exclusive pace.\n\nThe addition of Sonamarg, often missed on shorter trips, and overnight stays in Gulmarg and Pahalgam, mean you experience the valley far more deeply than a quick visit allows.\n\nFor travellers who want paradise without rushing, this is the ideal Kashmir itinerary."
+      },
+      {
+        "heading": "Sonamarg and the Higher Himalayas",
+        "body": "Sonamarg, the meadow of gold, is one of Kashmir's most beautiful spots, surrounded by glaciers and towering peaks. It is the gateway to the higher Himalayas and the start of the road to Ladakh.\n\nA pony ride to the Thajiwas Glacier, meadow walks and the dramatic mountain scenery make it a highlight that shorter Kashmir trips simply do not have time for."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Sheikh ul-Alam International Airport, Srinagar (SXR). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What does the 7 day Kashmir tour include that shorter ones do not?",
+        "answer": "The 7 day escape adds Sonamarg, the meadow of gold, and includes overnight stays in Gulmarg and Pahalgam rather than day trips. This means a deeper, more relaxed experience of the whole valley."
+      },
+      {
+        "question": "What is the best time to visit Kashmir?",
+        "answer": "Each season has its appeal: spring (April to June) for tulips and gardens, summer (July to September) for lush valleys, autumn (October to November) for golden colours, and winter (December to February) for snow and skiing. Sonamarg is best from May to October."
+      },
+      {
+        "question": "Is this trip suitable for a relaxed holiday?",
+        "answer": "Very. The seven-day pace and houseboat living make it ideal for travellers who want to unwind in beautiful surroundings rather than rush between sights. There is time for walks, shopping and simply enjoying the scenery."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-6d-kashmir-taj-mahal",
+      "name": "6 Days Best of Kashmir + Taj Mahal",
+      "price": "From RM3,118",
+      "duration": "6D5N",
+      "slug": "kashmir/6-day-best-of-kashmir-taj",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-varanasi-kashmir-combo",
+      "name": "7 Days Varanasi + Kashmir",
+      "price": "From RM4,688",
+      "duration": "7D6N",
+      "slug": "kashmir/7-day-varanasi-kashmir",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-12d-srinagar-leh-road-trip",
+      "name": "12 Days Srinagar to Leh Road Trip",
+      "price": "From RM5,988",
+      "duration": "12D11N",
+      "slug": "kashmir/12-day-srinagar-leh-road-trip",
+      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for a week in paradise?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "7 Days Kashmir Exclusive Escape from Malaysia",
+    "description": "7-day complete Kashmir tour with Srinagar, Sonamarg, Gulmarg, Pahalgam, Dal Lake houseboat and shikara. From RM3288 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kashmir/7-day-exclusive-escape",
+    "startLocation": "Sheikh ul-Alam International Airport",
+    "endLocation": "Sheikh ul-Alam International Airport",
+    "duration": "P7D",
+    "offers": {
+      "price": "3288",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

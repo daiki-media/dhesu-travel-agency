@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "title": "7 Days Varanasi + Kashmir from Malaysia | Dhesu Travel & Tours",
+    "description": "7-day tour combining Varanasi Ganga Aarti and Kashmir Dal Lake, Gulmarg and Pahalgam, domestic flights included. From RM4688 per person.",
+    "keywords": "7 Days Varanasi + Kashmir from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
+    "slug": "kashmir/7-day-varanasi-kashmir",
+    "canonicalUrl": "/tours/india/kashmir/7-day-varanasi-kashmir",
+    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "pkgid": "2137"
+  },
+  "hero": {
+    "badge": "Kashmir",
+    "title": "7 Days, Varanasi & Kashmir.",
+    "titleAccent": "The Sacred Ganges and the Valley of Paradise.",
+    "intro": "Two of India's most powerful experiences in one journey: the spiritual intensity of Varanasi on the Ganges, and the serene mountain beauty of Kashmir. Sacred fire and still water, linked by a domestic flight.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "7 Days Varanasi + Kashmir",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Varanasi Ganga Aarti and Kashmir Dal Lake combination"
+  },
+  "quickFacts": {
+    "duration": "7 Days / 6 Nights",
+    "startingPrice": "From RM4,688",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM5,626",
+    "saving": "Save RM1,875 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (6 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Domestic Flights"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Meals (as itinerary)"
+      },
+      {
+        "icon": "car",
+        "label": "Guided Tours"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "transfer",
+        "label": "Domestic Flights"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "7 Days Varanasi + Kashmir: The Full Picture",
+    "body": [
+      "This journey pairs two utterly different sides of India. Varanasi, the spiritual capital on the Ganges, where life and death play out on the ghats and the evening Ganga Aarti fills the air with fire and chant. And Kashmir, the valley of paradise, with its still lakes, houseboats and mountain meadows.",
+      "Arranged privately from Malaysia, this 7 day package includes the domestic flights linking Varanasi and Kashmir, with a private vehicle and driver guide at each end. It is a profound contrast: the intensity of the sacred city and the calm of the mountains, in a single, well-paced trip."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Varanasi's Ghats & Ganga Aarti",
+        "body": "The sunrise boat ride along the ghats and the spectacular evening Ganga Aarti at Dashashwamedh Ghat make Varanasi one of the most moving places on earth.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "imageAlt": "Varanasi Ganga Aarti ghats"
+      },
+      {
+        "title": "Kashmir's Dal Lake & Mountains",
+        "body": "Houseboat nights, shikara rides and mountain excursions to Gulmarg or Pahalgam, the serene counterpoint to Varanasi's intensity.",
+        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+        "imageAlt": "Kashmir Dal Lake mountains"
+      },
+      {
+        "title": "Two Indias in One Trip",
+        "body": "From the sacred fire of the Ganges to the still water of Dal Lake, this trip captures the extraordinary range of India in a single journey.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Varanasi and Kashmir contrast"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 7 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Varanasi",
+        "meals": "No meals",
+        "description": "Met at Varanasi airport and transferred to your hotel. Evening Ganga Aarti at Dashashwamedh Ghat.",
+        "suggestedActivities": [
+          "Evening Ganga Aarti from a boat",
+          "Old city walk",
+          "First Banarasi meal"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Varanasi Sunrise & Sarnath",
+        "meals": "Breakfast",
+        "description": "Sunrise boat ride, temples and the Buddhist site of Sarnath.",
+        "suggestedActivities": [
+          "Sunrise boat ride",
+          "Kashi Vishwanath Temple",
+          "Sarnath excursion",
+          "Banarasi silk shopping"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Fly Varanasi to Srinagar",
+        "meals": "Breakfast",
+        "description": "Domestic flights (often via Delhi) to Srinagar and transfer to your houseboat.",
+        "suggestedActivities": [
+          "Flights to Srinagar",
+          "Check in to houseboat",
+          "Evening shikara ride"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Srinagar Sightseeing",
+        "meals": "Breakfast",
+        "description": "The Mughal gardens and old city of Srinagar.",
+        "suggestedActivities": [
+          "Shalimar Bagh and Nishat Bagh",
+          "Shankaracharya Temple",
+          "Handicraft shopping"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Gulmarg Excursion",
+        "meals": "Breakfast",
+        "description": "Drive to Gulmarg for the gondola and mountain scenery.",
+        "suggestedActivities": [
+          "Drive to Gulmarg",
+          "Gulmarg Gondola",
+          "Meadow walks",
+          "Return to Srinagar"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Pahalgam Excursion",
+        "meals": "Breakfast",
+        "description": "A full day in the valleys of Pahalgam.",
+        "suggestedActivities": [
+          "Drive to Pahalgam",
+          "Betaab and Aru Valleys",
+          "Lidder river",
+          "Return to Srinagar"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Depart Srinagar",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM4688 per person"
+          }
+        ],
+        "fromPrice": "RM4688"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM5088 per person"
+          }
+        ],
+        "fromPrice": "RM5088",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM5888 per person"
+          }
+        ],
+        "fromPrice": "RM5888"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Sacred and Serene, One Seamless Journey",
+    "body": "Linking Varanasi and Kashmir means coordinating domestic flights and two very different destinations. We handle the logistics so the contrast becomes the journey's strength. Dhesu has arranged India tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Varanasi & Kashmir Tour from Malaysia",
+        "body": "This 7 day package combines two of India's most powerful experiences: the spiritual intensity of Varanasi and the serene beauty of Kashmir. The domestic flights link them, making a journey that would otherwise be impractical into a smooth, well-paced trip.\n\nVaranasi offers the sunrise boat ride and the Ganga Aarti; Kashmir offers Dal Lake, houseboats and mountain meadows. Together they capture the extraordinary range of the country.\n\nA private vehicle and driver guide at each end ensure everything flows."
+      },
+      {
+        "heading": "Why Combine Varanasi and Kashmir",
+        "body": "Few trips capture the diversity of India like this one. Varanasi is intense, sacred and ancient; Kashmir is calm, alpine and breathtaking. The contrast makes each more memorable.\n\nThe domestic flights, usually routed via Delhi, connect the two efficiently. It is an ideal journey for travellers who want both the spiritual and the scenic heart of India in a single trip."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Varanasi and Srinagar Airports (VNS / SXR). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "Are the domestic flights included?",
+        "answer": "Yes. This package includes the domestic flights linking Varanasi and Srinagar, usually routed via Delhi. International flights to and from India are not included."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "October to March is ideal for Varanasi, while April to October suits Kashmir. The overlapping shoulder months of April, May, September and October offer good weather in both regions, making them the best windows for the combined journey."
+      },
+      {
+        "question": "Is this trip a big contrast?",
+        "answer": "Yes, and that is the point. Varanasi is intense and spiritual, Kashmir calm and scenic. Many travellers find the contrast makes each destination more vivid and memorable. The pacing gives you time to absorb both."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-7d-kashmir-exclusive",
+      "name": "7 Days Kashmir Exclusive Escape",
+      "price": "From RM3,288",
+      "duration": "7D6N",
+      "slug": "kashmir/7-day-exclusive-escape",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-3d-varanasi-sunrise-sunset",
+      "name": "3 Days Varanasi: Sunrise, Sunset & Ganga Aarti",
+      "price": "From RM698",
+      "duration": "3D2N",
+      "slug": "north-india/3-day-varanasi-ganga-aarti",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-kashmir-taj-mahal",
+      "name": "6 Days Best of Kashmir + Taj Mahal",
+      "price": "From RM3,118",
+      "duration": "6D5N",
+      "slug": "kashmir/6-day-best-of-kashmir-taj",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Varanasi and Kashmir?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "7 Days Varanasi Kashmir Tour from Malaysia",
+    "description": "7-day tour combining Varanasi Ganga Aarti and Kashmir Dal Lake, Gulmarg and Pahalgam, domestic flights included. From RM4688 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kashmir/7-day-varanasi-kashmir",
+    "startLocation": "Lal Bahadur Shastri International Airport",
+    "endLocation": "Sheikh ul-Alam International Airport",
+    "duration": "P7D",
+    "offers": {
+      "price": "4688",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "title": "5 Days Kerala: Most Important Places from Malaysia | Dhesu Travel & Tours",
+    "description": "5-day Kerala tour with Kochi, Munnar tea hills and Alleppey houseboat backwaters, private vehicle and guide. From RM1488 per person.",
+    "keywords": "5 Days Kerala: Most Important Places from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
+    "slug": "kerala/5-day-most-important-places",
+    "canonicalUrl": "/tours/india/kerala/5-day-most-important-places",
+    "ogImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "pkgid": "105"
+  },
+  "hero": {
+    "badge": "Kerala",
+    "title": "5 Days in Kerala.",
+    "titleAccent": "Kochi, Munnar Tea Hills and the Backwaters.",
+    "intro": "The Kerala greatest hits, done at a comfortable pace. Fort Kochi's heritage, the rolling green tea carpets of Munnar, and a houseboat night on the backwaters. Five days that capture why everyone falls for God's Own Country.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "5 Days Kerala: Most Important Places",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Munnar tea plantations Kerala hills"
+  },
+  "quickFacts": {
+    "duration": "5 Days / 4 Nights",
+    "startingPrice": "From RM1,488",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,786",
+    "saving": "Save RM595 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (4 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Overnight Houseboat Cruise"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "5 Days Kerala: Most Important Places: The Full Picture",
+    "body": [
+      "If you have five days for Kerala, this is the route to take. It links the three experiences that define the state: the colonial harbour town of Kochi, the misty tea-covered hills of Munnar, and a night drifting through the Alleppey backwaters on a private houseboat.",
+      "Arranged privately from Malaysia, this Kerala package moves you from coast to hills to backwaters with your own vehicle and driver guide. The pacing is relaxed, the scenery constantly changing, and the houseboat night is a highlight you will talk about long after you return home."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Munnar's Tea Hills",
+        "body": "Endless rolling carpets of tea, cool mountain air, waterfalls and viewpoints. Munnar is one of the most beautiful hill stations in South India and a complete change of pace from the coast.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Munnar tea plantations"
+      },
+      {
+        "title": "Alleppey Houseboat Night",
+        "body": "A private houseboat on the backwaters, with fresh Kerala meals cooked onboard and the quiet rhythm of canal life all around you.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Alleppey backwaters houseboat"
+      },
+      {
+        "title": "Fort Kochi Heritage",
+        "body": "The Chinese fishing nets, the spice markets, the colonial churches and the art cafes of the old harbour quarter make a characterful introduction to Kerala.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Fort Kochi heritage Kerala"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 5 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kochi",
+        "meals": "No meals",
+        "description": "Met at Cochin airport and transferred to your hotel. Evening at the fishing nets.",
+        "suggestedActivities": [
+          "Sunset fishing nets",
+          "Fort Kochi walk",
+          "Seafood dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kochi to Munnar",
+        "meals": "Breakfast",
+        "description": "A scenic drive up to the tea hills of Munnar, past waterfalls and spice gardens.",
+        "suggestedActivities": [
+          "Drive to Munnar",
+          "Waterfall and spice garden stops",
+          "Evening in the hills"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Munnar Sightseeing, on to Alleppey",
+        "meals": "Breakfast",
+        "description": "Tea plantations and viewpoints in Munnar, then descend towards Alleppey.",
+        "suggestedActivities": [
+          "Tea plantation and museum",
+          "Mattupetty Dam and Echo Point",
+          "Drive towards Alleppey"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Alleppey Houseboat",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "Board your private houseboat for an overnight backwater cruise with onboard meals.",
+        "suggestedActivities": [
+          "Board houseboat",
+          "Backwater cruise",
+          "Sunset on the water",
+          "Onboard Kerala dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Disembark, Depart",
+        "meals": "Breakfast",
+        "description": "A final morning cruise, then transfer to Cochin airport for your onward flight.",
+        "suggestedActivities": [
+          "Morning cruise",
+          "Disembark",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1488 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1438 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1388 per person"
+          }
+        ],
+        "fromPrice": "RM1488"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1788 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1748 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1708 per person"
+          }
+        ],
+        "fromPrice": "RM1788",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2288 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2258 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2228 per person"
+          }
+        ],
+        "fromPrice": "RM2288"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The Best of Kerala, Sequenced Right",
+    "body": "Coast, hills and backwaters in five days takes smart routing to avoid backtracking. We sequence Kochi, Munnar and Alleppey so the journey flows and the scenery keeps changing. Dhesu has run Kerala tours since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Kerala Most Important Places Tour from Malaysia",
+        "body": "This 5 day package is the ideal Kerala itinerary for first-timers who want the essentials: Kochi, Munnar and the backwaters. It captures the coast, the hills and the canals in one smooth private trip.\n\nThe drive from the coast up to Munnar's tea hills is spectacular, and the contrast with the backwater houseboat night makes for a varied, memorable trip.\n\nFor more, our 6 and 8 day packages add Thekkady's spice plantations and wildlife."
+      },
+      {
+        "heading": "Munnar: Kerala's Tea Country",
+        "body": "Munnar sits high in the Western Ghats, surrounded by some of the most beautiful tea plantations in the world. The cool climate, mist and endless green slopes make it a refreshing contrast to coastal Kerala.\n\nHighlights include tea estate visits, the Tea Museum, Mattupetty Dam and viewpoints like Echo Point, all easily covered with your private vehicle."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Cochin International Airport (COK). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for this Kerala trip?",
+        "answer": "September to March is ideal, with pleasant weather across the coast, hills and backwaters. Munnar is cool year-round. The monsoon (June to August) brings lush scenery but heavy rain and occasional landslides on hill roads."
+      },
+      {
+        "question": "Is Munnar cold?",
+        "answer": "Munnar is cool and pleasant, especially in the mornings and evenings, thanks to its high elevation. A light jacket is useful. It is a refreshing change from the warm, humid coast and one of the trip's highlights."
+      },
+      {
+        "question": "How much driving is involved?",
+        "answer": "There are a few scenic drives, notably Kochi to Munnar and Munnar to Alleppey, each a few hours through beautiful country. The private vehicle makes them comfortable, with stops along the way for photos and refreshments."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-6d-kerala-thekkady",
+      "name": "6 Days Beautiful Kerala + Thekkady",
+      "price": "From RM1,928",
+      "duration": "6D5N",
+      "slug": "kerala/6-day-beautiful-thekkady",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-8d-kerala-munnar-thekkady",
+      "name": "8 Days Best of Kerala: Munnar & Thekkady",
+      "price": "From RM2,398",
+      "duration": "8D7N",
+      "slug": "kerala/8-day-best-of",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-4d-kerala-explore",
+      "name": "4 Days Explore Kerala",
+      "price": "From RM988",
+      "duration": "4D3N",
+      "slug": "kerala/4-day-explore",
+      "image": "/images/gallery/12929.jpg"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the best of Kerala?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "5 Days Kerala Tour Package from Malaysia",
+    "description": "5-day Kerala tour with Kochi, Munnar tea hills and Alleppey houseboat backwaters, private vehicle and guide. From RM1488 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kerala/5-day-most-important-places",
+    "startLocation": "Cochin International Airport",
+    "endLocation": "Cochin International Airport",
+    "duration": "P5D",
+    "offers": {
+      "price": "1488",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

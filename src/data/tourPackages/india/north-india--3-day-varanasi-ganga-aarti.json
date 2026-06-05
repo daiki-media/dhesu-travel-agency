@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "title": "3 Days Varanasi: Sunrise, Sunset & Ganga Aarti from Malaysia | Dhesu Travel & Tours",
+    "description": "3-day Varanasi tour with sunrise boat ride, Ganga Aarti, Kashi Vishwanath, Sarnath, private vehicle and hotel. From RM698 per person.",
+    "keywords": "3 Days Varanasi: Sunrise, Sunset & Ganga Aarti from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/3-day-varanasi-ganga-aarti",
+    "canonicalUrl": "/tours/india/north-india/3-day-varanasi-ganga-aarti",
+    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "pkgid": "2207"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "3 Days in Varanasi.",
+    "titleAccent": "The Oldest Living City and the Sacred Ganges.",
+    "intro": "There is nowhere on earth like Varanasi. One of the oldest continuously inhabited cities anywhere, where life and death play out openly on the ghats of the Ganges. The dawn boat ride and the evening Ganga Aarti will stay with you forever.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "3 Days Varanasi: Sunrise, Sunset & Ganga Aarti",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Ganga Aarti ceremony Varanasi ghats at dusk"
+  },
+  "quickFacts": {
+    "duration": "3 Days / 2 Nights",
+    "startingPrice": "From RM698",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM838",
+    "saving": "Save RM279 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (2 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Sunrise & Sunset Boat Rides",
+      "Return Airport Transfers"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "3 Days Varanasi: Sunrise, Sunset & Ganga Aarti: The Full Picture",
+    "body": [
+      "Varanasi, also called Kashi or Banaras, is the spiritual capital of India and one of the oldest living cities in the world. The ghats that line the Ganges are the stage for a daily cycle of prayer, bathing, cremation and celebration that has continued unbroken for thousands of years. It is intense, beautiful and unforgettable.",
+      "This 3 day Varanasi tour package from Malaysia centres on the two great experiences: the sunrise boat ride along the ghats as the city wakes, and the spectacular Ganga Aarti at Dashashwamedh Ghat at dusk, with fire, bells and chanting. A 2-night stay gives you time to absorb it all, with optional Pind Daan prayers if you wish."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "The Ganga Aarti at Dashashwamedh Ghat",
+        "body": "Each evening, priests perform a choreographed ceremony of fire, incense and chanting on the main ghat. Watched from a boat on the river or from the steps, it is one of the most powerful spiritual spectacles in India.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "imageAlt": "Ganga Aarti Dashashwamedh Ghat Varanasi"
+      },
+      {
+        "title": "Sunrise Boat Ride on the Ganges",
+        "body": "Drift along the ghats at first light as pilgrims bathe, sadhus pray and the rising sun turns the old city gold. The quiet dawn boat ride is the most magical hour in Varanasi.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "imageAlt": "Sunrise boat ride Ganges Varanasi"
+      },
+      {
+        "title": "Temples, Ghats & Sarnath",
+        "body": "Visit Kashi Vishwanath, one of the holiest Shiva temples, walk the labyrinth of old lanes, and drive out to Sarnath where the Buddha gave his first sermon.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "imageAlt": "Varanasi temples and ghats"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 3 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Varanasi",
+        "meals": "No meals",
+        "description": "Met at Lal Bahadur Shastri International Airport and transferred to your hotel. In the evening, witness the Ganga Aarti at Dashashwamedh Ghat, ideally from a boat on the river.",
+        "suggestedActivities": [
+          "Evening Ganga Aarti from a boat",
+          "Walk the old city lanes",
+          "First taste of Banarasi food"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Sunrise Boat Ride, Temples & Sarnath",
+        "meals": "Breakfast",
+        "description": "An early sunrise boat ride along the ghats, then temples and the Buddhist site of Sarnath with your private vehicle.",
+        "suggestedActivities": [
+          "Sunrise boat ride",
+          "Kashi Vishwanath Temple",
+          "Old city ghat walk",
+          "Sarnath excursion",
+          "Optional Pind Daan prayers"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Free Morning, Depart",
+        "meals": "Breakfast",
+        "description": "Checkout at noon. Time for Banarasi silk shopping or a final ghat visit before your airport transfer.",
+        "suggestedActivities": [
+          "Banarasi silk shopping",
+          "Final ghat visit",
+          "Lassi at a famous old shop"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "Hotel Buddha / Ganges Grand or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM698 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM648 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM598 per person"
+          }
+        ],
+        "fromPrice": "RM698"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "Rivatas / Hotel Surya or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM848 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM808 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM768 per person"
+          }
+        ],
+        "fromPrice": "RM848",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "Taj Ganges / Radisson or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1098 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1068 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1038 per person"
+          }
+        ],
+        "fromPrice": "RM1098"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Varanasi, With the Right Guidance",
+    "body": "Varanasi can overwhelm first-timers. A knowledgeable guide and well-timed boat rides turn the intensity into something profound rather than confusing. We handle the boats, the timings and the lanes. Dhesu has arranged spiritual India journeys since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Varanasi Tour Package from Malaysia",
+        "body": "Varanasi is unlike anywhere else, and a guided private trip is the best way to experience it. The dawn boat ride and the evening Ganga Aarti are the headline experiences, and timing them well makes all the difference.\n\nOur driver guide knows the ghats, the temple lanes and the river, so you see the city's depth without getting lost in its intensity.\n\nVaranasi pairs naturally with Ayodhya and Prayagraj for a deeper spiritual circuit, covered in our longer North India packages."
+      },
+      {
+        "heading": "The Ghats of Varanasi",
+        "body": "More than 80 ghats line the Ganges in Varanasi, each with its own character. Dashashwamedh is the main ceremonial ghat where the evening aarti takes place. Manikarnika and Harishchandra are the cremation ghats, where the cycle of life and death is laid bare.\n\nThe dawn boat ride lets you take in the whole sweep of them as the city comes to life, the single most memorable hour of most visits."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Lal Bahadur Shastri International Airport, Varanasi (VNS). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Varanasi?",
+        "answer": "October to March offers the most comfortable weather for early boat rides and ghat walks. Dev Deepawali (November) is spectacular but very crowded. Summers are extremely hot, and the monsoon raises the river level, sometimes limiting ghat access."
+      },
+      {
+        "question": "Is the sunrise boat ride included?",
+        "answer": "Yes, this package includes both the sunrise boat ride along the ghats and an evening boat for the Ganga Aarti, which are the two essential Varanasi experiences."
+      },
+      {
+        "question": "Can I arrange Pind Daan or special prayers?",
+        "answer": "Yes. Many visitors come to Varanasi for Pind Daan and ancestral rites. We can arrange these with experienced pandits as part of your trip. Please let us know when you book so we can prepare."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-4d-varanasi-best-places",
+      "name": "4 Days Best of Varanasi: Most Important Places",
+      "price": "From RM1,288",
+      "duration": "4D3N",
+      "slug": "north-india/4-day-varanasi-best",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-3d-ayodhya",
+      "name": "3 Days Explore Ayodhya with a Professional Guide",
+      "price": "From RM698",
+      "duration": "3D2N",
+      "slug": "north-india/3-day-ayodhya",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-5d-varanasi-ayodhya",
+      "name": "5 Days Best of Varanasi + Ayodhya",
+      "price": "From RM1,588",
+      "duration": "5D4N",
+      "slug": "north-india/5-day-varanasi-ayodhya",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Varanasi?",
+    "subheading": "Tell us your dates and group size for a confirmed quote within hours.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "3 Days Varanasi Tour Package from Malaysia",
+    "description": "3-day Varanasi tour with sunrise boat ride, Ganga Aarti, Kashi Vishwanath, Sarnath, private vehicle and hotel. From RM698 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/3-day-varanasi-ganga-aarti",
+    "startLocation": "Lal Bahadur Shastri International Airport",
+    "endLocation": "Lal Bahadur Shastri International Airport",
+    "duration": "P3D",
+    "offers": {
+      "price": "698",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

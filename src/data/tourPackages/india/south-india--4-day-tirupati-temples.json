@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "title": "4 Days Tirupati Temples Tour from Malaysia | Dhesu Travel & Tours",
+    "description": "4-day Tirupati pilgrimage with Sri Venkateswara darshan at Tirumala, nearby temples, private vehicle and darshan assistance. From RM888 per person.",
+    "keywords": "4 Days Tirupati Temples Tour from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
+    "slug": "south-india/4-day-tirupati-temples",
+    "canonicalUrl": "/tours/india/south-india/4-day-tirupati-temples",
+    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "pkgid": "82"
+  },
+  "hero": {
+    "badge": "South India",
+    "title": "4 Days, Tirupati.",
+    "titleAccent": "Darshan of Lord Venkateswara at Tirumala.",
+    "intro": "Tirupati is the most visited temple in the world, where millions come each year for darshan of Lord Venkateswara on the sacred Tirumala hills. This four-day pilgrimage handles the queues, the logistics and the journey so you can focus on the blessing.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "4 Days Tirupati Temples Tour",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Tirumala Venkateswara temple Tirupati"
+  },
+  "quickFacts": {
+    "duration": "4 Days / 3 Nights",
+    "startingPrice": "From RM888",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1066",
+    "saving": "Save RM355 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (3 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Darshan Assistance"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "4 Days Tirupati Temples Tour: The Full Picture",
+    "body": [
+      "Tirupati, in Andhra Pradesh, is home to the Sri Venkateswara Temple at Tirumala, one of the holiest and busiest pilgrimage sites on earth. Devotees come from across the world for darshan of Lord Venkateswara, also known as Balaji, and the hill shrine receives donations and crowds on a scale found nowhere else.",
+      "This 4 day Tirupati package from Malaysia is arranged privately, with a driver guide who handles the journey up to the Tirumala hills and assists with the darshan process, which can otherwise be daunting for first-time visitors. The package also takes in nearby temples and the spiritual atmosphere of the region."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Darshan at Sri Venkateswara Temple",
+        "body": "The golden-domed shrine of Lord Venkateswara on the Tirumala hills is the spiritual heart of the trip. We assist with the darshan queue system so your visit is as smooth as possible.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Sri Venkateswara temple Tirumala"
+      },
+      {
+        "title": "The Tirumala Hills",
+        "body": "The seven sacred hills, reached by a winding ghat road, are a pilgrimage in themselves. The journey up, past viewpoints and waterfalls, is part of the experience.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Tirumala seven hills Tirupati"
+      },
+      {
+        "title": "Padmavathi & Nearby Temples",
+        "body": "Visit the Sri Padmavathi temple at Tiruchanur, the consort of Lord Venkateswara, and other shrines in the Tirupati area that complete the pilgrimage.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Padmavathi temple Tirupati"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 4 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Tirupati",
+        "meals": "No meals",
+        "description": "Met at Tirupati or Chennai airport and transferred to your hotel. Evening free to rest before the pilgrimage.",
+        "suggestedActivities": [
+          "Settle in",
+          "Sri Padmavathi temple (optional)",
+          "First South Indian meal"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Tirumala Darshan",
+        "meals": "Breakfast",
+        "description": "A full day for the journey up to Tirumala and darshan of Lord Venkateswara, with assistance through the queue system.",
+        "suggestedActivities": [
+          "Drive up the Tirumala hills",
+          "Sri Venkateswara darshan",
+          "Temple complex and prasadam",
+          "Local rituals"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Tirupati Temples",
+        "meals": "Breakfast",
+        "description": "Visit the surrounding temples and sacred sites of the Tirupati region.",
+        "suggestedActivities": [
+          "Sri Kapileswara Swamy Temple",
+          "Sri Govindaraja Swamy Temple",
+          "ISKCON Tirupati",
+          "Temple shopping"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Depart",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Final darshan or prasadam",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels Tirupati or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM888 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM838 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM788 per person"
+          }
+        ],
+        "fromPrice": "RM888"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1088 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1048 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1008 per person"
+          }
+        ],
+        "fromPrice": "RM1088",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1388 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1358 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1328 per person"
+          }
+        ],
+        "fromPrice": "RM1388"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Tirupati, Without the Stress",
+    "body": "Tirupati's darshan system, the hill journey and the crowds can overwhelm first-timers. We handle the logistics and assist with the queue process so your pilgrimage is peaceful. Dhesu has arranged South India pilgrimages since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Tirupati Tour Package from Malaysia",
+        "body": "Tirupati is the ultimate South Indian pilgrimage, and going with a private arrangement makes a real difference given the scale of the crowds. We handle the drive up the Tirumala hills, the hotels, and assistance with the darshan system.\n\nThe Sri Venkateswara Temple receives more pilgrims than almost any shrine on earth, so understanding the queue and timing process is invaluable. Our driver guide manages this for you.\n\nTirupati combines well with Chennai and the wider Tamil Nadu temple circuit for those wanting a fuller temple journey."
+      },
+      {
+        "heading": "Understanding Tirupati Darshan",
+        "body": "Darshan at Tirumala operates through an organised queue system, with various categories including free and special-entry options. Wait times vary greatly with the day and season.\n\nMany pilgrims have their heads tonsured as an offering, and the famous Tirupati laddu prasadam is distributed to devotees. Our team assists you through the process so you know what to expect."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Tirupati or Chennai Airport (TIR / MAA). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Tirupati?",
+        "answer": "September to February offers the most comfortable weather. Tirupati is busy year-round, with the heaviest crowds during festivals like Brahmotsavam (around September-October) and public holidays. Weekdays are generally quieter than weekends."
+      },
+      {
+        "question": "How long does darshan take at Tirumala?",
+        "answer": "It varies widely with the crowd and the darshan category, from a couple of hours to much longer during peak times. We assist with the queue process and advise on timing to make your visit as smooth as possible."
+      },
+      {
+        "question": "Is there a dress code for the temple?",
+        "answer": "Yes. Traditional, modest dress is expected for darshan. Men typically wear dhoti or formal trousers and shirt, women a saree or salwar kameez. Your guide will advise on the specific requirements before your visit."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-4d-navagraha-temples",
+      "name": "4 Days Navagraha Temples",
+      "price": "From RM988",
+      "duration": "4D3N",
+      "slug": "south-india/4-day-navagraha-temples",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-arupadai-veedu",
+      "name": "6 Days Arupadai Veedu Murugan Temples",
+      "price": "From RM1,538",
+      "duration": "6D5N",
+      "slug": "south-india/6-day-arupadai-veedu-temples",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-tamil-nadu-tour",
+      "name": "7 Days Tamil Nadu Tour",
+      "price": "From RM1,598",
+      "duration": "7D6N",
+      "slug": "south-india/7-day-tamil-nadu-tour",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Tirupati darshan?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "4 Days Tirupati Tour Package from Malaysia",
+    "description": "4-day Tirupati pilgrimage with Sri Venkateswara darshan at Tirumala, nearby temples, private vehicle and darshan assistance. From RM888 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/south-india/4-day-tirupati-temples",
+    "startLocation": "Tirupati Airport",
+    "endLocation": "Tirupati Airport",
+    "duration": "P4D",
+    "offers": {
+      "price": "888",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

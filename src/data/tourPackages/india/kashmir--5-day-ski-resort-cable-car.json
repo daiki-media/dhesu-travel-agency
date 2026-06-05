@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "title": "5 Days Kashmir Ski Resort + Cable Car from Malaysia | Dhesu Travel & Tours",
+    "description": "5-day Kashmir tour with Gulmarg gondola, Pahalgam, Dal Lake houseboat and shikara ride. From RM2388 per person.",
+    "keywords": "5 Days Kashmir Ski Resort + Cable Car from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
+    "slug": "kashmir/5-day-ski-resort-cable-car",
+    "canonicalUrl": "/tours/india/kashmir/5-day-ski-resort-cable-car",
+    "ogImage": "/images/gallery/14620.jpg",
+    "pkgid": "2166"
+  },
+  "hero": {
+    "badge": "Kashmir",
+    "title": "5 Days in Kashmir.",
+    "titleAccent": "Gulmarg's Gondola, Pahalgam and Dal Lake.",
+    "intro": "The full Srinagar valley in five days. The world-famous Gulmarg Gondola, one of the highest cable cars on earth, the alpine valleys of Pahalgam, and a houseboat night on Dal Lake. Kashmir at its most spectacular.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "5 Days Kashmir Ski Resort + Cable Car",
+        "href": null
+      }
+    ],
+    "heroImage": "/images/gallery/14620.jpg",
+    "heroImageAlt": "Gulmarg Gondola cable car Kashmir snow"
+  },
+  "quickFacts": {
+    "duration": "5 Days / 4 Nights",
+    "startingPrice": "From RM2,388",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,866",
+    "saving": "Save RM955 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (4 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Shikara Ride on Dal Lake"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "5 Days Kashmir Ski Resort + Cable Car: The Full Picture",
+    "body": [
+      "This is the classic Kashmir tour, taking in the three jewels of the Srinagar valley: Gulmarg, with its famous gondola climbing towards Apharwat peak; Pahalgam, the valley of shepherds with its meadows and rivers; and Srinagar itself, with Dal Lake, houseboats and Mughal gardens.",
+      "Arranged privately from Malaysia, this 5 day Kashmir package balances mountain excursions with the serenity of the lake. You ride one of the highest cable cars in the world at Gulmarg, explore Pahalgam's alpine valleys, and spend a night on a traditional Dal Lake houseboat, all with your own vehicle and driver guide."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "The Gulmarg Gondola",
+        "body": "Gulmarg's gondola is one of the highest cable cars in the world, rising towards the Apharwat peak with breathtaking views over snow fields and meadows. In winter it serves world-class ski slopes.",
+        "image": "/images/gallery/14620.jpg",
+        "imageAlt": "Gulmarg Gondola cable car Kashmir"
+      },
+      {
+        "title": "Pahalgam's Alpine Valleys",
+        "body": "The valley of shepherds, with pine forests, the rushing Lidder river and meadows like Betaab and Aru valleys, used as backdrops in countless films.",
+        "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&auto=format&fit=crop",
+        "imageAlt": "Pahalgam valley Kashmir"
+      },
+      {
+        "title": "Dal Lake & Houseboats",
+        "body": "A shikara ride and a houseboat night on Srinagar's Dal Lake, surrounded by Mughal gardens and snow-capped peaks.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Dal Lake houseboat Srinagar"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 5 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar, Houseboat",
+        "meals": "No meals",
+        "description": "Met at Srinagar airport and transferred to your Dal Lake houseboat. Evening shikara ride.",
+        "suggestedActivities": [
+          "Check in to houseboat",
+          "Evening shikara ride",
+          "Sunset on Dal Lake"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Srinagar to Gulmarg",
+        "meals": "Breakfast",
+        "description": "Drive to Gulmarg for the gondola and mountain scenery.",
+        "suggestedActivities": [
+          "Drive to Gulmarg",
+          "Gulmarg Gondola (Phase 1 and 2)",
+          "Meadow walks",
+          "Overnight Gulmarg or return to Srinagar"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Pahalgam Excursion",
+        "meals": "Breakfast",
+        "description": "A full day in the valleys of Pahalgam.",
+        "suggestedActivities": [
+          "Drive to Pahalgam",
+          "Betaab Valley and Aru Valley",
+          "Lidder river",
+          "Pony rides (optional)"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Srinagar Sightseeing",
+        "meals": "Breakfast",
+        "description": "The Mughal gardens and old city of Srinagar.",
+        "suggestedActivities": [
+          "Shalimar Bagh and Nishat Bagh",
+          "Shankaracharya Temple",
+          "Old city and handicrafts",
+          "Floating market"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Depart Srinagar",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2388 per person"
+          }
+        ],
+        "fromPrice": "RM2388"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2488 per person"
+          }
+        ],
+        "fromPrice": "RM2488",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2688 per person"
+          }
+        ],
+        "fromPrice": "RM2688"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Kashmir's Highlights, Expertly Timed",
+    "body": "Gulmarg, Pahalgam and Srinagar each need the right amount of time and good timing for the gondola and the weather. We sequence it so you get the best of all three. Dhesu has arranged Kashmir tours for many years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Kashmir Ski Resort & Cable Car Tour from Malaysia",
+        "body": "This 5 day Kashmir package is the most popular way to experience the Srinagar valley, combining the Gulmarg gondola, the Pahalgam valleys and Dal Lake. It works beautifully in every season, from spring tulips to winter snow.\n\nThe Gulmarg gondola is the headline attraction, one of the highest cable cars in the world, with spectacular views and, in winter, world-class skiing.\n\nA private vehicle, a houseboat night and a driver guide make the trip smooth and memorable."
+      },
+      {
+        "heading": "Gulmarg: Skiing and the Gondola",
+        "body": "Gulmarg is India's premier ski resort, with the famous gondola carrying visitors high towards the Apharwat peak. In winter, the slopes draw skiers and snowboarders from around the world.\n\nIn other seasons, the gondola offers breathtaking views over green meadows and distant snow. It is the highlight of any Kashmir trip and a must for the views alone."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Sheikh ul-Alam International Airport, Srinagar (SXR). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "When can I ski in Gulmarg?",
+        "answer": "The ski season in Gulmarg typically runs from December to March, when the slopes are covered in snow. Outside winter, the gondola still operates for the views, weather permitting, and the meadows are green and beautiful."
+      },
+      {
+        "question": "Is the Gulmarg gondola included?",
+        "answer": "The package includes the Gulmarg excursion. The gondola ride itself has a separate ticket cost, which we can include or advise on. We will confirm the inclusions when you book, and recommend the best timing for clear views."
+      },
+      {
+        "question": "What is the best time to visit Kashmir?",
+        "answer": "Each season has its appeal: spring (April to June) for tulips and gardens, summer (July to September) for lush green valleys, autumn (October to November) for golden colours, and winter (December to February) for snow and skiing in Gulmarg."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-5d-kashmir-ski-taj",
+      "name": "5 Days Kashmir Ski + Taj Mahal",
+      "price": "From RM2,798",
+      "duration": "5D4N",
+      "slug": "kashmir/5-day-ski-taj-mahal",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-kashmir-taj-mahal",
+      "name": "6 Days Best of Kashmir + Taj Mahal",
+      "price": "From RM3,118",
+      "duration": "6D5N",
+      "slug": "kashmir/6-day-best-of-kashmir-taj",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-kashmir-exclusive",
+      "name": "7 Days Kashmir Exclusive Escape",
+      "price": "From RM3,288",
+      "duration": "7D6N",
+      "slug": "kashmir/7-day-exclusive-escape",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the Kashmir valley?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/14620.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "5 Days Kashmir Ski Resort Cable Car Tour from Malaysia",
+    "description": "5-day Kashmir tour with Gulmarg gondola, Pahalgam, Dal Lake houseboat and shikara ride. From RM2388 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kashmir/5-day-ski-resort-cable-car",
+    "startLocation": "Sheikh ul-Alam International Airport",
+    "endLocation": "Sheikh ul-Alam International Airport",
+    "duration": "P5D",
+    "offers": {
+      "price": "2388",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

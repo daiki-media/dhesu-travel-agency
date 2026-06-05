@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "title": "7 Days Golden Triangle + Amritsar from Malaysia | Dhesu Travel & Tours",
+    "description": "7-day tour with Delhi, Taj Mahal, Jaipur and Amritsar Golden Temple plus Wagah border, private vehicle and guide. From RM1888 per person.",
+    "keywords": "7 Days Golden Triangle + Amritsar from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/7-day-golden-triangle-amritsar",
+    "canonicalUrl": "/tours/india/north-india/7-day-golden-triangle-amritsar",
+    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "pkgid": "209"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "7 Days, Triangle & Golden Temple.",
+    "titleAccent": "Delhi, Agra, Jaipur and the Golden Temple.",
+    "intro": "The classic Golden Triangle with a golden finish. Delhi, the Taj Mahal and Jaipur's forts, then up to Amritsar for the Golden Temple and the Wagah border. Seven days of India's greatest northern icons.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "7 Days Golden Triangle + Amritsar",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Golden Triangle and Amritsar Golden Temple tour"
+  },
+  "quickFacts": {
+    "duration": "7 Days / 6 Nights",
+    "startingPrice": "From RM1,888",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,266",
+    "saving": "Save RM755 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (6 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Wagah Border Visit"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "7 Days Golden Triangle + Amritsar: The Full Picture",
+    "body": [
+      "This 7 day tour adds the spiritual highlight of Amritsar to the classic Golden Triangle. You experience Delhi's history, the Taj Mahal at sunrise and Jaipur's royal forts, then travel to Amritsar for the Golden Temple, the langar and the famous Wagah border ceremony.",
+      "Arranged privately from Malaysia, the trip links four of North India's greatest destinations with your own vehicle and driver guide. It is an ideal itinerary for travellers who want the iconic monuments of the Golden Triangle plus the deep spiritual atmosphere of Sikhism's holiest shrine."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "The Taj Mahal & Jaipur's Forts",
+        "body": "The Taj Mahal at sunrise, Agra Fort, and Jaipur's hilltop Amber Fort and Pink City palaces, the heart of the Golden Triangle.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Taj Mahal and Jaipur forts"
+      },
+      {
+        "title": "The Golden Temple, Amritsar",
+        "body": "Harmandir Sahib at dawn and after dark, the free langar, and the moving spiritual atmosphere of Sikhism's holiest shrine.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "imageAlt": "Golden Temple Amritsar"
+      },
+      {
+        "title": "Old Delhi & the Wagah Border",
+        "body": "The spice lanes and grand mosques of Old Delhi, and the high-energy flag-lowering ceremony at the Wagah border each evening.",
+        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&auto=format&fit=crop",
+        "imageAlt": "Old Delhi and Wagah border"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 7 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Delhi",
+        "meals": "No meals",
+        "description": "Met at Delhi airport and transferred to your hotel.",
+        "suggestedActivities": [
+          "Settle in",
+          "Connaught Place",
+          "First North Indian dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Delhi, Drive to Agra",
+        "meals": "Breakfast",
+        "description": "Old and New Delhi, then drive to Agra.",
+        "suggestedActivities": [
+          "Jama Masjid and Chandni Chowk",
+          "India Gate and Qutub Minar",
+          "Drive to Agra"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Taj Mahal, Agra Fort, Drive to Jaipur",
+        "meals": "Breakfast",
+        "description": "Sunrise Taj, Agra Fort, then to Jaipur via Fatehpur Sikri.",
+        "suggestedActivities": [
+          "Taj Mahal at sunrise",
+          "Agra Fort",
+          "Fatehpur Sikri",
+          "Drive to Jaipur"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Jaipur Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day in the Pink City.",
+        "suggestedActivities": [
+          "Amber Fort",
+          "City Palace and Jantar Mantar",
+          "Hawa Mahal",
+          "Bazaar shopping"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Jaipur to Amritsar",
+        "meals": "Breakfast",
+        "description": "Travel to Amritsar (flight or via Delhi), evening at the Golden Temple.",
+        "suggestedActivities": [
+          "Travel to Amritsar",
+          "Evening Golden Temple visit",
+          "Langar experience"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Amritsar & Wagah Border",
+        "meals": "Breakfast",
+        "description": "Golden Temple, Jallianwala Bagh and the Wagah border.",
+        "suggestedActivities": [
+          "Morning Golden Temple darshan",
+          "Jallianwala Bagh",
+          "Wagah border ceremony",
+          "Punjabi food walk"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Depart Amritsar",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM1888 per person"
+          }
+        ],
+        "fromPrice": "RM1888"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2288 per person"
+          }
+        ],
+        "fromPrice": "RM2288",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2888 per person"
+          }
+        ],
+        "fromPrice": "RM2888"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Four Icons, One Seamless Trip",
+    "body": "Linking the Golden Triangle with Amritsar takes good routing and timing for the Taj and Wagah. We sequence it so the journey flows. Dhesu has run North India tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Golden Triangle & Amritsar Tour from Malaysia",
+        "body": "This 7 day package combines the classic Golden Triangle of Delhi, Agra and Jaipur with the spiritual highlight of Amritsar and the Golden Temple.\n\nA private vehicle and driver guide link the iconic monuments with Sikhism's holiest shrine, including the Taj at sunrise and the famous Wagah border ceremony.\n\nIt is an ideal itinerary for travellers who want both the monumental and the spiritual sides of North India in one trip."
+      },
+      {
+        "heading": "Adding Amritsar to the Golden Triangle",
+        "body": "Amritsar is a natural and rewarding addition to the Golden Triangle. The Golden Temple offers a profound spiritual experience quite different from the Mughal monuments and Rajput forts of the triangle.\n\nThe langar, the dawn and evening temple visits, and the theatrical Wagah border ceremony round out a trip that already has the Taj Mahal and Jaipur's palaces, giving a fuller picture of the north."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Delhi and Amritsar Airports (DEL / ATQ). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "October to March is ideal across all four destinations, with comfortable days and cool nights. April to June is very hot on the plains. July to September is the monsoon. Winter offers the best conditions for the Taj at sunrise and the Wagah border."
+      },
+      {
+        "question": "How do I travel from Jaipur to Amritsar?",
+        "answer": "Typically by a domestic flight or via Delhi, which we arrange as part of the package to keep the journey efficient. We will confirm the exact routing based on your dates and preferences."
+      },
+      {
+        "question": "Is the Wagah border ceremony included?",
+        "answer": "Yes. The package includes a visit to the Wagah border for the famous evening flag-lowering ceremony, one of the highlights of any Amritsar visit. Your guide handles the timing for a good seat."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-5d-golden-triangle",
+      "name": "5 Days Delhi Agra Jaipur + Taj Mahal",
+      "price": "From RM1,388",
+      "duration": "5D4N",
+      "slug": "north-india/5-day-golden-triangle",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-3d-amritsar-golden-temple",
+      "name": "3 Days Amritsar: Golden Temple",
+      "price": "From RM398",
+      "duration": "3D2N",
+      "slug": "north-india/3-day-amritsar-golden-temple",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-golden-triangle-7day",
+      "name": "7 Days Golden Triangle: A Perfect Blend",
+      "price": "From RM2,388",
+      "duration": "7D6N",
+      "slug": "north-india/7-day-golden-triangle-comfort",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the Triangle and the Golden Temple?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "7 Days Golden Triangle Amritsar Tour from Malaysia",
+    "description": "7-day tour with Delhi, Taj Mahal, Jaipur and Amritsar Golden Temple plus Wagah border, private vehicle and guide. From RM1888 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/7-day-golden-triangle-amritsar",
+    "startLocation": "Indira Gandhi International Airport",
+    "endLocation": "Sri Guru Ram Dass Jee International Airport",
+    "duration": "P7D",
+    "offers": {
+      "price": "1888",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

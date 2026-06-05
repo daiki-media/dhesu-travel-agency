@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "title": "7 Days Arupadai Veedu + Navagraha from Malaysia | Dhesu Travel & Tours",
+    "description": "7-day Tamil temple pilgrimage combining the six abodes of Murugan and the nine Navagraha planetary temples, private vehicle. From RM1688 per person.",
+    "keywords": "7 Days Arupadai Veedu + Navagraha from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
+    "slug": "south-india/7-day-arupadai-navagraha",
+    "canonicalUrl": "/tours/india/south-india/7-day-arupadai-navagraha",
+    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "pkgid": "2283"
+  },
+  "hero": {
+    "badge": "South India",
+    "title": "7 Days, Temples of the South.",
+    "titleAccent": "The Six Abodes and the Nine Planets.",
+    "intro": "The ultimate Tamil temple pilgrimage. The six sacred abodes of Lord Murugan combined with the nine planetary temples of the Navagraha, woven into a single seven-day journey through the most sacred geography in the south.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "7 Days Arupadai Veedu + Navagraha",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Tamil Nadu Murugan and Navagraha temples pilgrimage"
+  },
+  "quickFacts": {
+    "duration": "7 Days / 6 Nights",
+    "startingPrice": "From RM1,688",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,026",
+    "saving": "Save RM675 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (6 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Temple Visits & Guidance"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "7 Days Arupadai Veedu + Navagraha: The Full Picture",
+    "body": [
+      "This 7 day pilgrimage brings together two of the great Tamil temple circuits: the Arupadai Veedu, the six sacred abodes of Lord Murugan, and the Navagraha, the nine planetary temples around the Cauvery delta. It is the most complete temple pilgrimage we offer in the south.",
+      "Arranged privately from Malaysia, the journey is designed for devotees who want both circuits in one trip. A knowledgeable driver guide handles the considerable routing and explains the legends, rituals and significance of each temple, from Murugan's hilltop and coastal shrines to the planetary temples of the delta."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "The Six Abodes of Murugan",
+        "body": "Palani, Swamimalai, Thiruchendur, Thirupparamkundram, Pazhamudircholai and Thiruthani, the sacred Arupadai Veedu of Lord Murugan.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Murugan abodes Tamil Nadu"
+      },
+      {
+        "title": "The Nine Planetary Temples",
+        "body": "The Navagraha temples around Kumbakonam, each dedicated to a celestial body, visited to seek balance and blessings according to one's birth chart.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Navagraha planetary temples"
+      },
+      {
+        "title": "The Sacred Cauvery Delta",
+        "body": "The fertile temple belt around Kumbakonam and Thanjavur, dense with ancient Chola shrines and rich tradition, forms the heart of the journey.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Cauvery delta temple region"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 7 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Madurai",
+        "meals": "No meals",
+        "description": "Met at the airport and transferred to your hotel. Evening at the Meenakshi Temple and Thirupparamkundram.",
+        "suggestedActivities": [
+          "Meenakshi Amman Temple",
+          "Thirupparamkundram (Murugan abode)",
+          "Settle in"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Thiruchendur & Palani",
+        "meals": "Breakfast",
+        "description": "The coastal abode of Thiruchendur and the hill temple of Palani.",
+        "suggestedActivities": [
+          "Thiruchendur seaside temple",
+          "Drive to Palani",
+          "Palani hill temple"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Swamimalai & Pazhamudircholai",
+        "meals": "Breakfast",
+        "description": "Two more Murugan abodes en route to the delta.",
+        "suggestedActivities": [
+          "Pazhamudircholai temple",
+          "Swamimalai temple",
+          "Drive to Kumbakonam"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Navagraha Temples (Part 1)",
+        "meals": "Breakfast",
+        "description": "Begin the planetary temple circuit around the delta.",
+        "suggestedActivities": [
+          "Suriyanar (Sun) Temple",
+          "Thingalur (Moon) Temple",
+          "Vaitheeswaran (Mars) Temple",
+          "Thiruvenkadu (Mercury) Temple"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Navagraha Temples (Part 2)",
+        "meals": "Breakfast",
+        "description": "Complete the planetary circuit.",
+        "suggestedActivities": [
+          "Alangudi (Jupiter)",
+          "Kanjanur (Venus)",
+          "Thirunallar (Saturn)",
+          "Thirunageswaram and Keezhperumpallam (Rahu, Ketu)"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Thiruthani",
+        "meals": "Breakfast",
+        "description": "The sixth Murugan abode at Thiruthani.",
+        "suggestedActivities": [
+          "Thiruthani hill temple",
+          "Final Murugan darshan",
+          "Temple shopping"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Depart",
+        "meals": "Breakfast",
+        "description": "Transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Final prasad",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1688 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1638 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1588 per person"
+          }
+        ],
+        "fromPrice": "RM1688"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1988 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1948 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1908 per person"
+          }
+        ],
+        "fromPrice": "RM1988",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2488 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2458 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2428 per person"
+          }
+        ],
+        "fromPrice": "RM2488"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Two Great Circuits, One Pilgrimage",
+    "body": "Combining the Murugan abodes and the Navagraha temples takes expert routing across Tamil Nadu, and both circuits have their own customs. We handle it all with knowledgeable guides. Dhesu has arranged South India pilgrimages since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Arupadai Veedu & Navagraha Tour from Malaysia",
+        "body": "This 7 day pilgrimage is the most complete Tamil temple journey we offer, combining the six abodes of Lord Murugan with the nine Navagraha planetary temples.\n\nArranged privately, it handles the substantial routing across Tamil Nadu and pairs you with a guide who understands both traditions, making the combined pilgrimage smooth and meaningful.\n\nIt is ideal for devotees who want both sacred circuits without making two separate trips."
+      },
+      {
+        "heading": "Two Pilgrimage Traditions in One Trip",
+        "body": "The Arupadai Veedu honours Lord Murugan, the Tamil god of war and victory, across six abodes from hilltops to the coast. The Navagraha temples, around the Cauvery delta, are dedicated to the nine celestial bodies of Vedic astrology.\n\nVisiting both in one journey gives a rich, layered experience of Tamil devotion, from the mythology of Murugan to the planetary remedies of the Navagraha."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Chennai or Madurai Airport (MAA / IXM). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for this pilgrimage?",
+        "answer": "November to February is the most comfortable, avoiding the Tamil Nadu heat. Festivals like Thaipusam and Skanda Sashti draw large crowds at Murugan temples. The temples are open year-round, with festival days busiest."
+      },
+      {
+        "question": "Do I need to know my birth chart for the Navagraha temples?",
+        "answer": "It helps if you want to focus on specific planetary remedies, but it is not required. Many pilgrims visit all nine temples for overall blessings. Your guide can explain the customary offerings at each shrine."
+      },
+      {
+        "question": "How much driving is involved?",
+        "answer": "Both circuits are spread across Tamil Nadu, so there is significant driving. The seven-day pace and private vehicle keep this comfortable, with the route planned to combine the two circuits as efficiently as possible."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-6d-arupadai-veedu",
+      "name": "6 Days Arupadai Veedu Murugan Temples",
+      "price": "From RM1,538",
+      "duration": "6D5N",
+      "slug": "south-india/6-day-arupadai-veedu-temples",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-4d-navagraha-temples",
+      "name": "4 Days Navagraha Temples",
+      "price": "From RM988",
+      "duration": "4D3N",
+      "slug": "south-india/4-day-navagraha-temples",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-tamil-nadu-tour",
+      "name": "7 Days Tamil Nadu Tour",
+      "price": "From RM1,598",
+      "duration": "7D6N",
+      "slug": "south-india/7-day-tamil-nadu-tour",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the temple pilgrimage?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "7 Days Arupadai Veedu Navagraha Tour from Malaysia",
+    "description": "7-day Tamil temple pilgrimage combining the six abodes of Murugan and the nine Navagraha planetary temples, private vehicle. From RM1688 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/south-india/7-day-arupadai-navagraha",
+    "startLocation": "Madurai Airport",
+    "endLocation": "Madurai Airport",
+    "duration": "P7D",
+    "offers": {
+      "price": "1688",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

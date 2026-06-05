@@ -5,7 +5,7 @@
     "keywords": "Chennai tour package from Malaysia, 3 days Chennai package, South India tour package, Chennai shopping tour, Chennai travel package Malaysia, cheap India tour package, Chennai holiday package",
     "slug": "south-india/3-day-chennai-super-saver",
     "canonicalUrl": "/tours/india/south-india/3-day-chennai-super-saver",
-    "ogImage": "https://www.holidayidea.com.my/upload/gallery/10467.jpg",
+    "ogImage": "/images/gallery/10468.jpg",
     "pkgid": "67"
   },
   "hero": {
@@ -19,7 +19,7 @@
       { "label": "All India Packages", "href": "/tours/india/all-packages" },
       { "label": "3 Days Chennai Super Saver", "href": null }
     ],
-    "heroImage": "https://www.holidayidea.com.my/upload/gallery/10467.jpg",
+    "heroImage": "/images/gallery/10467.jpg",
     "heroImageAlt": "T Nagar shopping district Chennai at night with colourful saree stores"
   },
   "quickFacts": {
@@ -57,25 +57,25 @@
       {
         "title": "T Nagar: India's Biggest Shopping District by Revenue",
         "body": "There is nowhere quite like T Nagar. Multi-storey saree stores, narrow lanes of gold jewellery, Pondy Bazaar street food stalls, and the kind of energy that makes you forget time. It is reportedly the highest-revenue shopping district in all of India. Locals, tourists and wedding shoppers all converge here. Come prepared to browse and leave with more than you planned.",
-        "image": "https://www.holidayidea.com.my/upload/gallery/511.png",
+        "image": "/images/gallery/511.png",
         "imageAlt": "Pondy Bazaar T Nagar Chennai colourful shopping district"
       },
       {
         "title": "Your Own Private Vehicle All Day",
         "body": "No waiting for a tour bus. No fixed route you have to follow. Your dedicated driver guide knows Chennai and will take you wherever you want to go, from temple visits in the morning to evening street food walks in Mylapore. The vehicle runs 10am to 8pm. The day is genuinely yours.",
-        "image": "https://www.holidayidea.com.my/upload/gallery/1102.jpg",
+        "image": "/images/gallery/1102.jpg",
         "imageAlt": "Private driver guide car Chennai street"
       },
       {
         "title": "Kanchipuram Silk Sarees and South Indian Gold",
         "body": "Chennai is the best place outside Kanchipuram itself to buy authentic Kanchipuram silk sarees. The city's saree emporiums, particularly in Nungambakkam and Mylapore, carry extraordinary selections of handwoven pieces. Gold jewellery in Chennai is also bought and sold at some of the most competitive rates in India. Many Malaysians make the trip just for this.",
-        "image": "https://www.holidayidea.com.my/upload/gallery/10467.jpg",
+        "image": "/images/gallery/10467.jpg",
         "imageAlt": "Kanchipuram silk sarees Chennai shopping"
       },
       {
         "title": "Marina Beach and a City That Belongs to the Sea",
         "body": "Marina Beach is the second-longest urban beach in the world. At sunset, the whole city seems to come here. Street food carts selling corn, sundal and fresh coconut line the promenade. It is not a swimming beach, but as a place to absorb Chennai's soul, nothing beats it. A morning or evening visit is worth building your day around.",
-        "image": "https://www.holidayidea.com.my/upload/gallery/1110.jpg",
+        "image": "/images/gallery/1110.jpg",
         "imageAlt": "Marina Beach Chennai sunset promenade"
       }
     ]
@@ -251,7 +251,7 @@
       "price": "From RM888",
       "duration": "4D3N",
       "slug": "south-india/4-day-tirupati-temples",
-      "image": "https://www.holidayidea.com.my/upload/gallery/12929.jpg"
+      "image": "/images/gallery/12929.jpg"
     },
     {
       "id": "india-5d-bangalore-mysore-ooty",
@@ -285,7 +285,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://www.holidayidea.com.my/upload/gallery/10467.jpg"
+    "bgImage": "/images/gallery/10467.jpg"
   },
   "schema": {
     "type": "TouristTrip",

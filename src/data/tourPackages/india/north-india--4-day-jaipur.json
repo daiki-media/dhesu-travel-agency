@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "title": "4 Days Jaipur Super Saver from Malaysia | Dhesu Travel & Tours",
+    "description": "4-day Jaipur tour with Amber Fort, City Palace, Hawa Mahal, bazaars, private vehicle and hotel. From RM698 per person.",
+    "keywords": "4 Days Jaipur Super Saver from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/4-day-jaipur",
+    "canonicalUrl": "/tours/india/north-india/4-day-jaipur",
+    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "pkgid": "2465"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "4 Days in Jaipur.",
+    "titleAccent": "The Pink City of Forts, Palaces and Bazaars.",
+    "intro": "Jaipur is Rajasthan at its most regal and most fun. Hilltop forts, a palace painted pink, bazaars overflowing with gemstones and textiles, and royal history around every corner. Four days to soak up the romance.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "4 Days Jaipur Super Saver",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Hawa Mahal Jaipur pink city palace"
+  },
+  "quickFacts": {
+    "duration": "4 Days / 3 Nights",
+    "startingPrice": "From RM698",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM838",
+    "saving": "Save RM279 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (3 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "100% Private Tour"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "4 Days Jaipur Super Saver: The Full Picture",
+    "body": [
+      "Jaipur, the Pink City of Rajasthan, is built on royal history, legendary tales and architectural wonder. From the grand Amber Fort on its hill to the honeycomb facade of Hawa Mahal and the working observatory of Jantar Mantar, the city is a feast for the eyes. Its bazaars, brimming with gemstones, handicrafts and block-printed textiles, are just as dazzling.",
+      "This 4 day Jaipur tour package from Malaysia is private throughout, giving you time to enjoy the forts and palaces without rushing, plus plenty of room for shopping and Rajasthani food. Your own vehicle and driver guide mean you set the pace, from sunrise at Amber Fort to evening at the bazaars."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Amber Fort",
+        "body": "The magnificent hilltop Amber Fort, with its mirror palace, painted gateways and sweeping ramparts, is the jewel of Jaipur. Arrive early for the light and the views over Maota Lake.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Amber Fort Jaipur"
+      },
+      {
+        "title": "City Palace, Hawa Mahal & Jantar Mantar",
+        "body": "The royal City Palace, the iconic pink lattice of Hawa Mahal and the giant stone instruments of the Jantar Mantar observatory cluster in the old city, a short stroll apart.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Hawa Mahal and City Palace Jaipur"
+      },
+      {
+        "title": "Bazaars, Gems & Block Prints",
+        "body": "Jaipur is one of India's great shopping cities. Johari Bazaar for gemstones and jewellery, Bapu Bazaar for textiles and juttis, and workshops where block printing and blue pottery are still made by hand.",
+        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "imageAlt": "Jaipur bazaar gemstones and textiles"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 4 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Jaipur",
+        "meals": "No meals",
+        "description": "Met at Jaipur International Airport and transferred to your hotel. Evening free to explore a local bazaar or enjoy a Rajasthani thali.",
+        "suggestedActivities": [
+          "First Rajasthani thali dinner",
+          "Evening bazaar stroll",
+          "Settle in"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Amber Fort & Old City",
+        "meals": "Breakfast",
+        "description": "A full day covering the great fort and the pink old city with your private vehicle and guide.",
+        "suggestedActivities": [
+          "Amber Fort",
+          "Jal Mahal photo stop",
+          "City Palace",
+          "Hawa Mahal and Jantar Mantar",
+          "Johari Bazaar shopping"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Forts, Temples & Shopping",
+        "meals": "Breakfast",
+        "description": "Explore more of Jaipur's forts and crafts, with time for handicraft shopping.",
+        "suggestedActivities": [
+          "Nahargarh or Jaigarh Fort",
+          "Birla Mandir",
+          "Block printing and blue pottery workshops",
+          "Bapu Bazaar shopping"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Free Morning, Depart",
+        "meals": "Breakfast",
+        "description": "Checkout at noon. Last-minute shopping or a relaxed breakfast before your airport transfer.",
+        "suggestedActivities": [
+          "Final gemstone shopping",
+          "Relaxed breakfast",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "Hotel Sarovar Portico / Pearl Palace area or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM698 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM648 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM598 per person"
+          }
+        ],
+        "fromPrice": "RM698"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "Park Regis / Golden Tulip or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM898 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM858 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM818 per person"
+          }
+        ],
+        "fromPrice": "RM898",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "Fairmont / ITC Rajputana or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1248 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1218 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1188 per person"
+          }
+        ],
+        "fromPrice": "RM1248"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Rajasthan, Done With Royal Ease",
+    "body": "Jaipur's forts are spread out and its bazaars can swallow a whole day. A private vehicle and a guide who knows the city make it effortless and far more enjoyable. Dhesu has arranged Rajasthan trips for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Jaipur Tour Package from Malaysia: The Pink City",
+        "body": "Jaipur is the perfect introduction to Rajasthan, and four days gives you time to enjoy it properly. The forts, the palaces, the observatory and the bazaars all deserve unhurried attention, which is exactly what this private package allows.\n\nWith your own vehicle and driver guide, you reach Amber Fort before the crowds, navigate the old city with ease, and shop the bazaars at your leisure.\n\nJaipur also forms one corner of the famous Golden Triangle with Delhi and Agra, covered in our 5 day and 7 day packages."
+      },
+      {
+        "heading": "Shopping in Jaipur",
+        "body": "Jaipur is a treasure chest. Gemstones and silver jewellery in Johari Bazaar, block-printed and bandhani textiles, leather juttis, and the city's distinctive blue pottery.\n\nMany travellers from Malaysia come specifically for the jewellery and textiles. Your driver guide can recommend trusted workshops and shops where you see the craft being made."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Jaipur International Airport (JAI). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Jaipur?",
+        "answer": "October to March is ideal, with pleasant days and cool nights, perfect for fort visits. April to June is very hot, often above 40 degrees. The monsoon (July to September) is moderate. Winter is peak season for good reason."
+      },
+      {
+        "question": "Can I combine Jaipur with the Taj Mahal and Delhi?",
+        "answer": "Yes. Jaipur is the third point of the Golden Triangle. Our 5 day Delhi Agra Jaipur package and 7 day Golden Triangle plus Amritsar route both include the Taj Mahal and Delhi alongside Jaipur."
+      },
+      {
+        "question": "Is Jaipur good for families and shopping trips?",
+        "answer": "Very. The forts and palaces appeal to all ages, the private vehicle keeps things flexible for families, and the bazaars make it one of India's best shopping cities for jewellery, gems and textiles."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-5d-golden-triangle",
+      "name": "5 Days Delhi Agra Jaipur + Taj Mahal",
+      "price": "From RM1,388",
+      "duration": "5D4N",
+      "slug": "north-india/5-day-golden-triangle",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-4d-taj-mahal-agra",
+      "name": "4 Days: Exploring the Romance of the Taj Mahal",
+      "price": "From RM888",
+      "duration": "4D3N",
+      "slug": "north-india/4-day-taj-mahal-agra",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-9d-rajasthan-desert-safari",
+      "name": "9 Days Royal Rajasthan Desert Safari",
+      "price": "From RM3,488",
+      "duration": "9D8N",
+      "slug": "north-india/9-day-rajasthan-desert-safari",
+      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the Pink City?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "4 Days Jaipur Tour Package from Malaysia",
+    "description": "4-day Jaipur tour with Amber Fort, City Palace, Hawa Mahal, bazaars, private vehicle and hotel. From RM698 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/4-day-jaipur",
+    "startLocation": "Jaipur International Airport",
+    "endLocation": "Jaipur International Airport",
+    "duration": "P4D",
+    "offers": {
+      "price": "698",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

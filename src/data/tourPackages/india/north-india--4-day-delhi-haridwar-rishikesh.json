@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "title": "4 Days Delhi, Haridwar & Rishikesh from Malaysia | Dhesu Travel & Tours",
+    "description": "4-day tour of Delhi, Haridwar Ganga Aarti and Rishikesh yoga capital with private vehicle and guide. From RM988 per person.",
+    "keywords": "4 Days Delhi, Haridwar & Rishikesh from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/4-day-delhi-haridwar-rishikesh",
+    "canonicalUrl": "/tours/india/north-india/4-day-delhi-haridwar-rishikesh",
+    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "pkgid": "100"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "4 Days, Delhi to the Ganges.",
+    "titleAccent": "Haridwar's Aarti and the Yoga Capital of the World.",
+    "intro": "Where the Ganges leaves the Himalayas, two sacred towns wait. Haridwar's evening aarti sends thousands of lamps floating downriver, while Rishikesh blends ashrams, yoga and the rush of white water. A short, soulful escape.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "4 Days Delhi, Haridwar & Rishikesh",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Ganga Aarti Haridwar evening ceremony"
+  },
+  "quickFacts": {
+    "duration": "4 Days / 3 Nights",
+    "startingPrice": "From RM988",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1186",
+    "saving": "Save RM395 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (3 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "English-Speaking Guide"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "4 Days Delhi, Haridwar & Rishikesh: The Full Picture",
+    "body": [
+      "Haridwar and Rishikesh sit where the holy Ganges emerges from the Himalayan foothills, two of the most sacred towns in Hinduism. Haridwar is known for its grand Ganga Aarti at Har Ki Pauri, while Rishikesh has become the yoga capital of the world, a place of ashrams, suspension bridges and gentle adventure.",
+      "This 4 day package from Malaysia starts in Delhi and heads north to the Ganges. Famous for Ayurvedic medicine, herbal remedies and the Gurukul tradition of learning, this region rewards travellers seeking something more contemplative. Your private vehicle and guide make the journey smooth and flexible."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Ganga Aarti at Har Ki Pauri",
+        "body": "Each evening, Haridwar's main ghat erupts in light and sound as priests perform the Ganga Aarti and thousands of lamps drift down the river. One of North India's most moving spectacles.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "imageAlt": "Ganga Aarti Har Ki Pauri Haridwar"
+      },
+      {
+        "title": "Rishikesh: Yoga & the Ganges",
+        "body": "Cross the iconic Laxman Jhula and Ram Jhula suspension bridges, visit riverside ashrams, and feel the calm that has drawn seekers (and the Beatles) for decades.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "imageAlt": "Rishikesh suspension bridge Ganges"
+      },
+      {
+        "title": "Ashrams, Temples & White Water",
+        "body": "From peaceful temples and meditation centres to optional white-water rafting on the Ganges, Rishikesh balances the spiritual with the adventurous.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Rishikesh ashram and river"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 4 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Delhi, Drive to Haridwar",
+        "meals": "No meals",
+        "description": "Met at Delhi airport and driven to Haridwar, in time for the evening Ganga Aarti.",
+        "suggestedActivities": [
+          "Drive to Haridwar",
+          "Evening Ganga Aarti at Har Ki Pauri"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Haridwar & Rishikesh",
+        "meals": "Breakfast",
+        "description": "Morning temples in Haridwar, then on to Rishikesh for the bridges and ashrams.",
+        "suggestedActivities": [
+          "Mansa Devi temple (cable car)",
+          "Drive to Rishikesh",
+          "Laxman Jhula and Ram Jhula",
+          "Riverside ashram visit"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Rishikesh Day & Return to Delhi",
+        "meals": "Breakfast",
+        "description": "More of Rishikesh, with optional rafting or yoga, then drive back to Delhi.",
+        "suggestedActivities": [
+          "Optional white-water rafting",
+          "Beatles Ashram (optional)",
+          "Triveni Ghat aarti",
+          "Drive to Delhi"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Depart Delhi",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels Haridwar and Rishikesh or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM988 per person"
+          }
+        ],
+        "fromPrice": "RM988"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM1288 per person"
+          }
+        ],
+        "fromPrice": "RM1288",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star riverside resorts or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM1688 per person"
+          }
+        ],
+        "fromPrice": "RM1688"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The Sacred North, Made Simple",
+    "body": "Getting from Delhi to the Ganges towns and timing the Haridwar aarti takes planning. We handle the drives, the timing and the stays so you can focus on the experience. Dhesu has arranged spiritual India trips since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Haridwar & Rishikesh Tour from Malaysia",
+        "body": "This short trip is perfect for travellers drawn to the spiritual and natural side of North India. Haridwar's aarti and Rishikesh's yoga and river make a powerful contrast in just four days.\n\nThe private vehicle and guide handle the drives from Delhi and the local logistics, so you simply enjoy the temples, the bridges and the Ganges.\n\nRishikesh also pairs with a longer spiritual circuit through Varanasi and Ayodhya for those wanting a deeper journey."
+      },
+      {
+        "heading": "Yoga & Wellness in Rishikesh",
+        "body": "Rishikesh is the world's yoga capital, with ashrams and centres lining the Ganges. Whether you want a single class, a meditation session, or simply the serene riverside atmosphere, the town delivers.\n\nThe region is also famous for Ayurveda and herbal remedies, so wellness treatments and consultations are easy to arrange alongside your sightseeing."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Dehradun (Jolly Grant) or Delhi Airport (DED / DEL). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Haridwar and Rishikesh?",
+        "answer": "September to April offers the most comfortable weather. The towns sit in the foothills, so summers are milder than the plains. Avoid the peak monsoon (July-August) when the Ganges runs high and rafting may pause."
+      },
+      {
+        "question": "Can I do yoga or rafting on this trip?",
+        "answer": "Yes. Rishikesh offers everything from gentle riverside yoga classes to white-water rafting on the Ganges. We can arrange these as optional activities. Let us know your interest when booking."
+      },
+      {
+        "question": "Is alcohol and meat available in these towns?",
+        "answer": "Both Haridwar and Rishikesh are holy towns and are largely vegetarian and alcohol-free by custom and regulation. Pure vegetarian food is plentiful and excellent. This adds to the contemplative, wellness-focused atmosphere."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-3d-varanasi-sunrise-sunset",
+      "name": "3 Days Varanasi: Sunrise, Sunset & Ganga Aarti",
+      "price": "From RM698",
+      "duration": "3D2N",
+      "slug": "north-india/3-day-varanasi-ganga-aarti",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-sacred-triangle-varanasi-rishikesh",
+      "name": "6 Days India's Sacred Triangle",
+      "price": "From RM2,488",
+      "duration": "6D5N",
+      "slug": "north-india/6-day-sacred-triangle",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-11d-sacred-trails",
+      "name": "11 Days Sacred Trails of India",
+      "price": "From RM3,888",
+      "duration": "11D10N",
+      "slug": "north-india/11-day-sacred-trails",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the Ganges towns?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "4 Days Delhi Haridwar Rishikesh Tour from Malaysia",
+    "description": "4-day tour of Delhi, Haridwar Ganga Aarti and Rishikesh yoga capital with private vehicle and guide. From RM988 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/4-day-delhi-haridwar-rishikesh",
+    "startLocation": "Indira Gandhi International Airport",
+    "endLocation": "Indira Gandhi International Airport",
+    "duration": "P4D",
+    "offers": {
+      "price": "988",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

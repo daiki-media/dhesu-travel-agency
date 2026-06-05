@@ -53,7 +53,7 @@ export default function PlanYourTrip() {
               {/* Main Image - Full width on mobile */}
               <div className="relative w-full h-[280px] sm:h-[350px] overflow-hidden rounded-2xl shadow-xl">
                 <Image
-                  src="https://www.holidayidea.com.my/upload/gallery/14620.jpg"
+                  src="/images/gallery/14620.jpg"
                   alt="Mountain hiker"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-700"
@@ -89,7 +89,7 @@ export default function PlanYourTrip() {
             <div className="hidden lg:flex lg:gap-6 h-[520px] items-center">
               <div className="relative w-[50%] h-full overflow-hidden rounded-t-full rounded-bl-full shadow-xl">
                 <Image
-                  src="https://www.holidayidea.com.my/upload/gallery/14620.jpg"
+                  src="/images/gallery/14620.jpg"
                   alt="Mountain hiker"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-700"

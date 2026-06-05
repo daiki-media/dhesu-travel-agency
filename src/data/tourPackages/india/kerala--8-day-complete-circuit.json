@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "8 Days Complete Kerala Circuit from Malaysia | Dhesu Travel & Tours",
+    "description": "8-day complete Kerala circuit with Kochi, Munnar, Thekkady, backwater houseboat and beach. From RM2398 per person.",
+    "keywords": "8 Days Complete Kerala Circuit from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
+    "slug": "kerala/8-day-complete-circuit",
+    "canonicalUrl": "/tours/india/kerala/8-day-complete-circuit",
+    "ogImage": "/images/gallery/12929.jpg",
+    "pkgid": "2457"
+  },
+  "hero": {
+    "badge": "Kerala",
+    "title": "8 Days, Complete Kerala.",
+    "titleAccent": "Coast to Hills to Backwaters to Beach.",
+    "intro": "The full Kerala loop in eight days: heritage Kochi, the tea hills, spice country, the backwaters and a finish by the Arabian Sea. A complete circuit through every face of God's Own Country.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "8 Days Complete Kerala Circuit",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Complete Kerala circuit coast hills backwaters"
+  },
+  "quickFacts": {
+    "duration": "8 Days / 7 Nights",
+    "startingPrice": "From RM2,398",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,878",
+    "saving": "Save RM959 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel, Houseboat & Beach Stay (7 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Overnight Houseboat Cruise"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "8 Days Complete Kerala Circuit: The Full Picture",
+    "body": [
+      "This complete Kerala circuit is designed for travellers who want to see everything: the colonial coast, the cool tea hills, the spice plantations, the famous backwaters, and the beaches of the Arabian Sea. Eight days, one smooth private loop.",
+      "Arranged privately from Malaysia, the 8 day complete circuit links Kochi, Munnar, Thekkady, the Alleppey backwaters and a beach finish, with your own vehicle and driver guide throughout. It is the most thorough way to experience Kerala in a single trip."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Every Side of Kerala",
+        "body": "Heritage Kochi, the tea hills of Munnar, the spice country of Thekkady, the backwaters of Alleppey and a coastal beach finish. The complete Kerala experience.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Complete Kerala landscapes"
+      },
+      {
+        "title": "Houseboat Backwater Night",
+        "body": "A private houseboat on the backwaters, with onboard meals and a peaceful night drifting through the palm-lined canals.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Kerala backwater houseboat"
+      },
+      {
+        "title": "A Beach Finish",
+        "body": "End by the Arabian Sea at a coastal resort such as Kovalam or Marari, the perfect way to wind down a busy circuit.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Kerala beach Arabian Sea"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 8 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kochi",
+        "meals": "No meals",
+        "description": "Met at Cochin airport and transferred to your hotel. Evening at the fishing nets.",
+        "suggestedActivities": [
+          "Sunset fishing nets",
+          "Fort Kochi walk",
+          "Seafood dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Fort Kochi & Kathakali",
+        "meals": "Breakfast",
+        "description": "A day exploring the old quarter and an evening Kathakali show.",
+        "suggestedActivities": [
+          "Heritage walk",
+          "Spice market",
+          "Evening Kathakali performance"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Kochi to Munnar",
+        "meals": "Breakfast",
+        "description": "Scenic drive to the tea hills.",
+        "suggestedActivities": [
+          "Drive to Munnar",
+          "Tea plantation stops",
+          "Evening in the hills"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Munnar to Thekkady",
+        "meals": "Breakfast",
+        "description": "Munnar sights, then on to the spice hills.",
+        "suggestedActivities": [
+          "Mattupetty Dam and Echo Point",
+          "Drive to Thekkady",
+          "Periyar Lake cruise"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Thekkady to Alleppey",
+        "meals": "Breakfast",
+        "description": "Spice plantation walk, then descend to the backwaters.",
+        "suggestedActivities": [
+          "Spice plantation walk",
+          "Drive to Alleppey",
+          "Evening at leisure"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Alleppey Houseboat",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "Board your private houseboat for an overnight backwater cruise.",
+        "suggestedActivities": [
+          "Board houseboat",
+          "Backwater cruise",
+          "Onboard meals"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Backwaters to the Beach",
+        "meals": "Breakfast",
+        "description": "Disembark and transfer to a coastal beach resort to relax.",
+        "suggestedActivities": [
+          "Disembark",
+          "Drive to Kovalam or Marari",
+          "Beach time"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Depart",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Final beach morning",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + houseboat + beach resort or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2398 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2348 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2298 per person"
+          }
+        ],
+        "fromPrice": "RM2398"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium options or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2798 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2758 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2718 per person"
+          }
+        ],
+        "fromPrice": "RM2798",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury options or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM3498 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM3468 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM3438 per person"
+          }
+        ],
+        "fromPrice": "RM3498"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The Whole of Kerala, One Smooth Loop",
+    "body": "Covering coast, hills, spice country, backwaters and beach takes expert routing to avoid backtracking. We build the circuit so it flows. Dhesu has arranged Kerala holidays for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Complete Kerala Circuit from Malaysia",
+        "body": "This 8 day circuit is the most thorough Kerala tour we offer, taking in every side of the state: heritage, hills, spice, backwaters and beach.\n\nThe route is designed as a smooth private loop, so you experience the full variety of Kerala without doubling back. A driver guide handles the logistics throughout.\n\nFor a route that pushes south to the tip of India, see our 9 day Kerala plus Kanyakumari package."
+      },
+      {
+        "heading": "Kerala's Beaches",
+        "body": "Kerala's Arabian Sea coast has some lovely beaches, from the lively crescent of Kovalam to the quieter sands of Marari. Ending a busy circuit with a beach day is the ideal way to relax.\n\nThe coast is also rich in seafood and Ayurvedic resorts, making it a fitting finish to a complete Kerala journey."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Cochin or Trivandrum Airport (COK / TRV). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "How is this different from the 8 day Best of Kerala?",
+        "answer": "Both are eight-day Kerala tours covering the core highlights. The complete circuit emphasises a full loop ending with a beach stay on the Arabian Sea, while the Best of Kerala focuses more on Munnar and Thekkady. We can tailor either to your interests."
+      },
+      {
+        "question": "Where does this trip end?",
+        "answer": "The circuit typically ends near the coast, with departure from Cochin or Trivandrum depending on the beach chosen. We arrange flights and transfers to suit your routing."
+      },
+      {
+        "question": "What is the best time for this circuit?",
+        "answer": "September to March offers the most pleasant weather across all the regions. The monsoon brings lush scenery but heavy rain. The cool, dry season is best for the hills and the beaches alike."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-8d-kerala-munnar-thekkady",
+      "name": "8 Days Best of Kerala: Munnar & Thekkady",
+      "price": "From RM2,398",
+      "duration": "8D7N",
+      "slug": "kerala/8-day-best-of",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-9d-kerala-kanyakumari",
+      "name": "9 Days Kerala + Kanyakumari",
+      "price": "From RM2,788",
+      "duration": "9D8N",
+      "slug": "kerala/9-day-kanyakumari",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-kerala-backwaters",
+      "name": "6 Days Beautiful Kerala + Backwaters",
+      "price": "From RM1,688",
+      "duration": "6D5N",
+      "slug": "kerala/6-day-backwaters-overnight",
+      "image": "/images/gallery/12929.jpg"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the complete Kerala circuit?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/12929.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "8 Days Complete Kerala Circuit from Malaysia",
+    "description": "8-day complete Kerala circuit with Kochi, Munnar, Thekkady, backwater houseboat and beach. From RM2398 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kerala/8-day-complete-circuit",
+    "startLocation": "Cochin International Airport",
+    "endLocation": "Trivandrum International Airport",
+    "duration": "P8D",
+    "offers": {
+      "price": "2398",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

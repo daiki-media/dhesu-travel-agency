@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "title": "4 Days Mumbai + Bollywood from Malaysia | Dhesu Travel & Tours",
+    "description": "4-day Mumbai tour with Gateway of India, Bollywood studio, Marine Drive, colonial heritage, private vehicle. From RM1298 per person.",
+    "keywords": "4 Days Mumbai + Bollywood from Malaysia, India tour package, West India tour package Malaysia, Dhesu travel",
+    "slug": "west-india/4-day-mumbai-bollywood",
+    "canonicalUrl": "/tours/india/west-india/4-day-mumbai-bollywood",
+    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "pkgid": "102"
+  },
+  "hero": {
+    "badge": "West India",
+    "title": "4 Days in Mumbai.",
+    "titleAccent": "The City of Dreams and the Magic of Bollywood.",
+    "intro": "Mumbai never stops. India's biggest, brashest, most energetic city, home to Bollywood, colonial grandeur, street food legends and the gateway to the Arabian Sea. Four days in the city of dreams.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "4 Days Mumbai + Bollywood",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Mumbai Gateway of India and skyline"
+  },
+  "quickFacts": {
+    "duration": "4 Days / 3 Nights",
+    "startingPrice": "From RM1,298",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,558",
+    "saving": "Save RM519 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (3 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Bollywood Studio Visit"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "4 Days Mumbai + Bollywood: The Full Picture",
+    "body": [
+      "Mumbai is India turned up to maximum. The financial and entertainment capital, it blends Victorian Gothic and Art Deco architecture, the buzz of Bollywood, some of the country's best street food, and the relentless energy of a city of over twenty million people. It is exhilarating.",
+      "This 4 day Mumbai package from Malaysia is private throughout, with your own vehicle and driver guide. You see the Gateway of India, the grand colonial precinct, the Dhobi Ghat open-air laundry, Marine Drive at sunset, and get a taste of Bollywood with a studio visit. The city's contrasts make it endlessly fascinating."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Gateway of India & Colonial Mumbai",
+        "body": "The iconic Gateway of India arch by the harbour, the grand Chhatrapati Shivaji Terminus, and the elegant colonial and Art Deco buildings that line the city centre.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Gateway of India Mumbai"
+      },
+      {
+        "title": "Bollywood & the City of Dreams",
+        "body": "A glimpse behind the scenes of the world's most prolific film industry, with a Bollywood studio visit and the stories of the stars who made Mumbai the city of dreams.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Bollywood Mumbai film studio"
+      },
+      {
+        "title": "Marine Drive, Street Food & Markets",
+        "body": "Sunset on the Queen's Necklace at Marine Drive, the legendary street food of Mohammed Ali Road and Chowpatty, and the bustling markets of a city that never sleeps.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Marine Drive Mumbai sunset"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 4 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Mumbai",
+        "meals": "No meals",
+        "description": "Met at Mumbai airport and transferred to your hotel. Evening at Marine Drive.",
+        "suggestedActivities": [
+          "Marine Drive sunset",
+          "Chowpatty Beach street food",
+          "Settle in"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Mumbai City Tour",
+        "meals": "Breakfast",
+        "description": "A full day exploring colonial Mumbai and its landmarks.",
+        "suggestedActivities": [
+          "Gateway of India",
+          "Chhatrapati Shivaji Terminus",
+          "Dhobi Ghat",
+          "Hanging Gardens",
+          "Crawford Market"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Bollywood & Elephanta",
+        "meals": "Breakfast",
+        "description": "A Bollywood studio visit and optional ferry to the Elephanta caves.",
+        "suggestedActivities": [
+          "Bollywood studio visit",
+          "Elephanta Caves ferry (optional)",
+          "Bandra and the Bandstand",
+          "Shopping"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Depart Mumbai",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels Mumbai or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1298 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1248 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1198 per person"
+          }
+        ],
+        "fromPrice": "RM1298"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1598 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1558 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1518 per person"
+          }
+        ],
+        "fromPrice": "RM1598",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2098 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2068 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2038 per person"
+          }
+        ],
+        "fromPrice": "RM2098"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Mumbai, Navigated for You",
+    "body": "Mumbai's scale and traffic can overwhelm, but a private vehicle and a local guide turn it into an exhilarating, easy city break. We know the timings, the food and the Bollywood angles. Dhesu has run India city tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Mumbai & Bollywood Tour from Malaysia",
+        "body": "Mumbai is one of the most exciting city breaks in India, and a private tour is the best way to experience it given the scale and energy. This 4 day package covers the colonial landmarks, the Bollywood magic and the street food legends.\n\nYour own vehicle and driver guide handle the famous Mumbai traffic, so you cover the Gateway of India, Marine Drive and the studios with ease.\n\nMumbai also pairs beautifully with Goa for a city-and-beach combination, covered in our 5 day package."
+      },
+      {
+        "heading": "Bollywood in Mumbai",
+        "body": "Mumbai is the home of Bollywood, the world's most prolific film industry. A studio visit offers a glimpse behind the scenes of the song-and-dance spectacles that captivate audiences across Asia.\n\nThe city is dotted with film history, from star homes in Bandra to iconic shooting locations. For film fans, it is a highlight of any Mumbai trip."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Mumbai?",
+        "answer": "October to February offers the most pleasant weather, dry and relatively cool. The monsoon (June to September) brings heavy rain and dramatic seas but can disrupt sightseeing. March to May is hot and humid."
+      },
+      {
+        "question": "Is the Bollywood studio visit guaranteed?",
+        "answer": "We arrange a Bollywood studio or city film tour as part of the package. Access to active shoots depends on schedules, but the tour offers a genuine behind-the-scenes glimpse of the industry. We confirm the specific experience when you book."
+      },
+      {
+        "question": "Can I combine Mumbai with Goa?",
+        "answer": "Yes. Mumbai and Goa make a great city-and-beach pairing. Our 5 day Mumbai plus Goa package combines the energy of the city with the beaches and Portuguese heritage of Goa."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-5d-mumbai-goa",
+      "name": "5 Days Mumbai + Goa",
+      "price": "From RM2,088",
+      "duration": "5D4N",
+      "slug": "west-india/5-day-mumbai-goa",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-3d-shirdi-pilgrimage",
+      "name": "3 Days Shirdi Pilgrimage",
+      "price": "From RM588",
+      "duration": "3D2N",
+      "slug": "west-india/3-day-shirdi-pilgrimage",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-4d-shirdi-nashik",
+      "name": "4 Days Shirdi, Nashik & Shani Shingnapur",
+      "price": "From RM1,488",
+      "duration": "4D3N",
+      "slug": "west-india/4-day-shirdi-nashik-shani",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the city of dreams?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "4 Days Mumbai Bollywood Tour from Malaysia",
+    "description": "4-day Mumbai tour with Gateway of India, Bollywood studio, Marine Drive, colonial heritage, private vehicle. From RM1298 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/west-india/4-day-mumbai-bollywood",
+    "startLocation": "Chhatrapati Shivaji Maharaj International Airport",
+    "endLocation": "Chhatrapati Shivaji Maharaj International Airport",
+    "duration": "P4D",
+    "offers": {
+      "price": "1298",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

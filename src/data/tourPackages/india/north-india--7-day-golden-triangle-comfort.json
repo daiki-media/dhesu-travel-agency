@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "title": "7 Days Golden Triangle: A Perfect Blend from Malaysia | Dhesu Travel & Tours",
+    "description": "7-day relaxed Golden Triangle with two nights each in Delhi, Agra and Jaipur, Taj Mahal at sunrise, private vehicle. From RM2388 per person.",
+    "keywords": "7 Days Golden Triangle: A Perfect Blend from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/7-day-golden-triangle-comfort",
+    "canonicalUrl": "/tours/india/north-india/7-day-golden-triangle-comfort",
+    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "pkgid": "2317"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "7 Days, the Golden Triangle.",
+    "titleAccent": "Delhi, Agra and Jaipur at a Relaxed Pace.",
+    "intro": "The Golden Triangle, unhurried. Two nights in each city means time to truly enjoy Delhi, the Taj Mahal and Jaipur, with room for the markets, the food and the lesser-seen corners. The classic route, done in comfort.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "7 Days Golden Triangle: A Perfect Blend",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Golden Triangle Delhi Agra Jaipur comfort tour"
+  },
+  "quickFacts": {
+    "duration": "7 Days / 6 Nights",
+    "startingPrice": "From RM2,388",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,866",
+    "saving": "Save RM955 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (6 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "English-Speaking Guide"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "7 Days Golden Triangle: A Perfect Blend: The Full Picture",
+    "body": [
+      "This 7 day version of the Golden Triangle is for travellers who prefer comfort over speed. By spending two nights in each city, you experience Delhi, Agra and Jaipur at a relaxed pace, with time for the markets, the food, the side trips and the moments that a rushed itinerary misses.",
+      "Arranged privately from Malaysia, the trip uses better hotels and a gentler rhythm than the 5 day version. Your own vehicle and driver guide give complete flexibility, from a leisurely sunrise at the Taj to an unhurried afternoon in Jaipur's bazaars. It is the Golden Triangle as a holiday, not a sprint."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "The Taj Mahal, Unhurried",
+        "body": "With two nights in Agra, you can enjoy the Taj at sunrise, explore Agra Fort, and even catch the Taj from across the river at Mehtab Bagh, without rushing on.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Taj Mahal Agra relaxed visit"
+      },
+      {
+        "title": "Delhi in Depth",
+        "body": "Two nights in the capital allow for both Old and New Delhi, from Chandni Chowk and the Red Fort to Humayun's Tomb and the colonial avenues.",
+        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&auto=format&fit=crop",
+        "imageAlt": "Delhi monuments in depth"
+      },
+      {
+        "title": "Jaipur at Leisure",
+        "body": "Amber Fort, the City Palace and Hawa Mahal, plus time for the bazaars, the block printers and Rajasthani cuisine, all at a relaxed pace.",
+        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "imageAlt": "Jaipur Amber Fort at leisure"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 7 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Delhi",
+        "meals": "No meals",
+        "description": "Met at the airport and transferred to your hotel. Evening at leisure.",
+        "suggestedActivities": [
+          "Settle in",
+          "Connaught Place",
+          "First dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Delhi Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day of Old and New Delhi.",
+        "suggestedActivities": [
+          "Jama Masjid and Chandni Chowk",
+          "Red Fort",
+          "Humayun's Tomb",
+          "India Gate and Qutub Minar"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Delhi to Agra",
+        "meals": "Breakfast",
+        "description": "Drive to Agra with an afternoon at the fort or Mehtab Bagh.",
+        "suggestedActivities": [
+          "Drive to Agra",
+          "Agra Fort",
+          "Mehtab Bagh sunset view",
+          "Marble workshop"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Taj Mahal, Drive to Jaipur",
+        "meals": "Breakfast",
+        "description": "Sunrise Taj, then drive to Jaipur via Fatehpur Sikri.",
+        "suggestedActivities": [
+          "Taj Mahal at sunrise",
+          "Fatehpur Sikri",
+          "Drive to Jaipur",
+          "Evening bazaar"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Jaipur Sightseeing",
+        "meals": "Breakfast",
+        "description": "The forts and palaces of the Pink City.",
+        "suggestedActivities": [
+          "Amber Fort",
+          "City Palace and Jantar Mantar",
+          "Hawa Mahal",
+          "Johari Bazaar"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Jaipur at Leisure",
+        "meals": "Breakfast",
+        "description": "More of Jaipur, with shopping and crafts.",
+        "suggestedActivities": [
+          "Nahargarh Fort",
+          "Block printing workshops",
+          "Bapu Bazaar shopping",
+          "Rajasthani dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Depart Jaipur",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2388 per person"
+          }
+        ],
+        "fromPrice": "RM2388"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4 and 5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2788 per person"
+          }
+        ],
+        "fromPrice": "RM2788",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star heritage hotels or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM3488 per person"
+          }
+        ],
+        "fromPrice": "RM3488"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The Golden Triangle, as a Holiday",
+    "body": "Two nights in each city transforms the Golden Triangle from a sprint into a holiday. We pair the relaxed pace with better hotels and the freedom of a private vehicle. Dhesu has run the route for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "7 Day Golden Triangle Tour from Malaysia",
+        "body": "This 7 day version of the Golden Triangle is for travellers who want to enjoy Delhi, Agra and Jaipur without rushing. Two nights in each city means time for the markets, the food and the side trips.\n\nWith better hotels and a private vehicle, it is the Golden Triangle as a comfortable holiday, ideal for couples, families and anyone who values a relaxed pace.\n\nFor a more packed version, see our 5 day Golden Triangle; to add Amritsar, the 7 day Golden Triangle plus Amritsar."
+      },
+      {
+        "heading": "Why Choose the 7 Day Comfort Version",
+        "body": "The 5 day Golden Triangle covers the icons efficiently, but the 7 day version lets you breathe. Two nights in each city means you can revisit the Taj, linger in Jaipur's bazaars, and explore Delhi's quieter corners.\n\nThe slower pace also allows for better hotels and side trips, making it a more restful and rewarding way to experience the classic route."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Delhi and Jaipur Airports (DEL / JAI). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "How is this different from the 5 day Golden Triangle?",
+        "answer": "This 7 day version spends two nights in each city, giving a more relaxed pace, better hotels and time for markets, food and side trips. The 5 day version covers the same icons more efficiently. We can advise which suits you."
+      },
+      {
+        "question": "What is the best time for the Golden Triangle?",
+        "answer": "October to March is ideal, with pleasant days and cool nights. April to June is very hot on the plains. July to September is the monsoon. Winter mornings can be misty around the Taj but offer atmospheric light."
+      },
+      {
+        "question": "Is this trip good for families?",
+        "answer": "Very. The relaxed pace, private vehicle and two nights in each city make it comfortable for families, with less time spent in transit and more flexibility around children's routines and interests."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-5d-golden-triangle",
+      "name": "5 Days Delhi Agra Jaipur + Taj Mahal",
+      "price": "From RM1,388",
+      "duration": "5D4N",
+      "slug": "north-india/5-day-golden-triangle",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-golden-triangle-amritsar",
+      "name": "7 Days Golden Triangle + Amritsar",
+      "price": "From RM1,888",
+      "duration": "7D6N",
+      "slug": "north-india/7-day-golden-triangle-amritsar",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-9d-golden-triangle-shimla",
+      "name": "9 Days Golden Triangle + Shimla",
+      "price": "From RM2,598",
+      "duration": "9D8N",
+      "slug": "north-india/9-day-golden-triangle-shimla",
+      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for a relaxed Golden Triangle?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "7 Days Golden Triangle Tour from Malaysia",
+    "description": "7-day relaxed Golden Triangle with two nights each in Delhi, Agra and Jaipur, Taj Mahal at sunrise, private vehicle. From RM2388 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/7-day-golden-triangle-comfort",
+    "startLocation": "Indira Gandhi International Airport",
+    "endLocation": "Jaipur International Airport",
+    "duration": "P7D",
+    "offers": {
+      "price": "2388",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

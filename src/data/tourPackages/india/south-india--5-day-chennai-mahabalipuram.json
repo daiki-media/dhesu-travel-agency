@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "title": "5 Days Chennai & Mahabalipuram from Malaysia | Dhesu Travel & Tours",
+    "description": "5-day South India coastal tour with Chennai, Mahabalipuram shore temples and Pondicherry French Quarter, private vehicle. From RM1088 per person.",
+    "keywords": "5 Days Chennai & Mahabalipuram from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
+    "slug": "south-india/5-day-chennai-mahabalipuram",
+    "canonicalUrl": "/tours/india/south-india/5-day-chennai-mahabalipuram",
+    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "pkgid": "2189"
+  },
+  "hero": {
+    "badge": "South India",
+    "title": "5 Days, Chennai Coast.",
+    "titleAccent": "City, Shore Temples and Pondicherry's French Quarter.",
+    "intro": "The Coromandel coast at its best. Chennai's culture, the ancient shore temples of Mahabalipuram, and a taste of French India in Pondicherry. Five days along one of South India's most rewarding coastlines.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "5 Days Chennai & Mahabalipuram",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Mahabalipuram shore temple Coromandel coast"
+  },
+  "quickFacts": {
+    "duration": "5 Days / 4 Nights",
+    "startingPrice": "From RM1,088",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,306",
+    "saving": "Save RM435 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Resort Stay (4 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Beach Resort Stay"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "5 Days Chennai & Mahabalipuram: The Full Picture",
+    "body": [
+      "This 5 day coastal tour explores the best of the Coromandel coast south of Chennai. From the Tamil capital's temples and beaches, you travel down to Mahabalipuram, with its UNESCO-listed shore temples and rock carvings, and on to Pondicherry, where the French colonial quarter feels worlds away from the rest of India.",
+      "Arranged privately from Malaysia, the trip blends heritage, beach time and culture, with your own vehicle and driver guide. The relaxed coastal pace, a beach resort stay, and the contrast between ancient temples and French boulevards make it a varied, enjoyable journey."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Mahabalipuram's Shore Temples",
+        "body": "The UNESCO-listed Shore Temple, the Pancha Rathas and the giant rock relief of Arjuna's Penance, masterpieces of Pallava art set right by the sea.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Mahabalipuram shore temple"
+      },
+      {
+        "title": "Pondicherry's French Quarter",
+        "body": "Pastel colonial villas, tree-lined boulevards, seaside promenades and French-influenced cafes make Pondicherry one of the most charming towns in South India.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Pondicherry French Quarter"
+      },
+      {
+        "title": "Coastal Relaxation",
+        "body": "A beach resort stay along the Coromandel coast offers time to unwind between the heritage stops, with the Bay of Bengal at your doorstep.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Coromandel coast beach resort"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 5 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Chennai",
+        "meals": "No meals",
+        "description": "Met at Chennai airport and transferred to your hotel. Evening at Marina Beach.",
+        "suggestedActivities": [
+          "Marina Beach walk",
+          "Kapaleeshwarar Temple",
+          "First South Indian meal"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Chennai to Mahabalipuram",
+        "meals": "Breakfast",
+        "description": "Drive down the coast to Mahabalipuram and its monuments.",
+        "suggestedActivities": [
+          "Shore Temple",
+          "Pancha Rathas",
+          "Arjuna's Penance",
+          "Beach resort check in"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Mahabalipuram to Pondicherry",
+        "meals": "Breakfast",
+        "description": "Coastal drive to the French town of Pondicherry.",
+        "suggestedActivities": [
+          "Drive to Pondicherry",
+          "French Quarter walk",
+          "Promenade Beach",
+          "Auroville (optional)"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Pondicherry & Return",
+        "meals": "Breakfast",
+        "description": "More of Pondicherry, then return towards Chennai.",
+        "suggestedActivities": [
+          "Sri Aurobindo Ashram",
+          "French cafes",
+          "Drive towards Chennai",
+          "Coastal stops"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Depart Chennai",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + beach resort or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1088 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1038 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM988 per person"
+          }
+        ],
+        "fromPrice": "RM1088"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + beach resort or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1288 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1248 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1208 per person"
+          }
+        ],
+        "fromPrice": "RM1288",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + beach resort or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1688 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1658 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1628 per person"
+          }
+        ],
+        "fromPrice": "RM1688"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The Coromandel Coast, at Your Pace",
+    "body": "Linking Chennai, Mahabalipuram and Pondicherry with a beach stay takes good routing. We sequence the heritage and relaxation so the trip flows. Dhesu has run South India tours since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Chennai & Mahabalipuram Tour from Malaysia",
+        "body": "This 5 day coastal tour is ideal for travellers who want a mix of heritage, beach and culture in South India. The route takes in Chennai, the UNESCO monuments of Mahabalipuram, and the French charm of Pondicherry.\n\nA private vehicle and driver guide, plus a beach resort stay, make it a relaxed and varied journey along the Coromandel coast.\n\nFor a deeper temple focus, see our 4 day Tirupati and Navagraha temple tours; for a wider loop, the 7 day Tamil Nadu tour."
+      },
+      {
+        "heading": "Mahabalipuram and Pondicherry",
+        "body": "Mahabalipuram (Mamallapuram) is a UNESCO World Heritage Site, famed for its 7th-century Pallava rock-cut temples and the iconic Shore Temple by the Bay of Bengal.\n\nPondicherry, a former French colony, offers a complete change of mood, with its pastel villas, boulevards, seaside promenade and Franco-Tamil cuisine. Together they make a fascinating coastal pairing."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Chennai International Airport (MAA). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for this coastal trip?",
+        "answer": "November to February is the most comfortable, with cooler, drier weather. March to June is hot and humid. The northeast monsoon brings rain to the coast around October to December. Winter is ideal for the beaches and temples."
+      },
+      {
+        "question": "Is there a beach resort stay?",
+        "answer": "Yes. The package includes a beach resort stay along the Coromandel coast, typically around Mahabalipuram, offering time to relax by the Bay of Bengal between the heritage stops."
+      },
+      {
+        "question": "What is special about Pondicherry?",
+        "answer": "Pondicherry was a French colony and retains a distinct character: pastel colonial buildings, a seaside promenade, French-influenced cafes and the serene Sri Aurobindo Ashram. It feels quite different from the rest of South India and is a highlight of the trip."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-7d-tamil-nadu-tour",
+      "name": "7 Days Tamil Nadu Tour",
+      "price": "From RM1,598",
+      "duration": "7D6N",
+      "slug": "south-india/7-day-tamil-nadu-tour",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-4d-navagraha-temples",
+      "name": "4 Days Navagraha Temples",
+      "price": "From RM988",
+      "duration": "4D3N",
+      "slug": "south-india/4-day-navagraha-temples",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-9d-best-south-india",
+      "name": "9 Days Best of South India",
+      "price": "From RM1,998",
+      "duration": "9D8N",
+      "slug": "south-india/9-day-best-of",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the Coromandel coast?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "5 Days Chennai Mahabalipuram Tour from Malaysia",
+    "description": "5-day South India coastal tour with Chennai, Mahabalipuram shore temples and Pondicherry French Quarter, private vehicle. From RM1088 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/south-india/5-day-chennai-mahabalipuram",
+    "startLocation": "Chennai International Airport",
+    "endLocation": "Chennai International Airport",
+    "duration": "P5D",
+    "offers": {
+      "price": "1088",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

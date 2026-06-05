@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "title": "3 Days Amritsar: Golden Temple & Punjabi Heritage from Malaysia | Dhesu Travel & Tours",
+    "description": "3-day Amritsar tour with Golden Temple, Wagah border, Jallianwala Bagh, private driver guide and hotel. From RM398 per person.",
+    "keywords": "3 Days Amritsar: Golden Temple & Punjabi Heritage from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/3-day-amritsar-golden-temple",
+    "canonicalUrl": "/tours/india/north-india/3-day-amritsar-golden-temple",
+    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "pkgid": "88"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "3 Days in Amritsar.",
+    "titleAccent": "The Golden Temple and a City With a Big Heart.",
+    "intro": "Some places stay with you. Amritsar is one of them. The Golden Temple at first light, langar served free to thousands, the roar of the Wagah border crowd each evening. This is Punjab at its warmest.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "3 Days Amritsar: Golden Temple & Punjabi Heritage",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Golden Temple Amritsar at dawn reflected in the sacred pool"
+  },
+  "quickFacts": {
+    "duration": "3 Days / 2 Nights",
+    "startingPrice": "From RM398",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM478",
+    "saving": "Save RM159 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (2 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Wagah Border Visit"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "3 Days Amritsar: Golden Temple & Punjabi Heritage: The Full Picture",
+    "body": [
+      "Amritsar is the spiritual home of Sikhism, and the Golden Temple sits at its centre. Officially Harmandir Sahib, it is one of the most moving places of worship anywhere. Gold dome, white marble, a vast reflecting pool, and a free community kitchen that feeds up to 100,000 people a day. You do not have to be religious to feel something here.",
+      "This 3 day Amritsar tour package from Malaysia keeps it simple and personal. You travel privately with your own vehicle and driver guide, so you visit the temple at the times that suit you. Early morning and after dark are the most beautiful, when the gold glows against the sky.",
+      "Beyond the temple, Amritsar holds the sobering Jallianwala Bagh memorial, the legendary food of the old city, and the daily Wagah border ceremony. Three days is enough to take it all in without rushing, and to eat extremely well along the way."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "The Golden Temple at Dawn and After Dark",
+        "body": "Harmandir Sahib is the heart of Amritsar. Go early for stillness, or after sunset when the gilded dome glows over the Amrit Sarovar. Walk the parikrama, listen to live kirtan, and if you wish, join the langar where a free meal is served to all.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "imageAlt": "Golden Temple illuminated at night"
+      },
+      {
+        "title": "The Wagah Border Ceremony",
+        "body": "Every evening at the India-Pakistan border, soldiers perform a high-energy flag-lowering ritual. The stamping, the crowds, the patriotic songs. Theatrical and unforgettable. Your guide handles the timing for a good seat.",
+        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "imageAlt": "Wagah border ceremony Amritsar"
+      },
+      {
+        "title": "Jallianwala Bagh & the Old City",
+        "body": "A short walk from the temple, Jallianwala Bagh remembers the 1919 massacre. A quiet, important place. Around it, narrow lanes hide some of Punjab's best food, from kulchas to lassi in heavy clay cups.",
+        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&auto=format&fit=crop",
+        "imageAlt": "Jallianwala Bagh memorial Amritsar"
+      },
+      {
+        "title": "Punjabi Food You Will Not Forget",
+        "body": "Amritsari kulcha, makki di roti with sarson da saag, butter-laden dal, and lassi thick enough to stand a spoon in. Your guide steers you to legendary local spots, not tourist traps.",
+        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "imageAlt": "Punjabi food kulcha and lassi"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 3 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Amritsar",
+        "meals": "No meals",
+        "description": "Met at the airport and transferred to your hotel. The evening is free. A first visit to the Golden Temple after dark, lit up and reflected in the pool, is the perfect introduction.",
+        "suggestedActivities": [
+          "Evening visit to the illuminated Golden Temple",
+          "Langar experience (free community meal)",
+          "Lassi and kulcha near the temple"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Golden Temple, Jallianwala Bagh & Wagah Border",
+        "meals": "Breakfast",
+        "description": "Your private vehicle and guide are with you all day. Morning at the Golden Temple and Jallianwala Bagh, then an afternoon drive to Wagah for the evening ceremony.",
+        "suggestedActivities": [
+          "Morning Golden Temple darshan",
+          "Jallianwala Bagh memorial",
+          "Partition Museum (optional)",
+          "Wagah border ceremony",
+          "Old city food walk"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Free Morning, Depart",
+        "meals": "Breakfast",
+        "description": "Checkout at noon. Shop for Punjabi juttis, phulkari textiles or dried fruits, or pay one last visit to the temple before your airport transfer.",
+        "suggestedActivities": [
+          "Last Golden Temple visit",
+          "Shopping for juttis and phulkari",
+          "Final Punjabi breakfast"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "Hotel CJ International or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM398 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM348 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM298 per person"
+          }
+        ],
+        "fromPrice": "RM398"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "Ramada / Hong Kong Inn or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM498 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM458 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM418 per person"
+          }
+        ],
+        "fromPrice": "RM498",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "Hyatt Amritsar or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM698 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM668 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM638 per person"
+          }
+        ],
+        "fromPrice": "RM698"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Punjab, Done Right Since 1988",
+    "body": "The Golden Temple is free and open to all, but a smooth Amritsar trip still benefits from local knowledge: when to visit, where the real food is, how to time Wagah. Dhesu has arranged North India journeys for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Amritsar Tour Package from Malaysia: What to Expect",
+        "body": "Amritsar is one of the most rewarding short trips in North India, and it is genuinely easy from Malaysia. The Golden Temple is the obvious draw, but the city's food, history and border spectacle round out a full three days.\n\nThis package is private throughout. No coach, no fixed group. Your driver guide knows the best times to visit Harmandir Sahib and how to navigate the old city, which matters because the lanes are narrow and crowds are real.\n\nAmritsar pairs beautifully with other North India spots. Many travellers add it to a Golden Triangle trip or extend into the hills at Dharamshala."
+      },
+      {
+        "heading": "Visiting the Golden Temple: Practical Notes",
+        "body": "Everyone is welcome, regardless of religion, and there is no entry fee. You cover your head (scarves are at the entrance) and remove your shoes, stored free.\n\nThe langar, the free community kitchen, is one of the most remarkable things you will ever see. Volunteers serve a simple vegetarian meal to anyone who sits down.\n\nBefore 7am and after the temple is lit are the most atmospheric times. Your guide plans around these windows."
+      },
+      {
+        "heading": "Is Three Days in Amritsar Enough?",
+        "body": "For the Golden Temple, Jallianwala Bagh, Wagah and a proper round of Punjabi food, three days is comfortable.\n\nIf you want more, Amritsar combines naturally with Dharamshala and McLeod Ganj, which is what our 6 day Amritsar and Dharamsala package covers. It also folds neatly into a 7 day Golden Triangle plus Amritsar route."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Sri Guru Ram Dass Jee International Airport, Amritsar (ATQ). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Amritsar?",
+        "answer": "October to March is the most pleasant, with cool days and cold December-January nights. April to June is very hot. July to September brings the monsoon. The Golden Temple is beautiful year-round, but winter suits sightseeing and Wagah best."
+      },
+      {
+        "question": "Do I cover my head at the Golden Temple?",
+        "answer": "Yes, both men and women cover their heads inside the complex. Scarves are available at the entrance, or bring your own. Shoes are removed and kept at a free counter. Dress modestly."
+      },
+      {
+        "question": "Is the langar meal really free?",
+        "answer": "Yes. The langar serves a free vegetarian meal to everyone, every day, run by volunteers and donations. Visitors can eat, and many also volunteer to help serve or wash dishes."
+      },
+      {
+        "question": "Can I combine Amritsar with Dharamshala or the Golden Triangle?",
+        "answer": "Yes. Dharamshala is around 5 to 6 hours by road, covered in our 6 day Amritsar plus Dharamsala package. Amritsar also pairs with Delhi, Agra and Jaipur in a 7 day Golden Triangle plus Amritsar itinerary."
+      },
+      {
+        "question": "Is Amritsar suitable for elderly travellers?",
+        "answer": "Yes. The temple complex has ramps and is largely accessible, and the private vehicle means minimal walking between sights. Wagah involves some stairs and standing, so we advise on the best seating."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-6d-amritsar-dharamsala",
+      "name": "6 Days Amritsar + Dharamsala",
+      "price": "From RM1,388",
+      "duration": "6D5N",
+      "slug": "north-india/6-day-amritsar-dharamsala",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-golden-triangle-amritsar",
+      "name": "7 Days Delhi Agra Jaipur + Amritsar Golden Temple",
+      "price": "From RM1,888",
+      "duration": "7D6N",
+      "slug": "north-india/7-day-golden-triangle-amritsar",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-3d-varanasi-sunrise-sunset",
+      "name": "3 Days Varanasi: Sunrise, Sunset & Ganga Aarti",
+      "price": "From RM698",
+      "duration": "3D2N",
+      "slug": "north-india/3-day-varanasi-ganga-aarti",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Amritsar?",
+    "subheading": "Send us your dates and group size. We will reply with a confirmed quote within a few hours.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "3 Days Amritsar Golden Temple Tour Package from Malaysia",
+    "description": "3-day Amritsar tour with Golden Temple, Wagah border, Jallianwala Bagh, private driver guide and hotel. From RM398 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/3-day-amritsar-golden-temple",
+    "startLocation": "Sri Guru Ram Dass Jee International Airport",
+    "endLocation": "Sri Guru Ram Dass Jee International Airport",
+    "duration": "P3D",
+    "offers": {
+      "price": "398",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

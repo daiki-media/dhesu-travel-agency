@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "title": "4 Days Kashmir Super Saver from Malaysia | Dhesu Travel & Tours",
+    "description": "4-day Kashmir tour with Dal Lake houseboat, shikara ride, Mughal gardens and a mountain excursion. From RM1088 per person.",
+    "keywords": "4 Days Kashmir Super Saver from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
+    "slug": "kashmir/4-day-super-saver",
+    "canonicalUrl": "/tours/india/kashmir/4-day-super-saver",
+    "ogImage": "/images/gallery/12929.jpg",
+    "pkgid": "2466"
+  },
+  "hero": {
+    "badge": "Kashmir",
+    "title": "4 Days in Kashmir.",
+    "titleAccent": "Dal Lake, Shikaras and a Houseboat Stay.",
+    "intro": "A short, beautiful taste of paradise. Srinagar's Dal Lake, a night on a traditional houseboat, a shikara glide past floating gardens, and the Mughal gardens that the emperors built for exactly this view.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "4 Days Kashmir Super Saver",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Dal Lake Srinagar shikara houseboat Kashmir"
+  },
+  "quickFacts": {
+    "duration": "4 Days / 3 Nights",
+    "startingPrice": "From RM1,088",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,306",
+    "saving": "Save RM435 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (3 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Shikara Ride on Dal Lake"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "4 Days Kashmir Super Saver: The Full Picture",
+    "body": [
+      "They call Kashmir paradise on earth, and Srinagar is the perfect introduction. The serene Dal Lake, with its houseboats and gliding shikaras, the Mughal gardens terraced against the hills, and the snow-capped peaks beyond. This short break captures the magic without the long itinerary.",
+      "This 4 day Kashmir super saver package from Malaysia is private and relaxed. You stay a night on a traditional Dal Lake houseboat, glide across the water by shikara, visit the famous Mughal gardens, and have time to simply soak up the beauty of the valley. Ideal for a first taste of Kashmir."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Houseboat Night on Dal Lake",
+        "body": "Sleep aboard a beautifully carved wooden houseboat moored on Dal Lake, a uniquely Kashmiri experience, with the water lapping gently and the mountains all around.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Dal Lake houseboat Srinagar"
+      },
+      {
+        "title": "Shikara Ride & Floating Gardens",
+        "body": "Glide across Dal Lake on a shikara, the Kashmiri gondola, past floating vegetable gardens, lotus beds and the lake's famous floating market.",
+        "image": "/images/gallery/12930.jpg",
+        "imageAlt": "Shikara ride Dal Lake Kashmir"
+      },
+      {
+        "title": "The Mughal Gardens",
+        "body": "Visit Shalimar Bagh and Nishat Bagh, the terraced Mughal gardens built by emperors who considered Kashmir the closest thing to heaven on earth.",
+        "image": "/images/gallery/12931.jpg",
+        "imageAlt": "Mughal gardens Srinagar Kashmir"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 4 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar, Houseboat",
+        "meals": "No meals",
+        "description": "Met at Srinagar airport and transferred to your Dal Lake houseboat. Evening shikara ride.",
+        "suggestedActivities": [
+          "Check in to houseboat",
+          "Evening shikara ride",
+          "Sunset on Dal Lake"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Srinagar Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day exploring Srinagar's Mughal gardens and old city with your private vehicle.",
+        "suggestedActivities": [
+          "Shalimar Bagh and Nishat Bagh",
+          "Shankaracharya Temple",
+          "Old city and Jamia Masjid",
+          "Handicraft shopping"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day Excursion (Gulmarg or Pahalgam)",
+        "meals": "Breakfast",
+        "description": "A full-day excursion to the meadows of Gulmarg or the valleys of Pahalgam.",
+        "suggestedActivities": [
+          "Drive to Gulmarg or Pahalgam",
+          "Gondola ride or valley walk",
+          "Mountain scenery",
+          "Return to Srinagar"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Depart Srinagar",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last-minute shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "Deluxe houseboat + 3-star hotel or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM1088 per person"
+          }
+        ],
+        "fromPrice": "RM1088"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "Premium houseboat + 4-star hotel or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM1288 per person"
+          }
+        ],
+        "fromPrice": "RM1288",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "Luxury houseboat + 5-star hotel or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM1688 per person"
+          }
+        ],
+        "fromPrice": "RM1688"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Kashmir Made Easy, Paradise Made Affordable",
+    "body": "A short Kashmir trip still needs the right houseboat, a good shikara experience and well-chosen excursions. We arrange it all so even a four-day visit feels complete. Dhesu has sent Malaysians to Kashmir for many years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Kashmir Super Saver Package from Malaysia",
+        "body": "This 4 day Kashmir package is the most affordable way to experience the Srinagar valley, ideal for a first visit or a short escape. It centres on Dal Lake, a houseboat night and a shikara ride, with a day excursion to the surrounding mountains.\n\nGoing private means a quality houseboat, a flexible pace and the freedom to enjoy the gardens and the lake on your own schedule.\n\nWant to add the Taj Mahal, more mountains or a longer stay? See our 5 to 7 day Kashmir packages."
+      },
+      {
+        "heading": "The Dal Lake Houseboat Experience",
+        "body": "Staying on a Dal Lake houseboat is one of the most distinctive experiences in India. These intricately carved cedar boats offer comfortable rooms, sundecks and traditional Kashmiri hospitality.\n\nMornings on the lake are magical, with mist rising off the water and shikaras delivering everything from breakfast to flowers. It is the quintessential Kashmir experience, and the heart of this short break."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Sheikh ul-Alam International Airport, Srinagar (SXR). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Kashmir?",
+        "answer": "Kashmir is beautiful year-round. April to June brings tulips, gardens and pleasant weather. July to September is lush and green. October to November offers golden autumn colours. December to February brings snow, ideal for Gulmarg skiing. Each season has its own charm."
+      },
+      {
+        "question": "Is the houseboat stay comfortable?",
+        "answer": "Yes. Dal Lake houseboats range from deluxe to luxury, with private rooms, attached bathrooms, dining areas and sundecks. They offer a comfortable and uniquely Kashmiri stay, with traditional hospitality and lake views."
+      },
+      {
+        "question": "Can I add Gulmarg or Pahalgam?",
+        "answer": "Yes. This package includes a day excursion to Gulmarg or Pahalgam. For more time in the mountains, our 5, 6 and 7 day Kashmir packages include overnight stays in these resorts and more."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-5d-kashmir-ski-resort",
+      "name": "5 Days Kashmir Ski Resort + Cable Car",
+      "price": "From RM2,388",
+      "duration": "5D4N",
+      "slug": "kashmir/5-day-ski-resort-cable-car",
+      "image": "/images/gallery/14620.jpg"
+    },
+    {
+      "id": "india-6d-kashmir-taj-mahal",
+      "name": "6 Days Best of Kashmir + Taj Mahal",
+      "price": "From RM3,118",
+      "duration": "6D5N",
+      "slug": "kashmir/6-day-best-of-kashmir-taj",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-5d-kashmir-paradise-delhi",
+      "name": "5 Days Kashmir Paradise + Delhi Shopping",
+      "price": "From RM2,588",
+      "duration": "5D4N",
+      "slug": "kashmir/5-day-paradise-delhi-shopping",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for paradise on a budget?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "4 Days Kashmir Super Saver Package from Malaysia",
+    "description": "4-day Kashmir tour with Dal Lake houseboat, shikara ride, Mughal gardens and a mountain excursion. From RM1088 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kashmir/4-day-super-saver",
+    "startLocation": "Sheikh ul-Alam International Airport",
+    "endLocation": "Sheikh ul-Alam International Airport",
+    "duration": "P4D",
+    "offers": {
+      "price": "1088",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

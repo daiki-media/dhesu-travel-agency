@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "title": "4 Days Hyderabad Heritage Escape from Malaysia | Dhesu Travel & Tours",
+    "description": "4-day Hyderabad heritage tour with Charminar, Golconda, Nizami palaces, Salar Jung Museum and pearls. From RM898 per person.",
+    "keywords": "4 Days Hyderabad Heritage Escape from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
+    "slug": "south-india/4-day-hyderabad-heritage-escape",
+    "canonicalUrl": "/tours/india/south-india/4-day-hyderabad-heritage-escape",
+    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "pkgid": "358"
+  },
+  "hero": {
+    "badge": "South India",
+    "title": "4 Days in Hyderabad.",
+    "titleAccent": "Nizami Grandeur, Pearls and Biryani.",
+    "intro": "An extra day to do Hyderabad justice. The City of Pearls deserves more than a quick stop: Charminar, Golconda, the Nizami palaces, the pearl markets and the best biryani in India. Four days, properly savoured.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "4 Days Hyderabad Heritage Escape",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Charminar Hyderabad Nizami heritage"
+  },
+  "quickFacts": {
+    "duration": "4 Days / 3 Nights",
+    "startingPrice": "From RM898",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1078",
+    "saving": "Save RM359 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (3 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "100% Private Tour"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "4 Days Hyderabad Heritage Escape: The Full Picture",
+    "body": [
+      "Hyderabad rewards a slower visit. The legacy of the Nizams, once among the richest rulers on earth, is everywhere: in the palaces, the pearl trade, the cuisine and the old city around Charminar. Four days lets you take it all in without rushing, including day trips and deeper exploration.",
+      "This 4 day Hyderabad heritage escape from Malaysia is private throughout, with your own vehicle and driver guide. Alongside the icons of Charminar and Golconda, the extra time allows for the Qutb Shahi tombs, the grand Chowmahalla and Falaknuma palaces, the Salar Jung Museum, and plenty of pearl shopping and biryani."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Charminar, Golconda & the Tombs",
+        "body": "The 16th-century Charminar, the mighty Golconda Fort with its famous acoustics, and the atmospheric Qutb Shahi tombs, the heart of historic Hyderabad.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Charminar and Golconda Fort Hyderabad"
+      },
+      {
+        "title": "Nizami Palaces & Museum",
+        "body": "The opulent Chowmahalla Palace, the Falaknuma Palace high above the city, and the treasure-filled Salar Jung Museum reveal the wealth of the Nizams.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Chowmahalla Palace Hyderabad"
+      },
+      {
+        "title": "Pearls & the Famous Biryani",
+        "body": "Shop for Hyderabad's renowned pearls, then feast on the city's legendary dum biryani. The extra day means time to do both properly.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Hyderabadi pearls and biryani"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 4 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Hyderabad",
+        "meals": "No meals",
+        "description": "Met at the airport and transferred to your hotel. Evening at the Hussain Sagar lakefront.",
+        "suggestedActivities": [
+          "First Hyderabadi biryani",
+          "Hussain Sagar and Buddha statue",
+          "Settle in"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Old City & Golconda",
+        "meals": "Breakfast",
+        "description": "The old city, Charminar and Golconda Fort.",
+        "suggestedActivities": [
+          "Charminar and Laad Bazaar",
+          "Mecca Masjid",
+          "Golconda Fort",
+          "Qutb Shahi Tombs"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Palaces, Museum & Pearls",
+        "meals": "Breakfast",
+        "description": "The Nizami palaces, museum and pearl markets.",
+        "suggestedActivities": [
+          "Chowmahalla Palace",
+          "Salar Jung Museum",
+          "Falaknuma Palace (high tea, optional)",
+          "Pearl shopping"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Depart",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Final biryani",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels Hyderabad or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM898 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM848 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM798 per person"
+          }
+        ],
+        "fromPrice": "RM898"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1098 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1058 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1018 per person"
+          }
+        ],
+        "fromPrice": "RM1098",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "Taj Falaknuma / ITC Kohenur or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1498 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1468 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1438 per person"
+          }
+        ],
+        "fromPrice": "RM1498"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Hyderabad in Depth, Handled Locally",
+    "body": "The Nizami sites are spread across the city, and the old town is dense. A private guide ties it together and gets you to the right biryani. Dhesu has run South India tours since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Hyderabad Heritage Escape from Malaysia",
+        "body": "This 4 day package gives Hyderabad the time it deserves. Beyond the icons of Charminar and Golconda, you explore the Nizami palaces, the Salar Jung Museum and the pearl markets at a relaxed pace.\n\nA private vehicle and driver guide handle the city's spread-out heritage and the dense old town, with time for the famous biryani and shopping.\n\nFor a shorter visit, see our 3 day Hyderabad package; for more of the south, our Bangalore and Discover South India tours."
+      },
+      {
+        "heading": "The Legacy of the Nizams",
+        "body": "The Nizams of Hyderabad ruled one of the wealthiest princely states in India, and their legacy defines the city. The Chowmahalla and Falaknuma palaces, the Salar Jung Museum's vast collection, and the pearl and bangle trade all stem from this golden age.\n\nThe extra day in this package lets you explore that heritage properly, rather than rushing past the icons."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Rajiv Gandhi International Airport, Hyderabad (HYD). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What does the 4 day version add over the 3 day?",
+        "answer": "The extra day allows for the Nizami palaces (Chowmahalla and Falaknuma), the Salar Jung Museum, and more time for pearl shopping and the old city, giving a fuller, more relaxed experience of Hyderabad's heritage."
+      },
+      {
+        "question": "Can I get halal food in Hyderabad?",
+        "answer": "Easily. Hyderabad has a large Muslim community and a deep biryani culture rooted in it. Halal restaurants and biryani houses are plentiful, especially around the old city and Charminar."
+      },
+      {
+        "question": "What is the best time to visit Hyderabad?",
+        "answer": "October to February offers the most comfortable weather for sightseeing. March to May is hot, and the monsoon (June to September) is moderate. Winter is ideal for exploring the old city and forts."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-3d-hyderabad-heritage",
+      "name": "3 Days Hyderabad Heritage & Culture Tour",
+      "price": "From RM498",
+      "duration": "3D2N",
+      "slug": "south-india/3-day-hyderabad-heritage",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-3d-bangalore-highlights",
+      "name": "3 Days Bangalore Highlights",
+      "price": "From RM498",
+      "duration": "3D2N",
+      "slug": "south-india/3-day-bangalore-highlights",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-south-india-discover",
+      "name": "7 Days Discover South India",
+      "price": "From RM1,668",
+      "duration": "7D6N",
+      "slug": "south-india/7-day-discover",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Hyderabad?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "4 Days Hyderabad Heritage Escape from Malaysia",
+    "description": "4-day Hyderabad heritage tour with Charminar, Golconda, Nizami palaces, Salar Jung Museum and pearls. From RM898 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/south-india/4-day-hyderabad-heritage-escape",
+    "startLocation": "Rajiv Gandhi International Airport",
+    "endLocation": "Rajiv Gandhi International Airport",
+    "duration": "P4D",
+    "offers": {
+      "price": "898",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

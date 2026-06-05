@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "title": "9 Days Golden Triangle + Shimla from Malaysia | Dhesu Travel & Tours",
+    "description": "9-day tour with Delhi, Taj Mahal, Jaipur and Shimla hill station plus toy train, private vehicle and guide. From RM2598 per person.",
+    "keywords": "9 Days Golden Triangle + Shimla from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/9-day-golden-triangle-shimla",
+    "canonicalUrl": "/tours/india/north-india/9-day-golden-triangle-shimla",
+    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "pkgid": "177"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "9 Days, Triangle & Hills.",
+    "titleAccent": "Delhi, the Taj, Jaipur and the Shimla Hills.",
+    "intro": "The icons and the hills in one grand tour. The Golden Triangle of Delhi, Agra and Jaipur, then up to the cool colonial charm of Shimla and the Himachal foothills. Monuments, palaces and mountains over nine days.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "9 Days Golden Triangle + Shimla",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Golden Triangle and Shimla hills tour"
+  },
+  "quickFacts": {
+    "duration": "9 Days / 8 Nights",
+    "startingPrice": "From RM2,598",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM3,118",
+    "saving": "Save RM1,039 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (8 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Toy Train Option"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "9 Days Golden Triangle + Shimla: The Full Picture",
+    "body": [
+      "This 9 day tour combines the monumental Golden Triangle with the cool hill station of Shimla. You experience Delhi's history, the Taj Mahal at sunrise and Jaipur's royal forts, then head north into the Himachal foothills for the colonial charm and pine forests of Shimla.",
+      "Arranged privately from Malaysia, the trip links the plains and the hills with your own vehicle and driver guide, and the option of the famous Kalka-Shimla toy train. It is ideal for travellers who want the iconic monuments plus a refreshing mountain finish, all at a comfortable pace."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "The Golden Triangle Icons",
+        "body": "Delhi's monuments, the Taj Mahal at sunrise, Agra Fort and Jaipur's hilltop forts and Pink City palaces, the classic North India trio.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Golden Triangle Taj Mahal Jaipur"
+      },
+      {
+        "title": "Shimla's Colonial Hills",
+        "body": "The Mall Road, the Ridge and the pine-clad slopes of the former summer capital of British India, a cool, scenic contrast to the plains.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Shimla colonial hill station"
+      },
+      {
+        "title": "The Kalka-Shimla Toy Train",
+        "body": "The UNESCO-listed narrow-gauge railway winds through tunnels and bridges into the hills, a charming and scenic journey.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Kalka Shimla toy train"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 9 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Delhi",
+        "meals": "No meals",
+        "description": "Met at the airport and transferred to your hotel.",
+        "suggestedActivities": [
+          "Settle in",
+          "Connaught Place",
+          "First dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Delhi, Drive to Agra",
+        "meals": "Breakfast",
+        "description": "Old and New Delhi, then drive to Agra.",
+        "suggestedActivities": [
+          "Jama Masjid and Chandni Chowk",
+          "India Gate and Qutub Minar",
+          "Drive to Agra"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Taj Mahal, Drive to Jaipur",
+        "meals": "Breakfast",
+        "description": "Sunrise Taj, Agra Fort, then to Jaipur via Fatehpur Sikri.",
+        "suggestedActivities": [
+          "Taj Mahal at sunrise",
+          "Agra Fort",
+          "Fatehpur Sikri",
+          "Drive to Jaipur"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Jaipur Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day in the Pink City.",
+        "suggestedActivities": [
+          "Amber Fort",
+          "City Palace and Jantar Mantar",
+          "Hawa Mahal",
+          "Bazaar shopping"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Jaipur to Delhi to Chandigarh",
+        "meals": "Breakfast",
+        "description": "Travel north towards the hills, overnight near Chandigarh.",
+        "suggestedActivities": [
+          "Travel to Chandigarh area",
+          "Rock Garden or Sukhna Lake",
+          "Evening at leisure"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "To Shimla",
+        "meals": "Breakfast",
+        "description": "Drive or toy train up to Shimla.",
+        "suggestedActivities": [
+          "Toy train or drive to Shimla",
+          "Evening on the Mall Road"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Shimla Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day in and around Shimla.",
+        "suggestedActivities": [
+          "The Ridge and Christ Church",
+          "Jakhoo Temple",
+          "Viceregal Lodge",
+          "Kufri excursion"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Shimla Leisure & Descend",
+        "meals": "Breakfast",
+        "description": "More of Shimla, then descend towards Chandigarh.",
+        "suggestedActivities": [
+          "Mall Road shopping",
+          "Scenic viewpoints",
+          "Descend to Chandigarh area"
+        ]
+      },
+      {
+        "day": 9,
+        "title": "Depart",
+        "meals": "Breakfast",
+        "description": "Transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2598 per person"
+          }
+        ],
+        "fromPrice": "RM2598"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2998 per person"
+          }
+        ],
+        "fromPrice": "RM2998",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM3698 per person"
+          }
+        ],
+        "fromPrice": "RM3698"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Monuments and Mountains, One Journey",
+    "body": "Linking the Golden Triangle with the Shimla hills takes good routing across plains and mountain roads. We sequence it so the journey flows and the toy train slots in. Dhesu has run North India tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Golden Triangle & Shimla Tour from Malaysia",
+        "body": "This 9 day package pairs the monumental Golden Triangle with the cool hill station of Shimla, giving you India's greatest northern icons plus a refreshing mountain finish.\n\nA private vehicle and driver guide, with the option of the Kalka-Shimla toy train, link the plains and the hills at a comfortable pace.\n\nFor a Kashmir finish instead, see our Golden Triangle plus Kashmir packages; for Manali, the 10 day Golden Triangle plus Manali."
+      },
+      {
+        "heading": "Adding the Hills to the Golden Triangle",
+        "body": "After the heat and crowds of the plains, the cool pine-scented air of Shimla is a welcome change. The former summer capital of British India offers colonial charm, mountain views and a relaxed pace.\n\nThe Kalka-Shimla toy train, a UNESCO World Heritage railway, makes the journey into the hills an experience in itself, a memorable finish to a Golden Triangle tour."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Delhi and Chandigarh Airports (DEL / IXC). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "October to March suits the Golden Triangle, while Shimla is pleasant March to June and snowy December to February. Spring and autumn offer good weather across both the plains and the hills, making them the best windows."
+      },
+      {
+        "question": "Is the toy train included?",
+        "answer": "The Kalka-Shimla toy train can be included as part of the hill journey, subject to availability. Seats are in demand, so we book ahead where possible and confirm the segment in your itinerary."
+      },
+      {
+        "question": "How cold is Shimla?",
+        "answer": "Shimla is cool year-round given its elevation, with warm jackets needed in winter when it can snow. Summers are mild, a refreshing escape from the plains. Pack layers, especially after the warmer Golden Triangle leg."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-7d-golden-triangle-7day",
+      "name": "7 Days Golden Triangle: A Perfect Blend",
+      "price": "From RM2,388",
+      "duration": "7D6N",
+      "slug": "north-india/7-day-golden-triangle-comfort",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-10d-golden-triangle-manali",
+      "name": "10 Days Golden Triangle + Manali",
+      "price": "From RM2,988",
+      "duration": "10D9N",
+      "slug": "north-india/10-day-golden-triangle-manali",
+      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-8d-golden-triangle-kashmir",
+      "name": "8 Days Golden Triangle + Kashmir",
+      "price": "From RM3,688",
+      "duration": "8D7N",
+      "slug": "north-india/8-day-golden-triangle-kashmir",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the Triangle and the hills?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "9 Days Golden Triangle Shimla Tour from Malaysia",
+    "description": "9-day tour with Delhi, Taj Mahal, Jaipur and Shimla hill station plus toy train, private vehicle and guide. From RM2598 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/9-day-golden-triangle-shimla",
+    "startLocation": "Indira Gandhi International Airport",
+    "endLocation": "Chandigarh International Airport",
+    "duration": "P9D",
+    "offers": {
+      "price": "2598",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

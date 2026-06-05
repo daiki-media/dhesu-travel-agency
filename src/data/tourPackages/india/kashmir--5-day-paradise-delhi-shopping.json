@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "title": "5 Days Kashmir Paradise + Delhi Shopping from Malaysia | Dhesu Travel & Tours",
+    "description": "5-day Kashmir and Delhi tour with Dal Lake houseboat, Mughal gardens, Delhi sightseeing and shopping, domestic flight included. From RM2588 per person.",
+    "keywords": "5 Days Kashmir Paradise + Delhi Shopping from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
+    "slug": "kashmir/5-day-paradise-delhi-shopping",
+    "canonicalUrl": "/tours/india/kashmir/5-day-paradise-delhi-shopping",
+    "ogImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+    "pkgid": "114"
+  },
+  "hero": {
+    "badge": "Kashmir",
+    "title": "5 Days, Kashmir & Delhi.",
+    "titleAccent": "The Valley of Paradise and a Capital Shopping Spree.",
+    "intro": "Pair the serene beauty of the Kashmir valley with the buzz of Delhi. Dal Lake, Mughal gardens and mountain meadows, then the markets, monuments and shopping of the Indian capital. Nature and city in one trip.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "5 Days Kashmir Paradise + Delhi Shopping",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Kashmir Dal Lake and Delhi combination tour"
+  },
+  "quickFacts": {
+    "duration": "5 Days / 4 Nights",
+    "startingPrice": "From RM2,588",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM3,106",
+    "saving": "Save RM1,035 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (4 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Domestic Flight Delhi-Srinagar"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Meals (as itinerary)"
+      },
+      {
+        "icon": "car",
+        "label": "Guided Tours"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "transfer",
+        "label": "Domestic Flights"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "5 Days Kashmir Paradise + Delhi Shopping: The Full Picture",
+    "body": [
+      "This trip combines two very different sides of North India: the tranquil paradise of Kashmir and the energetic capital, Delhi. You experience Srinagar's Dal Lake, houseboats and Mughal gardens, then fly to Delhi for sightseeing and some of the best shopping in the country.",
+      "Arranged privately from Malaysia, this 5 day Kashmir and Delhi package includes the domestic flight between the two, with your own vehicle and driver guide at each end. It is ideal for travellers who want natural beauty and city life, plus time to shop for Kashmiri handicrafts and Delhi's bazaars."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Kashmir's Dal Lake & Gardens",
+        "body": "A houseboat night, a shikara ride, and the Mughal gardens of Srinagar, all framed by snow-capped peaks. The serene heart of any Kashmir visit.",
+        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+        "imageAlt": "Dal Lake Srinagar Kashmir"
+      },
+      {
+        "title": "Delhi's Monuments & Markets",
+        "body": "From the spice lanes of Chandni Chowk to India Gate and the grand Mughal monuments, Delhi packs history and energy into every corner.",
+        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&auto=format&fit=crop",
+        "imageAlt": "Delhi monuments and markets"
+      },
+      {
+        "title": "Shopping: Kashmir to Delhi",
+        "body": "Kashmiri pashminas, carpets, walnut wood and saffron in Srinagar, then the bazaars of Delhi for textiles, handicrafts and more. A shopper's dream pairing.",
+        "image": "/images/gallery/15626.jpg",
+        "imageAlt": "Kashmiri handicrafts and Delhi shopping"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 5 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar, Houseboat",
+        "meals": "No meals",
+        "description": "Met at Srinagar airport and transferred to your Dal Lake houseboat. Evening shikara ride.",
+        "suggestedActivities": [
+          "Check in to houseboat",
+          "Evening shikara ride",
+          "Sunset on Dal Lake"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Srinagar Sightseeing",
+        "meals": "Breakfast",
+        "description": "Mughal gardens, old city and a mountain excursion option.",
+        "suggestedActivities": [
+          "Shalimar Bagh and Nishat Bagh",
+          "Shankaracharya Temple",
+          "Handicraft and pashmina shopping",
+          "Optional Gulmarg or Pahalgam excursion"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Fly Srinagar to Delhi",
+        "meals": "Breakfast",
+        "description": "Domestic flight to Delhi, with afternoon sightseeing in the capital.",
+        "suggestedActivities": [
+          "Flight to Delhi",
+          "India Gate and Rashtrapati Bhavan",
+          "Qutub Minar",
+          "Evening at Connaught Place"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Delhi Sightseeing & Shopping",
+        "meals": "Breakfast",
+        "description": "Old and New Delhi, with plenty of time for shopping.",
+        "suggestedActivities": [
+          "Jama Masjid and Chandni Chowk",
+          "Red Fort",
+          "Dilli Haat or Janpath shopping",
+          "Local markets"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Depart Delhi",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last-minute shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2588 per person"
+          }
+        ],
+        "fromPrice": "RM2588"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2988 per person"
+          }
+        ],
+        "fromPrice": "RM2988",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM3688 per person"
+          }
+        ],
+        "fromPrice": "RM3688"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Two Worlds, One Smooth Trip",
+    "body": "Combining Kashmir and Delhi means coordinating a domestic flight and two very different destinations. We handle the flight, the transfers and the local arrangements at each end. Dhesu has arranged North India tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Kashmir & Delhi Tour from Malaysia",
+        "body": "This 5 day package is ideal for travellers who want the natural beauty of Kashmir and the energy and shopping of Delhi in one trip. The domestic flight links the two efficiently, so you experience paradise and the capital without a long overland journey.\n\nKashmir offers the lake, the gardens and the mountains; Delhi adds monuments, markets and some of India's best shopping.\n\nA private vehicle and driver guide at each end keep the trip smooth and flexible."
+      },
+      {
+        "heading": "Shopping in Kashmir and Delhi",
+        "body": "Kashmir is famous for its handicrafts: pashmina shawls, hand-knotted carpets, walnut wood carving, papier-mache and saffron. Srinagar's showrooms and markets are the place to find them.\n\nDelhi complements this with its bazaars and craft markets like Dilli Haat and Janpath, offering textiles, handicrafts and souvenirs from across India. Together they make a shopper's paradise."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Srinagar and Delhi Airports (SXR / DEL). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "Is the domestic flight included?",
+        "answer": "Yes. This package includes the domestic flight between Srinagar and Delhi, so you do not face a long overland drive. International flights to and from India are not included."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "April to October is ideal for Kashmir, with spring gardens, summer greenery and autumn colours. Delhi is most pleasant from October to March. Spring and autumn offer good weather in both, making them the best windows for the combined trip."
+      },
+      {
+        "question": "What can I buy in Kashmir?",
+        "answer": "Kashmir is renowned for pashmina shawls, hand-knotted carpets, walnut wood carvings, papier-mache crafts and saffron. Srinagar has many reputable showrooms. Your guide can recommend trusted shops where you see the craftsmanship firsthand."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-4d-kashmir-super-saver",
+      "name": "4 Days Kashmir Super Saver",
+      "price": "From RM1,088",
+      "duration": "4D3N",
+      "slug": "kashmir/4-day-super-saver",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-kashmir-taj-mahal",
+      "name": "6 Days Best of Kashmir + Taj Mahal",
+      "price": "From RM3,118",
+      "duration": "6D5N",
+      "slug": "kashmir/6-day-best-of-kashmir-taj",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-5d-kashmir-ski-taj",
+      "name": "5 Days Kashmir Ski + Taj Mahal",
+      "price": "From RM2,798",
+      "duration": "5D4N",
+      "slug": "kashmir/5-day-ski-taj-mahal",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Kashmir and Delhi?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "5 Days Kashmir Paradise Delhi Tour from Malaysia",
+    "description": "5-day Kashmir and Delhi tour with Dal Lake houseboat, Mughal gardens, Delhi sightseeing and shopping, domestic flight included. From RM2588 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kashmir/5-day-paradise-delhi-shopping",
+    "startLocation": "Sheikh ul-Alam International Airport",
+    "endLocation": "Indira Gandhi International Airport",
+    "duration": "P5D",
+    "offers": {
+      "price": "2588",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

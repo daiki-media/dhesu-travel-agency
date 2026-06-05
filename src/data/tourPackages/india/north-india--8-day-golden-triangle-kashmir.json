@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "8 Days Golden Triangle + Kashmir from Malaysia | Dhesu Travel & Tours",
+    "description": "8-day tour with Delhi, Taj Mahal, Jaipur and Kashmir Dal Lake houseboat plus mountain excursion, domestic flight. From RM3688 per person.",
+    "keywords": "8 Days Golden Triangle + Kashmir from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/8-day-golden-triangle-kashmir",
+    "canonicalUrl": "/tours/india/north-india/8-day-golden-triangle-kashmir",
+    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "pkgid": "151"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "8 Days, Triangle & Paradise.",
+    "titleAccent": "Delhi, the Taj, Jaipur and the Kashmir Valley.",
+    "intro": "The icons and paradise combined. The Golden Triangle of Delhi, Agra and Jaipur, then a flight north to Kashmir's Dal Lake, houseboats and mountain meadows. Eight days of India's greatest monuments and most beautiful valley.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "8 Days Golden Triangle + Kashmir",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Golden Triangle and Kashmir Dal Lake tour"
+  },
+  "quickFacts": {
+    "duration": "8 Days / 7 Nights",
+    "startingPrice": "From RM3,688",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM4,426",
+    "saving": "Save RM1,475 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (7 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Domestic Flight to Srinagar",
+      "Shikara Ride on Dal Lake"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Meals (as itinerary)"
+      },
+      {
+        "icon": "car",
+        "label": "Guided Tours"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "transfer",
+        "label": "Domestic Flights"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "8 Days Golden Triangle + Kashmir: The Full Picture",
+    "body": [
+      "This 8 day tour pairs the monumental Golden Triangle with the serene beauty of Kashmir. You experience Delhi's history, the Taj Mahal at sunrise and Jaipur's royal forts, then fly north to Srinagar for Dal Lake, a houseboat night, the Mughal gardens and the mountain meadows of Gulmarg or Pahalgam.",
+      "Arranged privately from Malaysia, the trip includes the domestic flight to Srinagar and a private vehicle with driver guide throughout. It is the ideal combination of India's most famous monuments and its most beautiful valley, capturing both the grandeur of the plains and the calm of the mountains."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "The Golden Triangle Icons",
+        "body": "Delhi's monuments, the Taj Mahal at sunrise, Agra Fort and Jaipur's forts and palaces, the classic North India trio.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Golden Triangle Taj Mahal"
+      },
+      {
+        "title": "Kashmir's Dal Lake",
+        "body": "A houseboat night, a shikara ride and the Mughal gardens of Srinagar, the serene heart of the Kashmir valley.",
+        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+        "imageAlt": "Dal Lake Srinagar Kashmir"
+      },
+      {
+        "title": "Mountain Meadows",
+        "body": "An excursion to the meadows of Gulmarg or the alpine valleys of Pahalgam, with snow peaks and breathtaking Himalayan scenery.",
+        "image": "/images/gallery/14620.jpg",
+        "imageAlt": "Gulmarg Pahalgam Kashmir meadows"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 8 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Delhi",
+        "meals": "No meals",
+        "description": "Met at the airport and transferred to your hotel.",
+        "suggestedActivities": [
+          "Settle in",
+          "Connaught Place",
+          "First dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Delhi, Drive to Agra",
+        "meals": "Breakfast",
+        "description": "Old and New Delhi, then drive to Agra.",
+        "suggestedActivities": [
+          "Jama Masjid and Chandni Chowk",
+          "India Gate and Qutub Minar",
+          "Drive to Agra"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Taj Mahal, Drive to Jaipur",
+        "meals": "Breakfast",
+        "description": "Sunrise Taj, Agra Fort, then to Jaipur via Fatehpur Sikri.",
+        "suggestedActivities": [
+          "Taj Mahal at sunrise",
+          "Agra Fort",
+          "Fatehpur Sikri",
+          "Drive to Jaipur"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Jaipur Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day in the Pink City.",
+        "suggestedActivities": [
+          "Amber Fort",
+          "City Palace",
+          "Hawa Mahal",
+          "Bazaar shopping"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Jaipur to Delhi, Fly to Srinagar",
+        "meals": "Breakfast",
+        "description": "Travel to Delhi and fly to Srinagar, transfer to your houseboat.",
+        "suggestedActivities": [
+          "Travel to Delhi",
+          "Flight to Srinagar",
+          "Check in to houseboat",
+          "Evening shikara ride"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Srinagar Sightseeing",
+        "meals": "Breakfast",
+        "description": "The Mughal gardens and old city of Srinagar.",
+        "suggestedActivities": [
+          "Shalimar Bagh and Nishat Bagh",
+          "Shankaracharya Temple",
+          "Handicraft shopping",
+          "Floating market"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Gulmarg or Pahalgam Excursion",
+        "meals": "Breakfast",
+        "description": "A full-day mountain excursion.",
+        "suggestedActivities": [
+          "Drive to Gulmarg or Pahalgam",
+          "Gondola or valley walks",
+          "Mountain scenery",
+          "Return to Srinagar"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Depart Srinagar",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM3688 per person"
+          }
+        ],
+        "fromPrice": "RM3688"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM4088 per person"
+          }
+        ],
+        "fromPrice": "RM4088",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM4888 per person"
+          }
+        ],
+        "fromPrice": "RM4888"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Icons and Paradise, Seamlessly Linked",
+    "body": "Combining the Golden Triangle with Kashmir means coordinating a domestic flight and two very different regions. We handle the logistics so the journey flows. Dhesu has run North India tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Golden Triangle & Kashmir Tour from Malaysia",
+        "body": "This 8 day package combines the monumental Golden Triangle with the serene beauty of Kashmir, giving you India's most famous monuments and its most beautiful valley in one trip.\n\nThe domestic flight links Delhi and Srinagar efficiently, and a private vehicle with driver guide keeps everything smooth across both regions.\n\nFor more time in the valley, see our 9 day Golden Triangle plus Best Kashmir; for the Himachal hills instead, the Golden Triangle plus Shimla or Manali."
+      },
+      {
+        "heading": "The Perfect First India Trip",
+        "body": "For many travellers, this combination is the dream first trip to India. The Golden Triangle delivers the Taj Mahal, the forts and the history, while Kashmir adds the houseboats, the gardens and the mountains.\n\nThe contrast between the grandeur of the plains and the calm of the valley makes each more memorable, and the domestic flight keeps the long distances manageable."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Delhi and Srinagar Airports (DEL / SXR). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "Is the domestic flight included?",
+        "answer": "Yes. This package includes the domestic flight from Delhi to Srinagar, linking the Golden Triangle with Kashmir. International flights to and from India are not included."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "April to October suits Kashmir, while October to March is best for the Golden Triangle. Spring and autumn offer good weather across both regions, making them the best windows for the combined journey."
+      },
+      {
+        "question": "Can I choose Gulmarg or Pahalgam?",
+        "answer": "Yes. The package includes a mountain excursion, and you can usually choose between Gulmarg (famous for its gondola) and Pahalgam (its alpine valleys). Let us know your preference, and we can advise based on the season."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-9d-golden-triangle-kashmir-best",
+      "name": "9 Days Golden Triangle + Best of Kashmir",
+      "price": "From RM3,998",
+      "duration": "9D8N",
+      "slug": "north-india/9-day-golden-triangle-best-kashmir",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-kashmir-taj-mahal",
+      "name": "6 Days Best of Kashmir + Taj Mahal",
+      "price": "From RM3,118",
+      "duration": "6D5N",
+      "slug": "kashmir/6-day-best-of-kashmir-taj",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-9d-golden-triangle-shimla",
+      "name": "9 Days Golden Triangle + Shimla",
+      "price": "From RM2,598",
+      "duration": "9D8N",
+      "slug": "north-india/9-day-golden-triangle-shimla",
+      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the Triangle and Kashmir?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "8 Days Golden Triangle Kashmir Tour from Malaysia",
+    "description": "8-day tour with Delhi, Taj Mahal, Jaipur and Kashmir Dal Lake houseboat plus mountain excursion, domestic flight. From RM3688 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/8-day-golden-triangle-kashmir",
+    "startLocation": "Indira Gandhi International Airport",
+    "endLocation": "Sheikh ul-Alam International Airport",
+    "duration": "P8D",
+    "offers": {
+      "price": "3688",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

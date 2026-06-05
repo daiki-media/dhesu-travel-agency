@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "title": "4 Days Explore Kerala: God's Own Country from Malaysia | Dhesu Travel & Tours",
+    "description": "4-day Kerala tour with Fort Kochi, overnight Alleppey houseboat backwater cruise, private vehicle and guide. From RM988 per person.",
+    "keywords": "4 Days Explore Kerala: God's Own Country from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
+    "slug": "kerala/4-day-explore",
+    "canonicalUrl": "/tours/india/kerala/4-day-explore",
+    "ogImage": "/images/gallery/12929.jpg",
+    "pkgid": "99"
+  },
+  "hero": {
+    "badge": "Kerala",
+    "title": "4 Days in Kerala.",
+    "titleAccent": "Backwaters, Tea Hills and a Houseboat Night.",
+    "intro": "Kerala earned its nickname. In four days you slide from the colonial charm of Kochi to a night drifting through the Alleppey backwaters on your own houseboat, with palm-fringed canals and village life floating past.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "4 Days Explore Kerala: God's Own Country",
+        "href": null
+      }
+    ],
+    "heroImage": "/images/gallery/12929.jpg",
+    "heroImageAlt": "Kerala backwaters houseboat Alleppey"
+  },
+  "quickFacts": {
+    "duration": "4 Days / 3 Nights",
+    "startingPrice": "From RM988",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1186",
+    "saving": "Save RM395 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (3 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Overnight Houseboat Cruise"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "4 Days Explore Kerala: God's Own Country: The Full Picture",
+    "body": [
+      "Kerala, tucked along India's lush southwest coast, is one of the most relaxing destinations in the country. Backwaters threaded with coconut palms, beaches, spice gardens, and a gentle pace that soothes from the moment you arrive. This is slow travel at its loveliest.",
+      "This 4 day Kerala package from Malaysia balances the heritage of Fort Kochi with the highlight every visitor remembers: a night aboard a traditional houseboat on the Alleppey backwaters. Your private vehicle and driver guide link it all together, with meals served onboard as you cruise."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Overnight Houseboat on the Backwaters",
+        "body": "A converted rice barge becomes your floating hotel for a night on the Alleppey backwaters. Watch village life drift by, eat freshly cooked Kerala food onboard, and fall asleep to the sound of water.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Kerala houseboat backwaters Alleppey"
+      },
+      {
+        "title": "Fort Kochi's Colonial Charm",
+        "body": "The old harbour quarter, with its Chinese fishing nets, Dutch and Portuguese heritage, spice markets and art cafes, is a wonderful, walkable start to any Kerala trip.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Fort Kochi Chinese fishing nets"
+      },
+      {
+        "title": "Spice Gardens & Kerala Cuisine",
+        "body": "Kerala's food is a revelation, from fragrant fish curries to the vegetarian sadya feast served on a banana leaf. The spice trade that shaped the region is still alive in its gardens and markets.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Kerala cuisine and spices"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 4 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kochi",
+        "meals": "No meals",
+        "description": "Met at Cochin International Airport and transferred to your Fort Kochi hotel. Evening at the Chinese fishing nets.",
+        "suggestedActivities": [
+          "Sunset at the fishing nets",
+          "Fort Kochi walk",
+          "Kerala seafood dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kochi to Alleppey Houseboat",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "Morning Kochi sightseeing, then drive to Alleppey to board your private houseboat for an overnight backwater cruise.",
+        "suggestedActivities": [
+          "Fort Kochi heritage sights",
+          "Drive to Alleppey",
+          "Board houseboat",
+          "Backwater cruise with onboard meals"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Backwaters to Kochi",
+        "meals": "Breakfast",
+        "description": "A peaceful morning cruise, then disembark and return towards Kochi, with time for a spice or craft stop.",
+        "suggestedActivities": [
+          "Morning backwater cruise",
+          "Disembark at Alleppey",
+          "Spice and craft shopping",
+          "Return to Kochi"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Depart Kochi",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last-minute shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotel + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM988 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM938 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM888 per person"
+          }
+        ],
+        "fromPrice": "RM988"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotel + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1188 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1148 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1108 per person"
+          }
+        ],
+        "fromPrice": "RM1188",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotel + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1588 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1558 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1528 per person"
+          }
+        ],
+        "fromPrice": "RM1588"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Kerala, Unhurried and Done Right",
+    "body": "The magic of Kerala is in the pacing, and a good houseboat and the right route make all the difference. We arrange quality houseboats and link everything with a private vehicle. Dhesu has sent Malaysians to Kerala since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Kerala Tour Package from Malaysia",
+        "body": "This 4 day Kerala trip is the perfect short escape into God's Own Country. It combines the heritage of Fort Kochi with the headline experience of an overnight houseboat on the Alleppey backwaters.\n\nGoing private means a relaxed pace and a houseboat to yourselves, with meals cooked onboard as you drift through the canals.\n\nWant more time in the tea hills and wildlife of Munnar and Thekkady? See our 5, 6 and 8 day Kerala packages."
+      },
+      {
+        "heading": "The Alleppey Backwater Experience",
+        "body": "The Kerala backwaters are a network of canals, lagoons and lakes fringed by coconut palms and paddy fields. An overnight houseboat, a converted kettuvallam rice barge, is the classic way to experience them.\n\nYou cruise past villages, fishermen and lush greenery, with a crew cooking fresh Kerala meals onboard. It is one of the most relaxing nights you can spend anywhere in India."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Cochin International Airport (COK). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Kerala?",
+        "answer": "September to March is ideal, with pleasant weather and beautiful greenery after the monsoon. The monsoon (June to August) is lush and atmospheric but wet. Kerala is warm and humid year-round given its tropical coastal setting."
+      },
+      {
+        "question": "Is the houseboat private?",
+        "answer": "Yes. This package includes a private houseboat for your group, with a dedicated crew who cook fresh Kerala meals onboard. You cruise the Alleppey backwaters and spend the night aboard."
+      },
+      {
+        "question": "Can I extend to Munnar and Thekkady?",
+        "answer": "Yes. Munnar's tea hills and Thekkady's spice plantations and wildlife are popular additions. Our 5, 6 and 8 day Kerala packages include these alongside Kochi and the backwaters."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-5d-kerala-important-places",
+      "name": "5 Days Kerala: Most Important Places",
+      "price": "From RM1,488",
+      "duration": "5D4N",
+      "slug": "kerala/5-day-most-important-places",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-kerala-backwaters",
+      "name": "6 Days Beautiful Kerala + Backwaters Overnight Cruise",
+      "price": "From RM1,688",
+      "duration": "6D5N",
+      "slug": "kerala/6-day-backwaters-overnight",
+      "image": "/images/gallery/12929.jpg"
+    },
+    {
+      "id": "india-3d-kerala-culture-kathakali",
+      "name": "3 Days Kerala Culture, Beauty & Kathakali",
+      "price": "From RM598",
+      "duration": "3D2N",
+      "slug": "kerala/3-day-culture-kathakali",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Kerala?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/12929.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "4 Days Kerala Tour Package from Malaysia",
+    "description": "4-day Kerala tour with Fort Kochi, overnight Alleppey houseboat backwater cruise, private vehicle and guide. From RM988 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kerala/4-day-explore",
+    "startLocation": "Cochin International Airport",
+    "endLocation": "Cochin International Airport",
+    "duration": "P4D",
+    "offers": {
+      "price": "988",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

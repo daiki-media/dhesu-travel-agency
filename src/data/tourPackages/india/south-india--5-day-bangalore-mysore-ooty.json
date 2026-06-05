@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "title": "5 Days Bangalore, Mysore & Ooty Scenic Toy Train from Malaysia | Dhesu Travel & Tours",
+    "description": "5-day South India tour with Bangalore, Mysore Palace, Ooty Nilgiri hills and toy train, private vehicle. From RM1088 per person.",
+    "keywords": "5 Days Bangalore, Mysore & Ooty Scenic Toy Train from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
+    "slug": "south-india/5-day-bangalore-mysore-ooty",
+    "canonicalUrl": "/tours/india/south-india/5-day-bangalore-mysore-ooty",
+    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "pkgid": "64"
+  },
+  "hero": {
+    "badge": "South India",
+    "title": "5 Days, Bangalore to the Nilgiris.",
+    "titleAccent": "Palaces, Gardens and the Famous Toy Train.",
+    "intro": "From easygoing Bangalore to the royal splendour of Mysore and up into the cool blue Nilgiri hills of Ooty, with a ride on the famous mountain toy train. A classic South India loop through cities, palaces and hill stations.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "5 Days Bangalore, Mysore & Ooty Scenic Toy Train",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Mysore Palace and Nilgiri toy train Ooty"
+  },
+  "quickFacts": {
+    "duration": "5 Days / 4 Nights",
+    "startingPrice": "From RM1,088",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,306",
+    "saving": "Save RM435 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (4 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Nilgiri Toy Train Ride"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "5 Days Bangalore, Mysore & Ooty Scenic Toy Train: The Full Picture",
+    "body": [
+      "This 5 day loop is one of the most enjoyable in South India, linking the garden city of Bangalore, the palace city of Mysore, and the colonial hill station of Ooty in the Nilgiris. The scenery shifts from urban to royal to misty mountains, with the famous Nilgiri toy train as a highlight.",
+      "Arranged privately from Malaysia, the trip is relaxed and varied, with your own vehicle and driver guide. You see the grand Mysore Palace lit up, ride the UNESCO-listed mountain railway, and enjoy the cool air and tea gardens of Ooty, all in a comfortable five days."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Mysore Palace",
+        "body": "The dazzling Amba Vilas Palace, one of the grandest royal residences in India, especially magical when illuminated by nearly 100,000 bulbs on certain evenings.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Mysore Palace illuminated"
+      },
+      {
+        "title": "The Nilgiri Toy Train",
+        "body": "The UNESCO-listed mountain railway climbs through forests and tea gardens into the Nilgiri hills, a slow, scenic ride that is a highlight of any South India trip.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Nilgiri mountain toy train Ooty"
+      },
+      {
+        "title": "Ooty's Blue Hills",
+        "body": "Cool air, tea gardens, lakes and colonial charm in the queen of South Indian hill stations, a refreshing change from the plains.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Ooty Nilgiri hills tea gardens"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 5 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Bangalore",
+        "meals": "No meals",
+        "description": "Met at Bangalore airport and transferred to your hotel. Evening at leisure.",
+        "suggestedActivities": [
+          "Settle in",
+          "MG Road or Indiranagar",
+          "First South Indian meal"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Bangalore to Mysore",
+        "meals": "Breakfast",
+        "description": "Bangalore highlights, then drive to Mysore.",
+        "suggestedActivities": [
+          "Bangalore Palace or Lalbagh",
+          "Drive to Mysore",
+          "Mysore Palace",
+          "Evening illumination (if available)"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Mysore to Ooty",
+        "meals": "Breakfast",
+        "description": "Mysore sights, then a scenic drive up to Ooty.",
+        "suggestedActivities": [
+          "Chamundi Hill",
+          "Drive to Ooty via Bandipur",
+          "Tea gardens en route",
+          "Evening in Ooty"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Ooty & Toy Train",
+        "meals": "Breakfast",
+        "description": "Ooty sightseeing and a ride on the Nilgiri toy train.",
+        "suggestedActivities": [
+          "Nilgiri toy train ride",
+          "Botanical Gardens",
+          "Ooty Lake",
+          "Doddabetta Peak"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Return & Depart",
+        "meals": "Breakfast",
+        "description": "Drive back towards Bangalore or Coimbatore for your onward flight.",
+        "suggestedActivities": [
+          "Scenic descent",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1088 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1038 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM988 per person"
+          }
+        ],
+        "fromPrice": "RM1088"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1288 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1248 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1208 per person"
+          }
+        ],
+        "fromPrice": "RM1288",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1688 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1658 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1628 per person"
+          }
+        ],
+        "fromPrice": "RM1688"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "South India's Classic Loop, Done Right",
+    "body": "Linking Bangalore, Mysore and Ooty with the toy train takes good timing and routing. We sequence it so the scenery flows and the train slots in. Dhesu has run South India tours since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Bangalore, Mysore & Ooty Tour from Malaysia",
+        "body": "This 5 day loop is one of the most rewarding short tours in South India, combining the garden city of Bangalore, the royal palace city of Mysore, and the cool Nilgiri hill station of Ooty.\n\nThe famous Nilgiri toy train, a UNESCO World Heritage railway, is a highlight, climbing through forests and tea gardens. A private vehicle links it all at a relaxed pace.\n\nIt is an ideal trip for travellers who want variety: cities, palaces and hill stations in one journey."
+      },
+      {
+        "heading": "The Nilgiri Mountain Railway",
+        "body": "The Nilgiri Mountain Railway is a UNESCO World Heritage Site, a charming narrow-gauge line that climbs steeply into the hills around Ooty. The slow, scenic journey through tunnels, forests and tea estates is an experience in itself.\n\nWe include a ride on this iconic toy train, one of the most memorable parts of any Bangalore, Mysore and Ooty tour."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Bangalore or Coimbatore Airport (BLR / CJB). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "Is the toy train ride included?",
+        "answer": "Yes, the package includes a ride on the famous Nilgiri toy train. Seats can be in demand, so we book ahead where possible. We will confirm the segment and timing as part of your itinerary."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "October to March offers pleasant weather across all three destinations. Ooty is cool year-round given its elevation, a refreshing contrast to the warmer plains. The monsoon brings lush scenery but can affect hill roads and train schedules."
+      },
+      {
+        "question": "Is Ooty cold?",
+        "answer": "Ooty is cool and pleasant thanks to its high elevation in the Nilgiris, especially in the mornings and evenings. A light jacket is useful. It is a refreshing change from the warmer cities and a highlight of the loop."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-3d-bangalore-highlights",
+      "name": "3 Days Bangalore Highlights",
+      "price": "From RM498",
+      "duration": "3D2N",
+      "slug": "south-india/3-day-bangalore-highlights",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-south-india-discover",
+      "name": "7 Days Discover South India",
+      "price": "From RM1,668",
+      "duration": "7D6N",
+      "slug": "south-india/7-day-discover",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-9d-best-south-india",
+      "name": "9 Days Best of South India",
+      "price": "From RM1,998",
+      "duration": "9D8N",
+      "slug": "south-india/9-day-best-of",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the South India loop?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "5 Days Bangalore Mysore Ooty Tour from Malaysia",
+    "description": "5-day South India tour with Bangalore, Mysore Palace, Ooty Nilgiri hills and toy train, private vehicle. From RM1088 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/south-india/5-day-bangalore-mysore-ooty",
+    "startLocation": "Kempegowda International Airport",
+    "endLocation": "Coimbatore International Airport",
+    "duration": "P5D",
+    "offers": {
+      "price": "1088",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

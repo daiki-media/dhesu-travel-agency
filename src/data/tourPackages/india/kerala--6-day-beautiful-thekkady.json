@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "title": "6 Days Beautiful Kerala + Thekkady from Malaysia | Dhesu Travel & Tours",
+    "description": "6-day Kerala tour with Munnar tea hills, Thekkady spice plantations, Periyar wildlife and backwater houseboat. From RM1928 per person.",
+    "keywords": "6 Days Beautiful Kerala + Thekkady from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
+    "slug": "kerala/6-day-beautiful-thekkady",
+    "canonicalUrl": "/tours/india/kerala/6-day-beautiful-thekkady",
+    "ogImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "pkgid": "2110"
+  },
+  "hero": {
+    "badge": "Kerala",
+    "title": "6 Days, Kerala & Thekkady.",
+    "titleAccent": "Tea Hills, Spice Country and Backwaters.",
+    "intro": "Add the spice-scented hills of Thekkady to the Kerala classics, and you get one of the most complete short tours in South India. Munnar's tea, Thekkady's plantations and wildlife, and a backwater houseboat night.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "6 Days Beautiful Kerala + Thekkady",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Thekkady spice plantations Periyar Kerala"
+  },
+  "quickFacts": {
+    "duration": "6 Days / 5 Nights",
+    "startingPrice": "From RM1,928",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,314",
+    "saving": "Save RM771 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (5 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Overnight Houseboat Cruise"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "6 Days Beautiful Kerala + Thekkady: The Full Picture",
+    "body": [
+      "Thekkady, home to the Periyar Wildlife Sanctuary, adds a wonderful dimension to a Kerala trip: spice plantations, cardamom hills, and the chance to spot elephants and other wildlife on a boat cruise across Periyar Lake. Combined with Munnar's tea and the backwaters, it makes a rich, varied journey.",
+      "This 6 day Kerala and Thekkady package from Malaysia is private throughout. You move from Fort Kochi to Munnar's tea hills, into Thekkady's spice country, and finish with an overnight houseboat on the backwaters, all linked by your own vehicle and driver guide."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Periyar Wildlife & Spice Plantations",
+        "body": "A boat cruise on Periyar Lake offers the chance to spot elephants, deer and birdlife, while guided spice plantation walks reveal cardamom, pepper and cinnamon growing wild.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Periyar Lake Thekkady wildlife"
+      },
+      {
+        "title": "Munnar Tea Country",
+        "body": "Rolling tea estates, cool mountain air and beautiful viewpoints make Munnar a refreshing highlight on the way to Thekkady.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Munnar tea estates"
+      },
+      {
+        "title": "Backwater Houseboat Night",
+        "body": "Round off the trip with a private houseboat on the Alleppey backwaters, with onboard meals and a peaceful night on the water.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Kerala backwaters houseboat"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 6 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kochi",
+        "meals": "No meals",
+        "description": "Met at Cochin airport and transferred to your hotel. Evening at the fishing nets.",
+        "suggestedActivities": [
+          "Sunset fishing nets",
+          "Fort Kochi walk",
+          "Seafood dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kochi to Munnar",
+        "meals": "Breakfast",
+        "description": "Scenic drive to the tea hills of Munnar.",
+        "suggestedActivities": [
+          "Drive to Munnar",
+          "Tea plantation stops",
+          "Evening in the hills"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Munnar to Thekkady",
+        "meals": "Breakfast",
+        "description": "Munnar sightseeing, then on to the spice hills of Thekkady.",
+        "suggestedActivities": [
+          "Mattupetty Dam and Echo Point",
+          "Drive to Thekkady",
+          "Evening spice market"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Thekkady to Alleppey",
+        "meals": "Breakfast",
+        "description": "Periyar wildlife and spice plantations, then descend to the backwaters.",
+        "suggestedActivities": [
+          "Periyar Lake boat cruise",
+          "Spice plantation walk",
+          "Drive to Alleppey"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Alleppey Houseboat",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "Board your private houseboat for an overnight backwater cruise.",
+        "suggestedActivities": [
+          "Board houseboat",
+          "Backwater cruise",
+          "Onboard Kerala meals"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Disembark, Depart",
+        "meals": "Breakfast",
+        "description": "Morning cruise, then transfer to Cochin airport for your onward flight.",
+        "suggestedActivities": [
+          "Morning cruise",
+          "Disembark",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1928 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1878 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1828 per person"
+          }
+        ],
+        "fromPrice": "RM1928"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2228 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2188 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2148 per person"
+          }
+        ],
+        "fromPrice": "RM2228",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2728 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2698 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2668 per person"
+          }
+        ],
+        "fromPrice": "RM2728"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Kerala's Full Spectrum, Linked Smartly",
+    "body": "Tea hills, spice country, wildlife and backwaters in six days needs careful routing. We sequence Munnar, Thekkady and Alleppey so the journey flows beautifully. Dhesu has run Kerala tours since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Kerala & Thekkady Tour from Malaysia",
+        "body": "This 6 day package adds the spice hills and wildlife of Thekkady to the Kerala classics, making it one of the most complete short South India tours.\n\nThe Periyar Lake cruise and spice plantation walks at Thekkady bring nature and aromatics into a trip that already has tea hills and backwaters. A private vehicle links it all smoothly.\n\nFor even more time, our 8 day Kerala packages extend the same route at a more leisurely pace."
+      },
+      {
+        "heading": "What Makes Thekkady Special",
+        "body": "Thekkady is the gateway to the Periyar Tiger Reserve, one of South India's finest wildlife areas. A boat cruise on Periyar Lake offers the chance to spot elephants and deer along the shores.\n\nThe surrounding hills are spice country, growing cardamom, pepper, cinnamon and more. Guided plantation walks let you see and smell the spices that made Kerala famous for centuries."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Cochin International Airport (COK). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What wildlife might I see at Periyar?",
+        "answer": "Periyar is known for elephants, sambar deer, wild boar, and abundant birdlife, often seen from the lake boat cruise. Tigers and leopards are present but rarely sighted. The plantation walks focus on spices and smaller wildlife."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "September to March offers the most pleasant weather. The cool, dry season is best for the Munnar and Thekkady hills. The monsoon brings lush scenery but heavy rain that can affect hill roads and wildlife viewing."
+      },
+      {
+        "question": "Is the Periyar boat cruise included?",
+        "answer": "The package includes the Thekkady visit; the Periyar Lake boat cruise can be arranged as part of your day there. We will confirm the inclusions and any entrance or activity fees when you book."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-8d-kerala-munnar-thekkady",
+      "name": "8 Days Best of Kerala: Munnar & Thekkady",
+      "price": "From RM2,398",
+      "duration": "8D7N",
+      "slug": "kerala/8-day-best-of",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-kerala-backwaters",
+      "name": "6 Days Beautiful Kerala + Backwaters Overnight Cruise",
+      "price": "From RM1,688",
+      "duration": "6D5N",
+      "slug": "kerala/6-day-backwaters-overnight",
+      "image": "/images/gallery/12929.jpg"
+    },
+    {
+      "id": "india-9d-kerala-kanyakumari",
+      "name": "9 Days Kerala + Kanyakumari",
+      "price": "From RM2,788",
+      "duration": "9D8N",
+      "slug": "kerala/9-day-kanyakumari",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Kerala and Thekkady?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "6 Days Kerala Thekkady Tour from Malaysia",
+    "description": "6-day Kerala tour with Munnar tea hills, Thekkady spice plantations, Periyar wildlife and backwater houseboat. From RM1928 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kerala/6-day-beautiful-thekkady",
+    "startLocation": "Cochin International Airport",
+    "endLocation": "Cochin International Airport",
+    "duration": "P6D",
+    "offers": {
+      "price": "1928",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

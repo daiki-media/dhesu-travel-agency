@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "title": "5 Days Mumbai + Goa from Malaysia | Dhesu Travel & Tours",
+    "description": "5-day Mumbai and Goa tour with city sightseeing, Bollywood, Goa beaches and Portuguese heritage, domestic flight. From RM2088 per person.",
+    "keywords": "5 Days Mumbai + Goa from Malaysia, India tour package, West India tour package Malaysia, Dhesu travel",
+    "slug": "west-india/5-day-mumbai-goa",
+    "canonicalUrl": "/tours/india/west-india/5-day-mumbai-goa",
+    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "pkgid": "116"
+  },
+  "hero": {
+    "badge": "West India",
+    "title": "5 Days, Mumbai & Goa.",
+    "titleAccent": "The City of Dreams and India's Favourite Beaches.",
+    "intro": "The perfect city-and-beach combination. The energy of Mumbai, then the sun, sand and Portuguese charm of Goa. Bollywood and beaches, colonial churches and coastal sunsets, linked by a quick flight.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "5 Days Mumbai + Goa",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Goa beach and Mumbai skyline combination tour"
+  },
+  "quickFacts": {
+    "duration": "5 Days / 4 Nights",
+    "startingPrice": "From RM2,088",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,506",
+    "saving": "Save RM835 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (4 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Domestic Flight Mumbai-Goa"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Meals (as itinerary)"
+      },
+      {
+        "icon": "car",
+        "label": "Guided Tours"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "transfer",
+        "label": "Domestic Flights"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "5 Days Mumbai + Goa: The Full Picture",
+    "body": [
+      "This 5 day trip pairs India's most energetic city with its most relaxed state. Mumbai brings colonial grandeur, Bollywood and street food; Goa brings golden beaches, Portuguese heritage, seafood and the laid-back coastal vibe that has made it India's favourite holiday spot.",
+      "Arranged privately from Malaysia, the package includes the domestic flight between the two, with a private vehicle and driver guide at each end. You experience the highlights of Mumbai, then unwind in Goa, exploring old churches, beaches and the slow pleasures of the coast."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Mumbai's Energy",
+        "body": "The Gateway of India, colonial landmarks, Marine Drive and a taste of Bollywood, the buzz of India's biggest city in a focused day.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Mumbai Gateway of India"
+      },
+      {
+        "title": "Goa's Beaches",
+        "body": "Golden sands, palm trees and the Arabian Sea. From the lively beaches of the north to the quieter south, Goa is India's beach paradise.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Goa beach Arabian Sea"
+      },
+      {
+        "title": "Portuguese Heritage",
+        "body": "Old Goa's grand churches, the colourful Latin Quarter of Fontainhas, and the relaxed Portuguese-influenced culture and cuisine.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Old Goa Portuguese church"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 5 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Mumbai",
+        "meals": "No meals",
+        "description": "Met at Mumbai airport and transferred to your hotel. Evening at Marine Drive.",
+        "suggestedActivities": [
+          "Marine Drive sunset",
+          "Street food",
+          "Settle in"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Mumbai City Tour, Fly to Goa",
+        "meals": "Breakfast",
+        "description": "Mumbai highlights, then fly to Goa in the evening.",
+        "suggestedActivities": [
+          "Gateway of India",
+          "Colonial Mumbai and Dhobi Ghat",
+          "Flight to Goa",
+          "Evening at leisure"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "North Goa & Beaches",
+        "meals": "Breakfast",
+        "description": "Explore the lively north Goa beaches and forts.",
+        "suggestedActivities": [
+          "Calangute and Baga beaches",
+          "Aguada Fort",
+          "Anjuna flea market (seasonal)",
+          "Beach time"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Old Goa & South Goa",
+        "meals": "Breakfast",
+        "description": "Portuguese heritage and the quieter southern beaches.",
+        "suggestedActivities": [
+          "Basilica of Bom Jesus",
+          "Se Cathedral",
+          "Fontainhas Latin Quarter",
+          "South Goa beach relaxation"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Depart Goa",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to Goa airport for your onward flight.",
+        "suggestedActivities": [
+          "Final beach morning",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + beach resort or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2088 per person"
+          }
+        ],
+        "fromPrice": "RM2088"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + beach resort or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM2488 per person"
+          }
+        ],
+        "fromPrice": "RM2488",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + beach resort or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM3088 per person"
+          }
+        ],
+        "fromPrice": "RM3088"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "City and Sea, One Easy Trip",
+    "body": "Combining Mumbai's intensity with Goa's calm means coordinating a flight and two very different stays. We handle the logistics so you simply enjoy the contrast. Dhesu has arranged West India tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Mumbai & Goa Tour from Malaysia",
+        "body": "This 5 day package is the ideal city-and-beach combination in West India. Mumbai brings the energy, Bollywood and heritage; Goa brings the beaches, Portuguese charm and relaxation.\n\nThe domestic flight links them efficiently, so you experience the best of both without a long overland journey. A private vehicle and driver guide at each end keep things smooth.\n\nIt is a popular trip for travellers who want a taste of urban India followed by time to unwind by the sea."
+      },
+      {
+        "heading": "Goa: Beaches and Portuguese Heritage",
+        "body": "Goa offers more than beaches. Old Goa's grand churches, like the Basilica of Bom Jesus, are UNESCO-listed, and the Latin Quarter of Fontainhas in Panjim is full of colourful Portuguese-era houses.\n\nThe beaches range from the lively north, with its markets and shacks, to the tranquil south. Add in excellent seafood and a relaxed pace, and Goa is the perfect coastal finish to a Mumbai trip."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Mumbai and Goa Airports (BOM / GOI). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "Is the domestic flight included?",
+        "answer": "Yes. This package includes the domestic flight from Mumbai to Goa, so you avoid a long overland journey. International flights to and from India are not included."
+      },
+      {
+        "question": "What is the best time to visit Goa?",
+        "answer": "November to February is peak season, with sunny, dry weather perfect for the beaches. March to May is hot. The monsoon (June to September) brings heavy rain and a lush, quiet Goa, with many beach shacks closed."
+      },
+      {
+        "question": "Is Goa good for relaxation or activities?",
+        "answer": "Both. Goa suits travellers who want to relax on the beach as well as those who enjoy water sports, nightlife, markets and heritage sightseeing. The trip can be tailored towards relaxation or activity depending on your preference."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-4d-mumbai-bollywood",
+      "name": "4 Days Mumbai + Bollywood",
+      "price": "From RM1,298",
+      "duration": "4D3N",
+      "slug": "west-india/4-day-mumbai-bollywood",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-4d-shirdi-nashik",
+      "name": "4 Days Shirdi, Nashik & Shani Shingnapur",
+      "price": "From RM1,488",
+      "duration": "4D3N",
+      "slug": "west-india/4-day-shirdi-nashik-shani",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-3d-shirdi-pilgrimage",
+      "name": "3 Days Shirdi Pilgrimage",
+      "price": "From RM588",
+      "duration": "3D2N",
+      "slug": "west-india/3-day-shirdi-pilgrimage",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Mumbai and Goa?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "5 Days Mumbai Goa Tour from Malaysia",
+    "description": "5-day Mumbai and Goa tour with city sightseeing, Bollywood, Goa beaches and Portuguese heritage, domestic flight. From RM2088 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/west-india/5-day-mumbai-goa",
+    "startLocation": "Chhatrapati Shivaji Maharaj International Airport",
+    "endLocation": "Goa International Airport",
+    "duration": "P5D",
+    "offers": {
+      "price": "2088",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

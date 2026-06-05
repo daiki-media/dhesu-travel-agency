@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "title": "3 Days Kolkata Heritage & Culture Tour from Malaysia | Dhesu Travel & Tours",
+    "description": "3-day Kolkata heritage tour with Victoria Memorial, Howrah Bridge, Dakshineswar Temple, private vehicle and hotel. From RM698 per person.",
+    "keywords": "3 Days Kolkata Heritage & Culture Tour from Malaysia, India tour package, East India tour package Malaysia, Dhesu travel",
+    "slug": "east-india/3-day-kolkata-heritage",
+    "canonicalUrl": "/tours/india/east-india/3-day-kolkata-heritage",
+    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "pkgid": "78"
+  },
+  "hero": {
+    "badge": "East India",
+    "title": "3 Days in Kolkata.",
+    "titleAccent": "The City of Joy, Trams and Grand Old Bengal.",
+    "intro": "Kolkata moves to its own beat. Colonial grandeur fading gracefully, yellow taxis and trams, intellectual cafes, and a food culture all its own. The old capital of British India still has more soul than almost anywhere.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "3 Days Kolkata Heritage & Culture Tour",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Victoria Memorial Kolkata heritage"
+  },
+  "quickFacts": {
+    "duration": "3 Days / 2 Nights",
+    "startingPrice": "From RM698",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM838",
+    "saving": "Save RM279 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (2 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "100% Private Tour"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "3 Days Kolkata Heritage & Culture Tour: The Full Picture",
+    "body": [
+      "Kolkata, the capital of West Bengal and once the seat of British India, is one of the country's most characterful cities. The grand Victoria Memorial, the iron span of Howrah Bridge, the riverside temples and the legendary intellectual and artistic life give it a depth few Indian cities match.",
+      "This 3 day Kolkata heritage package from Malaysia is private throughout. Your vehicle and driver guide take you through the colonial core, the river ghats, the flower market and the sweet shops that Bengalis are rightly proud of, all at your own pace."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Victoria Memorial & Colonial Core",
+        "body": "The white marble Victoria Memorial is Kolkata's signature landmark, set in gardens at the heart of the colonial city. Nearby stand St Paul's Cathedral and the grand buildings of the old British capital.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Victoria Memorial Kolkata"
+      },
+      {
+        "title": "Howrah Bridge & the River",
+        "body": "The mighty cantilever Howrah Bridge spans the Hooghly river, alive with ferries, flower sellers and dawn bathers. The riverside ghats and the Mullick Ghat flower market are pure Kolkata.",
+        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "imageAlt": "Howrah Bridge Kolkata"
+      },
+      {
+        "title": "Dakshineswar, Sweets & Street Life",
+        "body": "Visit the Dakshineswar Kali Temple by the river, then dive into the city's famous sweets, from rasgulla to mishti doi, and its endlessly photogenic street life.",
+        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "imageAlt": "Dakshineswar Temple Kolkata"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 3 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kolkata",
+        "meals": "No meals",
+        "description": "Met at Netaji Subhas Chandra Bose International Airport and transferred to your hotel. Evening free around Park Street, the city's dining heart.",
+        "suggestedActivities": [
+          "Park Street dinner",
+          "First Bengali sweets",
+          "Evening walk in the colonial core"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Full Day Kolkata Heritage",
+        "meals": "Breakfast",
+        "description": "A full day with your private vehicle covering the city's landmarks, river and markets.",
+        "suggestedActivities": [
+          "Victoria Memorial and St Paul's Cathedral",
+          "Howrah Bridge and river ghats",
+          "Dakshineswar Kali Temple",
+          "Kumartuli artisan quarter",
+          "Sweets and street food"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Free Morning, Depart",
+        "meals": "Breakfast",
+        "description": "Checkout at noon. A final round of shopping or sweets before your airport transfer.",
+        "suggestedActivities": [
+          "New Market shopping",
+          "Final Bengali sweets",
+          "Coffee at a heritage cafe"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "The Astor / Lindsay or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM698 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM648 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM598 per person"
+          }
+        ],
+        "fromPrice": "RM698"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "The Park / Peerless Inn or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM848 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM808 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM768 per person"
+          }
+        ],
+        "fromPrice": "RM848",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "ITC Royal Bengal / Taj Bengal or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1098 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1068 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1038 per person"
+          }
+        ],
+        "fromPrice": "RM1098"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "East India, Threaded Together",
+    "body": "Kolkata is a city of layers and a good guide brings its history alive, from the colonial buildings to the artisan quarters and the food. Dhesu has arranged India journeys for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Kolkata Heritage Tour from Malaysia",
+        "body": "Kolkata is a city for travellers who love history, culture and food over checklists. The colonial architecture, the river life and the Bengali intellectual tradition give it a character that lingers long after you leave.\n\nThis private package lets you cover the Victoria Memorial, Howrah Bridge, the temples and the markets at your own pace, with a guide who knows the city's stories and its best sweet shops.\n\nKolkata is also the gateway to East India and the eastern Himalayas, including Sikkim and Darjeeling."
+      },
+      {
+        "heading": "What to Eat in Kolkata",
+        "body": "Bengali food is a revelation. Fish curries, the street-food classic kathi roll, puchka (the local pani puri), and an entire universe of sweets built around chhena (fresh cheese).\n\nRasgulla, sandesh and mishti doi are non-negotiable. Your guide will point you to the century-old sweet shops where Bengalis themselves queue up."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Netaji Subhas Chandra Bose International Airport, Kolkata (CCU). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Kolkata?",
+        "answer": "October to March is the most pleasant, with cool, dry weather. The Durga Puja festival (usually October) transforms the city into a spectacular open-air art event, but it is also the busiest time. Summers are hot and humid, and the monsoon brings heavy rain."
+      },
+      {
+        "question": "Is Kolkata easy to get around?",
+        "answer": "With a private vehicle and driver guide, yes. Kolkata traffic can be slow, so having a dedicated car saves time and stress, and your guide knows how to time visits to the major sights."
+      },
+      {
+        "question": "Can I extend to Darjeeling or Sikkim?",
+        "answer": "Yes. Kolkata is the natural gateway to the eastern Himalayas. Sikkim, with its Kanchenjunga views and monasteries, is covered in our 7 day Sikkim package, often combined with a Kolkata start."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-7d-sikkim",
+      "name": "7 Days Sikkim: Himalayas' Best Kept Secret",
+      "price": "From RM4,088",
+      "duration": "7D6N",
+      "slug": "north-india/7-day-sikkim",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-3d-varanasi-sunrise-sunset",
+      "name": "3 Days Varanasi: Sunrise, Sunset & Ganga Aarti",
+      "price": "From RM698",
+      "duration": "3D2N",
+      "slug": "north-india/3-day-varanasi-ganga-aarti",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-3d-ayodhya",
+      "name": "3 Days Explore Ayodhya with a Professional Guide",
+      "price": "From RM698",
+      "duration": "3D2N",
+      "slug": "north-india/3-day-ayodhya",
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Kolkata?",
+    "subheading": "Tell us your dates and group size for a quick, confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "3 Days Kolkata Heritage Tour Package from Malaysia",
+    "description": "3-day Kolkata heritage tour with Victoria Memorial, Howrah Bridge, Dakshineswar Temple, private vehicle and hotel. From RM698 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/east-india/3-day-kolkata-heritage",
+    "startLocation": "Netaji Subhas Chandra Bose International Airport",
+    "endLocation": "Netaji Subhas Chandra Bose International Airport",
+    "duration": "P3D",
+    "offers": {
+      "price": "698",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

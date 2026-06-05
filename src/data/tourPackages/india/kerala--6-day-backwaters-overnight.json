@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "title": "6 Days Beautiful Kerala + Backwaters Overnight Cruise from Malaysia | Dhesu Travel & Tours",
+    "description": "6-day Kerala tour with Kochi, Munnar tea hills and overnight backwater houseboat cruise, private vehicle. From RM1688 per person.",
+    "keywords": "6 Days Beautiful Kerala + Backwaters Overnight Cruise from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
+    "slug": "kerala/6-day-backwaters-overnight",
+    "canonicalUrl": "/tours/india/kerala/6-day-backwaters-overnight",
+    "ogImage": "/images/gallery/12929.jpg",
+    "pkgid": "173"
+  },
+  "hero": {
+    "badge": "Kerala",
+    "title": "6 Days in Kerala.",
+    "titleAccent": "Kochi, Munnar, Backwaters and More.",
+    "intro": "An extra day turns the Kerala highlights into a properly relaxed holiday. Fort Kochi, Munnar's tea hills, a backwater houseboat night, and time to slow right down in God's Own Country.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "6 Days Beautiful Kerala + Backwaters Overnight Cruise",
+        "href": null
+      }
+    ],
+    "heroImage": "/images/gallery/12929.jpg",
+    "heroImageAlt": "Kerala backwaters sunset cruise"
+  },
+  "quickFacts": {
+    "duration": "6 Days / 5 Nights",
+    "startingPrice": "From RM1,688",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,026",
+    "saving": "Save RM675 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (5 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Overnight Houseboat Cruise"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "6 Days Beautiful Kerala + Backwaters Overnight Cruise: The Full Picture",
+    "body": [
+      "Six days is the sweet spot for Kerala. You get all the essentials, Kochi, Munnar and the backwaters, plus enough breathing room to actually relax rather than rush from stop to stop. This is a holiday as much as a tour.",
+      "Arranged privately from Malaysia, this Kerala package centres on an overnight houseboat cruise on the backwaters, with the heritage of Fort Kochi and the tea hills of Munnar around it. Your own vehicle and driver guide keep the pace gentle and flexible throughout."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Overnight Backwater Cruise",
+        "body": "A private houseboat on the Alleppey or Kumarakom backwaters, with onboard meals and a slow, beautiful night drifting through the canals.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Kerala backwaters houseboat cruise"
+      },
+      {
+        "title": "Munnar Tea Hills",
+        "body": "Cool mountain air, rolling tea estates, waterfalls and viewpoints. Munnar is the green, misty heart of Kerala's hill country.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Munnar tea hills"
+      },
+      {
+        "title": "Time to Relax",
+        "body": "The extra day means you can slow down, enjoy an Ayurvedic massage, linger over Kerala meals, or simply soak up the scenery without watching the clock.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Kerala relaxation Ayurveda"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 6 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kochi",
+        "meals": "No meals",
+        "description": "Met at Cochin airport and transferred to your hotel. Evening at the fishing nets.",
+        "suggestedActivities": [
+          "Sunset fishing nets",
+          "Fort Kochi walk",
+          "Seafood dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kochi to Munnar",
+        "meals": "Breakfast",
+        "description": "Scenic drive to the tea hills of Munnar.",
+        "suggestedActivities": [
+          "Drive to Munnar",
+          "Waterfall and spice garden stops",
+          "Evening in the hills"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Munnar Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day among the tea estates and viewpoints.",
+        "suggestedActivities": [
+          "Tea plantation and museum",
+          "Mattupetty Dam and Echo Point",
+          "Eravikulam National Park (optional)"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Munnar to Alleppey Houseboat",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "Descend to the backwaters and board your private houseboat.",
+        "suggestedActivities": [
+          "Drive to Alleppey",
+          "Board houseboat",
+          "Backwater cruise with onboard meals"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Backwaters to Kochi",
+        "meals": "Breakfast",
+        "description": "Morning cruise, then return towards Kochi with time to relax.",
+        "suggestedActivities": [
+          "Morning cruise",
+          "Disembark",
+          "Optional Ayurvedic massage",
+          "Return to Kochi"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Depart Kochi",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + deluxe houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1688 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1638 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1588 per person"
+          }
+        ],
+        "fromPrice": "RM1688"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1988 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1948 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1908 per person"
+          }
+        ],
+        "fromPrice": "RM1988",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2488 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2458 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2428 per person"
+          }
+        ],
+        "fromPrice": "RM2488"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Kerala at the Right Pace",
+    "body": "Six days lets Kerala breathe, and we build in the relaxation that makes the state special, from a quality houseboat to optional Ayurveda. Dhesu has arranged Kerala holidays for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "6 Day Kerala Tour Package from Malaysia",
+        "body": "This 6 day Kerala package is for travellers who want the highlights without the hurry. Kochi, Munnar and the backwaters, with an extra day to slow down and enjoy.\n\nThe private vehicle and overnight houseboat make it a relaxed, flexible trip, and there is room for Ayurvedic treatments, leisurely meals and simply soaking up the scenery.\n\nFor wildlife and spice plantations too, the 6 day Thekkady and 8 day full Kerala packages add Thekkady to the route."
+      },
+      {
+        "heading": "Ayurveda in Kerala",
+        "body": "Kerala is the home of Ayurveda, India's ancient system of natural medicine and wellness. Many hotels and dedicated centres offer treatments, from relaxing massages to full therapeutic programmes.\n\nWith six days, there is comfortable time to add an Ayurvedic massage or treatment to your trip. Let us know if you would like wellness built into your itinerary."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Cochin International Airport (COK). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for a 6 day Kerala trip?",
+        "answer": "September to March offers the most pleasant weather across the coast, hills and backwaters. The monsoon brings lush greenery but heavy rain. Munnar stays cool year-round, a refreshing contrast to the warm coast."
+      },
+      {
+        "question": "Can I add Ayurvedic treatments?",
+        "answer": "Yes. Kerala is the home of Ayurveda, and the relaxed 6 day pace leaves room for massages or treatments. We can arrange these at your hotel or a dedicated centre. Let us know your interest when booking."
+      },
+      {
+        "question": "How is this different from the 5 day Kerala package?",
+        "answer": "The 6 day version covers the same core highlights, Kochi, Munnar and the backwaters, but with an extra day for a more relaxed pace and time to add wellness or leisure. The 8 day packages add Thekkady's wildlife and spice plantations."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-5d-kerala-important-places",
+      "name": "5 Days Kerala: Most Important Places",
+      "price": "From RM1,488",
+      "duration": "5D4N",
+      "slug": "kerala/5-day-most-important-places",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-kerala-thekkady",
+      "name": "6 Days Beautiful Kerala + Thekkady",
+      "price": "From RM1,928",
+      "duration": "6D5N",
+      "slug": "kerala/6-day-beautiful-thekkady",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-8d-kerala-complete",
+      "name": "8 Days Complete Kerala Circuit",
+      "price": "From RM2,398",
+      "duration": "8D7N",
+      "slug": "kerala/8-day-complete-circuit",
+      "image": "/images/gallery/12929.jpg"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for a relaxed Kerala holiday?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/12929.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "6 Days Kerala Tour Package from Malaysia",
+    "description": "6-day Kerala tour with Kochi, Munnar tea hills and overnight backwater houseboat cruise, private vehicle. From RM1688 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kerala/6-day-backwaters-overnight",
+    "startLocation": "Cochin International Airport",
+    "endLocation": "Cochin International Airport",
+    "duration": "P6D",
+    "offers": {
+      "price": "1688",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

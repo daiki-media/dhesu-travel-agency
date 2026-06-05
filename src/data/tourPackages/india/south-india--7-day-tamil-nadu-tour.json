@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "title": "7 Days Tamil Nadu Tour from Malaysia | Dhesu Travel & Tours",
+    "description": "7-day Tamil Nadu tour with Chennai, Mahabalipuram, Pondicherry, Thanjavur, Madurai Meenakshi temple and Kodaikanal. From RM1598 per person.",
+    "keywords": "7 Days Tamil Nadu Tour from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
+    "slug": "south-india/7-day-tamil-nadu-tour",
+    "canonicalUrl": "/tours/india/south-india/7-day-tamil-nadu-tour",
+    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "pkgid": "2281"
+  },
+  "hero": {
+    "badge": "South India",
+    "title": "7 Days, Tamil Nadu.",
+    "titleAccent": "Temple Towns, French Coast and Hill Country.",
+    "intro": "The grand sweep of Tamil Nadu in a week. From Chennai's coast and the shore temples of Mahabalipuram to the great temple cities of Thanjavur and Madurai, with French Pondicherry and the cool Kodaikanal hills along the way.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "7 Days Tamil Nadu Tour",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Tamil Nadu temple towns and Meenakshi temple"
+  },
+  "quickFacts": {
+    "duration": "7 Days / 6 Nights",
+    "startingPrice": "From RM1,598",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,918",
+    "saving": "Save RM639 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (6 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Temple Visits & Guidance"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "7 Days Tamil Nadu Tour: The Full Picture",
+    "body": [
+      "Tamil Nadu is the temple heartland of India, and this 7 day tour captures its full range: the Dravidian temple cities, the Coromandel coast, French colonial Pondicherry, and a touch of hill country. It is a journey through Tamil culture, devotion and history at a comfortable pace.",
+      "Arranged privately from Malaysia, the trip links Chennai, Mahabalipuram, Pondicherry, the great Chola city of Thanjavur and the temple metropolis of Madurai, with your own vehicle and driver guide. Towering gopurams, living rituals and a constantly changing landscape make Tamil Nadu one of the most rewarding states to explore."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Madurai's Meenakshi Temple",
+        "body": "The vast Meenakshi Amman Temple, with its towering, sculpture-covered gopurams and thousand-pillared hall, is one of the most spectacular temple complexes in all of India.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Meenakshi temple Madurai gopuram"
+      },
+      {
+        "title": "Thanjavur's Chola Heritage",
+        "body": "The magnificent Brihadeeswarar Temple, a UNESCO World Heritage Site and a masterpiece of Chola architecture, with its soaring vimana tower.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Brihadeeswarar temple Thanjavur"
+      },
+      {
+        "title": "Mahabalipuram & Pondicherry",
+        "body": "The seaside Pallava monuments of Mahabalipuram and the pastel French Quarter of Pondicherry add coastal heritage and colonial charm to the temple trail.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Mahabalipuram and Pondicherry coast"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 7 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Chennai",
+        "meals": "No meals",
+        "description": "Met at Chennai airport and transferred to your hotel. Evening at Marina Beach.",
+        "suggestedActivities": [
+          "Marina Beach",
+          "Kapaleeshwarar Temple",
+          "First South Indian meal"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Chennai to Pondicherry via Mahabalipuram",
+        "meals": "Breakfast",
+        "description": "Shore temples at Mahabalipuram, then on to French Pondicherry.",
+        "suggestedActivities": [
+          "Shore Temple and Pancha Rathas",
+          "Arjuna's Penance",
+          "Drive to Pondicherry",
+          "French Quarter evening"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Pondicherry to Thanjavur",
+        "meals": "Breakfast",
+        "description": "Pondicherry sights, then drive to the Chola city of Thanjavur.",
+        "suggestedActivities": [
+          "Sri Aurobindo Ashram",
+          "Drive to Thanjavur",
+          "Brihadeeswarar Temple",
+          "Thanjavur palace"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Thanjavur to Madurai",
+        "meals": "Breakfast",
+        "description": "Temple stops en route to Madurai.",
+        "suggestedActivities": [
+          "Trichy Rockfort Temple",
+          "Srirangam Ranganathaswamy Temple",
+          "Drive to Madurai"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Madurai",
+        "meals": "Breakfast",
+        "description": "A full day at the great temple city.",
+        "suggestedActivities": [
+          "Meenakshi Amman Temple",
+          "Thirumalai Nayakkar Palace",
+          "Evening temple ceremony",
+          "Madurai markets"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Madurai to Kodaikanal",
+        "meals": "Breakfast",
+        "description": "Drive up to the cool hill station of Kodaikanal.",
+        "suggestedActivities": [
+          "Drive to Kodaikanal",
+          "Kodai Lake",
+          "Coaker's Walk",
+          "Hill viewpoints"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Depart",
+        "meals": "Breakfast",
+        "description": "Descend and transfer to Madurai airport for your onward flight.",
+        "suggestedActivities": [
+          "Scenic descent",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1598 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1548 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1498 per person"
+          }
+        ],
+        "fromPrice": "RM1598"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1898 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1858 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1818 per person"
+          }
+        ],
+        "fromPrice": "RM1898",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2398 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2368 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2338 per person"
+          }
+        ],
+        "fromPrice": "RM2398"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Tamil Nadu, Threaded Together",
+    "body": "Tamil Nadu's temple cities are spread across the state, and the rituals reward understanding. We route the journey and pair you with knowledgeable guides. Dhesu has run South India tours since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Tamil Nadu Tour from Malaysia",
+        "body": "This 7 day tour is the ideal introduction to Tamil Nadu, India's temple heartland. It links the coast, the great temple cities, French Pondicherry and a hill station, capturing the state's culture and devotion at a comfortable pace.\n\nA private vehicle and driver guide handle the considerable distances and bring the temple rituals and history to life.\n\nFor a temple-focused pilgrimage, see our Arupadai Veedu and Navagraha packages; for a wider south loop, the 9 day Best of South India."
+      },
+      {
+        "heading": "The Temple Cities of Tamil Nadu",
+        "body": "Tamil Nadu's Dravidian temples are among the greatest in India. Madurai's Meenakshi Temple, with its towering painted gopurams, and Thanjavur's UNESCO-listed Brihadeeswarar Temple are highlights, alongside Srirangam, one of the largest functioning temple complexes in the world.\n\nThese are living temples, full of daily ritual, music and devotion, which makes exploring them with a guide so rewarding."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Chennai or Madurai Airport (MAA / IXM). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for a Tamil Nadu tour?",
+        "answer": "November to February is the most comfortable, with cooler, drier weather. March to June is hot and humid. The northeast monsoon brings rain to Tamil Nadu around October to December. Winter is ideal for the temples and the coast."
+      },
+      {
+        "question": "Is there a dress code for the temples?",
+        "answer": "Yes. Modest dress covering shoulders and knees is expected, and you remove footwear before entering. Some temples require men to remove shirts at the inner sanctum. Your guide will advise on each temple's specific customs."
+      },
+      {
+        "question": "How much driving does this tour involve?",
+        "answer": "Tamil Nadu's sights are spread across the state, so there are several scenic drives. The seven-day pace keeps each day comfortable, and the private vehicle makes the longer legs relaxing with stops along the way."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-9d-best-south-india",
+      "name": "9 Days Best of South India",
+      "price": "From RM1,998",
+      "duration": "9D8N",
+      "slug": "south-india/9-day-best-of",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-arupadai-veedu",
+      "name": "6 Days Arupadai Veedu Murugan Temples",
+      "price": "From RM1,538",
+      "duration": "6D5N",
+      "slug": "south-india/6-day-arupadai-veedu-temples",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-south-india-discover",
+      "name": "7 Days Discover South India",
+      "price": "From RM1,668",
+      "duration": "7D6N",
+      "slug": "south-india/7-day-discover",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Tamil Nadu?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "7 Days Tamil Nadu Tour from Malaysia",
+    "description": "7-day Tamil Nadu tour with Chennai, Mahabalipuram, Pondicherry, Thanjavur, Madurai Meenakshi temple and Kodaikanal. From RM1598 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/south-india/7-day-tamil-nadu-tour",
+    "startLocation": "Chennai International Airport",
+    "endLocation": "Madurai Airport",
+    "duration": "P7D",
+    "offers": {
+      "price": "1598",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "title": "9 Days Best of South India from Malaysia | Dhesu Travel & Tours",
+    "description": "9-day South India grand tour with Bangalore, Mysore, Ooty toy train, Munnar tea hills and Kerala backwaters houseboat. From RM1998 per person.",
+    "keywords": "9 Days Best of South India from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
+    "slug": "south-india/9-day-best-of",
+    "canonicalUrl": "/tours/india/south-india/9-day-best-of",
+    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "pkgid": "152"
+  },
+  "hero": {
+    "badge": "South India",
+    "title": "9 Days, Best of the South.",
+    "titleAccent": "Karnataka, the Nilgiris and Kerala in One Grand Tour.",
+    "intro": "The definitive South India tour. Bangalore and Mysore's palaces, the Nilgiri hills and toy train, and across into Kerala's tea country and backwaters. Nine days through the very best the south has to offer.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "9 Days Best of South India",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Best of South India palaces hills and Kerala backwaters"
+  },
+  "quickFacts": {
+    "duration": "9 Days / 8 Nights",
+    "startingPrice": "From RM1,998",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,398",
+    "saving": "Save RM799 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (8 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Toy Train & Houseboat"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "9 Days Best of South India: The Full Picture",
+    "body": [
+      "This 9 day grand tour brings together the highlights of South India across two states. From the gardens of Bangalore and the palace of Mysore, up into the Nilgiri hills of Ooty, and across into Kerala for the tea country of Munnar and an overnight houseboat on the backwaters.",
+      "Arranged privately from Malaysia, it is the most complete South India journey we offer, blending cities, palaces, hill stations, the famous toy train and the Kerala backwaters. Your own vehicle and driver guide link it all at a relaxed pace, with the scenery changing dramatically from day to day."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Mysore & the Nilgiri Hills",
+        "body": "The grand Mysore Palace and the cool blue hills of Ooty, with a ride on the UNESCO-listed Nilgiri toy train through forests and tea gardens.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Mysore Palace and Nilgiri hills"
+      },
+      {
+        "title": "Munnar's Tea Country",
+        "body": "Crossing into Kerala, the rolling tea estates of Munnar bring cool mountain air and some of the most beautiful hill scenery in the south.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Munnar tea hills Kerala"
+      },
+      {
+        "title": "Kerala Backwater Houseboat",
+        "body": "The journey finishes with an overnight houseboat on the Kerala backwaters, with onboard meals and a peaceful night on the water.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Kerala backwaters houseboat"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 9 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Bangalore",
+        "meals": "No meals",
+        "description": "Met at Bangalore airport and transferred to your hotel.",
+        "suggestedActivities": [
+          "Settle in",
+          "MG Road",
+          "First South Indian meal"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Bangalore to Mysore",
+        "meals": "Breakfast",
+        "description": "Bangalore highlights, then drive to Mysore.",
+        "suggestedActivities": [
+          "Bangalore Palace or Lalbagh",
+          "Drive to Mysore",
+          "Mysore Palace"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Mysore to Ooty",
+        "meals": "Breakfast",
+        "description": "Mysore sights, then up to the Nilgiri hills.",
+        "suggestedActivities": [
+          "Chamundi Hill",
+          "Drive via Bandipur",
+          "Evening in Ooty"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Ooty & Toy Train",
+        "meals": "Breakfast",
+        "description": "Ooty sightseeing and the toy train.",
+        "suggestedActivities": [
+          "Nilgiri toy train ride",
+          "Botanical Gardens",
+          "Ooty Lake",
+          "Doddabetta Peak"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Ooty to Munnar",
+        "meals": "Breakfast",
+        "description": "Cross into Kerala and the tea hills of Munnar.",
+        "suggestedActivities": [
+          "Scenic descent",
+          "Drive to Munnar",
+          "Tea estate stops",
+          "Evening in Munnar"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Munnar Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day in the tea country.",
+        "suggestedActivities": [
+          "Tea plantation and museum",
+          "Mattupetty Dam and Echo Point",
+          "Hill viewpoints"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Munnar to Alleppey Houseboat",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "Descend to the backwaters and board your private houseboat.",
+        "suggestedActivities": [
+          "Drive to Alleppey",
+          "Board houseboat",
+          "Backwater cruise with onboard meals"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Backwaters to Kochi",
+        "meals": "Breakfast",
+        "description": "Morning cruise, then to Fort Kochi.",
+        "suggestedActivities": [
+          "Morning cruise",
+          "Disembark",
+          "Fort Kochi heritage walk",
+          "Chinese fishing nets"
+        ]
+      },
+      {
+        "day": 9,
+        "title": "Depart Kochi",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to Cochin airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1998 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1948 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1898 per person"
+          }
+        ],
+        "fromPrice": "RM1998"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2398 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2358 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2318 per person"
+          }
+        ],
+        "fromPrice": "RM2398",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2998 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2968 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2938 per person"
+          }
+        ],
+        "fromPrice": "RM2998"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The Whole South, One Grand Loop",
+    "body": "Linking Karnataka, the Nilgiris and Kerala takes careful routing to avoid backtracking. We sequence the cities, hills and backwaters so the journey flows beautifully. Dhesu has run South India tours since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Best of South India Tour from Malaysia",
+        "body": "This 9 day grand tour is the most complete South India journey we offer, spanning Karnataka, the Nilgiris and Kerala. It captures cities, palaces, hill stations, the famous toy train and the Kerala backwaters in one smooth loop.\n\nA private vehicle and driver guide make the long, varied journey relaxed and flexible, with dramatically changing scenery from day to day.\n\nIt is ideal for travellers who want to experience the full diversity of the south in a single trip."
+      },
+      {
+        "heading": "From Karnataka to Kerala",
+        "body": "The beauty of this tour is its variety. You begin in Karnataka with Bangalore's gardens and Mysore's palace, climb into the Nilgiri hills of Ooty, then cross into Kerala for Munnar's tea estates and the backwaters.\n\nThe transitions, from city to palace to hill station to backwater, give a real sense of the south's range, all linked by a comfortable private vehicle."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Bangalore and Cochin Airports (BLR / COK). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for this 9 day tour?",
+        "answer": "October to March offers pleasant weather across all the regions. The hill stations of Ooty and Munnar are cool year-round. The monsoon brings lush scenery but can affect hill roads and the toy train schedule."
+      },
+      {
+        "question": "Does the trip start and end in different cities?",
+        "answer": "It typically begins in Bangalore and ends in Kochi, both of which have airports. We arrange flights and transfers to suit. This avoids backtracking and makes the loop efficient. Let us know your preferred routing when booking."
+      },
+      {
+        "question": "Are the toy train and houseboat both included?",
+        "answer": "Yes. The package includes a ride on the Nilgiri toy train and an overnight private houseboat on the Kerala backwaters, two of the most memorable experiences in South India."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-7d-south-india-discover",
+      "name": "7 Days Discover South India",
+      "price": "From RM1,668",
+      "duration": "7D6N",
+      "slug": "south-india/7-day-discover",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-5d-bangalore-mysore-ooty",
+      "name": "5 Days Bangalore, Mysore & Ooty",
+      "price": "From RM1,088",
+      "duration": "5D4N",
+      "slug": "south-india/5-day-bangalore-mysore-ooty",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-8d-kerala-munnar-thekkady",
+      "name": "8 Days Best of Kerala: Munnar & Thekkady",
+      "price": "From RM2,398",
+      "duration": "8D7N",
+      "slug": "kerala/8-day-best-of",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the best of South India?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "9 Days Best of South India Tour from Malaysia",
+    "description": "9-day South India grand tour with Bangalore, Mysore, Ooty toy train, Munnar tea hills and Kerala backwaters houseboat. From RM1998 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/south-india/9-day-best-of",
+    "startLocation": "Kempegowda International Airport",
+    "endLocation": "Cochin International Airport",
+    "duration": "P9D",
+    "offers": {
+      "price": "1998",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

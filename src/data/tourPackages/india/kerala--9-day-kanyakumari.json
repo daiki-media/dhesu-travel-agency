@@ -1,0 +1,405 @@
+{
+  "meta": {
+    "title": "9 Days Kerala + Kanyakumari from Malaysia | Dhesu Travel & Tours",
+    "description": "9-day tour of Kerala backwaters, Munnar and Kanyakumari at India's southern tip, private vehicle and guide. From RM2788 per person.",
+    "keywords": "9 Days Kerala + Kanyakumari from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
+    "slug": "kerala/9-day-kanyakumari",
+    "canonicalUrl": "/tours/india/kerala/9-day-kanyakumari",
+    "ogImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "pkgid": "2458"
+  },
+  "hero": {
+    "badge": "Kerala",
+    "title": "9 Days, Kerala to Land's End.",
+    "titleAccent": "The Backwaters and the Southern Tip of India.",
+    "intro": "Travel the length of Kerala and on to Kanyakumari, the very tip of the Indian subcontinent, where three seas meet and you can watch the sun rise and set over the ocean from the same spot.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "9 Days Kerala + Kanyakumari",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Kanyakumari southern tip of India sunset"
+  },
+  "quickFacts": {
+    "duration": "9 Days / 8 Nights",
+    "startingPrice": "From RM2,788",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM3,346",
+    "saving": "Save RM1,115 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Houseboat Stay (8 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Overnight Houseboat Cruise"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "9 Days Kerala + Kanyakumari: The Full Picture",
+    "body": [
+      "Kanyakumari, at the southernmost tip of mainland India, is where the Arabian Sea, the Bay of Bengal and the Indian Ocean meet. It is a place of pilgrimage and pilgrimage-worthy sunsets, home to the Vivekananda Rock Memorial and the towering Thiruvalluvar statue rising from the sea.",
+      "This 9 day package from Malaysia travels the length of Kerala, taking in Kochi, Munnar, the backwaters and the coast, before reaching Kanyakumari at land's end. Arranged privately with your own vehicle and driver guide, it is a journey from God's Own Country to the edge of the subcontinent."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Kanyakumari: Where Three Seas Meet",
+        "body": "The southern tip of India, where you can watch sunrise and sunset over the ocean. The Vivekananda Rock Memorial and the Thiruvalluvar statue rise dramatically from the sea offshore.",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "imageAlt": "Kanyakumari Vivekananda Rock Memorial"
+      },
+      {
+        "title": "Kerala Backwaters & Tea Hills",
+        "body": "The journey south includes the classic Kerala experiences: Munnar's tea hills and an overnight houseboat on the backwaters.",
+        "image": "/images/gallery/12929.jpg",
+        "imageAlt": "Kerala backwaters and tea hills"
+      },
+      {
+        "title": "Temple Coast & Padmanabhapuram",
+        "body": "The route takes in the temple-rich coast around Trivandrum, including the magnificent Padmanabhaswamy Temple and the wooden palace of Padmanabhapuram.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Padmanabhaswamy Temple Trivandrum"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 9 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kochi",
+        "meals": "No meals",
+        "description": "Met at Cochin airport and transferred to your hotel. Evening at the fishing nets.",
+        "suggestedActivities": [
+          "Sunset fishing nets",
+          "Fort Kochi walk",
+          "Seafood dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kochi to Munnar",
+        "meals": "Breakfast",
+        "description": "Scenic drive to the tea hills.",
+        "suggestedActivities": [
+          "Drive to Munnar",
+          "Tea plantation stops",
+          "Evening in the hills"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Munnar Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day among the tea estates and viewpoints.",
+        "suggestedActivities": [
+          "Tea plantation and museum",
+          "Mattupetty Dam and Echo Point",
+          "Hill viewpoints"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Munnar to Alleppey Houseboat",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "Descend to the backwaters and board your private houseboat.",
+        "suggestedActivities": [
+          "Drive to Alleppey",
+          "Board houseboat",
+          "Backwater cruise with onboard meals"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Alleppey to Trivandrum",
+        "meals": "Breakfast",
+        "description": "Disembark and drive south to Trivandrum, Kerala's capital.",
+        "suggestedActivities": [
+          "Morning cruise",
+          "Drive to Trivandrum",
+          "Padmanabhaswamy Temple"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Trivandrum to Kanyakumari",
+        "meals": "Breakfast",
+        "description": "Drive to Kanyakumari at the southern tip, via Padmanabhapuram Palace.",
+        "suggestedActivities": [
+          "Padmanabhapuram Palace",
+          "Drive to Kanyakumari",
+          "Sunset over the sea"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Kanyakumari Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day at land's end.",
+        "suggestedActivities": [
+          "Sunrise over the ocean",
+          "Vivekananda Rock Memorial",
+          "Thiruvalluvar Statue",
+          "Kanyakumari Temple"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Kanyakumari to Trivandrum, Beach",
+        "meals": "Breakfast",
+        "description": "Return towards Trivandrum with a beach stop at Kovalam.",
+        "suggestedActivities": [
+          "Drive to Kovalam",
+          "Beach time",
+          "Evening at leisure"
+        ]
+      },
+      {
+        "day": 9,
+        "title": "Depart Trivandrum",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to Trivandrum airport for your onward flight.",
+        "suggestedActivities": [
+          "Final beach morning",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2788 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2738 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2688 per person"
+          }
+        ],
+        "fromPrice": "RM2788"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM3188 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM3148 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM3108 per person"
+          }
+        ],
+        "fromPrice": "RM3188",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury houseboat or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM3988 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM3958 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM3928 per person"
+          }
+        ],
+        "fromPrice": "RM3988"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Kerala to Land's End, Seamlessly Routed",
+    "body": "A journey this long, from Kochi to the tip of India, needs careful planning to flow well. We route it so each leg builds on the last. Dhesu has arranged South India journeys for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Kerala & Kanyakumari Tour from Malaysia",
+        "body": "This 9 day journey combines the best of Kerala with a trip to Kanyakumari, the southern tip of India. It is ideal for travellers who want to go beyond the usual Kerala loop and reach the dramatic meeting point of three seas.\n\nThe route takes in Munnar, the backwaters, the temple coast and Kanyakumari's iconic sunrise and sunset, all linked by a private vehicle and driver guide.\n\nKanyakumari adds a sense of pilgrimage and arrival, standing at the very edge of the subcontinent."
+      },
+      {
+        "heading": "What to See in Kanyakumari",
+        "body": "Kanyakumari is famous for its ocean sunrises and sunsets, visible from the same shore. Offshore, the Vivekananda Rock Memorial and the 41-metre Thiruvalluvar statue rise from the sea, reached by ferry.\n\nThe Kanyakumari Amman Temple and the meeting of the three seas give the town its spiritual significance. It is a fitting, dramatic end to a journey through the south."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Cochin or Trivandrum Airport (COK / TRV). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "Can you really see sunrise and sunset over the sea at Kanyakumari?",
+        "answer": "Yes. Because it sits at the southern tip where three seas meet, Kanyakumari is one of the few places in India where you can watch both sunrise and sunset over the ocean from the same area, weather permitting."
+      },
+      {
+        "question": "What is the best time for this trip?",
+        "answer": "September to March offers the most pleasant weather across Kerala and the southern coast. The monsoon brings heavy rain. The cool, dry season is best for the hills, backwaters and the Kanyakumari coast alike."
+      },
+      {
+        "question": "How much driving is involved over 9 days?",
+        "answer": "This is a journey down the length of Kerala and into Tamil Nadu, so there are several scenic drives. The nine-day pace keeps each day comfortable, and the private vehicle makes the longer legs relaxing with stops along the way."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-8d-kerala-complete",
+      "name": "8 Days Complete Kerala Circuit",
+      "price": "From RM2,398",
+      "duration": "8D7N",
+      "slug": "kerala/8-day-complete-circuit",
+      "image": "/images/gallery/12929.jpg"
+    },
+    {
+      "id": "india-8d-kerala-munnar-thekkady",
+      "name": "8 Days Best of Kerala: Munnar & Thekkady",
+      "price": "From RM2,398",
+      "duration": "8D7N",
+      "slug": "kerala/8-day-best-of",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-9d-best-south-india",
+      "name": "9 Days Best of South India",
+      "price": "From RM1,998",
+      "duration": "9D8N",
+      "slug": "south-india/9-day-best-of",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Kerala and Kanyakumari?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "9 Days Kerala Kanyakumari Tour from Malaysia",
+    "description": "9-day tour of Kerala backwaters, Munnar and Kanyakumari at India's southern tip, private vehicle and guide. From RM2788 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kerala/9-day-kanyakumari",
+    "startLocation": "Cochin International Airport",
+    "endLocation": "Trivandrum International Airport",
+    "duration": "P9D",
+    "offers": {
+      "price": "2788",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

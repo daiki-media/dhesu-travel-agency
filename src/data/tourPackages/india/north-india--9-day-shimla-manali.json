@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "title": "9 Days Shimla & Manali from Malaysia | Dhesu Travel & Tours",
+    "description": "9-day Himachal hills tour with Shimla, Manali, Solang Valley, Kullu and high passes, private vehicle and guide. From RM2188 per person.",
+    "keywords": "9 Days Shimla & Manali from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/9-day-shimla-manali",
+    "canonicalUrl": "/tours/india/north-india/9-day-shimla-manali",
+    "ogImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "pkgid": "658"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "9 Days, Shimla & Manali.",
+    "titleAccent": "The Best of the Himachal Hills.",
+    "intro": "A full nine days in the Himalayan foothills. The colonial charm of Shimla, the snow peaks and adventures of Manali, the Kullu Valley and the high passes. The complete Himachal hill experience, unhurried.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "9 Days Shimla & Manali",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Shimla and Manali Himachal hill stations"
+  },
+  "quickFacts": {
+    "duration": "9 Days / 8 Nights",
+    "startingPrice": "From RM2,188",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,626",
+    "saving": "Save RM875 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (8 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Toy Train & Solang Valley"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "9 Days Shimla & Manali: The Full Picture",
+    "body": [
+      "This 9 day tour covers the two great hill stations of Himachal Pradesh in depth. Shimla, the colonial queen of hill stations, and Manali, the snow-peaked adventure town on the Beas river, with the Kullu Valley, high passes and the famous toy train along the way.",
+      "Arranged privately from Malaysia, the trip is for travellers who want the Himachal hills without rushing. Your own vehicle and driver guide link the colonial Mall Road of Shimla, the Solang Valley and Rohtang adventures of Manali, and the scenic valleys between, at a relaxed pace through cool mountain air."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Shimla's Colonial Charm",
+        "body": "The Mall Road, the Ridge, Christ Church and the mock-Tudor heritage of the former summer capital of British India, plus the scenic Kalka-Shimla toy train.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Shimla Mall Road colonial heritage"
+      },
+      {
+        "title": "Manali's Snow & Adventure",
+        "body": "Solang Valley, the Rohtang Pass and Atal Tunnel, hot springs and the Beas river, the snow-peaked heart of Himachal adventure.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Manali Solang Valley snow"
+      },
+      {
+        "title": "Kullu Valley & High Passes",
+        "body": "The apple orchards and shawl weavers of the Kullu Valley, the dramatic mountain drives, and the high-altitude landscapes between the two hill stations.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Kullu Valley Himachal"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 9 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Chandigarh",
+        "meals": "No meals",
+        "description": "Met at Chandigarh airport and transferred to your hotel.",
+        "suggestedActivities": [
+          "Sukhna Lake",
+          "Sector 17 market",
+          "Settle in"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Chandigarh to Shimla",
+        "meals": "Breakfast",
+        "description": "Drive or toy train up to Shimla.",
+        "suggestedActivities": [
+          "Rock Garden Chandigarh",
+          "Drive or toy train to Shimla",
+          "Evening on the Mall Road"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Shimla Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day in and around Shimla.",
+        "suggestedActivities": [
+          "The Ridge and Christ Church",
+          "Jakhoo Temple",
+          "Viceregal Lodge",
+          "Kufri excursion"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Shimla to Manali",
+        "meals": "Breakfast",
+        "description": "Scenic drive to Manali via the Kullu Valley.",
+        "suggestedActivities": [
+          "Drive via Kullu Valley",
+          "Pandoh Dam viewpoint",
+          "Evening in Manali"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Manali Local Sightseeing",
+        "meals": "Breakfast",
+        "description": "The old town, temples and hot springs.",
+        "suggestedActivities": [
+          "Hadimba Devi Temple",
+          "Manu Temple",
+          "Vashisht hot springs",
+          "Old Manali"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Solang Valley",
+        "meals": "Breakfast",
+        "description": "A full day at Solang Valley.",
+        "suggestedActivities": [
+          "Solang Valley",
+          "Cable car or ropeway",
+          "Adventure activities (optional)",
+          "Mountain views"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Rohtang / Atal Tunnel",
+        "meals": "Breakfast",
+        "description": "A high-altitude excursion (season and permits permitting).",
+        "suggestedActivities": [
+          "Atal Tunnel",
+          "Rohtang area (seasonal)",
+          "Sissu valley",
+          "Snow point"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Kullu Valley & Leisure",
+        "meals": "Breakfast",
+        "description": "Kullu valley sights and activities.",
+        "suggestedActivities": [
+          "Kullu shawl factories",
+          "Beas river rafting (optional)",
+          "Naggar Castle",
+          "Shopping"
+        ]
+      },
+      {
+        "day": 9,
+        "title": "Depart",
+        "meals": "Breakfast",
+        "description": "Descend to Chandigarh for your onward flight.",
+        "suggestedActivities": [
+          "Scenic descent",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2188 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2138 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2088 per person"
+          }
+        ],
+        "fromPrice": "RM2188"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2588 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2548 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2508 per person"
+          }
+        ],
+        "fromPrice": "RM2588",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM3188 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM3158 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM3128 per person"
+          }
+        ],
+        "fromPrice": "RM3188"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The Himachal Hills, in Full",
+    "body": "Covering Shimla, Manali and the high passes over nine days takes good routing and an understanding of mountain roads and permits. We handle it all. Dhesu has run North India tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Shimla & Manali Tour from Malaysia",
+        "body": "This 9 day package is the most complete Himachal hills tour we offer, covering both Shimla and Manali in depth, with the Kullu Valley and high passes between.\n\nA private vehicle and driver guide handle the mountain roads, the toy train and the high-altitude permits, so you can focus on the scenery and the cool mountain air.\n\nFor a combination with the Golden Triangle, see our 10 day Golden Triangle plus Manali package."
+      },
+      {
+        "heading": "Why Nine Days for the Himachal Hills",
+        "body": "Shorter trips to Himachal have to choose between Shimla and Manali. Nine days lets you experience both properly, plus the scenic Kullu Valley and the dramatic high passes, without rushing.\n\nThe relaxed pace suits the mountains, leaving time for adventure activities, hot springs, and simply enjoying the views, the orchards and the pine forests."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Chandigarh or Kullu-Manali Airport (IXC / KUU). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for Shimla and Manali?",
+        "answer": "March to June is pleasant and popular, with lingering snow at high points. December to February brings full snow, beautiful but cold. The monsoon (July to September) can cause landslides. October to November offers crisp, clear mountain views."
+      },
+      {
+        "question": "Is the Rohtang Pass guaranteed?",
+        "answer": "No. Rohtang Pass is seasonal and requires permits, usually open from around May to October, weather permitting. The Atal Tunnel offers year-round access to the Lahaul valley. We arrange the best available high-altitude excursion for your dates."
+      },
+      {
+        "question": "How much driving is involved?",
+        "answer": "This is a mountain tour, so there are several scenic drives, including the journey between Shimla and Manali via the Kullu Valley. The nine-day pace keeps each day comfortable, and the drives themselves are part of the experience."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-6d-manali",
+      "name": "6 Days Manali",
+      "price": "From RM1,598",
+      "duration": "6D5N",
+      "slug": "north-india/6-day-manali",
+      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-5d-shimla-chandigarh",
+      "name": "5 Days Shimla & Chandigarh",
+      "price": "From RM1,288",
+      "duration": "5D4N",
+      "slug": "north-india/5-day-shimla-chandigarh",
+      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-10d-golden-triangle-manali",
+      "name": "10 Days Golden Triangle + Manali",
+      "price": "From RM2,988",
+      "duration": "10D9N",
+      "slug": "north-india/10-day-golden-triangle-manali",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the Himachal hills?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "9 Days Shimla Manali Tour from Malaysia",
+    "description": "9-day Himachal hills tour with Shimla, Manali, Solang Valley, Kullu and high passes, private vehicle and guide. From RM2188 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/9-day-shimla-manali",
+    "startLocation": "Chandigarh International Airport",
+    "endLocation": "Chandigarh International Airport",
+    "duration": "P9D",
+    "offers": {
+      "price": "2188",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

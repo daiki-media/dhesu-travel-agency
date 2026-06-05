@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "title": "9 Days Royal Rajasthan Desert Safari from Malaysia | Dhesu Travel & Tours",
+    "description": "9-day Rajasthan tour with Jaipur, Jodhpur, Jaisalmer camel safari and Udaipur lake palaces, private vehicle and desert camp. From RM3488 per person.",
+    "keywords": "9 Days Royal Rajasthan Desert Safari from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
+    "slug": "north-india/9-day-rajasthan-desert-safari",
+    "canonicalUrl": "/tours/india/north-india/9-day-rajasthan-desert-safari",
+    "ogImage": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+    "pkgid": "153"
+  },
+  "hero": {
+    "badge": "North India",
+    "title": "9 Days, Royal Rajasthan.",
+    "titleAccent": "Forts, Palaces, Lakes and the Thar Desert.",
+    "intro": "Rajasthan in all its glory. The Pink City of Jaipur, the blue lanes of Jodhpur, the lake palaces of Udaipur, and a camel safari into the golden Thar Desert at Jaisalmer. Nine days of forts, palaces and royal romance.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "9 Days Royal Rajasthan Desert Safari",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Rajasthan forts palaces and Thar desert camel safari"
+  },
+  "quickFacts": {
+    "duration": "9 Days / 8 Nights",
+    "startingPrice": "From RM3,488",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM4,186",
+    "saving": "Save RM1,395 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel & Desert Camp Stay (8 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Camel Safari & Desert Camp"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "9 Days Royal Rajasthan Desert Safari: The Full Picture",
+    "body": [
+      "Rajasthan is the land of kings, and this 9 day tour captures its full romance. From Jaipur's Pink City to the blue houses and mighty Mehrangarh Fort of Jodhpur, the serene lake palaces of Udaipur, and the golden sandstone city of Jaisalmer with its desert camel safari, it is a journey through India's most regal state.",
+      "Arranged privately from Malaysia, the trip links the great Rajput cities with your own vehicle and driver guide, and includes a night in a desert camp under the Thar's star-filled sky. Forts, palaces, lakes, bazaars and the desert combine into one of the most colourful and rewarding tours in India."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Forts & Palaces",
+        "body": "Jaipur's Amber Fort, Jodhpur's towering Mehrangarh, and Udaipur's romantic City Palace and lake palaces, the grandest of Rajput architecture.",
+        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "imageAlt": "Rajasthan forts and palaces"
+      },
+      {
+        "title": "Thar Desert Camel Safari",
+        "body": "A camel safari into the golden dunes near Jaisalmer, with a night in a desert camp under the stars, music and dance, the romance of the Thar.",
+        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "imageAlt": "Thar desert camel safari Jaisalmer"
+      },
+      {
+        "title": "Blue City & Lake City",
+        "body": "The blue-painted old town of Jodhpur and the serene lakes and palaces of Udaipur, two of the most beautiful cities in India.",
+        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "imageAlt": "Jodhpur blue city and Udaipur lakes"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 9 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Jaipur",
+        "meals": "No meals",
+        "description": "Met at Jaipur airport and transferred to your hotel.",
+        "suggestedActivities": [
+          "Settle in",
+          "Evening bazaar",
+          "Rajasthani thali"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Jaipur Sightseeing",
+        "meals": "Breakfast",
+        "description": "The forts and palaces of the Pink City.",
+        "suggestedActivities": [
+          "Amber Fort",
+          "City Palace and Jantar Mantar",
+          "Hawa Mahal",
+          "Johari Bazaar"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Jaipur to Jodhpur",
+        "meals": "Breakfast",
+        "description": "Drive to the Blue City of Jodhpur.",
+        "suggestedActivities": [
+          "Drive to Jodhpur",
+          "Evening at the clock tower market",
+          "Blue city views"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Jodhpur to Jaisalmer",
+        "meals": "Breakfast",
+        "description": "Mehrangarh Fort, then drive to Jaisalmer.",
+        "suggestedActivities": [
+          "Mehrangarh Fort",
+          "Jaswant Thada",
+          "Drive to Jaisalmer"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Jaisalmer & Desert Safari",
+        "meals": "Breakfast, Dinner",
+        "description": "The golden fort and a camel safari into the dunes with a desert camp night.",
+        "suggestedActivities": [
+          "Jaisalmer Fort",
+          "Patwon Ki Haveli",
+          "Sam sand dunes camel safari",
+          "Desert camp with music and dance"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Jaisalmer to Udaipur",
+        "meals": "Breakfast",
+        "description": "Long scenic drive towards the lake city of Udaipur.",
+        "suggestedActivities": [
+          "Drive to Udaipur",
+          "Ranakpur Jain temples (optional)",
+          "Evening lakeside"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Udaipur Sightseeing",
+        "meals": "Breakfast",
+        "description": "The City Palace, lakes and palaces of the most romantic city in Rajasthan.",
+        "suggestedActivities": [
+          "City Palace Udaipur",
+          "Lake Pichola boat ride",
+          "Jagdish Temple",
+          "Saheliyon Ki Bari"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Udaipur Leisure",
+        "meals": "Breakfast",
+        "description": "More of Udaipur, with crafts, viewpoints and leisure.",
+        "suggestedActivities": [
+          "Monsoon Palace sunset",
+          "Bagore Ki Haveli",
+          "Crafts and shopping",
+          "Lakeside dining"
+        ]
+      },
+      {
+        "day": 9,
+        "title": "Depart Udaipur",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to Udaipur airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + desert camp or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM3488 per person"
+          }
+        ],
+        "fromPrice": "RM3488"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star heritage hotels + camp or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM4088 per person"
+          }
+        ],
+        "fromPrice": "RM4088",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star palace hotels + luxury camp or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM5188 per person"
+          }
+        ],
+        "fromPrice": "RM5188"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Royal Rajasthan, the Way It Should Be",
+    "body": "Rajasthan's cities are far apart and rich in heritage, and the desert safari needs the right camp. We route the journey, choose characterful stays and handle the safari. Dhesu has run Rajasthan tours for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Royal Rajasthan Desert Safari Tour from Malaysia",
+        "body": "This 9 day tour captures the full romance of Rajasthan: the Pink City of Jaipur, the Blue City of Jodhpur, the golden desert city of Jaisalmer with its camel safari, and the lake city of Udaipur.\n\nA private vehicle and driver guide link the great Rajput cities, with characterful heritage stays and a night in a desert camp under the Thar's stars.\n\nIt is one of the most colourful and rewarding tours in India, ideal for lovers of history, architecture and romance."
+      },
+      {
+        "heading": "The Cities of Rajasthan",
+        "body": "Each Rajasthan city has its own character and colour. Jaipur is the Pink City of forts and bazaars; Jodhpur the Blue City beneath the mighty Mehrangarh Fort; Jaisalmer the golden sandstone city at the edge of the Thar Desert; and Udaipur the white lake city, the most romantic of all.\n\nTogether with a desert camel safari, they make a journey through India's most regal and photogenic state."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Jaipur and Udaipur Airports (JAI / UDR). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for a Rajasthan tour?",
+        "answer": "October to March is ideal, with pleasant days and cool nights, perfect for forts and the desert. April to June is extremely hot, often above 40 degrees. The desert is especially beautiful in the cooler winter months."
+      },
+      {
+        "question": "Is the desert camp comfortable?",
+        "answer": "Yes. Desert camps near Jaisalmer range from comfortable tents to luxury options, with attached bathrooms, dining, and evening entertainment of Rajasthani music and dance. The night under the Thar's stars is a highlight for most travellers."
+      },
+      {
+        "question": "How much driving is involved?",
+        "answer": "Rajasthan's cities are spread out, so there are some long, scenic drives, notably Jaisalmer to Udaipur. The nine-day pace keeps each day manageable, and the private vehicle makes the longer legs comfortable with stops along the way."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-4d-jaipur-super-saver",
+      "name": "4 Days Jaipur Super Saver",
+      "price": "From RM698",
+      "duration": "4D3N",
+      "slug": "north-india/4-day-jaipur",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-5d-golden-triangle",
+      "name": "5 Days Delhi Agra Jaipur + Taj Mahal",
+      "price": "From RM1,388",
+      "duration": "5D4N",
+      "slug": "north-india/5-day-golden-triangle",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-golden-triangle-7day",
+      "name": "7 Days Golden Triangle: A Perfect Blend",
+      "price": "From RM2,388",
+      "duration": "7D6N",
+      "slug": "north-india/7-day-golden-triangle-comfort",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for royal Rajasthan?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "9 Days Royal Rajasthan Desert Safari Tour from Malaysia",
+    "description": "9-day Rajasthan tour with Jaipur, Jodhpur, Jaisalmer camel safari and Udaipur lake palaces, private vehicle and desert camp. From RM3488 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/north-india/9-day-rajasthan-desert-safari",
+    "startLocation": "Jaipur International Airport",
+    "endLocation": "Udaipur Airport",
+    "duration": "P9D",
+    "offers": {
+      "price": "3488",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

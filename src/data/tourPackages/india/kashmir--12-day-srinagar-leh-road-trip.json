@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "title": "12 Days Srinagar to Leh Road Trip from Malaysia | Dhesu Travel & Tours",
+    "description": "12-day Srinagar to Leh Himalayan road trip with Pangong Lake, Nubra Valley, Ladakh monasteries and high passes. From RM5988 per person.",
+    "keywords": "12 Days Srinagar to Leh Road Trip from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
+    "slug": "kashmir/12-day-srinagar-leh-road-trip",
+    "canonicalUrl": "/tours/india/kashmir/12-day-srinagar-leh-road-trip",
+    "ogImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "pkgid": "2360"
+  },
+  "hero": {
+    "badge": "Kashmir",
+    "title": "12 Days, Srinagar to Leh.",
+    "titleAccent": "The Greatest Road Trip in the Himalayas.",
+    "intro": "One of the most spectacular journeys on earth. Drive from the green valley of Kashmir over high mountain passes to the moonscapes of Ladakh, taking in turquoise lakes, ancient monasteries and the roof of the world.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "12 Days Srinagar to Leh Road Trip",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "Srinagar to Leh Ladakh Himalayan road trip"
+  },
+  "quickFacts": {
+    "duration": "12 Days / 11 Nights",
+    "startingPrice": "From RM5,988",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM7,186",
+    "saving": "Save RM2,395 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel, Houseboat & Camp Stay (11 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Inner Line Permits Assistance"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (11-15 Days) RM85",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "12 Days Srinagar to Leh Road Trip: The Full Picture",
+    "body": [
+      "The Srinagar to Leh road trip is a journey through some of the most dramatic landscapes on the planet. You begin in the lush Kashmir valley, then climb over high passes into Ladakh, a high-altitude desert of stark mountains, turquoise lakes and centuries-old Buddhist monasteries. It is an adventure of a lifetime.",
+      "Arranged privately from Malaysia, this 12 day road trip covers Srinagar, Sonamarg, Kargil, the Lamayuru and Alchi monasteries, Leh, the Nubra Valley with its sand dunes and camels, and the unforgettable Pangong Lake. Your own vehicle and experienced driver guide handle the high mountain roads, with time to acclimatise to the altitude along the way."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Pangong Lake",
+        "body": "The astonishing high-altitude lake that shifts through shades of blue and turquoise, set against barren mountains at over 4,300 metres. One of the most beautiful sights in the Himalayas.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Pangong Lake Ladakh"
+      },
+      {
+        "title": "Ladakh's Monasteries",
+        "body": "Ancient Buddhist gompas like Thiksey, Hemis, Lamayuru and Alchi cling to the mountains, full of prayer flags, murals and chanting monks. The spiritual heart of Ladakh.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Ladakh Buddhist monastery"
+      },
+      {
+        "title": "Nubra Valley & High Passes",
+        "body": "Cross some of the world's highest motorable passes to reach the Nubra Valley, where sand dunes and double-humped Bactrian camels sit beneath snow peaks.",
+        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "imageAlt": "Nubra Valley Ladakh sand dunes"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 12 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar, Houseboat",
+        "meals": "No meals",
+        "description": "Met at Srinagar airport and transferred to your Dal Lake houseboat. Evening shikara ride.",
+        "suggestedActivities": [
+          "Check in to houseboat",
+          "Evening shikara ride",
+          "Sunset on Dal Lake"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Srinagar Sightseeing",
+        "meals": "Breakfast",
+        "description": "The Mughal gardens and old city.",
+        "suggestedActivities": [
+          "Shalimar Bagh and Nishat Bagh",
+          "Shankaracharya Temple",
+          "Handicraft shopping"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Srinagar to Kargil",
+        "meals": "Breakfast",
+        "description": "Drive over Zoji La pass via Sonamarg and Drass to Kargil.",
+        "suggestedActivities": [
+          "Sonamarg",
+          "Zoji La pass",
+          "Drass war memorial",
+          "Overnight Kargil"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Kargil to Leh",
+        "meals": "Breakfast",
+        "description": "Drive to Leh via the dramatic Lamayuru and Alchi monasteries.",
+        "suggestedActivities": [
+          "Lamayuru monastery and moonland",
+          "Alchi monastery",
+          "Magnetic Hill and Sangam",
+          "Overnight Leh"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Leh Acclimatisation & Local Sights",
+        "meals": "Breakfast",
+        "description": "A rest day to acclimatise to the altitude, with gentle local sightseeing.",
+        "suggestedActivities": [
+          "Leh Palace",
+          "Shanti Stupa",
+          "Local market",
+          "Rest and acclimatise"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Leh Monasteries",
+        "meals": "Breakfast",
+        "description": "The great monasteries of the Indus valley.",
+        "suggestedActivities": [
+          "Thiksey Monastery",
+          "Hemis Monastery",
+          "Shey Palace",
+          "Stok Palace"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Leh to Nubra Valley",
+        "meals": "Breakfast",
+        "description": "Cross Khardung La, one of the highest motorable passes, to the Nubra Valley.",
+        "suggestedActivities": [
+          "Khardung La pass",
+          "Diskit Monastery",
+          "Hunder sand dunes",
+          "Bactrian camel ride",
+          "Overnight Nubra"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Nubra to Pangong Lake",
+        "meals": "Breakfast",
+        "description": "Drive across to the spectacular Pangong Lake.",
+        "suggestedActivities": [
+          "Drive via Shyok valley",
+          "Pangong Lake",
+          "Lakeside camp overnight"
+        ]
+      },
+      {
+        "day": 9,
+        "title": "Pangong to Leh",
+        "meals": "Breakfast",
+        "description": "Sunrise at the lake, then return to Leh over Chang La pass.",
+        "suggestedActivities": [
+          "Pangong Lake sunrise",
+          "Chang La pass",
+          "Return to Leh",
+          "Rest"
+        ]
+      },
+      {
+        "day": 10,
+        "title": "Leh Leisure & Shopping",
+        "meals": "Breakfast",
+        "description": "A relaxed day in Leh for markets and any missed sights.",
+        "suggestedActivities": [
+          "Leh market shopping",
+          "Cafes and viewpoints",
+          "Optional monastery"
+        ]
+      },
+      {
+        "day": 11,
+        "title": "Leh Free Day",
+        "meals": "Breakfast",
+        "description": "A buffer day to relax or explore further, useful given the high altitude and mountain weather.",
+        "suggestedActivities": [
+          "Rest or optional excursion",
+          "Souvenir shopping",
+          "Final Ladakhi meal"
+        ]
+      },
+      {
+        "day": 12,
+        "title": "Depart Leh",
+        "meals": "Breakfast",
+        "description": "Checkout and transfer to Leh airport for your onward flight.",
+        "suggestedActivities": [
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels + houseboat + camps or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM5988 per person"
+          }
+        ],
+        "fromPrice": "RM5988"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels + premium options or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM6588 per person"
+          }
+        ],
+        "fromPrice": "RM6588",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels + luxury options or similar",
+        "pricing": [
+          {
+            "label": "Per person (twin sharing)",
+            "price": "RM7588 per person"
+          }
+        ],
+        "fromPrice": "RM7588"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The Himalayan Road Trip, Done Safely",
+    "body": "High passes, altitude and remote roads make Srinagar to Leh a trip that demands experience. We build in acclimatisation, use seasoned drivers, and assist with permits so the adventure stays safe. Dhesu has arranged Himalayan journeys for many years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Srinagar to Leh Road Trip from Malaysia",
+        "body": "This 12 day road trip is one of the great Himalayan adventures, crossing from the green Kashmir valley over high passes into the stark, beautiful high-altitude desert of Ladakh.\n\nThe route takes in Pangong Lake, the Nubra Valley, ancient monasteries and some of the highest motorable passes in the world. It is a journey for travellers seeking dramatic landscapes and a real sense of adventure.\n\nWe build in acclimatisation days and use experienced mountain drivers to keep the trip safe and comfortable."
+      },
+      {
+        "heading": "Altitude and the Best Time to Go",
+        "body": "Ladakh sits at very high altitude, with Leh around 3,500 metres and the passes far higher. Acclimatisation is essential, which is why this itinerary includes rest days, and we strongly advise taking the altitude seriously.\n\nThe Srinagar to Leh road is open roughly from June to September, when the passes are clear of snow. This is the only window for the full road trip, so book well ahead for these months."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Srinagar and Leh Airports (SXR / IXL). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "When is the Srinagar to Leh road open?",
+        "answer": "The road is generally open from June to September, when the high passes are clear of snow. Outside this window the route is closed by snow, so the full road trip can only run in these summer months. Book early for the best arrangements."
+      },
+      {
+        "question": "How serious is the altitude?",
+        "answer": "Very. Leh sits around 3,500 metres and the passes are much higher. Altitude sickness is a real risk, so this itinerary includes acclimatisation days. We advise consulting your doctor before travelling and taking the altitude seriously throughout."
+      },
+      {
+        "question": "Do I need permits for Ladakh?",
+        "answer": "Yes. Inner Line Permits are required for areas like Nubra Valley and Pangong Lake. We assist with arranging these as part of the package. You will need passport copies and photos, which we will request before your trip."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-7d-kashmir-exclusive",
+      "name": "7 Days Kashmir Exclusive Escape",
+      "price": "From RM3,288",
+      "duration": "7D6N",
+      "slug": "kashmir/7-day-exclusive-escape",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-ladakh",
+      "name": "7 Days Ladakh: Land of High Passes",
+      "price": "From RM3,888",
+      "duration": "7D6N",
+      "slug": "north-india/7-day-ladakh",
+      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-6d-kashmir-taj-mahal",
+      "name": "6 Days Best of Kashmir + Taj Mahal",
+      "price": "From RM3,118",
+      "duration": "6D5N",
+      "slug": "kashmir/6-day-best-of-kashmir-taj",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for the Himalayan road trip?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "12 Days Srinagar to Leh Road Trip from Malaysia",
+    "description": "12-day Srinagar to Leh Himalayan road trip with Pangong Lake, Nubra Valley, Ladakh monasteries and high passes. From RM5988 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/kashmir/12-day-srinagar-leh-road-trip",
+    "startLocation": "Sheikh ul-Alam International Airport",
+    "endLocation": "Kushok Bakula Rimpochee Airport Leh",
+    "duration": "P12D",
+    "offers": {
+      "price": "5988",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

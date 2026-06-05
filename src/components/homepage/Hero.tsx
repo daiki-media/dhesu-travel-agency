@@ -20,7 +20,7 @@ const slides = [
     title2: "Gem Destinations",
   },
   {
-    bg: "https://www.holidayidea.com.my/upload/gallery/140.jpg",
+    bg: "/images/gallery/140.jpg",
     subtitle: "Travel the world with us",
     title1: "Explore the",
     title2: "Beautiful World",

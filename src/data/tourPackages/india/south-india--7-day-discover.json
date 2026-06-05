@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "title": "7 Days Discover South India from Malaysia | Dhesu Travel & Tours",
+    "description": "7-day South India tour with Bangalore, Mysore Palace, Ooty Nilgiri hills, toy train and Coimbatore. From RM1668 per person.",
+    "keywords": "7 Days Discover South India from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
+    "slug": "south-india/7-day-discover",
+    "canonicalUrl": "/tours/india/south-india/7-day-discover",
+    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "pkgid": "470"
+  },
+  "hero": {
+    "badge": "South India",
+    "title": "7 Days, Discover the South.",
+    "titleAccent": "Cities, Palaces, Hills and Temples in One Loop.",
+    "intro": "A grand tour across the south. From Bangalore's gardens to Mysore's palace, the Nilgiri hills of Ooty and on into the temple country, this seven-day loop captures the variety that makes South India so rewarding.",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "7 Days Discover South India",
+        "href": null
+      }
+    ],
+    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImageAlt": "South India palaces hills and temples discovery tour"
+  },
+  "quickFacts": {
+    "duration": "7 Days / 6 Nights",
+    "startingPrice": "From RM1,668",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,002",
+    "saving": "Save RM667 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel Stay (6 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Nilgiri Toy Train Ride"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (6-10 Days) RM60",
+      "Entrance Fees (unless stated)",
+      "Lunches and dinners (unless stated)",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      {
+        "icon": "hotel",
+        "label": "Hotel"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "7 Days Discover South India: The Full Picture",
+    "body": [
+      "This 7 day discovery tour is designed for travellers who want the full sweep of South India in one trip. It combines the easygoing city of Bangalore, the royal grandeur of Mysore, the cool blue Nilgiri hills of Ooty with its famous toy train, and a taste of the region's temple heritage.",
+      "Arranged privately from Malaysia, the loop moves from urban to royal to mountain to sacred, with your own vehicle and driver guide. The constantly changing scenery and the relaxed pace make it one of the most enjoyable ways to discover the diversity of the south."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Mysore Palace",
+        "body": "The dazzling Amba Vilas Palace, one of India's grandest royal residences, especially magical when illuminated.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Mysore Palace illuminated"
+      },
+      {
+        "title": "Ooty & the Nilgiri Toy Train",
+        "body": "The cool blue hills of Ooty and a ride on the UNESCO-listed Nilgiri mountain railway through forests and tea gardens.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "Ooty Nilgiri toy train"
+      },
+      {
+        "title": "Gardens, Temples & Hill Country",
+        "body": "From Bangalore's gardens to South India's temples and the green hills between, the loop captures the region's full variety.",
+        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "imageAlt": "South India hill country and temples"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 7 Days Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Bangalore",
+        "meals": "No meals",
+        "description": "Met at Bangalore airport and transferred to your hotel. Evening at leisure.",
+        "suggestedActivities": [
+          "Settle in",
+          "MG Road",
+          "First South Indian meal"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Bangalore to Mysore",
+        "meals": "Breakfast",
+        "description": "Bangalore highlights, then drive to Mysore.",
+        "suggestedActivities": [
+          "Bangalore Palace or Lalbagh",
+          "Drive to Mysore",
+          "Mysore Palace",
+          "Evening illumination"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Mysore Sightseeing",
+        "meals": "Breakfast",
+        "description": "A full day exploring Mysore and surroundings.",
+        "suggestedActivities": [
+          "Chamundi Hill",
+          "St Philomena's Church",
+          "Brindavan Gardens",
+          "Local markets"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Mysore to Ooty",
+        "meals": "Breakfast",
+        "description": "Scenic drive up to the Nilgiri hills.",
+        "suggestedActivities": [
+          "Drive via Bandipur",
+          "Tea gardens en route",
+          "Evening in Ooty"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Ooty & Toy Train",
+        "meals": "Breakfast",
+        "description": "Ooty sights and the famous toy train.",
+        "suggestedActivities": [
+          "Nilgiri toy train ride",
+          "Botanical Gardens",
+          "Ooty Lake",
+          "Doddabetta Peak"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Ooty to Coimbatore",
+        "meals": "Breakfast",
+        "description": "Descend to Coimbatore with temple and viewpoint stops.",
+        "suggestedActivities": [
+          "Scenic descent",
+          "Marudhamalai Temple",
+          "Adiyogi statue (Isha)",
+          "Textile shopping"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Depart",
+        "meals": "Breakfast",
+        "description": "Transfer to Coimbatore airport for your onward flight.",
+        "suggestedActivities": [
+          "Last shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Centrally located hotels with easy access to the main sights. Pick the tier that suits your style.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1668 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1618 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1568 per person"
+          }
+        ],
+        "fromPrice": "RM1668"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM1968 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM1928 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM1888 per person"
+          }
+        ],
+        "fromPrice": "RM1968",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Value Stay",
+        "hotel": "5-star hotels or similar",
+        "pricing": [
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM2468 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM2438 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM2408 per person"
+          }
+        ],
+        "fromPrice": "RM2468"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The South, Discovered at the Right Pace",
+    "body": "Linking cities, palaces, hills and temples takes smart routing to avoid backtracking. We sequence the loop so the scenery flows and the toy train slots in. Dhesu has run South India tours since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through India e-Visa documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Flight delayed, your guide waits. Plans change, we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family or group lowers the per-person cost. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Discover South India Tour from Malaysia",
+        "body": "This 7 day loop is ideal for travellers who want the full variety of South India in one trip: cities, palaces, hill stations, the famous toy train and temple heritage.\n\nA private vehicle and driver guide make the journey relaxed and flexible, with constantly changing scenery from Bangalore to the Nilgiri hills.\n\nFor a temple-focused trip, see our Tamil Nadu tour; for an even wider loop, the 9 day Best of South India."
+      },
+      {
+        "heading": "Why a South India Discovery Loop",
+        "body": "South India offers remarkable variety in a compact area: the gardens and tech buzz of Bangalore, the royal splendour of Mysore, the cool Nilgiri hills of Ooty, and the temple heritage of the plains.\n\nThis loop ties them together so you experience the full range without long, repetitive journeys, with the UNESCO-listed Nilgiri toy train as a memorable highlight."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for India?",
+        "answer": "Yes. Malaysian passport holders apply for an India e-Visa online before departure. The tourist e-Visa covers tourism and short visits and is valid for 30 days from entry. The application is on the official India e-Visa portal, and Dhesu walks you through it when you book. Visa fees are not included in the package price."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package: hotels, transfers, tours and guide are included, but international flights are not. Most Malaysian travellers fly from Kuala Lumpur International Airport (KLIA) to Bangalore or Coimbatore Airport (BLR / CJB). We can recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time for this South India tour?",
+        "answer": "October to March offers pleasant weather across the cities, hills and plains. Ooty is cool year-round given its elevation. The monsoon brings lush scenery but can affect hill roads and train schedules."
+      },
+      {
+        "question": "Is the toy train included?",
+        "answer": "Yes, the package includes a ride on the famous Nilgiri toy train, a UNESCO World Heritage railway. Seats can be in demand, so we book ahead where possible and confirm the segment in your itinerary."
+      },
+      {
+        "question": "How is this different from the Tamil Nadu tour?",
+        "answer": "This discovery loop focuses on Karnataka and the Nilgiris (Bangalore, Mysore, Ooty) with hill scenery and palaces, while the Tamil Nadu tour focuses on the temple cities and coast. Both are seven days; we can advise which suits your interests."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "india-5d-bangalore-mysore-ooty",
+      "name": "5 Days Bangalore, Mysore & Ooty",
+      "price": "From RM1,088",
+      "duration": "5D4N",
+      "slug": "south-india/5-day-bangalore-mysore-ooty",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-9d-best-south-india",
+      "name": "9 Days Best of South India",
+      "price": "From RM1,998",
+      "duration": "9D8N",
+      "slug": "south-india/9-day-best-of",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "india-7d-tamil-nadu-tour",
+      "name": "7 Days Tamil Nadu Tour",
+      "price": "From RM1,598",
+      "duration": "7D6N",
+      "slug": "south-india/7-day-tamil-nadu-tour",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    }
+  ],
+  "cta": {
+    "heading": "Ready to discover the south?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "7 Days Discover South India Tour from Malaysia",
+    "description": "7-day South India tour with Bangalore, Mysore Palace, Ooty Nilgiri hills, toy train and Coimbatore. From RM1668 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.travel/tours/india/south-india/7-day-discover",
+    "startLocation": "Kempegowda International Airport",
+    "endLocation": "Coimbatore International Airport",
+    "duration": "P7D",
+    "offers": {
+      "price": "1668",
+      "priceCurrency": "MYR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}
