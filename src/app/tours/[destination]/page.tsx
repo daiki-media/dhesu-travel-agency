@@ -5,6 +5,7 @@ import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/homepage/Footer";
 import TourDestinationTemplate from "@/src/components/tours/TourDestinationTemplate";
 import { getTourPage, tourSlugs } from "@/src/data/tourPages";
+import { getIndiaRegionCards } from "@/src/data/india/regions";
 
 type PageProps = {
   params: Promise<{ destination: string }>;
@@ -46,11 +47,14 @@ export default async function TourDestinationPage({ params }: PageProps) {
     notFound();
   }
 
+  // India gets the region/theme index cards; other destinations render without them.
+  const regionCards = destination === "india" ? getIndiaRegionCards() : undefined;
+
   return (
     <>
       <TopBar />
       <Navbar />
-      <TourDestinationTemplate data={data} />
+      <TourDestinationTemplate data={data} regionCards={regionCards} />
       <Footer />
     </>
   );

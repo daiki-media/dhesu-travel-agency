@@ -4,26 +4,59 @@ import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/homepage/Footer";
 import TourPackageDetailTemplate from "@/src/components/tours/TourPackageDetailTemplate";
+import TourRegionTemplate from "@/src/components/tours/TourRegionTemplate";
 import packageDetails, { getPackageDetail } from "@/src/data/tourPackages";
+import { getTourPage } from "@/src/data/tourPages";
+import { getIndiaLandingPage, INDIA_LANDING_PAGES } from "@/src/data/india/regions";
 
 type PageProps = {
   params: Promise<{ destination: string; packageSlug: string[] }>;
 };
 
-// Pre-render every registered package detail page at build time.
-// The registry is keyed by package slug, so we derive the `destination`
-// segment from each package's canonical URL — keeps it correct as more
-// countries (bali, thailand, ...) are added to the registry.
+// Single-segment region/theme pages (e.g. /tours/india/kerala) live in the same
+// catch-all as the two-segment package detail pages.
+//
+// Pre-render every registered package detail page plus the India region/theme
+// landing pages at build time. Detail paths come from the package registry
+// (keyed by slug; destination is derived from each canonical URL). Region/theme
+// paths are single-segment under /tours/india.
 export function generateStaticParams() {
-  return Object.values(packageDetails).map((data) => {
+  const detailParams = Object.values(packageDetails).map((data) => {
     const path = data.meta.canonicalUrl.replace(/^\/+tours\/+/, "");
     const [destination, ...packageSlug] = path.split("/");
     return { destination, packageSlug };
   });
+
+  const landingParams = INDIA_LANDING_PAGES.map((page) => ({
+    destination: "india",
+    packageSlug: [page.key],
+  }));
+
+  return [...detailParams, ...landingParams];
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { destination, packageSlug } = await params;
+
+  // Single segment under India: a region or theme landing page.
+  if (destination === "india" && packageSlug.length === 1) {
+    const page = getIndiaLandingPage(packageSlug[0]);
+    if (page) {
+      return {
+        title: page.metaTitle,
+        description: page.metaDescription,
+        alternates: { canonical: page.canonicalUrl },
+        openGraph: {
+          title: page.ogTitle,
+          description: page.ogDescription,
+          url: page.canonicalUrl,
+          images: [{ url: page.ogImage }],
+          type: "website",
+        },
+      };
+    }
+  }
+
   const slug = packageSlug.join("/");
   const data = getPackageDetail(slug);
 
@@ -50,6 +83,76 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function TourPackageDetailPage({ params }: PageProps) {
   const { destination, packageSlug } = await params;
+
+  // ── Single segment under India: region or theme listing page ──
+  if (destination === "india" && packageSlug.length === 1) {
+    const page = getIndiaLandingPage(packageSlug[0]);
+    if (!page) {
+      notFound();
+    }
+
+    const india = getTourPage("india");
+    if (!india) {
+      notFound();
+    }
+
+    const packages = page.select(india.packages.items);
+
+    const breadcrumbJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "/" },
+        { "@type": "ListItem", position: 2, name: "India", item: "/tours/india" },
+        { "@type": "ListItem", position: 3, name: page.label, item: page.canonicalUrl },
+      ],
+    };
+
+    const collectionJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: page.h1,
+      description: page.metaDescription,
+      url: page.canonicalUrl,
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: packages.length,
+        itemListElement: packages.map((pkg, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: pkg.name,
+          url: `/tours/india/${pkg.slug}`,
+          ...(pkg.price ? { offers: { "@type": "Offer", price: pkg.price.replace(/[^\d.]/g, ""), priceCurrency: "MYR" } } : {}),
+        })),
+      },
+    };
+
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+        />
+        <TopBar />
+        <Navbar />
+        <TourRegionTemplate
+          label={page.label}
+          h1={page.h1}
+          intro={page.intro}
+          heroImage={page.ogImage}
+          packages={packages}
+          cta={india.cta}
+        />
+        <Footer />
+      </>
+    );
+  }
+
+  // ── Two or more segments: package detail page ──
   const slug = packageSlug.join("/");
   const data = getPackageDetail(slug);
 

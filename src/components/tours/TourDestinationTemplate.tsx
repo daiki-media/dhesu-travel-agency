@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Button from "@/src/components/Button";
+import ArrowRight from "@/src/components/icons/ArrowRight";
 import type {
   TourPageData,
   TourPackage,
@@ -82,7 +83,7 @@ export function PackageCard({
       </div>
 
       {/* Image */}
-      <div className="relative h-48 w-full overflow-hidden">
+      <div className="relative h-60 w-full overflow-hidden">
         <Image
           src={pkg.image}
           alt={pkg.name}
@@ -157,6 +158,13 @@ function ZoneCard({ area, index }: { area: TourZone; index: number }) {
       variants={fadeUp}
       className="group relative rounded-2xl overflow-hidden h-72 cursor-pointer"
     >
+      {area.href && (
+        <Link
+          href={area.href}
+          aria-label={`View ${area.name} packages`}
+          className="absolute inset-0 z-20"
+        />
+      )}
       <Image
         src={area.image}
         alt={area.name}
@@ -199,7 +207,7 @@ function HighlightCard({ item, index }: { item: TourHighlight; index: number }) 
       variants={fadeUp}
       className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300"
     >
-      <div className="relative h-52 overflow-hidden">
+      <div className="relative h-60 overflow-hidden">
         <Image
           src={item.image}
           alt={item.title}
@@ -227,7 +235,13 @@ function HighlightCard({ item, index }: { item: TourHighlight; index: number }) 
 }
 
 // ─── Reusable Destination Hub Template ─────────────────────────────────────────
-export default function TourDestinationTemplate({ data }: { data: TourPageData }) {
+export default function TourDestinationTemplate({
+  data,
+  regionCards,
+}: {
+  data: TourPageData;
+  regionCards?: { label: string; href: string; blurb: string; kind: "region" | "theme" }[];
+}) {
   const { meta, hero, why, zones, bestTime, tripLength, packages, whyBook, cta } = data;
 
   return (
@@ -379,6 +393,61 @@ export default function TourDestinationTemplate({ data }: { data: TourPageData }
               <ZoneCard key={area.name} area={area} index={i} />
             ))}
           </div>
+
+          {/* Full region & theme index — lightweight text cards, good for SEO and LCP */}
+          {regionCards && regionCards.length > 0 && (
+            <div className="mt-16 pt-14 border-t border-gray-200">
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeUp}
+                className="max-w-2xl mb-10"
+              >
+                <h3 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-3">
+                  Browse Every Region and Theme
+                </h3>
+                <p className="text-gray-500 leading-relaxed">
+                  Each part of India feels like a different country. Pick a region, or jump
+                  straight to the experiences India is famous for.
+                </p>
+              </motion.div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                {regionCards.map((card, i) => (
+                  <motion.div
+                    key={card.href}
+                    custom={i}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, margin: "-40px" }}
+                    variants={fadeUp}
+                  >
+                    <Link
+                      href={card.href}
+                      className="group flex h-full flex-col rounded-2xl border border-gray-200 bg-white p-6 hover:border-primary hover:shadow-md transition-all duration-300"
+                    >
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="text-[11px] font-semibold uppercase tracking-widest text-primary">
+                          {card.kind === "theme" ? "Theme" : "Region"}
+                        </span>
+                        <span className="text-gray-300 group-hover:text-primary transition-colors">
+                          <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
+                        </span>
+                      </div>
+                      <h4 className="font-primary font-bold text-[#1a1a1a] text-lg mb-1.5 group-hover:text-primary transition-colors">
+                        {card.label}
+                      </h4>
+                      <p className="text-gray-500 text-sm leading-relaxed">{card.blurb}</p>
+                      <span className="mt-4 text-sm font-semibold text-primary">
+                        View {card.label} packages
+                      </span>
+                    </Link>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </section>
 

@@ -64,7 +64,8 @@
         "tagColor": "orange",
         "description": "Delhi, Agra and Jaipur. Mughal monuments, royal palaces and the Taj Mahal. The classic first-timer route through the north.",
         "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop",
-        "vibe": "Iconic"
+        "vibe": "Iconic",
+        "href": "/tours/india/golden-triangle"
       },
       {
         "name": "Kashmir",
@@ -72,7 +73,8 @@
         "tagColor": "blue",
         "description": "Dal Lake houseboats, alpine meadows and snow in winter. The Himalayan north at its most beautiful, cool even in summer.",
         "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&auto=format&fit=crop",
-        "vibe": "Serene"
+        "vibe": "Serene",
+        "href": "/tours/india/kashmir"
       },
       {
         "name": "Kerala",
@@ -80,7 +82,8 @@
         "tagColor": "green",
         "description": "Houseboats, tea plantations and the slow green south between the Western Ghats and the Arabian Sea. Where the pace finally drops.",
         "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop",
-        "vibe": "Tranquil"
+        "vibe": "Tranquil",
+        "href": "/tours/india/kerala"
       },
       {
         "name": "Shimla & Manali",
@@ -88,7 +91,8 @@
         "tagColor": "purple",
         "description": "Colonial hill towns, the Shimla toy train and the high snow fields of the Rohtang Pass beyond Manali. Lower-Himalayan air and silence.",
         "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=800&auto=format&fit=crop",
-        "vibe": "Cool"
+        "vibe": "Cool",
+        "href": "/tours/india/north-india"
       }
     ]
   },

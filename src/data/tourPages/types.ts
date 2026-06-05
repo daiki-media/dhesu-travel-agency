@@ -23,6 +23,8 @@ export interface TourZone {
   description: string;
   image: string;
   vibe: string;
+  /** Optional link to a matching region/theme landing page. */
+  href?: string;
 }
 
 export interface TourSeason {
