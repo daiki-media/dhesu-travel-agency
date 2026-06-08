@@ -5,7 +5,7 @@
     "keywords": "6 Days Beautiful Kerala + Backwaters Overnight Cruise from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
     "slug": "kerala/6-day-backwaters-overnight",
     "canonicalUrl": "/tours/india/kerala/6-day-backwaters-overnight",
-    "ogImage": "/images/gallery/12929.jpg",
+    "ogImage": "/images/gallery/16324.jpg",
     "pkgid": "173"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "/images/gallery/12929.jpg",
+    "heroImage": "/images/gallery/16324.jpg",
     "heroImageAlt": "Kerala backwaters sunset cruise"
   },
   "quickFacts": {
@@ -103,13 +103,13 @@
       {
         "title": "Munnar Tea Hills",
         "body": "Cool mountain air, rolling tea estates, waterfalls and viewpoints. Munnar is the green, misty heart of Kerala's hill country.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11150.jpg",
         "imageAlt": "Munnar tea hills"
       },
       {
         "title": "Time to Relax",
         "body": "The extra day means you can slow down, enjoy an Ayurvedic massage, linger over Kerala meals, or simply soak up the scenery without watching the clock.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11151.jpg",
         "imageAlt": "Kerala relaxation Ayurveda"
       }
     ]
@@ -326,7 +326,7 @@
       "price": "From RM1,488",
       "duration": "5D4N",
       "slug": "kerala/5-day-most-important-places",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11171.jpg"
     },
     {
       "id": "india-6d-kerala-thekkady",
@@ -334,7 +334,7 @@
       "price": "From RM1,928",
       "duration": "6D5N",
       "slug": "kerala/6-day-beautiful-thekkady",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11123.jpg"
     },
     {
       "id": "india-8d-kerala-complete",
@@ -352,7 +352,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/12929.jpg"
+    "bgImage": "/images/gallery/11148.jpg"
   },
   "schema": {
     "type": "TouristTrip",

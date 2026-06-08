@@ -5,7 +5,7 @@
     "keywords": "7 Days Ladakh: Land of High Passes from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/7-day-ladakh",
     "canonicalUrl": "/tours/india/north-india/7-day-ladakh",
-    "ogImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11728.jpg",
     "pkgid": "500"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11728.jpg",
     "heroImageAlt": "Ladakh Leh monasteries Pangong Lake high passes"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Pangong Lake",
         "body": "The astonishing high-altitude lake that shifts through shades of blue and turquoise, set against barren mountains at over 4,300 metres. One of the most beautiful sights in the Himalayas.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11726.jpg",
         "imageAlt": "Pangong Lake Ladakh"
       },
       {
         "title": "Ladakh's Monasteries",
         "body": "Ancient Buddhist gompas like Thiksey, Hemis and Diskit cling to the mountains, full of prayer flags, murals and chanting monks, the spiritual heart of Ladakh.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11727.jpg",
         "imageAlt": "Thiksey monastery Ladakh"
       },
       {
         "title": "Nubra Valley & Khardung La",
         "body": "Cross one of the world's highest motorable passes to reach the Nubra Valley, where sand dunes and double-humped Bactrian camels sit beneath snow peaks.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11728.jpg",
         "imageAlt": "Nubra Valley Ladakh camels"
       }
     ]
@@ -316,7 +316,7 @@
       "price": "From RM5,988",
       "duration": "12D11N",
       "slug": "kashmir/12-day-srinagar-leh-road-trip",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14627.jpg"
     },
     {
       "id": "india-7d-sikkim",
@@ -324,7 +324,7 @@
       "price": "From RM4,088",
       "duration": "7D6N",
       "slug": "north-india/7-day-sikkim",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12223.jpg"
     },
     {
       "id": "india-6d-manali",
@@ -332,7 +332,7 @@
       "price": "From RM1,598",
       "duration": "6D5N",
       "slug": "north-india/6-day-manali",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11669.jpg"
     }
   ],
   "cta": {
@@ -342,7 +342,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11725.jpg"
   },
   "schema": {
     "type": "TouristTrip",

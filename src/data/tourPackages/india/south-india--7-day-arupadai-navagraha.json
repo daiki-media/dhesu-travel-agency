@@ -5,7 +5,7 @@
     "keywords": "7 Days Arupadai Veedu + Navagraha from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
     "slug": "south-india/7-day-arupadai-navagraha",
     "canonicalUrl": "/tours/india/south-india/7-day-arupadai-navagraha",
-    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11220.jpg",
     "pkgid": "2283"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11220.jpg",
     "heroImageAlt": "Tamil Nadu Murugan and Navagraha temples pilgrimage"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "The Six Abodes of Murugan",
         "body": "Palani, Swamimalai, Thiruchendur, Thirupparamkundram, Pazhamudircholai and Thiruthani, the sacred Arupadai Veedu of Lord Murugan.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14160.jpg",
         "imageAlt": "Murugan abodes Tamil Nadu"
       },
       {
         "title": "The Nine Planetary Temples",
         "body": "The Navagraha temples around Kumbakonam, each dedicated to a celestial body, visited to seek balance and blessings according to one's birth chart.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14160.jpg",
         "imageAlt": "Navagraha planetary temples"
       },
       {
         "title": "The Sacred Cauvery Delta",
         "body": "The fertile temple belt around Kumbakonam and Thanjavur, dense with ancient Chola shrines and rich tradition, forms the heart of the journey.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14160.jpg",
         "imageAlt": "Cauvery delta temple region"
       }
     ]
@@ -338,7 +338,7 @@
       "price": "From RM1,538",
       "duration": "6D5N",
       "slug": "south-india/6-day-arupadai-veedu-temples",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14157.jpg"
     },
     {
       "id": "india-4d-navagraha-temples",
@@ -346,7 +346,7 @@
       "price": "From RM988",
       "duration": "4D3N",
       "slug": "south-india/4-day-navagraha-temples",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16259.jpg"
     },
     {
       "id": "india-7d-tamil-nadu-tour",
@@ -354,7 +354,7 @@
       "price": "From RM1,598",
       "duration": "7D6N",
       "slug": "south-india/7-day-tamil-nadu-tour",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14158.jpg"
     }
   ],
   "cta": {
@@ -364,7 +364,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/14160.jpg"
   },
   "schema": {
     "type": "TouristTrip",

@@ -5,7 +5,7 @@
     "keywords": "5 Days Cochin, Alleppey & Coimbatore from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
     "slug": "kerala/5-day-cochin-alleppey-coimbatore",
     "canonicalUrl": "/tours/india/kerala/5-day-cochin-alleppey-coimbatore",
-    "ogImage": "/images/gallery/12929.jpg",
+    "ogImage": "/images/gallery/11199.jpg",
     "pkgid": "2459"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "/images/gallery/12929.jpg",
+    "heroImage": "/images/gallery/11199.jpg",
     "heroImageAlt": "Kerala backwaters and Western Ghats"
   },
   "quickFacts": {
@@ -103,13 +103,13 @@
       {
         "title": "Fort Kochi Heritage",
         "body": "The old harbour quarter's Chinese fishing nets, colonial churches and spice markets make a characterful start to the trip.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16326.jpg",
         "imageAlt": "Fort Kochi heritage"
       },
       {
         "title": "Coimbatore & the Western Ghats",
         "body": "Coimbatore, the gateway to the Nilgiri hills, offers temples, textile heritage and the cool green edge of the Western Ghats.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16327.jpg",
         "imageAlt": "Coimbatore Western Ghats"
       }
     ]
@@ -324,7 +324,7 @@
       "price": "From RM1,928",
       "duration": "6D5N",
       "slug": "kerala/6-day-beautiful-thekkady",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11123.jpg"
     },
     {
       "id": "india-8d-kerala-munnar-thekkady",
@@ -332,7 +332,7 @@
       "price": "From RM2,398",
       "duration": "8D7N",
       "slug": "kerala/8-day-best-of",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11061.jpg"
     }
   ],
   "cta": {
@@ -342,7 +342,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/12929.jpg"
+    "bgImage": "/images/gallery/16324.jpg"
   },
   "schema": {
     "type": "TouristTrip",

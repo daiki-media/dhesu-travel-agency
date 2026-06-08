@@ -5,7 +5,7 @@
     "keywords": "4 Days: Exploring the Romance of the Taj Mahal from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/4-day-taj-mahal-agra",
     "canonicalUrl": "/tours/india/north-india/4-day-taj-mahal-agra",
-    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/12336.jpg",
     "pkgid": "103"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/12336.jpg",
     "heroImageAlt": "Taj Mahal Agra marble monument sunrise"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "The Taj Mahal at Sunrise",
         "body": "The marble shifts through soft pinks and golds as the sun rises behind the dome. Visiting early means the best light and fewer crowds, the most romantic way to experience this wonder.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12335.jpg",
         "imageAlt": "Taj Mahal at sunrise"
       },
       {
         "title": "Agra Fort",
         "body": "This vast red sandstone fortress was the seat of Mughal power and, later, the place where Shah Jahan spent his final years gazing at the Taj. Grand halls, marble palaces and river views.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12337.jpg",
         "imageAlt": "Agra Fort red sandstone"
       },
       {
         "title": "Fatehpur Sikri",
         "body": "The perfectly preserved ghost city of Akbar, abandoned soon after it was built. Its red sandstone palaces, courtyards and the soaring Buland Darwaza gateway are extraordinary.",
-        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12338.jpg",
         "imageAlt": "Fatehpur Sikri Buland Darwaza"
       }
     ]
@@ -280,7 +280,7 @@
       "price": "From RM1,388",
       "duration": "5D4N",
       "slug": "north-india/5-day-golden-triangle",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12296.jpg"
     },
     {
       "id": "india-4d-jaipur-super-saver",
@@ -288,7 +288,7 @@
       "price": "From RM698",
       "duration": "4D3N",
       "slug": "north-india/4-day-jaipur",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16336.jpg"
     },
     {
       "id": "india-7d-golden-triangle-7day",
@@ -296,7 +296,7 @@
       "price": "From RM2,388",
       "duration": "7D6N",
       "slug": "north-india/7-day-golden-triangle-comfort",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14633.jpg"
     }
   ],
   "cta": {
@@ -306,7 +306,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/12336.jpg"
   },
   "schema": {
     "type": "TouristTrip",

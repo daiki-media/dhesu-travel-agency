@@ -5,7 +5,7 @@
     "keywords": "3 Days Amritsar: Golden Temple & Punjabi Heritage from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/3-day-amritsar-golden-temple",
     "canonicalUrl": "/tours/india/north-india/3-day-amritsar-golden-temple",
-    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11723.jpg",
     "pkgid": "88"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11723.jpg",
     "heroImageAlt": "Golden Temple Amritsar at dawn reflected in the sacred pool"
   },
   "quickFacts": {
@@ -98,25 +98,25 @@
       {
         "title": "The Golden Temple at Dawn and After Dark",
         "body": "Harmandir Sahib is the heart of Amritsar. Go early for stillness, or after sunset when the gilded dome glows over the Amrit Sarovar. Walk the parikrama, listen to live kirtan, and if you wish, join the langar where a free meal is served to all.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11724.jpg",
         "imageAlt": "Golden Temple illuminated at night"
       },
       {
         "title": "The Wagah Border Ceremony",
         "body": "Every evening at the India-Pakistan border, soldiers perform a high-energy flag-lowering ritual. The stamping, the crowds, the patriotic songs. Theatrical and unforgettable. Your guide handles the timing for a good seat.",
-        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/131.jpg",
         "imageAlt": "Wagah border ceremony Amritsar"
       },
       {
         "title": "Jallianwala Bagh & the Old City",
         "body": "A short walk from the temple, Jallianwala Bagh remembers the 1919 massacre. A quiet, important place. Around it, narrow lanes hide some of Punjab's best food, from kulchas to lassi in heavy clay cups.",
-        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11723.jpg",
         "imageAlt": "Jallianwala Bagh memorial Amritsar"
       },
       {
         "title": "Punjabi Food You Will Not Forget",
         "body": "Amritsari kulcha, makki di roti with sarson da saag, butter-laden dal, and lassi thick enough to stand a spoon in. Your guide steers you to legendary local spots, not tourist traps.",
-        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11724.jpg",
         "imageAlt": "Punjabi food kulcha and lassi"
       }
     ]
@@ -314,7 +314,7 @@
       "price": "From RM1,388",
       "duration": "6D5N",
       "slug": "north-india/6-day-amritsar-dharamsala",
-      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11504.jpg"
     },
     {
       "id": "india-7d-golden-triangle-amritsar",
@@ -322,7 +322,7 @@
       "price": "From RM1,888",
       "duration": "7D6N",
       "slug": "north-india/7-day-golden-triangle-amritsar",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11621.jpg"
     },
     {
       "id": "india-3d-varanasi-sunrise-sunset",
@@ -330,7 +330,7 @@
       "price": "From RM698",
       "duration": "3D2N",
       "slug": "north-india/3-day-varanasi-ganga-aarti",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/13568.jpg"
     }
   ],
   "cta": {
@@ -340,7 +340,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11723.jpg"
   },
   "schema": {
     "type": "TouristTrip",

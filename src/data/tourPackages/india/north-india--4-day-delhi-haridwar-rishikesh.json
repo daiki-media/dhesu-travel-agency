@@ -5,7 +5,7 @@
     "keywords": "4 Days Delhi, Haridwar & Rishikesh from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/4-day-delhi-haridwar-rishikesh",
     "canonicalUrl": "/tours/india/north-india/4-day-delhi-haridwar-rishikesh",
-    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11718.jpg",
     "pkgid": "100"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11718.jpg",
     "heroImageAlt": "Ganga Aarti Haridwar evening ceremony"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Ganga Aarti at Har Ki Pauri",
         "body": "Each evening, Haridwar's main ghat erupts in light and sound as priests perform the Ganga Aarti and thousands of lamps drift down the river. One of North India's most moving spectacles.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11716.jpg",
         "imageAlt": "Ganga Aarti Har Ki Pauri Haridwar"
       },
       {
         "title": "Rishikesh: Yoga & the Ganges",
         "body": "Cross the iconic Laxman Jhula and Ram Jhula suspension bridges, visit riverside ashrams, and feel the calm that has drawn seekers (and the Beatles) for decades.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11717.jpg",
         "imageAlt": "Rishikesh suspension bridge Ganges"
       },
       {
         "title": "Ashrams, Temples & White Water",
         "body": "From peaceful temples and meditation centres to optional white-water rafting on the Ganges, Rishikesh balances the spiritual with the adventurous.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11718.jpg",
         "imageAlt": "Rishikesh ashram and river"
       }
     ]
@@ -280,7 +280,7 @@
       "price": "From RM698",
       "duration": "3D2N",
       "slug": "north-india/3-day-varanasi-ganga-aarti",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/13568.jpg"
     },
     {
       "id": "india-6d-sacred-triangle-varanasi-rishikesh",
@@ -288,7 +288,7 @@
       "price": "From RM2,488",
       "duration": "6D5N",
       "slug": "north-india/6-day-sacred-triangle",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/15540.jpg"
     },
     {
       "id": "india-11d-sacred-trails",
@@ -296,7 +296,7 @@
       "price": "From RM3,888",
       "duration": "11D10N",
       "slug": "north-india/11-day-sacred-trails",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/15212.jpg"
     }
   ],
   "cta": {
@@ -306,7 +306,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11715.jpg"
   },
   "schema": {
     "type": "TouristTrip",

@@ -5,7 +5,7 @@
     "keywords": "5 Days Bangalore, Mysore & Ooty Scenic Toy Train from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
     "slug": "south-india/5-day-bangalore-mysore-ooty",
     "canonicalUrl": "/tours/india/south-india/5-day-bangalore-mysore-ooty",
-    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11225.jpg",
     "pkgid": "64"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11225.jpg",
     "heroImageAlt": "Mysore Palace and Nilgiri toy train Ooty"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Mysore Palace",
         "body": "The dazzling Amba Vilas Palace, one of the grandest royal residences in India, especially magical when illuminated by nearly 100,000 bulbs on certain evenings.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11209.jpg",
         "imageAlt": "Mysore Palace illuminated"
       },
       {
         "title": "The Nilgiri Toy Train",
         "body": "The UNESCO-listed mountain railway climbs through forests and tea gardens into the Nilgiri hills, a slow, scenic ride that is a highlight of any South India trip.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11210.jpg",
         "imageAlt": "Nilgiri mountain toy train Ooty"
       },
       {
         "title": "Ooty's Blue Hills",
         "body": "Cool air, tea gardens, lakes and colonial charm in the queen of South Indian hill stations, a refreshing change from the plains.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11217.jpg",
         "imageAlt": "Ooty Nilgiri hills tea gardens"
       }
     ]
@@ -317,7 +317,7 @@
       "price": "From RM498",
       "duration": "3D2N",
       "slug": "south-india/3-day-bangalore-highlights",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16259.jpg"
     },
     {
       "id": "india-7d-south-india-discover",
@@ -325,7 +325,7 @@
       "price": "From RM1,668",
       "duration": "7D6N",
       "slug": "south-india/7-day-discover",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16259.jpg"
     },
     {
       "id": "india-9d-best-south-india",
@@ -333,7 +333,7 @@
       "price": "From RM1,998",
       "duration": "9D8N",
       "slug": "south-india/9-day-best-of",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/526.jpg"
     }
   ],
   "cta": {
@@ -343,7 +343,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11207.jpg"
   },
   "schema": {
     "type": "TouristTrip",

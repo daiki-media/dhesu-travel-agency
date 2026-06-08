@@ -5,7 +5,7 @@
     "keywords": "7 Days Discover South India from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
     "slug": "south-india/7-day-discover",
     "canonicalUrl": "/tours/india/south-india/7-day-discover",
-    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/16259.jpg",
     "pkgid": "470"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/16259.jpg",
     "heroImageAlt": "South India palaces hills and temples discovery tour"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Mysore Palace",
         "body": "The dazzling Amba Vilas Palace, one of India's grandest royal residences, especially magical when illuminated.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16260.jpg",
         "imageAlt": "Mysore Palace illuminated"
       },
       {
         "title": "Ooty & the Nilgiri Toy Train",
         "body": "The cool blue hills of Ooty and a ride on the UNESCO-listed Nilgiri mountain railway through forests and tea gardens.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16261.jpg",
         "imageAlt": "Ooty Nilgiri toy train"
       },
       {
         "title": "Gardens, Temples & Hill Country",
         "body": "From Bangalore's gardens to South India's temples and the green hills between, the loop captures the region's full variety.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16262.jpg",
         "imageAlt": "South India hill country and temples"
       }
     ]
@@ -340,7 +340,7 @@
       "price": "From RM1,088",
       "duration": "5D4N",
       "slug": "south-india/5-day-bangalore-mysore-ooty",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11207.jpg"
     },
     {
       "id": "india-9d-best-south-india",
@@ -348,7 +348,7 @@
       "price": "From RM1,998",
       "duration": "9D8N",
       "slug": "south-india/9-day-best-of",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/526.jpg"
     },
     {
       "id": "india-7d-tamil-nadu-tour",
@@ -356,7 +356,7 @@
       "price": "From RM1,598",
       "duration": "7D6N",
       "slug": "south-india/7-day-tamil-nadu-tour",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14158.jpg"
     }
   ],
   "cta": {
@@ -366,7 +366,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/16259.jpg"
   },
   "schema": {
     "type": "TouristTrip",

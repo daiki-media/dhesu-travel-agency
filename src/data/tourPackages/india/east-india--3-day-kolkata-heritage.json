@@ -5,7 +5,7 @@
     "keywords": "3 Days Kolkata Heritage & Culture Tour from Malaysia, India tour package, East India tour package Malaysia, Dhesu travel",
     "slug": "east-india/3-day-kolkata-heritage",
     "canonicalUrl": "/tours/india/east-india/3-day-kolkata-heritage",
-    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/12254.jpg",
     "pkgid": "78"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/12254.jpg",
     "heroImageAlt": "Victoria Memorial Kolkata heritage"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Victoria Memorial & Colonial Core",
         "body": "The white marble Victoria Memorial is Kolkata's signature landmark, set in gardens at the heart of the colonial city. Nearby stand St Paul's Cathedral and the grand buildings of the old British capital.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14631.jpg",
         "imageAlt": "Victoria Memorial Kolkata"
       },
       {
         "title": "Howrah Bridge & the River",
         "body": "The mighty cantilever Howrah Bridge spans the Hooghly river, alive with ferries, flower sellers and dawn bathers. The riverside ghats and the Mullick Ghat flower market are pure Kolkata.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12255.jpg",
         "imageAlt": "Howrah Bridge Kolkata"
       },
       {
         "title": "Dakshineswar, Sweets & Street Life",
         "body": "Visit the Dakshineswar Kali Temple by the river, then dive into the city's famous sweets, from rasgulla to mishti doi, and its endlessly photogenic street life.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12256.jpg",
         "imageAlt": "Dakshineswar Temple Kolkata"
       }
     ]
@@ -295,7 +295,7 @@
       "price": "From RM4,088",
       "duration": "7D6N",
       "slug": "north-india/7-day-sikkim",
-      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12223.jpg"
     },
     {
       "id": "india-3d-varanasi-sunrise-sunset",
@@ -303,7 +303,7 @@
       "price": "From RM698",
       "duration": "3D2N",
       "slug": "north-india/3-day-varanasi-ganga-aarti",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/13568.jpg"
     },
     {
       "id": "india-3d-ayodhya",
@@ -311,7 +311,7 @@
       "price": "From RM698",
       "duration": "3D2N",
       "slug": "north-india/3-day-ayodhya",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/15564.jpg"
     }
   ],
   "cta": {
@@ -321,7 +321,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/12254.jpg"
   },
   "schema": {
     "type": "TouristTrip",

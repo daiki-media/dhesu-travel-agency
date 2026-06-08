@@ -5,7 +5,7 @@
     "keywords": "11 Days Buddhist Pilgrimage from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/11-day-buddhist-pilgrimage",
     "canonicalUrl": "/tours/india/north-india/11-day-buddhist-pilgrimage",
-    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11460.jpg",
     "pkgid": "320"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11460.jpg",
     "heroImageAlt": "Buddhist pilgrimage Bodhgaya Mahabodhi temple India"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Bodhgaya & the Mahabodhi Temple",
         "body": "The holiest site in Buddhism, where the Buddha attained enlightenment beneath the Bodhi tree. The Mahabodhi Temple complex is a UNESCO World Heritage Site and a place of deep devotion.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11454.jpg",
         "imageAlt": "Mahabodhi Temple Bodhgaya"
       },
       {
         "title": "Sarnath & Kushinagar",
         "body": "Sarnath, where the Buddha gave his first sermon, and Kushinagar, where he attained final nirvana, two of the four most sacred sites in Buddhism.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11455.jpg",
         "imageAlt": "Sarnath and Kushinagar Buddhist sites"
       },
       {
         "title": "Nalanda, Rajgir & Lumbini",
         "body": "The ruins of the great Nalanda university, the hills of Rajgir, and Lumbini, the Buddha's birthplace just over the Nepal border, complete the pilgrimage.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11456.jpg",
         "imageAlt": "Nalanda ruins Buddhist pilgrimage"
       }
     ]
@@ -387,7 +387,7 @@
       "price": "From RM3,888",
       "duration": "11D10N",
       "slug": "north-india/11-day-sacred-trails",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/15212.jpg"
     },
     {
       "id": "india-3d-varanasi-sunrise-sunset",
@@ -395,7 +395,7 @@
       "price": "From RM698",
       "duration": "3D2N",
       "slug": "north-india/3-day-varanasi-ganga-aarti",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/13568.jpg"
     },
     {
       "id": "india-7d-sikkim",
@@ -403,7 +403,7 @@
       "price": "From RM4,088",
       "duration": "7D6N",
       "slug": "north-india/7-day-sikkim",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12223.jpg"
     }
   ],
   "cta": {
@@ -413,7 +413,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11453.jpg"
   },
   "schema": {
     "type": "TouristTrip",

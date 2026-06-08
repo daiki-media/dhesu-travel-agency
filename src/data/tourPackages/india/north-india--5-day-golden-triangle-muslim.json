@@ -5,7 +5,7 @@
     "keywords": "5 Days Delhi Agra Jaipur + Taj Mahal (Muslim Friendly) from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/5-day-golden-triangle-muslim",
     "canonicalUrl": "/tours/india/north-india/5-day-golden-triangle-muslim",
-    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/12305.jpg",
     "pkgid": "2074"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/12305.jpg",
     "heroImageAlt": "Taj Mahal Agra Mughal monument"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "The Taj Mahal, a Mughal Masterpiece",
         "body": "The Taj Mahal was built by Emperor Shah Jahan as a tomb for his wife. Seeing it at sunrise, then understanding its place in Islamic and Mughal history, is the heart of this trip.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14142.jpg",
         "imageAlt": "Taj Mahal Mughal mausoleum Agra"
       },
       {
         "title": "Jama Masjid & Mughal Delhi",
         "body": "Delhi's Jama Masjid is one of the largest mosques in India, built by Shah Jahan. Combined with Humayun's Tomb and the Red Fort, it tells the story of the Mughal capital.",
-        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12349.jpg",
         "imageAlt": "Jama Masjid Delhi Mughal mosque"
       },
       {
         "title": "Halal Dining & Comfortable Stays",
         "body": "Halal meals are arranged throughout the trip, from Mughlai cuisine in Delhi to Rajasthani-style halal fare in Jaipur, with prayer time respected in the daily schedule.",
-        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12350.jpg",
         "imageAlt": "Mughlai halal cuisine India"
       }
     ]
@@ -293,7 +293,7 @@
       "price": "From RM1,388",
       "duration": "5D4N",
       "slug": "north-india/5-day-golden-triangle",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12296.jpg"
     },
     {
       "id": "india-7d-golden-triangle-amritsar",
@@ -301,7 +301,7 @@
       "price": "From RM1,888",
       "duration": "7D6N",
       "slug": "north-india/7-day-golden-triangle-amritsar",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11621.jpg"
     },
     {
       "id": "india-3d-amritsar-golden-temple",
@@ -309,7 +309,7 @@
       "price": "From RM398",
       "duration": "3D2N",
       "slug": "north-india/3-day-amritsar-golden-temple",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11723.jpg"
     }
   ],
   "cta": {
@@ -319,7 +319,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/12321.jpg"
   },
   "schema": {
     "type": "TouristTrip",

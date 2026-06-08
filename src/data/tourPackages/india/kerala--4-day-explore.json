@@ -5,7 +5,7 @@
     "keywords": "4 Days Explore Kerala: God's Own Country from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
     "slug": "kerala/4-day-explore",
     "canonicalUrl": "/tours/india/kerala/4-day-explore",
-    "ogImage": "/images/gallery/12929.jpg",
+    "ogImage": "/images/gallery/11194.jpg",
     "pkgid": "99"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "/images/gallery/12929.jpg",
+    "heroImage": "/images/gallery/11194.jpg",
     "heroImageAlt": "Kerala backwaters houseboat Alleppey"
   },
   "quickFacts": {
@@ -103,13 +103,13 @@
       {
         "title": "Fort Kochi's Colonial Charm",
         "body": "The old harbour quarter, with its Chinese fishing nets, Dutch and Portuguese heritage, spice markets and art cafes, is a wonderful, walkable start to any Kerala trip.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11188.jpg",
         "imageAlt": "Fort Kochi Chinese fishing nets"
       },
       {
         "title": "Spice Gardens & Kerala Cuisine",
         "body": "Kerala's food is a revelation, from fragrant fish curries to the vegetarian sadya feast served on a banana leaf. The spice trade that shaped the region is still alive in its gardens and markets.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11189.jpg",
         "imageAlt": "Kerala cuisine and spices"
       }
     ]
@@ -305,7 +305,7 @@
       "price": "From RM1,488",
       "duration": "5D4N",
       "slug": "kerala/5-day-most-important-places",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11171.jpg"
     },
     {
       "id": "india-6d-kerala-backwaters",
@@ -321,7 +321,7 @@
       "price": "From RM598",
       "duration": "3D2N",
       "slug": "kerala/3-day-culture-kathakali",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11199.jpg"
     }
   ],
   "cta": {
@@ -331,7 +331,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/12929.jpg"
+    "bgImage": "/images/gallery/11186.jpg"
   },
   "schema": {
     "type": "TouristTrip",

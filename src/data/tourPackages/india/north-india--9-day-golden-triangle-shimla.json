@@ -5,7 +5,7 @@
     "keywords": "9 Days Golden Triangle + Shimla from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/9-day-golden-triangle-shimla",
     "canonicalUrl": "/tours/india/north-india/9-day-golden-triangle-shimla",
-    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11690.jpg",
     "pkgid": "177"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11690.jpg",
     "heroImageAlt": "Golden Triangle and Shimla hills tour"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "The Golden Triangle Icons",
         "body": "Delhi's monuments, the Taj Mahal at sunrise, Agra Fort and Jaipur's hilltop forts and Pink City palaces, the classic North India trio.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11560.jpg",
         "imageAlt": "Golden Triangle Taj Mahal Jaipur"
       },
       {
         "title": "Shimla's Colonial Hills",
         "body": "The Mall Road, the Ridge and the pine-clad slopes of the former summer capital of British India, a cool, scenic contrast to the plains.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11561.jpg",
         "imageAlt": "Shimla colonial hill station"
       },
       {
         "title": "The Kalka-Shimla Toy Train",
         "body": "The UNESCO-listed narrow-gauge railway winds through tunnels and bridges into the hills, a charming and scenic journey.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11562.jpg",
         "imageAlt": "Kalka Shimla toy train"
       }
     ]
@@ -336,7 +336,7 @@
       "price": "From RM2,388",
       "duration": "7D6N",
       "slug": "north-india/7-day-golden-triangle-comfort",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14633.jpg"
     },
     {
       "id": "india-10d-golden-triangle-manali",
@@ -344,7 +344,7 @@
       "price": "From RM2,988",
       "duration": "10D9N",
       "slug": "north-india/10-day-golden-triangle-manali",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11504.jpg"
     },
     {
       "id": "india-8d-golden-triangle-kashmir",
@@ -352,7 +352,7 @@
       "price": "From RM3,688",
       "duration": "8D7N",
       "slug": "north-india/8-day-golden-triangle-kashmir",
-      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/10917.jpg"
     }
   ],
   "cta": {
@@ -362,7 +362,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11559.jpg"
   },
   "schema": {
     "type": "TouristTrip",

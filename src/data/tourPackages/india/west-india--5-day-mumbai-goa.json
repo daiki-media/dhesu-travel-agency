@@ -5,7 +5,7 @@
     "keywords": "5 Days Mumbai + Goa from Malaysia, India tour package, West India tour package Malaysia, Dhesu travel",
     "slug": "west-india/5-day-mumbai-goa",
     "canonicalUrl": "/tours/india/west-india/5-day-mumbai-goa",
-    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/12283.jpg",
     "pkgid": "116"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/12283.jpg",
     "heroImageAlt": "Goa beach and Mumbai skyline combination tour"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Mumbai's Energy",
         "body": "The Gateway of India, colonial landmarks, Marine Drive and a taste of Bollywood, the buzz of India's biggest city in a focused day.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12267.jpg",
         "imageAlt": "Mumbai Gateway of India"
       },
       {
         "title": "Goa's Beaches",
         "body": "Golden sands, palm trees and the Arabian Sea. From the lively beaches of the north to the quieter south, Goa is India's beach paradise.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12268.jpg",
         "imageAlt": "Goa beach Arabian Sea"
       },
       {
         "title": "Portuguese Heritage",
         "body": "Old Goa's grand churches, the colourful Latin Quarter of Fontainhas, and the relaxed Portuguese-influenced culture and cuisine.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12269.jpg",
         "imageAlt": "Old Goa Portuguese church"
       }
     ]
@@ -293,7 +293,7 @@
       "price": "From RM1,298",
       "duration": "4D3N",
       "slug": "west-india/4-day-mumbai-bollywood",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12284.jpg"
     },
     {
       "id": "india-4d-shirdi-nashik",
@@ -301,7 +301,7 @@
       "price": "From RM1,488",
       "duration": "4D3N",
       "slug": "west-india/4-day-shirdi-nashik-shani",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14029.jpg"
     },
     {
       "id": "india-3d-shirdi-pilgrimage",
@@ -309,7 +309,7 @@
       "price": "From RM588",
       "duration": "3D2N",
       "slug": "west-india/3-day-shirdi-pilgrimage",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14032.jpg"
     }
   ],
   "cta": {
@@ -319,7 +319,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/12266.jpg"
   },
   "schema": {
     "type": "TouristTrip",

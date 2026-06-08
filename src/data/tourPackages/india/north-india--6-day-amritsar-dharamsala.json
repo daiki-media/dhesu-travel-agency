@@ -5,7 +5,7 @@
     "keywords": "6 Days Amritsar + Dharamsala from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/6-day-amritsar-dharamsala",
     "canonicalUrl": "/tours/india/north-india/6-day-amritsar-dharamsala",
-    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11725.jpg",
     "pkgid": "2467"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11725.jpg",
     "heroImageAlt": "Dharamshala McLeod Ganj Tibetan monastery Himalayas"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "The Golden Temple, Amritsar",
         "body": "Harmandir Sahib at dawn and after dark, the langar, and the moving spiritual atmosphere of Sikhism's holiest shrine.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11505.jpg",
         "imageAlt": "Golden Temple Amritsar"
       },
       {
         "title": "McLeod Ganj & the Dalai Lama",
         "body": "The Tsuglagkhang Complex, home of the Dalai Lama, the Tibetan monasteries, prayer flags and the relaxed mountain town of McLeod Ganj.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11506.jpg",
         "imageAlt": "McLeod Ganj Tibetan monastery Dharamshala"
       },
       {
         "title": "Himalayan Foothills",
         "body": "Pine forests, mountain views, the Bhagsu waterfall and the serene Norbulingka Institute of Tibetan arts in the hills around Dharamshala.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11507.jpg",
         "imageAlt": "Dharamshala Himalayan foothills"
       }
     ]
@@ -328,7 +328,7 @@
       "price": "From RM398",
       "duration": "3D2N",
       "slug": "north-india/3-day-amritsar-golden-temple",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11723.jpg"
     },
     {
       "id": "india-7d-golden-triangle-amritsar",
@@ -336,7 +336,7 @@
       "price": "From RM1,888",
       "duration": "7D6N",
       "slug": "north-india/7-day-golden-triangle-amritsar",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11621.jpg"
     },
     {
       "id": "india-6d-manali",
@@ -344,7 +344,7 @@
       "price": "From RM1,598",
       "duration": "6D5N",
       "slug": "north-india/6-day-manali",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11669.jpg"
     }
   ],
   "cta": {
@@ -354,7 +354,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11504.jpg"
   },
   "schema": {
     "type": "TouristTrip",

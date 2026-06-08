@@ -5,7 +5,7 @@
     "keywords": "Chennai tour package from Malaysia, 3 days Chennai package, South India tour package, Chennai shopping tour, Chennai travel package Malaysia, cheap India tour package, Chennai holiday package",
     "slug": "south-india/3-day-chennai-super-saver",
     "canonicalUrl": "/tours/india/south-india/3-day-chennai-super-saver",
-    "ogImage": "/images/gallery/10468.jpg",
+    "ogImage": "/images/gallery/13281.jpg",
     "pkgid": "67"
   },
   "hero": {
@@ -14,12 +14,24 @@
     "titleAccent": "Silk, Street Food & So Much More.",
     "intro": "Three days is honestly enough to fall for Chennai. The kind of city that hits you with noise and colour the moment you land, then slowly reveals its charm. Ancient temples next to buzzing bazaars. A long coastline that turns golden at dusk. Food that will ruin you for everything else.",
     "breadcrumb": [
-      { "label": "Home", "href": "/" },
-      { "label": "India", "href": "/tours/india" },
-      { "label": "All India Packages", "href": "/tours/india/all-packages" },
-      { "label": "3 Days Chennai Super Saver", "href": null }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "India",
+        "href": "/tours/india"
+      },
+      {
+        "label": "All India Packages",
+        "href": "/tours/india/all-packages"
+      },
+      {
+        "label": "3 Days Chennai Super Saver",
+        "href": null
+      }
     ],
-    "heroImage": "/images/gallery/10467.jpg",
+    "heroImage": "/images/gallery/13281.jpg",
     "heroImageAlt": "T Nagar shopping district Chennai at night with colourful saree stores"
   },
   "quickFacts": {
@@ -29,16 +41,45 @@
     "originalPrice": "RM478",
     "saving": "Save RM159 per couple",
     "groupSize": "Private & flexible",
-    "includes": ["Hotel Stay (2 nights)", "Daily Breakfast", "Full-Day Private Vehicle & Driver Guide", "Return Airport Transfers", "24-Hour Checkout Policy"],
-    "excludes": ["International Flights", "India Visa Fee (30-day e-Visa applies)", "ETIQA Travel Insurance (RM41)", "Entrance Fees", "Meal lunches and dinners", "Personal Expenses", "Optional tour tips"]
+    "includes": [
+      "Hotel Stay (2 nights)",
+      "Daily Breakfast",
+      "Full-Day Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "24-Hour Checkout Policy"
+    ],
+    "excludes": [
+      "International Flights",
+      "India Visa Fee (30-day e-Visa applies)",
+      "ETIQA Travel Insurance (RM41)",
+      "Entrance Fees",
+      "Meal lunches and dinners",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
   },
   "inclusions": {
     "icons": [
-      { "icon": "hotel", "label": "Hotel (2 Nights)" },
-      { "icon": "breakfast", "label": "Daily Breakfast" },
-      { "icon": "car", "label": "Private Driver Guide" },
-      { "icon": "transfer", "label": "Airport Transfers" },
-      { "icon": "private", "label": "100% Private Tour" }
+      {
+        "icon": "hotel",
+        "label": "Hotel (2 Nights)"
+      },
+      {
+        "icon": "breakfast",
+        "label": "Daily Breakfast"
+      },
+      {
+        "icon": "car",
+        "label": "Private Driver Guide"
+      },
+      {
+        "icon": "transfer",
+        "label": "Airport Transfers"
+      },
+      {
+        "icon": "private",
+        "label": "100% Private Tour"
+      }
     ]
   },
   "overview": {
@@ -132,9 +173,18 @@
         "label": "Budget Friendly",
         "hotel": "Grand Galaxy Chennai or similar",
         "pricing": [
-          { "label": "Min 2 Adults (Toyota Etios)", "price": "RM398 per person" },
-          { "label": "Min 4 Adults (Toyota Innova)", "price": "RM348 per person" },
-          { "label": "Min 8 Adults (Tempo Traveller)", "price": "RM328 per person" }
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM398 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM348 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM328 per person"
+          }
         ],
         "fromPrice": "RM398"
       },
@@ -143,9 +193,18 @@
         "label": "Value Plus Comfort",
         "hotel": "Star City / Quality Inn Sabari Grand / Benzz Park or similar",
         "pricing": [
-          { "label": "Min 2 Adults (Toyota Etios)", "price": "RM498 per person" },
-          { "label": "Min 4 Adults (Toyota Innova)", "price": "RM458 per person" },
-          { "label": "Min 8 Adults (Tempo Traveller)", "price": "RM438 per person" }
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM498 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM458 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM438 per person"
+          }
         ],
         "fromPrice": "RM498",
         "popular": true
@@ -155,9 +214,18 @@
         "label": "Premium Value Stay",
         "hotel": "The Residency Towers Chennai or similar",
         "pricing": [
-          { "label": "Min 2 Adults (Toyota Etios)", "price": "RM698 per person" },
-          { "label": "Min 4 Adults (Toyota Innova)", "price": "RM668 per person" },
-          { "label": "Min 8 Adults (Tempo Traveller)", "price": "RM648 per person" }
+          {
+            "label": "Min 2 Adults (Toyota Etios)",
+            "price": "RM698 per person"
+          },
+          {
+            "label": "Min 4 Adults (Toyota Innova)",
+            "price": "RM668 per person"
+          },
+          {
+            "label": "Min 8 Adults (Tempo Traveller)",
+            "price": "RM648 per person"
+          }
         ],
         "fromPrice": "RM698"
       }
@@ -259,7 +327,7 @@
       "price": "From RM1,088",
       "duration": "5D4N",
       "slug": "south-india/5-day-bangalore-mysore-ooty",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop"
+      "image": "/images/gallery/11207.jpg"
     },
     {
       "id": "india-4d-hyderabad-heritage-escape",
@@ -267,7 +335,7 @@
       "price": "From RM898",
       "duration": "4D3N",
       "slug": "south-india/4-day-hyderabad-heritage-escape",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop"
+      "image": "/images/gallery/1438.jpg"
     },
     {
       "id": "india-7d-south-india-discover",
@@ -275,7 +343,7 @@
       "price": "From RM1,668",
       "duration": "7D6N",
       "slug": "south-india/7-day-discover",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop"
+      "image": "/images/gallery/16259.jpg"
     }
   ],
   "cta": {
@@ -285,7 +353,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/10467.jpg"
+    "bgImage": "/images/gallery/1110.jpg"
   },
   "schema": {
     "type": "TouristTrip",

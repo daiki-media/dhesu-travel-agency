@@ -5,7 +5,7 @@
     "keywords": "9 Days Shimla & Manali from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/9-day-shimla-manali",
     "canonicalUrl": "/tours/india/north-india/9-day-shimla-manali",
-    "ogImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11504.jpg",
     "pkgid": "658"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11504.jpg",
     "heroImageAlt": "Shimla and Manali Himachal hill stations"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Shimla's Colonial Charm",
         "body": "The Mall Road, the Ridge, Christ Church and the mock-Tudor heritage of the former summer capital of British India, plus the scenic Kalka-Shimla toy train.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11536.jpg",
         "imageAlt": "Shimla Mall Road colonial heritage"
       },
       {
         "title": "Manali's Snow & Adventure",
         "body": "Solang Valley, the Rohtang Pass and Atal Tunnel, hot springs and the Beas river, the snow-peaked heart of Himachal adventure.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11537.jpg",
         "imageAlt": "Manali Solang Valley snow"
       },
       {
         "title": "Kullu Valley & High Passes",
         "body": "The apple orchards and shawl weavers of the Kullu Valley, the dramatic mountain drives, and the high-altitude landscapes between the two hill stations.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11538.jpg",
         "imageAlt": "Kullu Valley Himachal"
       }
     ]
@@ -363,7 +363,7 @@
       "price": "From RM1,598",
       "duration": "6D5N",
       "slug": "north-india/6-day-manali",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11669.jpg"
     },
     {
       "id": "india-5d-shimla-chandigarh",
@@ -371,7 +371,7 @@
       "price": "From RM1,288",
       "duration": "5D4N",
       "slug": "north-india/5-day-shimla-chandigarh",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11688.jpg"
     },
     {
       "id": "india-10d-golden-triangle-manali",
@@ -379,7 +379,7 @@
       "price": "From RM2,988",
       "duration": "10D9N",
       "slug": "north-india/10-day-golden-triangle-manali",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11504.jpg"
     }
   ],
   "cta": {
@@ -389,7 +389,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11535.jpg"
   },
   "schema": {
     "type": "TouristTrip",

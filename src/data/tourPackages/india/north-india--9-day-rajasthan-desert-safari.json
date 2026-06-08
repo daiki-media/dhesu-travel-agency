@@ -5,7 +5,7 @@
     "keywords": "9 Days Royal Rajasthan Desert Safari from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/9-day-rajasthan-desert-safari",
     "canonicalUrl": "/tours/india/north-india/9-day-rajasthan-desert-safari",
-    "ogImage": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/10880.jpg",
     "pkgid": "153"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/10880.jpg",
     "heroImageAlt": "Rajasthan forts palaces and Thar desert camel safari"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Forts & Palaces",
         "body": "Jaipur's Amber Fort, Jodhpur's towering Mehrangarh, and Udaipur's romantic City Palace and lake palaces, the grandest of Rajput architecture.",
-        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11611.jpg",
         "imageAlt": "Rajasthan forts and palaces"
       },
       {
         "title": "Thar Desert Camel Safari",
         "body": "A camel safari into the golden dunes near Jaisalmer, with a night in a desert camp under the stars, music and dance, the romance of the Thar.",
-        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11612.jpg",
         "imageAlt": "Thar desert camel safari Jaisalmer"
       },
       {
         "title": "Blue City & Lake City",
         "body": "The blue-painted old town of Jodhpur and the serene lakes and palaces of Udaipur, two of the most beautiful cities in India.",
-        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11613.jpg",
         "imageAlt": "Jodhpur blue city and Udaipur lakes"
       }
     ]
@@ -338,7 +338,7 @@
       "price": "From RM698",
       "duration": "4D3N",
       "slug": "north-india/4-day-jaipur",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16336.jpg"
     },
     {
       "id": "india-5d-golden-triangle",
@@ -346,7 +346,7 @@
       "price": "From RM1,388",
       "duration": "5D4N",
       "slug": "north-india/5-day-golden-triangle",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12296.jpg"
     },
     {
       "id": "india-7d-golden-triangle-7day",
@@ -354,7 +354,7 @@
       "price": "From RM2,388",
       "duration": "7D6N",
       "slug": "north-india/7-day-golden-triangle-comfort",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14633.jpg"
     }
   ],
   "cta": {
@@ -364,7 +364,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11610.jpg"
   },
   "schema": {
     "type": "TouristTrip",

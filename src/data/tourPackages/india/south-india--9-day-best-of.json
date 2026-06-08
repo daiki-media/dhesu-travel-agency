@@ -5,7 +5,7 @@
     "keywords": "9 Days Best of South India from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
     "slug": "south-india/9-day-best-of",
     "canonicalUrl": "/tours/india/south-india/9-day-best-of",
-    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/1434.jpg",
     "pkgid": "152"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/1434.jpg",
     "heroImageAlt": "Best of South India palaces hills and Kerala backwaters"
   },
   "quickFacts": {
@@ -97,13 +97,13 @@
       {
         "title": "Mysore & the Nilgiri Hills",
         "body": "The grand Mysore Palace and the cool blue hills of Ooty, with a ride on the UNESCO-listed Nilgiri toy train through forests and tea gardens.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/527.jpg",
         "imageAlt": "Mysore Palace and Nilgiri hills"
       },
       {
         "title": "Munnar's Tea Country",
         "body": "Crossing into Kerala, the rolling tea estates of Munnar bring cool mountain air and some of the most beautiful hill scenery in the south.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/528.jpg",
         "imageAlt": "Munnar tea hills Kerala"
       },
       {
@@ -361,7 +361,7 @@
       "price": "From RM1,668",
       "duration": "7D6N",
       "slug": "south-india/7-day-discover",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16259.jpg"
     },
     {
       "id": "india-5d-bangalore-mysore-ooty",
@@ -369,7 +369,7 @@
       "price": "From RM1,088",
       "duration": "5D4N",
       "slug": "south-india/5-day-bangalore-mysore-ooty",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11207.jpg"
     },
     {
       "id": "india-8d-kerala-munnar-thekkady",
@@ -377,7 +377,7 @@
       "price": "From RM2,398",
       "duration": "8D7N",
       "slug": "kerala/8-day-best-of",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11061.jpg"
     }
   ],
   "cta": {
@@ -387,7 +387,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/526.jpg"
   },
   "schema": {
     "type": "TouristTrip",

@@ -5,7 +5,7 @@
     "keywords": "3 Days Hyderabad Heritage & Culture Tour from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
     "slug": "south-india/3-day-hyderabad-heritage",
     "canonicalUrl": "/tours/india/south-india/3-day-hyderabad-heritage",
-    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/1438.jpg",
     "pkgid": "2464"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/1438.jpg",
     "heroImageAlt": "Charminar Hyderabad old city at dusk"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Charminar & the Old City",
         "body": "The 16th-century Charminar is Hyderabad's defining monument, surrounded by the bustling Laad Bazaar where bangles, pearls and perfumes have been traded for generations. Come hungry.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16255.jpg",
         "imageAlt": "Charminar Hyderabad old city"
       },
       {
         "title": "Golconda Fort",
         "body": "A vast hilltop fortress famous for its acoustics and the legend of the Koh-i-Noor diamond, which was once traded here. The climb rewards you with sweeping views over the city.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16256.jpg",
         "imageAlt": "Golconda Fort Hyderabad"
       },
       {
         "title": "Pearls & the Famous Biryani",
         "body": "Hyderabad has been India's pearl capital for centuries. Pair a shopping trip with a plate of Hyderabadi dum biryani, slow-cooked and unrivalled. Your guide knows the legendary kitchens.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16258.jpg",
         "imageAlt": "Hyderabadi biryani and pearls"
       }
     ]
@@ -295,7 +295,7 @@
       "price": "From RM898",
       "duration": "4D3N",
       "slug": "south-india/4-day-hyderabad-heritage-escape",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/1438.jpg"
     },
     {
       "id": "india-3d-bangalore-highlights",
@@ -303,7 +303,7 @@
       "price": "From RM498",
       "duration": "3D2N",
       "slug": "south-india/3-day-bangalore-highlights",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16259.jpg"
     },
     {
       "id": "india-7d-south-india-discover",
@@ -311,7 +311,7 @@
       "price": "From RM1,668",
       "duration": "7D6N",
       "slug": "south-india/7-day-discover",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16259.jpg"
     }
   ],
   "cta": {
@@ -321,7 +321,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/16254.jpg"
   },
   "schema": {
     "type": "TouristTrip",

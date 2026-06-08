@@ -5,7 +5,7 @@
     "keywords": "4 Days Jaipur Super Saver from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/4-day-jaipur",
     "canonicalUrl": "/tours/india/north-india/4-day-jaipur",
-    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/16336.jpg",
     "pkgid": "2465"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/16336.jpg",
     "heroImageAlt": "Hawa Mahal Jaipur pink city palace"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Amber Fort",
         "body": "The magnificent hilltop Amber Fort, with its mirror palace, painted gateways and sweeping ramparts, is the jewel of Jaipur. Arrive early for the light and the views over Maota Lake.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14627.jpg",
         "imageAlt": "Amber Fort Jaipur"
       },
       {
         "title": "City Palace, Hawa Mahal & Jantar Mantar",
         "body": "The royal City Palace, the iconic pink lattice of Hawa Mahal and the giant stone instruments of the Jantar Mantar observatory cluster in the old city, a short stroll apart.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16336.jpg",
         "imageAlt": "Hawa Mahal and City Palace Jaipur"
       },
       {
         "title": "Bazaars, Gems & Block Prints",
         "body": "Jaipur is one of India's great shopping cities. Johari Bazaar for gemstones and jewellery, Bapu Bazaar for textiles and juttis, and workshops where block printing and blue pottery are still made by hand.",
-        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14627.jpg",
         "imageAlt": "Jaipur bazaar gemstones and textiles"
       }
     ]
@@ -307,7 +307,7 @@
       "price": "From RM1,388",
       "duration": "5D4N",
       "slug": "north-india/5-day-golden-triangle",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12296.jpg"
     },
     {
       "id": "india-4d-taj-mahal-agra",
@@ -315,7 +315,7 @@
       "price": "From RM888",
       "duration": "4D3N",
       "slug": "north-india/4-day-taj-mahal-agra",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12336.jpg"
     },
     {
       "id": "india-9d-rajasthan-desert-safari",
@@ -323,7 +323,7 @@
       "price": "From RM3,488",
       "duration": "9D8N",
       "slug": "north-india/9-day-rajasthan-desert-safari",
-      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11610.jpg"
     }
   ],
   "cta": {
@@ -333,7 +333,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/16336.jpg"
   },
   "schema": {
     "type": "TouristTrip",

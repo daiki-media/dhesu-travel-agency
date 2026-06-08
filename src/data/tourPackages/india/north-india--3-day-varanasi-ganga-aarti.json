@@ -5,7 +5,7 @@
     "keywords": "3 Days Varanasi: Sunrise, Sunset & Ganga Aarti from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/3-day-varanasi-ganga-aarti",
     "canonicalUrl": "/tours/india/north-india/3-day-varanasi-ganga-aarti",
-    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/14014.jpg",
     "pkgid": "2207"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/14014.jpg",
     "heroImageAlt": "Ganga Aarti ceremony Varanasi ghats at dusk"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "The Ganga Aarti at Dashashwamedh Ghat",
         "body": "Each evening, priests perform a choreographed ceremony of fire, incense and chanting on the main ghat. Watched from a boat on the river or from the steps, it is one of the most powerful spiritual spectacles in India.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/13570.jpg",
         "imageAlt": "Ganga Aarti Dashashwamedh Ghat Varanasi"
       },
       {
         "title": "Sunrise Boat Ride on the Ganges",
         "body": "Drift along the ghats at first light as pilgrims bathe, sadhus pray and the rising sun turns the old city gold. The quiet dawn boat ride is the most magical hour in Varanasi.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/13571.jpg",
         "imageAlt": "Sunrise boat ride Ganges Varanasi"
       },
       {
         "title": "Temples, Ghats & Sarnath",
         "body": "Visit Kashi Vishwanath, one of the holiest Shiva temples, walk the labyrinth of old lanes, and drive out to Sarnath where the Buddha gave his first sermon.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/13572.jpg",
         "imageAlt": "Varanasi temples and ghats"
       }
     ]
@@ -295,7 +295,7 @@
       "price": "From RM1,288",
       "duration": "4D3N",
       "slug": "north-india/4-day-varanasi-best",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14014.jpg"
     },
     {
       "id": "india-3d-ayodhya",
@@ -303,7 +303,7 @@
       "price": "From RM698",
       "duration": "3D2N",
       "slug": "north-india/3-day-ayodhya",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/15564.jpg"
     },
     {
       "id": "india-5d-varanasi-ayodhya",
@@ -311,7 +311,7 @@
       "price": "From RM1,588",
       "duration": "5D4N",
       "slug": "north-india/5-day-varanasi-ayodhya",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14088.jpg"
     }
   ],
   "cta": {
@@ -321,7 +321,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/13568.jpg"
   },
   "schema": {
     "type": "TouristTrip",

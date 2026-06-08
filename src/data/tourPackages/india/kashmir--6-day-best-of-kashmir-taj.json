@@ -5,7 +5,7 @@
     "keywords": "6 Days Best of Kashmir + Taj Mahal from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
     "slug": "kashmir/6-day-best-of-kashmir-taj",
     "canonicalUrl": "/tours/india/kashmir/6-day-best-of-kashmir-taj",
-    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/12934.jpg",
     "pkgid": "2071"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/12934.jpg",
     "heroImageAlt": "Kashmir valley and Taj Mahal best of tour"
   },
   "quickFacts": {
@@ -109,7 +109,7 @@
       {
         "title": "The Taj Mahal at Sunrise",
         "body": "After the mountains, the marble. See the Taj Mahal glow at dawn and explore the mighty Agra Fort.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/10995.jpg",
         "imageAlt": "Taj Mahal sunrise Agra"
       }
     ]
@@ -304,7 +304,7 @@
       "price": "From RM3,288",
       "duration": "7D6N",
       "slug": "kashmir/7-day-exclusive-escape",
-      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/10335.jpg"
     },
     {
       "id": "india-8d-golden-triangle-kashmir",
@@ -312,7 +312,7 @@
       "price": "From RM3,688",
       "duration": "8D7N",
       "slug": "north-india/8-day-golden-triangle-kashmir",
-      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/10917.jpg"
     },
     {
       "id": "india-5d-kashmir-ski-resort",
@@ -330,7 +330,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/10992.jpg"
   },
   "schema": {
     "type": "TouristTrip",

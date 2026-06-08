@@ -5,7 +5,7 @@
     "keywords": "6 Days India's Sacred Triangle from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/6-day-sacred-triangle",
     "canonicalUrl": "/tours/india/north-india/6-day-sacred-triangle",
-    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11715.jpg",
     "pkgid": "2297"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11715.jpg",
     "heroImageAlt": "Varanasi Prayagraj Ayodhya sacred triangle pilgrimage"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Varanasi's Sacred Ghats",
         "body": "The sunrise boat ride and the evening Ganga Aarti at Dashashwamedh Ghat, the essential experiences of the spiritual capital.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14114.jpg",
         "imageAlt": "Varanasi ghats sunrise"
       },
       {
         "title": "Triveni Sangam at Prayagraj",
         "body": "The sacred confluence of the Ganges, Yamuna and the mythical Saraswati rivers, site of the Kumbh Mela and one of the holiest places in India.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14115.jpg",
         "imageAlt": "Triveni Sangam Prayagraj Allahabad"
       },
       {
         "title": "Ayodhya's Ram Mandir",
         "body": "The grand new Ram Janmabhoomi temple and the sacred sites of Lord Rama's birthplace complete the spiritual triangle.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14116.jpg",
         "imageAlt": "Ram Mandir Ayodhya"
       }
     ]
@@ -329,7 +329,7 @@
       "price": "From RM1,588",
       "duration": "5D4N",
       "slug": "north-india/5-day-varanasi-ayodhya",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14088.jpg"
     },
     {
       "id": "india-11d-sacred-trails",
@@ -337,7 +337,7 @@
       "price": "From RM3,888",
       "duration": "11D10N",
       "slug": "north-india/11-day-sacred-trails",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/15212.jpg"
     },
     {
       "id": "india-4d-delhi-haridwar-rishikesh",
@@ -345,7 +345,7 @@
       "price": "From RM988",
       "duration": "4D3N",
       "slug": "north-india/4-day-delhi-haridwar-rishikesh",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11715.jpg"
     }
   ],
   "cta": {
@@ -355,7 +355,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/15540.jpg"
   },
   "schema": {
     "type": "TouristTrip",

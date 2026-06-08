@@ -5,7 +5,7 @@
     "keywords": "12 Days Char Dham Yatra from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/12-day-char-dham-yatra",
     "canonicalUrl": "/tours/india/north-india/12-day-char-dham-yatra",
-    "ogImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11720.jpg",
     "pkgid": "2105"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11720.jpg",
     "heroImageAlt": "Char Dham Yatra Kedarnath Badrinath Himalayan shrines"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Kedarnath",
         "body": "One of the twelve Jyotirlingas of Lord Shiva, set dramatically beneath snow peaks at over 3,500 metres, reached by a trek or pony ride (or helicopter). The most demanding and revered of the four shrines.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11429.jpg",
         "imageAlt": "Kedarnath temple Himalayas"
       },
       {
         "title": "Badrinath",
         "body": "Sacred to Lord Vishnu, the colourful Badrinath temple sits in a stunning mountain setting near the Tibet border, with the Tapt Kund hot springs below.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11430.jpg",
         "imageAlt": "Badrinath temple Garhwal Himalayas"
       },
       {
         "title": "Yamunotri & Gangotri",
         "body": "The sources of the holy Yamuna and Ganges rivers, high in the mountains, where the Char Dham pilgrimage begins amid glaciers, hot springs and dramatic scenery.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11431.jpg",
         "imageAlt": "Gangotri source of the Ganges"
       }
     ]
@@ -395,7 +395,7 @@
       "price": "From RM3,888",
       "duration": "11D10N",
       "slug": "north-india/11-day-sacred-trails",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/15212.jpg"
     },
     {
       "id": "india-4d-delhi-haridwar-rishikesh",
@@ -403,7 +403,7 @@
       "price": "From RM988",
       "duration": "4D3N",
       "slug": "north-india/4-day-delhi-haridwar-rishikesh",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11715.jpg"
     },
     {
       "id": "india-6d-sacred-triangle-varanasi-rishikesh",
@@ -411,7 +411,7 @@
       "price": "From RM2,488",
       "duration": "6D5N",
       "slug": "north-india/6-day-sacred-triangle",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/15540.jpg"
     }
   ],
   "cta": {
@@ -421,7 +421,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11428.jpg"
   },
   "schema": {
     "type": "TouristTrip",

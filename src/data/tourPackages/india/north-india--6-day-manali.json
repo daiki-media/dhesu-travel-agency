@@ -5,7 +5,7 @@
     "keywords": "6 Days Manali from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/6-day-manali",
     "canonicalUrl": "/tours/india/north-india/6-day-manali",
-    "ogImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11535.jpg",
     "pkgid": "136"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11535.jpg",
     "heroImageAlt": "Manali snow peaks Beas river Himachal"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Solang Valley",
         "body": "A stunning valley near Manali, famous for snow in winter and paragliding, zorbing and cable-car rides in summer. The mountain scenery is spectacular year-round.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11670.jpg",
         "imageAlt": "Solang Valley Manali snow"
       },
       {
         "title": "Old Manali & Hadimba Temple",
         "body": "The charming old town, the ancient cedar-shaded Hadimba Devi Temple, and the cafes and lanes that give Manali its relaxed, bohemian character.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11672.jpg",
         "imageAlt": "Hadimba Temple old Manali"
       },
       {
         "title": "Rohtang Pass & Atal Tunnel",
         "body": "In season, the dramatic Rohtang Pass and the engineering marvel of the Atal Tunnel open up high Himalayan landscapes of snow and stark beauty.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11673.jpg",
         "imageAlt": "Rohtang Pass Atal Tunnel Manali"
       }
     ]
@@ -329,7 +329,7 @@
       "price": "From RM2,188",
       "duration": "9D8N",
       "slug": "north-india/9-day-shimla-manali",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11535.jpg"
     },
     {
       "id": "india-5d-shimla-chandigarh",
@@ -337,7 +337,7 @@
       "price": "From RM1,288",
       "duration": "5D4N",
       "slug": "north-india/5-day-shimla-chandigarh",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11688.jpg"
     },
     {
       "id": "india-10d-golden-triangle-manali",
@@ -345,7 +345,7 @@
       "price": "From RM2,988",
       "duration": "10D9N",
       "slug": "north-india/10-day-golden-triangle-manali",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11504.jpg"
     }
   ],
   "cta": {
@@ -355,7 +355,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11669.jpg"
   },
   "schema": {
     "type": "TouristTrip",

@@ -5,7 +5,7 @@
     "keywords": "7 Days Golden Triangle + Amritsar from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/7-day-golden-triangle-amritsar",
     "canonicalUrl": "/tours/india/north-india/7-day-golden-triangle-amritsar",
-    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11617.jpg",
     "pkgid": "209"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11617.jpg",
     "heroImageAlt": "Golden Triangle and Amritsar Golden Temple tour"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "The Taj Mahal & Jaipur's Forts",
         "body": "The Taj Mahal at sunrise, Agra Fort, and Jaipur's hilltop Amber Fort and Pink City palaces, the heart of the Golden Triangle.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/15713.jpg",
         "imageAlt": "Taj Mahal and Jaipur forts"
       },
       {
         "title": "The Golden Temple, Amritsar",
         "body": "Harmandir Sahib at dawn and after dark, the free langar, and the moving spiritual atmosphere of Sikhism's holiest shrine.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11622.jpg",
         "imageAlt": "Golden Temple Amritsar"
       },
       {
         "title": "Old Delhi & the Wagah Border",
         "body": "The spice lanes and grand mosques of Old Delhi, and the high-energy flag-lowering ceremony at the Wagah border each evening.",
-        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11623.jpg",
         "imageAlt": "Old Delhi and Wagah border"
       }
     ]
@@ -315,7 +315,7 @@
       "price": "From RM1,388",
       "duration": "5D4N",
       "slug": "north-india/5-day-golden-triangle",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12296.jpg"
     },
     {
       "id": "india-3d-amritsar-golden-temple",
@@ -323,7 +323,7 @@
       "price": "From RM398",
       "duration": "3D2N",
       "slug": "north-india/3-day-amritsar-golden-temple",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11723.jpg"
     },
     {
       "id": "india-7d-golden-triangle-7day",
@@ -331,7 +331,7 @@
       "price": "From RM2,388",
       "duration": "7D6N",
       "slug": "north-india/7-day-golden-triangle-comfort",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14633.jpg"
     }
   ],
   "cta": {
@@ -341,7 +341,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11621.jpg"
   },
   "schema": {
     "type": "TouristTrip",

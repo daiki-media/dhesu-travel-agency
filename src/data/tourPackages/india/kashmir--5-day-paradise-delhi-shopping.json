@@ -5,7 +5,7 @@
     "keywords": "5 Days Kashmir Paradise + Delhi Shopping from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
     "slug": "kashmir/5-day-paradise-delhi-shopping",
     "canonicalUrl": "/tours/india/kashmir/5-day-paradise-delhi-shopping",
-    "ogImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/10967.jpg",
     "pkgid": "114"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/10967.jpg",
     "heroImageAlt": "Kashmir Dal Lake and Delhi combination tour"
   },
   "quickFacts": {
@@ -97,13 +97,13 @@
       {
         "title": "Kashmir's Dal Lake & Gardens",
         "body": "A houseboat night, a shikara ride, and the Mughal gardens of Srinagar, all framed by snow-capped peaks. The serene heart of any Kashmir visit.",
-        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11016.jpg",
         "imageAlt": "Dal Lake Srinagar Kashmir"
       },
       {
         "title": "Delhi's Monuments & Markets",
         "body": "From the spice lanes of Chandni Chowk to India Gate and the grand Mughal monuments, Delhi packs history and energy into every corner.",
-        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11017.jpg",
         "imageAlt": "Delhi monuments and markets"
       },
       {
@@ -293,7 +293,7 @@
       "price": "From RM1,088",
       "duration": "4D3N",
       "slug": "kashmir/4-day-super-saver",
-      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16232.jpg"
     },
     {
       "id": "india-6d-kashmir-taj-mahal",
@@ -301,7 +301,7 @@
       "price": "From RM3,118",
       "duration": "6D5N",
       "slug": "kashmir/6-day-best-of-kashmir-taj",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/10992.jpg"
     },
     {
       "id": "india-5d-kashmir-ski-taj",
@@ -309,7 +309,7 @@
       "price": "From RM2,798",
       "duration": "5D4N",
       "slug": "kashmir/5-day-ski-taj-mahal",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11034.jpg"
     }
   ],
   "cta": {
@@ -319,7 +319,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/15618.jpg"
   },
   "schema": {
     "type": "TouristTrip",

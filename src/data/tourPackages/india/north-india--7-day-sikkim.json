@@ -5,7 +5,7 @@
     "keywords": "7 Days Sikkim & the Eastern Himalayas from Malaysia, India tour package, North India tour package Malaysia, Dhesu travel",
     "slug": "north-india/7-day-sikkim",
     "canonicalUrl": "/tours/india/north-india/7-day-sikkim",
-    "ogImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/12240.jpg",
     "pkgid": "149"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/12240.jpg",
     "heroImageAlt": "Sikkim Kanchenjunga monasteries eastern Himalayas"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Kanchenjunga Views",
         "body": "The world's third-highest peak dominates the Sikkim skyline. Sunrise viewpoints and clear-weather vistas of Kanchenjunga are among the great mountain sights of India.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12224.jpg",
         "imageAlt": "Kanchenjunga peak Sikkim"
       },
       {
         "title": "Gangtok & Monasteries",
         "body": "The hillside capital of Gangtok and the great monasteries like Rumtek, the seat of Tibetan Buddhism's Karmapa, full of prayer wheels and murals.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12225.jpg",
         "imageAlt": "Rumtek monastery Gangtok Sikkim"
       },
       {
         "title": "Tsomgo Lake & Nathula",
         "body": "The sacred high-altitude Tsomgo Lake and the road towards the Nathula pass on the old Silk Route to Tibet, dramatic high-mountain landscapes.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12226.jpg",
         "imageAlt": "Tsomgo Lake Sikkim"
       }
     ]
@@ -315,7 +315,7 @@
       "price": "From RM3,888",
       "duration": "7D6N",
       "slug": "north-india/7-day-ladakh",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11725.jpg"
     },
     {
       "id": "india-9d-shimla-manali",
@@ -323,7 +323,7 @@
       "price": "From RM2,188",
       "duration": "9D8N",
       "slug": "north-india/9-day-shimla-manali",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11535.jpg"
     },
     {
       "id": "india-3d-kolkata-heritage",
@@ -331,7 +331,7 @@
       "price": "From RM698",
       "duration": "3D2N",
       "slug": "east-india/3-day-kolkata-heritage",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12254.jpg"
     }
   ],
   "cta": {
@@ -341,7 +341,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/12223.jpg"
   },
   "schema": {
     "type": "TouristTrip",

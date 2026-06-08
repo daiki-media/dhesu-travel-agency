@@ -5,7 +5,7 @@
     "keywords": "5 Days Kashmir Ski + Taj Mahal from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
     "slug": "kashmir/5-day-ski-taj-mahal",
     "canonicalUrl": "/tours/india/kashmir/5-day-ski-taj-mahal",
-    "ogImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/16232.jpg",
     "pkgid": "121"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "/images/gallery/14620.jpg",
+    "heroImage": "/images/gallery/16232.jpg",
     "heroImageAlt": "Kashmir Gulmarg snow and Taj Mahal combination"
   },
   "quickFacts": {
@@ -103,7 +103,7 @@
       {
         "title": "The Taj Mahal at Sunrise",
         "body": "See the Taj Mahal glow at dawn, the white marble shifting through pink and gold. One of travel's truly unforgettable moments.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11036.jpg",
         "imageAlt": "Taj Mahal sunrise Agra"
       },
       {
@@ -300,7 +300,7 @@
       "price": "From RM3,118",
       "duration": "6D5N",
       "slug": "kashmir/6-day-best-of-kashmir-taj",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/10992.jpg"
     },
     {
       "id": "india-8d-golden-triangle-kashmir",
@@ -308,7 +308,7 @@
       "price": "From RM3,688",
       "duration": "8D7N",
       "slug": "north-india/8-day-golden-triangle-kashmir",
-      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/10917.jpg"
     }
   ],
   "cta": {
@@ -318,7 +318,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11034.jpg"
   },
   "schema": {
     "type": "TouristTrip",

@@ -5,7 +5,7 @@
     "keywords": "12 Days Srinagar to Leh Road Trip from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
     "slug": "kashmir/12-day-srinagar-leh-road-trip",
     "canonicalUrl": "/tours/india/kashmir/12-day-srinagar-leh-road-trip",
-    "ogImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/14627.jpg",
     "pkgid": "2360"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/14627.jpg",
     "heroImageAlt": "Srinagar to Leh Ladakh Himalayan road trip"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Pangong Lake",
         "body": "The astonishing high-altitude lake that shifts through shades of blue and turquoise, set against barren mountains at over 4,300 metres. One of the most beautiful sights in the Himalayas.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14623.jpg",
         "imageAlt": "Pangong Lake Ladakh"
       },
       {
         "title": "Ladakh's Monasteries",
         "body": "Ancient Buddhist gompas like Thiksey, Hemis, Lamayuru and Alchi cling to the mountains, full of prayer flags, murals and chanting monks. The spiritual heart of Ladakh.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14624.jpg",
         "imageAlt": "Ladakh Buddhist monastery"
       },
       {
         "title": "Nubra Valley & High Passes",
         "body": "Cross some of the world's highest motorable passes to reach the Nubra Valley, where sand dunes and double-humped Bactrian camels sit beneath snow peaks.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14628.jpg",
         "imageAlt": "Nubra Valley Ladakh sand dunes"
       }
     ]
@@ -373,7 +373,7 @@
       "price": "From RM3,288",
       "duration": "7D6N",
       "slug": "kashmir/7-day-exclusive-escape",
-      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/10335.jpg"
     },
     {
       "id": "india-7d-ladakh",
@@ -381,7 +381,7 @@
       "price": "From RM3,888",
       "duration": "7D6N",
       "slug": "north-india/7-day-ladakh",
-      "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11725.jpg"
     },
     {
       "id": "india-6d-kashmir-taj-mahal",
@@ -389,7 +389,7 @@
       "price": "From RM3,118",
       "duration": "6D5N",
       "slug": "kashmir/6-day-best-of-kashmir-taj",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/10992.jpg"
     }
   ],
   "cta": {
@@ -399,7 +399,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/14627.jpg"
   },
   "schema": {
     "type": "TouristTrip",

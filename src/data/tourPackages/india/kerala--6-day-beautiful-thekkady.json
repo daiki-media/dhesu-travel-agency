@@ -5,7 +5,7 @@
     "keywords": "6 Days Beautiful Kerala + Thekkady from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
     "slug": "kerala/6-day-beautiful-thekkady",
     "canonicalUrl": "/tours/india/kerala/6-day-beautiful-thekkady",
-    "ogImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/11188.jpg",
     "pkgid": "2110"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11188.jpg",
     "heroImageAlt": "Thekkady spice plantations Periyar Kerala"
   },
   "quickFacts": {
@@ -97,13 +97,13 @@
       {
         "title": "Periyar Wildlife & Spice Plantations",
         "body": "A boat cruise on Periyar Lake offers the chance to spot elephants, deer and birdlife, while guided spice plantation walks reveal cardamom, pepper and cinnamon growing wild.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11124.jpg",
         "imageAlt": "Periyar Lake Thekkady wildlife"
       },
       {
         "title": "Munnar Tea Country",
         "body": "Rolling tea estates, cool mountain air and beautiful viewpoints make Munnar a refreshing highlight on the way to Thekkady.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11125.jpg",
         "imageAlt": "Munnar tea estates"
       },
       {
@@ -326,7 +326,7 @@
       "price": "From RM2,398",
       "duration": "8D7N",
       "slug": "kerala/8-day-best-of",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11061.jpg"
     },
     {
       "id": "india-6d-kerala-backwaters",
@@ -342,7 +342,7 @@
       "price": "From RM2,788",
       "duration": "9D8N",
       "slug": "kerala/9-day-kanyakumari",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16312.jpg"
     }
   ],
   "cta": {
@@ -352,7 +352,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11123.jpg"
   },
   "schema": {
     "type": "TouristTrip",

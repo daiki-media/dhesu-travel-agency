@@ -5,7 +5,7 @@
     "keywords": "4 Days Navagraha Temples Tour from Malaysia, India tour package, South India tour package Malaysia, Dhesu travel",
     "slug": "south-india/4-day-navagraha-temples",
     "canonicalUrl": "/tours/india/south-india/4-day-navagraha-temples",
-    "ogImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/514.jpg",
     "pkgid": "2279"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/514.jpg",
     "heroImageAlt": "Navagraha temple Tamil Nadu"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "The Nine Planetary Shrines",
         "body": "Each temple is dedicated to one graha (celestial body), with its own rituals, offerings and remedies. Completing the circuit is believed to balance planetary influences in one's life.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16260.jpg",
         "imageAlt": "Navagraha planetary temple"
       },
       {
         "title": "The Cauvery Delta Temple Belt",
         "body": "Most Navagraha temples cluster around Kumbakonam and Thanjavur, a region dense with ancient Chola temples and rich agricultural beauty.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16261.jpg",
         "imageAlt": "Kumbakonam temple region"
       },
       {
         "title": "Astrology & Ritual Guidance",
         "body": "Your guide helps you understand the significance of each shrine and the traditional offerings, making the pilgrimage meaningful rather than just a series of stops.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16262.jpg",
         "imageAlt": "Temple ritual offerings Tamil Nadu"
       }
     ]
@@ -305,7 +305,7 @@
       "price": "From RM888",
       "duration": "4D3N",
       "slug": "south-india/4-day-tirupati-temples",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/514.jpg"
     },
     {
       "id": "india-6d-arupadai-veedu",
@@ -313,7 +313,7 @@
       "price": "From RM1,538",
       "duration": "6D5N",
       "slug": "south-india/6-day-arupadai-veedu-temples",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14157.jpg"
     },
     {
       "id": "india-7d-arupadai-navagraha",
@@ -321,7 +321,7 @@
       "price": "From RM1,688",
       "duration": "7D6N",
       "slug": "south-india/7-day-arupadai-navagraha",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14160.jpg"
     }
   ],
   "cta": {
@@ -331,7 +331,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/16259.jpg"
   },
   "schema": {
     "type": "TouristTrip",

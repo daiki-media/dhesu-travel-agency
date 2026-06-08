@@ -5,7 +5,7 @@
     "keywords": "4 Days Shirdi, Nashik & Shani Shingnapur from Malaysia, India tour package, West India tour package Malaysia, Dhesu travel",
     "slug": "west-india/4-day-shirdi-nashik-shani",
     "canonicalUrl": "/tours/india/west-india/4-day-shirdi-nashik-shani",
-    "ogImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/14030.jpg",
     "pkgid": "2271"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/14030.jpg",
     "heroImageAlt": "Shirdi Sai Baba and Nashik pilgrimage Maharashtra"
   },
   "quickFacts": {
@@ -97,19 +97,19 @@
       {
         "title": "Sai Baba's Shirdi",
         "body": "The Samadhi Mandir, Dwarkamai and the sacred sites of Shirdi, the spiritual home of Sai Baba, with its moving daily aartis.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14031.jpg",
         "imageAlt": "Sai Baba Samadhi Mandir Shirdi"
       },
       {
         "title": "Nashik & Trimbakeshwar",
         "body": "The holy city on the Godavari, host of the Kumbh Mela, and the nearby Trimbakeshwar Jyotirlinga, one of the twelve most sacred Shiva temples in India.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14030.jpg",
         "imageAlt": "Trimbakeshwar temple Nashik"
       },
       {
         "title": "Shani Shingnapur",
         "body": "The famous village temple to Lord Shani, where legend holds nobody locks their doors, trusting in Shani's protection.",
-        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/14032.jpg",
         "imageAlt": "Shani Shingnapur temple"
       }
     ]
@@ -306,7 +306,7 @@
       "price": "From RM588",
       "duration": "3D2N",
       "slug": "west-india/3-day-shirdi-pilgrimage",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/14032.jpg"
     },
     {
       "id": "india-4d-mumbai-bollywood",
@@ -314,7 +314,7 @@
       "price": "From RM1,298",
       "duration": "4D3N",
       "slug": "west-india/4-day-mumbai-bollywood",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12284.jpg"
     },
     {
       "id": "india-5d-mumbai-goa",
@@ -322,7 +322,7 @@
       "price": "From RM2,088",
       "duration": "5D4N",
       "slug": "west-india/5-day-mumbai-goa",
-      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/12266.jpg"
     }
   ],
   "cta": {
@@ -332,7 +332,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/14029.jpg"
   },
   "schema": {
     "type": "TouristTrip",

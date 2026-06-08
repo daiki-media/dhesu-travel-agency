@@ -5,7 +5,7 @@
     "keywords": "8 Days Best of Kerala: Munnar & Thekkady from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
     "slug": "kerala/8-day-best-of",
     "canonicalUrl": "/tours/india/kerala/8-day-best-of",
-    "ogImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "ogImage": "/images/gallery/16312.jpg",
     "pkgid": "147"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/16312.jpg",
     "heroImageAlt": "Kerala tea hills and backwaters complete tour"
   },
   "quickFacts": {
@@ -97,7 +97,7 @@
       {
         "title": "Munnar & Thekkady",
         "body": "The tea hills of Munnar and the spice country and wildlife of Thekkady, with a Periyar Lake cruise, form the cool, green heart of the trip.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11062.jpg",
         "imageAlt": "Munnar and Thekkady Kerala hills"
       },
       {
@@ -109,7 +109,7 @@
       {
         "title": "Heritage, Ayurveda & Leisure",
         "body": "Fort Kochi's heritage, time for an Ayurvedic treatment, and the breathing room to actually relax. Eight days lets Kerala unfold at its own pace.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11065.jpg",
         "imageAlt": "Kerala Ayurveda and leisure"
       }
     ]
@@ -356,7 +356,7 @@
       "price": "From RM2,788",
       "duration": "9D8N",
       "slug": "kerala/9-day-kanyakumari",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16312.jpg"
     },
     {
       "id": "india-6d-kerala-thekkady",
@@ -364,7 +364,7 @@
       "price": "From RM1,928",
       "duration": "6D5N",
       "slug": "kerala/6-day-beautiful-thekkady",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11123.jpg"
     }
   ],
   "cta": {
@@ -374,7 +374,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11061.jpg"
   },
   "schema": {
     "type": "TouristTrip",

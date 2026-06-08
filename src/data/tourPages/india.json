@@ -13,9 +13,18 @@
     "body": "The India at the foot of the Taj Mahal at dawn is a different India from the Kerala backwaters, which is different again from the ancient ghats of Varanasi. It asks a lot of you, and gives back far more.",
     "bgImage": "/images/gallery/14634.png",
     "stats": [
-      { "value": "35+", "label": "Years Sending Malaysians to India" },
-      { "value": "1988", "label": "Trusted Since" },
-      { "value": "MATTA", "label": "& IATA Registered" }
+      {
+        "value": "35+",
+        "label": "Years Sending Malaysians to India"
+      },
+      {
+        "value": "1988",
+        "label": "Trusted Since"
+      },
+      {
+        "value": "MATTA",
+        "label": "& IATA Registered"
+      }
     ]
   },
   "why": {
@@ -27,29 +36,45 @@
         "icon": "temple",
         "title": "The Golden Triangle",
         "body": "Where most first-timers start. Delhi's old-city lanes and spice markets, the Taj Mahal in Agra at sunrise turning gold, and Jaipur's Pink City forts and bazaars. More beautiful in person than any photograph.",
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
-        "places": ["Taj Mahal", "Amber Fort", "Chandni Chowk"]
+        "image": "/images/gallery/12336.jpg",
+        "places": [
+          "Taj Mahal",
+          "Amber Fort",
+          "Chandni Chowk"
+        ]
       },
       {
         "icon": "mountain",
         "title": "Kashmir Stops People Mid-Sentence",
         "body": "Wooden houseboats and shikaras gliding across Dal Lake at dawn. The impossibly green meadows of Gulmarg in summer, deep snow in winter, and the pine valleys of Pahalgam. It should be on every India itinerary.",
-        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&auto=format&fit=crop",
-        "places": ["Dal Lake", "Gulmarg", "Pahalgam"]
+        "image": "/images/gallery/10992.jpg",
+        "places": [
+          "Dal Lake",
+          "Gulmarg",
+          "Pahalgam"
+        ]
       },
       {
         "icon": "wave",
         "title": "Kerala Slows Time Right Down",
         "body": "Drift through hundreds of kilometres of backwater channels on a converted rice barge, palm trees leaning over the water and kingfishers on the banks. Up in the hills, Munnar's tea plantations roll on as far as you can see.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop",
-        "places": ["Alleppey Backwaters", "Munnar Tea Hills", "Cochin"]
+        "image": "/images/gallery/16301.jpg",
+        "places": [
+          "Alleppey Backwaters",
+          "Munnar Tea Hills",
+          "Cochin"
+        ]
       },
       {
         "icon": "food",
         "title": "Varanasi Will Change You",
         "body": "One of the oldest living cities on earth. The Ganga Aarti at Dashashwamedh Ghat, with fire, flowers and bells at sunset, has been performed every day for centuries. Confronting, deeply real, and impossible to forget.",
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
-        "places": ["Ganga Aarti", "Dashashwamedh Ghat", "Rishikesh"]
+        "image": "/images/gallery/14014.jpg",
+        "places": [
+          "Ganga Aarti",
+          "Dashashwamedh Ghat",
+          "Rishikesh"
+        ]
       }
     ]
   },
@@ -63,7 +88,7 @@
         "tag": "Monuments & History",
         "tagColor": "orange",
         "description": "Delhi, Agra and Jaipur. Mughal monuments, royal palaces and the Taj Mahal. The classic first-timer route through the north.",
-        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/16336.jpg",
         "vibe": "Iconic",
         "href": "/tours/india/golden-triangle"
       },
@@ -72,7 +97,7 @@
         "tag": "Lakes & Mountains",
         "tagColor": "blue",
         "description": "Dal Lake houseboats, alpine meadows and snow in winter. The Himalayan north at its most beautiful, cool even in summer.",
-        "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/10335.jpg",
         "vibe": "Serene",
         "href": "/tours/india/kashmir"
       },
@@ -81,7 +106,7 @@
         "tag": "Backwaters & Spice",
         "tagColor": "green",
         "description": "Houseboats, tea plantations and the slow green south between the Western Ghats and the Arabian Sea. Where the pace finally drops.",
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/11199.jpg",
         "vibe": "Tranquil",
         "href": "/tours/india/kerala"
       },
@@ -90,7 +115,7 @@
         "tag": "Hill Stations",
         "tagColor": "purple",
         "description": "Colonial hill towns, the Shimla toy train and the high snow fields of the Rohtang Pass beyond Manali. Lower-Himalayan air and silence.",
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/11535.jpg",
         "vibe": "Cool",
         "href": "/tours/india/north-india"
       }
@@ -174,7 +199,7 @@
     "phone": "+6019 336 4465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1920&auto=format&fit=crop"
+    "bgImage": "/images/gallery/12336.jpg"
   },
   "packages": {
     "sectionLabel": "Our Packages",
@@ -193,8 +218,13 @@
         "saving": "Save RM159 per couple",
         "tag": "Budget",
         "tagColor": "gray",
-        "highlights": ["Chennai City Tour", "Mahabalipuram Temples", "Local Shopping", "English-Speaking Guide"],
-        "image": "/images/gallery/14620.jpg",
+        "highlights": [
+          "Chennai City Tour",
+          "Mahabalipuram Temples",
+          "Local Shopping",
+          "English-Speaking Guide"
+        ],
+        "image": "/images/gallery/13281.jpg",
         "pkgid": "67",
         "popular": false
       },
@@ -209,8 +239,13 @@
         "saving": "Save RM159 per couple",
         "tag": "Spiritual",
         "tagColor": "gold",
-        "highlights": ["Golden Temple Visit", "Wagah Border Ceremony", "Punjabi Culture", "English-Speaking Guide"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Golden Temple Visit",
+          "Wagah Border Ceremony",
+          "Punjabi Culture",
+          "English-Speaking Guide"
+        ],
+        "image": "/images/gallery/11723.jpg",
         "pkgid": "88",
         "popular": false
       },
@@ -225,8 +260,13 @@
         "saving": "Save RM199 per couple",
         "tag": "City Break",
         "tagColor": "teal",
-        "highlights": ["Lalbagh Botanical Garden", "Bangalore Palace", "Tipu Sultan Fort", "IT City Tour"],
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Lalbagh Botanical Garden",
+          "Bangalore Palace",
+          "Tipu Sultan Fort",
+          "IT City Tour"
+        ],
+        "image": "/images/gallery/16262.jpg",
         "pkgid": "2461",
         "popular": false
       },
@@ -241,8 +281,13 @@
         "saving": "Save RM199 per couple",
         "tag": "Heritage",
         "tagColor": "orange",
-        "highlights": ["Charminar", "Golconda Fort", "Hussain Sagar Lake", "Pearl Market"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Charminar",
+          "Golconda Fort",
+          "Hussain Sagar Lake",
+          "Pearl Market"
+        ],
+        "image": "/images/gallery/1438.jpg",
         "pkgid": "2464",
         "popular": false
       },
@@ -257,8 +302,13 @@
         "saving": "Save RM235 per couple",
         "tag": "Pilgrimage",
         "tagColor": "saffron",
-        "highlights": ["Sai Baba Temple Shirdi", "Shani Shingnapur Temple", "Devotional Experience", "English-Speaking Guide"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Sai Baba Temple Shirdi",
+          "Shani Shingnapur Temple",
+          "Devotional Experience",
+          "English-Speaking Guide"
+        ],
+        "image": "/images/gallery/14032.jpg",
         "pkgid": "2272",
         "popular": false
       },
@@ -273,8 +323,13 @@
         "saving": "Save RM239 per couple",
         "tag": "Culture",
         "tagColor": "green",
-        "highlights": ["Kathakali Performance", "Fort Kochi Heritage", "Spice Markets", "Colonial Architecture"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Kathakali Performance",
+          "Fort Kochi Heritage",
+          "Spice Markets",
+          "Colonial Architecture"
+        ],
+        "image": "/images/gallery/11193.jpg",
         "pkgid": "2111",
         "popular": false
       },
@@ -289,8 +344,13 @@
         "saving": "Save RM279 per couple",
         "tag": "Heritage",
         "tagColor": "blue",
-        "highlights": ["Victoria Memorial", "Howrah Bridge", "Dakshineswar Temple", "Colonial Bengal"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Victoria Memorial",
+          "Howrah Bridge",
+          "Dakshineswar Temple",
+          "Colonial Bengal"
+        ],
+        "image": "/images/gallery/12254.jpg",
         "pkgid": "78",
         "popular": false
       },
@@ -305,8 +365,13 @@
         "saving": "Save RM279 per couple",
         "tag": "Spiritual",
         "tagColor": "saffron",
-        "highlights": ["Ganga Aarti Ceremony", "Sunrise Boat Ride", "Varanasi Ghats", "Sacred Temple Visits"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Ganga Aarti Ceremony",
+          "Sunrise Boat Ride",
+          "Varanasi Ghats",
+          "Sacred Temple Visits"
+        ],
+        "image": "/images/gallery/14014.jpg",
         "pkgid": "2207",
         "popular": false
       },
@@ -321,8 +386,13 @@
         "saving": "Save RM279 per couple",
         "tag": "Pilgrimage",
         "tagColor": "saffron",
-        "highlights": ["Ram Janmabhoomi Temple", "Guptar Ghat", "Hanuman Garhi", "Expert Guide Included"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Ram Janmabhoomi Temple",
+          "Guptar Ghat",
+          "Hanuman Garhi",
+          "Expert Guide Included"
+        ],
+        "image": "/images/gallery/15564.jpg",
         "pkgid": "2296",
         "popular": false
       },
@@ -337,8 +407,13 @@
         "saving": "Save RM279 per couple",
         "tag": "Pink City",
         "tagColor": "pink",
-        "highlights": ["Amber Fort", "City Palace", "Hawa Mahal", "Rajasthani Bazaars"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Amber Fort",
+          "City Palace",
+          "Hawa Mahal",
+          "Rajasthani Bazaars"
+        ],
+        "image": "/images/gallery/16336.jpg",
         "pkgid": "2465",
         "popular": false
       },
@@ -353,8 +428,13 @@
         "saving": "Save RM355 per couple",
         "tag": "Temple Trail",
         "tagColor": "orange",
-        "highlights": ["Tirupati Balaji Temple", "Thiruvannamalai Temple", "Kanchipuram Silk", "Temple Rituals"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Tirupati Balaji Temple",
+          "Thiruvannamalai Temple",
+          "Kanchipuram Silk",
+          "Temple Rituals"
+        ],
+        "image": "/images/gallery/15194.jpg",
         "pkgid": "82",
         "popular": false
       },
@@ -369,8 +449,13 @@
         "saving": "Save RM355 per couple",
         "tag": "Iconic",
         "tagColor": "red",
-        "highlights": ["Taj Mahal Sunrise", "Agra Fort", "Fatehpur Sikri", "Mughal Architecture"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Taj Mahal Sunrise",
+          "Agra Fort",
+          "Fatehpur Sikri",
+          "Mughal Architecture"
+        ],
+        "image": "/images/gallery/12336.jpg",
         "pkgid": "103",
         "popular": false
       },
@@ -385,8 +470,13 @@
         "saving": "Save RM355 per couple",
         "tag": "Pilgrimage",
         "tagColor": "saffron",
-        "highlights": ["9 Celestial Temples", "Suryanar Koil", "Traditional Rituals", "Tamil Nadu Heritage"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "9 Celestial Temples",
+          "Suryanar Koil",
+          "Traditional Rituals",
+          "Tamil Nadu Heritage"
+        ],
+        "image": "/images/gallery/514.jpg",
         "pkgid": "2279",
         "popular": false
       },
@@ -401,8 +491,13 @@
         "saving": "Save RM359 per couple",
         "tag": "Heritage",
         "tagColor": "orange",
-        "highlights": ["Charminar", "Golconda Fort", "Pearl Shopping", "Hyderabadi Cuisine"],
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Charminar",
+          "Golconda Fort",
+          "Pearl Shopping",
+          "Hyderabadi Cuisine"
+        ],
+        "image": "/images/gallery/15196.jpg",
         "pkgid": "358",
         "popular": false
       },
@@ -417,8 +512,13 @@
         "saving": "Save RM395 per couple",
         "tag": "Relaxing",
         "tagColor": "green",
-        "highlights": ["Alleppey Backwaters", "Cochin Heritage", "Spice Plantations", "Kathakali Show"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Alleppey Backwaters",
+          "Cochin Heritage",
+          "Spice Plantations",
+          "Kathakali Show"
+        ],
+        "image": "/images/gallery/11194.jpg",
         "pkgid": "99",
         "popular": false
       },
@@ -433,8 +533,13 @@
         "saving": "Save RM395 per couple",
         "tag": "Spiritual",
         "tagColor": "saffron",
-        "highlights": ["Ganga Aarti Haridwar", "Rishikesh Yoga", "Delhi Old City", "Ayurvedic Heritage"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Ganga Aarti Haridwar",
+          "Rishikesh Yoga",
+          "Delhi Old City",
+          "Ayurvedic Heritage"
+        ],
+        "image": "/images/gallery/11718.jpg",
         "pkgid": "100",
         "popular": false
       },
@@ -449,8 +554,13 @@
         "saving": "Save RM435 per couple",
         "tag": "Scenic",
         "tagColor": "teal",
-        "highlights": ["Mysore Palace", "Ooty Toy Train", "Tippu Sultan Palace", "Nilgiri Hills"],
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Mysore Palace",
+          "Ooty Toy Train",
+          "Tippu Sultan Palace",
+          "Nilgiri Hills"
+        ],
+        "image": "/images/gallery/11225.jpg",
         "pkgid": "64",
         "popular": false
       },
@@ -465,8 +575,13 @@
         "saving": "Save RM435 per couple",
         "tag": "Beach & City",
         "tagColor": "blue",
-        "highlights": ["Mahabalipuram Beach Resort", "Shore Temple", "Chennai City Tour", "Coastal Seafood"],
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Mahabalipuram Beach Resort",
+          "Shore Temple",
+          "Chennai City Tour",
+          "Coastal Seafood"
+        ],
+        "image": "/images/gallery/14160.jpg",
         "pkgid": "2189",
         "popular": false
       },
@@ -481,8 +596,13 @@
         "saving": "Save RM435 per couple",
         "tag": "Budget Pick",
         "tagColor": "gray",
-        "highlights": ["Dal Lake Houseboat", "Mughal Gardens", "Srinagar Sightseeing", "English-Speaking Guide"],
-        "image": "/images/gallery/14620.jpg",
+        "highlights": [
+          "Dal Lake Houseboat",
+          "Mughal Gardens",
+          "Srinagar Sightseeing",
+          "English-Speaking Guide"
+        ],
+        "image": "/images/gallery/12930.jpg",
         "pkgid": "2466",
         "popular": false
       },
@@ -497,8 +617,13 @@
         "saving": "Save RM515 per couple",
         "tag": "Hill Station",
         "tagColor": "purple",
-        "highlights": ["Shimla Mall Road", "Chandigarh Rock Garden", "Himalayan Views", "Colonial Architecture"],
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Shimla Mall Road",
+          "Chandigarh Rock Garden",
+          "Himalayan Views",
+          "Colonial Architecture"
+        ],
+        "image": "/images/gallery/11695.jpg",
         "pkgid": "120",
         "popular": false
       },
@@ -513,8 +638,13 @@
         "saving": "Save RM515 per couple",
         "tag": "Spiritual",
         "tagColor": "saffron",
-        "highlights": ["Triveni Sangam Prayagraj", "Ganga Aarti", "Sarnath Buddhist Site", "Sacred Ghats"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Triveni Sangam Prayagraj",
+          "Ganga Aarti",
+          "Sarnath Buddhist Site",
+          "Sacred Ghats"
+        ],
+        "image": "/images/gallery/15212.jpg",
         "pkgid": "2270",
         "popular": false
       },
@@ -529,8 +659,13 @@
         "saving": "Save RM519 per couple",
         "tag": "City Life",
         "tagColor": "blue",
-        "highlights": ["Bollywood Studio Tour", "Gateway of India", "Marine Drive", "Dharavi Experience"],
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Bollywood Studio Tour",
+          "Gateway of India",
+          "Marine Drive",
+          "Dharavi Experience"
+        ],
+        "image": "/images/gallery/12267.jpg",
         "pkgid": "102",
         "popular": false
       },
@@ -545,8 +680,13 @@
         "saving": "Save RM555 per couple",
         "tag": "Most Popular",
         "tagColor": "red",
-        "highlights": ["Delhi Old & New City", "Taj Mahal Sunrise", "Amber Fort Jaipur", "English-Speaking Guide"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Delhi Old & New City",
+          "Taj Mahal Sunrise",
+          "Amber Fort Jaipur",
+          "English-Speaking Guide"
+        ],
+        "image": "/images/gallery/12300.jpg",
         "pkgid": "128",
         "popular": true
       },
@@ -561,8 +701,13 @@
         "saving": "Save RM555 per couple",
         "tag": "Muslim Friendly",
         "tagColor": "green",
-        "highlights": ["Halal Meals Included", "Taj Mahal Sunrise", "Delhi Old City", "Jaipur Pink City"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Halal Meals Included",
+          "Taj Mahal Sunrise",
+          "Delhi Old City",
+          "Jaipur Pink City"
+        ],
+        "image": "/images/gallery/12305.jpg",
         "pkgid": "2074",
         "popular": false
       },
@@ -577,8 +722,13 @@
         "saving": "Save RM555 per couple",
         "tag": "Relaxing",
         "tagColor": "green",
-        "highlights": ["Alleppey Backwaters Cruise", "Fort Kochi Heritage", "Coimbatore Temples", "Daily Breakfast"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Alleppey Backwaters Cruise",
+          "Fort Kochi Heritage",
+          "Coimbatore Temples",
+          "Daily Breakfast"
+        ],
+        "image": "/images/gallery/11199.jpg",
         "pkgid": "2459",
         "popular": false
       },
@@ -593,8 +743,13 @@
         "saving": "Save RM555 per couple",
         "tag": "Scenic",
         "tagColor": "purple",
-        "highlights": ["Golden Temple Amritsar", "Dharamshala Monasteries", "McLeod Ganj", "Dhauladhar Mountains"],
-        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Golden Temple Amritsar",
+          "Dharamshala Monasteries",
+          "McLeod Ganj",
+          "Dhauladhar Mountains"
+        ],
+        "image": "/images/gallery/11725.jpg",
         "pkgid": "2467",
         "popular": false
       },
@@ -609,8 +764,13 @@
         "saving": "Save RM595 per couple",
         "tag": "Relaxing",
         "tagColor": "green",
-        "highlights": ["Cochin Heritage", "Kovalam Sunset", "Alleppey Backwaters", "Trivandrum Tour"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Cochin Heritage",
+          "Kovalam Sunset",
+          "Alleppey Backwaters",
+          "Trivandrum Tour"
+        ],
+        "image": "/images/gallery/16301.jpg",
         "pkgid": "105",
         "popular": false
       },
@@ -625,8 +785,13 @@
         "saving": "Save RM595 per couple",
         "tag": "Pilgrimage",
         "tagColor": "saffron",
-        "highlights": ["Sai Baba Shrine", "Nashik Vineyards", "Shani Shingnapur Temple", "Trimbakeshwar Temple"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Sai Baba Shrine",
+          "Nashik Vineyards",
+          "Shani Shingnapur Temple",
+          "Trimbakeshwar Temple"
+        ],
+        "image": "/images/gallery/14030.jpg",
         "pkgid": "2271",
         "popular": false
       },
@@ -641,8 +806,13 @@
         "saving": "Save RM615 per couple",
         "tag": "Pilgrimage",
         "tagColor": "saffron",
-        "highlights": ["6 Murugan Sacred Abodes", "Tamil Nadu Temples", "Expert Guide", "Spiritual Circuit"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "6 Murugan Sacred Abodes",
+          "Tamil Nadu Temples",
+          "Expert Guide",
+          "Spiritual Circuit"
+        ],
+        "image": "/images/gallery/14158.jpg",
         "pkgid": "2280",
         "popular": false
       },
@@ -657,8 +827,13 @@
         "saving": "Save RM635 per couple",
         "tag": "Flights Included",
         "tagColor": "blue",
-        "highlights": ["Domestic Flights Included", "Ganga Aarti Ceremony", "Varanasi Ghats", "Sacred Rituals"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Domestic Flights Included",
+          "Ganga Aarti Ceremony",
+          "Varanasi Ghats",
+          "Sacred Rituals"
+        ],
+        "image": "/images/gallery/11669.jpg",
         "pkgid": "2077",
         "popular": false
       },
@@ -673,8 +848,13 @@
         "saving": "Save RM635 per couple",
         "tag": "Spiritual",
         "tagColor": "saffron",
-        "highlights": ["Varanasi Ganga Aarti", "Ayodhya Ram Mandir", "Guptar Ghat", "Sacred Heritage"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Varanasi Ganga Aarti",
+          "Ayodhya Ram Mandir",
+          "Guptar Ghat",
+          "Sacred Heritage"
+        ],
+        "image": "/images/gallery/11716.jpg",
         "pkgid": "2295",
         "popular": false
       },
@@ -689,8 +869,13 @@
         "saving": "Save RM639 per couple",
         "tag": "Himalayan",
         "tagColor": "purple",
-        "highlights": ["Rohtang Pass", "Hadimba Temple", "Beas River Valley", "Mountain Resorts"],
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Rohtang Pass",
+          "Hadimba Temple",
+          "Beas River Valley",
+          "Mountain Resorts"
+        ],
+        "image": "/images/gallery/11535.jpg",
         "pkgid": "136",
         "popular": false
       },
@@ -705,8 +890,13 @@
         "saving": "Save RM639 per couple",
         "tag": "Temple Tour",
         "tagColor": "orange",
-        "highlights": ["Dravidian Temples", "Rock Fort Trichy", "Brihadeeswara Temple", "Tamil Heritage"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Dravidian Temples",
+          "Rock Fort Trichy",
+          "Brihadeeswara Temple",
+          "Tamil Heritage"
+        ],
+        "image": "/images/gallery/16254.jpg",
         "pkgid": "2281",
         "popular": false
       },
@@ -721,8 +911,13 @@
         "saving": "Save RM667 per couple",
         "tag": "Multi-City",
         "tagColor": "teal",
-        "highlights": ["Trichy, Ooty & Mysore", "Bangalore & Tirupati", "Mysore Palace", "South Indian Cuisine"],
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Trichy, Ooty & Mysore",
+          "Bangalore & Tirupati",
+          "Mysore Palace",
+          "South Indian Cuisine"
+        ],
+        "image": "/images/gallery/16259.jpg",
         "pkgid": "470",
         "popular": false
       },
@@ -737,8 +932,13 @@
         "saving": "Save RM675 per couple",
         "tag": "Scenic",
         "tagColor": "green",
-        "highlights": ["Overnight Houseboat Cruise", "Munnar Tea Estates", "Cochin Heritage", "Backwaters Village Life"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Overnight Houseboat Cruise",
+          "Munnar Tea Estates",
+          "Cochin Heritage",
+          "Backwaters Village Life"
+        ],
+        "image": "/images/gallery/16324.jpg",
         "pkgid": "173",
         "popular": false
       },
@@ -753,8 +953,13 @@
         "saving": "Save RM675 per couple",
         "tag": "Pilgrimage",
         "tagColor": "saffron",
-        "highlights": ["Murugan Sacred Abodes", "Navagraha Temples", "Tamil Nadu Heritage", "Expert Guide"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Murugan Sacred Abodes",
+          "Navagraha Temples",
+          "Tamil Nadu Heritage",
+          "Expert Guide"
+        ],
+        "image": "/images/gallery/11220.jpg",
         "pkgid": "2283",
         "popular": false
       },
@@ -769,8 +974,13 @@
         "saving": "Save RM755 per couple",
         "tag": "Best Seller",
         "tagColor": "red",
-        "highlights": ["Taj Mahal", "Golden Temple Amritsar", "Jaipur Pink City", "Delhi Monuments"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Taj Mahal",
+          "Golden Temple Amritsar",
+          "Jaipur Pink City",
+          "Delhi Monuments"
+        ],
+        "image": "/images/gallery/11617.jpg",
         "pkgid": "209",
         "popular": true
       },
@@ -785,8 +995,13 @@
         "saving": "Save RM771 per couple",
         "tag": "Wildlife",
         "tagColor": "green",
-        "highlights": ["Periyar Tiger Reserve", "Periyar Lake Cruise", "Munnar Tea Hills", "Alleppey Backwaters"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Periyar Tiger Reserve",
+          "Periyar Lake Cruise",
+          "Munnar Tea Hills",
+          "Alleppey Backwaters"
+        ],
+        "image": "/images/gallery/11188.jpg",
         "pkgid": "2110",
         "popular": false
       },
@@ -801,8 +1016,13 @@
         "saving": "Save RM799 per couple",
         "tag": "Grand Tour",
         "tagColor": "teal",
-        "highlights": ["Murugan & Vishnu Temples", "Cultural Heritage Circuit", "South Indian Architecture", "Expert Guide"],
-        "image": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Murugan & Vishnu Temples",
+          "Cultural Heritage Circuit",
+          "South Indian Architecture",
+          "Expert Guide"
+        ],
+        "image": "/images/gallery/1434.jpg",
         "pkgid": "152",
         "popular": false
       },
@@ -817,8 +1037,13 @@
         "saving": "Save RM835 per couple",
         "tag": "Flights Included",
         "tagColor": "blue",
-        "highlights": ["Mumbai City Tour", "Train to Goa", "Goa Beaches", "Gateway of India"],
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Mumbai City Tour",
+          "Train to Goa",
+          "Goa Beaches",
+          "Gateway of India"
+        ],
+        "image": "/images/gallery/12283.jpg",
         "pkgid": "116",
         "popular": false
       },
@@ -833,8 +1058,13 @@
         "saving": "Save RM875 per couple",
         "tag": "Himalayan",
         "tagColor": "purple",
-        "highlights": ["Rohtang Pass", "Shimla Toy Train", "Hadimba Temple", "Mountain Resorts"],
-        "image": "https://images.unsplash.com/photo-1495556650867-99590cea3657?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Rohtang Pass",
+          "Shimla Toy Train",
+          "Hadimba Temple",
+          "Mountain Resorts"
+        ],
+        "image": "/images/gallery/11504.jpg",
         "pkgid": "658",
         "popular": false
       },
@@ -849,8 +1079,13 @@
         "saving": "Save RM955 per couple",
         "tag": "Adventure",
         "tagColor": "blue",
-        "highlights": ["Gulmarg Ski Resort", "Gondola Cable Car Ride", "Dal Lake Houseboat", "Pahalgam Saffron Fields"],
-        "image": "/images/gallery/14620.jpg",
+        "highlights": [
+          "Gulmarg Ski Resort",
+          "Gondola Cable Car Ride",
+          "Dal Lake Houseboat",
+          "Pahalgam Saffron Fields"
+        ],
+        "image": "/images/gallery/11042.jpg",
         "pkgid": "2166",
         "popular": false
       },
@@ -865,8 +1100,13 @@
         "saving": "Save RM955 per couple",
         "tag": "Comfort",
         "tagColor": "red",
-        "highlights": ["2 Nights Each City", "Taj Mahal Sunrise", "Amber Fort Jaipur", "Expert Private Guide"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "2 Nights Each City",
+          "Taj Mahal Sunrise",
+          "Amber Fort Jaipur",
+          "Expert Private Guide"
+        ],
+        "image": "/images/gallery/14633.jpg",
         "pkgid": "2317",
         "popular": false
       },
@@ -881,8 +1121,13 @@
         "saving": "Save RM959 per couple",
         "tag": "Complete Kerala",
         "tagColor": "green",
-        "highlights": ["Cochin, Munnar & Thekkady", "Alleppey Houseboat", "Trivandrum & Kovalam", "Daily Breakfast"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Cochin, Munnar & Thekkady",
+          "Alleppey Houseboat",
+          "Trivandrum & Kovalam",
+          "Daily Breakfast"
+        ],
+        "image": "/images/gallery/16312.jpg",
         "pkgid": "147",
         "popular": false
       },
@@ -897,8 +1142,13 @@
         "saving": "Save RM959 per couple",
         "tag": "Complete Kerala",
         "tagColor": "green",
-        "highlights": ["Full Kerala Circuit", "Ayurvedic Experience", "Periyar Wildlife Reserve", "Backwaters Overnight"],
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Full Kerala Circuit",
+          "Ayurvedic Experience",
+          "Periyar Wildlife Reserve",
+          "Backwaters Overnight"
+        ],
+        "image": "/images/gallery/11189.jpg",
         "pkgid": "2457",
         "popular": false
       },
@@ -913,8 +1163,13 @@
         "saving": "Save RM995 per couple",
         "tag": "Soul-Searching",
         "tagColor": "saffron",
-        "highlights": ["Ayodhya Ram Mandir", "Varanasi Ganga Aarti", "Rishikesh Ashrams", "Sacred India Circuit"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Ayodhya Ram Mandir",
+          "Varanasi Ganga Aarti",
+          "Rishikesh Ashrams",
+          "Sacred India Circuit"
+        ],
+        "image": "/images/gallery/11715.jpg",
         "pkgid": "2297",
         "popular": false
       },
@@ -929,8 +1184,13 @@
         "saving": "Save RM1,035 per couple",
         "tag": "Popular",
         "tagColor": "blue",
-        "highlights": ["Dal Lake Houseboat", "Gulmarg Cable Car", "Saffron Fields", "Delhi Shopping Bazaars"],
-        "image": "/images/gallery/14620.jpg",
+        "highlights": [
+          "Dal Lake Houseboat",
+          "Gulmarg Cable Car",
+          "Saffron Fields",
+          "Delhi Shopping Bazaars"
+        ],
+        "image": "/images/gallery/10967.jpg",
         "pkgid": "114",
         "popular": false
       },
@@ -945,8 +1205,13 @@
         "saving": "Save RM1,039 per couple",
         "tag": "Extended",
         "tagColor": "purple",
-        "highlights": ["Taj Mahal & Amber Fort", "Shimla Hill Resort", "Himalayan Views", "Toy Train Ride"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Taj Mahal & Amber Fort",
+          "Shimla Hill Resort",
+          "Himalayan Views",
+          "Toy Train Ride"
+        ],
+        "image": "/images/gallery/11690.jpg",
         "pkgid": "177",
         "popular": false
       },
@@ -961,8 +1226,13 @@
         "saving": "Save RM1,115 per couple",
         "tag": "Grand Kerala",
         "tagColor": "green",
-        "highlights": ["Kanyakumari Sunrise", "Alleppey Houseboat", "Munnar Tea Gardens", "Kovalam Beach"],
-        "image": "/images/gallery/12929.jpg",
+        "highlights": [
+          "Kanyakumari Sunrise",
+          "Alleppey Houseboat",
+          "Munnar Tea Gardens",
+          "Kovalam Beach"
+        ],
+        "image": "/images/gallery/11190.jpg",
         "pkgid": "2458",
         "popular": false
       },
@@ -977,8 +1247,13 @@
         "saving": "Save RM1,119 per couple",
         "tag": "Best Combo",
         "tagColor": "blue",
-        "highlights": ["Gulmarg Skiing", "Gondola Cable Car", "Taj Mahal Agra", "Kashmir + North India"],
-        "image": "/images/gallery/14620.jpg",
+        "highlights": [
+          "Gulmarg Skiing",
+          "Gondola Cable Car",
+          "Taj Mahal Agra",
+          "Kashmir + North India"
+        ],
+        "image": "/images/gallery/16232.jpg",
         "pkgid": "121",
         "popular": false
       },
@@ -993,8 +1268,13 @@
         "saving": "Save RM1,195 per couple",
         "tag": "First-Timer Pick",
         "tagColor": "red",
-        "highlights": ["Taj Mahal", "Jaipur Fort", "Rohtang Pass Manali", "Golden Triangle + Himalayas"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Taj Mahal",
+          "Jaipur Fort",
+          "Rohtang Pass Manali",
+          "Golden Triangle + Himalayas"
+        ],
+        "image": "/images/gallery/11428.jpg",
         "pkgid": "2076",
         "popular": false
       },
@@ -1009,8 +1289,13 @@
         "saving": "Save RM1,247 per couple",
         "tag": "Scenic",
         "tagColor": "blue",
-        "highlights": ["Kashmir Valley", "Dal Lake Houseboat", "Taj Mahal Sunrise", "Gulmarg Meadows"],
-        "image": "/images/gallery/14620.jpg",
+        "highlights": [
+          "Kashmir Valley",
+          "Dal Lake Houseboat",
+          "Taj Mahal Sunrise",
+          "Gulmarg Meadows"
+        ],
+        "image": "/images/gallery/12934.jpg",
         "pkgid": "2071",
         "popular": false
       },
@@ -1025,8 +1310,13 @@
         "saving": "Save RM1,315 per couple",
         "tag": "Premium",
         "tagColor": "purple",
-        "highlights": ["Dal Lake Houseboat", "Gulmarg Overnight", "Pahalgam Valley", "Private Tour"],
-        "image": "/images/gallery/14620.jpg",
+        "highlights": [
+          "Dal Lake Houseboat",
+          "Gulmarg Overnight",
+          "Pahalgam Valley",
+          "Private Tour"
+        ],
+        "image": "/images/gallery/10335.jpg",
         "pkgid": "2072",
         "popular": false
       },
@@ -1041,8 +1331,13 @@
         "saving": "Save RM1,395 per couple",
         "tag": "Desert Adventure",
         "tagColor": "orange",
-        "highlights": ["Rajasthan Desert Camp", "Camel Safari", "Royal Palace Stays", "Thar Desert Sunset"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Rajasthan Desert Camp",
+          "Camel Safari",
+          "Royal Palace Stays",
+          "Thar Desert Sunset"
+        ],
+        "image": "/images/gallery/10880.jpg",
         "pkgid": "153",
         "popular": false
       },
@@ -1057,8 +1352,13 @@
         "saving": "Save RM1,475 per couple",
         "tag": "Ultimate India",
         "tagColor": "red",
-        "highlights": ["Taj Mahal & Amber Fort", "Dal Lake Houseboat", "Gulmarg Cable Car", "Private Expert Guide"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Taj Mahal & Amber Fort",
+          "Dal Lake Houseboat",
+          "Gulmarg Cable Car",
+          "Private Expert Guide"
+        ],
+        "image": "/images/gallery/12296.jpg",
         "pkgid": "151",
         "popular": true
       },
@@ -1073,8 +1373,13 @@
         "saving": "Save RM1,555 per couple",
         "tag": "Himalayan",
         "tagColor": "purple",
-        "highlights": ["Leh Palace", "Pangong Lake", "Khardung La Pass", "Monastery Visits"],
-        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Leh Palace",
+          "Pangong Lake",
+          "Khardung La Pass",
+          "Monastery Visits"
+        ],
+        "image": "/images/gallery/11728.jpg",
         "pkgid": "500",
         "popular": false
       },
@@ -1089,8 +1394,13 @@
         "saving": "Save RM1,555 per couple",
         "tag": "Spiritual Grand Tour",
         "tagColor": "saffron",
-        "highlights": ["North India Sacred Cities", "Varanasi & Rishikesh", "Amritsar Golden Temple", "Expert Spiritual Guide"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "North India Sacred Cities",
+          "Varanasi & Rishikesh",
+          "Amritsar Golden Temple",
+          "Expert Spiritual Guide"
+        ],
+        "image": "/images/gallery/11455.jpg",
         "pkgid": "2399",
         "popular": false
       },
@@ -1105,8 +1415,13 @@
         "saving": "Save RM1,599 per couple",
         "tag": "Premium",
         "tagColor": "red",
-        "highlights": ["Full Golden Triangle", "Best of Kashmir", "Houseboat + Mountain Views", "Daily Expert Guide"],
-        "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Full Golden Triangle",
+          "Best of Kashmir",
+          "Houseboat + Mountain Views",
+          "Daily Expert Guide"
+        ],
+        "image": "/images/gallery/11611.jpg",
         "pkgid": "155",
         "popular": false
       },
@@ -1121,8 +1436,13 @@
         "saving": "Save RM1,635 per couple",
         "tag": "Hidden Gem",
         "tagColor": "green",
-        "highlights": ["Kanchenjunga Views", "Rumtek Monastery", "Tsomgo Lake", "Mountain Eco-Stays"],
-        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Kanchenjunga Views",
+          "Rumtek Monastery",
+          "Tsomgo Lake",
+          "Mountain Eco-Stays"
+        ],
+        "image": "/images/gallery/12240.jpg",
         "pkgid": "149",
         "popular": false
       },
@@ -1137,8 +1457,13 @@
         "saving": "Save RM1,875 per couple",
         "tag": "Spiritual",
         "tagColor": "saffron",
-        "highlights": ["Bodh Gaya", "Sarnath", "Lumbini Nepal", "Buddhist Monasteries"],
-        "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Bodh Gaya",
+          "Sarnath",
+          "Lumbini Nepal",
+          "Buddhist Monasteries"
+        ],
+        "image": "/images/gallery/11460.jpg",
         "pkgid": "320",
         "popular": false
       },
@@ -1153,8 +1478,13 @@
         "saving": "Save RM1,875 per couple",
         "tag": "Best Combo",
         "tagColor": "blue",
-        "highlights": ["Kashmir Dal Lake", "Gulmarg Gondola", "Varanasi Ganga Aarti", "Domestic Flights Included"],
-        "image": "/images/gallery/14620.jpg",
+        "highlights": [
+          "Kashmir Dal Lake",
+          "Gulmarg Gondola",
+          "Varanasi Ganga Aarti",
+          "Domestic Flights Included"
+        ],
+        "image": "/images/gallery/12932.jpg",
         "pkgid": "2137",
         "popular": false
       },
@@ -1169,8 +1499,13 @@
         "saving": "Save RM2,075 per couple",
         "tag": "Sacred Pilgrimage",
         "tagColor": "saffron",
-        "highlights": ["Badrinath Temple", "Kedarnath Shrine", "Gangotri Source", "Yamunotri Dham"],
-        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Badrinath Temple",
+          "Kedarnath Shrine",
+          "Gangotri Source",
+          "Yamunotri Dham"
+        ],
+        "image": "/images/gallery/11720.jpg",
         "pkgid": "2105",
         "popular": false
       },
@@ -1185,8 +1520,13 @@
         "saving": "Save RM2,395 per couple",
         "tag": "Epic Journey",
         "tagColor": "purple",
-        "highlights": ["Srinagar to Leh Highway", "Himalayan Mountain Passes", "Pangong Lake", "Postcard Landscapes"],
-        "image": "/images/gallery/14620.jpg",
+        "highlights": [
+          "Srinagar to Leh Highway",
+          "Himalayan Mountain Passes",
+          "Pangong Lake",
+          "Postcard Landscapes"
+        ],
+        "image": "/images/gallery/14627.jpg",
         "pkgid": "2360",
         "popular": false
       }

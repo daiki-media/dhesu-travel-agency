@@ -5,7 +5,7 @@
     "keywords": "8 Days Complete Kerala Circuit from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
     "slug": "kerala/8-day-complete-circuit",
     "canonicalUrl": "/tours/india/kerala/8-day-complete-circuit",
-    "ogImage": "/images/gallery/12929.jpg",
+    "ogImage": "/images/gallery/11189.jpg",
     "pkgid": "2457"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11189.jpg",
     "heroImageAlt": "Complete Kerala circuit coast hills backwaters"
   },
   "quickFacts": {
@@ -97,7 +97,7 @@
       {
         "title": "Every Side of Kerala",
         "body": "Heritage Kochi, the tea hills of Munnar, the spice country of Thekkady, the backwaters of Alleppey and a coastal beach finish. The complete Kerala experience.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16302.jpg",
         "imageAlt": "Complete Kerala landscapes"
       },
       {
@@ -109,7 +109,7 @@
       {
         "title": "A Beach Finish",
         "body": "End by the Arabian Sea at a coastal resort such as Kovalam or Marari, the perfect way to wind down a busy circuit.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/16304.jpg",
         "imageAlt": "Kerala beach Arabian Sea"
       }
     ]
@@ -347,7 +347,7 @@
       "price": "From RM2,398",
       "duration": "8D7N",
       "slug": "kerala/8-day-best-of",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11061.jpg"
     },
     {
       "id": "india-9d-kerala-kanyakumari",
@@ -355,7 +355,7 @@
       "price": "From RM2,788",
       "duration": "9D8N",
       "slug": "kerala/9-day-kanyakumari",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/16312.jpg"
     },
     {
       "id": "india-6d-kerala-backwaters",
@@ -373,7 +373,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/12929.jpg"
+    "bgImage": "/images/gallery/16301.jpg"
   },
   "schema": {
     "type": "TouristTrip",

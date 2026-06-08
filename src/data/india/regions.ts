@@ -58,7 +58,7 @@ export const REGIONS: IndiaLandingPage[] = [
     ogTitle: "Kerala Tour Packages from Malaysia | Dhesu Travel",
     ogDescription:
       "Backwaters, tea hills and Fort Kochi. Plan your Kerala trip with Dhesu Travel, trusted since 1988.",
-    ogImage: "/images/gallery/12929.jpg",
+    ogImage: "/images/gallery/16301.jpg",
   },
   {
     key: "south-india",
@@ -76,8 +76,7 @@ export const REGIONS: IndiaLandingPage[] = [
     ogTitle: "South India Tour Packages from Malaysia | Dhesu Travel",
     ogDescription:
       "Temples, palaces and hill stations. Plan your South India trip with Dhesu Travel, trusted since 1988.",
-    ogImage:
-      "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    ogImage: "/images/gallery/14160.jpg",
   },
   {
     key: "north-india",
@@ -95,8 +94,7 @@ export const REGIONS: IndiaLandingPage[] = [
     ogTitle: "North India Tour Packages from Malaysia | Dhesu Travel",
     ogDescription:
       "Taj Mahal, Jaipur, the Himalayas and Rishikesh. Plan your North India trip with Dhesu Travel, trusted since 1988.",
-    ogImage:
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    ogImage: "/images/gallery/12336.jpg",
   },
   {
     key: "east-india",
@@ -114,8 +112,7 @@ export const REGIONS: IndiaLandingPage[] = [
     ogTitle: "East India Tour Packages from Malaysia | Dhesu Travel",
     ogDescription:
       "Kolkata's colonial heritage and Bengali culture. Plan your East India trip with Dhesu Travel, trusted since 1988.",
-    ogImage:
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    ogImage: "/images/gallery/12254.jpg",
   },
   {
     key: "west-india",
@@ -133,8 +130,7 @@ export const REGIONS: IndiaLandingPage[] = [
     ogTitle: "West India Tour Packages from Malaysia | Dhesu Travel",
     ogDescription:
       "Mumbai, Bollywood, Shirdi and Goa. Plan your West India trip with Dhesu Travel, trusted since 1988.",
-    ogImage:
-      "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&auto=format&fit=crop",
+    ogImage: "/images/gallery/12266.jpg",
   },
   {
     key: "kashmir",
@@ -175,8 +171,7 @@ export const THEMES: IndiaLandingPage[] = [
     ogTitle: "Delhi Agra Jaipur Tour Packages from Malaysia | Dhesu Travel",
     ogDescription:
       "The classic Golden Triangle of Delhi, Agra and Jaipur. Plan it with Dhesu Travel, trusted since 1988.",
-    ogImage:
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    ogImage: "/images/gallery/16336.jpg",
   },
   {
     key: "taj-mahal",
@@ -194,8 +189,7 @@ export const THEMES: IndiaLandingPage[] = [
     ogTitle: "Taj Mahal Tour Packages from Malaysia | Dhesu Travel",
     ogDescription:
       "Sunrise at the Taj Mahal, Agra Fort and Fatehpur Sikri. Plan your trip with Dhesu Travel, trusted since 1988.",
-    ogImage:
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop",
+    ogImage: "/images/gallery/12336.jpg",
   },
   {
     key: "varanasi",
@@ -213,8 +207,7 @@ export const THEMES: IndiaLandingPage[] = [
     ogTitle: "Varanasi Tour Packages from Malaysia | Dhesu Travel",
     ogDescription:
       "Ganga Aarti, sunrise boat rides and Sarnath. Plan your Varanasi trip with Dhesu Travel, trusted since 1988.",
-    ogImage:
-      "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&auto=format&fit=crop",
+    ogImage: "/images/gallery/14014.jpg",
   },
 ];
 

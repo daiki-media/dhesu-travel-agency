@@ -5,7 +5,7 @@
     "keywords": "5 Days Kashmir Ski Resort + Cable Car from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
     "slug": "kashmir/5-day-ski-resort-cable-car",
     "canonicalUrl": "/tours/india/kashmir/5-day-ski-resort-cable-car",
-    "ogImage": "/images/gallery/14620.jpg",
+    "ogImage": "/images/gallery/11042.jpg",
     "pkgid": "2166"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "/images/gallery/14620.jpg",
+    "heroImage": "/images/gallery/11042.jpg",
     "heroImageAlt": "Gulmarg Gondola cable car Kashmir snow"
   },
   "quickFacts": {
@@ -103,7 +103,7 @@
       {
         "title": "Pahalgam's Alpine Valleys",
         "body": "The valley of shepherds, with pine forests, the rushing Lidder river and meadows like Betaab and Aru valleys, used as backdrops in countless films.",
-        "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/12929.jpg",
         "imageAlt": "Pahalgam valley Kashmir"
       },
       {
@@ -293,7 +293,7 @@
       "price": "From RM2,798",
       "duration": "5D4N",
       "slug": "kashmir/5-day-ski-taj-mahal",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11034.jpg"
     },
     {
       "id": "india-6d-kashmir-taj-mahal",
@@ -301,7 +301,7 @@
       "price": "From RM3,118",
       "duration": "6D5N",
       "slug": "kashmir/6-day-best-of-kashmir-taj",
-      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/10992.jpg"
     },
     {
       "id": "india-7d-kashmir-exclusive",
@@ -309,7 +309,7 @@
       "price": "From RM3,288",
       "duration": "7D6N",
       "slug": "kashmir/7-day-exclusive-escape",
-      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/10335.jpg"
     }
   ],
   "cta": {

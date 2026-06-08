@@ -5,7 +5,7 @@
     "keywords": "3 Days Kerala Culture, Beauty & Kathakali from Malaysia, India tour package, Kerala tour package Malaysia, Dhesu travel",
     "slug": "kerala/3-day-culture-kathakali",
     "canonicalUrl": "/tours/india/kerala/3-day-culture-kathakali",
-    "ogImage": "/images/gallery/12929.jpg",
+    "ogImage": "/images/gallery/11193.jpg",
     "pkgid": "2111"
   },
   "hero": {
@@ -31,7 +31,7 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+    "heroImage": "/images/gallery/11193.jpg",
     "heroImageAlt": "Fort Kochi Chinese fishing nets at sunset"
   },
   "quickFacts": {
@@ -97,7 +97,7 @@
       {
         "title": "Fort Kochi's Colonial Quarter",
         "body": "Wander streets layered with Dutch, Portuguese and British history. St Francis Church, the Dutch Palace, the iconic Chinese fishing nets at sunset, and cafes housed in old spice warehouses.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11200.jpg",
         "imageAlt": "Fort Kochi colonial streets"
       },
       {
@@ -109,7 +109,7 @@
       {
         "title": "A Kathakali Performance",
         "body": "Kathakali is Kerala's spectacular classical dance-drama, with extraordinary makeup, costumes and expression. Arrive early to watch the performers transform, then experience the show itself.",
-        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop",
+        "image": "/images/gallery/11202.jpg",
         "imageAlt": "Kathakali performer Kerala"
       }
     ]
@@ -310,7 +310,7 @@
       "price": "From RM1,488",
       "duration": "5D4N",
       "slug": "kerala/5-day-most-important-places",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+      "image": "/images/gallery/11171.jpg"
     }
   ],
   "cta": {
@@ -320,7 +320,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&auto=format&fit=crop"
+    "bgImage": "/images/gallery/11199.jpg"
   },
   "schema": {
     "type": "TouristTrip",
