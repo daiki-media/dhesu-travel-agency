@@ -8,6 +8,7 @@ import TourRegionTemplate from "@/src/components/tours/TourRegionTemplate";
 import packageDetails, { getPackageDetail } from "@/src/data/tourPackages";
 import { getTourPage } from "@/src/data/tourPages";
 import { getIndiaLandingPage, INDIA_LANDING_PAGES } from "@/src/data/india/regions";
+import { getNepalLandingPage, NEPAL_LANDING_PAGES } from "@/src/data/nepal/regions";
 
 type PageProps = {
   params: Promise<{ destination: string; packageSlug: string[] }>;
@@ -27,12 +28,17 @@ export function generateStaticParams() {
     return { destination, packageSlug };
   });
 
-  const landingParams = INDIA_LANDING_PAGES.map((page) => ({
+  const indiaLandingParams = INDIA_LANDING_PAGES.map((page) => ({
     destination: "india",
     packageSlug: [page.key],
   }));
 
-  return [...detailParams, ...landingParams];
+  const nepalLandingParams = NEPAL_LANDING_PAGES.map((page) => ({
+    destination: "nepal",
+    packageSlug: [page.key],
+  }));
+
+  return [...detailParams, ...indiaLandingParams, ...nepalLandingParams];
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -41,6 +47,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Single segment under India: a region or theme landing page.
   if (destination === "india" && packageSlug.length === 1) {
     const page = getIndiaLandingPage(packageSlug[0]);
+    if (page) {
+      return {
+        title: page.metaTitle,
+        description: page.metaDescription,
+        alternates: { canonical: page.canonicalUrl },
+        openGraph: {
+          title: page.ogTitle,
+          description: page.ogDescription,
+          url: page.canonicalUrl,
+          images: [{ url: page.ogImage }],
+          type: "website",
+        },
+      };
+    }
+  }
+
+  // Single segment under Nepal: a region or theme landing page.
+  if (destination === "nepal" && packageSlug.length === 1) {
+    const page = getNepalLandingPage(packageSlug[0]);
     if (page) {
       return {
         title: page.metaTitle,
@@ -146,6 +171,74 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
           heroImage={page.ogImage}
           packages={packages}
           cta={india.cta}
+        />
+        <Footer />
+      </>
+    );
+  }
+
+  // ── Single segment under Nepal: region or theme listing page ──
+  if (destination === "nepal" && packageSlug.length === 1) {
+    const page = getNepalLandingPage(packageSlug[0]);
+    if (!page) {
+      notFound();
+    }
+
+    const nepal = getTourPage("nepal");
+    if (!nepal) {
+      notFound();
+    }
+
+    const packages = page.select(nepal.packages.items);
+
+    const breadcrumbJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "/" },
+        { "@type": "ListItem", position: 2, name: "Nepal", item: "/tours/nepal" },
+        { "@type": "ListItem", position: 3, name: page.label, item: page.canonicalUrl },
+      ],
+    };
+
+    const collectionJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: page.h1,
+      description: page.metaDescription,
+      url: page.canonicalUrl,
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: packages.length,
+        itemListElement: packages.map((pkg, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: pkg.name,
+          url: `/tours/nepal/${pkg.slug}`,
+          ...(pkg.price ? { offers: { "@type": "Offer", price: pkg.price.replace(/[^\d.]/g, ""), priceCurrency: "MYR" } } : {}),
+        })),
+      },
+    };
+
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+        />
+        <TopBar />
+        <Navbar />
+        <TourRegionTemplate
+          label={page.label}
+          h1={page.h1}
+          intro={page.intro}
+          heroImage={page.ogImage}
+          packages={packages}
+          cta={nepal.cta}
         />
         <Footer />
       </>

@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "title": "8 Days Spiritual Nepal: Muktinath, Kagbeni & Pokhara Tour | Dhesu",
+    "description": "8-day spiritual Nepal tour with the sacred Muktinath Temple at 3,800m, Kagbeni ancient village, Tato Pani hot springs, Pokhara and Kathmandu. From RM3,288. Dhesu, since 1988.",
+    "keywords": "Muktinath tour package Malaysia, spiritual Nepal tour, Nepal pilgrimage tour Malaysia, Muktinath Kagbeni tour",
+    "slug": "muktinath/8-day-spiritual",
+    "canonicalUrl": "/tours/nepal/muktinath/8-day-spiritual",
+    "pkgid": "NP-MKT-8D-001",
+    "ogImage": "/images/gallery/44.jpg"
+  },
+  "hero": {
+    "badge": "Sacred Nepal — Muktinath & Beyond",
+    "title": "8 Days in the Himalayas.",
+    "titleAccent": "Muktinath, Kagbeni and the Mustang Valley.",
+    "intro": "Above the reach of most Nepal itineraries, at 3,800 metres in the rain-shadow of the Annapurna range, stands Muktinath — one of the most sacred pilgrimage sites in the Himalayan world, revered by both Hindus and Buddhists. This is the Nepal that most travellers never see.",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Nepal", "href": "/tours/nepal" },
+      { "label": "All Nepal Packages", "href": "/tours/nepal/all-packages" },
+      { "label": "8 Days Spiritual Nepal Muktinath", "href": null }
+    ],
+    "heroImage": "/images/gallery/44.jpg",
+    "heroImageAlt": "Muktinath temple steps Nepal Himalayan pilgrimage route"
+  },
+  "quickFacts": {
+    "duration": "8 Days / 7 Nights",
+    "startingPrice": "From RM3,288",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM3,946",
+    "saving": "Save RM1,315 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotels (7 nights: Kathmandu + Pokhara + Jomsom/Muktinath + Kagbeni)",
+      "Daily Breakfast",
+      "Private Vehicle, Jeep & Driver Guide",
+      "Return Airport Transfers",
+      "Domestic Flight Pokhara–Jomsom",
+      "Muktinath Temple Visit",
+      "Tato Pani Natural Hot Springs"
+    ],
+    "excludes": [
+      "International Flights",
+      "Nepal Visa on Arrival (USD30 for 15 days)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Mustang Restricted Area Permit (if required)",
+      "Entrance Fees",
+      "Lunches and dinners",
+      "Personal Expenses"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      { "icon": "hotel", "label": "Hotel" },
+      { "icon": "breakfast", "label": "Daily Breakfast" },
+      { "icon": "car", "label": "Private Guide & Jeep" },
+      { "icon": "transfer", "label": "Airport Transfers" },
+      { "icon": "private", "label": "Sacred Muktinath" }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "8 Days Spiritual Nepal: Muktinath & Kagbeni",
+    "body": [
+      "Muktinath at 3,800 metres is one of the most sacred shrines in the Himalayan world — a place where both Hindu and Buddhist pilgrims travel extraordinary distances to pray. The eternal flame fed by natural gas seeps, the 108 sacred water spouts, the gompa monastery and the vast empty landscape of the Mustang valley make this one of Nepal's most profound destinations.",
+      "This itinerary is designed for travellers who want more than Kathmandu and Pokhara — who want to go high, to feel the thin air and the silence of the high Himalayas, and to understand why people have been making this pilgrimage for thousands of years. Combined with Pokhara, Tato Pani hot springs and the Kathmandu cultural circuit, it is the most complete spiritual journey Nepal can offer."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why This Is Nepal's Most Profound Itinerary",
+    "items": [
+      {
+        "title": "Muktinath Temple at 3,800 Metres",
+        "body": "The sacred temple complex at Muktinath is revered as one of the 108 Vishnu shrines, and also as a major Buddhist pilgrimage site. The 108 water spouts, the eternal flame and the high-altitude landscape make this one of the most moving experiences in the Himalaya.",
+        "image": "/images/gallery/44.jpg",
+        "imageAlt": "Muktinath temple Nepal 3800m Himalayan sacred site"
+      },
+      {
+        "title": "Kagbeni — The Gateway to Upper Mustang",
+        "body": "The ancient walled village of Kagbeni sits at the junction of the Kali Gandaki River and the road to Upper Mustang. Centuries-old gompa monasteries, narrow lanes and wind-sculpted rock formations at 2,800 metres — unchanged for centuries.",
+        "image": "/images/gallery/45.jpg",
+        "imageAlt": "Kagbeni ancient village Nepal Mustang valley"
+      },
+      {
+        "title": "Tato Pani Natural Hot Springs",
+        "body": "On the return route from the high Himalayas, Tato Pani (literally 'hot water') is a riverside village with natural hot springs right beside the Kali Gandaki. A deeply welcome soak after the high-altitude air of Muktinath.",
+        "image": "/images/gallery/46.jpg",
+        "imageAlt": "Pokhara Annapurna Nepal World Peace Stupa"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 8 Days Muktinath Spiritual Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kathmandu",
+        "meals": "No meals",
+        "description": "Arrive at Tribhuvan International Airport and transfer to your Kathmandu hotel. Evening at leisure in Thamel.",
+        "suggestedActivities": [
+          "Airport transfer",
+          "Hotel check-in",
+          "Evening walk in Thamel"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kathmandu UNESCO Temples",
+        "meals": "Breakfast",
+        "description": "Full-day private tour of Kathmandu's UNESCO World Heritage Sites — Pashupatinath, Boudhanath, Swayambhunath and Durbar Square.",
+        "suggestedActivities": [
+          "Pashupatinath Temple (sacred ghats and Bagmati River)",
+          "Boudhanath Stupa",
+          "Swayambhunath (Monkey Temple)",
+          "Kathmandu Durbar Square"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Fly to Pokhara & Sarangkot Sunrise",
+        "meals": "Breakfast",
+        "description": "Morning flight to Pokhara. Afternoon at leisure by Phewa Lake. Optional evening drive to Sarangkot for sunset.",
+        "suggestedActivities": [
+          "Flight Kathmandu to Pokhara",
+          "Phewa Lake boat ride",
+          "Sarangkot sunset (optional)"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Pokhara to Jomsom — Gateway to Mustang",
+        "meals": "Breakfast",
+        "description": "Early morning flight from Pokhara to Jomsom (one of the world's most dramatic mountain airstrips), then jeep to Muktinath.",
+        "suggestedActivities": [
+          "Sarangkot sunrise (pre-flight)",
+          "Pokhara–Jomsom flight (25 min, mountain views)",
+          "Jeep to Muktinath (2 hours, stunning landscape)",
+          "Afternoon at Muktinath"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Muktinath Temple & Kagbeni",
+        "meals": "Breakfast",
+        "description": "Full morning at the sacred Muktinath Temple complex — the 108 water spouts, the eternal flame, the Buddhist gompa and the high-altitude panorama. Afternoon descent to Kagbeni, the ancient walled village.",
+        "suggestedActivities": [
+          "Muktinath Temple at dawn — 108 water spouts",
+          "Eternal flame shrine",
+          "Buddhist gompa monastery",
+          "Drive to Kagbeni village"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Kagbeni to Tato Pani Hot Springs",
+        "meals": "Breakfast",
+        "description": "Morning exploration of Kagbeni's ancient lanes and gompa, then drive through the dramatic Kali Gandaki gorge (the world's deepest) to Tato Pani for the hot springs.",
+        "suggestedActivities": [
+          "Kagbeni Red Gompa monastery",
+          "Drive through Kali Gandaki Gorge",
+          "Tato Pani hot springs (riverside natural thermal pools)",
+          "Riverside dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Tato Pani to Pokhara",
+        "meals": "Breakfast",
+        "description": "Drive from Tato Pani back to Pokhara. Afternoon at leisure by Phewa Lake.",
+        "suggestedActivities": [
+          "Scenic drive to Pokhara",
+          "Phewa Lake boat and World Peace Stupa",
+          "Lakeside market and last Pokhara evening"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Fly to Kathmandu & Depart",
+        "meals": "Breakfast",
+        "description": "Morning flight to Kathmandu, then transfer to the airport for your international departure.",
+        "suggestedActivities": [
+          "Pokhara–Kathmandu flight",
+          "Last-minute shopping in Thamel",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Kathmandu and Pokhara city hotels, with high-altitude teahouse or lodge accommodation at Muktinath and Kagbeni.",
+    "tiers": [
+      {
+        "tier": "Standard",
+        "label": "Teahouse & City Hotel",
+        "hotel": "3-star Kathmandu + 3-star Pokhara + Muktinath/Kagbeni teahouse lodge or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM3,288 per person" }],
+        "fromPrice": "RM3,288"
+      },
+      {
+        "tier": "Comfort",
+        "label": "Comfort Hotel & Mountain Lodge",
+        "hotel": "4-star Kathmandu + 4-star Pokhara + best available Muktinath lodge or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM3,788 per person" }],
+        "fromPrice": "RM3,788",
+        "popular": true
+      },
+      {
+        "tier": "Premium",
+        "label": "Premium City & High Altitude",
+        "hotel": "5-star Kathmandu + 5-star Pokhara + premium Mustang lodge or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM4,488 per person" }],
+        "fromPrice": "RM4,488"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "The High Himalayas Need the Right Team",
+    "body": "Muktinath requires careful planning — flights to Jomsom are weather-dependent, the altitude needs respect, and the permits and logistics of the Mustang zone require experience. Dhesu has been guiding this sacred route since the valley opened to international travellers.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed. Muktinath permits, Jomsom flight bookings and all logistics arranged."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tour, Your Pace",
+        "body": "Sacred sites need time. Your private guide waits while you experience Muktinath without the group rushing you."
+      },
+      {
+        "icon": "phone",
+        "title": "Altitude Safety Guidance",
+        "body": "We brief you on acclimatisation, AMS symptoms and what to do at 3,800 metres. Muktinath is high — preparation matters."
+      },
+      {
+        "icon": "tag",
+        "title": "Fully Customisable",
+        "body": "Add trekking days in the Mustang valley, extend to Upper Mustang, or combine with Lumbini for the full spiritual circuit."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Muktinath Tour Package from Malaysia",
+        "body": "Muktinath is one of the most spiritually significant places in the Himalayan world — sacred to both Vishnu worshippers (as one of the 108 Divya Desams) and Tibetan Buddhists (as the site of the famous Dhola Mebar eternally burning gas jets). Pilgrims have been making the journey to Muktinath for centuries, travelling by foot through the high passes of the Annapurna range.\n\nToday, a 25-minute flight from Pokhara to Jomsom puts Muktinath within reach of any traveller — but the high altitude (3,800 metres), the remoteness and the extraordinary landscape still make this feel like the journey of a lifetime."
+      },
+      {
+        "heading": "Altitude Information for Muktinath",
+        "body": "Muktinath sits at 3,800 metres above sea level. At this altitude, some travellers experience mild Acute Mountain Sickness (AMS) symptoms — headache, breathlessness, fatigue — particularly on the first day. The Jomsom flight ascends rapidly from Pokhara at 820 metres.\n\nDhesu briefs every traveller on AMS before departure: acclimatise properly in Pokhara, stay hydrated, ascend slowly and do not ignore symptoms. The Muktinath visit is typically kept to one day at altitude, with descent to lower elevations the same day. Most travellers manage the altitude comfortably with proper preparation."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "What is the significance of Muktinath?",
+        "answer": "Muktinath (altitude 3,800m) is sacred to both Hindus and Buddhists. For Hindus, it is one of the 108 Divya Desam Vishnu shrines, where 108 sacred water spouts and an eternal flame fed by natural gas are part of the pilgrimage. For Buddhists, it is an important Tibetan shrine associated with the Dakini goddess. The eternal flame — water, fire and earth together — is considered uniquely auspicious."
+      },
+      {
+        "question": "Is this trip suitable for older travellers?",
+        "answer": "Yes, with proper acclimatisation. The Jomsom flight removes the trekking element. The Muktinath temple complex itself requires walking at altitude, which can be challenging for those with heart or respiratory conditions. We ask travellers to consult their physician before booking if there are any concerns. Most fit travellers 60–75 complete this trip without difficulty."
+      },
+      {
+        "question": "What is the Jomsom flight like?",
+        "answer": "The Pokhara–Jomsom flight is one of the most dramatic short flights in the world — approximately 25 minutes, through deep mountain valleys with the Annapurna range immediately visible. It operates small turboprop aircraft (Twin Otter or similar) and is weather-dependent. Flights operate in the morning only, before the famous Kali Gandaki valley winds pick up. Dhesu builds buffer days into the itinerary for weather delays."
+      },
+      {
+        "question": "Do Malaysians need a visa for Nepal?",
+        "answer": "Malaysian passport holders obtain a Visa on Arrival at Kathmandu's Tribhuvan International Airport. A 15-day tourist visa costs USD 30, a 30-day visa costs USD 50. Bring passport photos and the fee in cash. Dhesu provides full guidance with your booking."
+      },
+      {
+        "question": "What permits are needed for Muktinath?",
+        "answer": "Muktinath falls within the Annapurna Conservation Area, which requires an ACAP permit (approx USD 30). Entry to Lower Mustang (where Muktinath and Jomsom sit) also requires the standard Nepal trekkers' permit. These permits are arranged by Dhesu as part of your package."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "nepal-8d-lumbini-birthplace-of-buddha",
+      "name": "8 Days Best of Nepal + Birthplace of Buddha",
+      "price": "From RM3,488",
+      "duration": "8D7N",
+      "slug": "lumbini/8-day-birthplace-of-buddha",
+      "image": "/images/gallery/26.jpeg"
+    },
+    {
+      "id": "nepal-8d-wildlife-safari",
+      "name": "8 Days Nepal + Chitwan National Park Wildlife Safari",
+      "price": "From RM2,988",
+      "duration": "8D7N",
+      "slug": "chitwan/8-day-national-park-safari",
+      "image": "/images/gallery/42.jpg"
+    },
+    {
+      "id": "nepal-6d-best-of-nepal",
+      "name": "6 Days Best of Nepal: Kathmandu, Nagarkot & Pokhara",
+      "price": "From RM1,988",
+      "duration": "6D5N",
+      "slug": "kathmandu-pokhara/6-day-best-of-nepal",
+      "image": "/images/gallery/43.jpg"
+    }
+  ],
+  "cta": {
+    "heading": "Experience Sacred Nepal at 3,800 Metres",
+    "subheading": "Tell us your travel dates and we will arrange the full Muktinath circuit.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/38.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "8 Days Spiritual Nepal: Muktinath, Kagbeni & Pokhara from Malaysia",
+    "description": "8-day spiritual Nepal tour with sacred Muktinath Temple at 3,800m, Kagbeni ancient village, Tato Pani hot springs, Pokhara and Kathmandu. From RM3,288 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.com/tours/nepal/muktinath/8-day-spiritual",
+    "startLocation": "Tribhuvan International Airport, Kathmandu",
+    "endLocation": "Tribhuvan International Airport, Kathmandu",
+    "duration": "P8D",
+    "offers": { "price": "3288", "priceCurrency": "MYR", "availability": "https://schema.org/InStock" }
+  }
+}

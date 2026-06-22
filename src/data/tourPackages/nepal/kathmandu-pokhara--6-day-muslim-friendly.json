@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "title": "6 Days Nepal Muslim Friendly Tour: Kathmandu, Nagarkot & Pokhara | Dhesu",
+    "description": "6-day Muslim-friendly Nepal tour with halal meal assistance, private guided temples, Nagarkot sunrise and Pokhara lakeside. From RM2,088. Dhesu, since 1988.",
+    "keywords": "Muslim friendly Nepal tour Malaysia, halal Nepal tour package, 6 days Nepal Muslim package Malaysia, Nepal tour Muslim",
+    "slug": "kathmandu-pokhara/6-day-muslim-friendly",
+    "canonicalUrl": "/tours/nepal/kathmandu-pokhara/6-day-muslim-friendly",
+    "pkgid": "NP-KTP-6D-002",
+    "ogImage": "/images/gallery/20.jpg"
+  },
+  "hero": {
+    "badge": "Muslim Friendly Nepal",
+    "title": "6 Days Nepal.",
+    "titleAccent": "Guided for Muslim Travellers from Malaysia.",
+    "intro": "All the wonder of Nepal — Kathmandu's ancient temples, Nagarkot's Himalayan sunrise, Pokhara's lake — with the Muslim-friendly logistics handled. Private tours, halal meal guidance, daily prayer times noted, and a team that understands what matters to you.",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Nepal", "href": "/tours/nepal" },
+      { "label": "All Nepal Packages", "href": "/tours/nepal/all-packages" },
+      { "label": "6 Days Nepal Muslim Friendly", "href": null }
+    ],
+    "heroImage": "/images/gallery/20.jpg",
+    "heroImageAlt": "Boudhanath Stupa Kathmandu Nepal with prayer flags"
+  },
+  "quickFacts": {
+    "duration": "6 Days / 5 Nights",
+    "startingPrice": "From RM2,088",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,506",
+    "saving": "Save RM835 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotels (5 nights: Kathmandu + Nagarkot + Pokhara)",
+      "Daily Breakfast",
+      "Private Vehicle & Muslim-Aware Guide",
+      "Return Airport Transfers",
+      "Halal Restaurant Recommendations",
+      "Prayer Time & Qiblat Guidance"
+    ],
+    "excludes": [
+      "International Flights",
+      "Nepal Visa on Arrival (USD30 for 15 days)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees to temples and sites",
+      "Lunches and dinners",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      { "icon": "hotel", "label": "Hotel" },
+      { "icon": "breakfast", "label": "Daily Breakfast" },
+      { "icon": "car", "label": "Private Guide" },
+      { "icon": "transfer", "label": "Airport Transfers" },
+      { "icon": "private", "label": "Muslim Friendly" }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "6 Days Muslim-Friendly Nepal: The Full Picture",
+    "body": [
+      "Nepal is not commonly thought of as a Muslim-friendly destination, but it absolutely can be — with the right preparation. Kathmandu has Indian and Middle Eastern restaurants with halal-certified kitchens, and Dhesu's team knows exactly where to find them. This package covers the same classic Nepal circuit as our Best of Nepal itinerary, with the additional Muslim-travel logistics handled: halal dining recommendations, prayer-time awareness and a private guide who respects your schedule.",
+      "Nepal is one of the world's most diverse spiritual landscapes — home to Hinduism and Buddhism in their most living, practised forms. For Muslim travellers, visiting the sacred sites of another faith with curiosity and open eyes is one of the most rewarding things travel can offer."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Nepal for Muslim Travellers from Malaysia",
+    "items": [
+      {
+        "title": "Kathmandu — Ancient Faith, Open to All",
+        "body": "Boudhanath Stupa, Pashupatinath Temple and Swayambhunath are places of living faith, not museums. They welcome respectful visitors from all backgrounds. Walking the kora at Boudhanath alongside monks and pilgrims is an experience that transcends any single religion.",
+        "image": "/images/gallery/20.jpg",
+        "imageAlt": "Boudhanath Stupa Kathmandu Nepal circumambulation path"
+      },
+      {
+        "title": "Nagarkot Sunrise — A Moment for Reflection",
+        "body": "Standing on the Nagarkot ridge as the Himalayan arc turns gold in the first light of morning is one of those moments that makes the world feel very large and very beautiful. The pre-dawn stillness and the scale of the mountains create a natural space for gratitude.",
+        "image": "/images/gallery/24.png",
+        "imageAlt": "Nagarkot sunrise Himalayan Nepal Muslim friendly"
+      },
+      {
+        "title": "Pokhara — Serene and Family-Friendly",
+        "body": "Pokhara's lakeside is one of the most relaxed places in Nepal — flat, walkable and calm. The Sarangkot sunrise over the Annapurna range, a boat ride on Phewa Lake and the World Peace Stupa across the water. Perfect pacing for families and groups.",
+        "image": "/images/gallery/43.jpg",
+        "imageAlt": "Phewa Lake Pokhara Nepal family boat ride"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 6 Days Muslim-Friendly Nepal Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kathmandu",
+        "meals": "No meals",
+        "description": "Arrive at Tribhuvan International Airport and transfer to your Kathmandu hotel. Evening at leisure — Thamel has excellent Indian and Middle Eastern halal restaurants.",
+        "suggestedActivities": [
+          "Airport transfer",
+          "Hotel check-in",
+          "Halal dinner in Kathmandu",
+          "Evening walk in Thamel"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kathmandu UNESCO Temples",
+        "meals": "Breakfast",
+        "description": "Full-day private tour with a Muslim-aware guide. Pashupatinath (viewed respectfully from the riverbank), Boudhanath Stupa and Swayambhunath. Prayer breaks built into the schedule.",
+        "suggestedActivities": [
+          "Boudhanath Stupa kora walk",
+          "Pashupatinath Temple & ghats (viewpoint for non-Hindus)",
+          "Swayambhunath Monkey Temple",
+          "Kathmandu Durbar Square"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Bhaktapur & Nagarkot Overnight",
+        "meals": "Breakfast",
+        "description": "Morning in medieval Bhaktapur, then drive to Nagarkot for sunset and overnight at a mountain lodge.",
+        "suggestedActivities": [
+          "Bhaktapur Durbar Square",
+          "Pottery Square",
+          "Drive to Nagarkot",
+          "Himalayan sunset views"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Nagarkot Sunrise & Fly to Pokhara",
+        "meals": "Breakfast",
+        "description": "Pre-dawn Himalayan sunrise at Nagarkot, then transfer to Pokhara. Afternoon at leisure by Phewa Lake.",
+        "suggestedActivities": [
+          "Himalayan sunrise at Nagarkot",
+          "Transfer to Pokhara",
+          "Phewa Lake boat ride",
+          "Halal dinner by the lakeside"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Pokhara: Sarangkot & Lakeside",
+        "meals": "Breakfast",
+        "description": "Early drive to Sarangkot for the Annapurna sunrise, followed by a relaxed lakeside morning. World Peace Stupa boat excursion.",
+        "suggestedActivities": [
+          "Sarangkot sunrise",
+          "World Peace Stupa (boat + short walk)",
+          "Phewa Lake boat ride",
+          "Lakeside market and halal dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Depart Pokhara or Kathmandu",
+        "meals": "Breakfast",
+        "description": "Transfer to Pokhara Airport or Kathmandu for your international departure.",
+        "suggestedActivities": [
+          "Final lakeside morning",
+          "Last-minute shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Hotels chosen for proximity to halal dining options and ease of finding qiblat direction. Breakfast halal-compliant.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Comfortable & Well-Located",
+        "hotel": "3-star Kathmandu + Nagarkot lodge + 3-star Pokhara lakeside or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM2,088 per person" }],
+        "fromPrice": "RM2,088"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Comfort Plus",
+        "hotel": "4-star Kathmandu + Nagarkot resort + 4-star Pokhara lakeside or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM2,488 per person" }],
+        "fromPrice": "RM2,488",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Stay",
+        "hotel": "5-star Kathmandu + premium Nagarkot + 5-star Pokhara lakeside or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM3,088 per person" }],
+        "fromPrice": "RM3,088"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Muslim-Friendly Travel, Handled with Respect",
+    "body": "Dhesu has been serving Malaysian Muslim travellers since 1988. We know where to find certified halal kitchens in Kathmandu and Pokhara, and our guides understand the importance of prayer times and dietary requirements. Nepal is extraordinary — we make it accessible.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through Nepal Visa on Arrival documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours Only",
+        "body": "No group coaches. Your private guide respects your prayer schedule and adapts the day accordingly."
+      },
+      {
+        "icon": "phone",
+        "title": "Malaysian Team You Can Call",
+        "body": "We speak Bahasa Malaysia. Reach us before, during and after your trip."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Family Pricing",
+        "body": "Larger groups mean lower per-person costs. Ask us for a family or group quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Muslim Friendly Nepal Tour Package from Malaysia",
+        "body": "Nepal is one of Asia's most spiritually rich destinations, and Malaysian Muslim travellers are discovering it in growing numbers. The country is welcoming, the people are warm, and with the right preparation the halal food question is entirely manageable.\n\nKathmandu has a significant Indian and South Asian expat community, which means Indian halal restaurants are plentiful in Thamel and Lazimpat. Pokhara's lakeside also has halal and vegetarian options. Our team provides a curated list of verified halal options with every booking."
+      },
+      {
+        "heading": "Prayer Times and Qiblat Direction in Nepal",
+        "body": "Prayer times in Kathmandu and Pokhara follow the local Nepal time zone (UTC+5:45), and our guides build prayer breaks into the sightseeing schedule as a matter of course. Hotels have qiblat direction information available on request. Dhesu's team provides Subuh to Isyak prayer times for your specific travel dates with every booking confirmation."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Is halal food available in Nepal?",
+        "answer": "Yes. Kathmandu has a well-established Indian Muslim restaurant scene in Thamel and the surrounding areas, with certified halal kitchens. Pokhara's lakeside also has vegetarian and halal options. Dhesu provides a curated list of verified halal dining options for each city as part of every Muslim-friendly booking."
+      },
+      {
+        "question": "Are there mosques in Kathmandu?",
+        "answer": "Yes. The Jama Masjid (Kashmiri Mosque) near Durbar Marg in Kathmandu is the main Friday mosque. There are also smaller masjids in the Thamel area. Dhesu provides the nearest prayer facilities for each hotel we use."
+      },
+      {
+        "question": "Can we visit Nepal's temples as Muslim travellers?",
+        "answer": "Most Buddhist sites (Boudhanath, Swayambhunath) are open to all visitors regardless of faith. Pashupatinath Temple (Hindu) restricts entry to its main temple for non-Hindus, but the sacred ghats and surrounding complex can be visited and observed respectfully from designated viewpoints — this is included in the tour. Our guide provides full cultural context for all sites."
+      },
+      {
+        "question": "Do Malaysians need a visa for Nepal?",
+        "answer": "Malaysian passport holders obtain a Visa on Arrival at Kathmandu's Tribhuvan International Airport. A 15-day tourist visa costs USD 30. Bring passport photos and the fee in cash. Dhesu provides full guidance with your booking."
+      },
+      {
+        "question": "What is the best time for this package?",
+        "answer": "October to December (autumn) and March to May (spring) offer the clearest Himalayan views. These are also Eid travel periods — book early if you plan to travel during Hari Raya, as Nepal is increasingly popular with Malaysian groups."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "nepal-6d-best-of-nepal",
+      "name": "6 Days Best of Nepal: Kathmandu, Nagarkot & Pokhara",
+      "price": "From RM1,988",
+      "duration": "6D5N",
+      "slug": "kathmandu-pokhara/6-day-best-of-nepal",
+      "image": "/images/gallery/43.jpg"
+    },
+    {
+      "id": "nepal-8d-lumbini-birthplace-of-buddha",
+      "name": "8 Days Best of Nepal + Birthplace of Buddha",
+      "price": "From RM3,488",
+      "duration": "8D7N",
+      "slug": "lumbini/8-day-birthplace-of-buddha",
+      "image": "/images/gallery/26.jpeg"
+    },
+    {
+      "id": "nepal-4d-super-saver-kathmandu-nagarkot",
+      "name": "4 Days Nepal Super Saver: Kathmandu & Nagarkot",
+      "price": "From RM888",
+      "duration": "4D3N",
+      "slug": "kathmandu/4-day-super-saver",
+      "image": "/images/gallery/29.jpg"
+    }
+  ],
+  "cta": {
+    "heading": "Plan Your Muslim-Friendly Nepal Trip",
+    "subheading": "Tell us your dates, group size and any specific requirements.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/38.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "6 Days Nepal Muslim Friendly Tour: Kathmandu, Nagarkot & Pokhara from Malaysia",
+    "description": "6-day Muslim-friendly Nepal tour with halal meal assistance, Kathmandu temples, Nagarkot Himalayan sunrise and Pokhara Phewa Lake. From RM2,088 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.com/tours/nepal/kathmandu-pokhara/6-day-muslim-friendly",
+    "startLocation": "Tribhuvan International Airport, Kathmandu",
+    "endLocation": "Tribhuvan International Airport, Kathmandu",
+    "duration": "P6D",
+    "offers": { "price": "2088", "priceCurrency": "MYR", "availability": "https://schema.org/InStock" }
+  }
+}

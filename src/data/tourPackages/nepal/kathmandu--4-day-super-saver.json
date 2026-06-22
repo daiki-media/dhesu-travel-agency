@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "title": "4 Days Nepal Super Saver: Kathmandu & Nagarkot from Malaysia | Dhesu",
+    "description": "4-day Nepal tour with Kathmandu temples, Pashupatinath, Swayambhunath and a Nagarkot Himalayan sunrise. From RM888 per person. Dhesu Travel, trusted since 1988.",
+    "keywords": "4 days Nepal tour package Malaysia, Kathmandu Nagarkot tour, Nepal super saver Malaysia, Dhesu travel Nepal",
+    "slug": "kathmandu/4-day-super-saver",
+    "canonicalUrl": "/tours/nepal/kathmandu/4-day-super-saver",
+    "pkgid": "NP-KTM-4D-001",
+    "ogImage": "/images/gallery/29.jpg"
+  },
+  "hero": {
+    "badge": "Kathmandu & Nagarkot",
+    "title": "4 Days in Nepal.",
+    "titleAccent": "Ancient Temples, Stupas and a Himalayan Sunrise.",
+    "intro": "The most affordable way to experience Nepal. Kathmandu's medieval temples and watching-eye stupas, an overnight at a Nagarkot hill lodge, and the moment the Himalayan arc turns gold at dawn.",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Nepal", "href": "/tours/nepal" },
+      { "label": "All Nepal Packages", "href": "/tours/nepal/all-packages" },
+      { "label": "4 Days Nepal Super Saver", "href": null }
+    ],
+    "heroImage": "/images/gallery/29.jpg",
+    "heroImageAlt": "Bhaktapur Durbar Square Nepal ancient temples"
+  },
+  "quickFacts": {
+    "duration": "4 Days / 3 Nights",
+    "startingPrice": "From RM888",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,066",
+    "saving": "Save RM355 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotel accommodation (3 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Nagarkot Overnight Stay"
+    ],
+    "excludes": [
+      "International Flights",
+      "Nepal Visa on Arrival (USD30 for 15 days)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees to temples and sites",
+      "Lunches and dinners",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      { "icon": "hotel", "label": "Hotel" },
+      { "icon": "breakfast", "label": "Daily Breakfast" },
+      { "icon": "car", "label": "Private Driver Guide" },
+      { "icon": "transfer", "label": "Airport Transfers" },
+      { "icon": "private", "label": "100% Private Tour" }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "4 Days Nepal Super Saver: The Full Picture",
+    "body": [
+      "Nepal in four days is more than possible — it is a concentrated experience of everything that makes the country extraordinary. This package focuses on the Kathmandu Valley's greatest hits and a Nagarkot overnight that most short trips miss.",
+      "Day one brings you into Kathmandu, day two is a full sightseeing circuit of the valley's ancient temples and UNESCO stupas, day three adds the Nagarkot ridge for a sunset and sunrise over the Himalaya, and day four takes you back to the airport with a different relationship to the world than when you arrived. Private throughout, relaxed in pace, and at a price point that makes the trip genuinely achievable."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Boudhanath Stupa — The Watching Eyes",
+        "body": "One of the largest Buddhist stupas in the world, with the painted eyes of the Buddha watching from every direction. Walk the kora (circumambulation path) with pilgrims, monks and incense smoke rising into the sky.",
+        "image": "/images/gallery/20.jpg",
+        "imageAlt": "Boudhanath Stupa Kathmandu Nepal with prayer flags"
+      },
+      {
+        "title": "Pashupatinath Temple & the Sacred Ghats",
+        "body": "The holiest Hindu shrine in Nepal, built on the banks of the Bagmati River. A profound, deeply real experience of sacred Nepal — the cremation ghats, the sadhus, the bells and the smoke.",
+        "image": "/images/gallery/49.jpg",
+        "imageAlt": "Pashupatinath Temple Kathmandu Nepal sacred ghats"
+      },
+      {
+        "title": "Nagarkot Himalayan Sunrise",
+        "body": "Spend the night at 2,200 metres on the Nagarkot ridge. When the clouds clear, a 200-kilometre sweep of the Himalaya emerges — from Dhaulagiri in the west to Everest in the east — turning gold as the sun rises.",
+        "image": "/images/gallery/24.png",
+        "imageAlt": "Nagarkot Himalayan sunrise Nepal hilltop lodge"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 4 Days Nepal Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kathmandu",
+        "meals": "No meals",
+        "description": "Met at Tribhuvan International Airport and transferred to your hotel in Kathmandu. Evening at leisure to explore Thamel, Nepal's vibrant traveller district.",
+        "suggestedActivities": [
+          "Airport transfer to hotel",
+          "Evening walk in Thamel",
+          "Rooftop dinner overlooking Kathmandu"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kathmandu Valley Sightseeing",
+        "meals": "Breakfast",
+        "description": "Full-day private tour of Kathmandu's UNESCO World Heritage Sites — the sacred cremation ghats of Pashupatinath, the watching eyes of Boudhanath Stupa, and the Monkey Temple of Swayambhunath.",
+        "suggestedActivities": [
+          "Pashupatinath Temple & ghats",
+          "Boudhanath Stupa kora walk",
+          "Swayambhunath (Monkey Temple)",
+          "Kathmandu Durbar Square"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Bhaktapur & Nagarkot Overnight",
+        "meals": "Breakfast",
+        "description": "Morning visit to Bhaktapur, the best-preserved medieval city in Nepal, with its pottery squares, pagoda temples and Newari architecture. Afternoon drive up to Nagarkot for sunset and an overnight stay on the ridge.",
+        "suggestedActivities": [
+          "Bhaktapur Durbar Square",
+          "Bhaktapur Pottery Square",
+          "Drive to Nagarkot ridge",
+          "Himalayan sunset views"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Nagarkot Sunrise & Depart Kathmandu",
+        "meals": "Breakfast",
+        "description": "Rise before dawn for the Himalayan sunrise from Nagarkot, then drive back to Kathmandu for your airport transfer and onward flight.",
+        "suggestedActivities": [
+          "Pre-dawn Himalayan sunrise at Nagarkot",
+          "Return drive to Kathmandu",
+          "Last-minute Thamel shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Kathmandu hotels in Thamel or Lazimpat with easy access to the sights. Nagarkot ridge lodges chosen for Himalayan views.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star Kathmandu hotel + Nagarkot lodge or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM888 per person" }],
+        "fromPrice": "RM888"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Value Plus Comfort",
+        "hotel": "4-star Kathmandu hotel + Nagarkot view lodge or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM1,088 per person" }],
+        "fromPrice": "RM1,088",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Stay",
+        "hotel": "5-star Kathmandu hotel + premium Nagarkot resort or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM1,488 per person" }],
+        "fromPrice": "RM1,488"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Nepal Made Easy, at the Right Price",
+    "body": "Even a short Nepal trip needs the right guide, the right timing and the right Nagarkot lodge — not every room has the Himalayan view you came for. Dhesu has been arranging Himalayan journeys since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through Nepal Visa on Arrival documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group to wait for. Your trip runs on your dates, your pace, your own private vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. If the weather closes in at Nagarkot, we know the alternatives."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling with family or a group brings the per-person cost down. Ask us for a tailored quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "4 Day Nepal Tour Package from Malaysia",
+        "body": "This is the most affordable Nepal tour package from Malaysia that still does the country justice. Four days is enough to see Kathmandu's three great UNESCO temple complexes, spend a morning in medieval Bhaktapur and wake up on the Nagarkot ridge to the full sweep of the Himalaya.\n\nThe Nagarkot overnight is what separates this package from a simple city tour. At 2,200 metres, with no urban light pollution and a clear autumn or spring morning, the mountain views are extraordinary — Everest, Lhotse and the Annapurnas on the same horizon."
+      },
+      {
+        "heading": "Nepal Visa for Malaysian Travellers",
+        "body": "Malaysian passport holders do not need to apply for a Nepal visa in advance. Nepal offers Visa on Arrival at Tribhuvan International Airport in Kathmandu. A 15-day tourist visa costs USD 30, and a 30-day visa costs USD 50. Bring passport photos and the fee in US dollars or Malaysian Ringgit. Dhesu provides full guidance with your booking."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for Nepal?",
+        "answer": "Malaysian passport holders obtain a Visa on Arrival at Kathmandu's Tribhuvan International Airport. A 15-day tourist visa costs USD 30, a 30-day visa costs USD 50. Bring passport photos and the fee in cash. No advance application is needed, and Dhesu provides full guidance with your booking."
+      },
+      {
+        "question": "Which airport does this trip use?",
+        "answer": "This is a land-only package. Hotels, transfers, guides and tours are included; international flights are not. Most Malaysian travellers fly from Kuala Lumpur (KLIA or klia2) to Kathmandu Tribhuvan International Airport (KTM). We recommend suitable flights and timings on request."
+      },
+      {
+        "question": "What is the best time to visit Nepal from Malaysia?",
+        "answer": "October to December (autumn) is the most popular window — the clearest mountain views after the monsoon. March to May (spring) is the second best, with rhododendron blooms and clear peaks. Both seasons are ideal for the Nagarkot sunrise. June to September is monsoon; views are often clouded but prices are lower."
+      },
+      {
+        "question": "Will I definitely see the Himalayas from Nagarkot?",
+        "answer": "Mountain views depend on clear weather. Autumn (October–December) and spring (March–May) have the highest probability of clear mornings. Even if clouds cover the peaks at sunrise, Nagarkot itself is a beautiful, peaceful ridge with lovely views of the Kathmandu Valley."
+      },
+      {
+        "question": "Can I add Pokhara to this itinerary?",
+        "answer": "Yes — our 6-day Best of Nepal package adds Pokhara's Phewa Lake and Sarangkot sunrise to the Kathmandu and Nagarkot circuit. See our 6-day packages or ask us to build a custom itinerary."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "nepal-4d-top-of-world-nagarkot",
+      "name": "4 Days Nepal: Top of the World Himalayan Villa",
+      "price": "From RM1,388",
+      "duration": "4D3N",
+      "slug": "nagarkot/4-day-himalayan-villa",
+      "image": "/images/gallery/24.png"
+    },
+    {
+      "id": "nepal-6d-best-of-nepal",
+      "name": "6 Days Best of Nepal: Kathmandu, Nagarkot & Pokhara",
+      "price": "From RM1,988",
+      "duration": "6D5N",
+      "slug": "kathmandu-pokhara/6-day-best-of-nepal",
+      "image": "/images/gallery/43.jpg"
+    },
+    {
+      "id": "nepal-5d-top-of-world-nagarkot",
+      "name": "5 Days Nepal: Top of the World Himalayan Villa",
+      "price": "From RM1,588",
+      "duration": "5D4N",
+      "slug": "nagarkot/5-day-himalayan-villa",
+      "image": "/images/gallery/27.png"
+    }
+  ],
+  "cta": {
+    "heading": "Ready for Your Nepal Adventure?",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/38.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "4 Days Nepal Super Saver: Kathmandu & Nagarkot from Malaysia",
+    "description": "4-day Nepal tour with Kathmandu temples, Pashupatinath, Swayambhunath and Nagarkot Himalayan sunrise. From RM888 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.com/tours/nepal/kathmandu/4-day-super-saver",
+    "startLocation": "Tribhuvan International Airport, Kathmandu",
+    "endLocation": "Tribhuvan International Airport, Kathmandu",
+    "duration": "P4D",
+    "offers": { "price": "888", "priceCurrency": "MYR", "availability": "https://schema.org/InStock" }
+  }
+}

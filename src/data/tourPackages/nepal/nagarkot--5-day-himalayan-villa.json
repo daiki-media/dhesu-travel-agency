@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "5 Days Nepal: Top of the World Himalayan Villa, Nagarkot | Dhesu",
+    "description": "5-day Nepal tour with extended Nagarkot Himalayan villa stay, Kathmandu UNESCO temples and cultural immersion. From RM1,588 per person. Dhesu, since 1988.",
+    "keywords": "5 days Nepal tour package Malaysia, Nagarkot 5 day package, Nepal Himalayan villa Malaysia, Dhesu travel Nepal",
+    "slug": "nagarkot/5-day-himalayan-villa",
+    "canonicalUrl": "/tours/nepal/nagarkot/5-day-himalayan-villa",
+    "pkgid": "NP-NGK-5D-001",
+    "ogImage": "/images/gallery/27.png"
+  },
+  "hero": {
+    "badge": "Nagarkot & Kathmandu",
+    "title": "5 Days at the Top of the World.",
+    "titleAccent": "Extended Himalayan Immersion Above the Clouds.",
+    "intro": "The longer Nagarkot stay that lets you properly settle into the mountains. Two full Himalayan sunrises, time to walk the ridgeline trails, a day in medieval Bhaktapur and the great temples of Kathmandu.",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Nepal", "href": "/tours/nepal" },
+      { "label": "All Nepal Packages", "href": "/tours/nepal/all-packages" },
+      { "label": "5 Days Nagarkot Himalayan Villa", "href": null }
+    ],
+    "heroImage": "/images/gallery/27.png",
+    "heroImageAlt": "Boudhanath Stupa Kathmandu Nepal at dusk golden light"
+  },
+  "quickFacts": {
+    "duration": "5 Days / 4 Nights",
+    "startingPrice": "From RM1,588",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,906",
+    "saving": "Save RM635 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Nagarkot Himalayan Village Lodge (2 nights)",
+      "Hotel in Kathmandu (2 nights)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers"
+    ],
+    "excludes": [
+      "International Flights",
+      "Nepal Visa on Arrival (USD30 for 15 days)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees to temples and sites",
+      "Lunches and dinners",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      { "icon": "hotel", "label": "Hotel" },
+      { "icon": "breakfast", "label": "Daily Breakfast" },
+      { "icon": "car", "label": "Private Driver Guide" },
+      { "icon": "transfer", "label": "Airport Transfers" },
+      { "icon": "private", "label": "100% Private Tour" }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "5 Days Nepal Himalayan Villa: The Full Picture",
+    "body": [
+      "Five days is the right amount of time to experience Nepal's Kathmandu Valley fully and still have space at Nagarkot to breathe. Two nights on the Nagarkot ridge gives you two chances at the sunrise — insurance against one cloudy morning — and time to walk the forest reserve trails at your own pace.",
+      "This package covers Bhaktapur, the most perfectly preserved medieval city in the Himalayan foothills, along with Kathmandu's four great UNESCO heritage complexes, with nothing rushed and nothing missed."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Two Sunrises Over the Himalaya",
+        "body": "Two nights at Nagarkot means two chances at a perfect sunrise — a sensible insurance in a country where mountain mornings can be glorious or cloud-covered. When it is clear, nothing in travel comes close to what you see from this ridge.",
+        "image": "/images/gallery/24.png",
+        "imageAlt": "Nagarkot sunrise Himalayan views Nepal morning"
+      },
+      {
+        "title": "Bhaktapur — Nepal's Medieval Masterpiece",
+        "body": "Bhaktapur Durbar Square is often described as the finest example of Newari medieval architecture in the world. Pottery squares, wood-carved temples, pagodas and the 55-Window Palace — all without the crowds of Kathmandu.",
+        "image": "/images/gallery/29.jpg",
+        "imageAlt": "Bhaktapur Durbar Square Nepal medieval temples"
+      },
+      {
+        "title": "Kathmandu's Four UNESCO Sites",
+        "body": "A full day in the valley for Pashupatinath's sacred ghats, Boudhanath's watching eyes, Swayambhunath's hilltop stupas and Kathmandu Durbar Square's pagoda temples — the four that define the city.",
+        "image": "/images/gallery/47.jpg",
+        "imageAlt": "Kathmandu Durbar Square Nepal UNESCO pagoda temple"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 5 Days Nepal Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kathmandu",
+        "meals": "No meals",
+        "description": "Arrive at Tribhuvan International Airport and transfer to your Kathmandu hotel. Evening at leisure in Thamel.",
+        "suggestedActivities": [
+          "Airport transfer",
+          "Hotel check-in",
+          "Evening walk in Thamel",
+          "Rooftop dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kathmandu UNESCO Temples",
+        "meals": "Breakfast",
+        "description": "Full day visiting Kathmandu's four great UNESCO World Heritage Sites with your private guide.",
+        "suggestedActivities": [
+          "Pashupatinath Temple & sacred ghats",
+          "Boudhanath Stupa kora walk",
+          "Swayambhunath (Monkey Temple)",
+          "Kathmandu Durbar Square"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Bhaktapur & Drive to Nagarkot",
+        "meals": "Breakfast",
+        "description": "Morning in Bhaktapur, then drive up to Nagarkot for two nights on the Himalayan ridge.",
+        "suggestedActivities": [
+          "Bhaktapur Durbar Square",
+          "55-Window Palace",
+          "Pottery Square",
+          "Drive to Nagarkot — sunset views"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Nagarkot Sunrise & Ridge Walks",
+        "meals": "Breakfast",
+        "description": "First Himalayan sunrise from Nagarkot, then a day of ridgeline walks and valley exploration at your own pace.",
+        "suggestedActivities": [
+          "Pre-dawn Himalayan sunrise",
+          "Nagarkot Forest Reserve walk",
+          "Ridgeline trail to the viewing tower",
+          "Afternoon at leisure"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Final Sunrise & Depart Kathmandu",
+        "meals": "Breakfast",
+        "description": "Second sunrise opportunity at Nagarkot, then drive back to Kathmandu for your airport transfer.",
+        "suggestedActivities": [
+          "Second Himalayan sunrise",
+          "Return drive to Kathmandu",
+          "Last-minute Thamel shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Nagarkot lodges chosen for Himalayan view rooms. Kathmandu hotels in Thamel or Lazimpat.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Mountain View Lodge",
+        "hotel": "Nagarkot view lodge + 3-star Kathmandu hotel or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM1,588 per person" }],
+        "fromPrice": "RM1,588"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Comfort Mountain Resort",
+        "hotel": "Nagarkot 4-star resort + 4-star Kathmandu hotel or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM1,888 per person" }],
+        "fromPrice": "RM1,888",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Ridge Retreat",
+        "hotel": "Nagarkot premium resort + 5-star Kathmandu hotel or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM2,288 per person" }],
+        "fromPrice": "RM2,288"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Two Sunrises, Zero Regrets",
+    "body": "Two nights at Nagarkot is the right insurance policy against a cloudy first morning. We know which rooms guarantee the view and the best season windows. Dhesu has arranged Himalayan journeys since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through Nepal Visa on Arrival documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group. Your trip runs on your dates, your pace, your own vehicle and guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Weather, plans, changes — we adapt on the ground."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling as a family? Group size brings the per-person cost down significantly."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "5 Day Nepal Tour Package from Malaysia — Why Two Nights at Nagarkot?",
+        "body": "Two nights at Nagarkot is the difference between rushing the mountain experience and genuinely having it. The first morning you arrive is for orientation. The second morning — ideally crisp and clear — is when the full 200-kilometre sweep of the Himalaya appears. Everest, Lhotse, Makalu in the east; the Annapurnas in the west; and the whole arc between them.\n\nThis 5-day Nepal package from Malaysia gives you that second morning without compromise, combined with the full Kathmandu Valley cultural circuit and medieval Bhaktapur."
+      },
+      {
+        "heading": "The Bhaktapur Difference",
+        "body": "Bhaktapur is what many travellers consider the highlight of Nepal — more so than Kathmandu itself. As a UNESCO World Heritage Site and one of the three ancient Malla kingdom capitals, Bhaktapur has preserved its medieval core in extraordinary condition. Narrow brick lanes, pagoda temples, carved wood windows and the great Nyatapola temple rising five storeys above the Taumadhi Square.\n\nIncluded as a full stop on the way up to Nagarkot, Bhaktapur is the cultural anchor of this five-day itinerary."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for Nepal?",
+        "answer": "Malaysian passport holders obtain a Visa on Arrival at Kathmandu's Tribhuvan International Airport. A 15-day tourist visa costs USD 30, a 30-day visa costs USD 50. Bring passport photos and the fee in cash. Dhesu provides full guidance with your booking."
+      },
+      {
+        "question": "Why two nights at Nagarkot?",
+        "answer": "Mountain mornings in Nepal can be clear or cloudy — it depends on the season and the weather. Two nights gives you two chances at the Himalayan sunrise and a full free day to walk the ridgeline trails at a leisurely pace, rather than the rushed one-night version."
+      },
+      {
+        "question": "Is the drive to Nagarkot comfortable?",
+        "answer": "Yes. It is approximately 32 kilometres from Kathmandu and takes about 1.5 hours by private car on a paved road that climbs through the Kathmandu Valley and up the ridge. Your private vehicle handles all transfers throughout the package."
+      },
+      {
+        "question": "What is there to do at Nagarkot beyond the sunrise?",
+        "answer": "Nagarkot has a network of ridgeline trails through the Nagarkot Forest Reserve — gentle, forested walks with valley views. The viewing tower offers the widest panorama. The village itself is peaceful and the local teashops are worth exploring."
+      },
+      {
+        "question": "Can I add Pokhara or extend this trip?",
+        "answer": "Yes. We can add a Pokhara extension or build a fully custom Nepal itinerary around your interests and schedule. Our 6-day Best of Nepal package is a popular next step that adds Phewa Lake and Sarangkot sunrise."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "nepal-4d-top-of-world-nagarkot",
+      "name": "4 Days Nepal: Top of the World Himalayan Villa",
+      "price": "From RM1,388",
+      "duration": "4D3N",
+      "slug": "nagarkot/4-day-himalayan-villa",
+      "image": "/images/gallery/24.png"
+    },
+    {
+      "id": "nepal-6d-best-of-nepal",
+      "name": "6 Days Best of Nepal: Kathmandu, Nagarkot & Pokhara",
+      "price": "From RM1,988",
+      "duration": "6D5N",
+      "slug": "kathmandu-pokhara/6-day-best-of-nepal",
+      "image": "/images/gallery/43.jpg"
+    },
+    {
+      "id": "nepal-4d-super-saver-kathmandu-nagarkot",
+      "name": "4 Days Nepal Super Saver: Kathmandu & Nagarkot",
+      "price": "From RM888",
+      "duration": "4D3N",
+      "slug": "kathmandu/4-day-super-saver",
+      "image": "/images/gallery/29.jpg"
+    }
+  ],
+  "cta": {
+    "heading": "Two Sunrises, One Extraordinary Trip",
+    "subheading": "Tell us your travel dates and we will confirm your Nagarkot lodge.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/38.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "5 Days Nepal Top of the World Himalayan Villa from Malaysia",
+    "description": "5-day Nepal tour with two Nagarkot Himalayan village nights, full Kathmandu valley UNESCO circuit and Bhaktapur. From RM1,588 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.com/tours/nepal/nagarkot/5-day-himalayan-villa",
+    "startLocation": "Tribhuvan International Airport, Kathmandu",
+    "endLocation": "Tribhuvan International Airport, Kathmandu",
+    "duration": "P5D",
+    "offers": { "price": "1588", "priceCurrency": "MYR", "availability": "https://schema.org/InStock" }
+  }
+}

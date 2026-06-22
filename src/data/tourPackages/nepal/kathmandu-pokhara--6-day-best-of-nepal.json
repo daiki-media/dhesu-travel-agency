@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "title": "6 Days Best of Nepal: Kathmandu, Nagarkot & Pokhara from Malaysia | Dhesu",
+    "description": "6-day Nepal tour covering Kathmandu temples, Nagarkot Himalayan sunrise and Pokhara's Phewa Lake. Most popular Nepal package. From RM1,988. Dhesu, since 1988.",
+    "keywords": "6 days Nepal tour package Malaysia, Kathmandu Pokhara Nagarkot tour, best of Nepal Malaysia, Nepal holiday package Malaysia",
+    "slug": "kathmandu-pokhara/6-day-best-of-nepal",
+    "canonicalUrl": "/tours/nepal/kathmandu-pokhara/6-day-best-of-nepal",
+    "pkgid": "NP-KTP-6D-001",
+    "ogImage": "/images/gallery/43.jpg"
+  },
+  "hero": {
+    "badge": "Most Popular Nepal Package",
+    "title": "6 Days in Nepal.",
+    "titleAccent": "Kathmandu, Nagarkot & Phewa Lake Pokhara.",
+    "intro": "The classic Nepal circuit, perfectly paced. Ancient temples and watching-eye stupas in Kathmandu, a Himalayan sunrise from Nagarkot's ridge, and the still blue water of Phewa Lake with Machapuchare reflected in it. Nepal's greatest hits, nothing missed.",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Nepal", "href": "/tours/nepal" },
+      { "label": "All Nepal Packages", "href": "/tours/nepal/all-packages" },
+      { "label": "6 Days Best of Nepal", "href": null }
+    ],
+    "heroImage": "/images/gallery/43.jpg",
+    "heroImageAlt": "Phewa Lake Pokhara Nepal with Machapuchare Fishtail Mountain"
+  },
+  "quickFacts": {
+    "duration": "6 Days / 5 Nights",
+    "startingPrice": "From RM1,988",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM2,386",
+    "saving": "Save RM795 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotels (5 nights: Kathmandu + Nagarkot + Pokhara)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Domestic Flight: Pokhara–Kathmandu or Road Transfer"
+    ],
+    "excludes": [
+      "International Flights",
+      "Nepal Visa on Arrival (USD30 for 15 days)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Entrance Fees to temples and sites",
+      "Lunches and dinners",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      { "icon": "hotel", "label": "Hotel" },
+      { "icon": "breakfast", "label": "Daily Breakfast" },
+      { "icon": "car", "label": "Private Driver Guide" },
+      { "icon": "transfer", "label": "Airport Transfers" },
+      { "icon": "private", "label": "100% Private Tour" }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "6 Days Best of Nepal: The Full Picture",
+    "body": [
+      "This is the Nepal package that covers the country's three defining experiences: the ancient civilisation of Kathmandu, the Himalayan panorama of Nagarkot, and the serene lakeside beauty of Pokhara. Six days is enough to experience each properly, without anything feeling rushed.",
+      "Most Nepal first-timers choose this exact combination, and it is easy to see why. The cultural weight of Kathmandu's UNESCO temples, the mountain drama of a Nagarkot sunrise, and the still perfection of Phewa Lake with the Fishtail Mountain reflected in it — these are three experiences that stay with you permanently."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why This Is Our Most Popular Nepal Package",
+    "items": [
+      {
+        "title": "Kathmandu's UNESCO Temple Circuit",
+        "body": "Two full days in Kathmandu — the sacred ghats of Pashupatinath, the watching eyes of Boudhanath, Swayambhunath's hilltop stupas and the medieval squares of Bhaktapur. Nepal's cultural heart, seen properly.",
+        "image": "/images/gallery/47.jpg",
+        "imageAlt": "Kathmandu Durbar Square Nepal UNESCO temple"
+      },
+      {
+        "title": "Nagarkot Himalayan Sunrise",
+        "body": "A night on the Nagarkot ridge and a pre-dawn wake-up for the moment the 200-kilometre Himalayan arc — eight of the world's highest peaks — ignites gold in the first light of morning.",
+        "image": "/images/gallery/24.png",
+        "imageAlt": "Nagarkot Himalayan sunrise Nepal mountain views"
+      },
+      {
+        "title": "Pokhara and Phewa Lake",
+        "body": "The Annapurna range reflected in the still water of Phewa Lake, a boat ride to the World Peace Stupa, and Sarangkot at dawn for one of travel's great sunrise moments — all within reach of the most relaxed city in Nepal.",
+        "image": "/images/gallery/43.jpg",
+        "imageAlt": "Phewa Lake Pokhara Nepal Machapuchare reflection"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 6 Days Nepal Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kathmandu",
+        "meals": "No meals",
+        "description": "Arrive at Tribhuvan International Airport and transfer to your Kathmandu hotel. Evening at leisure in Thamel.",
+        "suggestedActivities": [
+          "Airport transfer",
+          "Hotel check-in",
+          "Evening walk in Thamel",
+          "Welcome dinner in Kathmandu"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kathmandu UNESCO Temples",
+        "meals": "Breakfast",
+        "description": "Full day with a private guide through Kathmandu's four UNESCO World Heritage Sites — Pashupatinath, Boudhanath, Swayambhunath and Durbar Square.",
+        "suggestedActivities": [
+          "Pashupatinath Temple & sacred ghats",
+          "Boudhanath Stupa kora walk",
+          "Swayambhunath (Monkey Temple)",
+          "Kathmandu Durbar Square"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Bhaktapur & Nagarkot Overnight",
+        "meals": "Breakfast",
+        "description": "Morning in medieval Bhaktapur, then drive up to the Nagarkot ridge for sunset and overnight.",
+        "suggestedActivities": [
+          "Bhaktapur Durbar Square",
+          "Pottery Square",
+          "Drive to Nagarkot",
+          "Himalayan sunset views"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Nagarkot Sunrise & Fly to Pokhara",
+        "meals": "Breakfast",
+        "description": "Pre-dawn Himalayan sunrise at Nagarkot, then drive or fly to Pokhara. Afternoon at leisure by Phewa Lake.",
+        "suggestedActivities": [
+          "Pre-dawn Himalayan sunrise",
+          "Transfer to Pokhara (25-min flight or 6-hr scenic drive)",
+          "Phewa Lake boat ride",
+          "Lakeside stroll"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Pokhara: Sarangkot Sunrise & Lakeside",
+        "meals": "Breakfast",
+        "description": "Early drive to Sarangkot for the Annapurna sunrise, then a full day exploring Pokhara's highlights.",
+        "suggestedActivities": [
+          "Sarangkot sunrise over Annapurna range",
+          "World Peace Stupa by boat",
+          "Phewa Lake rowing",
+          "Pokhara lakeside market"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Depart Pokhara or Kathmandu",
+        "meals": "Breakfast",
+        "description": "Transfer to Pokhara Airport or return to Kathmandu for your international departure.",
+        "suggestedActivities": [
+          "Final lakeside morning",
+          "Last-minute shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Kathmandu hotels in Thamel, Nagarkot ridge lodges with views, and Pokhara lakeside hotels.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Budget Friendly",
+        "hotel": "3-star Kathmandu + Nagarkot view lodge + 3-star Pokhara lakeside or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM1,988 per person" }],
+        "fromPrice": "RM1,988"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Comfort Plus",
+        "hotel": "4-star Kathmandu + Nagarkot resort + 4-star Pokhara lakeside or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM2,388 per person" }],
+        "fromPrice": "RM2,388",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Nepal",
+        "hotel": "5-star Kathmandu + premium Nagarkot + 5-star Pokhara lakeside or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM2,988 per person" }],
+        "fromPrice": "RM2,988"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Nepal's Classic Circuit, Arranged Right",
+    "body": "The Kathmandu–Nagarkot–Pokhara circuit is Nepal's most popular route, which means it needs to be done well to do justice to the country. The right lodges, the right timing for Sarangkot and Nagarkot, and guides who know the temples and the lake. Dhesu has been arranging Himalayan journeys since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency. We guide you through Nepal Visa on Arrival documentation with every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Tours, Daily Departures",
+        "body": "No minimum group. Your trip runs on your dates with your own private vehicle and English-speaking guide."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout your trip. Weather changes, connections shift — we handle it."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Custom Pricing",
+        "body": "Travelling with family or a group? Per-person cost drops significantly. Ask us for a quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Best of Nepal Tour Package from Malaysia — 6 Days",
+        "body": "The Kathmandu–Nagarkot–Pokhara route is Nepal's most-requested itinerary, and for good reason. It combines the cultural capital of Kathmandu, the mountain drama of Nagarkot, and the serene lakeside beauty of Pokhara into one seamless journey.\n\nFor Malaysian travellers, six days is the sweet spot — enough to do all three properly without feeling rushed, and achievable in a typical annual leave allocation. Flights between Kuala Lumpur and Kathmandu take around five to six hours."
+      },
+      {
+        "heading": "Phewa Lake & the Sarangkot Sunrise",
+        "body": "Pokhara's Phewa Lake is the image most people associate with Nepal — the still water, the Annapurna range reflected in it, and a wooden boat drifting across the blue. The World Peace Stupa on the hill above is an hour's boat ride and a short climb.\n\nSarangkot, a hill above Pokhara, is Nepal's most famous sunrise viewpoint after Nagarkot. The Annapurna massif fills the horizon — Machapuchare (Fishtail Mountain), Annapurna I, II, III and IV — turning from grey to gold to brilliant white as the sun rises. Plan for the drive up in darkness — it is worth every early morning."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for Nepal?",
+        "answer": "Malaysian passport holders obtain a Visa on Arrival at Kathmandu's Tribhuvan International Airport. A 15-day tourist visa costs USD 30. Bring passport photos and the fee in cash. Dhesu provides full guidance with your booking."
+      },
+      {
+        "question": "How do we travel between Kathmandu and Pokhara?",
+        "answer": "The most popular option is a 25-minute domestic flight between Kathmandu and Pokhara, which we include or arrange. The overland route takes approximately 6 to 7 hours by private car through scenic mountain scenery and is a relaxing alternative for those who prefer to see the countryside."
+      },
+      {
+        "question": "Which is better — Sarangkot or Nagarkot for sunrise?",
+        "answer": "Both are spectacular and different. Nagarkot (near Kathmandu) offers a wider Himalayan panorama including Everest. Sarangkot (near Pokhara) offers the dramatic close-up of the Annapurna massif and Machapuchare. This package includes both — one of the main reasons it is our most popular Nepal itinerary."
+      },
+      {
+        "question": "Is Pokhara good for families?",
+        "answer": "Yes, Pokhara is one of Nepal's most family-friendly destinations. The lakeside is flat, calm and walkable. Boat rides on Phewa Lake are suitable for all ages. The World Peace Stupa hike is moderate and achievable by older children. The pace here is relaxed compared to Kathmandu."
+      },
+      {
+        "question": "Can I add Chitwan National Park to this itinerary?",
+        "answer": "Yes. Our 8-day Nepal + Chitwan National Park Wildlife Safari adds Chitwan's jungle safaris, rhino spotting and Rapti River canoe rides to this classic circuit. It is the most complete Nepal experience available."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "nepal-6d-muslim-friendly",
+      "name": "6 Days Best of Nepal — Muslim Friendly",
+      "price": "From RM2,088",
+      "duration": "6D5N",
+      "slug": "kathmandu-pokhara/6-day-muslim-friendly",
+      "image": "/images/gallery/20.jpg"
+    },
+    {
+      "id": "nepal-8d-wildlife-safari",
+      "name": "8 Days Nepal + Chitwan National Park Wildlife Safari",
+      "price": "From RM2,988",
+      "duration": "8D7N",
+      "slug": "chitwan/8-day-national-park-safari",
+      "image": "/images/gallery/42.jpg"
+    },
+    {
+      "id": "nepal-4d-super-saver-kathmandu-nagarkot",
+      "name": "4 Days Nepal Super Saver: Kathmandu & Nagarkot",
+      "price": "From RM888",
+      "duration": "4D3N",
+      "slug": "kathmandu/4-day-super-saver",
+      "image": "/images/gallery/29.jpg"
+    }
+  ],
+  "cta": {
+    "heading": "Plan Your Best of Nepal Trip",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/38.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "6 Days Best of Nepal: Kathmandu, Nagarkot & Pokhara from Malaysia",
+    "description": "6-day Nepal tour covering Kathmandu UNESCO temples, Nagarkot Himalayan sunrise and Pokhara Phewa Lake. From RM1,988 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.com/tours/nepal/kathmandu-pokhara/6-day-best-of-nepal",
+    "startLocation": "Tribhuvan International Airport, Kathmandu",
+    "endLocation": "Tribhuvan International Airport, Kathmandu",
+    "duration": "P6D",
+    "offers": { "price": "1988", "priceCurrency": "MYR", "availability": "https://schema.org/InStock" }
+  }
+}

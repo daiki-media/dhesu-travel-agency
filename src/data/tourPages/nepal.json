@@ -2,7 +2,7 @@
   "meta": {
     "name": "Nepal",
     "title": "Nepal Tour Package from Malaysia | Dhesu Travel & Tours",
-    "description": "Trek the Himalayas, explore Kathmandu and discover Pokhara. Nepal tour packages from Malaysia with Dhesu. Fully guided, affordable. Since 1988.",
+    "description": "Explore Kathmandu's ancient temples, Pokhara's lakeside Himalayan views and Chitwan's jungle wildlife. Nepal tour packages from RM888. Dhesu — Malaysia's trusted travel agency since 1988. MATTA & IATA registered.",
     "slug": "nepal",
     "targetKeyword": "Nepal tour package from Malaysia"
   },
@@ -10,8 +10,8 @@
     "badge": "Eight of the World's Ten Highest Peaks",
     "headline": "It Makes You Feel Small",
     "headlineAccent": "in the Best Way.",
-    "body": "Stand in the Kathmandu Valley on a clear morning and look north. It is not a mountain range. It is a white wall at the top of the world, so large and so close your brain argues about whether it is real.",
-    "bgImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1920&auto=format&fit=crop",
+    "body": "Stand at Phewa Lake as the first light turns Machapuchare gold above the water. Walk medieval squares that have not changed in six centuries. Hear the bells of Pashupatinath over the Bagmati River. Nepal is not scenery. It is an experience that stays with you for life.",
+    "bgImage": "/images/gallery/43.jpg",
     "stats": [
       { "value": "8 of 10", "label": "Highest Peaks on Earth" },
       { "value": "35+", "label": "Years of Travel Expertise" },
@@ -27,28 +27,28 @@
         "icon": "temple",
         "title": "Kathmandu at the World's Crossroads",
         "body": "Joyfully chaotic streets that open suddenly into courtyards with ancient temples. Medieval Durbar Square, the sacred cremation ghats of Pashupatinath, the watching eyes of Boudhanath Stupa, and the 365 steps up to Swayambhunath, the Monkey Temple.",
-        "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/47.jpg",
         "places": ["Durbar Square", "Boudhanath Stupa", "Swayambhunath"]
       },
       {
         "icon": "mountain",
         "title": "Pokhara and the Sarangkot Sunrise",
-        "body": "On a clear day Phewa Lake holds the Annapurna range upside down in still water. Drive up Sarangkot in the dark, and watch the peaks catch first light and burn gold while the valley sleeps. One of the best ten minutes in travel.",
-        "image": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&auto=format&fit=crop",
+        "body": "On a clear day Phewa Lake holds the Annapurna range upside down in still water. Drive up Sarangkot in the dark and watch the peaks catch first light and burn gold while the valley sleeps below. One of the best ten minutes in travel.",
+        "image": "/images/gallery/46.jpg",
         "places": ["Phewa Lake", "Sarangkot Sunrise", "Annapurna Range"]
       },
       {
         "icon": "wave",
         "title": "Trekking for Every Level",
         "body": "You do not need to be a mountaineer. A three-day walk into the Annapurna foothills means teahouses, dal bhat and views from magazines. For the experienced, Annapurna Base Camp takes 7 to 12 days and Everest Base Camp 12 to 14.",
-        "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/44.jpg",
         "places": ["Annapurna Foothills", "Annapurna Base Camp", "Everest Base Camp"]
       },
       {
         "icon": "food",
         "title": "Chitwan: Rhinos in the Jungle",
         "body": "In the southern lowlands the mountains vanish into subtropical jungle and elephant grass. Chitwan protects the greater one-horned rhino and is home to Bengal tigers, gharials and 500+ bird species. Most visitors never know it is there.",
-        "image": "https://images.unsplash.com/photo-1571401835393-8c5f35328320?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/45.jpg",
         "places": ["One-Horned Rhino", "Rapti River Canoe", "Tharu Villages"]
       }
     ]
@@ -63,7 +63,7 @@
         "tag": "Temples & Culture",
         "tagColor": "orange",
         "description": "The historic capital, packed with UNESCO temples, stupas and ancient squares. Joyfully chaotic, and every Nepal trip starts here.",
-        "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/20.jpg",
         "vibe": "Historic"
       },
       {
@@ -71,7 +71,7 @@
         "tag": "Lakes & Peaks",
         "tagColor": "blue",
         "description": "Serene lakeside town beneath the Annapurna range. Phewa Lake boating, Sarangkot sunrises and the gateway to the great treks.",
-        "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/43.jpg",
         "vibe": "Relaxed"
       },
       {
@@ -79,15 +79,15 @@
         "tag": "Sunrise Views",
         "tagColor": "purple",
         "description": "A hill station at 2,200 metres with a 200-kilometre arc of the Himalaya, Everest included, from the viewing tower. Stay overnight for the sunrise.",
-        "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/24.png",
         "vibe": "Scenic"
       },
       {
         "name": "Chitwan",
         "tag": "Jungle Safari",
         "tagColor": "green",
-        "description": "Subtropical lowland national park. Jeep safaris, Rapti River canoe trips and Tharu villages, a complete change of pace from the peaks.",
-        "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop",
+        "description": "Subtropical lowland national park. Jeep safaris, Rapti River canoe trips and Tharu villages — a complete change of pace from the peaks.",
+        "image": "/images/gallery/42.jpg",
         "vibe": "Wild"
       }
     ]
@@ -118,7 +118,7 @@
         "months": "June to September",
         "badge": "Culture & Chitwan",
         "badgeColor": "blue",
-        "description": "Mountains are often clouded and trekking is difficult, but Kathmandu's culture and the Chitwan jungle can still be enjoyed.",
+        "description": "Mountains are often clouded and trekking is difficult, but Kathmandu's culture and the Chitwan jungle can still be enjoyed at lower prices.",
         "icon": "rain"
       }
     ]
@@ -133,7 +133,7 @@
         "description": "Enough for Durbar Square, Pashupatinath, Boudhanath and Swayambhunath, plus a Nagarkot sunrise."
       },
       {
-        "days": "6-8 Days",
+        "days": "6–8 Days",
         "label": "Sweet Spot",
         "description": "The classic Kathmandu and Pokhara combination, or the full circuit adding Nagarkot and Chitwan.",
         "recommended": true
@@ -147,86 +147,168 @@
   },
   "packages": {
     "sectionLabel": "Our Packages",
-    "heading": "Nepal Packages for Every Traveller",
-    "subheading": "We design trekking packages across the full range, from easy foothills day walks to full expedition-style high-altitude treks. Visa documentation assistance and airport transfers included.",
+    "heading": "Nepal Tour Packages for Every Traveller",
+    "subheading": "From city cultural breaks and Himalayan sunrise stays to full wildlife safari circuits and sacred pilgrimage routes. Every package includes airport transfers and Dhesu's trusted on-ground team.",
     "ctaNote": "Private and group packages available on request.",
     "items": [
       {
-        "id": "nepal-kathmandu",
-        "slug": "kathmandu",
-        "name": "Kathmandu Highlights",
-        "duration": "From 4D",
-        "price": "From RM1,388",
+        "id": "nepal-4d-super-saver-kathmandu-nagarkot",
+        "slug": "kathmandu/4-day-super-saver",
+        "name": "4 Days Nepal Super Saver: Kathmandu & Nagarkot",
+        "duration": "4D3N",
+        "price": "From RM888",
+        "originalPrice": "RM1,066",
         "priceNote": "per person",
-        "tag": "Cultural",
-        "tagColor": "orange",
-        "highlights": ["Durbar Square", "Pashupatinath Temple", "Boudhanath Stupa", "Swayambhunath"],
-        "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&auto=format&fit=crop",
+        "saving": "Save RM355 per couple",
+        "tag": "Best Value",
+        "tagColor": "gray",
+        "highlights": [
+          "Pashupatinath Temple",
+          "Swayambhunath (Monkey Temple)",
+          "Nagarkot Himalayan Views",
+          "English-Speaking Guide"
+        ],
+        "image": "/images/gallery/29.jpg",
         "popular": false
       },
       {
-        "id": "nepal-classic",
-        "slug": "kathmandu-pokhara",
-        "name": "Kathmandu & Pokhara",
-        "duration": "From 6D",
-        "price": "From RM1,888",
+        "id": "nepal-4d-top-of-world-nagarkot",
+        "slug": "nagarkot/4-day-himalayan-villa",
+        "name": "4 Days Nepal: Top of the World Himalayan Villa",
+        "duration": "4D3N",
+        "price": "From RM1,388",
+        "originalPrice": "RM1,666",
         "priceNote": "per person",
+        "saving": "Save RM555 per couple",
+        "tag": "Scenic Stay",
+        "tagColor": "purple",
+        "highlights": [
+          "Nagarkot Himalayan Village Stay",
+          "Golden Sunrise Over the Peaks",
+          "Kathmandu Valley Sightseeing",
+          "Cloud-Kissed Mountain Views"
+        ],
+        "image": "/images/gallery/24.png",
+        "popular": false
+      },
+      {
+        "id": "nepal-5d-top-of-world-nagarkot",
+        "slug": "nagarkot/5-day-himalayan-villa",
+        "name": "5 Days Nepal: Top of the World Himalayan Villa",
+        "duration": "5D4N",
+        "price": "From RM1,588",
+        "originalPrice": "RM1,906",
+        "priceNote": "per person",
+        "saving": "Save RM635 per couple",
+        "tag": "Extended Stay",
+        "tagColor": "purple",
+        "highlights": [
+          "Extended Nagarkot Mountain Stay",
+          "Kathmandu Heritage Sites",
+          "Mountain Sunrise Experience",
+          "Cultural Immersion"
+        ],
+        "image": "/images/gallery/27.png",
+        "popular": false
+      },
+      {
+        "id": "nepal-6d-best-of-nepal",
+        "slug": "kathmandu-pokhara/6-day-best-of-nepal",
+        "name": "6 Days Best of Nepal: Kathmandu, Nagarkot & Pokhara",
+        "duration": "6D5N",
+        "price": "From RM1,988",
+        "originalPrice": "RM2,386",
+        "priceNote": "per person",
+        "saving": "Save RM795 per couple",
         "tag": "Most Popular",
         "tagColor": "red",
-        "highlights": ["Kathmandu Temples", "Phewa Lake Pokhara", "Sarangkot Sunrise", "Annapurna Views"],
-        "image": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&auto=format&fit=crop",
+        "highlights": [
+          "Kathmandu Historic Temples",
+          "Nagarkot Himalayan Viewpoint",
+          "Pokhara Phewa Lake",
+          "Sarangkot Sunrise"
+        ],
+        "image": "/images/gallery/43.jpg",
         "popular": true
       },
       {
-        "id": "nepal-circuit",
-        "slug": "grand-nepal",
-        "name": "Full Nepal Circuit",
-        "duration": "From 8D",
-        "price": "From RM2,488",
+        "id": "nepal-6d-muslim-friendly",
+        "slug": "kathmandu-pokhara/6-day-muslim-friendly",
+        "name": "6 Days Best of Nepal — Muslim Friendly",
+        "duration": "6D5N",
+        "price": "From RM2,088",
+        "originalPrice": "RM2,506",
         "priceNote": "per person",
-        "tag": "Complete",
-        "tagColor": "teal",
-        "highlights": ["Kathmandu & Pokhara", "Nagarkot Sunrise", "Chitwan Safari", "Himalayan Views"],
-        "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=800&auto=format&fit=crop",
-        "popular": false
-      },
-      {
-        "id": "nepal-himalayas",
-        "slug": "himalayas",
-        "name": "Himalaya Trekking",
-        "duration": "Flexible",
-        "price": "On Request",
-        "priceNote": "per person",
-        "tag": "Trekking",
-        "tagColor": "blue",
-        "highlights": ["Annapurna Foothills", "Teahouse Trails", "Multi-Day Treks", "Guided & Permitted"],
-        "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&auto=format&fit=crop",
-        "popular": false
-      },
-      {
-        "id": "nepal-everest-base-camp",
-        "slug": "everest-base-camp",
-        "name": "Everest Base Camp Trek",
-        "duration": "14D13N",
-        "price": "On Request",
-        "priceNote": "per person",
-        "tag": "Expedition",
-        "tagColor": "purple",
-        "highlights": ["EBC at 5,364m", "Acclimatisation Schedule", "Fully Guided", "Teahouse Lodging"],
-        "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format&fit=crop",
-        "popular": false
-      },
-      {
-        "id": "nepal-chitwan",
-        "slug": "chitwan-national-park",
-        "name": "Chitwan Jungle Safari",
-        "duration": "From 3D",
-        "price": "From RM988",
-        "priceNote": "per person",
-        "tag": "Wildlife",
+        "saving": "Save RM835 per couple",
+        "tag": "Muslim Friendly",
         "tagColor": "green",
-        "highlights": ["Jeep Safari", "One-Horned Rhino", "Rapti River Canoe", "Tharu Village Visit"],
-        "image": "https://images.unsplash.com/photo-1571401835393-8c5f35328320?w=800&auto=format&fit=crop",
+        "highlights": [
+          "100% Private Guided Tours",
+          "Phewa Lake Boat Ride",
+          "Nagarkot Mountain Sunrise",
+          "Kathmandu Heritage Circuit"
+        ],
+        "image": "/images/gallery/20.jpg",
+        "popular": false
+      },
+      {
+        "id": "nepal-8d-wildlife-safari",
+        "slug": "chitwan/8-day-national-park-safari",
+        "name": "8 Days Nepal + Chitwan National Park Wildlife Safari",
+        "duration": "8D7N",
+        "price": "From RM2,988",
+        "originalPrice": "RM3,586",
+        "priceNote": "per person",
+        "saving": "Save RM1,195 per couple",
+        "tag": "Wildlife",
+        "tagColor": "teal",
+        "highlights": [
+          "Chitwan Jungle Jeep Safari",
+          "Rapti River Canoe Ride",
+          "One-Horned Rhino Sighting",
+          "Kathmandu & Pokhara"
+        ],
+        "image": "/images/gallery/42.jpg",
+        "popular": false
+      },
+      {
+        "id": "nepal-8d-spiritual-muktinath",
+        "slug": "muktinath/8-day-spiritual",
+        "name": "8 Days Spiritual Nepal: Muktinath & Kagbeni",
+        "duration": "8D7N",
+        "price": "From RM3,288",
+        "originalPrice": "RM3,946",
+        "priceNote": "per person",
+        "saving": "Save RM1,315 per couple",
+        "tag": "Spiritual",
+        "tagColor": "orange",
+        "highlights": [
+          "Muktinath Sacred Temple",
+          "Kagbeni Ancient Village",
+          "Natural Hot Springs (Tato Pani)",
+          "Pokhara & Kathmandu"
+        ],
+        "image": "/images/gallery/44.jpg",
+        "popular": false
+      },
+      {
+        "id": "nepal-8d-lumbini-birthplace-of-buddha",
+        "slug": "lumbini/8-day-birthplace-of-buddha",
+        "name": "8 Days Best of Nepal + Birthplace of Lord Buddha",
+        "duration": "8D7N",
+        "price": "From RM3,488",
+        "originalPrice": "RM4,186",
+        "priceNote": "per person",
+        "saving": "Save RM1,395 per couple",
+        "tag": "Pilgrimage",
+        "tagColor": "saffron",
+        "highlights": [
+          "Lumbini — Birthplace of Buddha",
+          "Kathmandu & Nagarkot",
+          "Pokhara Lakeside",
+          "Sacred Buddhist Circuit"
+        ],
+        "image": "/images/gallery/26.jpeg",
         "popular": false
       }
     ]
@@ -234,12 +316,12 @@
   "whyBook": {
     "sectionLabel": "Why Dhesu",
     "heading": "Why Book Your Nepal Trip Through Dhesu",
-    "body": "Nepal is not a destination where you want to leave things to chance. The mountain weather changes, flights to Pokhara and Lukla are sometimes delayed, and the trekking logistics need people who know what they are doing. The right preparation turns a good trip into an extraordinary one. We provide the preparation.",
+    "body": "Nepal is not a destination where you want to leave things to chance. Mountain weather changes, flights to Pokhara and Lukla are sometimes delayed, and trekking logistics need people who know what they are doing. The right preparation turns a good trip into an extraordinary one. We provide the preparation.",
     "points": [
       {
         "icon": "shield",
         "title": "MATTA & IATA Registered",
-        "description": "Fully licensed and registered. We assist with visa documentation as part of every Nepal package."
+        "description": "Fully licensed and registered. We assist with Nepal visa documentation as part of every package."
       },
       {
         "icon": "clock",
@@ -249,12 +331,12 @@
       {
         "icon": "map",
         "title": "Guides Who Know the Mountains",
-        "description": "Not just the trail. Plus permits, teahouse bookings and the right pace and acclimatisation for the altitude."
+        "description": "Not just the trail — also permits, teahouse bookings, and the right pace and acclimatisation schedule for the altitude."
       },
       {
         "icon": "tag",
         "title": "The Right Rooms & Season",
-        "description": "Kathmandu hotels with genuine rooftop Boudhanath views, and the right window for clear peaks."
+        "description": "Kathmandu hotels with rooftop Boudhanath views, Nagarkot lodges for the sunrise, and the right travel window for clear peaks."
       }
     ]
   },
@@ -264,6 +346,6 @@
     "phone": "+6019 336 4465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=1920&auto=format&fit=crop"
+    "bgImage": "/images/gallery/38.jpg"
   }
 }

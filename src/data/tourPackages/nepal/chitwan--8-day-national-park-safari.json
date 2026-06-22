@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "title": "8 Days Nepal + Chitwan National Park Wildlife Safari | Dhesu",
+    "description": "8-day Nepal tour with Chitwan National Park jeep safari, rhino sighting, Rapti River canoe, Kathmandu temples and Pokhara. From RM2,988. Dhesu, since 1988.",
+    "keywords": "Nepal Chitwan National Park tour Malaysia, Nepal wildlife safari package, 8 days Nepal Malaysia, Chitwan rhino tour",
+    "slug": "chitwan/8-day-national-park-safari",
+    "canonicalUrl": "/tours/nepal/chitwan/8-day-national-park-safari",
+    "pkgid": "NP-CTW-8D-001",
+    "ogImage": "/images/gallery/42.jpg"
+  },
+  "hero": {
+    "badge": "Chitwan, Pokhara & Kathmandu",
+    "title": "8 Days Nepal.",
+    "titleAccent": "From Himalayan Peaks to Jungle Rhinos.",
+    "intro": "Nepal is two countries in one. The Himalayan north — temples, peaks and stupas — and the subtropical south — elephant grass, rhinos and river mist. This is the trip that covers both. Kathmandu's ancient UNESCO sites, Pokhara's Phewa Lake and Annapurna sunrise, then Chitwan's jungle kingdom.",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Nepal", "href": "/tours/nepal" },
+      { "label": "All Nepal Packages", "href": "/tours/nepal/all-packages" },
+      { "label": "8 Days Nepal Chitwan Safari", "href": null }
+    ],
+    "heroImage": "/images/gallery/42.jpg",
+    "heroImageAlt": "Elephant bathing in Chitwan National Park Nepal"
+  },
+  "quickFacts": {
+    "duration": "8 Days / 7 Nights",
+    "startingPrice": "From RM2,988",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM3,586",
+    "saving": "Save RM1,195 per couple",
+    "groupSize": "Private & flexible",
+    "includes": [
+      "Hotels (7 nights: Kathmandu + Pokhara + Chitwan)",
+      "Daily Breakfast",
+      "Private Vehicle & Driver Guide",
+      "Return Airport Transfers",
+      "Chitwan Jungle Jeep Safari",
+      "Rapti River Canoe Ride",
+      "Tharu Cultural Village Tour"
+    ],
+    "excludes": [
+      "International Flights",
+      "Nepal Visa on Arrival (USD30 for 15 days)",
+      "ETIQA Travel Insurance (1-5 Days) RM41",
+      "Chitwan National Park Entry Fee",
+      "Lunches and dinners",
+      "Personal Expenses",
+      "Optional tour tips"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      { "icon": "hotel", "label": "Hotel" },
+      { "icon": "breakfast", "label": "Daily Breakfast" },
+      { "icon": "car", "label": "Private Driver Guide" },
+      { "icon": "transfer", "label": "Airport Transfers" },
+      { "icon": "private", "label": "Jeep Safari" }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "About This Package",
+    "heading": "8 Days Nepal + Chitwan Wildlife Safari: The Full Picture",
+    "body": [
+      "Most Nepal itineraries stay in the Himalayan zone — Kathmandu, Nagarkot, Pokhara. This package adds the dimension that most visitors never discover: the Terai lowlands, where the Himalaya finally meets the Indian plains and subtropical jungle grows thick along the rivers. Chitwan National Park is a UNESCO World Heritage Site and home to the greatest one-horned rhino population in the world, along with Bengal tigers, gharials and over 500 bird species.",
+      "The full eight days move from Kathmandu's urban culture through Pokhara's mountain lakes to Chitwan's wild river valleys — three completely different Nepals in one journey."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "What Makes This Trip",
+    "heading": "Why Travellers from Malaysia Love This Trip",
+    "items": [
+      {
+        "title": "Chitwan Jungle Jeep Safari",
+        "body": "A morning jeep safari through Chitwan's sal forest and elephant grass — the habitat of the one-horned rhino, spotted deer, langur monkeys and if luck holds, the elusive Bengal tiger. One of the best wildlife experiences in Asia.",
+        "image": "/images/gallery/42.jpg",
+        "imageAlt": "Chitwan National Park Nepal jeep safari elephant"
+      },
+      {
+        "title": "Rapti River Canoe Ride",
+        "body": "A dugout canoe drift on the Rapti River at the jungle's edge. Gharial crocodiles on the sandbanks, kingfishers on the branches and the sound of the jungle completely surrounding you. Peaceful and utterly unlike anything in Kathmandu.",
+        "image": "/images/gallery/45.jpg",
+        "imageAlt": "Rapti River Chitwan Nepal canoe wildlife"
+      },
+      {
+        "title": "Pokhara, Phewa Lake & Annapurna Sunrise",
+        "body": "Before the jungle, two days in Nepal's most beautiful lake town. The Annapurna range reflected in Phewa Lake at dawn, a Sarangkot sunrise and a boat ride to the World Peace Stupa.",
+        "image": "/images/gallery/43.jpg",
+        "imageAlt": "Phewa Lake Pokhara Nepal Machapuchare reflection"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day by Day",
+    "heading": "Your 8 Days Nepal + Chitwan Itinerary",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Kathmandu",
+        "meals": "No meals",
+        "description": "Arrive at Tribhuvan International Airport and transfer to your Kathmandu hotel. Evening at leisure in Thamel.",
+        "suggestedActivities": [
+          "Airport transfer",
+          "Hotel check-in",
+          "Evening in Thamel"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Kathmandu UNESCO Temples",
+        "meals": "Breakfast",
+        "description": "Full day visiting Kathmandu's UNESCO sites — Pashupatinath, Boudhanath, Swayambhunath and Durbar Square.",
+        "suggestedActivities": [
+          "Pashupatinath Temple & ghats",
+          "Boudhanath Stupa",
+          "Swayambhunath (Monkey Temple)",
+          "Kathmandu Durbar Square"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Bhaktapur & Fly to Pokhara",
+        "meals": "Breakfast",
+        "description": "Morning in medieval Bhaktapur, then fly to Pokhara. Afternoon at leisure by Phewa Lake.",
+        "suggestedActivities": [
+          "Bhaktapur Durbar Square",
+          "Pottery Square",
+          "Flight to Pokhara",
+          "Phewa Lake lakeside evening"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Pokhara: Sarangkot Sunrise & Lakeside",
+        "meals": "Breakfast",
+        "description": "Pre-dawn drive to Sarangkot for the Annapurna sunrise, then a full day exploring Pokhara.",
+        "suggestedActivities": [
+          "Sarangkot sunrise over Annapurna",
+          "World Peace Stupa by boat",
+          "Phewa Lake boat ride",
+          "Lakeside market"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Drive to Chitwan National Park",
+        "meals": "Breakfast",
+        "description": "Drive from Pokhara to Chitwan (approximately 4 hours). Afternoon jungle orientation walk and Tharu village visit.",
+        "suggestedActivities": [
+          "Drive Pokhara to Chitwan",
+          "Jungle orientation walk",
+          "Tharu cultural village tour",
+          "Tharu stick dance performance"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Chitwan Full Jungle Day",
+        "meals": "Breakfast",
+        "description": "Early morning jeep safari, Rapti River canoe ride, elephant bathing observation and a nature walk in the national park buffer zone.",
+        "suggestedActivities": [
+          "Morning jeep safari (rhino, deer, wildlife)",
+          "Rapti River dugout canoe ride",
+          "Elephant bathing observation",
+          "Jungle nature walk"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Chitwan to Kathmandu",
+        "meals": "Breakfast",
+        "description": "Final morning in Chitwan, then transfer back to Kathmandu by road or flight.",
+        "suggestedActivities": [
+          "Final dawn birdwatching",
+          "Transfer to Kathmandu",
+          "Last evening in Thamel"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Depart Kathmandu",
+        "meals": "Breakfast",
+        "description": "Free morning in Kathmandu, then transfer to the airport for your onward flight.",
+        "suggestedActivities": [
+          "Morning at leisure",
+          "Last-minute shopping in Thamel",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Hotel Options",
+    "heading": "Choose Your Comfort Level",
+    "subheading": "Kathmandu and Pokhara city hotels, plus Chitwan jungle lodges on the national park boundary.",
+    "tiers": [
+      {
+        "tier": "3 Star",
+        "label": "Jungle Lodge",
+        "hotel": "3-star Kathmandu + 3-star Pokhara + Chitwan jungle lodge or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM2,988 per person" }],
+        "fromPrice": "RM2,988"
+      },
+      {
+        "tier": "4 Star",
+        "label": "Comfort & Wildlife",
+        "hotel": "4-star Kathmandu + 4-star Pokhara + Chitwan 4-star resort or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM3,488 per person" }],
+        "fromPrice": "RM3,488",
+        "popular": true
+      },
+      {
+        "tier": "5 Star",
+        "label": "Premium Safari",
+        "hotel": "5-star Kathmandu + 5-star Pokhara + premium Chitwan safari lodge or similar",
+        "pricing": [{ "label": "Per person (twin sharing)", "price": "RM4,488 per person" }],
+        "fromPrice": "RM4,488"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Nepal's Peaks and Jungles, Seamlessly Connected",
+    "body": "Linking the Himalayan north with the Terai jungle south requires logistics that most travellers do not think about until it is too late — timing the drive to Chitwan, the right jeep guide for wildlife, the lodge that places you where the animals are. Dhesu has been running this circuit since 1988.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Fully licensed Malaysian travel agency with Nepal on-ground expertise."
+      },
+      {
+        "icon": "clock",
+        "title": "Private Safari, Daily Departures",
+        "body": "Your own private jeep. No sharing with strangers. Depart on your schedule."
+      },
+      {
+        "icon": "phone",
+        "title": "A Real Team to Call",
+        "body": "Reachable throughout — from Thamel to the jungle lodge."
+      },
+      {
+        "icon": "tag",
+        "title": "Group & Family Pricing",
+        "body": "Larger group? Per-person cost drops. Ask us for a custom quote."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Chitwan National Park Tour Package from Malaysia",
+        "body": "Chitwan National Park in Nepal's southern Terai lowlands is one of Asia's great wildlife experiences — and almost unknown among Malaysian travellers. The park protects the world's second-largest population of one-horned rhinos (after Kaziranga in India), along with Bengal tigers, gharials, wild elephants and over 500 bird species.\n\nThe combination of a Nepal Himalayan circuit with a Chitwan add-on gives you the single most complete experience of what this extraordinary country has to offer — from the high mountain world of Kathmandu and the serenity of Pokhara to the subtropical jungle of the Terai."
+      },
+      {
+        "heading": "What to Expect at Chitwan",
+        "body": "The park covers 952 square kilometres of sal forest, tall elephant grass and river floodplain. Jeep safaris enter the core zone in the early morning, when animals are most active. Rhino sightings are almost guaranteed in the right season. Tiger sightings are rarer but possible. The Rapti River canoe trip gives a completely different perspective — slow, quiet and intimate.\n\nThe Tharu people are the indigenous inhabitants of the Chitwan valley, and their cultural village visits and stick-dance performances are a genuine and respectful addition to the wildlife experience."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Common Questions",
+    "heading": "Questions About This Package",
+    "items": [
+      {
+        "question": "Will we definitely see rhinos in Chitwan?",
+        "answer": "One-horned rhino sightings are very common in Chitwan — the park has over 600 individuals and they are seen on the vast majority of jeep safaris, particularly in the morning. Tiger sightings are rarer but possible. Leopard, wild elephant, sloth bear, gharial and hundreds of bird species are also regularly encountered."
+      },
+      {
+        "question": "How do we get from Pokhara to Chitwan?",
+        "answer": "The drive from Pokhara to Chitwan takes approximately 4 to 5 hours by private car through scenic lowland terrain. There is also a domestic flight option (35 minutes). Your private vehicle and driver handle all inter-city transfers throughout the package."
+      },
+      {
+        "question": "Is Chitwan suitable for children?",
+        "answer": "Yes, for children aged 6 and above. Jeep safaris are safe and comfortable. The canoe ride is gentle. The Tharu village and stick dance are very family-friendly. Young children will likely find the elephant bathing observation a particular highlight."
+      },
+      {
+        "question": "Do Malaysians need a visa for Nepal?",
+        "answer": "Malaysian passport holders obtain a Visa on Arrival at Kathmandu's Tribhuvan International Airport. A 15-day tourist visa costs USD 30. Bring passport photos and the fee in cash. Dhesu provides full guidance with your booking."
+      },
+      {
+        "question": "What is the best time to visit Chitwan?",
+        "answer": "October to March is the best window for Chitwan. The jungle is drier, the grass has been cut in January (which improves visibility), and wildlife concentrates near the river. April and May are hot but good for tiger sightings. The park partially closes June to September during monsoon."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "nepal-6d-best-of-nepal",
+      "name": "6 Days Best of Nepal: Kathmandu, Nagarkot & Pokhara",
+      "price": "From RM1,988",
+      "duration": "6D5N",
+      "slug": "kathmandu-pokhara/6-day-best-of-nepal",
+      "image": "/images/gallery/43.jpg"
+    },
+    {
+      "id": "nepal-8d-spiritual-muktinath",
+      "name": "8 Days Spiritual Nepal: Muktinath & Kagbeni",
+      "price": "From RM3,288",
+      "duration": "8D7N",
+      "slug": "muktinath/8-day-spiritual",
+      "image": "/images/gallery/44.jpg"
+    },
+    {
+      "id": "nepal-8d-lumbini-birthplace-of-buddha",
+      "name": "8 Days Best of Nepal + Birthplace of Buddha",
+      "price": "From RM3,488",
+      "duration": "8D7N",
+      "slug": "lumbini/8-day-birthplace-of-buddha",
+      "image": "/images/gallery/26.jpeg"
+    }
+  ],
+  "cta": {
+    "heading": "From the Himalayas to the Jungle",
+    "subheading": "Tell us your dates and group size for a confirmed quote.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/38.jpg"
+  },
+  "schema": {
+    "type": "TouristTrip",
+    "name": "8 Days Nepal + Chitwan National Park Wildlife Safari from Malaysia",
+    "description": "8-day Nepal tour with Chitwan jungle jeep safari, rhino sighting, Rapti River canoe, Kathmandu temples and Pokhara Phewa Lake. From RM2,988 per person.",
+    "provider": "Dhesu Travel & Tours",
+    "url": "https://dhesu.com/tours/nepal/chitwan/8-day-national-park-safari",
+    "startLocation": "Tribhuvan International Airport, Kathmandu",
+    "endLocation": "Tribhuvan International Airport, Kathmandu",
+    "duration": "P8D",
+    "offers": { "price": "2988", "priceCurrency": "MYR", "availability": "https://schema.org/InStock" }
+  }
+}

@@ -68,6 +68,15 @@ import westIndia4DayMumbaiBollywood from "./india/west-india--4-day-mumbai-bolly
 import westIndia4DayShirdiNashikShani from "./india/west-india--4-day-shirdi-nashik-shani.json";
 import westIndia5DayMumbaiGoa from "./india/west-india--5-day-mumbai-goa.json";
 
+import nepalKathmandu4DaySuperSaver from "./nepal/kathmandu--4-day-super-saver.json";
+import nepalNagarkot4DayHimalayanVilla from "./nepal/nagarkot--4-day-himalayan-villa.json";
+import nepalNagarkot5DayHimalayanVilla from "./nepal/nagarkot--5-day-himalayan-villa.json";
+import nepalKathmanduPokhara6DayBestOfNepal from "./nepal/kathmandu-pokhara--6-day-best-of-nepal.json";
+import nepalKathmanduPokhara6DayMuslimFriendly from "./nepal/kathmandu-pokhara--6-day-muslim-friendly.json";
+import nepalChitwan8DayNationalParkSafari from "./nepal/chitwan--8-day-national-park-safari.json";
+import nepalMuktinath8DaySpiritual from "./nepal/muktinath--8-day-spiritual.json";
+import nepalLumbini8DayBirthplaceOfBuddha from "./nepal/lumbini--8-day-birthplace-of-buddha.json";
+
 const packageDetails: Record<string, PackageDetailData> = {
   "east-india/3-day-kolkata-heritage": eastIndia3DayKolkataHeritage as PackageDetailData,
   "kashmir/12-day-srinagar-leh-road-trip": kashmir12DaySrinagarLehRoadTrip as PackageDetailData,
@@ -132,6 +141,14 @@ const packageDetails: Record<string, PackageDetailData> = {
   "west-india/4-day-mumbai-bollywood": westIndia4DayMumbaiBollywood as PackageDetailData,
   "west-india/4-day-shirdi-nashik-shani": westIndia4DayShirdiNashikShani as PackageDetailData,
   "west-india/5-day-mumbai-goa": westIndia5DayMumbaiGoa as PackageDetailData,
+  "kathmandu/4-day-super-saver": nepalKathmandu4DaySuperSaver as PackageDetailData,
+  "nagarkot/4-day-himalayan-villa": nepalNagarkot4DayHimalayanVilla as PackageDetailData,
+  "nagarkot/5-day-himalayan-villa": nepalNagarkot5DayHimalayanVilla as PackageDetailData,
+  "kathmandu-pokhara/6-day-best-of-nepal": nepalKathmanduPokhara6DayBestOfNepal as PackageDetailData,
+  "kathmandu-pokhara/6-day-muslim-friendly": nepalKathmanduPokhara6DayMuslimFriendly as PackageDetailData,
+  "chitwan/8-day-national-park-safari": nepalChitwan8DayNationalParkSafari as PackageDetailData,
+  "muktinath/8-day-spiritual": nepalMuktinath8DaySpiritual as PackageDetailData,
+  "lumbini/8-day-birthplace-of-buddha": nepalLumbini8DayBirthplaceOfBuddha as PackageDetailData,
 };
 
 export const packageSlugs = Object.keys(packageDetails);

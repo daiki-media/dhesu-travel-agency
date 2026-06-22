@@ -47,6 +47,7 @@ export default function Footer() {
                       height={100}
                       width={150}
                       priority
+                      style={{ width: "auto" }}
                       className="object-contain rounded"
                     />
                   </Link>
