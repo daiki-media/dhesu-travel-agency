@@ -1,14 +1,12 @@
 
 import type { TourPageData } from "./types";
 
-import baliData from "./bali.json";
 import indiaData from "./india.json";
 import thailandData from "./thailand.json";
 import sriLankaData from "./sri-lanka.json";
 import nepalData from "./nepal.json";
 
 export const tourPages: Record<string, TourPageData> = {
-  bali: baliData as TourPageData,
   india: indiaData as TourPageData,
   thailand: thailandData as TourPageData,
   "sri-lanka": sriLankaData as TourPageData,

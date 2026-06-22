@@ -88,6 +88,10 @@ export interface TourPageData {
     description: string;
     slug: string;
     targetKeyword: string;
+    /** Geographic region shown as a badge on the /tours hub card, e.g. "South Asia" */
+    region?: string;
+    /** Tailwind color key for the region badge on the /tours hub card */
+    hubCardColor?: string;
   };
   hero: {
     badge: string;

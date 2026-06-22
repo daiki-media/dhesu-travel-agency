@@ -4,7 +4,9 @@
     "title": "Sri Lanka Tour Package from Malaysia | Dhesu Travel & Tours",
     "description": "Discover Sri Lanka's ancient cities, hill country tea estates and pristine beaches. Affordable packages from Malaysia. Dhesu Travel, trusted since 1988.",
     "slug": "sri-lanka",
-    "targetKeyword": "Sri Lanka tour package from Malaysia"
+    "targetKeyword": "Sri Lanka tour package from Malaysia",
+    "region": "South Asia",
+    "hubCardColor": "green"
   },
   "hero": {
     "badge": "Small Island, Enormous Country",

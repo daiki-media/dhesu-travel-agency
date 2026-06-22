@@ -8,7 +8,6 @@ const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 // Popular destinations to help the user navigate
 const suggestedLinks = [
-  { label: "Bali Tours", href: "/tours/bali" },
   { label: "India Tours", href: "/tours/india" },
   { label: "Thailand", href: "/tours/thailand" },
   { label: "Sri Lanka", href: "/tours/sri-lanka" },

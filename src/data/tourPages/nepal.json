@@ -4,7 +4,9 @@
     "title": "Nepal Tour Package from Malaysia | Dhesu Travel & Tours",
     "description": "Explore Kathmandu's ancient temples, Pokhara's lakeside Himalayan views and Chitwan's jungle wildlife. Nepal tour packages from RM888. Dhesu — Malaysia's trusted travel agency since 1988. MATTA & IATA registered.",
     "slug": "nepal",
-    "targetKeyword": "Nepal tour package from Malaysia"
+    "targetKeyword": "Nepal tour package from Malaysia",
+    "region": "South Asia",
+    "hubCardColor": "blue"
   },
   "hero": {
     "badge": "Eight of the World's Ten Highest Peaks",
@@ -64,7 +66,8 @@
         "tagColor": "orange",
         "description": "The historic capital, packed with UNESCO temples, stupas and ancient squares. Joyfully chaotic, and every Nepal trip starts here.",
         "image": "/images/gallery/20.jpg",
-        "vibe": "Historic"
+        "vibe": "Historic",
+        "href": "/tours/nepal/kathmandu"
       },
       {
         "name": "Pokhara",
@@ -72,7 +75,8 @@
         "tagColor": "blue",
         "description": "Serene lakeside town beneath the Annapurna range. Phewa Lake boating, Sarangkot sunrises and the gateway to the great treks.",
         "image": "/images/gallery/43.jpg",
-        "vibe": "Relaxed"
+        "vibe": "Relaxed",
+        "href": "/tours/nepal/pokhara"
       },
       {
         "name": "Nagarkot",
@@ -80,7 +84,8 @@
         "tagColor": "purple",
         "description": "A hill station at 2,200 metres with a 200-kilometre arc of the Himalaya, Everest included, from the viewing tower. Stay overnight for the sunrise.",
         "image": "/images/gallery/24.png",
-        "vibe": "Scenic"
+        "vibe": "Scenic",
+        "href": "/tours/nepal/nagarkot"
       },
       {
         "name": "Chitwan",
@@ -88,7 +93,8 @@
         "tagColor": "green",
         "description": "Subtropical lowland national park. Jeep safaris, Rapti River canoe trips and Tharu villages — a complete change of pace from the peaks.",
         "image": "/images/gallery/42.jpg",
-        "vibe": "Wild"
+        "vibe": "Wild",
+        "href": "/tours/nepal/chitwan"
       }
     ]
   },

@@ -1,7 +1,3 @@
-// Auto-generated data registry for India tour package detail pages.
-// Maps URL key '{destination}/{slug}' to its imported detail JSON.
-// Detail JSON filenames use '--' in place of '/' from the slug.
-
 import type { PackageDetailData } from "@/src/components/tours/TourPackageDetailTemplate";
 
 import eastIndia3DayKolkataHeritage from "./india/east-india--3-day-kolkata-heritage.json";
@@ -51,7 +47,7 @@ import northIndia9DayGoldenTriangleShimla from "./india/north-india--9-day-golde
 import northIndia9DayRajasthanDesertSafari from "./india/north-india--9-day-rajasthan-desert-safari.json";
 import northIndia9DayShimlaManali from "./india/north-india--9-day-shimla-manali.json";
 import southIndia3DayBangaloreHighlights from "./india/south-india--3-day-bangalore-highlights.json";
-import chennaiSuperSaver from "./india-package-detail-chennai-super-saver.json";
+import chennaiSuperSaver from "./india/south-india--3-day-chennai-super-saver.json";
 import southIndia3DayHyderabadHeritage from "./india/south-india--3-day-hyderabad-heritage.json";
 import southIndia4DayHyderabadHeritageEscape from "./india/south-india--4-day-hyderabad-heritage-escape.json";
 import southIndia4DayNavagrahaTemples from "./india/south-india--4-day-navagraha-temples.json";

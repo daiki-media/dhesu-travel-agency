@@ -4,7 +4,9 @@
     "title": "India Tour Package from Malaysia | Dhesu Travel & Tours",
     "description": "From the Himalayas to Kerala backwaters, explore India with Dhesu. Trusted Malaysian travel agency since 1988. Group, custom and honeymoon packages available.",
     "slug": "india",
-    "targetKeyword": "India tour package from Malaysia"
+    "targetKeyword": "India tour package from Malaysia",
+    "region": "South Asia",
+    "hubCardColor": "orange"
   },
   "hero": {
     "badge": "A Continent Pretending to Be a Country",

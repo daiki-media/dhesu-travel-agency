@@ -4,7 +4,9 @@
     "title": "Thailand Tour Package from Malaysia | Dhesu Travel & Tours",
     "description": "Phuket, Krabi, Bangkok, Chiang Mai. Thailand tour packages from Malaysia starting from RM688. Book with Dhesu, trusted since 1988.",
     "slug": "thailand",
-    "targetKeyword": "Thailand tour package from Malaysia"
+    "targetKeyword": "Thailand tour package from Malaysia",
+    "region": "Southeast Asia",
+    "hubCardColor": "teal"
   },
   "hero": {
     "badge": "So Close, So Good, So Surprising",
