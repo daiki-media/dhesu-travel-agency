@@ -259,7 +259,7 @@
       },
       {
         "id": "sri-lanka-4d-nuwara-eliya",
-        "slug": "hill-country/4-day-nuwara-eliya-little-england",
+        "slug": "nuwara-eliya/4-day-little-england",
         "name": "4 Days Beautiful Sri Lanka: Little England",
         "duration": "4D3N",
         "price": "From RM1,288",
@@ -280,7 +280,7 @@
       },
       {
         "id": "sri-lanka-4d-muslim-friendly",
-        "slug": "hill-country/4-day-muslim-friendly",
+        "slug": "nuwara-eliya/4-day-muslim-friendly",
         "name": "4 Days Beautiful Sri Lanka (Muslim Friendly)",
         "duration": "4D3N",
         "price": "From RM1,288",
@@ -301,7 +301,7 @@
       },
       {
         "id": "sri-lanka-5d-adventure",
-        "slug": "kandy/5-day-sri-lankan-adventure",
+        "slug": "sigiriya/5-day-sri-lankan-adventure",
         "name": "5 Days Sri Lankan Adventure",
         "duration": "5D4N",
         "price": "From RM1,688",
@@ -322,7 +322,7 @@
       },
       {
         "id": "sri-lanka-6d-central-south",
-        "slug": "south/6-day-central-south",
+        "slug": "kataragama/6-day-central-south",
         "name": "6 Days Best of Sri Lanka: Central + Down South",
         "duration": "6D5N",
         "price": "From RM2,098",
@@ -343,7 +343,7 @@
       },
       {
         "id": "sri-lanka-6d-wildlife-safari",
-        "slug": "south/6-day-wildlife-safari",
+        "slug": "yala-national-park/6-day-wildlife-safari",
         "name": "6 Days Best of Sri Lanka with Wildlife Jeep Safari",
         "duration": "6D5N",
         "price": "From RM2,338",
@@ -364,7 +364,7 @@
       },
       {
         "id": "sri-lanka-6d-sigiriya-best-places",
-        "slug": "kandy/6-day-sigiriya-best-places",
+        "slug": "sigiriya/6-day-sigiriya-best-places",
         "name": "6 Days Best Places in Sri Lanka + Sigiriya",
         "duration": "6D5N",
         "price": "From RM2,388",
@@ -385,7 +385,7 @@
       },
       {
         "id": "sri-lanka-6d-northern",
-        "slug": "north/6-day-northern-sri-lanka",
+        "slug": "jaffna/6-day-northern-sri-lanka",
         "name": "6 Days Northern Sri Lanka",
         "duration": "6D5N",
         "price": "From RM2,388",
@@ -406,7 +406,7 @@
       },
       {
         "id": "sri-lanka-7d-central-southern",
-        "slug": "south/7-day-central-southern-overnight",
+        "slug": "yala-national-park/7-day-central-southern-overnight",
         "name": "7 Days Best of Central & Southern Sri Lanka",
         "duration": "7D6N",
         "price": "From RM2,688",
@@ -448,7 +448,7 @@
       },
       {
         "id": "sri-lanka-9d-northern-discovery",
-        "slug": "north/9-day-northern-discovery",
+        "slug": "jaffna/9-day-northern-discovery",
         "name": "9 Days Northern Sri Lanka Discovery: Where Cultures Collide",
         "duration": "9D8N",
         "price": "From RM3,488",
@@ -469,7 +469,7 @@
       },
       {
         "id": "sri-lanka-12d-complete-island",
-        "slug": "kandy/12-day-complete-island",
+        "slug": "jaffna/12-day-complete-island",
         "name": "12 Days Best of Sri Lanka: Central + North + South",
         "duration": "12D11N",
         "price": "From RM4,528",

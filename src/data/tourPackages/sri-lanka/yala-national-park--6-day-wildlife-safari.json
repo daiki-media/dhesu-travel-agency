@@ -1,18 +1,18 @@
 {
   "meta": {
-    "title": "4 Days Beautiful Sri Lanka: Little England from Malaysia | Dhesu Travel & Tours",
-    "description": "4 Days / 3 Nights Sri Lanka tour: Nuwara Eliya, Kandy, Colombo. From RM1,288 per person. Private English-speaking guide, airport transfers. Dhesu Travel, trusted since 1988.",
-    "keywords": "4 days beautiful sri lanka little england Malaysia, Sri Lanka tour package Malaysia, Nuwara Eliya tour Malaysia, Dhesu travel Sri Lanka",
-    "slug": "hill-country/4-day-nuwara-eliya-little-england",
-    "canonicalUrl": "/tours/sri-lanka/hill-country/4-day-nuwara-eliya-little-england",
-    "pkgid": "423",
-    "ogImage": "/images/gallery/423.jpg"
+    "title": "6 Days Best of Sri Lanka with Wildlife Jeep Safari from Malaysia | Dhesu Travel & Tours",
+    "description": "6 Days / 5 Nights Sri Lanka tour: Sigiriya, Kandy, Yala National Park, Colombo. From RM2,338 per person. Private English-speaking guide, airport transfers. Dhesu Travel, trusted since 1988.",
+    "keywords": "6 days best of sri lanka with wildlife jeep safari Malaysia, Sri Lanka tour package Malaysia, Sigiriya tour Malaysia, Dhesu travel Sri Lanka",
+    "slug": "yala-national-park/6-day-wildlife-safari",
+    "canonicalUrl": "/tours/sri-lanka/yala-national-park/6-day-wildlife-safari",
+    "pkgid": "666",
+    "ogImage": "/images/gallery/666.jpg"
   },
   "hero": {
-    "badge": "Nuwara Eliya & Hill Country",
-    "title": "4 Days in Sri Lanka's Hill Country.",
-    "titleAccent": "Tea Estates, Colonial Trains and Misty Mountain Air.",
-    "intro": "Nuwara Eliya sits at nearly 2,000 metres and feels like colonial England dropped into a Sri Lankan jungle. Tea estates in every direction, a rack railway through the Ella Gap, rose gardens, and air cool enough that you finally forget the heat.",
+    "badge": "Yala Wildlife Safari Included",
+    "title": "6 Days in Sri Lanka.",
+    "titleAccent": "Sigiriya, Kandy and a Jeep Safari in Yala.",
+    "intro": "Yala National Park has one of the highest leopard densities in the world. This six-day package pairs the Cultural Triangle and Kandy with a jeep safari in Yala — leopards, elephants, crocodiles and peacocks at close range in the southern scrub.",
     "breadcrumb": [
       {
         "label": "Home",
@@ -27,26 +27,27 @@
         "href": "/tours/sri-lanka/all-packages"
       },
       {
-        "label": "4 Days Beautiful Sri Lanka: Little England",
+        "label": "6 Days Best of Sri Lanka with Wildlife Jeep Safari",
         "href": null
       }
     ],
-    "heroImage": "/images/gallery/423.jpg",
-    "heroImageAlt": "Nuwara Eliya Sri Lanka 4 Days / 3 Nights"
+    "heroImage": "/images/gallery/666.jpg",
+    "heroImageAlt": "Sigiriya Sri Lanka 6 Days / 5 Nights"
   },
   "quickFacts": {
-    "duration": "4 Days / 3 Nights",
-    "startingPrice": "From RM1,288",
+    "duration": "6 Days / 5 Nights",
+    "startingPrice": "From RM2,338",
     "priceNote": "per person (twin sharing)",
-    "originalPrice": "RM1,546",
-    "saving": "Save RM515 per couple",
+    "originalPrice": "RM2,806",
+    "saving": "Save RM935 per couple",
     "groupSize": "Private & flexible",
     "includes": [
-      "Hotel accommodation (3 nights)",
+      "Hotel accommodation (5 nights)",
       "Daily Breakfast",
       "Private Vehicle with English-Speaking Guide",
       "Return Airport Transfers",
-      "100% Private Tour"
+      "100% Private Tour",
+      "Yala Wildlife Jeep Safari"
     ],
     "excludes": [
       "International Flights",
@@ -84,9 +85,9 @@
   },
   "overview": {
     "sectionLabel": "About This Package",
-    "heading": "4 Days Beautiful Sri Lanka: Little England: The Full Picture",
+    "heading": "6 Days Best of Sri Lanka with Wildlife Jeep Safari: The Full Picture",
     "body": [
-      "Sri Lanka rewards travellers who move through it at the right pace — not rushing, not lingering too long. This 4 Days / 3 Nights itinerary is designed to cover Nuwara Eliya, Kandy, Colombo with the right balance of time at each stop.",
+      "Sri Lanka rewards travellers who move through it at the right pace — not rushing, not lingering too long. This 6 Days / 5 Nights itinerary is designed to cover Sigiriya, Kandy, Yala National Park, Colombo with the right balance of time at each stop.",
       "Every Dhesu Sri Lanka package runs as a 100% private tour. Your own vehicle, your own English-speaking guide, your own schedule. No coaches, no group waiting times, no missed sights because the group voted differently. The itinerary below is a guide — it can be adjusted to your interests and pace."
     ]
   },
@@ -95,73 +96,95 @@
     "heading": "Why Malaysian Travellers Love This Sri Lanka Package",
     "items": [
       {
-        "title": "Nuwara Eliya Tea Estates",
-        "body": "At nearly 2,000 metres above sea level, Nuwara Eliya is ringed by tea estates that produce some of Sri Lanka's finest highland teas. Walking between the emerald rows with mist drifting across the ridgeline is one of the island's most distinctive experiences.",
-        "image": "/images/gallery/423.jpg",
-        "imageAlt": "Nuwara Eliya tea plantations Sri Lanka hill country"
+        "title": "Yala National Park Wildlife Safari",
+        "body": "Yala has the world's highest density of wild leopards. Dawn and dusk jeep safaris regularly produce sightings of elephants, leopards, sloth bears, crocodiles and hundreds of bird species. The park also protects the Kataragama sacred site at its border.",
+        "image": "/images/gallery/666.jpg",
+        "imageAlt": "Yala National Park jeep safari leopard Sri Lanka"
+      },
+      {
+        "title": "Sigiriya Rock Fortress",
+        "body": "A 5th-century palace perched on a granite monolith rising 200 metres from the jungle. The water gardens, frescoes and mirror wall at the base are as remarkable as the summit ruins. Sigiriya is Sri Lanka's single most visited site.",
+        "image": "/images/gallery/87.jpg",
+        "imageAlt": "Sigiriya Rock Fortress Sri Lanka aerial view"
       },
       {
         "title": "Temple of the Sacred Tooth Relic, Kandy",
-        "body": "The most important Buddhist shrine in Sri Lanka, set beside Kandy Lake in the last royal capital of the ancient kings. The Tooth Relic is paraded through the streets during the annual Esala Perahera festival in a procession of elephants, drummers and fire dancers.",
+        "body": "Sri Lanka's most sacred Buddhist temple, housing the Tooth Relic of the Buddha. The golden roof over Kandy Lake, the evening puja with drumming and incense, and the Kandyan cultural show make this the cultural highlight of any Sri Lanka trip.",
         "image": "/images/gallery/422.jpg",
         "imageAlt": "Temple of the Sacred Tooth Relic Kandy Sri Lanka"
-      },
-      {
-        "title": "Pinnawala Elephant Orphanage",
-        "body": "Established in 1975, Pinnawala cares for orphaned and injured elephants from across the country. The daily river bath — when 80+ elephants walk down to the Maha Oya river — is one of Sri Lanka's most unforgettable spectacles.",
-        "image": "/images/gallery/424.jpg",
-        "imageAlt": "Pinnawala Elephant Orphanage Sri Lanka"
       }
     ]
   },
   "itinerary": {
     "sectionLabel": "Day by Day",
-    "heading": "Your 4 Days Sri Lanka Itinerary",
+    "heading": "Your 6 Days Sri Lanka Itinerary",
     "days": [
       {
         "day": 1,
-        "title": "Arrive Colombo & Drive to Kandy",
+        "title": "Arrive Colombo",
         "meals": "No meals",
-        "description": "Arrive at Bandaranaike International Airport. Private transfer to Kandy (2.5 hrs) with a stop at Pinnawala Elephant Orphanage. Evening arrival in Kandy, the last royal capital of the ancient kings.",
+        "description": "Arrive at Bandaranaike International Airport. Private transfer to Colombo hotel. Evening at Galle Face Green with the Indian Ocean at sunset.",
         "suggestedActivities": [
-          "Airport arrival & transfer",
-          "Pinnawala Elephant Orphanage",
-          "Kandy hotel check-in",
-          "Kandy Lake evening stroll"
+          "Airport transfer",
+          "Galle Face Green",
+          "Colombo evening"
         ]
       },
       {
         "day": 2,
-        "title": "Kandy Sightseeing & Up to Nuwara Eliya",
+        "title": "Drive to Cultural Triangle — Dambulla",
         "meals": "Breakfast",
-        "description": "Morning visit to the Temple of the Sacred Tooth Relic and the Royal Botanical Gardens at Peradeniya. After lunch, scenic drive up to Nuwara Eliya through hairpin bends and tea estate views.",
+        "description": "Drive north to the Cultural Triangle. Visit Dambulla Cave Temple — ancient caves packed with golden Buddhas and 2,000-year-old frescoes. Overnight near Sigiriya.",
         "suggestedActivities": [
-          "Temple of the Sacred Tooth Relic",
-          "Royal Botanical Gardens Peradeniya",
-          "Scenic mountain drive",
-          "Nuwara Eliya arrival"
+          "Dambulla Cave Temple",
+          "Cultural Triangle",
+          "Sigiriya check-in"
         ]
       },
       {
         "day": 3,
-        "title": "Nuwara Eliya — Tea, Plains & Waterfalls",
+        "title": "Sigiriya Rock Fortress & Kandy",
         "meals": "Breakfast",
-        "description": "Early morning visit to Horton Plains National Park for the World's End cliff walk. Afternoon visit to a working tea estate and factory tour. Stop at Ramboda or Devon waterfall on the descent.",
+        "description": "Early climb of Sigiriya Rock Fortress — palace ruins, mirror wall and summit views. Drive to Kandy for the Temple of the Tooth Relic and a Kandyan cultural performance.",
         "suggestedActivities": [
-          "Horton Plains National Park",
-          "World's End cliff walk",
-          "Tea estate & factory visit",
-          "Ramboda Waterfall"
+          "Sigiriya Rock Fortress climb",
+          "Matale Spice Garden",
+          "Temple of the Tooth Relic",
+          "Kandyan show"
         ]
       },
       {
         "day": 4,
-        "title": "Train Views & Colombo Departure",
+        "title": "Kandy to Yala",
         "meals": "Breakfast",
-        "description": "Morning scenic drive down from the hills toward Colombo with views of the tea valley. Brief Colombo city stops before airport transfer for your onward flight.",
+        "description": "Drive south to Yala National Park through the Kataragama region. Afternoon check-in to Yala lodge. Optional evening Kataragama Temple visit.",
         "suggestedActivities": [
-          "Scenic hill descent",
-          "Colombo city stops",
+          "Scenic south drive",
+          "Kataragama Temple (optional)",
+          "Yala lodge check-in"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Yala Wildlife Jeep Safari",
+        "meals": "Breakfast",
+        "description": "Dawn jeep safari into Yala — the prime time for leopard and elephant sightings. A second afternoon safari for maximum wildlife exposure. Yala holds the world's highest density of wild leopards.",
+        "suggestedActivities": [
+          "Dawn Yala jeep safari",
+          "Leopard & elephant sightings",
+          "Afternoon safari",
+          "Wildlife photography"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "South Coast & Depart Colombo",
+        "meals": "Breakfast",
+        "description": "Morning drive west along the south coast with beach stops at Mirissa or Unawatuna. Drive up the Southern Expressway to Colombo airport.",
+        "suggestedActivities": [
+          "South coast beach stop",
+          "Mirissa or Unawatuna",
+          "Southern Expressway",
           "Airport transfer"
         ]
       }
@@ -179,10 +202,10 @@
         "pricing": [
           {
             "label": "Per person (twin sharing)",
-            "price": "RM1,288 per person"
+            "price": "RM2,338 per person"
           }
         ],
-        "fromPrice": "RM1,288"
+        "fromPrice": "RM2,338"
       },
       {
         "tier": "4 Star",
@@ -191,10 +214,10 @@
         "pricing": [
           {
             "label": "Per person (twin sharing)",
-            "price": "From RM1,588 per person"
+            "price": "From RM2,638 per person"
           }
         ],
-        "fromPrice": "From RM1,588",
+        "fromPrice": "From RM2,638",
         "popular": true
       },
       {
@@ -204,10 +227,10 @@
         "pricing": [
           {
             "label": "Per person (twin sharing)",
-            "price": "From RM1,988 per person"
+            "price": "From RM3,038 per person"
           }
         ],
-        "fromPrice": "From RM1,988"
+        "fromPrice": "From RM3,038"
       }
     ]
   },
@@ -241,8 +264,8 @@
   "seoContent": {
     "sections": [
       {
-        "heading": "4 Days Beautiful Sri Lanka: Little England from Malaysia",
-        "body": "This 4 days Sri Lanka package covers Nuwara Eliya, Kandy, Colombo. Starting from RM1,288 per person on twin sharing, it runs as a 100% private tour with an English-speaking guide, private vehicle and airport transfers included throughout. International flights are not included — most Malaysian travellers fly from Kuala Lumpur to Colombo in around 3.5 hours.\n\nDhesu has been arranging Sri Lanka tours for Malaysian travellers since 1988. Our team knows which hotels face the lake in Kandy, when to arrive at Sigiriya for the fewest crowds, and the jeep drivers in Yala who know the leopard territories. This is not a package put together from a website — it is 35 years of ground-level knowledge."
+        "heading": "6 Days Best of Sri Lanka with Wildlife Jeep Safari from Malaysia",
+        "body": "This 6 days Sri Lanka package covers Sigiriya, Kandy, Yala National Park, Colombo. Starting from RM2,338 per person on twin sharing, it runs as a 100% private tour with an English-speaking guide, private vehicle and airport transfers included throughout. International flights are not included — most Malaysian travellers fly from Kuala Lumpur to Colombo in around 3.5 hours.\n\nDhesu has been arranging Sri Lanka tours for Malaysian travellers since 1988. Our team knows which hotels face the lake in Kandy, when to arrive at Sigiriya for the fewest crowds, and the jeep drivers in Yala who know the leopard territories. This is not a package put together from a website — it is 35 years of ground-level knowledge."
       },
       {
         "heading": "Sri Lanka Visa for Malaysian Travellers",
@@ -273,33 +296,37 @@
       {
         "question": "Are halal food options available in Sri Lanka?",
         "answer": "Sri Lanka has a significant Muslim community (about 10% of the population) and halal food is available throughout the country, especially in Colombo, Kandy and Galle. Most hotels accommodate halal dietary requirements with advance notice. Our Muslim-friendly packages specifically arrange halal meals at each meal stop."
+      },
+      {
+        "question": "What wildlife can I expect to see at Yala?",
+        "answer": "Yala National Park has one of the world's highest densities of wild leopards. Common sightings include Asian elephants, sloth bears, crocodiles, spotted deer, water buffalo and hundreds of bird species including peacocks. Leopard sightings are not guaranteed but are frequent on dawn safaris, particularly in Block 1 of the park. We visit during peak wildlife hours (dawn and dusk) for the best chance of sightings."
       }
     ]
   },
   "relatedPackages": [
     {
       "id": "sri-lanka-related-1",
-      "name": "3 Days Sri Lanka: The Last Capital of the Ancient Kings",
-      "price": "From RM888",
-      "duration": "3D2N",
-      "slug": "kandy/3-day-kandy-colombo",
-      "image": "/images/gallery/2168.jpg"
-    },
-    {
-      "id": "sri-lanka-related-2",
-      "name": "4 Days Beautiful Sri Lanka (Muslim Friendly)",
-      "price": "From RM1,288",
-      "duration": "4D3N",
-      "slug": "hill-country/4-day-muslim-friendly",
-      "image": "/images/gallery/424.jpg"
-    },
-    {
-      "id": "sri-lanka-related-3",
       "name": "5 Days Sri Lankan Adventure",
       "price": "From RM1,688",
       "duration": "5D4N",
       "slug": "kandy/5-day-sri-lankan-adventure",
       "image": "/images/gallery/87.jpg"
+    },
+    {
+      "id": "sri-lanka-related-2",
+      "name": "6 Days Best of Sri Lanka: Central + Down South",
+      "price": "From RM2,098",
+      "duration": "6D5N",
+      "slug": "south/6-day-central-south",
+      "image": "/images/gallery/425.jpg"
+    },
+    {
+      "id": "sri-lanka-related-3",
+      "name": "7 Days Best of Central & Southern Sri Lanka",
+      "price": "From RM2,688",
+      "duration": "7D6N",
+      "slug": "south/7-day-central-southern-overnight",
+      "image": "/images/gallery/2456.jpg"
     }
   ],
   "cta": {
@@ -309,19 +336,19 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/423.jpg"
+    "bgImage": "/images/gallery/666.jpg"
   },
   "schema": {
     "type": "TouristTrip",
-    "name": "4 Days Beautiful Sri Lanka: Little England",
-    "description": "4 Days / 3 Nights Sri Lanka tour: Nuwara Eliya, Kandy, Colombo. From RM1,288 per person.",
+    "name": "6 Days Best of Sri Lanka with Wildlife Jeep Safari",
+    "description": "6 Days / 5 Nights Sri Lanka tour: Sigiriya, Kandy, Yala National Park, Colombo. From RM2,338 per person.",
     "provider": "Dhesu Travel & Tours",
-    "url": "https://dhesu.com/tours/sri-lanka/hill-country/4-day-nuwara-eliya-little-england",
+    "url": "https://dhesu.com/tours/sri-lanka/south/6-day-wildlife-safari",
     "startLocation": "Bandaranaike International Airport, Colombo",
     "endLocation": "Bandaranaike International Airport, Colombo",
-    "duration": "P4D",
+    "duration": "P6D",
     "offers": {
-      "price": "1288",
+      "price": "2338",
       "priceCurrency": "MYR",
       "availability": "https://schema.org/InStock"
     }

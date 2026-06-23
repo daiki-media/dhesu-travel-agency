@@ -1,18 +1,18 @@
 {
   "meta": {
-    "title": "12 Days Best of Sri Lanka: Central + North + South from Malaysia | Dhesu Travel & Tours",
-    "description": "12 Days / 11 Nights Sri Lanka tour: Jaffna, Anuradhapura, Sigiriya, Kandy, Nuwara Eliya, Yala, South Coast. From RM4,528 per person. Private English-speaking guide, airport transfers. Dhesu Travel, trusted since 1988.",
-    "keywords": "12 days best of sri lanka central  north  south Malaysia, Sri Lanka tour package Malaysia, Jaffna tour Malaysia, Dhesu travel Sri Lanka",
-    "slug": "kandy/12-day-complete-island",
-    "canonicalUrl": "/tours/sri-lanka/kandy/12-day-complete-island",
-    "pkgid": "2194",
-    "ogImage": "/images/gallery/2193.jpg"
+    "title": "6 Days Best of Sri Lanka: Central + Down South from Malaysia | Dhesu Travel & Tours",
+    "description": "6 Days / 5 Nights Sri Lanka tour: Sigiriya, Kandy, Nuwara Eliya, South Coast. From RM2,098 per person. Private English-speaking guide, airport transfers. Dhesu Travel, trusted since 1988.",
+    "keywords": "6 days best of sri lanka central  down south Malaysia, Sri Lanka tour package Malaysia, Sigiriya tour Malaysia, Dhesu travel Sri Lanka",
+    "slug": "kataragama/6-day-central-south",
+    "canonicalUrl": "/tours/sri-lanka/kataragama/6-day-central-south",
+    "pkgid": "425",
+    "ogImage": "/images/gallery/425.jpg"
   },
   "hero": {
-    "badge": "Complete Sri Lanka — All Regions",
-    "title": "12 Days in Sri Lanka.",
-    "titleAccent": "North, Central and South — the Whole Island.",
-    "intro": "Twelve days is the only way to see Sri Lanka fully. Jaffna and Nainativu Island in the north, the ancient UNESCO sites at Anuradhapura, Sigiriya and Polonnaruwa through the centre, Kandy and the tea hills, and Yala wildlife safari with the south coast. The whole island, done properly.",
+    "badge": "Best Value — Full Island Mix",
+    "title": "6 Days in Sri Lanka.",
+    "titleAccent": "From the Rock Fortress to the South Coast.",
+    "intro": "Six days is the sweet spot for first-time visitors who want to see the Cultural Triangle, the tea hills AND the south coast — without feeling rushed. This is the most complete affordable itinerary on the island.",
     "breadcrumb": [
       {
         "label": "Home",
@@ -27,26 +27,27 @@
         "href": "/tours/sri-lanka/all-packages"
       },
       {
-        "label": "12 Days Best of Sri Lanka: Central + North + South",
+        "label": "6 Days Best of Sri Lanka: Central + Down South",
         "href": null
       }
     ],
-    "heroImage": "/images/gallery/2193.jpg",
-    "heroImageAlt": "Jaffna Sri Lanka 12 Days / 11 Nights"
+    "heroImage": "/images/gallery/425.jpg",
+    "heroImageAlt": "Sigiriya Sri Lanka 6 Days / 5 Nights"
   },
   "quickFacts": {
-    "duration": "12 Days / 11 Nights",
-    "startingPrice": "From RM4,528",
+    "duration": "6 Days / 5 Nights",
+    "startingPrice": "From RM2,098",
     "priceNote": "per person (twin sharing)",
-    "originalPrice": "RM5,434",
-    "saving": "Save RM1,811 per couple",
+    "originalPrice": "RM2,518",
+    "saving": "Save RM839 per couple",
     "groupSize": "Private & flexible",
     "includes": [
-      "Hotel accommodation (11 nights)",
+      "Hotel accommodation (5 nights)",
       "Daily Breakfast",
       "Private Vehicle with English-Speaking Guide",
       "Return Airport Transfers",
-      "100% Private Tour"
+      "100% Private Tour",
+      "Yala Wildlife Jeep Safari"
     ],
     "excludes": [
       "International Flights",
@@ -84,9 +85,9 @@
   },
   "overview": {
     "sectionLabel": "About This Package",
-    "heading": "12 Days Best of Sri Lanka: Central + North + South: The Full Picture",
+    "heading": "6 Days Best of Sri Lanka: Central + Down South: The Full Picture",
     "body": [
-      "Sri Lanka rewards travellers who move through it at the right pace — not rushing, not lingering too long. This 12 Days / 11 Nights itinerary is designed to cover Jaffna, Anuradhapura, Sigiriya, Kandy, Nuwara Eliya, Yala, South Coast with the right balance of time at each stop.",
+      "Sri Lanka rewards travellers who move through it at the right pace — not rushing, not lingering too long. This 6 Days / 5 Nights itinerary is designed to cover Sigiriya, Kandy, Nuwara Eliya, South Coast with the right balance of time at each stop.",
       "Every Dhesu Sri Lanka package runs as a 100% private tour. Your own vehicle, your own English-speaking guide, your own schedule. No coaches, no group waiting times, no missed sights because the group voted differently. The itinerary below is a guide — it can be adjusted to your interests and pace."
     ]
   },
@@ -95,167 +96,96 @@
     "heading": "Why Malaysian Travellers Love This Sri Lanka Package",
     "items": [
       {
+        "title": "Yala National Park Wildlife Safari",
+        "body": "Yala has the world's highest density of wild leopards. Dawn and dusk jeep safaris regularly produce sightings of elephants, leopards, sloth bears, crocodiles and hundreds of bird species. The park also protects the Kataragama sacred site at its border.",
+        "image": "/images/gallery/666.jpg",
+        "imageAlt": "Yala National Park jeep safari leopard Sri Lanka"
+      },
+      {
         "title": "Sigiriya Rock Fortress",
-        "body": "Rising 200 metres from the Sri Lankan jungle, Sigiriya is the island's single most spectacular site. A 5th-century king built his palace on top, complete with frescoes, mirror walls and water gardens. The climb takes about 45 minutes and the views from the summit stretch to the horizon.",
+        "body": "A 5th-century palace perched on a granite monolith rising 200 metres from the jungle. The water gardens, frescoes and mirror wall at the base are as remarkable as the summit ruins. Sigiriya is Sri Lanka's single most visited site.",
         "image": "/images/gallery/87.jpg",
         "imageAlt": "Sigiriya Rock Fortress Sri Lanka aerial view"
       },
       {
         "title": "Temple of the Sacred Tooth Relic, Kandy",
-        "body": "Sri Lanka's holiest Buddhist shrine, set beside Kandy Lake in the last royal capital. The evening puja ceremony with drums and incense is one of the most atmospheric experiences in the country.",
+        "body": "Sri Lanka's most sacred Buddhist temple, housing the Tooth Relic of the Buddha. The golden roof over Kandy Lake, the evening puja with drumming and incense, and the Kandyan cultural show make this the cultural highlight of any Sri Lanka trip.",
         "image": "/images/gallery/422.jpg",
         "imageAlt": "Temple of the Sacred Tooth Relic Kandy Sri Lanka"
-      },
-      {
-        "title": "Nuwara Eliya & the Tea Hills",
-        "body": "The colonial hill station at 1,868 metres, surrounded by tea estates that produce Ceylon's finest highland teas. The cool air, rose gardens and scenic railway views make this the most surprising corner of the island.",
-        "image": "/images/gallery/423.jpg",
-        "imageAlt": "Nuwara Eliya tea plantations Sri Lanka hill country"
       }
     ]
   },
   "itinerary": {
     "sectionLabel": "Day by Day",
-    "heading": "Your 12 Days Sri Lanka Itinerary",
+    "heading": "Your 6 Days Sri Lanka Itinerary",
     "days": [
       {
         "day": 1,
         "title": "Arrive Colombo",
         "meals": "No meals",
-        "description": "Arrive at Bandaranaike International Airport. Private transfer to Colombo hotel.",
+        "description": "Arrive at Bandaranaike International Airport. Private transfer to Colombo. Evening at leisure along the Galle Face promenade.",
         "suggestedActivities": [
           "Airport transfer",
-          "Colombo hotel check-in",
-          "Galle Face Green evening"
+          "Galle Face Green",
+          "Colombo evening"
         ]
       },
       {
         "day": 2,
-        "title": "Colombo City & Drive to Anuradhapura",
+        "title": "Colombo to Cultural Triangle",
         "meals": "Breakfast",
-        "description": "Morning Colombo city tour. Afternoon drive north to Anuradhapura — Sri Lanka's first ancient capital.",
+        "description": "Drive north to the Cultural Triangle. Visit Dambulla Cave Temple en route to Sigiriya. Evening at leisure near the fortress.",
         "suggestedActivities": [
-          "Colombo city tour",
-          "Drive to Anuradhapura",
-          "Anuradhapura arrival"
+          "Dambulla Cave Temple",
+          "Cultural Triangle drive",
+          "Sigiriya check-in"
         ]
       },
       {
         "day": 3,
-        "title": "Anuradhapura Ancient Capital",
+        "title": "Sigiriya & Kandy",
         "meals": "Breakfast",
-        "description": "Full-day Anuradhapura: Sacred Bodhi Tree (2,300 years old), Ruvanvelisaya Dagoba, Thuparama Dagoba and the Abhayagiri Monastery ruins — a complete ancient civilisation.",
-        "suggestedActivities": [
-          "Sacred Bodhi Tree",
-          "Ruvanvelisaya Dagoba",
-          "Thuparama",
-          "Abhayagiri ruins"
-        ]
-      },
-      {
-        "day": 4,
-        "title": "Drive to Jaffna",
-        "meals": "Breakfast",
-        "description": "Drive north through the Vavuniya plains and the Elephant Pass causeway to Jaffna. The landscape changes completely — palmyra palms, lagoons, and Tamil architecture.",
-        "suggestedActivities": [
-          "A9 Highway drive",
-          "Elephant Pass",
-          "Jaffna arrival",
-          "Jaffna evening"
-        ]
-      },
-      {
-        "day": 5,
-        "title": "Jaffna City & Nainativu Island",
-        "meals": "Breakfast",
-        "description": "Morning Jaffna Fort, Nallur Kandaswamy Kovil and the local market. Afternoon boat to Nainativu Island for the Nagapooshani Amman and Nagadeepa Buddhist temples.",
-        "suggestedActivities": [
-          "Jaffna Fort",
-          "Nallur Kovil",
-          "Boat to Nainativu",
-          "Nagapooshani & Nagadeepa temples"
-        ]
-      },
-      {
-        "day": 6,
-        "title": "Jaffna to Sigiriya",
-        "meals": "Breakfast",
-        "description": "Drive south from Jaffna. Stop at Dambulla Cave Temple. Overnight near Sigiriya in the Cultural Triangle.",
-        "suggestedActivities": [
-          "Drive south from Jaffna",
-          "Dambulla Cave Temple",
-          "Sigiriya overnight"
-        ]
-      },
-      {
-        "day": 7,
-        "title": "Sigiriya & Polonnaruwa",
-        "meals": "Breakfast",
-        "description": "Early morning Sigiriya Rock Fortress climb. Afternoon Polonnaruwa — the second ancient capital with extraordinary carved stone ruins.",
+        "description": "Early morning Sigiriya Rock Fortress climb. Drive to Kandy through Matale spice gardens. Temple of the Tooth Relic visit and evening cultural show.",
         "suggestedActivities": [
           "Sigiriya Rock Fortress",
-          "Polonnaruwa ancient city",
-          "UNESCO heritage sites"
-        ]
-      },
-      {
-        "day": 8,
-        "title": "Kandy — Heart of Sri Lanka",
-        "meals": "Breakfast",
-        "description": "Drive to Kandy via Matale. Temple of the Sacred Tooth Relic, Peradeniya Botanical Gardens, Kandy Lake and evening cultural show.",
-        "suggestedActivities": [
           "Matale Spice Garden",
           "Temple of the Tooth Relic",
-          "Peradeniya Botanical Gardens",
           "Kandyan Cultural Show"
         ]
       },
       {
-        "day": 9,
-        "title": "Tea Country — Nuwara Eliya",
+        "day": 4,
+        "title": "Kandy to Nuwara Eliya",
         "meals": "Breakfast",
-        "description": "Scenic mountain drive to Nuwara Eliya. Tea estate and factory tour. Horton Plains National Park walk with World's End views.",
+        "description": "Morning Peradeniya Botanical Gardens. Scenic mountain drive to Nuwara Eliya through tea estates with waterfall stops.",
         "suggestedActivities": [
-          "Tea estate drive",
+          "Peradeniya Botanical Gardens",
+          "Tea estate scenic drive",
+          "Ramboda Waterfall",
+          "Nuwara Eliya arrival"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Nuwara Eliya & South Coast Drive",
+        "meals": "Breakfast",
+        "description": "Morning Gregory Lake and tea factory visit. Afternoon descent through the hill country toward the south coast — Mirissa or Weligama.",
+        "suggestedActivities": [
+          "Gregory Lake",
           "Tea factory tour",
-          "Horton Plains",
-          "World's End cliff walk"
+          "South Coast descent",
+          "South coast beach arrival"
         ]
       },
       {
-        "day": 10,
-        "title": "Nuwara Eliya to Yala",
-        "meals": "Breakfast",
-        "description": "Morning Ella (Nine Arch Bridge and Ravana Falls). Afternoon drive to Yala National Park via Kataragama Temple.",
-        "suggestedActivities": [
-          "Nine Arch Bridge Ella",
-          "Ravana Falls",
-          "Kataragama Temple",
-          "Yala arrival"
-        ]
-      },
-      {
-        "day": 11,
-        "title": "Yala Wildlife Safari & South Coast",
-        "meals": "Breakfast",
-        "description": "Dawn and afternoon Yala jeep safaris — maximum wildlife exposure including leopard and elephant sightings. Evening drive to the south coast beach.",
-        "suggestedActivities": [
-          "Dawn Yala jeep safari",
-          "Afternoon safari",
-          "Leopard & elephant sightings",
-          "South coast arrival"
-        ]
-      },
-      {
-        "day": 12,
+        "day": 6,
         "title": "South Coast & Depart Colombo",
         "meals": "Breakfast",
-        "description": "Morning at the south coast beach. Southern Expressway drive to Colombo for your international flight home.",
+        "description": "Morning at the south coast beach. Drive back to Colombo airport along the coastal highway.",
         "suggestedActivities": [
           "South coast morning",
-          "Southern Expressway",
-          "Airport transfer",
-          "Depart Sri Lanka"
+          "Coastal highway drive",
+          "Airport transfer"
         ]
       }
     ]
@@ -272,10 +202,10 @@
         "pricing": [
           {
             "label": "Per person (twin sharing)",
-            "price": "RM4,528 per person"
+            "price": "RM2,098 per person"
           }
         ],
-        "fromPrice": "RM4,528"
+        "fromPrice": "RM2,098"
       },
       {
         "tier": "4 Star",
@@ -284,10 +214,10 @@
         "pricing": [
           {
             "label": "Per person (twin sharing)",
-            "price": "From RM4,828 per person"
+            "price": "From RM2,398 per person"
           }
         ],
-        "fromPrice": "From RM4,828",
+        "fromPrice": "From RM2,398",
         "popular": true
       },
       {
@@ -297,10 +227,10 @@
         "pricing": [
           {
             "label": "Per person (twin sharing)",
-            "price": "From RM5,228 per person"
+            "price": "From RM2,798 per person"
           }
         ],
-        "fromPrice": "From RM5,228"
+        "fromPrice": "From RM2,798"
       }
     ]
   },
@@ -334,8 +264,8 @@
   "seoContent": {
     "sections": [
       {
-        "heading": "12 Days Best of Sri Lanka: Central + North + South from Malaysia",
-        "body": "This 12 days Sri Lanka package covers Jaffna, Anuradhapura, Sigiriya, Kandy, Nuwara Eliya, Yala, South Coast. Starting from RM4,528 per person on twin sharing, it runs as a 100% private tour with an English-speaking guide, private vehicle and airport transfers included throughout. International flights are not included — most Malaysian travellers fly from Kuala Lumpur to Colombo in around 3.5 hours.\n\nDhesu has been arranging Sri Lanka tours for Malaysian travellers since 1988. Our team knows which hotels face the lake in Kandy, when to arrive at Sigiriya for the fewest crowds, and the jeep drivers in Yala who know the leopard territories. This is not a package put together from a website — it is 35 years of ground-level knowledge."
+        "heading": "6 Days Best of Sri Lanka: Central + Down South from Malaysia",
+        "body": "This 6 days Sri Lanka package covers Sigiriya, Kandy, Nuwara Eliya, South Coast. Starting from RM2,098 per person on twin sharing, it runs as a 100% private tour with an English-speaking guide, private vehicle and airport transfers included throughout. International flights are not included — most Malaysian travellers fly from Kuala Lumpur to Colombo in around 3.5 hours.\n\nDhesu has been arranging Sri Lanka tours for Malaysian travellers since 1988. Our team knows which hotels face the lake in Kandy, when to arrive at Sigiriya for the fewest crowds, and the jeep drivers in Yala who know the leopard territories. This is not a package put together from a website — it is 35 years of ground-level knowledge."
       },
       {
         "heading": "Sri Lanka Visa for Malaysian Travellers",
@@ -372,27 +302,27 @@
   "relatedPackages": [
     {
       "id": "sri-lanka-related-1",
-      "name": "9 Days Northern Sri Lanka Discovery: Where Cultures Collide",
-      "price": "From RM3,488",
-      "duration": "9D8N",
-      "slug": "north/9-day-northern-discovery",
-      "image": "/images/gallery/667.jpg"
+      "name": "5 Days Sri Lankan Adventure",
+      "price": "From RM1,688",
+      "duration": "5D4N",
+      "slug": "kandy/5-day-sri-lankan-adventure",
+      "image": "/images/gallery/87.jpg"
     },
     {
       "id": "sri-lanka-related-2",
+      "name": "6 Days Best of Sri Lanka with Wildlife Jeep Safari",
+      "price": "From RM2,338",
+      "duration": "6D5N",
+      "slug": "south/6-day-wildlife-safari",
+      "image": "/images/gallery/666.jpg"
+    },
+    {
+      "id": "sri-lanka-related-3",
       "name": "7 Days Best of Central & Southern Sri Lanka",
       "price": "From RM2,688",
       "duration": "7D6N",
       "slug": "south/7-day-central-southern-overnight",
       "image": "/images/gallery/2456.jpg"
-    },
-    {
-      "id": "sri-lanka-related-3",
-      "name": "8 Days Discover the Magic of Sri Lanka",
-      "price": "From RM2,998",
-      "duration": "8D7N",
-      "slug": "kandy/8-day-discover-magic",
-      "image": "/images/gallery/2374.jpg"
     }
   ],
   "cta": {
@@ -402,19 +332,19 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2193.jpg"
+    "bgImage": "/images/gallery/425.jpg"
   },
   "schema": {
     "type": "TouristTrip",
-    "name": "12 Days Best of Sri Lanka: Central + North + South",
-    "description": "12 Days / 11 Nights Sri Lanka tour: Jaffna, Anuradhapura, Sigiriya, Kandy, Nuwara Eliya, Yala, South Coast. From RM4,528 per person.",
+    "name": "6 Days Best of Sri Lanka: Central + Down South",
+    "description": "6 Days / 5 Nights Sri Lanka tour: Sigiriya, Kandy, Nuwara Eliya, South Coast. From RM2,098 per person.",
     "provider": "Dhesu Travel & Tours",
-    "url": "https://dhesu.com/tours/sri-lanka/kandy/12-day-complete-island",
+    "url": "https://dhesu.com/tours/sri-lanka/south/6-day-central-south",
     "startLocation": "Bandaranaike International Airport, Colombo",
     "endLocation": "Bandaranaike International Airport, Colombo",
-    "duration": "P12D",
+    "duration": "P6D",
     "offers": {
-      "price": "4528",
+      "price": "2098",
       "priceCurrency": "MYR",
       "availability": "https://schema.org/InStock"
     }

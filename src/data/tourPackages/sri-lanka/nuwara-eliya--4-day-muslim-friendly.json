@@ -1,18 +1,18 @@
 {
   "meta": {
-    "title": "6 Days Northern Sri Lanka from Malaysia | Dhesu Travel & Tours",
-    "description": "6 Days / 5 Nights Sri Lanka tour: Jaffna, Nainativu Island, Colombo. From RM2,388 per person. Private English-speaking guide, airport transfers. Dhesu Travel, trusted since 1988.",
-    "keywords": "6 days northern sri lanka Malaysia, Sri Lanka tour package Malaysia, Jaffna tour Malaysia, Dhesu travel Sri Lanka",
-    "slug": "north/6-day-northern-sri-lanka",
-    "canonicalUrl": "/tours/sri-lanka/north/6-day-northern-sri-lanka",
-    "pkgid": "2455",
-    "ogImage": "/images/gallery/2453.jpg"
+    "title": "4 Days Beautiful Sri Lanka (Muslim Friendly) from Malaysia | Dhesu Travel & Tours",
+    "description": "4 Days / 3 Nights Sri Lanka tour: Kandy, Nuwara Eliya, Colombo. From RM1,288 per person. Private English-speaking guide, airport transfers. Dhesu Travel, trusted since 1988.",
+    "keywords": "4 days beautiful sri lanka muslim friendly Malaysia, Sri Lanka tour package Malaysia, Kandy tour Malaysia, Dhesu travel Sri Lanka",
+    "slug": "nuwara-eliya/4-day-muslim-friendly",
+    "canonicalUrl": "/tours/sri-lanka/nuwara-eliya/4-day-muslim-friendly",
+    "pkgid": "424",
+    "ogImage": "/images/gallery/424.jpg"
   },
   "hero": {
-    "badge": "Hidden Gem — Jaffna & the North",
-    "title": "6 Days in Northern Sri Lanka.",
-    "titleAccent": "Jaffna, Nainativu Island and Tamil Heritage.",
-    "intro": "The north is Sri Lanka's least-visited and most culturally distinct region. Jaffna has a culture, cuisine and architecture that feels closer to Tamil Nadu than Colombo. This six-day journey is for travellers who want to go where most tours do not.",
+    "badge": "Muslim Friendly — Halal Throughout",
+    "title": "4 Days in Sri Lanka.",
+    "titleAccent": "Halal Meals, Hill Resorts and Waterfall Stops.",
+    "intro": "Sri Lanka is one of the most welcoming countries in the region for Muslim travellers. This package arranges halal meals throughout, keeps prayer times in the schedule, and combines Kandy's heritage with Nuwara Eliya's cool mountain air.",
     "breadcrumb": [
       {
         "label": "Home",
@@ -27,24 +27,24 @@
         "href": "/tours/sri-lanka/all-packages"
       },
       {
-        "label": "6 Days Northern Sri Lanka",
+        "label": "4 Days Beautiful Sri Lanka (Muslim Friendly)",
         "href": null
       }
     ],
-    "heroImage": "/images/gallery/2453.jpg",
-    "heroImageAlt": "Jaffna Sri Lanka 6 Days / 5 Nights"
+    "heroImage": "/images/gallery/424.jpg",
+    "heroImageAlt": "Kandy Sri Lanka 4 Days / 3 Nights"
   },
   "quickFacts": {
-    "duration": "6 Days / 5 Nights",
-    "startingPrice": "From RM2,388",
+    "duration": "4 Days / 3 Nights",
+    "startingPrice": "From RM1,288",
     "priceNote": "per person (twin sharing)",
-    "originalPrice": "RM2,866",
-    "saving": "Save RM955 per couple",
+    "originalPrice": "RM1,546",
+    "saving": "Save RM515 per couple",
     "groupSize": "Private & flexible",
     "includes": [
-      "Hotel accommodation (5 nights)",
+      "Hotel accommodation (3 nights)",
       "Daily Breakfast",
-      "Private Vehicle with English-Speaking Guide",
+      "Halal Meals Throughout",
       "Return Airport Transfers",
       "100% Private Tour"
     ],
@@ -70,7 +70,7 @@
       },
       {
         "icon": "car",
-        "label": "Private Driver Guide"
+        "label": "Muslim Friendly"
       },
       {
         "icon": "transfer",
@@ -84,9 +84,9 @@
   },
   "overview": {
     "sectionLabel": "About This Package",
-    "heading": "6 Days Northern Sri Lanka: The Full Picture",
+    "heading": "4 Days Beautiful Sri Lanka (Muslim Friendly): The Full Picture",
     "body": [
-      "Sri Lanka rewards travellers who move through it at the right pace — not rushing, not lingering too long. This 6 Days / 5 Nights itinerary is designed to cover Jaffna, Nainativu Island, Colombo with the right balance of time at each stop.",
+      "Sri Lanka rewards travellers who move through it at the right pace — not rushing, not lingering too long. This 4 Days / 3 Nights itinerary is designed to cover Kandy, Nuwara Eliya, Colombo with the right balance of time at each stop.",
       "Every Dhesu Sri Lanka package runs as a 100% private tour. Your own vehicle, your own English-speaking guide, your own schedule. No coaches, no group waiting times, no missed sights because the group voted differently. The itinerary below is a guide — it can be adjusted to your interests and pace."
     ]
   },
@@ -95,96 +95,74 @@
     "heading": "Why Malaysian Travellers Love This Sri Lanka Package",
     "items": [
       {
-        "title": "Jaffna Fort & Nallur Kovil",
-        "body": "The Dutch colonial fort at Jaffna is one of the largest surviving in Asia. A few minutes away, the Nallur Kandaswamy Kovil is the most important Hindu temple in northern Sri Lanka — a riot of gopuram carvings, peacock sculptures and pilgrims. The combination of colonial and Dravidian culture is unlike anywhere else in the country.",
-        "image": "/images/gallery/667.jpg",
-        "imageAlt": "Jaffna Fort and temples northern Sri Lanka"
+        "title": "Nuwara Eliya Tea Estates",
+        "body": "At nearly 2,000 metres above sea level, Nuwara Eliya is ringed by tea estates that produce some of Sri Lanka's finest highland teas. Walking between the emerald rows with mist drifting across the ridgeline is one of the island's most distinctive experiences.",
+        "image": "/images/gallery/423.jpg",
+        "imageAlt": "Nuwara Eliya tea plantations Sri Lanka hill country"
       },
       {
-        "title": "Nainativu Sacred Island",
-        "body": "A short boat ride from Kurikadduwan pier, Nainativu holds two sacred sites on one tiny island: the Nagapooshani Amman Hindu temple and the Nagadeepa Buddhist shrine. Both are deeply revered. The experience of sailing to a sacred island shared by two faiths is quietly extraordinary.",
-        "image": "/images/gallery/87.jpg",
-        "imageAlt": "Nainativu Island boat journey Sri Lanka"
+        "title": "Temple of the Sacred Tooth Relic, Kandy",
+        "body": "The most important Buddhist shrine in Sri Lanka, set beside Kandy Lake in the last royal capital of the ancient kings. The Tooth Relic is paraded through the streets during the annual Esala Perahera festival in a procession of elephants, drummers and fire dancers.",
+        "image": "/images/gallery/422.jpg",
+        "imageAlt": "Temple of the Sacred Tooth Relic Kandy Sri Lanka"
       },
       {
-        "title": "Sigiriya & the Cultural Triangle",
-        "body": "En route back south, the Cultural Triangle delivers Sri Lanka's most dramatic set-piece — Sigiriya rock fortress rising from the jungle with 5th-century palace ruins on the summit, and the Dambulla Cave Temple with its golden Buddhas.",
-        "image": "/images/gallery/86.jpg",
-        "imageAlt": "Dambulla Cave Temple golden Buddha Sri Lanka"
+        "title": "Pinnawala Elephant Orphanage",
+        "body": "Established in 1975, Pinnawala cares for orphaned and injured elephants from across the country. The daily river bath — when 80+ elephants walk down to the Maha Oya river — is one of Sri Lanka's most unforgettable spectacles.",
+        "image": "/images/gallery/424.jpg",
+        "imageAlt": "Pinnawala Elephant Orphanage Sri Lanka"
       }
     ]
   },
   "itinerary": {
     "sectionLabel": "Day by Day",
-    "heading": "Your 6 Days Sri Lanka Itinerary",
+    "heading": "Your 4 Days Sri Lanka Itinerary",
     "days": [
       {
         "day": 1,
-        "title": "Arrive Colombo & City Tour",
+        "title": "Arrive Colombo",
         "meals": "No meals",
-        "description": "Arrive at Bandaranaike International Airport. Colombo city orientation tour: Gangaramaya Temple, Pettah Bazaar and Galle Face Green.",
+        "description": "Arrive at Bandaranaike International Airport. Private transfer to Colombo hotel. Evening free, with halal dining options nearby along Galle Road and the Pettah Bazaar area.",
         "suggestedActivities": [
           "Airport transfer",
-          "Gangaramaya Temple",
-          "Pettah Bazaar",
-          "Galle Face Green"
+          "Check-in to Colombo hotel",
+          "Halal dinner at leisure",
+          "Galle Face Green stroll"
         ]
       },
       {
         "day": 2,
-        "title": "Drive to Jaffna",
-        "meals": "Breakfast",
-        "description": "Full-day drive to Jaffna (5-6 hrs via A9 Highway through Elephant Pass). The drive itself is remarkable — through the former conflict zone, past lagoons, palmyra palms and gradually different architecture.",
+        "title": "Colombo & Drive to Kandy",
+        "meals": "Breakfast, Halal Lunch",
+        "description": "Morning Colombo city tour: Gangaramaya Temple, Independence Square and the Pettah Bazaar. Halal lunch at a Muslim-friendly restaurant. Afternoon drive to Kandy with elephant orphanage stop.",
         "suggestedActivities": [
-          "A9 Highway drive",
-          "Elephant Pass causeway",
-          "Kilinochchi stop",
-          "Jaffna arrival"
+          "Gangaramaya Temple Colombo",
+          "Independence Square",
+          "Pettah Bazaar shopping",
+          "Pinnawala Elephant Orphanage"
         ]
       },
       {
         "day": 3,
-        "title": "Jaffna City — Forts, Temples & Markets",
-        "meals": "Breakfast",
-        "description": "Full Jaffna sightseeing day: the 17th-century Dutch Fort, the magnificent Nallur Kandaswamy Kovil (one of the most important Hindu temples in Sri Lanka), Jaffna Library and the vibrant local market.",
+        "title": "Kandy & Nuwara Eliya",
+        "meals": "Breakfast, Halal Lunch",
+        "description": "Morning visit to the Temple of the Tooth Relic exterior and Kandy Lake. Halal lunch before the scenic mountain drive to Nuwara Eliya with waterfall stops at Ramboda Falls.",
         "suggestedActivities": [
-          "Jaffna Fort (Dutch colonial)",
-          "Nallur Kandaswamy Kovil",
-          "Jaffna Library",
-          "Jaffna Market"
+          "Temple of the Tooth Relic",
+          "Kandy Lake walk",
+          "Ramboda Waterfall stop",
+          "Nuwara Eliya arrival"
         ]
       },
       {
         "day": 4,
-        "title": "Nainativu Sacred Island",
+        "title": "Nuwara Eliya & Depart",
         "meals": "Breakfast",
-        "description": "Boat journey to Nainativu Island — first the Nagapooshani Amman Temple (one of the most revered in Sri Lanka), then the nearby Nagadeepa Buddhist Temple, one of the sacred places the Buddha is said to have visited. Two faiths, one small island.",
+        "description": "Morning visit to a tea estate and Gregory Lake. Scenic descent with stops for photos. Colombo airport transfer for your onward flight.",
         "suggestedActivities": [
-          "Boat to Nainativu Island",
-          "Nagapooshani Amman Temple",
-          "Nagadeepa Buddhist Temple",
-          "Return to Jaffna"
-        ]
-      },
-      {
-        "day": 5,
-        "title": "Jaffna to Colombo via Anuradhapura",
-        "meals": "Breakfast",
-        "description": "Morning departure south with a stop at Anuradhapura — Sri Lanka's first ancient capital, with colossal Buddhist dagobas that rival the pyramids. Arrive Colombo by evening.",
-        "suggestedActivities": [
-          "Anuradhapura ancient dagobas",
-          "Sacred Bodhi Tree",
-          "Drive south to Colombo"
-        ]
-      },
-      {
-        "day": 6,
-        "title": "Colombo & Depart",
-        "meals": "Breakfast",
-        "description": "Morning Colombo city tour highlights and souvenir shopping. Airport transfer for your onward flight.",
-        "suggestedActivities": [
-          "Colombo final morning",
-          "Souvenir shopping",
+          "Tea estate visit",
+          "Gregory Lake",
+          "Scenic descent",
           "Airport transfer"
         ]
       }
@@ -202,10 +180,10 @@
         "pricing": [
           {
             "label": "Per person (twin sharing)",
-            "price": "RM2,388 per person"
+            "price": "RM1,288 per person"
           }
         ],
-        "fromPrice": "RM2,388"
+        "fromPrice": "RM1,288"
       },
       {
         "tier": "4 Star",
@@ -214,10 +192,10 @@
         "pricing": [
           {
             "label": "Per person (twin sharing)",
-            "price": "From RM2,688 per person"
+            "price": "From RM1,588 per person"
           }
         ],
-        "fromPrice": "From RM2,688",
+        "fromPrice": "From RM1,588",
         "popular": true
       },
       {
@@ -227,10 +205,10 @@
         "pricing": [
           {
             "label": "Per person (twin sharing)",
-            "price": "From RM3,088 per person"
+            "price": "From RM1,988 per person"
           }
         ],
-        "fromPrice": "From RM3,088"
+        "fromPrice": "From RM1,988"
       }
     ]
   },
@@ -264,8 +242,8 @@
   "seoContent": {
     "sections": [
       {
-        "heading": "6 Days Northern Sri Lanka from Malaysia",
-        "body": "This 6 days Sri Lanka package covers Jaffna, Nainativu Island, Colombo. Starting from RM2,388 per person on twin sharing, it runs as a 100% private tour with an English-speaking guide, private vehicle and airport transfers included throughout. International flights are not included — most Malaysian travellers fly from Kuala Lumpur to Colombo in around 3.5 hours.\n\nDhesu has been arranging Sri Lanka tours for Malaysian travellers since 1988. Our team knows which hotels face the lake in Kandy, when to arrive at Sigiriya for the fewest crowds, and the jeep drivers in Yala who know the leopard territories. This is not a package put together from a website — it is 35 years of ground-level knowledge."
+        "heading": "4 Days Beautiful Sri Lanka (Muslim Friendly) from Malaysia",
+        "body": "This 4 days Sri Lanka package covers Kandy, Nuwara Eliya, Colombo. Starting from RM1,288 per person on twin sharing, it runs as a 100% private tour with an English-speaking guide, private vehicle and airport transfers included throughout. International flights are not included — most Malaysian travellers fly from Kuala Lumpur to Colombo in around 3.5 hours.\n\nDhesu has been arranging Sri Lanka tours for Malaysian travellers since 1988. Our team knows which hotels face the lake in Kandy, when to arrive at Sigiriya for the fewest crowds, and the jeep drivers in Yala who know the leopard territories. This is not a package put together from a website — it is 35 years of ground-level knowledge."
       },
       {
         "heading": "Sri Lanka Visa for Malaysian Travellers",
@@ -296,37 +274,33 @@
       {
         "question": "Are halal food options available in Sri Lanka?",
         "answer": "Sri Lanka has a significant Muslim community (about 10% of the population) and halal food is available throughout the country, especially in Colombo, Kandy and Galle. Most hotels accommodate halal dietary requirements with advance notice. Our Muslim-friendly packages specifically arrange halal meals at each meal stop."
-      },
-      {
-        "question": "Is it safe to travel to Jaffna?",
-        "answer": "Jaffna and the northern region are safe for tourists today. The civil conflict ended in 2009 and the north has been fully open to travellers since then. Infrastructure has improved significantly. Jaffna is visited regularly by international tourists and is increasingly recognised as one of Sri Lanka's most interesting destinations."
       }
     ]
   },
   "relatedPackages": [
     {
       "id": "sri-lanka-related-1",
-      "name": "9 Days Northern Sri Lanka Discovery: Where Cultures Collide",
-      "price": "From RM3,488",
-      "duration": "9D8N",
-      "slug": "north/9-day-northern-discovery",
-      "image": "/images/gallery/667.jpg"
+      "name": "4 Days Beautiful Sri Lanka: Little England",
+      "price": "From RM1,288",
+      "duration": "4D3N",
+      "slug": "hill-country/4-day-nuwara-eliya-little-england",
+      "image": "/images/gallery/423.jpg"
     },
     {
       "id": "sri-lanka-related-2",
+      "name": "3 Days Sri Lanka: The Last Capital of the Ancient Kings",
+      "price": "From RM888",
+      "duration": "3D2N",
+      "slug": "kandy/3-day-kandy-colombo",
+      "image": "/images/gallery/2168.jpg"
+    },
+    {
+      "id": "sri-lanka-related-3",
       "name": "5 Days Sri Lankan Adventure",
       "price": "From RM1,688",
       "duration": "5D4N",
       "slug": "kandy/5-day-sri-lankan-adventure",
       "image": "/images/gallery/87.jpg"
-    },
-    {
-      "id": "sri-lanka-related-3",
-      "name": "12 Days Best of Sri Lanka: Central + North + South",
-      "price": "From RM4,528",
-      "duration": "12D11N",
-      "slug": "kandy/12-day-complete-island",
-      "image": "/images/gallery/2193.jpg"
     }
   ],
   "cta": {
@@ -336,19 +310,19 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2453.jpg"
+    "bgImage": "/images/gallery/424.jpg"
   },
   "schema": {
     "type": "TouristTrip",
-    "name": "6 Days Northern Sri Lanka",
-    "description": "6 Days / 5 Nights Sri Lanka tour: Jaffna, Nainativu Island, Colombo. From RM2,388 per person.",
+    "name": "4 Days Beautiful Sri Lanka (Muslim Friendly)",
+    "description": "4 Days / 3 Nights Sri Lanka tour: Kandy, Nuwara Eliya, Colombo. From RM1,288 per person.",
     "provider": "Dhesu Travel & Tours",
-    "url": "https://dhesu.com/tours/sri-lanka/north/6-day-northern-sri-lanka",
+    "url": "https://dhesu.com/tours/sri-lanka/hill-country/4-day-muslim-friendly",
     "startLocation": "Bandaranaike International Airport, Colombo",
     "endLocation": "Bandaranaike International Airport, Colombo",
-    "duration": "P6D",
+    "duration": "P4D",
     "offers": {
-      "price": "2388",
+      "price": "1288",
       "priceCurrency": "MYR",
       "availability": "https://schema.org/InStock"
     }
