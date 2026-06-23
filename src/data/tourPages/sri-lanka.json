@@ -2,118 +2,174 @@
   "meta": {
     "name": "Sri Lanka",
     "title": "Sri Lanka Tour Package from Malaysia | Dhesu Travel & Tours",
-    "description": "Discover Sri Lanka's ancient cities, hill country tea estates and pristine beaches. Affordable packages from Malaysia. Dhesu Travel, trusted since 1988.",
+    "description": "From ancient kingdoms to misty tea hills and wildlife safaris, explore Sri Lanka with Dhesu. Trusted Malaysian travel agency since 1988. Group, custom and honeymoon packages available.",
     "slug": "sri-lanka",
     "targetKeyword": "Sri Lanka tour package from Malaysia",
     "region": "South Asia",
     "hubCardColor": "green"
   },
   "hero": {
-    "badge": "Small Island, Enormous Country",
-    "headline": "It Looks Small.",
-    "headlineAccent": "It Is Anything But.",
-    "body": "Ancient capitals older than Rome, hill country so green the air feels medicinal, beaches on three coasts, leopards, elephants and blue whales. And Sri Lanka does it all quietly, without the crowds.",
-    "bgImage": "https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?w=1920&auto=format&fit=crop",
+    "badge": "The Pearl of the Indian Ocean",
+    "headline": "Sri Lanka Fits",
+    "headlineAccent": "Everything Into a Small Island.",
+    "body": "Ancient cities and sacred temples in the morning, mist-wrapped tea hills in the afternoon, and leopards in the national park at dusk. Sri Lanka is compact enough to do it all, and rich enough that you will never feel like you have.",
+    "bgImage": "/images/gallery/87.jpg",
     "stats": [
-      { "value": "2,500", "label": "Years of History to Explore" },
-      { "value": "35+", "label": "Years of Travel Expertise" },
-      { "value": "1988", "label": "Trusted Since" }
+      {
+        "value": "35+",
+        "label": "Years Sending Malaysians to Sri Lanka"
+      },
+      {
+        "value": "1988",
+        "label": "Trusted Since"
+      },
+      {
+        "value": "MATTA",
+        "label": "& IATA Registered"
+      }
     ]
   },
   "why": {
     "sectionLabel": "Why Sri Lanka",
-    "heading": "More Packed Into One Small Island Than Anywhere",
-    "subheading": "You can still stand before a 1,500-year-old cave painting with almost no one else around. That is increasingly rare in Asia.",
+    "heading": "Small Island, Impossible Variety",
+    "subheading": "Most visitors are surprised by how much fits into one island. Ancient ruins, mountain trains, wildlife safaris, colonial beaches, and some of the best tea on earth, all within a few hours of each other.",
     "highlights": [
       {
         "icon": "temple",
-        "title": "Sigiriya and the Ancient Cities",
-        "body": "A single rock rises 200 metres from the jungle, topped by a 5th-century palace. You climb past frescoes of celestial maidens painted onto the sheer cliff to views over the forest canopy in every direction. Photographs cannot prepare you for it.",
-        "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=800&auto=format&fit=crop",
-        "places": ["Sigiriya Rock", "Dambulla Caves", "Polonnaruwa"]
+        "title": "Kandy: The Last Royal Capital",
+        "body": "Kandy is Sri Lanka's cultural heartbeat, a UNESCO World Heritage city cradled in misty hills around a lake. The Temple of the Sacred Tooth Relic draws pilgrims from across the Buddhist world. In the evenings, traditional Kandyan dancers and drummers perform a show that has been running for centuries.",
+        "image": "/images/gallery/422.jpg",
+        "places": [
+          "Temple of the Tooth Relic",
+          "Kandy Lake",
+          "Pinnawala Elephant Orphanage"
+        ]
       },
       {
         "icon": "mountain",
-        "title": "Hill Country, Tea and Slow Trains",
-        "body": "The Kandy to Ella train is rated one of Asia's most scenic rail journeys, an old blue-and-cream train drifting through tea slopes and cloud-filled valleys. Nuwara Eliya at 1,900 metres feels oddly English and distinctly Sri Lankan at once.",
-        "image": "https://images.unsplash.com/photo-1588258219511-64eb629cb833?w=800&auto=format&fit=crop",
-        "places": ["Kandy to Ella Train", "Nine Arch Bridge", "Nuwara Eliya"]
+        "title": "Nuwara Eliya: Little England in the Clouds",
+        "body": "At 1,868 metres above sea level, Nuwara Eliya is refreshingly cool and draped in tea estates that roll over every hillside. Colonial bungalows, rose gardens, and the rack railway through the Ella Gap make this the most cinematic corner of the island.",
+        "image": "/images/gallery/423.jpg",
+        "places": [
+          "Tea Plantations",
+          "Horton Plains",
+          "Gregory Lake"
+        ]
       },
       {
         "icon": "wave",
-        "title": "Three Coasts and Blue Whales",
-        "body": "Beaches on the west, south and east coasts, each at its best at a different time of year. Off Mirissa, blue whales pass between November and April, and a morning that ends with one surfacing near your boat is a great wildlife experience.",
-        "image": "https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?w=800&auto=format&fit=crop",
-        "places": ["Mirissa Whales", "Unawatuna", "Arugam Bay"]
+        "title": "Sigiriya: The Rock Fortress in the Sky",
+        "body": "Rising 200 metres from the jungle floor, Sigiriya is one of the most dramatic archaeological sites in Asia. A 5th-century king built his palace on top, with frescoes, mirror walls and water gardens that survive today. The climb rewards you with a view that stretches to the horizon in every direction.",
+        "image": "/images/gallery/86.jpg",
+        "places": [
+          "Sigiriya Rock Fortress",
+          "Dambulla Cave Temple",
+          "Polonnaruwa Ruins"
+        ]
       },
       {
         "icon": "food",
-        "title": "Yala: The Leopard Capital",
-        "body": "Sri Lanka has the highest density of leopards on earth, and Yala is where most of them live. A morning game drive might bring leopards in the trees, elephants in the bush, crocodiles at the water and over 200 bird species.",
-        "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?w=800&auto=format&fit=crop",
-        "places": ["Yala National Park", "Leopard Safari", "Elephants & Birds"]
+        "title": "Yala: Leopards and Elephants at Close Range",
+        "body": "Yala National Park has one of the highest densities of leopards in the world. Jeep safaris at dawn or dusk regularly turn up herds of elephants, crocodiles on the riverbanks, and peacocks stepping through the scrub. The south coast beaches are minutes away from the park gate.",
+        "image": "/images/gallery/666.jpg",
+        "places": [
+          "Yala National Park",
+          "Kataragama Temple",
+          "Mirissa Beach"
+        ]
       }
     ]
   },
   "zones": {
-    "sectionLabel": "Sri Lanka Regions",
+    "sectionLabel": "Sri Lanka Destinations",
     "heading": "Where to Go and Why",
-    "subheading": "Sri Lanka is compact, so a single loop can take you from ancient cities to tea hills to safari to the sea.",
+    "subheading": "Sri Lanka is small enough to combine destinations in a single trip. Each place has a completely different character.",
     "areas": [
       {
-        "name": "Cultural Triangle",
-        "tag": "Ancient Cities",
-        "tagColor": "orange",
-        "description": "Sigiriya, Dambulla and Polonnaruwa. Rock fortresses, cave temples and ruined royal capitals that were powerful when Rome was still young.",
-        "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=800&auto=format&fit=crop",
-        "vibe": "Historic"
-      },
-      {
         "name": "Kandy",
-        "tag": "Last Royal Capital",
-        "tagColor": "green",
-        "description": "The Temple of the Tooth, the evening Puja ceremony, Kandy Lake and the Peradeniya botanical gardens. The cultural heart of the hill country.",
-        "image": "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?w=800&auto=format&fit=crop",
-        "vibe": "Spiritual"
+        "tag": "Temples & Heritage",
+        "tagColor": "orange",
+        "description": "The last royal capital of the ancient kings, set around a sacred lake with the Temple of the Tooth Relic at its heart. The cultural heartbeat of Sri Lanka.",
+        "image": "/images/gallery/420.jpg",
+        "vibe": "Iconic",
+        "href": "/tours/sri-lanka/kandy"
       },
       {
         "name": "Nuwara Eliya",
-        "tag": "Tea Country",
-        "tagColor": "blue",
-        "description": "Cool highland air, tea plantations and colonial charm at 1,900 metres. Reached by the famous Kandy to Ella hill-country train.",
-        "image": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&auto=format&fit=crop",
-        "vibe": "Cool"
+        "tag": "Tea Hills & Trains",
+        "tagColor": "green",
+        "description": "Cool mountain air at 1,900 metres, endless tea estates and the scenic railway between Kandy and Ella. Sri Lanka's Little England.",
+        "image": "/images/gallery/423.jpg",
+        "vibe": "Scenic",
+        "href": "/tours/sri-lanka/nuwara-eliya"
       },
       {
-        "name": "South Coast",
-        "tag": "Safari & Beach",
+        "name": "Colombo",
+        "tag": "City & Culture",
+        "tagColor": "blue",
+        "description": "A layered capital of Dutch colonial quarters, Buddhist temples, spice bazaars and a waterfront promenade on the Indian Ocean. Every Sri Lanka trip begins here.",
+        "image": "/images/gallery/425.jpg",
+        "vibe": "Urban",
+        "href": "/tours/sri-lanka/colombo"
+      },
+      {
+        "name": "Yala National Park",
+        "tag": "Wildlife Safari",
         "tagColor": "red",
-        "description": "Yala's leopard safaris paired with Galle Fort, the whale-watching boats of Mirissa and the golden beaches of the south.",
-        "image": "https://images.unsplash.com/photo-1546708973-b339540b5162?w=800&auto=format&fit=crop",
-        "vibe": "Wild"
+        "description": "The world's highest density of wild leopards. Dawn jeep safaris through the scrub forest regularly turn up elephants, sloth bears and crocodiles.",
+        "image": "/images/gallery/3370.png",
+        "vibe": "Wild",
+        "href": "/tours/sri-lanka/yala-national-park"
+      },
+      {
+        "name": "Jaffna",
+        "tag": "Tamil Culture",
+        "tagColor": "purple",
+        "description": "The Tamil heartland of Sri Lanka's north — Dutch Fort, Nallur Kovil and the sacred Nainativu Island. A culture closer to Tamil Nadu than Colombo.",
+        "image": "/images/gallery/11301.jpg",
+        "vibe": "Authentic",
+        "href": "/tours/sri-lanka/jaffna"
+      },
+      {
+        "name": "Sigiriya",
+        "tag": "UNESCO Wonder",
+        "tagColor": "teal",
+        "description": "A 5th-century palace on a 200-metre granite monolith with ancient frescoes and water gardens. One of the most dramatic archaeological sites in Asia.",
+        "image": "/images/gallery/86.jpg",
+        "vibe": "Ancient",
+        "href": "/tours/sri-lanka/sigiriya"
+      },
+      {
+        "name": "Kataragama",
+        "tag": "Sacred Pilgrimage",
+        "tagColor": "pink",
+        "description": "One of Sri Lanka's holiest towns — revered by Buddhists, Hindus and Muslims alike, on the edge of Yala National Park.",
+        "image": "/images/gallery/13371.jpg",
+        "vibe": "Spiritual",
+        "href": "/tours/sri-lanka/kataragama"
       }
     ]
   },
   "bestTime": {
     "sectionLabel": "When to Visit",
     "heading": "Best Time to Visit Sri Lanka from Malaysia",
-    "body": "Two monsoons hit different coasts, so time it right and somewhere on the island is always in season. The interior cultural sites can be visited any time of year.",
+    "body": "Sri Lanka has two monsoon seasons that affect different coasts, so the right time depends on where you plan to go.",
     "seasons": [
       {
-        "name": "West, South & Cultural Triangle",
-        "months": "December to March",
-        "badge": "Most Popular",
-        "badgeColor": "red",
-        "description": "The best window for the cultural triangle, hill country and the west and south coast beaches like Hikkaduwa and Unawatuna.",
+        "name": "West & South Coast Season",
+        "months": "November to April",
+        "badge": "Best for Most Visitors",
+        "badgeColor": "green",
+        "description": "Dry and sunny on the west and south coasts, and in the Cultural Triangle. This is the prime window for Colombo, Kandy, Sigiriya, Nuwara Eliya and Yala. Ideal for first-timers.",
         "icon": "sun"
       },
       {
-        "name": "East Coast Season",
+        "name": "East Coast & Hill Country",
         "months": "May to September",
-        "badge": "Beaches & Safari",
+        "badge": "East Coast & North",
         "badgeColor": "blue",
-        "description": "Dry and beautiful on the east coast, ideal for Arugam Bay and Trincomalee. November and April work well as shoulder months for both coasts.",
-        "icon": "sun"
+        "description": "The east coast and Jaffna are dry from May through September while the west gets its monsoon. The hill country and Kandy are fine year-round with afternoon showers.",
+        "icon": "rain"
       }
     ]
   },
@@ -122,142 +178,316 @@
     "heading": "How Many Days Do You Actually Need?",
     "options": [
       {
-        "days": "5 Days",
-        "label": "South & Coast",
-        "description": "Enough for the south coast, whale watching, Galle Fort and a Yala safari."
+        "days": "3-4 Days",
+        "label": "One Region",
+        "description": "Enough for Kandy and Colombo, or a focused cultural triangle escape. Good if you have visited before and want to go deeper in one area."
       },
       {
-        "days": "7 Days",
-        "label": "Classic Loop",
-        "description": "The classic route, Colombo, Sigiriya, Kandy, Nuwara Eliya and back. The sweet spot for most visitors.",
+        "days": "6-7 Days",
+        "label": "Sweet Spot",
+        "description": "The right amount of time to combine culture, hill country and either the south coast or wildlife. Most first-timers do best with a week.",
         "recommended": true
       },
       {
-        "days": "10+ Days",
-        "label": "Complete Island",
-        "description": "Cover north to south, all the highlights, with time for the hill-country train and the beaches."
-      }
-    ]
-  },
-  "packages": {
-    "sectionLabel": "Our Packages",
-    "heading": "Sri Lanka Packages for Every Traveller",
-    "subheading": "All packages include airport transfers, hotels, daily breakfast and guided sightseeing. International flights can be added on request.",
-    "ctaNote": "Custom itineraries for independent travellers and families available on request.",
-    "items": [
-      {
-        "id": "sl-classic",
-        "slug": "classic-sri-lanka",
-        "name": "Classic Sri Lanka",
-        "duration": "From 7D",
-        "price": "From RM1,688",
-        "priceNote": "per person",
-        "tag": "Most Popular",
-        "tagColor": "red",
-        "highlights": ["Colombo & Sigiriya", "Kandy Tooth Temple", "Nuwara Eliya Tea Country", "Scenic Hill Train"],
-        "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=800&auto=format&fit=crop",
-        "popular": true
-      },
-      {
-        "id": "sl-heritage",
-        "slug": "sigiriya",
-        "name": "Heritage Circuit",
-        "duration": "5D4N",
-        "price": "From RM1,388",
-        "priceNote": "per person",
-        "tag": "Ancient Cities",
-        "tagColor": "orange",
-        "highlights": ["Sigiriya Rock", "Anuradhapura", "Polonnaruwa", "Dambulla Caves"],
-        "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=800&auto=format&fit=crop",
-        "popular": false
-      },
-      {
-        "id": "sl-hill-train",
-        "slug": "nuwara-eliya",
-        "name": "Hill Country & Scenic Train",
-        "duration": "5D4N",
-        "price": "From RM1,488",
-        "priceNote": "per person",
-        "tag": "Scenic",
-        "tagColor": "green",
-        "highlights": ["Kandy to Ella Train", "Nine Arch Bridge", "Tea Estate Visit", "Little Adam's Peak"],
-        "image": "https://images.unsplash.com/photo-1588258219511-64eb629cb833?w=800&auto=format&fit=crop",
-        "popular": false
-      },
-      {
-        "id": "sl-south-coast",
-        "slug": "south-coast",
-        "name": "South Coast: Beaches & Whales",
-        "duration": "From 5D",
-        "price": "From RM1,488",
-        "priceNote": "per person",
-        "tag": "Beach & Whales",
-        "tagColor": "blue",
-        "highlights": ["Mirissa Whale Watching", "Galle Fort", "Unawatuna Beach", "Southern Drives"],
-        "image": "https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?w=800&auto=format&fit=crop",
-        "popular": false
-      },
-      {
-        "id": "sl-yala",
-        "slug": "yala-national-park",
-        "name": "Yala Safari & Coast",
-        "duration": "5D4N",
-        "price": "From RM1,588",
-        "priceNote": "per person",
-        "tag": "Wildlife",
-        "tagColor": "purple",
-        "highlights": ["Yala Leopard Safari", "Coastal Stay", "Galle Fort", "Bird Watching"],
-        "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?w=800&auto=format&fit=crop",
-        "popular": false
-      },
-      {
-        "id": "sl-complete",
-        "slug": "grand-sri-lanka",
-        "name": "Complete Sri Lanka",
-        "duration": "From 10D",
-        "price": "From RM2,288",
-        "priceNote": "per person",
-        "tag": "Extended",
-        "tagColor": "teal",
-        "highlights": ["North to South", "Ancient Cities & Tea Hills", "Safari & Beaches", "All Highlights"],
-        "image": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&auto=format&fit=crop",
-        "popular": false
+        "days": "9-12 Days",
+        "label": "Full Circuit",
+        "description": "Enough to cover north and south, from Jaffna to Yala, with time in the hills and the Cultural Triangle. The full island experience."
       }
     ]
   },
   "whyBook": {
     "sectionLabel": "Why Dhesu",
     "heading": "Why Book Your Sri Lanka Trip Through Dhesu",
-    "body": "Sri Lanka has been one of our most popular destinations for years, and we know it well. These details are the difference between a trip that is good and one you remember for the rest of your life.",
+    "body": "Sri Lanka rewards travellers who know where to stay, when to arrive, and which roads to take. We have been arranging Sri Lanka journeys for Malaysians since 1988, and our ground team knows the difference between the rooms that face the lake and the ones that face the car park.",
     "points": [
       {
         "icon": "shield",
         "title": "MATTA & IATA Registered",
-        "description": "Fully licensed and registered. Drivers, guides and hotels arranged end to end."
+        "description": "Fully licensed and registered. We handle Sri Lanka e-Visa documentation guidance for all packages."
       },
       {
         "icon": "clock",
         "title": "Trusted Since 1988",
-        "description": "35+ years sending Malaysians across Sri Lanka and bringing them home happy."
+        "description": "35+ years arranging Sri Lanka journeys for Malaysian travellers, from Kandy to Yala to Jaffna."
       },
       {
         "icon": "map",
-        "title": "We Book Ahead",
-        "description": "The Kandy to Ella train sells out weeks ahead in peak season. We secure tickets and buffer-zone stays near Sigiriya for crowd-free sunrises."
+        "title": "100% Private Tours",
+        "description": "All Dhesu Sri Lanka packages run as private tours. Your vehicle, your schedule, your pace."
       },
       {
         "icon": "tag",
-        "title": "Responsible Operators",
-        "description": "We know which Mirissa whale-watching operators are responsible, and which to avoid."
+        "title": "Group, Custom & Muslim Friendly",
+        "description": "English-speaking guides and airport transfers included. Muslim-friendly itineraries with halal meals available."
       }
     ]
   },
   "cta": {
     "heading": "Plan Your Sri Lanka Trip",
-    "subheading": "Tell us what you want from Sri Lanka and we will build the right trip.",
+    "subheading": "Tell us which part of Sri Lanka calls to you. We will plan the rest.",
     "phone": "+6019 336 4465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?w=1920&auto=format&fit=crop"
+    "bgImage": "/images/gallery/666.jpg"
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Sri Lanka Packages for Every Traveller",
+    "subheading": "Every Dhesu Sri Lanka package runs as a 100% private tour with English-speaking guides, airport transfers, and a team you can call if something goes sideways. International flights can be added on request.",
+    "ctaNote": "Muslim-friendly, custom and group packages built to your requirements.",
+    "items": [
+      {
+        "id": "sri-lanka-3d-kandy-colombo",
+        "slug": "kandy/3-day-kandy-colombo",
+        "name": "3 Days Sri Lanka: The Last Capital of the Ancient Kings",
+        "duration": "3D2N",
+        "price": "From RM888",
+        "originalPrice": "RM1,066",
+        "priceNote": "per person",
+        "saving": "Save RM355 per couple",
+        "tag": "Short Break",
+        "tagColor": "orange",
+        "highlights": [
+          "Temple of the Sacred Tooth Relic",
+          "Kandy Cultural Show",
+          "Colombo City Tour",
+          "English-Speaking Guide"
+        ],
+        "image": "/images/gallery/2168.jpg",
+        "pkgid": "422",
+        "popular": false
+      },
+      {
+        "id": "sri-lanka-4d-nuwara-eliya",
+        "slug": "hill-country/4-day-nuwara-eliya-little-england",
+        "name": "4 Days Beautiful Sri Lanka: Little England",
+        "duration": "4D3N",
+        "price": "From RM1,288",
+        "originalPrice": "RM1,546",
+        "priceNote": "per person",
+        "saving": "Save RM515 per couple",
+        "tag": "Hill Country",
+        "tagColor": "green",
+        "highlights": [
+          "Nuwara Eliya Tea Plantations",
+          "Horton Plains National Park",
+          "Kandy Heritage Tour",
+          "Scenic Train Views"
+        ],
+        "image": "/images/gallery/423.jpg",
+        "pkgid": "423",
+        "popular": false
+      },
+      {
+        "id": "sri-lanka-4d-muslim-friendly",
+        "slug": "hill-country/4-day-muslim-friendly",
+        "name": "4 Days Beautiful Sri Lanka (Muslim Friendly)",
+        "duration": "4D3N",
+        "price": "From RM1,288",
+        "originalPrice": "RM1,546",
+        "priceNote": "per person",
+        "saving": "Save RM515 per couple",
+        "tag": "Muslim Friendly",
+        "tagColor": "green",
+        "highlights": [
+          "Halal Meals Included",
+          "Kandy & Nuwara Eliya",
+          "Beach & Hill Resort",
+          "Waterfall Scenic Stops"
+        ],
+        "image": "/images/gallery/424.jpg",
+        "pkgid": "424",
+        "popular": false
+      },
+      {
+        "id": "sri-lanka-5d-adventure",
+        "slug": "kandy/5-day-sri-lankan-adventure",
+        "name": "5 Days Sri Lankan Adventure",
+        "duration": "5D4N",
+        "price": "From RM1,688",
+        "originalPrice": "RM2,026",
+        "priceNote": "per person",
+        "saving": "Save RM675 per couple",
+        "tag": "Popular",
+        "tagColor": "red",
+        "highlights": [
+          "Sigiriya Rock Fortress",
+          "Dambulla Cave Temple",
+          "Kandy & Colombo",
+          "English-Speaking Guide"
+        ],
+        "image": "/images/gallery/87.jpg",
+        "pkgid": "87",
+        "popular": true
+      },
+      {
+        "id": "sri-lanka-6d-central-south",
+        "slug": "south/6-day-central-south",
+        "name": "6 Days Best of Sri Lanka: Central + Down South",
+        "duration": "6D5N",
+        "price": "From RM2,098",
+        "originalPrice": "RM2,518",
+        "priceNote": "per person",
+        "saving": "Save RM839 per couple",
+        "tag": "Best Value",
+        "tagColor": "orange",
+        "highlights": [
+          "Cultural Triangle",
+          "Nuwara Eliya Tea Hills",
+          "South Coast Highlights",
+          "Private Tour"
+        ],
+        "image": "/images/gallery/425.jpg",
+        "pkgid": "425",
+        "popular": false
+      },
+      {
+        "id": "sri-lanka-6d-wildlife-safari",
+        "slug": "south/6-day-wildlife-safari",
+        "name": "6 Days Best of Sri Lanka with Wildlife Jeep Safari",
+        "duration": "6D5N",
+        "price": "From RM2,338",
+        "originalPrice": "RM2,806",
+        "priceNote": "per person",
+        "saving": "Save RM935 per couple",
+        "tag": "Wildlife",
+        "tagColor": "red",
+        "highlights": [
+          "Yala National Park Safari",
+          "Leopard & Elephant Sightings",
+          "Sigiriya Rock Fortress",
+          "100% Private Tour"
+        ],
+        "image": "/images/gallery/666.jpg",
+        "pkgid": "666",
+        "popular": false
+      },
+      {
+        "id": "sri-lanka-6d-sigiriya-best-places",
+        "slug": "kandy/6-day-sigiriya-best-places",
+        "name": "6 Days Best Places in Sri Lanka + Sigiriya",
+        "duration": "6D5N",
+        "price": "From RM2,388",
+        "originalPrice": "RM2,866",
+        "priceNote": "per person",
+        "saving": "Save RM955 per couple",
+        "tag": "Scenic",
+        "tagColor": "teal",
+        "highlights": [
+          "Sigiriya Rock Fortress",
+          "Cultural Triangle",
+          "Hill Country Tea Estates",
+          "Colombo City Tour"
+        ],
+        "image": "/images/gallery/86.jpg",
+        "pkgid": "2206",
+        "popular": false
+      },
+      {
+        "id": "sri-lanka-6d-northern",
+        "slug": "north/6-day-northern-sri-lanka",
+        "name": "6 Days Northern Sri Lanka",
+        "duration": "6D5N",
+        "price": "From RM2,388",
+        "originalPrice": "RM2,866",
+        "priceNote": "per person",
+        "saving": "Save RM955 per couple",
+        "tag": "Hidden Gem",
+        "tagColor": "purple",
+        "highlights": [
+          "Jaffna Fort & Temples",
+          "Nainativu Island",
+          "Colombo Heritage",
+          "Tamil Culture & Cuisine"
+        ],
+        "image": "/images/gallery/2453.jpg",
+        "pkgid": "2455",
+        "popular": false
+      },
+      {
+        "id": "sri-lanka-7d-central-southern",
+        "slug": "south/7-day-central-southern-overnight",
+        "name": "7 Days Best of Central & Southern Sri Lanka",
+        "duration": "7D6N",
+        "price": "From RM2,688",
+        "originalPrice": "RM3,226",
+        "priceNote": "per person",
+        "saving": "Save RM1,075 per couple",
+        "tag": "Best Seller",
+        "tagColor": "red",
+        "highlights": [
+          "Sigiriya & Kandy",
+          "Nuwara Eliya Hill Trains",
+          "Yala Wildlife Safari",
+          "South Coast Scenery"
+        ],
+        "image": "/images/gallery/2456.jpg",
+        "pkgid": "2456",
+        "popular": true
+      },
+      {
+        "id": "sri-lanka-8d-magic-island",
+        "slug": "kandy/8-day-discover-magic",
+        "name": "8 Days Discover the Magic of Sri Lanka",
+        "duration": "8D7N",
+        "price": "From RM2,998",
+        "originalPrice": "RM3,598",
+        "priceNote": "per person",
+        "saving": "Save RM1,199 per couple",
+        "tag": "Grand Tour",
+        "tagColor": "teal",
+        "highlights": [
+          "Kandy Spiritual Heart",
+          "Sigiriya Rock Fortress",
+          "Tea Country & Waterfalls",
+          "Heritage & Landscape Circuit"
+        ],
+        "image": "/images/gallery/2374.jpg",
+        "pkgid": "2375",
+        "popular": false
+      },
+      {
+        "id": "sri-lanka-9d-northern-discovery",
+        "slug": "north/9-day-northern-discovery",
+        "name": "9 Days Northern Sri Lanka Discovery: Where Cultures Collide",
+        "duration": "9D8N",
+        "price": "From RM3,488",
+        "originalPrice": "RM4,186",
+        "priceNote": "per person",
+        "saving": "Save RM1,395 per couple",
+        "tag": "Cultural",
+        "tagColor": "purple",
+        "highlights": [
+          "Jaffna Cultural Immersion",
+          "Nainativu Sacred Island",
+          "Ancient Northern Heritage",
+          "Tamil Cuisine & Traditions"
+        ],
+        "image": "/images/gallery/667.jpg",
+        "pkgid": "667",
+        "popular": false
+      },
+      {
+        "id": "sri-lanka-12d-complete-island",
+        "slug": "kandy/12-day-complete-island",
+        "name": "12 Days Best of Sri Lanka: Central + North + South",
+        "duration": "12D11N",
+        "price": "From RM4,528",
+        "originalPrice": "RM5,434",
+        "priceNote": "per person",
+        "saving": "Save RM1,811 per couple",
+        "tag": "Complete Sri Lanka",
+        "tagColor": "green",
+        "highlights": [
+          "Jaffna & Nainativu Island",
+          "Anuradhapura & Sigiriya UNESCO Sites",
+          "Nuwara Eliya Tea Country",
+          "Yala Safari & South Coast"
+        ],
+        "image": "/images/gallery/2193.jpg",
+        "pkgid": "2194",
+        "popular": false
+      }
+    ]
   }
 }

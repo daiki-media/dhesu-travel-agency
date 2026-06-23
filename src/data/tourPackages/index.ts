@@ -73,6 +73,19 @@ import nepalChitwan8DayNationalParkSafari from "./nepal/chitwan--8-day-national-
 import nepalMuktinath8DaySpiritual from "./nepal/muktinath--8-day-spiritual.json";
 import nepalLumbini8DayBirthplaceOfBuddha from "./nepal/lumbini--8-day-birthplace-of-buddha.json";
 
+import sriLankaKandy3DayKandyColombo from "./sri-lanka/kandy--3-day-kandy-colombo.json";
+import sriLankaHillCountry4DayLittleEngland from "./sri-lanka/hill-country--4-day-nuwara-eliya-little-england.json";
+import sriLankaHillCountry4DayMuslimFriendly from "./sri-lanka/hill-country--4-day-muslim-friendly.json";
+import sriLankaKandy5DayAdventure from "./sri-lanka/kandy--5-day-sri-lankan-adventure.json";
+import sriLankaSouth6DayCentralSouth from "./sri-lanka/south--6-day-central-south.json";
+import sriLankaSouth6DayWildlifeSafari from "./sri-lanka/south--6-day-wildlife-safari.json";
+import sriLankaKandy6DaySigiriyaBestPlaces from "./sri-lanka/kandy--6-day-sigiriya-best-places.json";
+import sriLankaNorth6DayNorthernSriLanka from "./sri-lanka/north--6-day-northern-sri-lanka.json";
+import sriLankaSouth7DayCentralSouthernOvernight from "./sri-lanka/south--7-day-central-southern-overnight.json";
+import sriLankaKandy8DayDiscoverMagic from "./sri-lanka/kandy--8-day-discover-magic.json";
+import sriLankaNorth9DayNorthernDiscovery from "./sri-lanka/north--9-day-northern-discovery.json";
+import sriLankaKandy12DayCompleteIsland from "./sri-lanka/kandy--12-day-complete-island.json";
+
 const packageDetails: Record<string, PackageDetailData> = {
   "east-india/3-day-kolkata-heritage": eastIndia3DayKolkataHeritage as PackageDetailData,
   "kashmir/12-day-srinagar-leh-road-trip": kashmir12DaySrinagarLehRoadTrip as PackageDetailData,
@@ -145,6 +158,18 @@ const packageDetails: Record<string, PackageDetailData> = {
   "chitwan/8-day-national-park-safari": nepalChitwan8DayNationalParkSafari as PackageDetailData,
   "muktinath/8-day-spiritual": nepalMuktinath8DaySpiritual as PackageDetailData,
   "lumbini/8-day-birthplace-of-buddha": nepalLumbini8DayBirthplaceOfBuddha as PackageDetailData,
+  "kandy/3-day-kandy-colombo": sriLankaKandy3DayKandyColombo as PackageDetailData,
+  "hill-country/4-day-nuwara-eliya-little-england": sriLankaHillCountry4DayLittleEngland as PackageDetailData,
+  "hill-country/4-day-muslim-friendly": sriLankaHillCountry4DayMuslimFriendly as PackageDetailData,
+  "kandy/5-day-sri-lankan-adventure": sriLankaKandy5DayAdventure as PackageDetailData,
+  "south/6-day-central-south": sriLankaSouth6DayCentralSouth as PackageDetailData,
+  "south/6-day-wildlife-safari": sriLankaSouth6DayWildlifeSafari as PackageDetailData,
+  "kandy/6-day-sigiriya-best-places": sriLankaKandy6DaySigiriyaBestPlaces as PackageDetailData,
+  "north/6-day-northern-sri-lanka": sriLankaNorth6DayNorthernSriLanka as PackageDetailData,
+  "south/7-day-central-southern-overnight": sriLankaSouth7DayCentralSouthernOvernight as PackageDetailData,
+  "kandy/8-day-discover-magic": sriLankaKandy8DayDiscoverMagic as PackageDetailData,
+  "north/9-day-northern-discovery": sriLankaNorth9DayNorthernDiscovery as PackageDetailData,
+  "kandy/12-day-complete-island": sriLankaKandy12DayCompleteIsland as PackageDetailData,
 };
 
 export const packageSlugs = Object.keys(packageDetails);
