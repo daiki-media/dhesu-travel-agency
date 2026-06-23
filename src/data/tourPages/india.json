@@ -81,7 +81,7 @@
     ]
   },
   "zones": {
-    "sectionLabel": "India Regions",
+    "sectionLabel": "India Destinations",
     "heading": "Where to Go and Why",
     "subheading": "India is a continent disguised as a country. Each region feels like an entirely different holiday.",
     "areas": [
@@ -113,13 +113,58 @@
         "href": "/tours/india/kerala"
       },
       {
-        "name": "Shimla & Manali",
-        "tag": "Hill Stations",
+        "name": "North India",
+        "tag": "Himalayas & Hill Towns",
         "tagColor": "purple",
-        "description": "Colonial hill towns, the Shimla toy train and the high snow fields of the Rohtang Pass beyond Manali. Lower-Himalayan air and silence.",
+        "description": "Shimla's colonial hill station, Manali's snow fields, Haridwar's sacred ghats and Rishikesh on the Ganga.",
         "image": "/images/gallery/11535.jpg",
         "vibe": "Cool",
         "href": "/tours/india/north-india"
+      },
+      {
+        "name": "South India",
+        "tag": "Temples & Palaces",
+        "tagColor": "red",
+        "description": "Dravidian temples, Mysore's illuminated palace and the Nilgiri hill stations reached by toy train. Rich, ancient and rarely crowded.",
+        "image": "/images/gallery/14160.jpg",
+        "vibe": "Cultural",
+        "href": "/tours/india/south-india"
+      },
+      {
+        "name": "Taj Mahal",
+        "tag": "Iconic Wonder",
+        "tagColor": "teal",
+        "description": "The greatest monument to love ever built. Sunrise at Agra when the white marble turns gold. The moment most people come to India for.",
+        "image": "/images/gallery/12336.jpg",
+        "vibe": "Unforgettable",
+        "href": "/tours/india/taj-mahal"
+      },
+      {
+        "name": "Varanasi",
+        "tag": "Sacred & Ancient",
+        "tagColor": "orange",
+        "description": "Dawn boat rides on the Ganga and the evening fire ceremony at Dashashwamedh Ghat. One of the world's oldest living cities.",
+        "image": "/images/gallery/14014.jpg",
+        "vibe": "Spiritual",
+        "href": "/tours/india/varanasi"
+      },
+      {
+        "name": "East India",
+        "tag": "Heritage & Culture",
+        "tagColor": "pink",
+        "description": "Kolkata's grand colonial architecture, Victoria Memorial and the warmth of Bengali culture. Heritage travel with real soul.",
+        "image": "/images/gallery/12254.jpg",
+        "vibe": "Historic",
+        "href": "/tours/india/east-india"
+      },
+      {
+        "name": "West India",
+        "tag": "Mumbai & Goa",
+        "tagColor": "teal",
+        "description": "Bollywood Mumbai, the sacred Shirdi shrine and the palm-lined beaches of Goa. Energy and calm in the same region.",
+        "image": "/images/gallery/12266.jpg",
+        "vibe": "Vibrant",
+        "href": "/tours/india/west-india"
       }
     ]
   },

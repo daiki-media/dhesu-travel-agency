@@ -237,10 +237,8 @@ function HighlightCard({ item, index }: { item: TourHighlight; index: number }) 
 // ─── Reusable Destination Hub Template ─────────────────────────────────────────
 export default function TourDestinationTemplate({
   data,
-  regionCards,
 }: {
   data: TourPageData;
-  regionCards?: { label: string; href: string; blurb: string; kind: "region" | "theme" }[];
 }) {
   const { meta, hero, why, zones, bestTime, tripLength, packages, whyBook, cta } = data;
 
@@ -394,60 +392,6 @@ export default function TourDestinationTemplate({
             ))}
           </div>
 
-          {/* Full region & theme index — lightweight text cards, good for SEO and LCP */}
-          {regionCards && regionCards.length > 0 && (
-            <div className="mt-16 pt-14 border-t border-gray-200">
-              <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeUp}
-                className="max-w-2xl mb-10"
-              >
-                <h3 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-3">
-                  Browse Every Region and Theme
-                </h3>
-                <p className="text-gray-500 leading-relaxed">
-                  Each part of India feels like a different country. Pick a region, or jump
-                  straight to the experiences India is famous for.
-                </p>
-              </motion.div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                {regionCards.map((card, i) => (
-                  <motion.div
-                    key={card.href}
-                    custom={i}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, margin: "-40px" }}
-                    variants={fadeUp}
-                  >
-                    <Link
-                      href={card.href}
-                      className="group flex h-full flex-col rounded-2xl border border-gray-200 bg-white p-6 hover:border-primary hover:shadow-md transition-all duration-300"
-                    >
-                      <div className="flex items-center justify-between mb-2">
-                        <span className="text-[11px] font-semibold uppercase tracking-widest text-primary">
-                          {card.kind === "theme" ? "Theme" : "Region"}
-                        </span>
-                        <span className="text-gray-300 group-hover:text-primary transition-colors">
-                          <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
-                        </span>
-                      </div>
-                      <h4 className="font-primary font-bold text-[#1a1a1a] text-lg mb-1.5 group-hover:text-primary transition-colors">
-                        {card.label}
-                      </h4>
-                      <p className="text-gray-500 text-sm leading-relaxed">{card.blurb}</p>
-                      <span className="mt-4 text-sm font-semibold text-primary">
-                        View {card.label} packages
-                      </span>
-                    </Link>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
       </section>
 

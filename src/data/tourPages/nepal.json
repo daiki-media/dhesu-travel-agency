@@ -56,7 +56,7 @@
     ]
   },
   "zones": {
-    "sectionLabel": "Nepal Regions",
+    "sectionLabel": "Nepal Destinations",
     "heading": "Where to Go and Why",
     "subheading": "Most Nepal trips link the Kathmandu Valley, the Pokhara lakes and a Himalayan viewpoint, with Chitwan as a wild lowland add-on.",
     "areas": [
@@ -95,6 +95,42 @@
         "image": "/images/gallery/42.jpg",
         "vibe": "Wild",
         "href": "/tours/nepal/chitwan"
+      },
+      {
+        "name": "Kathmandu & Pokhara",
+        "tag": "Classic Circuit",
+        "tagColor": "teal",
+        "description": "Nepal's two essential destinations in one trip. Ancient temples in the capital, then Phewa Lake and the Annapurna sunrise in Pokhara.",
+        "image": "/images/gallery/46.jpg",
+        "vibe": "Classic",
+        "href": "/tours/nepal/kathmandu-pokhara"
+      },
+      {
+        "name": "Muktinath",
+        "tag": "High Himalaya",
+        "tagColor": "red",
+        "description": "Sacred shrine at 3,800 metres above the ancient Mustang Valley, revered by Hindus and Buddhists. Reached by a short flight from Pokhara.",
+        "image": "/images/gallery/44.jpg",
+        "vibe": "Sacred",
+        "href": "/tours/nepal/muktinath"
+      },
+      {
+        "name": "Lumbini",
+        "tag": "Buddhist Pilgrimage",
+        "tagColor": "orange",
+        "description": "The UNESCO birthplace of the Buddha. Maya Devi Temple, the Ashoka Pillar and 17 national monastery temples from around the Buddhist world.",
+        "image": "/images/gallery/26.jpeg",
+        "vibe": "Spiritual",
+        "href": "/tours/nepal/lumbini"
+      },
+      {
+        "name": "Muslim Friendly Nepal",
+        "tag": "Halal Arrangements",
+        "tagColor": "green",
+        "description": "Nepal's wonders with halal dining guidance, prayer-time awareness and a Muslim-aware private guide built into every itinerary.",
+        "image": "/images/gallery/47.jpg",
+        "vibe": "Welcoming",
+        "href": "/tours/nepal/muslim-friendly"
       }
     ]
   },

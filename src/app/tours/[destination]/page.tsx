@@ -5,8 +5,6 @@ import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/homepage/Footer";
 import TourDestinationTemplate from "@/src/components/tours/TourDestinationTemplate";
 import { getTourPage, tourSlugs } from "@/src/data/tourPages";
-import { getIndiaRegionCards } from "@/src/data/india/regions";
-import { getNepalRegionCards } from "@/src/data/nepal/regions";
 
 type PageProps = {
   params: Promise<{ destination: string }>;
@@ -48,17 +46,11 @@ export default async function TourDestinationPage({ params }: PageProps) {
     notFound();
   }
 
-  // India and Nepal get region/theme index cards; other destinations render without them.
-  const regionCards =
-    destination === "india" ? getIndiaRegionCards() :
-    destination === "nepal" ? getNepalRegionCards() :
-    undefined;
-
   return (
     <>
       <TopBar />
       <Navbar />
-      <TourDestinationTemplate data={data} regionCards={regionCards} />
+      <TourDestinationTemplate data={data} />
       <Footer />
     </>
   );
