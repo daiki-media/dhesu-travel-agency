@@ -6,7 +6,7 @@
     "slug": "paro-thimphu/5-day-calm-trails-grand-views",
     "canonicalUrl": "/tours/bhutan/paro-thimphu/5-day-calm-trails-grand-views",
     "pkgid": "2454",
-    "ogImage": "/images/gallery/2452.jpg"
+    "ogImage": "/images/gallery/16220.jpg"
   },
   "hero": {
     "badge": "Paro & Thimphu — 5 Days",
@@ -19,7 +19,7 @@
       { "label": "All Bhutan Packages", "href": "/tours/bhutan/all-packages" },
       { "label": "5 Days Calm Trails & Grand Views", "href": null }
     ],
-    "heroImage": "/images/gallery/2452.jpg",
+    "heroImage": "/images/gallery/16220.jpg",
     "heroImageAlt": "Tiger's Nest Monastery Taktsang Bhutan cliff face Paro Valley"
   },
   "quickFacts": {
@@ -73,25 +73,25 @@
       {
         "title": "Tiger's Nest Monastery — The Hike Everyone Talks About",
         "body": "Taktsang Monastery clings to a granite cliff 3,120 metres above sea level, 900 metres above the Paro Valley floor. The three-hour hike through pine and cedar forest rewards you with views of the monastery hanging impossibly in the air, and the sound of monks chanting echoing from the rock face. Guru Rinpoche is said to have meditated here in the 8th century. The experience is unlike anything else in Asia.",
-        "image": "/images/gallery/2447.jpg",
+        "image": "/images/gallery/16220.jpg",
         "imageAlt": "Taktsang Tiger's Nest Monastery Bhutan cliff face Paro Valley"
       },
       {
         "title": "Tashichho Dzong — Bhutan's Fortress-Government",
         "body": "Built in 1641 and rebuilt in 1962 by the Third King, Tashichho Dzong is the seat of the Bhutanese government and the throne room of the monarch. Its white-walled towers, golden rooftops, and beautifully maintained courtyards represent the finest example of dzong architecture in the country. Every detail reflects the inseparability of government and Buddhist spirituality that defines Bhutan.",
-        "image": "/images/gallery/2453.jpg",
+        "image": "/images/gallery/16215.jpg",
         "imageAlt": "Tashichho Dzong Thimphu Bhutan fortress monastery government"
       },
       {
         "title": "Farmhouse Experience — Archery, Cooking & Real Bhutanese Life",
         "body": "Most tours in Bhutan show you the great monuments. This experience shows you how Bhutanese people actually live. Stay with a local farming family, try archery (the national sport, played with recurve bows at targets 145 metres away), harvest vegetables from the kitchen garden, and cook Ema Datshi — the national dish of chilli peppers and cheese — with your hosts. A genuine cultural encounter, not a performance.",
-        "image": "/images/gallery/2452.jpg",
+        "image": "/images/gallery/15045.jpg",
         "imageAlt": "Bhutanese farmhouse experience archery cooking Ema Datshi cultural immersion"
       },
       {
         "title": "Traditional Hot Stone Bath (Menchu)",
         "body": "After the Tiger's Nest hike, a traditional Menchu is the perfect restoration. River stones are heated over an open fire until they glow red, then lowered into a wooden bathtub filled with water and mountain herbs. The minerals from the stones dissolve into the water, creating a deeply restorative soak that Bhutanese have used for centuries as both a wellness ritual and a treatment for aches and ailments. One of Bhutan's most unique experiences.",
-        "image": "/images/gallery/2448.jpg",
+        "image": "/images/gallery/15045.jpg",
         "imageAlt": "Traditional Bhutan hot stone bath Menchu river stones wellness"
       }
     ]
@@ -283,7 +283,7 @@
       "price": "From RM4,488",
       "duration": "6D5N",
       "slug": "paro-thimphu/6-day-kingdom-of-happiness",
-      "image": "/images/gallery/2453.jpg"
+      "image": "/images/gallery/16215.jpg"
     },
     {
       "id": "bhutan-7d-himalayan-escape",
@@ -291,7 +291,7 @@
       "price": "From RM5,188",
       "duration": "7D6N",
       "slug": "paro-thimphu/7-day-himalayan-cultural-escape",
-      "image": "/images/gallery/2446.jpg"
+      "image": "/images/gallery/16215.jpg"
     },
     {
       "id": "bhutan-8d-nepal-combo",
@@ -299,7 +299,7 @@
       "price": "From RM9,888",
       "duration": "8D7N",
       "slug": "paro-thimphu/8-day-bhutan-nepal-himalayan",
-      "image": "/images/gallery/245.jpg"
+      "image": "/images/gallery/16220.jpg"
     }
   ],
   "cta": {
@@ -309,7 +309,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2445.jpg"
+    "bgImage": "/images/gallery/16220.jpg"
   },
   "schema": {
     "type": "TouristTrip",

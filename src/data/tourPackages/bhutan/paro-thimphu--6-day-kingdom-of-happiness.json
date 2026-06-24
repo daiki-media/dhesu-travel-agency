@@ -6,7 +6,7 @@
     "slug": "paro-thimphu/6-day-kingdom-of-happiness",
     "canonicalUrl": "/tours/bhutan/paro-thimphu/6-day-kingdom-of-happiness",
     "pkgid": "2453",
-    "ogImage": "/images/gallery/2453.jpg"
+    "ogImage": "/images/gallery/16215.jpg"
   },
   "hero": {
     "badge": "Most Popular — Paro & Thimphu 6 Days",
@@ -19,7 +19,7 @@
       { "label": "All Bhutan Packages", "href": "/tours/bhutan/all-packages" },
       { "label": "6 Days Kingdom of Happiness", "href": null }
     ],
-    "heroImage": "/images/gallery/2453.jpg",
+    "heroImage": "/images/gallery/16215.jpg",
     "heroImageAlt": "Bhutan Kingdom of Happiness Thimphu Valley Buddha Dordenma aerial view"
   },
   "quickFacts": {
@@ -74,25 +74,25 @@
       {
         "title": "Wangditse Nature Trail — The Hidden Gem",
         "body": "Most Bhutan tours skip this. A two-hour forest hike from Thimphu through apple orchards, traditional farmhouses, and stands of blue pine wrapped in prayer flags, ending at Wangditse Monastery on a ridge above the valley. The views of Thimphu from the trail are extraordinary — the kind of views that make you stop walking and just stand there. The monastery at the top is atmospheric and quiet, far removed from the main tourist circuit.",
-        "image": "/images/gallery/2447.jpg",
+        "image": "/images/gallery/16220.jpg",
         "imageAlt": "Wangditse Nature Trail Thimphu Bhutan apple orchards monastery forest hike"
       },
       {
         "title": "Two Full Days in Thimphu — The Capital Without Traffic Lights",
         "body": "The 6-day package gives you a complete Thimphu experience that the 5-day simply cannot. Two nights and almost two full days to cover the Buddha Dordenma, Tashichho Dzong, National Memorial Chorten, Motithang Takin Preserve, the traditional textile weaving centres, and the Thimphu weekend market. You leave Thimphu having genuinely understood it, not just photographed it.",
-        "image": "/images/gallery/2453.jpg",
+        "image": "/images/gallery/16215.jpg",
         "imageAlt": "Thimphu capital Bhutan Buddha Dordenma Tashichho Dzong cultural tour"
       },
       {
         "title": "Farmhouse Stay — Cooking, Archery & Authentic Connection",
         "body": "The farmhouse experience in Paro is the moment most visitors describe when they talk about Bhutan months or years later. A local family hosts you for an afternoon and early evening — archery on traditional grounds, vegetable harvesting from the kitchen garden, cooking Ema Datshi (Bhutan's national dish of chilli and local cheese) from scratch. The family feeds you the dinner you just cooked. It is genuinely warm, not staged.",
-        "image": "/images/gallery/2452.jpg",
+        "image": "/images/gallery/15045.jpg",
         "imageAlt": "Bhutanese farmhouse experience archery cooking Ema Datshi Paro cultural immersion"
       },
       {
         "title": "Tiger's Nest Monastery — Unhurried on Day 5",
         "body": "Because the 6-day itinerary places the Tiger's Nest hike on Day 5, you arrive at it rested and unhurried. No cramming multiple sites into the same day. Just the forest trail, the cliff monastery hanging in the air 900 metres above the valley, and the silence of the meditation caves where Guru Rinpoche retreated in the 8th century. Followed by a traditional Menchu hot stone bath — one of the most restorative experiences Bhutan offers.",
-        "image": "/images/gallery/2446.jpg",
+        "image": "/images/gallery/16220.jpg",
         "imageAlt": "Tiger's Nest Taktsang Monastery Bhutan Paro Valley cliff face sacred site"
       }
     ]
@@ -282,7 +282,7 @@
       "price": "From RM3,788",
       "duration": "5D4N",
       "slug": "paro-thimphu/5-day-calm-trails-grand-views",
-      "image": "/images/gallery/2452.jpg"
+      "image": "/images/gallery/16220.jpg"
     },
     {
       "id": "bhutan-7d-himalayan-escape",
@@ -290,7 +290,7 @@
       "price": "From RM5,188",
       "duration": "7D6N",
       "slug": "paro-thimphu/7-day-himalayan-cultural-escape",
-      "image": "/images/gallery/2446.jpg"
+      "image": "/images/gallery/16215.jpg"
     },
     {
       "id": "bhutan-8d-nepal-combo",
@@ -298,7 +298,7 @@
       "price": "From RM9,888",
       "duration": "8D7N",
       "slug": "paro-thimphu/8-day-bhutan-nepal-himalayan",
-      "image": "/images/gallery/245.jpg"
+      "image": "/images/gallery/16220.jpg"
     }
   ],
   "cta": {
@@ -308,7 +308,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2448.jpg"
+    "bgImage": "/images/gallery/16215.jpg"
   },
   "schema": {
     "type": "TouristTrip",

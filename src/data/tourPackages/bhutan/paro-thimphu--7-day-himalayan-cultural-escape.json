@@ -6,7 +6,7 @@
     "slug": "paro-thimphu/7-day-himalayan-cultural-escape",
     "canonicalUrl": "/tours/bhutan/paro-thimphu/7-day-himalayan-cultural-escape",
     "pkgid": "2446",
-    "ogImage": "/images/gallery/2446.jpg"
+    "ogImage": "/images/gallery/16215.jpg"
   },
   "hero": {
     "badge": "Paro, Thimphu & Punakha — 7 Days",
@@ -19,7 +19,7 @@
       { "label": "All Bhutan Packages", "href": "/tours/bhutan/all-packages" },
       { "label": "7 Days Himalayan Cultural Escape", "href": null }
     ],
-    "heroImage": "/images/gallery/2446.jpg",
+    "heroImage": "/images/gallery/16215.jpg",
     "heroImageAlt": "Bhutan Punakha Dzong fortress at confluence of two rivers Himalayan landscape"
   },
   "quickFacts": {
@@ -73,25 +73,25 @@
       {
         "title": "Punakha Dzong — The Most Beautiful Dzong in Bhutan",
         "body": "At the confluence of the Pho Chhu (Father River) and Mo Chhu (Mother River), Punakha Dzong rises from the waters like a fortress from a medieval illuminated manuscript. Built in 1637 by Zhabdrung Ngawang Namgyal — the man who unified Bhutan — it served as the seat of government until 1955 and remains the winter residence of Bhutan's Je Khenpo (Chief Abbot). The interior courtyards, thousand-year-old jacaranda tree, and golden statue hall are among the most beautiful spaces in the Himalayan world.",
-        "image": "/images/gallery/2446.jpg",
+        "image": "/images/gallery/16215.jpg",
         "imageAlt": "Punakha Dzong Bhutan fortress river confluence Himalayan landscape"
       },
       {
         "title": "Chimi Lhakhang & the Rice Paddy Walk",
         "body": "A 30-minute walk across rice paddies (or golden terraces in autumn) leads to Chimi Lhakhang, the Temple of the Divine Madman — the revered and eccentric saint Drukpa Kunley, who used unconventional methods to subdue demons and spread Buddhism. The temple is a place of pilgrimage for couples seeking fertility blessings, and the walk to reach it — past farmhouses, children at play, and farmworkers in the fields — is one of the most genuine rural Bhutan experiences available.",
-        "image": "/images/gallery/2447.jpg",
+        "image": "/images/gallery/15045.jpg",
         "imageAlt": "Chimi Lhakhang fertility temple Punakha Bhutan rice paddy walk"
       },
       {
         "title": "Tiger's Nest — The Hike Without the Rush",
         "body": "With seven days, the Tiger's Nest hike falls in the final stretch of the journey, after you have absorbed the context that makes it meaningful. You understand by Day 6 something of Bhutanese Buddhism, dzong culture, and Himalayan spirituality — and when you finally stand in front of Taktsang Monastery on its cliff face, you understand why it has been a place of pilgrimage for 1,300 years, not just a good photograph.",
-        "image": "/images/gallery/2453.jpg",
+        "image": "/images/gallery/16220.jpg",
         "imageAlt": "Tiger's Nest Taktsang Monastery Bhutan Paro Valley cliff face sacred site"
       },
       {
         "title": "Extended Farmhouse & Cultural Immersion",
         "body": "Seven days allows for a longer, more relaxed farmhouse experience in Paro. Cook Ema Datshi. Try archery. Walk the kitchen garden. Have dinner with the family. This is the experience that separates a Bhutan tour from a Bhutan trip — a genuine human connection with how Bhutanese people live, far from the official monuments.",
-        "image": "/images/gallery/2452.jpg",
+        "image": "/images/gallery/15045.jpg",
         "imageAlt": "Bhutanese farmhouse Paro cultural immersion cooking archery extended stay"
       }
     ]
@@ -292,7 +292,7 @@
       "price": "From RM4,488",
       "duration": "6D5N",
       "slug": "paro-thimphu/6-day-kingdom-of-happiness",
-      "image": "/images/gallery/2453.jpg"
+      "image": "/images/gallery/16215.jpg"
     },
     {
       "id": "bhutan-5d-calm-trails",
@@ -300,7 +300,7 @@
       "price": "From RM3,788",
       "duration": "5D4N",
       "slug": "paro-thimphu/5-day-calm-trails-grand-views",
-      "image": "/images/gallery/2452.jpg"
+      "image": "/images/gallery/16220.jpg"
     },
     {
       "id": "bhutan-8d-nepal-combo",
@@ -308,7 +308,7 @@
       "price": "From RM9,888",
       "duration": "8D7N",
       "slug": "paro-thimphu/8-day-bhutan-nepal-himalayan",
-      "image": "/images/gallery/245.jpg"
+      "image": "/images/gallery/16220.jpg"
     }
   ],
   "cta": {
@@ -318,7 +318,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2445.jpg"
+    "bgImage": "/images/gallery/16215.jpg"
   },
   "schema": {
     "type": "TouristTrip",

@@ -6,7 +6,7 @@
     "slug": "paro-thimphu/8-day-bhutan-nepal-himalayan",
     "canonicalUrl": "/tours/bhutan/paro-thimphu/8-day-bhutan-nepal-himalayan",
     "pkgid": "245",
-    "ogImage": "/images/gallery/245.jpg"
+    "ogImage": "/images/gallery/16220.jpg"
   },
   "hero": {
     "badge": "Bhutan & Nepal — Two Countries, One Journey",
@@ -19,7 +19,7 @@
       { "label": "All Bhutan Packages", "href": "/tours/bhutan/all-packages" },
       { "label": "8 Days Bhutan & Nepal Himalayan", "href": null }
     ],
-    "heroImage": "/images/gallery/245.jpg",
+    "heroImage": "/images/gallery/16220.jpg",
     "heroImageAlt": "Bhutan and Nepal Himalayan journey Tiger's Nest Monastery Kathmandu temples"
   },
   "quickFacts": {
@@ -76,7 +76,7 @@
       {
         "title": "Tiger's Nest Monastery — Bhutan's Defining Experience",
         "body": "No journey to Bhutan is complete without Taktsang Monastery. Perched on a sheer cliff face 900 metres above Paro Valley, the three-hour hike through pine and cedar forest to this sacred site is both physically exhilarating and spiritually profound. Guru Rinpoche meditated in the cave behind the monastery in the 8th century. Standing at the monastery's edge, looking down at the valley far below, is the moment most visitors describe as the highlight of their entire journey.",
-        "image": "/images/gallery/2447.jpg",
+        "image": "/images/gallery/16220.jpg",
         "imageAlt": "Tiger's Nest Taktsang Monastery Bhutan Paro Valley cliff face sacred site"
       },
       {
@@ -88,7 +88,7 @@
       {
         "title": "Bhutan Farmhouse Experience — Authentic Cultural Immersion",
         "body": "In Paro, an afternoon with a Bhutanese farming family gives you the most genuine cultural encounter in the country. Try archery on traditional grounds (Bhutan's national sport, with targets 145 metres away). Harvest vegetables from the kitchen garden. Cook Ema Datshi — the national dish of chillies and cheese — from scratch with your hosts, who then serve you the dinner you made together. No other experience in Bhutan shows you how the country actually lives.",
-        "image": "/images/gallery/2452.jpg",
+        "image": "/images/gallery/15045.jpg",
         "imageAlt": "Bhutanese farmhouse experience Paro archery cooking Ema Datshi cultural immersion"
       },
       {
@@ -311,7 +311,7 @@
       "price": "From RM5,188",
       "duration": "7D6N",
       "slug": "paro-thimphu/7-day-himalayan-cultural-escape",
-      "image": "/images/gallery/2446.jpg"
+      "image": "/images/gallery/16215.jpg"
     },
     {
       "id": "bhutan-6d-kingdom-happiness",
@@ -319,7 +319,7 @@
       "price": "From RM4,488",
       "duration": "6D5N",
       "slug": "paro-thimphu/6-day-kingdom-of-happiness",
-      "image": "/images/gallery/2453.jpg"
+      "image": "/images/gallery/16215.jpg"
     },
     {
       "id": "bhutan-5d-calm-trails",
@@ -327,7 +327,7 @@
       "price": "From RM3,788",
       "duration": "5D4N",
       "slug": "paro-thimphu/5-day-calm-trails-grand-views",
-      "image": "/images/gallery/2452.jpg"
+      "image": "/images/gallery/16220.jpg"
     }
   ],
   "cta": {
@@ -337,7 +337,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2447.jpg"
+    "bgImage": "/images/gallery/16220.jpg"
   },
   "schema": {
     "type": "TouristTrip",

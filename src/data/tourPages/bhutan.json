@@ -22,7 +22,7 @@
     "headline": "Bhutan Measures Wealth",
     "headlineAccent": "By Happiness, Not GDP.",
     "body": "Perched high in the Himalayas where mountains pierce the clouds, Bhutan has preserved its ancient culture and spiritual traditions while rejecting mass tourism. Tiger's Nest Monastery clings to cliff faces. Golden Buddhas tower over valleys. Local farmers still harvest by hand. This is the world's only carbon-negative country, where gross national happiness matters more than gross national product.",
-    "bgImage": "/images/gallery/2448.jpg",
+    "bgImage": "/images/gallery/16220.jpg",
     "stats": [
       {
         "value": "35+",
@@ -47,7 +47,7 @@
         "icon": "temple",
         "title": "Tiger's Nest Monastery: The Icon of Bhutan",
         "body": "Perched impossibly on a cliff face 3,120 metres above the Paro Valley, Taktsang Monastery is not just Bhutan's most iconic landmark—it is one of the most sacred sites in Himalayan Buddhism. The three-hour hike rewards you with views that will stay with you forever, and a spiritual atmosphere unlike anywhere else on earth.",
-        "image": "/images/gallery/2447.jpg",
+        "image": "/images/gallery/16220.jpg",
         "places": [
           "Taktsang Monastery",
           "Paro Valley",
@@ -58,7 +58,7 @@
         "icon": "mountain",
         "title": "Thimphu: The Capital Without Traffic Lights",
         "body": "Bhutan's charming capital is unlike any other. No traffic lights. No neon signs. No chain stores. Instead, traditional architecture, spirituality, and genuine Bhutanese life. The Buddha Dordenma statue rises 52 metres over the city. The National Memorial Chorten is a place of pilgrimage and prayer. Wander through the local markets and feel the authentic heartbeat of the nation.",
-        "image": "/images/gallery/2453.jpg",
+        "image": "/images/gallery/16215.jpg",
         "places": [
           "Buddha Dordenma",
           "Tashichho Dzong",
@@ -69,7 +69,7 @@
         "icon": "wave",
         "title": "Farmhouse Stays: Hands-On Cultural Immersion",
         "body": "Sleep in traditional Bhutanese farmhouses with families who have lived the same way for generations. Try archery, Bhutan's national sport. Harvest vegetables from local gardens. Cook the iconic Ema Datshi with your hosts. These are not packaged experiences—they are genuine encounters that show you how Bhutan actually lives.",
-        "image": "/images/gallery/2452.jpg",
+        "image": "/images/gallery/15045.jpg",
         "places": [
           "Traditional Farmhouses",
           "Local Organic Markets",
@@ -80,7 +80,7 @@
         "icon": "food",
         "title": "Spiritual Landscapes: Monastery Hikes and Ancient Dzongs",
         "body": "From the oldest dzong in the country (Simtokha, built in 1627) to the dramatic Paro Rinpung Dzong overlooking the valley, Bhutan's fortresses blend administrative and monastic functions in ways that reveal how spirituality and government are inseparable. Each dzong offers insight into centuries of Himalayan Buddhist culture.",
-        "image": "/images/gallery/2446.jpg",
+        "image": "/images/gallery/16215.jpg",
         "places": [
           "Simtokha Dzong",
           "Paro Rinpung Dzong",
@@ -99,7 +99,7 @@
         "tag": "Sacred Monasteries",
         "tagColor": "orange",
         "description": "Home to Tiger's Nest Monastery and the stunning Paro Rinpung Dzong. The valley where most visitors arrive and where Bhutan's most iconic sights are concentrated.",
-        "image": "/images/gallery/2447.jpg",
+        "image": "/images/gallery/16220.jpg",
         "vibe": "Iconic",
         "href": "/tours/bhutan/paro-thimphu"
       },
@@ -108,7 +108,7 @@
         "tag": "Hiking & Nature",
         "tagColor": "green",
         "description": "A scenic orchard and forest trek through apple orchards and traditional farmhouses adorned with prayer flags, culminating at Wangditse Monastery with breathtaking views.",
-        "image": "/images/gallery/2445.jpg",
+        "image": "/images/gallery/15045.jpg",
         "vibe": "Serene",
         "href": "/tours/bhutan/nature-trails"
       },
@@ -117,7 +117,7 @@
         "tag": "Nepal Heritage",
         "tagColor": "red",
         "description": "The ancient capital of Nepal with centuries of Buddhist temples, sacred stupas, and Himalayan heritage. Combine with Bhutan for a complete Himalayan spiritual journey.",
-        "image": "/images/gallery/15045.jpg",
+        "image": "/images/gallery/47.jpg",
         "vibe": "Sacred",
         "href": "/tours/bhutan/kathmandu"
       }
@@ -217,7 +217,7 @@
     "phone": "+6019 336 4465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2445.jpg"
+    "bgImage": "/images/gallery/16220.jpg"
   },
   "packages": {
     "sectionLabel": "Our Packages",
@@ -292,7 +292,7 @@
           "Nature Hikes & Scenic Trails",
           "Expert Guide & Private Transport"
         ],
-        "image": "/images/gallery/2446.jpg",
+        "image": "/images/gallery/16215.jpg",
         "pkgid": "2446",
         "popular": true,
         "description": "Embark on a magical journey through the Kingdom of Bhutan, from the serene valleys of Paro to the cultural heart of Thimphu and the scenic beauty of Punakha. A warm Bhutanese welcome sets the tone for an extended experience with multiple monastery visits, deeper cultural immersion in farmhouse settings, optional extended hikes, and time for spiritual reflection. Visit ancient dzongs, participate in local markets, and connect with Bhutanese culture on a profound level. Recommended for first-time visitors who want deeper immersion."
@@ -316,7 +316,7 @@
           "Sacred Nepalese Temples",
           "Dual-Country Himalayan Immersion"
         ],
-        "image": "/images/gallery/245.jpg",
+        "image": "/images/gallery/16220.jpg",
         "pkgid": "245",
         "popular": false,
         "description": "Bhutan, called the last Shangri-La and said to be the world's happiest place, is a privilege only a few experience. Combine the awe-inspiring mountainous landscapes and spiritual serenity of Bhutan with the ancient heritage and sacred temples of Nepal's Kathmandu. Trek Tiger's Nest Monastery. Stay in Bhutanese farmhouses. Explore the UNESCO World Heritage sites of Kathmandu Valley. A comprehensive Himalayan adventure blending two of Asia's richest spiritual cultures in one unforgettable journey."
