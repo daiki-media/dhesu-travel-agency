@@ -8,7 +8,7 @@ import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/homepage/Footer";
 import { tourPages } from "@/src/data/tourPages";
-
+import Button from "@/src/components/Button";
 const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 const fadeUp = {
@@ -174,12 +174,8 @@ export default function ToursIndexPage() {
               added. In the meantime, our team can arrange any destination —
               just ask.
             </p>
-            <a
-              href="/plan-my-trip"
-              className="inline-flex items-center gap-2 bg-primary text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors duration-200"
-            >
-              Plan a Custom Trip
-              <ArrowRight size={15} />
+            <a href="/plan-my-trip">
+              <Button variant="dark" showArrow size="lg">Plan a Custom Trip </Button>
             </a>
           </motion.div>
         </section>
