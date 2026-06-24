@@ -80,19 +80,19 @@
       {
         "title": "Hue Imperial City & Royal Tombs",
         "body": "Hue was the seat of the Nguyen Dynasty — the last imperial dynasty of Vietnam — from 1802 to 1945. The Imperial City (Kinh Thanh) is a walled complex modelled on Beijing's Forbidden City, covering 520 hectares on the northern bank of the Perfume River. The Royal Tombs complex outside the city includes eight imperial mausoleums — this package visits Khai Dinh Tomb, the most distinctive for its French-influenced exterior and elaborate mosaic interior. The Thien Mu Pagoda, seven storeys tall on the riverbank, is Hue's most iconic image.",
-        "image": "/images/gallery/2091.jpg",
+        "image": "/images/gallery/11967.jpg",
         "imageAlt": "Hue Imperial Citadel Nguyen Dynasty Vietnam UNESCO"
       },
       {
         "title": "Basket Boat & Hoi An Ancient Town",
         "body": "Hoi An day three combines the Cam Thanh basket boat experience (coracle ride through the Bay Mau coconut palm wetland with fishermen demonstrating net casting, crab fishing, and boat spinning) with the guided walking tour of Hoi An Ancient Town — covering the Japanese Covered Bridge (1593), Tan Ky Old House (200-year-old Chinese-Japanese merchant residence), Fujian Assembly Hall (1757), and the Museum of Trade Ceramics. The afternoon is free for Hoi An's tailors and market.",
-        "image": "/images/gallery/16402.jpg",
+        "image": "/images/gallery/11968.jpg",
         "imageAlt": "Basket boat coracle Hoi An coconut forest Vietnam"
       },
       {
         "title": "Ba Na Hills — Sun World Golden Bridge",
         "body": "Sun World Ba Na Hills is a theme park and resort complex on top of Ba Na Mountain (1,489 metres), 45 km from Danang city. The cable car ascent covers 5,801 metres and holds the record for the world's longest non-stop single track cable car. The Golden Bridge — upheld by two giant stone hands — is the most photographed structure in Vietnam. The hilltop recreates a French village: European-style château, wine cellar, gardens, and cobblestone streets. The Sun World combo (cable car + all attractions + funicular + buffet lunch) is fully included.",
-        "image": "/images/gallery/2134.jpg",
+        "image": "/images/gallery/11969.jpg",
         "imageAlt": "Ba Na Hills Golden Bridge giant hands Sun World Danang Vietnam"
       }
     ]
@@ -286,7 +286,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "central-vietnam/5-day-danang-train-hoi-an",
-      "image": "/images/gallery/2092.jpg"
+      "image": "/images/gallery/10374.jpg"
     },
     {
       "id": "vietnam-central-4d-danang-bana",
@@ -294,7 +294,7 @@
       "price": "From RM1,588",
       "duration": "4D3N",
       "slug": "central-vietnam/4-day-danang-hoi-an-bana",
-      "image": "/images/gallery/2134.jpg"
+      "image": "/images/gallery/14488.jpg"
     },
     {
       "id": "vietnam-central-3d-super-saver",
@@ -302,7 +302,7 @@
       "price": "From RM688",
       "duration": "3D2N",
       "slug": "central-vietnam/3-day-danang-super-saver",
-      "image": "/images/gallery/16405.jpg"
+      "image": "/images/gallery/16402.jpg"
     }
   ],
   "cta": {
@@ -312,7 +312,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2091.jpg"
+    "bgImage": "/images/gallery/14506.jpg"
   },
   "schema": {
     "type": "TouristTrip",

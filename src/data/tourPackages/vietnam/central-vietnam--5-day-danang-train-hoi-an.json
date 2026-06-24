@@ -6,7 +6,7 @@
     "slug": "central-vietnam/5-day-danang-train-hoi-an",
     "canonicalUrl": "/tours/vietnam/central-vietnam/5-day-danang-train-hoi-an",
     "pkgid": "2092",
-    "ogImage": "/images/gallery/2092.jpg"
+    "ogImage": "/images/gallery/10374.jpg"
   },
   "hero": {
     "badge": "Danang + Heritage Train + Hue — 5 Days",
@@ -19,7 +19,7 @@
       { "label": "Central Vietnam", "href": "/tours/vietnam/central-vietnam" },
       { "label": "5 Days Danang Train Hoi An", "href": null }
     ],
-    "heroImage": "/images/gallery/2092.jpg",
+    "heroImage": "/images/gallery/10374.jpg",
     "heroImageAlt": "Heritage Train scenic Hai Van Pass Danang to Hue Vietnam"
   },
   "quickFacts": {
@@ -75,25 +75,25 @@
       {
         "title": "Heritage Train — Danang to Hue Over Hai Van Pass",
         "body": "The train from Danang to Hue departs at 07:50 and arrives at 10:35, travelling a route that hugs the South China Sea coast, climbs over the Hai Van Pass at 496 metres, and passes Lang Co Bay before descending into Hue. The views from the train window as it rounds the headland above Lang Co Bay — the lagoon on one side, the sea on the other — are considered among the most spectacular train views in Asia. This is the Reunification Express line, the railway that links Hanoi to Ho Chi Minh City and has operated since 1936.",
-        "image": "/images/gallery/2092.jpg",
+        "image": "/images/gallery/14489.jpg",
         "imageAlt": "Heritage Train Vietnam Danang Hue Hai Van Pass scenic railway"
       },
       {
         "title": "Hue Imperial City — Vietnam's Last Dynasty",
         "body": "Hue was the capital of the Nguyen Dynasty from 1802 to 1945. The Imperial Citadel (Dai Noi) is a 520-hectare walled complex with the Forbidden Purple City at its centre — a Vietnamese adaptation of Beijing's Forbidden City, largely destroyed in the 1968 Tet Offensive but extensively restored. The guided visit covers the Ngo Mon Gate, Thai Hoa Palace, and the restored sections of the royal compound. After the citadel, Khai Dinh Royal Tomb (1920–1931) is the most dramatic of Hue's imperial mausoleums — built in French-influenced style with an extraordinary mosaic interior.",
-        "image": "/images/gallery/2091.jpg",
+        "image": "/images/gallery/12018.jpg",
         "imageAlt": "Hue Imperial Citadel Nguyen Dynasty Vietnam Forbidden City"
       },
       {
         "title": "Basket Boat & Hoi An Ancient Town",
         "body": "Day three combines the Cam Thanh basket boat experience (coracle ride through the Bay Mau coconut palm wetland, with local fishermen demonstrating net casting, crab fishing, boat spinning, and singing) with the UNESCO Hoi An Ancient Town guided walk. The Japanese Covered Bridge (1593), Tan Ky Old House, Fujian Assembly Hall (1757), and Museum of Trade Ceramics are all included. Free time for Hoi An's tailor shops — the best in Vietnam for both speed and quality of hand-sewn garments.",
-        "image": "/images/gallery/16402.jpg",
+        "image": "/images/gallery/12038.jpg",
         "imageAlt": "Basket boat coracle Hoi An Ancient Town UNESCO Vietnam"
       },
       {
         "title": "Ba Na Hills — The Golden Bridge",
         "body": "The Golden Bridge at Ba Na Hills — two giant stone hands reaching up from the mountainside to hold a golden-railed footbridge — is among the most photographed structures in Vietnam. The cable car ascent covers 5,801 metres and holds multiple world records (length, height change, longest non-stop). The hilltop French Village recreates a medieval European mountain town, with a château, bell tower, wine cellar, and cobblestone streets. The full Sun World combo (cable car + funicular + all attractions + buffet lunch) is included.",
-        "image": "/images/gallery/2134.jpg",
+        "image": "/images/gallery/12030.jpg",
         "imageAlt": "Ba Na Hills Golden Bridge Sun World Danang Vietnam France Village"
       }
     ]
@@ -288,7 +288,7 @@
       "price": "From RM2,088",
       "duration": "5D4N",
       "slug": "central-vietnam/5-day-danang-hue-hoi-an",
-      "image": "/images/gallery/2091.jpg"
+      "image": "/images/gallery/14506.jpg"
     },
     {
       "id": "vietnam-central-4d-danang-bana",
@@ -296,7 +296,7 @@
       "price": "From RM1,588",
       "duration": "4D3N",
       "slug": "central-vietnam/4-day-danang-hoi-an-bana",
-      "image": "/images/gallery/2134.jpg"
+      "image": "/images/gallery/14488.jpg"
     },
     {
       "id": "vietnam-central-3d-super-saver",
@@ -304,7 +304,7 @@
       "price": "From RM688",
       "duration": "3D2N",
       "slug": "central-vietnam/3-day-danang-super-saver",
-      "image": "/images/gallery/16405.jpg"
+      "image": "/images/gallery/16402.jpg"
     }
   ],
   "cta": {
@@ -314,7 +314,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2092.jpg"
+    "bgImage": "/images/gallery/10374.jpg"
   },
   "schema": {
     "type": "TouristTrip",

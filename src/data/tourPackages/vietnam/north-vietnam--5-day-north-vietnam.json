@@ -6,7 +6,7 @@
     "slug": "north-vietnam/5-day-north-vietnam",
     "canonicalUrl": "/tours/vietnam/north-vietnam/5-day-north-vietnam",
     "pkgid": "2337",
-    "ogImage": "/images/gallery/2337.jpg"
+    "ogImage": "/images/gallery/14461.jpg"
   },
   "hero": {
     "badge": "Hanoi, Halong Bay & Sapa — 5 Days",
@@ -19,7 +19,7 @@
       { "label": "North Vietnam", "href": "/tours/vietnam/north-vietnam" },
       { "label": "5 Days Best of North Vietnam", "href": null }
     ],
-    "heroImage": "/images/gallery/2337.jpg",
+    "heroImage": "/images/gallery/14461.jpg",
     "heroImageAlt": "Sapa terraced rice fields H'mong village North Vietnam highlands Fansipan"
   },
   "quickFacts": {
@@ -72,25 +72,25 @@
       {
         "title": "Fansipan — Indochina's Highest Peak",
         "body": "Fansipan at 3,147 metres is the highest peak in Vietnam, Laos, and Cambodia combined — the 'Roof of Indochina'. The Sun World Fansipan Legend complex makes the summit accessible without technical climbing: the Muong Hoa Hiking Train (a mountain rack railway) connects Sapa town to the cable car station, from where the gondola ascends 6,282 metres to the peak. The package includes the full Fansipan combo: train, cable car, funicular to the peak, buffet lunch at Van Sam Restaurant, and entrance to all 11 Buddhist sites at the summit including the 21.5-metre Great Buddha.",
-        "image": "/images/gallery/2337.jpg",
+        "image": "/images/gallery/14995.jpg",
         "imageAlt": "Fansipan peak cable car highest mountain Indochina Sapa Vietnam"
       },
       {
         "title": "Cat Cat Village — Black H'Mong Culture",
         "body": "Cat Cat Village is the closest traditional H'Mong settlement to Sapa town — a 30-minute walk down a well-maintained path through terraced rice paddies, past water buffaloes grazing on steep slopes, to a village where the Black H'Mong community has lived for generations. The village is named for its cascading waterfall; the women at the village gate sell indigo-dyed textiles and embroidered bags produced by hand using techniques passed down through families. The Rainbow Slide, a fun downhill slide through the village, is an optional extra.",
-        "image": "/images/gallery/2337.jpg",
+        "image": "/images/gallery/15002.jpg",
         "imageAlt": "Cat Cat Village Sapa Black H'Mong terraced rice field Vietnam"
       },
       {
         "title": "Halong Bay Full-Day Cruise",
         "body": "The Halong Bay day cruise covers the essential experiences of the UNESCO World Heritage karst landscape: boarding at Tuan Chau Harbour, cruising past the Dog Rock, Duck Rock, and Thumb Rock limestone formations, a buffet lunch with seafood on board, visiting Sung Sot Cave (the largest cave in the bay), kayaking at Luon Cave's enclosed lagoon, climbing Titov Island for the panoramic view, and the Sunset Party as the cruise returns through Hoa Cuong Bay. You return to Hanoi hotel in the early evening.",
-        "image": "/images/gallery/2477.jpg",
+        "image": "/images/gallery/15001.jpg",
         "imageAlt": "Halong Bay full day cruise limestone karsts UNESCO Vietnam"
       },
       {
         "title": "Hanoi City Tour — Mausoleum to Old Quarter",
         "body": "Hanoi's essential sights concentrate the last 1,000 years of Vietnamese history into a manageable tour: Tran Quoc Pagoda (oldest Buddhist pagoda in the city, founded in the 6th century), the Ho Chi Minh Mausoleum on Ba Dinh Square (where Ho Chi Minh declared independence in 1945), Hoan Kiem Lake (the Returned Sword Lake where the Emperor Le Loi is said to have returned a magical sword to the golden turtle), the Hanoi Opera House, and the 36-guild Old Quarter. Dinner at a Cha Ca grilled fish restaurant introduces Hanoi's most distinctive dish.",
-        "image": "/images/gallery/16404.jpg",
+        "image": "/images/gallery/14485.jpg",
         "imageAlt": "Hanoi Old Quarter city tour mausoleum lake Vietnam"
       }
     ]
@@ -275,7 +275,7 @@
       "price": "From RM2,288",
       "duration": "6D5N",
       "slug": "north-vietnam/6-day-hanoi-halong-sapa",
-      "image": "/images/gallery/2168.jpg"
+      "image": "/images/gallery/14484.jpg"
     },
     {
       "id": "vietnam-north-5d-halong-ninh-binh",
@@ -283,7 +283,7 @@
       "price": "From RM1,988",
       "duration": "5D4N",
       "slug": "north-vietnam/5-day-hanoi-halong-ninh-binh",
-      "image": "/images/gallery/2168.jpg"
+      "image": "/images/gallery/12812.jpg"
     },
     {
       "id": "vietnam-north-6d-best",
@@ -291,7 +291,7 @@
       "price": "From RM2,588",
       "duration": "6D5N",
       "slug": "north-vietnam/6-day-north-vietnam-best",
-      "image": "/images/gallery/2080.jpg"
+      "image": "/images/gallery/10381.jpg"
     }
   ],
   "cta": {
@@ -301,7 +301,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2337.jpg"
+    "bgImage": "/images/gallery/14461.jpg"
   },
   "schema": {
     "type": "TouristTrip",

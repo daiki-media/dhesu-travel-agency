@@ -6,7 +6,7 @@
     "slug": "north-vietnam/6-day-hanoi-halong-sapa",
     "canonicalUrl": "/tours/vietnam/north-vietnam/6-day-hanoi-halong-sapa",
     "pkgid": "2165",
-    "ogImage": "/images/gallery/14995.jpg"
+    "ogImage": "/images/gallery/14484.jpg"
   },
   "hero": {
     "badge": "Hanoi, Sapa & Halong Bay — 6 Days",
@@ -19,7 +19,7 @@
       { "label": "North Vietnam", "href": "/tours/vietnam/north-vietnam" },
       { "label": "6 Days Hanoi Halong Sapa", "href": null }
     ],
-    "heroImage": "/images/gallery/14995.jpg",
+    "heroImage": "/images/gallery/14484.jpg",
     "heroImageAlt": "Sapa terraced rice fields cat cat village Fansipan North Vietnam highlands"
   },
   "quickFacts": {
@@ -72,25 +72,25 @@
       {
         "title": "Two Nights in Sapa — Room to Breathe",
         "body": "Two nights in Sapa is the minimum to appreciate the highland terrace landscape properly. Day two: arrive, settle, walk to Cat Cat Village for the Black H'Mong culture and the terraced paddy fields. Day three: Fansipan day with the mountain train, cable car, summit, and buffet lunch — followed by Moana Sapa for sunset views. Day four morning: Sapa town at your own pace before the return to Hanoi. The difference between one and two nights is the difference between a visit and an experience.",
-        "image": "/images/gallery/14995.jpg",
+        "image": "/images/gallery/15005.jpg",
         "imageAlt": "Sapa two nights rice terraces H'Mong village North Vietnam"
       },
       {
         "title": "Fansipan — Roof of Indochina",
         "body": "At 3,147 metres, Fansipan is the highest peak in Vietnam, Laos, and Cambodia combined. The Sun World Fansipan Legend complex includes the Muong Hoa Hiking Train, the cable car (6,282m total, longest three-rope cable car in the world), the funicular to the summit, and access to all 11 Buddhist spiritual sites — including the 21.5-metre Great Buddha and the 12-metre Guan Yin statue. The full Fansipan combo (train + cable + funicular + buffet lunch) is included in this package.",
-        "image": "/images/gallery/2168.jpg",
+        "image": "/images/gallery/14995.jpg",
         "imageAlt": "Fansipan cable car summit Great Buddha North Vietnam Sapa"
       },
       {
         "title": "Halong Bay Full-Day Cruise",
         "body": "The Halong Bay day cruise visits the bay's most dramatic karst formations, caves, and beaches without the premium cost of an overnight cruise. Board at Tuan Chau Harbour, cruise through Hoa Cuong Bay past the Dog Rock and Duck Rock formations, visit the vast caverns of Sung Sot Cave, kayak through Luon Cave's enclosed limestone lagoon, climb Titov Island for panoramic bay views, and end with the Sunset Party before returning to Hanoi by evening.",
-        "image": "/images/gallery/2477.jpg",
+        "image": "/images/gallery/15006.jpg",
         "imageAlt": "Halong Bay limestone karst UNESCO cruise Vietnam"
       },
       {
         "title": "Hanoi Full City Tour",
         "body": "Day one covers Hanoi's essential imperial and cultural sights: Tran Quoc Pagoda (6th-century Buddhist pagoda on West Lake), Ho Chi Minh Mausoleum on Ba Dinh Square, One-Pillar Pagoda (Emperor Ly Thai Tong's 11th-century lotus-shaped pagoda), Hoan Kiem Lake, Hanoi Opera House, and the 36-street Old Quarter. An afternoon pho and egg coffee tasting session leads into a traditional Cha Ca grilled fish dinner — Hanoi's most distinctive culinary experience.",
-        "image": "/images/gallery/16404.jpg",
+        "image": "/images/gallery/14575.jpg",
         "imageAlt": "Hanoi Old Quarter Hoan Kiem Lake Mausoleum city tour Vietnam"
       }
     ]
@@ -304,7 +304,7 @@
       "price": "From RM2,588",
       "duration": "6D5N",
       "slug": "north-vietnam/6-day-north-vietnam-best",
-      "image": "/images/gallery/2080.jpg"
+      "image": "/images/gallery/10381.jpg"
     },
     {
       "id": "vietnam-north-5d-highlights",
@@ -312,7 +312,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "north-vietnam/5-day-north-vietnam",
-      "image": "/images/gallery/2337.jpg"
+      "image": "/images/gallery/14461.jpg"
     },
     {
       "id": "vietnam-north-4d-halong-luxury",
@@ -320,7 +320,7 @@
       "price": "From RM1,488",
       "duration": "4D3N",
       "slug": "north-vietnam/4-day-hanoi-halong-luxury",
-      "image": "/images/gallery/2133.jpg"
+      "image": "/images/gallery/11827.jpg"
     }
   ],
   "cta": {
@@ -330,7 +330,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2168.jpg"
+    "bgImage": "/images/gallery/14484.jpg"
   },
   "schema": {
     "type": "TouristTrip",

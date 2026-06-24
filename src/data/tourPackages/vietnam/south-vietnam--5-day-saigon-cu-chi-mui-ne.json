@@ -6,7 +6,7 @@
     "slug": "south-vietnam/5-day-saigon-cu-chi-mui-ne",
     "canonicalUrl": "/tours/vietnam/south-vietnam/5-day-saigon-cu-chi-mui-ne",
     "pkgid": "2089",
-    "ogImage": "/images/gallery/2089.jpg"
+    "ogImage": "/images/gallery/10384.jpg"
   },
   "hero": {
     "badge": "Saigon, Cu Chi & Mui Ne Beach — 5 Days",
@@ -19,7 +19,7 @@
       { "label": "South Vietnam", "href": "/tours/vietnam/south-vietnam" },
       { "label": "5 Days Saigon Cu Chi Mui Ne", "href": null }
     ],
-    "heroImage": "/images/gallery/2089.jpg",
+    "heroImage": "/images/gallery/10384.jpg",
     "heroImageAlt": "Mui Ne White Sand Dunes sunrise Vietnam Cu Chi Tunnels"
   },
   "quickFacts": {
@@ -73,25 +73,25 @@
       {
         "title": "White Sand Dunes at Dawn — 04:45 Departure",
         "body": "The White Sand Dunes (Bau Trang, 25 km north of Mui Ne) are best experienced at sunrise — cool sand underfoot, shifting colour from lavender pre-dawn through gold and orange as the sun rises. The 04:45 jeep pickup reaches the dunes by 05:15–05:30, giving a full hour of optimal light before the sand heats up. The ATV ride (2 persons per vehicle) covers the full dune field. The small freshwater lakes that sit next to the white dunes — surrounded by water hyacinth — are visible as reflective silvers in the early light.",
-        "image": "/images/gallery/2089.jpg",
+        "image": "/images/gallery/11954.jpg",
         "imageAlt": "Mui Ne White Sand Dunes sunrise ATV Vietnam"
       },
       {
         "title": "Cu Chi Tunnels — 250km of Underground Viet Cong Network",
         "body": "Cu Chi is 40 km northwest of Ho Chi Minh City — a 90-minute drive from the city centre. The Ben Dinh section of the tunnel network is the most visitable: the guide shows the hidden entrances (trapdoors concealed under leaf litter), the tunnel sections that have been widened to 80 cm for visitors (the originals were 50×80 cm — Vietnamese soldiers only), the underground kitchens with smoke-venting systems designed to dissipate smoke through tree roots, and the field hospital. Outside: the bomb craters from B-52 strikes, the anti-tank traps, and a demonstration of crossbow booby traps.",
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/11955.jpg",
         "imageAlt": "Cu Chi Tunnels underground wartime network Vietnam Saigon"
       },
       {
         "title": "Fairy Stream — Red Clay Canyon Walk",
         "body": "The Fairy Stream (Suoi Tien) is a narrow canyon of deep red and yellow laterite clay, 3 km from Mui Ne Beach, with a shallow clear stream running through it. The walk is ankle-deep through the stream — no shoes — past canyon walls of sculpted red clay that get taller as you go in. The overhead jungle canopy keeps the canyon shaded and cool. The colour of the canyon walls against the bright clear water and the vivid green tropical plants above is completely unique in Vietnam. A 30-minute walk in and back.",
-        "image": "/images/gallery/2089.jpg",
+        "image": "/images/gallery/11956.jpg",
         "imageAlt": "Fairy Stream red clay canyon Mui Ne Vietnam"
       },
       {
         "title": "Saigon — War Museum & Café Apartment Block",
         "body": "Ho Chi Minh City's essential sites concentrate South Vietnam's 20th-century history: the War Remnants Museum (photographs and artefacts documenting the American War from the Vietnamese perspective — the most visited museum in the country), Independence Palace (the Reunification Palace, preserved as it was on 30 April 1975), Notre Dame Cathedral, and the colonial-era General Post Office. The evening Nguyen Hue pedestrian boulevard and the Café Apartment Block (42 Nguyen Hue, a six-storey residential building where every apartment is a different café) give the modern HCMC experience.",
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/11957.jpg",
         "imageAlt": "Saigon Ho Chi Minh City War Remnants Museum Notre Dame Vietnam"
       }
     ]
@@ -282,7 +282,7 @@
       "price": "From RM1,588",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-saigon-mui-ne",
-      "image": "/images/gallery/2107.jpg"
+      "image": "/images/gallery/14380.jpg"
     },
     {
       "id": "vietnam-south-4d-saigon-mekong",
@@ -290,7 +290,7 @@
       "price": "From RM1,388",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-saigon-mekong",
-      "image": "/images/gallery/2088.jpg"
+      "image": "/images/gallery/14482.jpg"
     },
     {
       "id": "vietnam-south-5d-dalat-south",
@@ -298,7 +298,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "south-vietnam/5-day-south-vietnam-dalat",
-      "image": "/images/gallery/2087.jpg"
+      "image": "/images/gallery/11911.jpg"
     }
   ],
   "cta": {
@@ -308,7 +308,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2089.jpg"
+    "bgImage": "/images/gallery/10384.jpg"
   },
   "schema": {
     "type": "TouristTrip",

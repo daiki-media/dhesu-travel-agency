@@ -6,7 +6,7 @@
     "slug": "south-vietnam/4-day-saigon-mui-ne",
     "canonicalUrl": "/tours/vietnam/south-vietnam/4-day-saigon-mui-ne",
     "pkgid": "2107",
-    "ogImage": "/images/gallery/2107.jpg"
+    "ogImage": "/images/gallery/14380.jpg"
   },
   "hero": {
     "badge": "Saigon + Mui Ne Beach — 4 Days",
@@ -19,7 +19,7 @@
       { "label": "South Vietnam", "href": "/tours/vietnam/south-vietnam" },
       { "label": "4 Days Saigon Mui Ne", "href": null }
     ],
-    "heroImage": "/images/gallery/2107.jpg",
+    "heroImage": "/images/gallery/14380.jpg",
     "heroImageAlt": "Mui Ne white sand dunes sunrise Vietnam beach resort"
   },
   "quickFacts": {
@@ -73,25 +73,25 @@
       {
         "title": "White Sand Dunes Sunrise — 04:45 Departure",
         "body": "The White Sand Dunes (Bau Trang) sit 25 kilometres north of Mui Ne town, in a landscape that looks unlike anything else in Vietnam — a genuine desert with white quartz sand dunes rising to 20–30 metres, flanked by small lakes. The pre-dawn departure (04:45) is timed so the jeep arrives before sunrise, when the dunes are cool underfoot and the light on the white sand shifts through lavender, pink, and gold. By 8am the dunes are too hot for comfortable walking. The ATV ride (2 persons per vehicle) covers the full extent of the dune field.",
-        "image": "/images/gallery/2107.jpg",
+        "image": "/images/gallery/11934.jpg",
         "imageAlt": "Mui Ne White Sand Dunes sunrise ATV ride Vietnam"
       },
       {
         "title": "Fairy Stream — Red Clay Canyon Walk",
         "body": "The Fairy Stream (Suoi Tien) is a shallow stream flowing through a narrow canyon of deep red and yellow laterite clay, with jungle overhanging the canyon walls. The walk is ankle-deep through the stream — bare feet, the water cool and clear. The canyon walls get progressively taller as you go deeper in, with carved-looking formations of red clay. The contrast between the red canyon, the emerald water, and the vivid green tropical plants above is completely distinctive and unlike any other landscape in Vietnam. A 30-minute walk in and back.",
-        "image": "/images/gallery/2107.jpg",
+        "image": "/images/gallery/11933.jpg",
         "imageAlt": "Fairy Stream red clay canyon Mui Ne Vietnam Suoi Tien"
       },
       {
         "title": "Mui Ne Fishing Village — Traditional Junk Harbour",
         "body": "Mui Ne's traditional fishing village is one of the most visually striking in Southern Vietnam: hundreds of traditional round woven bamboo coracles (thung chai) tied up along the shore, brightly painted junk boats at anchor, and colourful nets laid out to dry on the beach. The village wakes at sunrise and operates as a working fishing community rather than a tourist site — you walk through a real harbour at work. The catch comes in before dawn and is sold at the adjacent wet market by mid-morning.",
-        "image": "/images/gallery/2107.jpg",
+        "image": "/images/gallery/14381.jpg",
         "imageAlt": "Mui Ne traditional fishing village coracle boats Vietnam"
       },
       {
         "title": "Saigon City Tour — War Museum & Independence Palace",
         "body": "Ho Chi Minh City (Saigon) on day three covers the city's most significant historical sites: the War Remnants Museum (graphic documentation of the American War from the Vietnamese perspective — one of the most visited museums in Vietnam), Independence Palace (preserved exactly as it was in April 1975 when Communist tanks drove through the gate — the building where South Vietnam's leadership fell), Notre Dame Cathedral (1880 French Gothic), and the General Post Office (1891 colonial post office, still operating, with Ho Chi Minh's portrait replacing the colonial-era central clock). Evening: Nguyen Hue pedestrian boulevard and 42 Nguyen Hue Café Apartment Block.",
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/11935.jpg",
         "imageAlt": "Saigon Ho Chi Minh City War Museum Independence Palace Vietnam"
       }
     ]
@@ -265,7 +265,7 @@
       "price": "From RM1,388",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-saigon-mekong",
-      "image": "/images/gallery/2088.jpg"
+      "image": "/images/gallery/14482.jpg"
     },
     {
       "id": "vietnam-south-5d-saigon-mui-ne",
@@ -273,7 +273,7 @@
       "price": "From RM1,888",
       "duration": "5D4N",
       "slug": "south-vietnam/5-day-saigon-cu-chi-mui-ne",
-      "image": "/images/gallery/2089.jpg"
+      "image": "/images/gallery/10384.jpg"
     },
     {
       "id": "vietnam-south-5d-dalat-south",
@@ -281,7 +281,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "south-vietnam/5-day-south-vietnam-dalat",
-      "image": "/images/gallery/2087.jpg"
+      "image": "/images/gallery/11911.jpg"
     }
   ],
   "cta": {
@@ -291,7 +291,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2107.jpg"
+    "bgImage": "/images/gallery/14380.jpg"
   },
   "schema": {
     "type": "TouristTrip",

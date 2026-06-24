@@ -6,7 +6,7 @@
     "slug": "phu-quoc/5-day-phu-quoc-best",
     "canonicalUrl": "/tours/vietnam/phu-quoc/5-day-phu-quoc-best",
     "pkgid": "2340",
-    "ogImage": "/images/gallery/2340.jpg"
+    "ogImage": "/images/gallery/14882.jpg"
   },
   "hero": {
     "badge": "Phu Quoc — 5 Days",
@@ -19,7 +19,7 @@
       { "label": "Phu Quoc", "href": "/tours/vietnam/phu-quoc" },
       { "label": "5 Days Best of Phu Quoc", "href": null }
     ],
-    "heroImage": "/images/gallery/2340.jpg",
+    "heroImage": "/images/gallery/14882.jpg",
     "heroImageAlt": "Phu Quoc Grand World Venice canal gondola island Vietnam"
   },
   "quickFacts": {
@@ -83,25 +83,25 @@
       {
         "title": "Grand World Phu Quoc — Venice Canal & Bamboo Legend",
         "body": "Grand World Phu Quoc is a riverside entertainment complex modelled on a classic European market town — specifically Venice's canal network. The central canal is lined with Italian-style townhouses whose ground floors are restaurants and cafés; gondola rides (RM35 per boat, optional) pass under the lantern-lit bridges. Bamboo Legend is the Vietnamese cultural zone adjacent to the canal — traditional architecture, folk performance stages, and lantern alleys. The Clock Tower at the canal's centre is lit in shifting colours after dark. Grand World is busiest and most atmospheric after 19:00.",
-        "image": "/images/gallery/2340.jpg",
+        "image": "/images/gallery/14875.jpg",
         "imageAlt": "Grand World Phu Quoc Venice canal gondola night Vietnam"
       },
       {
         "title": "Starfish Beach — Visible October to March",
         "body": "Starfish Beach at the northern tip of Phu Quoc is one of the most unusual natural experiences on the island — a shallow sandflat where large numbers of brightly coloured starfish (typically 20–30 cm diameter) gather in the warm water. The beach access is from a small pier; the starfish are visible in the first 20–50 metres of water at ankle-to-knee depth. They can be gently lifted and observed before being carefully returned. The species present — Linckia laevigata (blue), Protoreaster nodosus (chocolate chip), and others — are vibrant and intact. Available October to March only.",
-        "image": "/images/gallery/2340.jpg",
+        "image": "/images/gallery/15014.jpg",
         "imageAlt": "Starfish Beach Phu Quoc northern tip Vietnam October to March"
       },
       {
         "title": "World's Longest Sea Cable Car — 7.9 km",
         "body": "The Hon Thom Cable Car holds the Guinness World Record as the longest non-stop sea cable car: 7.9 km from the An Thoi terminal on Phu Quoc's mainland to Hon Thom (Pineapple Island). The gondola reaches 175 metres above the open sea surface, crossing three small islands of the An Thoi Strait over approximately 15 minutes. The view from the gondola is across the southern Phu Quoc coast, the inner archipelago, and — on clear days — the Cambodian coast to the northwest. The cable car return from the island is included.",
-        "image": "/images/gallery/2479.jpg",
+        "image": "/images/gallery/15015.jpg",
         "imageAlt": "Phu Quoc world's longest sea cable car 7.9km Vietnam"
       },
       {
         "title": "Four-Island Hopping Circuit + Aquatopia",
         "body": "The 4-island speedboat circuit departs An Thoi Harbour on day three: Coral Park snorkelling (1–5m coral reef, sea walking optional), May Rut Island beach (white sand, 45 minutes), Gam Ghi Island shallow coral (1–3m, visible from the surface), and Pineapple Island (Hon Thom) for the full day at Aquatopia Water Park with buffet lunch at Mango Restaurant (100+ dishes) and the Eagle Eye Observatory (360-degree view of the An Thoi Strait at 100m elevation). Return via the cable car.",
-        "image": "/images/gallery/2479.jpg",
+        "image": "/images/gallery/14885.jpg",
         "imageAlt": "Phu Quoc 4 island hopping snorkelling Aquatopia Vietnam"
       }
     ]
@@ -296,7 +296,7 @@
       "price": "From RM1,238",
       "duration": "4D3N",
       "slug": "phu-quoc/4-day-phu-quoc-cable-car",
-      "image": "/images/gallery/2411.jpg"
+      "image": "/images/gallery/15356.jpg"
     },
     {
       "id": "vietnam-phu-quoc-3d-super-saver",
@@ -304,7 +304,7 @@
       "price": "From RM688",
       "duration": "3D2N",
       "slug": "phu-quoc/3-day-phu-quoc-super-saver",
-      "image": "/images/gallery/2479.jpg"
+      "image": "/images/gallery/16406.jpg"
     },
     {
       "id": "vietnam-south-4d-saigon-mekong",
@@ -312,7 +312,7 @@
       "price": "From RM1,388",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-saigon-mekong",
-      "image": "/images/gallery/2088.jpg"
+      "image": "/images/gallery/14482.jpg"
     }
   ],
   "cta": {
@@ -322,7 +322,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2340.jpg"
+    "bgImage": "/images/gallery/14882.jpg"
   },
   "schema": {
     "type": "TouristTrip",

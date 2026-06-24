@@ -6,7 +6,7 @@
     "slug": "phu-quoc/3-day-phu-quoc-super-saver",
     "canonicalUrl": "/tours/vietnam/phu-quoc/3-day-phu-quoc-super-saver",
     "pkgid": "2479",
-    "ogImage": "/images/gallery/2479.jpg"
+    "ogImage": "/images/gallery/16406.jpg"
   },
   "hero": {
     "badge": "Phu Quoc Island — 3 Days",
@@ -19,7 +19,7 @@
       { "label": "Phu Quoc Island", "href": "/tours/vietnam/phu-quoc" },
       { "label": "3 Days Phu Quoc Super Saver", "href": null }
     ],
-    "heroImage": "/images/gallery/2479.jpg",
+    "heroImage": "/images/gallery/16406.jpg",
     "heroImageAlt": "Phu Quoc island hopping speedboat coral reef Vietnam tropical"
   },
   "quickFacts": {
@@ -73,13 +73,13 @@
       {
         "title": "World's Longest Sea Cable Car — Hon Thom",
         "body": "The Vinpearl Cable Car (Hon Thom Cable Car) holds the Guinness World Record as the longest three-rope cable car system over the sea: 7,899.9 metres from An Thoi at Phu Quoc's southern tip to Hon Thom (Pineapple Island). The crossing takes approximately 15 minutes and passes over open water, with views down to the coral reefs, small islands, and the turquoise Gulf of Thailand water below. The cable car is both the most spectacular way to approach Hon Thom and one of the most photographed experiences in Vietnam.",
-        "image": "/images/gallery/2411.jpg",
+        "image": "/images/gallery/16406.jpg",
         "imageAlt": "Hon Thom Cable Car Phu Quoc world's longest sea cable car Vietnam"
       },
       {
         "title": "Four-Island Hopping — Coral Park & Aquatopia",
         "body": "The An Thoi Archipelago off Phu Quoc's southern coast contains some of the best snorkelling conditions in Vietnam — natural coral ecosystems at 1–3 metres depth, clear water, and minimal boat traffic outside peak season. The four-island tour visits a Pearl Farm (pearls have been farmed in Phu Quoc since the French colonial period), Coral Park for snorkelling (optional sea walking experience), May Rut Island's white sand beach, Gam Ghi Island's 100% natural coral reef, and Pineapple Island (Hon Thom) where Aquatopia Water Park has over 20 slides and attractions. Buffet lunch at Mango Restaurant on Hon Thom is included.",
-        "image": "/images/gallery/2479.jpg",
+        "image": "/images/gallery/16406.jpg",
         "imageAlt": "Phu Quoc four island hopping coral reef An Thoi Archipelago snorkelling"
       },
       {
@@ -237,7 +237,7 @@
       "price": "From RM1,238",
       "duration": "4D3N",
       "slug": "phu-quoc/4-day-phu-quoc-cable-car",
-      "image": "/images/gallery/2411.jpg"
+      "image": "/images/gallery/15356.jpg"
     },
     {
       "id": "vietnam-phu-quoc-5d-best",
@@ -245,7 +245,7 @@
       "price": "From RM1,488",
       "duration": "5D4N",
       "slug": "phu-quoc/5-day-phu-quoc-best",
-      "image": "/images/gallery/2340.jpg"
+      "image": "/images/gallery/14882.jpg"
     },
     {
       "id": "vietnam-south-4d-saigon-mekong",
@@ -253,7 +253,7 @@
       "price": "From RM1,388",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-saigon-mekong",
-      "image": "/images/gallery/2088.jpg"
+      "image": "/images/gallery/14482.jpg"
     }
   ],
   "cta": {
@@ -263,7 +263,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2479.jpg"
+    "bgImage": "/images/gallery/16406.jpg"
   },
   "schema": {
     "type": "TouristTrip",

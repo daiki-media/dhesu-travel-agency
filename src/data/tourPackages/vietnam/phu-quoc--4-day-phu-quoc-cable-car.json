@@ -6,7 +6,7 @@
     "slug": "phu-quoc/4-day-phu-quoc-cable-car",
     "canonicalUrl": "/tours/vietnam/phu-quoc/4-day-phu-quoc-cable-car",
     "pkgid": "2411",
-    "ogImage": "/images/gallery/2411.jpg"
+    "ogImage": "/images/gallery/15356.jpg"
   },
   "hero": {
     "badge": "Phu Quoc — 4 Days",
@@ -19,7 +19,7 @@
       { "label": "Phu Quoc", "href": "/tours/vietnam/phu-quoc" },
       { "label": "4 Days Phu Quoc Cable Car", "href": null }
     ],
-    "heroImage": "/images/gallery/2411.jpg",
+    "heroImage": "/images/gallery/15356.jpg",
     "heroImageAlt": "Phu Quoc world's longest sea cable car island Vietnam"
   },
   "quickFacts": {
@@ -78,25 +78,25 @@
       {
         "title": "World's Longest Sea Cable Car — 7.9 km",
         "body": "The Hon Thom Cable Car holds the Guinness World Record as the longest non-stop sea cable car in the world: 7.9 kilometres from the An Thoi mainland terminal to Hon Thom (Pineapple Island). The gondola ascends to 175 metres above the sea surface, crossing three small islands and the open water of the An Thoi Strait. The journey takes approximately 15 minutes. On clear days the Cambodian coast is visible to the northwest. The cable car return (from the island to the mainland) is included in the island hopping package.",
-        "image": "/images/gallery/2479.jpg",
+        "image": "/images/gallery/15357.jpg",
         "imageAlt": "Phu Quoc world's longest sea cable car Hon Thom island Vietnam"
       },
       {
         "title": "Aquatopia Water Park — Full Day Included",
         "body": "Aquatopia is a large water park on Hon Thom (Pineapple Island), accessible only via the cable car. Included with the cable car ticket: all water slides, wave pools, lazy river, and pool facilities. The park has slides for all ages, from family-friendly gentle runs to the steep drops for thrill-seekers. The buffet lunch at Mango Restaurant (on the island, 100+ dish Vietnamese and international buffet) is included. The Eagle Eye Observatory on the island's highest point offers a 360-degree view of the An Thoi archipelago from 100 metres elevation.",
-        "image": "/images/gallery/2479.jpg",
+        "image": "/images/gallery/15358.jpg",
         "imageAlt": "Aquatopia Water Park Phu Quoc Hon Thom island Vietnam"
       },
       {
         "title": "Four-Island Snorkelling Circuit",
         "body": "The speedboat island hopping circuit visits four islands in the An Thoi archipelago: Coral Park (structured coral reef, snorkelling at 1–5m depth, sea walking optional at own expense approximately RM80), May Rut Island (white sand beach for swimming and rest, 45 minutes), Gam Ghi Island (shallow coral reef at 1–3m depth, excellent for non-swimmers to see coral from the surface), and Hon Thom (Pineapple Island) for the Aquatopia and Eagle Eye Observatory. The full circuit takes a full day — departure from An Thoi Harbour at 07:00–08:30.",
-        "image": "/images/gallery/2479.jpg",
+        "image": "/images/gallery/15359.jpg",
         "imageAlt": "Phu Quoc island hopping speedboat coral snorkelling Vietnam"
       },
       {
         "title": "Ho Quoc Pagoda — Cliffside Buddhist Temple",
         "body": "Ho Quoc Pagoda (Truc Lam Ho Quoc) is built into a granite cliff on Phu Quoc's eastern coast, with the temple complex spanning several levels connected by staircases cut through the rock. Founded in 2012, the pagoda is named for the island (Ho Quoc means 'Moat of the Nation') and features a white stupa on the cliff's highest point. The view from the stupa is across the Gulf of Thailand with no land visible to the horizon — one of the most dramatic temple settings in Vietnam. The approach is through tropical forest on the east coast road, far from the resort development on the west.",
-        "image": "/images/gallery/2411.jpg",
+        "image": "/images/gallery/15360.jpg",
         "imageAlt": "Ho Quoc Pagoda cliffside Buddhist temple Phu Quoc Vietnam"
       }
     ]
@@ -273,7 +273,7 @@
       "price": "From RM1,488",
       "duration": "5D4N",
       "slug": "phu-quoc/5-day-phu-quoc-best",
-      "image": "/images/gallery/2340.jpg"
+      "image": "/images/gallery/14882.jpg"
     },
     {
       "id": "vietnam-phu-quoc-3d-super-saver",
@@ -281,7 +281,7 @@
       "price": "From RM688",
       "duration": "3D2N",
       "slug": "phu-quoc/3-day-phu-quoc-super-saver",
-      "image": "/images/gallery/2479.jpg"
+      "image": "/images/gallery/16406.jpg"
     },
     {
       "id": "vietnam-south-4d-saigon-mekong",
@@ -289,7 +289,7 @@
       "price": "From RM1,388",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-saigon-mekong",
-      "image": "/images/gallery/2088.jpg"
+      "image": "/images/gallery/14482.jpg"
     }
   ],
   "cta": {
@@ -299,7 +299,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2411.jpg"
+    "bgImage": "/images/gallery/15356.jpg"
   },
   "schema": {
     "type": "TouristTrip",

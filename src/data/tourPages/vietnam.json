@@ -56,7 +56,7 @@
         "icon": "temple",
         "title": "Central Vietnam: Danang, Hue & Hoi An",
         "body": "4 packages from RM688. Hoi An Ancient Town — UNESCO-listed merchant port with hundreds of coloured lanterns over the Thu Bon River. Hue's Imperial Citadel and Royal Tombs. Ba Na Hills Golden Bridge suspended in the clouds above Danang. The scenic coastal train between Danang and Hue.",
-        "image": "/images/gallery/16405.jpg",
+        "image": "/images/gallery/16402.jpg",
         "places": [
           "Hoi An Ancient Town",
           "Hue Imperial Citadel",
@@ -67,7 +67,7 @@
         "icon": "food",
         "title": "South Vietnam: Ho Chi Minh, Dalat & Mui Ne",
         "body": "5 packages from RM1,388. Ho Chi Minh City's War Remnants Museum, Cu Chi Tunnels, and best street food in Southeast Asia. Mekong Delta sampan boats and floating markets. Dalat — the City of Eternal Spring — with Asia's longest alpine coaster and flower gardens. Mui Ne's towering sand dunes and beachfront resorts.",
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/14482.jpg",
         "places": [
           "Ho Chi Minh City",
           "Dalat City of Eternal Spring",
@@ -78,7 +78,7 @@
         "icon": "wave",
         "title": "Phu Quoc & Nha Trang: Island & Beach",
         "body": "Phu Quoc: 3 packages from RM688 — the world's longest sea cable car, snorkelling on pristine reefs, island hopping, and Duong Dong Night Market seafood. Nha Trang: Vietnam's premier beach city with cobalt-blue water, mud baths at Thap Ba, and some of the best diving in Southeast Asia. Custom packages available.",
-        "image": "/images/gallery/2411.jpg",
+        "image": "/images/gallery/15356.jpg",
         "places": [
           "Phu Quoc Island",
           "Nha Trang Beach",
@@ -106,7 +106,7 @@
         "tag": "Danang · Hue · Hoi An",
         "tagColor": "orange",
         "description": "4 packages from RM688. Hoi An Ancient Town's lantern-lit streets and Japanese Covered Bridge. Hue's Imperial Citadel and Royal Tombs UNESCO site. Ba Na Hills Golden Bridge. Danang's Marble Mountains and pristine My Khe Beach.",
-        "image": "/images/gallery/16405.jpg",
+        "image": "/images/gallery/16402.jpg",
         "vibe": "Cultural & Coastal",
         "href": "/tours/vietnam/central-vietnam"
       },
@@ -115,7 +115,7 @@
         "tag": "Ho Chi Minh · Dalat · Mui Ne",
         "tagColor": "red",
         "description": "5 packages from RM1,388. Ho Chi Minh City's War Remnants Museum and Cu Chi Tunnels. Mekong Delta sampan boats and floating markets. Dalat's City of Eternal Spring with Asia's longest alpine coaster. Mui Ne's sand dunes and beachfront resorts.",
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/14482.jpg",
         "vibe": "Urban, Highland & Coastal",
         "href": "/tours/vietnam/south-vietnam"
       },
@@ -124,7 +124,7 @@
         "tag": "Island Getaway",
         "tagColor": "teal",
         "description": "3 packages from RM688. Asia's most talked-about tropical island. World's longest sea cable car (3.3 km). Pristine beaches for snorkelling and water sports. Island hopping to smaller atolls. Duong Dong Night Market for fresh seafood at sunset.",
-        "image": "/images/gallery/2411.jpg",
+        "image": "/images/gallery/15356.jpg",
         "vibe": "Tropical Paradise",
         "href": "/tours/vietnam/phu-quoc"
       },
@@ -133,7 +133,7 @@
         "tag": "Beach & Diving",
         "tagColor": "green",
         "description": "Vietnam's premier beach city on the South China Sea. Cobalt-blue water, white sand, and some of the best diving and snorkelling in Southeast Asia. Mud baths at Thap Ba, vinpearl cable car, and a chain of offshore islands. Custom packages on request.",
-        "image": "/images/gallery/2089.jpg",
+        "image": "/images/gallery/10384.jpg",
         "vibe": "Sun & Sea",
         "href": "/tours/vietnam/nha-trang"
       }
@@ -246,7 +246,7 @@
           "Danang beaches",
           "Vietnamese culinary experiences"
         ],
-        "image": "/images/gallery/16405.jpg",
+        "image": "/images/gallery/16402.jpg",
         "pkgid": "2478",
         "popular": false
       },
@@ -268,7 +268,7 @@
           "Duong Dong Night Market",
           "Fresh seafood dining"
         ],
-        "image": "/images/gallery/2411.jpg",
+        "image": "/images/gallery/16406.jpg",
         "pkgid": "2479",
         "popular": false
       },
@@ -290,7 +290,7 @@
           "Duong Dong Night Market",
           "Island tours & water sports"
         ],
-        "image": "/images/gallery/2411.jpg",
+        "image": "/images/gallery/15356.jpg",
         "pkgid": "2411",
         "popular": false
       },
@@ -312,7 +312,7 @@
           "Mekong Delta floating markets",
           "Homestay experiences"
         ],
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/14482.jpg",
         "pkgid": "2088",
         "popular": false
       },
@@ -334,7 +334,7 @@
           "Multiple cave explorations",
           "Overnight stargazing on bay"
         ],
-        "image": "/images/gallery/16404.jpg",
+        "image": "/images/gallery/11827.jpg",
         "pkgid": "2133",
         "popular": true
       },
@@ -378,7 +378,7 @@
           "Cooking class experience",
           "Danang beaches"
         ],
-        "image": "/images/gallery/16405.jpg",
+        "image": "/images/gallery/14488.jpg",
         "pkgid": "2135",
         "popular": true
       },
@@ -400,7 +400,7 @@
           "Beachfront dining",
           "Sunrise & sunset viewing"
         ],
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/14380.jpg",
         "pkgid": "2107",
         "popular": false
       },
@@ -422,7 +422,7 @@
           "Reef snorkelling & island hopping",
           "Night market seafood"
         ],
-        "image": "/images/gallery/2411.jpg",
+        "image": "/images/gallery/14875.jpg",
         "pkgid": "2340",
         "popular": false
       },
@@ -444,7 +444,7 @@
           "Rice field trekking",
           "Hill tribe village visits"
         ],
-        "image": "/images/gallery/15001.jpg",
+        "image": "/images/gallery/14483.jpg",
         "pkgid": "2084",
         "popular": true
       },
@@ -466,7 +466,7 @@
           "Fishing village tours",
           "Beach sunset resort"
         ],
-        "image": "/images/gallery/2089.jpg",
+        "image": "/images/gallery/10384.jpg",
         "pkgid": "2089",
         "popular": false
       },
@@ -488,7 +488,7 @@
           "Trang An Grottoes boat ride",
           "Mua Mountain summit views"
         ],
-        "image": "/images/gallery/14575.jpg",
+        "image": "/images/gallery/12812.jpg",
         "pkgid": "2164",
         "popular": true
       },
@@ -532,7 +532,7 @@
           "Mui Ne beaches",
           "Da Lat mountain gardens"
         ],
-        "image": "/images/gallery/2087.jpg",
+        "image": "/images/gallery/11911.jpg",
         "pkgid": "2087",
         "popular": false
       },
@@ -554,7 +554,7 @@
           "Hoi An lanterns",
           "Cooking or tailor class"
         ],
-        "image": "/images/gallery/2092.jpg",
+        "image": "/images/gallery/10374.jpg",
         "pkgid": "2092",
         "popular": true
       },
@@ -576,7 +576,7 @@
           "Sapa mountain trekking",
           "Hill tribe culture"
         ],
-        "image": "/images/gallery/2337.jpg",
+        "image": "/images/gallery/14461.jpg",
         "pkgid": "2337",
         "popular": false
       },
@@ -599,7 +599,7 @@
           "Fansipan cable car",
           "Village trekking"
         ],
-        "image": "/images/gallery/14995.jpg",
+        "image": "/images/gallery/14484.jpg",
         "pkgid": "2165",
         "popular": false
       },
@@ -621,7 +621,7 @@
           "Multiple grottoes",
           "Cooking classes & scenic trains"
         ],
-        "image": "/images/gallery/2080.jpg",
+        "image": "/images/gallery/10381.jpg",
         "pkgid": "2080",
         "popular": true
       }

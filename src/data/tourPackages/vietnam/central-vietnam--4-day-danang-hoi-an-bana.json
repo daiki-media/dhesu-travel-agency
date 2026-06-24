@@ -6,7 +6,7 @@
     "slug": "central-vietnam/4-day-danang-hoi-an-bana",
     "canonicalUrl": "/tours/vietnam/central-vietnam/4-day-danang-hoi-an-bana",
     "pkgid": "2135",
-    "ogImage": "/images/gallery/2134.jpg"
+    "ogImage": "/images/gallery/14488.jpg"
   },
   "hero": {
     "badge": "Danang, Hoi An & Ba Na Hills — 4 Days",
@@ -19,7 +19,7 @@
       { "label": "Central Vietnam", "href": "/tours/vietnam/central-vietnam" },
       { "label": "4 Days Danang + Hoi An + Ba Na Hills", "href": null }
     ],
-    "heroImage": "/images/gallery/2134.jpg",
+    "heroImage": "/images/gallery/14488.jpg",
     "heroImageAlt": "Golden Bridge Ba Na Hills giant stone hands Danang Vietnam"
   },
   "quickFacts": {
@@ -76,25 +76,25 @@
       {
         "title": "Golden Bridge — Ba Na Hills' Global Icon",
         "body": "Opened in 2018, the Golden Bridge at Ba Na Hills has been shared more than almost any image from Southeast Asia — two enormous weathered stone hands lifting a gilded pedestrian walkway 1,400 metres above sea level, through mountain cloud that drifts across the path. The effect is theatrical and genuinely startling in person. The Sun World resort around it includes a French village, a fantasy garden, cable car with panoramic views across the Da Nang coastline, and a 12th-century château recreation that wouldn't look out of place in Burgundy.",
-        "image": "/images/gallery/2134.jpg",
+        "image": "/images/gallery/12042.jpg",
         "imageAlt": "Golden Bridge Ba Na Hills stone hands pedestrian walkway Vietnam"
       },
       {
         "title": "Hoi An Ancient Town — UNESCO Living Heritage",
         "body": "Hoi An was the most important trading port in Southeast Asia from the 15th to 18th centuries — Chinese, Japanese, Dutch, and Portuguese merchants built their own quarters in the town and left their architectural fingerprints. The Japanese Covered Bridge, built in 1593, links the Japanese and Chinese quarters over a small canal. Tan Ky Old House (200 years old) has Japanese balcony carvings on the ground floor and Chinese plasterwork on the upper. The Fujian Assembly Hall was built by the Fujian Chinese community in 1757. The guided walking tour covers all of this with context that makes the layers of history legible.",
-        "image": "/images/gallery/16405.jpg",
+        "image": "/images/gallery/16402.jpg",
         "imageAlt": "Hoi An Ancient Town lanterns Japanese Bridge UNESCO Vietnam"
       },
       {
         "title": "Basket Boat Ride — Cam Thanh Village",
         "body": "The traditional coracle — a round woven bamboo boat sealed with resin — is one of the most distinctive craft of the Hoi An fishing community, originally developed to evade French colonial fishing taxes (round boats had no clear bow or stern and therefore couldn't be classified as taxable fishing vessels). The Cam Thanh coconut palm wetland, 3 kilometres from Hoi An, is the place to experience it: local fishermen navigate the narrow water channels through nipa palm forest, then spin the boat in place as a demonstration of the technique that takes years to master.",
-        "image": "/images/gallery/16405.jpg",
+        "image": "/images/gallery/12043.jpg",
         "imageAlt": "Cam Thanh Village basket boat coracle ride Hoi An coconut palm"
       },
       {
         "title": "Dragon Bridge — Weekend Fire & Water Show",
         "body": "Da Nang's Dragon Bridge is a 666-metre pedestrian and vehicle crossing over the Han River, shaped as a yellow dragon with a head and tail on opposite banks. Every Friday, Saturday, and Sunday at 9pm, the dragon breathes fire and sprays water from its mouth — a spectacle visible from the riverside promenade and surrounding restaurants. It is both a genuine piece of infrastructure (cars drive over it daily) and Da Nang's most crowd-pleasing evening ritual.",
-        "image": "/images/gallery/16405.jpg",
+        "image": "/images/gallery/12044.jpg",
         "imageAlt": "Dragon Bridge Danang fire water show weekend Vietnam"
       }
     ]
@@ -271,7 +271,7 @@
       "price": "From RM688",
       "duration": "3D2N",
       "slug": "central-vietnam/3-day-danang-super-saver",
-      "image": "/images/gallery/16405.jpg"
+      "image": "/images/gallery/16402.jpg"
     },
     {
       "id": "vietnam-central-5d-danang-hue-hoi-an",
@@ -279,7 +279,7 @@
       "price": "From RM2,088",
       "duration": "5D4N",
       "slug": "central-vietnam/5-day-danang-hue-hoi-an",
-      "image": "/images/gallery/2091.jpg"
+      "image": "/images/gallery/14506.jpg"
     },
     {
       "id": "vietnam-central-5d-train-hoi-an",
@@ -287,7 +287,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "central-vietnam/5-day-danang-train-hoi-an",
-      "image": "/images/gallery/2092.jpg"
+      "image": "/images/gallery/10374.jpg"
     }
   ],
   "cta": {
@@ -297,7 +297,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2134.jpg"
+    "bgImage": "/images/gallery/14488.jpg"
   },
   "schema": {
     "type": "TouristTrip",

@@ -6,7 +6,7 @@
     "slug": "north-vietnam/6-day-north-vietnam-best",
     "canonicalUrl": "/tours/vietnam/north-vietnam/6-day-north-vietnam-best",
     "pkgid": "2080",
-    "ogImage": "/images/gallery/2080.jpg"
+    "ogImage": "/images/gallery/10381.jpg"
   },
   "hero": {
     "badge": "Halong Overnight Cruise + Sapa — 6 Days",
@@ -19,7 +19,7 @@
       { "label": "North Vietnam", "href": "/tours/vietnam/north-vietnam" },
       { "label": "6 Days Best of North Vietnam", "href": null }
     ],
-    "heroImage": "/images/gallery/2080.jpg",
+    "heroImage": "/images/gallery/10381.jpg",
     "heroImageAlt": "Halong Bay overnight cruise La Casta limestone karst Vietnam"
   },
   "quickFacts": {
@@ -74,25 +74,25 @@
       {
         "title": "Halong Bay Overnight Cruise — La Casta/Hera/Amanda",
         "body": "The overnight experience on Halong Bay is fundamentally different from a day cruise. After the other boats have departed in the evening, the bay settles into a quiet that is impossible to experience from shore. The cruise vessel anchors in a sheltered cove surrounded by karst formations. Evening activities: cooking demonstration of Vietnamese spring rolls, a seafood dinner by the water, and squid fishing by floodlight (squid come to the surface attracted by light, and the technique requires no fishing experience). The morning begins with Tai Chi on the sun deck at 06:15, followed by kayaking at Tra Bau lagoon before brunch and disembark.",
-        "image": "/images/gallery/2133.jpg",
+        "image": "/images/gallery/11735.jpg",
         "imageAlt": "Halong Bay overnight cruise cabin deck sunset karst Vietnam"
       },
       {
         "title": "Ba Trai Dao Beach Kayaking",
         "body": "Ba Trai Dao (Three Peach Island) is a small beach within the bay's inner waters, accessible only by the cruise's kayaks. The shallow turquoise water is calm, the surrounding karst formations create a sheltered cove, and the beach itself is a natural arc of fine white sand with no facilities — just the karst, the water, and your kayak. The kayaking here in the afternoon light is one of the best single experiences in the Halong Bay circuit.",
-        "image": "/images/gallery/2080.jpg",
+        "image": "/images/gallery/14995.jpg",
         "imageAlt": "Ba Trai Dao beach kayaking Halong Bay limestone karst Vietnam"
       },
       {
         "title": "Fansipan Summit + Buddhist Spiritual Sites",
         "body": "Fansipan at 3,147 metres is the Roof of Indochina — the highest peak in Vietnam, Laos, and Cambodia combined. The Sun World complex makes it accessible via the Muong Hoa Hiking Train and the world's longest three-rope gondola cable car. At the summit, 11 Buddhist sites include the 21.5-metre Great Buddha (cast from 50 tons of copper), the 12-metre Guan Yin statue (18 tons), and the prayer halls and shrines built into the mountain's upper slopes. Fansipan is as much a spiritual site as a summit view.",
-        "image": "/images/gallery/2085.jpg",
+        "image": "/images/gallery/15008.jpg",
         "imageAlt": "Fansipan Great Buddha cable car summit Sapa North Vietnam"
       },
       {
         "title": "Cat Cat Village — Black H'Mong Community",
         "body": "Cat Cat Village is the most accessible H'Mong cultural destination in Sapa — a 30-minute walking trail from the town centre down through terraced rice paddies to a Black H'Mong settlement. Women at the entrance sell hand-dyed indigo fabrics and silver jewellery made to traditional designs. The village waterfall feeds the terraced paddies below. On clear afternoons, the view from the terrace above Cat Cat takes in the Muong Hoa Valley's full extent — the same valley through which the Fansipan cable car ascends.",
-        "image": "/images/gallery/2085.jpg",
+        "image": "/images/gallery/15009.jpg",
         "imageAlt": "Cat Cat Village Black H'Mong rice terraces Sapa North Vietnam"
       }
     ]
@@ -305,7 +305,7 @@
       "price": "From RM2,288",
       "duration": "6D5N",
       "slug": "north-vietnam/6-day-hanoi-halong-sapa",
-      "image": "/images/gallery/2168.jpg"
+      "image": "/images/gallery/14484.jpg"
     },
     {
       "id": "vietnam-north-4d-halong-luxury",
@@ -313,7 +313,7 @@
       "price": "From RM1,488",
       "duration": "4D3N",
       "slug": "north-vietnam/4-day-hanoi-halong-luxury",
-      "image": "/images/gallery/2133.jpg"
+      "image": "/images/gallery/11827.jpg"
     },
     {
       "id": "vietnam-north-5d-highlights",
@@ -321,7 +321,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "north-vietnam/5-day-north-vietnam",
-      "image": "/images/gallery/2337.jpg"
+      "image": "/images/gallery/14461.jpg"
     }
   ],
   "cta": {
@@ -331,7 +331,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2080.jpg"
+    "bgImage": "/images/gallery/10381.jpg"
   },
   "schema": {
     "type": "TouristTrip",

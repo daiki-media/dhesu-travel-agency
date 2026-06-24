@@ -6,7 +6,7 @@
     "slug": "north-vietnam/5-day-hanoi-sapa-fansipan",
     "canonicalUrl": "/tours/vietnam/north-vietnam/5-day-hanoi-sapa-fansipan",
     "pkgid": "2084",
-    "ogImage": "/images/gallery/2085.jpg"
+    "ogImage": "/images/gallery/14483.jpg"
   },
   "hero": {
     "badge": "Hanoi, Sapa & Fansipan — 5 Days",
@@ -19,7 +19,7 @@
       { "label": "North Vietnam", "href": "/tours/vietnam/north-vietnam" },
       { "label": "5 Days Hanoi + Sapa + Fansipan", "href": null }
     ],
-    "heroImage": "/images/gallery/2085.jpg",
+    "heroImage": "/images/gallery/14483.jpg",
     "heroImageAlt": "Sapa terraced rice fields H'mong village North Vietnam Fansipan highlands"
   },
   "quickFacts": {
@@ -72,25 +72,25 @@
       {
         "title": "Fansipan — Roof of Indochina by Cable Car",
         "body": "At 3,147 metres, Fansipan is the highest peak in Vietnam, Laos, and Cambodia combined — the Roof of Indochina. The Sun World Fansipan Legend system from Sapa town includes the Muong Hoa Hiking Train (a mountain rack railway from Sun Plaza to the cable car boarding station) and the gondola cable car (6,282 metres total, the world's longest three-rope cable car) to the summit at 3,143 metres. The full Fansipan combo (train + cable + funicular + 11 Buddhist sites + Great Buddha + Guan Yin + buffet lunch) is included in the package price.",
-        "image": "/images/gallery/2085.jpg",
+        "image": "/images/gallery/14995.jpg",
         "imageAlt": "Fansipan peak cable car Great Buddha Sapa North Vietnam"
       },
       {
         "title": "Cat Cat Village — Black H'Mong Culture",
         "body": "Cat Cat Village is the closest Black H'Mong community to Sapa town — a 30-minute walk downhill from the town centre through rice paddy terraces, past water buffaloes grazing on steep slopes, to a waterfall and village where the H'Mong community has lived for generations. Women at the village entrance sell hand-dyed indigo fabrics and silver accessories made by traditional techniques. The Rainbow Slide — a downhill slide track through the village — is optional at own expense (approximately RM10). The view from the terraces above Cat Cat extends across the full Muong Hoa Valley.",
-        "image": "/images/gallery/2085.jpg",
+        "image": "/images/gallery/14370.jpg",
         "imageAlt": "Cat Cat Village Black H'Mong Sapa North Vietnam rice terraces"
       },
       {
         "title": "Sapa Highland Landscape",
         "body": "The Muong Hoa Valley below Sapa town contains some of the most photographed terraced landscapes in Asia — rice paddies carved into near-vertical slopes by H'Mong, Red Dao, Tay, and Giay communities over two centuries. Sapa town itself sits at 1,500 metres elevation in a natural amphitheatre, with the Hoang Lien Son range rising behind it. The morning mist that fills the valley before 09:00 and the cloud that wraps the higher ridges in the afternoon are the defining atmospheric qualities of the highland landscape. The terraces are most spectacular September–October (golden harvest) and May–June (water-filled reflection season).",
-        "image": "/images/gallery/2085.jpg",
+        "image": "/images/gallery/11808.jpg",
         "imageAlt": "Sapa Muong Hoa Valley terraced rice paddies highland Vietnam"
       },
       {
         "title": "Hanoi City Tour — 1,000 Years of History",
         "body": "Hanoi's essential imperial and cultural sights cover a thousand years of Vietnamese history: Tran Quoc Pagoda (6th-century Buddhist pagoda, the oldest in Hanoi), the Ho Chi Minh Mausoleum on Ba Dinh Square (where Ho Chi Minh declared independence in 1945), Hoan Kiem Lake (the Returned Sword Lake), the Hanoi Opera House (1901 French Beaux Arts), and the 36-guild Old Quarter — each street named for the trade it once hosted exclusively. The Cha Ca dinner introduces Hanoi's most distinctive dish: turmeric-marinated fish cooked at the table with fresh dill.",
-        "image": "/images/gallery/16404.jpg",
+        "image": "/images/gallery/11809.jpg",
         "imageAlt": "Hanoi city tour Hoan Kiem Lake Old Quarter Vietnam"
       }
     ]
@@ -287,7 +287,7 @@
       "price": "From RM2,288",
       "duration": "6D5N",
       "slug": "north-vietnam/6-day-hanoi-halong-sapa",
-      "image": "/images/gallery/2168.jpg"
+      "image": "/images/gallery/14484.jpg"
     },
     {
       "id": "vietnam-north-5d-highlights",
@@ -295,7 +295,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "north-vietnam/5-day-north-vietnam",
-      "image": "/images/gallery/2337.jpg"
+      "image": "/images/gallery/14461.jpg"
     },
     {
       "id": "vietnam-north-6d-best",
@@ -303,7 +303,7 @@
       "price": "From RM2,588",
       "duration": "6D5N",
       "slug": "north-vietnam/6-day-north-vietnam-best",
-      "image": "/images/gallery/2080.jpg"
+      "image": "/images/gallery/10381.jpg"
     }
   ],
   "cta": {
@@ -313,7 +313,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2085.jpg"
+    "bgImage": "/images/gallery/14483.jpg"
   },
   "schema": {
     "type": "TouristTrip",

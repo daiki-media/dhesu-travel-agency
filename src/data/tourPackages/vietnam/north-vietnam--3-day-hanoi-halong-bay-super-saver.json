@@ -6,7 +6,7 @@
     "slug": "north-vietnam/3-day-hanoi-halong-bay-super-saver",
     "canonicalUrl": "/tours/vietnam/north-vietnam/3-day-hanoi-halong-bay-super-saver",
     "pkgid": "2477",
-    "ogImage": "/images/gallery/2477.jpg"
+    "ogImage": "/images/gallery/16404.jpg"
   },
   "hero": {
     "badge": "Hanoi & Halong Bay — 3 Days",
@@ -19,7 +19,7 @@
       { "label": "North Vietnam", "href": "/tours/vietnam/north-vietnam" },
       { "label": "3 Days Hanoi & Halong Bay Super Saver", "href": null }
     ],
-    "heroImage": "/images/gallery/2477.jpg",
+    "heroImage": "/images/gallery/16404.jpg",
     "heroImageAlt": "Halong Bay limestone karsts UNESCO World Heritage Vietnam emerald water"
   },
   "quickFacts": {
@@ -73,25 +73,25 @@
       {
         "title": "Halong Bay — UNESCO World Heritage Karst Landscape",
         "body": "2,000 limestone karsts and islands rising from emerald-green water in the Gulf of Tonkin — a UNESCO World Heritage Site since 1994 for both its natural beauty and geological significance. The karsts have been shaped over 500 million years through tectonic movement and ocean erosion, creating a sea field of towers up to 200 metres high. Sung Sot Cave (Surprising Cave), the largest cavern in Halong Bay, contains chambers large enough to hold hundreds of people, with stalactites and stalacmites lit by coloured lighting that reveals the extraordinary scale of the interior.",
-        "image": "/images/gallery/2477.jpg",
+        "image": "/images/gallery/16404.jpg",
         "imageAlt": "Halong Bay UNESCO limestone karsts emerald water cruise boat Vietnam"
       },
       {
         "title": "Kayaking Through Luon Cave",
         "body": "Luon Cave is one of Halong Bay's most distinctive experiences — a sea tunnel through limestone karst that opens into a hidden enclosed lagoon surrounded by near-vertical rock walls. The kayak route through the cave is approximately 30 minutes: paddling through the dark tunnel into the flooded interior, where monkeys sometimes watch from the cliff ledges above. The lagoon on the other side is completely still, hidden from the open bay, and strikingly beautiful in the mid-afternoon light.",
-        "image": "/images/gallery/16404.jpg",
+        "image": "/images/gallery/16405.jpg",
         "imageAlt": "Halong Bay kayaking Luon Cave limestone karst lagoon Vietnam"
       },
       {
         "title": "Titov Island — Panoramic Bay Views",
         "body": "Titov Island, named after Soviet cosmonaut Gherman Titov who visited in 1962 with Ho Chi Minh, has a beach and a hillside with steps to a viewpoint roughly halfway up the island. The view from the upper steps — looking out across the karst field in all directions with nothing but limestone towers and green water — is the most complete panoramic view of Halong Bay available without a helicopter. The beach at the base is good for swimming.",
-        "image": "/images/gallery/2477.jpg",
+        "image": "/images/gallery/16404.jpg",
         "imageAlt": "Titov Island Halong Bay panoramic view limestone karsts Vietnam"
       },
       {
         "title": "Hanoi Old Quarter — 1,000 Years of Street Life",
         "body": "Hanoi's Old Quarter dates from the 11th century, when artisan guilds settled around the ancient citadel. Each street specialised in a single trade — silk, tin, paper, medicine — and the street names still reflect those origins today. The quarter is the most densely inhabited neighbourhood in Vietnam: motorbikes, colonial shophouses, street food vendors, and families living on lanes so narrow they never see direct sunlight. Hoan Kiem Lake, just south of the quarter, is where locals gather every morning and evening — Ngoc Son Temple sits on a small island connected to the shore by a red lacquer bridge.",
-        "image": "/images/gallery/16404.jpg",
+        "image": "/images/gallery/16405.jpg",
         "imageAlt": "Hanoi Old Quarter 36 guild streets colonial shophouses Vietnam"
       }
     ]
@@ -247,7 +247,7 @@
       "price": "From RM1,488",
       "duration": "4D3N",
       "slug": "north-vietnam/4-day-hanoi-halong-luxury",
-      "image": "/images/gallery/2133.jpg"
+      "image": "/images/gallery/11827.jpg"
     },
     {
       "id": "vietnam-north-5d-halong-ninh-binh",
@@ -255,7 +255,7 @@
       "price": "From RM1,988",
       "duration": "5D4N",
       "slug": "north-vietnam/5-day-hanoi-halong-ninh-binh",
-      "image": "/images/gallery/2168.jpg"
+      "image": "/images/gallery/12812.jpg"
     },
     {
       "id": "vietnam-north-5d-north",
@@ -263,7 +263,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "north-vietnam/5-day-north-vietnam",
-      "image": "/images/gallery/2337.jpg"
+      "image": "/images/gallery/14461.jpg"
     }
   ],
   "cta": {
@@ -273,7 +273,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2477.jpg"
+    "bgImage": "/images/gallery/16404.jpg"
   },
   "schema": {
     "type": "TouristTrip",

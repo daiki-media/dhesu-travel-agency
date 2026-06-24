@@ -6,7 +6,7 @@
     "slug": "north-vietnam/4-day-hanoi-halong-luxury",
     "canonicalUrl": "/tours/vietnam/north-vietnam/4-day-hanoi-halong-luxury",
     "pkgid": "2133",
-    "ogImage": "/images/gallery/2133.jpg"
+    "ogImage": "/images/gallery/11827.jpg"
   },
   "hero": {
     "badge": "Hanoi & Halong Bay — 4 Days",
@@ -19,7 +19,7 @@
       { "label": "North Vietnam", "href": "/tours/vietnam/north-vietnam" },
       { "label": "4 Days Hanoi & Halong Bay Luxury", "href": null }
     ],
-    "heroImage": "/images/gallery/2133.jpg",
+    "heroImage": "/images/gallery/11827.jpg",
     "heroImageAlt": "Halong Bay luxury cruise boat limestone karsts sunset Vietnam"
   },
   "quickFacts": {
@@ -72,25 +72,25 @@
       {
         "title": "Ho Chi Minh Mausoleum Complex",
         "body": "The mausoleum where Ho Chi Minh has lain since 1975 is Vietnam's most visited and most politically significant site. The marble-and-granite structure on Ba Dinh Square is where he declared independence in 1945 and where his body now rests in a refrigerated glass casket. Adjacent are the One Pillar Pagoda — a lotus-shaped Buddhist temple on a single pillar above a pond, built in 1049 — and the Presidential Palace, a colonial governor's residence where Ho Chi Minh refused to live, preferring a stilt house in the garden. The complex is a complete education in Vietnamese modern history.",
-        "image": "/images/gallery/2133.jpg",
+        "image": "/images/gallery/11828.jpg",
         "imageAlt": "Ho Chi Minh Mausoleum Ba Dinh Square Hanoi Vietnam"
       },
       {
         "title": "Temple of Literature — Vietnam's Oldest University",
         "body": "Founded in 1070 under Emperor Ly Thanh Tong, the Temple of Literature (Van Mieu) served as Vietnam's National Academy for over 700 years, educating the country's mandarin class in Confucian scholarship. Five walled courtyards open one into the next, each with its own character: gateways, gardens, ceremonial wells, and 82 stone doctoral steles mounted on stone turtles — the names of doctoral graduates from 1442 to 1779 still legible on the stone. The Great House of Ceremonies at the far end is the most intact Imperial-era structure in Hanoi.",
-        "image": "/images/gallery/16404.jpg",
+        "image": "/images/gallery/11829.jpg",
         "imageAlt": "Temple of Literature Van Mieu Hanoi Vietnam ancient courtyard"
       },
       {
         "title": "Halong Bay Luxury Cruise",
         "body": "The overnight cruise format is the definitive way to experience Halong Bay — a limestone karst landscape that extends for 1,553 square kilometres and contains over 2,000 islands, most uninhabited, most unnamed. On a smaller luxury vessel, the experience is quieter and more personal than a large cruise ship. Kayaking lets you enter sea caves and lagoons inaccessible from the main boat. The squid fishing at night, off the back deck, is a ritual every crew member takes seriously. Sung Sot Cave — the Surprising Cave, its vaulted chamber 10 storeys high — remains the single most spectacular geological formation in the bay.",
-        "image": "/images/gallery/2133.jpg",
+        "image": "/images/gallery/14575.jpg",
         "imageAlt": "Halong Bay luxury cruise overnight boat karsts Vietnam"
       },
       {
         "title": "Hanoi Old Quarter Night Walk",
         "body": "After dark, the Old Quarter becomes its most intense version: mobile kitchens materialise on pavements, ba hoi (corner beer) stalls fill with office workers, and the street food activity reaches its peak around 7–9pm. Bun cha — grilled pork patties with vermicelli and a sweet-and-sour broth — was the dish Anthony Bourdain ordered when he ate here with Barack Obama in 2016. Banh mi, pho ga, and bun bo Nam Bo are all within walking distance. This evening food culture is one of the reasons Hanoi is consistently ranked among Asia's best cities for street food.",
-        "image": "/images/gallery/16404.jpg",
+        "image": "/images/gallery/11830.jpg",
         "imageAlt": "Hanoi Old Quarter night street food Vietnam evening"
       }
     ]
@@ -253,7 +253,7 @@
       "price": "From RM688",
       "duration": "3D2N",
       "slug": "north-vietnam/3-day-hanoi-halong-bay-super-saver",
-      "image": "/images/gallery/2477.jpg"
+      "image": "/images/gallery/16404.jpg"
     },
     {
       "id": "vietnam-north-5d-halong-ninh-binh",
@@ -261,7 +261,7 @@
       "price": "From RM1,988",
       "duration": "5D4N",
       "slug": "north-vietnam/5-day-hanoi-halong-ninh-binh",
-      "image": "/images/gallery/2168.jpg"
+      "image": "/images/gallery/12812.jpg"
     },
     {
       "id": "vietnam-north-6d-halong-sapa",
@@ -269,7 +269,7 @@
       "price": "From RM2,288",
       "duration": "6D5N",
       "slug": "north-vietnam/6-day-hanoi-halong-sapa",
-      "image": "/images/gallery/2168.jpg"
+      "image": "/images/gallery/10381.jpg"
     }
   ],
   "cta": {
@@ -279,7 +279,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2133.jpg"
+    "bgImage": "/images/gallery/11827.jpg"
   },
   "schema": {
     "type": "TouristTrip",

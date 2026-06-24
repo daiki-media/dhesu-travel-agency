@@ -6,7 +6,7 @@
     "slug": "south-vietnam/5-day-south-vietnam-dalat",
     "canonicalUrl": "/tours/vietnam/south-vietnam/5-day-south-vietnam-dalat",
     "pkgid": "2087",
-    "ogImage": "/images/gallery/2087.jpg"
+    "ogImage": "/images/gallery/11911.jpg"
   },
   "hero": {
     "badge": "Mui Ne + Da Lat + Saigon — 5 Days",
@@ -19,7 +19,7 @@
       { "label": "South Vietnam", "href": "/tours/vietnam/south-vietnam" },
       { "label": "5 Days South Vietnam Da Lat", "href": null }
     ],
-    "heroImage": "/images/gallery/2087.jpg",
+    "heroImage": "/images/gallery/11911.jpg",
     "heroImageAlt": "Da Lat highland flower city Truc Lam cable car Vietnam"
   },
   "quickFacts": {
@@ -75,25 +75,25 @@
       {
         "title": "Truc Lam Pagoda — Cable Car over Tuyen Lam Lake",
         "body": "Truc Lam Pagoda (Bamboo Forest Monastery) is a working Zen Buddhist monastery built in 1993 on a forested hillside above Tuyen Lam Lake, 5 km south of Da Lat. The cable car from Robin Hill descends over the lake — its reflection shifting between silver and blue — to the monastery entrance. The complex includes meditation halls, a lotus pond, bonsai garden, and pine-shaded walking paths. The one-way cable car (descent to the monastery, the shorter direction) is included. The lake below — a dam lake surrounded by pine forest — is the largest in the Central Highlands.",
-        "image": "/images/gallery/2087.jpg",
+        "image": "/images/gallery/11912.jpg",
         "imageAlt": "Truc Lam Pagoda cable car Tuyen Lam Lake Da Lat Vietnam"
       },
       {
         "title": "Linh Phuoc Pagoda — Vietnam's Dragon Temple",
         "body": "Linh Phuoc Pagoda at Trai Mat village, 8 km from Da Lat centre, was built between 1994 and 2000. The main hall is covered in an elaborate dragon mosaic composed of 12,000 beer bottles and ceramic shards — a continuous 49-metre dragon in emerald, gold, and blue that winds around the exterior. The 9-storey bell tower (49m) is the tallest in Vietnam. Inside: an 11.5-metre standing Buddha in white porcelain. The level of detail in the mosaic — done entirely by hand over six years — makes Linh Phuoc the most visually dense temple in the country.",
-        "image": "/images/gallery/2364.jpg",
+        "image": "/images/gallery/14390.jpg",
         "imageAlt": "Linh Phuoc Pagoda dragon temple mosaic Da Lat Vietnam"
       },
       {
         "title": "Mui Ne Fishing Village & Sand Dunes",
         "body": "Day one in Mui Ne covers the coastal highlights in sequence: the working fishing village (bamboo coracle boats, junk fleet, morning wet market), the Fairy Stream (red clay canyon walk, ankle-deep through clear water), the sand dunes (Red Sand Dunes 2 km from town, best at sunset; White Sand Dunes 25 km north, best at dawn). The ATV ride through the White Dunes is optional at own expense on this 5-day itinerary (for the included ATV version, see the 4-day Saigon Mui Ne package).",
-        "image": "/images/gallery/2089.jpg",
+        "image": "/images/gallery/11913.jpg",
         "imageAlt": "Mui Ne fishing village sand dunes Fairy Stream Vietnam"
       },
       {
         "title": "Dragon Fruit Farm — En Route Binh Thuan",
         "body": "The drive from Mui Ne to Da Lat passes through the Dragon Fruit producing heartland of Binh Thuan Province — where over 60% of Vietnam's dragon fruit is grown. A farm stop en route allows a guided walk through the growing rows (tall cactus trained on concrete posts, the vivid pink fruit hanging from the spiny pads), fresh fruit tasting, and a conversation with the farming family. Dragon fruit in Vietnam comes in three varieties: white flesh (standard), red flesh (sweetest), and yellow skin (the rarest and most expensive). The tasting at source is distinctly different from supermarket dragon fruit.",
-        "image": "/images/gallery/2087.jpg",
+        "image": "/images/gallery/11914.jpg",
         "imageAlt": "Dragon fruit farm Binh Thuan Vietnam Mui Ne Da Lat route"
       }
     ]
@@ -280,7 +280,7 @@
       "price": "From RM1,988",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-dalat",
-      "image": "/images/gallery/2364.jpg"
+      "image": "/images/gallery/14638.jpg"
     },
     {
       "id": "vietnam-south-4d-saigon-mui-ne",
@@ -288,7 +288,7 @@
       "price": "From RM1,588",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-saigon-mui-ne",
-      "image": "/images/gallery/2107.jpg"
+      "image": "/images/gallery/14380.jpg"
     },
     {
       "id": "vietnam-south-5d-saigon-mui-ne",
@@ -296,7 +296,7 @@
       "price": "From RM1,888",
       "duration": "5D4N",
       "slug": "south-vietnam/5-day-saigon-cu-chi-mui-ne",
-      "image": "/images/gallery/2089.jpg"
+      "image": "/images/gallery/10384.jpg"
     }
   ],
   "cta": {
@@ -306,7 +306,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2087.jpg"
+    "bgImage": "/images/gallery/11911.jpg"
   },
   "schema": {
     "type": "TouristTrip",

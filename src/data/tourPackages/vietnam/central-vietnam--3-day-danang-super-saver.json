@@ -6,7 +6,7 @@
     "slug": "central-vietnam/3-day-danang-super-saver",
     "canonicalUrl": "/tours/vietnam/central-vietnam/3-day-danang-super-saver",
     "pkgid": "2478",
-    "ogImage": "/images/gallery/16405.jpg"
+    "ogImage": "/images/gallery/16402.jpg"
   },
   "hero": {
     "badge": "Danang & Hoi An — 3 Days",
@@ -19,7 +19,7 @@
       { "label": "Central Vietnam", "href": "/tours/vietnam/central-vietnam" },
       { "label": "3 Days Danang Super Saver", "href": null }
     ],
-    "heroImage": "/images/gallery/16405.jpg",
+    "heroImage": "/images/gallery/16402.jpg",
     "heroImageAlt": "Hoi An Ancient Town lanterns UNESCO Japanese Bridge Vietnam"
   },
   "quickFacts": {
@@ -84,7 +84,7 @@
       {
         "title": "Da Nang Beach — One of Asia's Most Beautiful Coastlines",
         "body": "My Khe Beach, stretching 30 kilometres along Da Nang's coast, was named one of the most attractive beaches in the world by Forbes magazine. The beach begins within walking distance of Da Nang city centre, with gentle waves, clear water, and a long flat shoreline that was used by the US military as a rest and recreation area during the Vietnam War — for reasons that are immediately obvious. The water is warm (27–29°C year-round), the beach is wide, and it is practical in a way that tourist-focused resort beaches often are not.",
-        "image": "/images/gallery/16405.jpg",
+        "image": "/images/gallery/14488.jpg",
         "imageAlt": "My Khe Beach Da Nang coastline white sand Vietnam"
       }
     ]
@@ -226,7 +226,7 @@
       "price": "From RM1,588",
       "duration": "4D3N",
       "slug": "central-vietnam/4-day-danang-hoi-an-bana",
-      "image": "/images/gallery/2134.jpg"
+      "image": "/images/gallery/14488.jpg"
     },
     {
       "id": "vietnam-central-5d-danang-hue-hoi-an",
@@ -234,7 +234,7 @@
       "price": "From RM2,088",
       "duration": "5D4N",
       "slug": "central-vietnam/5-day-danang-hue-hoi-an",
-      "image": "/images/gallery/2091.jpg"
+      "image": "/images/gallery/14506.jpg"
     },
     {
       "id": "vietnam-central-5d-train",
@@ -242,7 +242,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "central-vietnam/5-day-danang-train-hoi-an",
-      "image": "/images/gallery/2092.jpg"
+      "image": "/images/gallery/10374.jpg"
     }
   ],
   "cta": {
@@ -252,7 +252,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/16405.jpg"
+    "bgImage": "/images/gallery/16402.jpg"
   },
   "schema": {
     "type": "TouristTrip",

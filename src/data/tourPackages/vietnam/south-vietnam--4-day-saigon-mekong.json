@@ -6,7 +6,7 @@
     "slug": "south-vietnam/4-day-saigon-mekong",
     "canonicalUrl": "/tours/vietnam/south-vietnam/4-day-saigon-mekong",
     "pkgid": "2088",
-    "ogImage": "/images/gallery/2088.jpg"
+    "ogImage": "/images/gallery/14482.jpg"
   },
   "hero": {
     "badge": "Saigon, Cu Chi & Mekong Delta — 4 Days",
@@ -19,7 +19,7 @@
       { "label": "South Vietnam", "href": "/tours/vietnam/south-vietnam" },
       { "label": "4 Days Saigon + Mekong Delta", "href": null }
     ],
-    "heroImage": "/images/gallery/2088.jpg",
+    "heroImage": "/images/gallery/14482.jpg",
     "heroImageAlt": "Mekong Delta sampan boat coconut palms Ben Tre Vietnam"
   },
   "quickFacts": {
@@ -72,25 +72,25 @@
       {
         "title": "Cu Chi Tunnels — Vietnam's Underground City",
         "body": "The Cu Chi Tunnels were hand-dug by Vietnamese resistance fighters beginning in the 1940s during the French war, and massively expanded by the Viet Cong during the American War. At their peak in the 1960s, the tunnel network extended 250 kilometres at three underground levels, containing kitchens, field hospitals, ammunition stores, and command centres. Up to 16,000 people lived underground in Ben Duoc and Ben Dinh for years at a time. Crawling through a widened tourist section of the tunnel — crouching through near-darkness — makes the history immediately visceral in a way no museum exhibit can replicate.",
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/11944.jpg",
         "imageAlt": "Cu Chi Tunnels Vietnam underground network American War history"
       },
       {
         "title": "Mekong Delta — River Life & Sampan Paddle",
         "body": "The Mekong Delta is the network of waterways, rice paddies, and islands formed by the Mekong River as it spreads into nine distributaries before reaching the South China Sea. My Tho and Ben Tre, the most accessible delta towns from Saigon, give a clear view of the river culture that has sustained the region for centuries: wooden sampan boats threading through coconut palm canals, floating markets on the water, cottage industries producing coconut candy and rice paper on wooden home presses, and village musicians playing Southern Vietnamese folk songs on traditional instruments.",
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/11952.jpg",
         "imageAlt": "Mekong Delta sampan boat coconut palm waterway My Tho Vietnam"
       },
       {
         "title": "War Remnants Museum — History Unflinchingly Told",
         "body": "The War Remnants Museum in District 3 is the most visited museum in Vietnam and one of the most powerful war museums in Asia. Its collection documents the American War through photographs, weaponry, military equipment, and accounts of civilian suffering that leave most visitors shaken. The outdoor exhibition of captured American military hardware — helicopters, tanks, artillery, and the infamous defoliation aircraft — fills the courtyard. The photograph galleries on the upper floors, including works by photographers who died covering the war, are among the most significant documentary collections in the world.",
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/11946.jpg",
         "imageAlt": "War Remnants Museum Ho Chi Minh City Saigon Vietnam history"
       },
       {
         "title": "Nguyen Hue Street & Café Apartment Block",
         "body": "The pedestrianised Nguyen Hue boulevard is modern Saigon's social centre — a wide walking street lined with the city's best coffee shops, restaurants, and the Ho Chi Minh City People's Committee Hall (the colonial-era Hôtel de Ville). The Café Apartment Block at 42 Nguyen Hue is a nine-storey residential building from the 1960s converted entirely into independent cafés, boutique shops, and creative studios, each occupying a single apartment and accessible by tiny vintage lifts. The building's external balconies, draped in plants and fairy lights, have become one of Saigon's most photographed streetscapes.",
-        "image": "/images/gallery/2088.jpg",
+        "image": "/images/gallery/11947.jpg",
         "imageAlt": "Nguyen Hue Street Café Apartment Saigon Ho Chi Minh City Vietnam"
       }
     ]
@@ -261,7 +261,7 @@
       "price": "From RM1,588",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-saigon-mui-ne",
-      "image": "/images/gallery/2107.jpg"
+      "image": "/images/gallery/14380.jpg"
     },
     {
       "id": "vietnam-south-5d-cu-chi-mui-ne",
@@ -269,7 +269,7 @@
       "price": "From RM1,888",
       "duration": "5D4N",
       "slug": "south-vietnam/5-day-saigon-cu-chi-mui-ne",
-      "image": "/images/gallery/2089.jpg"
+      "image": "/images/gallery/10384.jpg"
     },
     {
       "id": "vietnam-south-5d-dalat",
@@ -277,7 +277,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "south-vietnam/5-day-south-vietnam-dalat",
-      "image": "/images/gallery/2087.jpg"
+      "image": "/images/gallery/11911.jpg"
     }
   ],
   "cta": {
@@ -287,7 +287,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2088.jpg"
+    "bgImage": "/images/gallery/14482.jpg"
   },
   "schema": {
     "type": "TouristTrip",

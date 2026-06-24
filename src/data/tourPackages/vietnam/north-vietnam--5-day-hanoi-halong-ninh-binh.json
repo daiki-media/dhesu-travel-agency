@@ -6,7 +6,7 @@
     "slug": "north-vietnam/5-day-hanoi-halong-ninh-binh",
     "canonicalUrl": "/tours/vietnam/north-vietnam/5-day-hanoi-halong-ninh-binh",
     "pkgid": "2164",
-    "ogImage": "/images/gallery/14575.jpg"
+    "ogImage": "/images/gallery/12812.jpg"
   },
   "hero": {
     "badge": "Hanoi, Halong Bay & Ninh Binh — 5 Days",
@@ -19,7 +19,7 @@
       { "label": "North Vietnam", "href": "/tours/vietnam/north-vietnam" },
       { "label": "5 Days Hanoi + Halong Bay + Ninh Binh", "href": null }
     ],
-    "heroImage": "/images/gallery/14575.jpg",
+    "heroImage": "/images/gallery/12812.jpg",
     "heroImageAlt": "Trang An Grottoes Ninh Binh sampan boat limestone karsts Vietnam"
   },
   "quickFacts": {
@@ -73,25 +73,25 @@
       {
         "title": "Trang An Grottoes — Sampan Through UNESCO Caves",
         "body": "The Trang An Landscape Complex in Ninh Binh Province was listed as a UNESCO World Heritage Site in 2014 — the first mixed cultural and natural site in Vietnam. The two-hour sampan boat ride, paddled by local villagers in traditional conical hats, passes through a series of river caves carved through limestone mountains, emerging each time into flooded valleys ringed by karst peaks. The caves range from narrow passages where the boat barely fits to vaulted caverns with cathedral ceilings. The silence and the quality of the light in the grottoes make Trang An a genuinely singular experience.",
-        "image": "/images/gallery/14575.jpg",
+        "image": "/images/gallery/12813.jpg",
         "imageAlt": "Trang An Grottoes Ninh Binh sampan boat river caves UNESCO Vietnam"
       },
       {
         "title": "Halong Bay Overnight Cruise",
         "body": "The overnight format is the definitive way to experience Halong Bay — the 1,553 square kilometres of karst landscape that contains 2,000 limestone islands and towers. Boarding in the early afternoon, you visit Ba Trai Dao — a natural lagoon in Lan Ha Bay with three smaller islets — for kayaking and swimming. Sunset Party on deck as the karsts turn amber. Squid fishing and karaoke in the evening. Tai Chi at dawn as mist rises between the limestone towers. Kayaking at Tra Bau the following morning before brunch on board and the return to Hanoi.",
-        "image": "/images/gallery/2477.jpg",
+        "image": "/images/gallery/12820.jpg",
         "imageAlt": "Halong Bay overnight cruise boat limestone karsts sunset Vietnam"
       },
       {
         "title": "Hoa Lu Ancient Capital",
         "body": "Hoa Lu was the capital of Vietnam from 968 to 1010 under the Dinh and Early Le dynasties — the first consolidated Vietnamese state after independence from Chinese rule. The two main temples that remain, dedicated to King Dinh Tien Hoang and King Le Dai Hanh respectively, contain carved stone stele, incense-filled courtyards, and ceremonial halls in a valley ringed by limestone mountains. The site's setting — steep karst walls rising on all sides — explains why the ancient Vietnamese chose it as a capital: it was naturally fortified on three sides.",
-        "image": "/images/gallery/2168.jpg",
+        "image": "/images/gallery/12890.jpg",
         "imageAlt": "Hoa Lu Ancient Capital temple Ninh Binh Vietnam ancient dynasties"
       },
       {
         "title": "Hanoi Cha Ca Dinner — A Capital's Signature Dish",
         "body": "Cha Ca La Vong is Hanoi's most singular dish: turmeric-marinated snakehead fish, cooked at the table in sizzling butter with dill and spring onions, served with vermicelli, roasted peanuts, shrimp paste, and fresh herbs. The dish is so associated with a single restaurant on Hang Ca Street that the street was renamed Cha Ca Street. Your guided dinner here on the first evening is an introduction to Hanoi's distinct food culture — different from Ho Chi Minh, different from Central Vietnam, and entirely its own.",
-        "image": "/images/gallery/16404.jpg",
+        "image": "/images/gallery/14575.jpg",
         "imageAlt": "Cha Ca La Vong Hanoi turmeric fish dill Vietnamese food culture"
       }
     ]
@@ -279,7 +279,7 @@
       "price": "From RM1,488",
       "duration": "4D3N",
       "slug": "north-vietnam/4-day-hanoi-halong-luxury",
-      "image": "/images/gallery/2133.jpg"
+      "image": "/images/gallery/11827.jpg"
     },
     {
       "id": "vietnam-north-6d-best",
@@ -287,7 +287,7 @@
       "price": "From RM2,588",
       "duration": "6D5N",
       "slug": "north-vietnam/6-day-north-vietnam-best",
-      "image": "/images/gallery/2080.jpg"
+      "image": "/images/gallery/10381.jpg"
     },
     {
       "id": "vietnam-north-5d-sapa",
@@ -295,7 +295,7 @@
       "price": "From RM1,888",
       "duration": "5D4N",
       "slug": "north-vietnam/5-day-hanoi-sapa-fansipan",
-      "image": "/images/gallery/2085.jpg"
+      "image": "/images/gallery/14461.jpg"
     }
   ],
   "cta": {
@@ -305,7 +305,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2168.jpg"
+    "bgImage": "/images/gallery/12812.jpg"
   },
   "schema": {
     "type": "TouristTrip",

@@ -78,19 +78,19 @@
       {
         "title": "Crazy House (Hang Nga Guesthouse) — No Straight Lines",
         "body": "The Crazy House (officially Hang Nga Guesthouse) is the most unusual architectural structure in Vietnam. Designed by Vietnamese architect Dang Viet Nga (daughter of former North Vietnamese President Truong Chinh) and constructed from 1990, the building has no straight walls, no right angles, and no conventional rooms — every space is organic and flowing, with surfaces covered in sculpted concrete imitating trees, animals, and cave walls. It is still a functioning guesthouse — 10 rooms, each named and shaped after an animal (Giraffe Room, Tiger Room, Eagle Room). The rooftop terrace has views over central Da Lat.",
-        "image": "/images/gallery/2364.jpg",
+        "image": "/images/gallery/14639.jpg",
         "imageAlt": "Crazy House Hang Nga Guesthouse Da Lat Vietnam"
       },
       {
         "title": "Linh Phuoc Pagoda — Seven-Storey Dragon Temple",
         "body": "Linh Phuoc Pagoda (built 1994–2000) is the most visually spectacular temple in Da Lat — possibly in Vietnam. The nine-storey bell tower (49 metres) is the tallest in Vietnam. The main hall exterior is covered in a continuous dragon composed of 12,000 beer bottles and ceramic shards in emerald, gold, and blue mosaic. The interior has an 11.5-metre standing Buddha in white porcelain with an azure robe. A second dragon — 49 metres long — winds around the exterior courtyard. The detail and scale of the mosaic work, done by hand over six years, is extraordinary.",
-        "image": "/images/gallery/2364.jpg",
+        "image": "/images/gallery/14642.jpg",
         "imageAlt": "Linh Phuoc Pagoda dragon mosaic Da Lat Vietnam"
       },
       {
         "title": "Da Lat Night Market & Flower City Evenings",
         "body": "Da Lat's Night Market runs from Nguyen Thi Minh Khai Street to Hoa Binh Square every evening. Vendors sell the produce that Da Lat is famous for: strawberries (grown in greenhouses on the hillsides above the city), avocados (Da Lat grows 70% of Vietnam's avocados), artichokes, local wine, chrysanthemum tea, and dried fruits. Street food vendors sell com tam (broken rice), bun bo Hue, and banh can (Da Lat's miniature rice cake specialty). The Xuan Huong Lake at night — the central lake with the forested islets — is where Dalat locals walk, row boats, and enjoy the cool highland evenings.",
-        "image": "/images/gallery/2364.jpg",
+        "image": "/images/gallery/14640.jpg",
         "imageAlt": "Da Lat Night Market Xuan Huong Lake flower city Vietnam"
       }
     ]
@@ -252,7 +252,7 @@
       "price": "From RM2,188",
       "duration": "5D4N",
       "slug": "south-vietnam/5-day-south-vietnam-dalat",
-      "image": "/images/gallery/2087.jpg"
+      "image": "/images/gallery/11911.jpg"
     },
     {
       "id": "vietnam-south-4d-saigon-mekong",
@@ -260,7 +260,7 @@
       "price": "From RM1,388",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-saigon-mekong",
-      "image": "/images/gallery/2088.jpg"
+      "image": "/images/gallery/14482.jpg"
     },
     {
       "id": "vietnam-south-4d-saigon-mui-ne",
@@ -268,7 +268,7 @@
       "price": "From RM1,588",
       "duration": "4D3N",
       "slug": "south-vietnam/4-day-saigon-mui-ne",
-      "image": "/images/gallery/2107.jpg"
+      "image": "/images/gallery/14380.jpg"
     }
   ],
   "cta": {
@@ -278,7 +278,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/2364.jpg"
+    "bgImage": "/images/gallery/14638.jpg"
   },
   "schema": {
     "type": "TouristTrip",
