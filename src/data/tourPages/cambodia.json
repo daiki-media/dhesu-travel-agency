@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "name": "Cambodia",
+    "title": "Cambodia Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Explore Angkor Wat's ancient temples, Phnom Penh's riverfront capital and Tonle Sap's floating villages. Cambodia tour packages from RM888. Dhesu — Malaysia's trusted travel agency since 1988. MATTA & IATA registered.",
+    "slug": "cambodia",
+    "targetKeyword": "Cambodia tour package from Malaysia",
+    "region": "Southeast Asia",
+    "hubCardColor": "orange"
+  },
+  "hero": {
+    "badge": "Home of the World's Largest Religious Monument",
+    "headline": "Ancient Kingdoms.",
+    "headlineAccent": "Still Standing.",
+    "body": "Walk the stone corridors of Angkor Wat as morning mist lifts over the moat. Stand at the South Gate of Angkor Thom and look up at faces carved six centuries before photography. Cruise the Mekong at golden hour as Phnom Penh's riverfront lights come on. Cambodia is not just history. It is history you can touch.",
+    "bgImage": "/images/gallery/16458.jpg",
+    "stats": [
+      { "value": "12th C", "label": "Angkor Wat First Built" },
+      { "value": "35+", "label": "Years of Travel Expertise" },
+      { "value": "1988", "label": "Trusted Since" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Cambodia",
+    "heading": "Where Ancient Empires Meet Real Life",
+    "subheading": "Cambodia draws people with its temples, obviously. But it also stays with them because of something harder to name: a country that went through extraordinary suffering and came out the other side still building, still welcoming.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "Angkor Wat and the Khmer Empire",
+        "body": "The largest religious monument on earth, built in the early 12th century and never fully abandoned. Angkor Wat, Angkor Thom, the Bayon's 200 stone faces, Ta Prohm with its tree roots splitting ancient walls. An entire morning here barely scratches the surface.",
+        "image": "/images/gallery/13661.jpg",
+        "places": ["Angkor Wat", "Angkor Thom", "Ta Prohm (Tomb Raider Temple)"]
+      },
+      {
+        "icon": "wave",
+        "title": "Tonle Sap: Life on the Water",
+        "body": "Southeast Asia's largest freshwater lake, connected to the Mekong and rising and falling with it each season. Floating schools, floating churches, floating markets. Communities that have lived on the water for generations. Nothing quite like it in the region.",
+        "image": "/images/gallery/13523.jpg",
+        "places": ["Tonle Sap Floating Village", "Mekong River Cruise", "Chong Kneas"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Phnom Kulen: The Sacred Mountain",
+        "body": "Where the Khmer Empire was born in AD 802. King Jayavarman II declared independence here. The River of a Thousand Lingas flows beneath the jungle, carvings of Shiva and Vishnu covering the riverbed. A reclining Buddha sits at the summit. Most visitors to Cambodia never make it here.",
+        "image": "/images/gallery/13701.jpg",
+        "places": ["River of 1000 Lingas", "Kulen Mountain Waterfalls", "Reclining Buddha"]
+      },
+      {
+        "icon": "food",
+        "title": "Phnom Penh: Capital with a Complex Story",
+        "body": "A French-colonial riverfront city at the meeting point of the Mekong and Tonle Sap. The Royal Palace, the Silver Pagoda, the sobering Toul Sleng Genocide Museum, the Russian Market. A city that holds its history honestly and has rebuilt itself with remarkable energy.",
+        "image": "/images/gallery/13877.jpg",
+        "places": ["Royal Palace", "Toul Sleng Genocide Museum", "Russian Market"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Cambodia Destinations",
+    "heading": "Where to Go and Why",
+    "subheading": "Most Cambodia trips combine Siem Reap's temple circuit with Phnom Penh's capital highlights. The sacred Kulen Mountain and Tonle Sap lake add depth for those with an extra day.",
+    "areas": [
+      {
+        "name": "Siem Reap",
+        "tag": "Temples & Culture",
+        "tagColor": "orange",
+        "description": "Gateway to the Angkor Archaeological Park. Ancient temples, colonial streets, Pub Street nightlife and Tonle Sap lake. Every Cambodia trip starts here.",
+        "image": "/images/gallery/14632.jpg",
+        "vibe": "Historic",
+        "href": "/tours/cambodia/siem-reap"
+      },
+      {
+        "name": "Phnom Penh",
+        "tag": "Capital City",
+        "tagColor": "red",
+        "description": "Cambodia's bustling riverside capital. Royal Palace, Silver Pagoda, Toul Sleng Museum, Central Market and a lively waterfront dining scene.",
+        "image": "/images/gallery/16413.jpeg",
+        "href": "/tours/cambodia/phnom-penh"
+      },
+      {
+        "name": "Angkor Wat",
+        "tag": "World Heritage",
+        "tagColor": "purple",
+        "description": "The largest religious monument ever built. A full day barely covers the main circuit: Angkor Wat, Angkor Thom, Bayon, Ta Prohm and Pre Rup sunset.",
+        "image": "/images/gallery/16408.jpeg",
+        "vibe": "Iconic",
+        "href": "/tours/cambodia/angkor-wat"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit Cambodia from Malaysia",
+    "body": "Cambodia is a year-round destination, though the dry season gives the clearest conditions for temple visits and outdoor exploration.",
+    "seasons": [
+      {
+        "name": "Cool Dry Season",
+        "months": "November to February",
+        "badge": "Best Time",
+        "badgeColor": "red",
+        "description": "The most comfortable months. Lower temperatures, clear skies and very little rain. Peak season for Angkor Wat and outdoor activities.",
+        "icon": "sun"
+      },
+      {
+        "name": "Hot Dry Season",
+        "months": "March to May",
+        "badge": "Good Value",
+        "badgeColor": "orange",
+        "description": "Hotter and drier with fewer crowds. Tonle Sap is at its lowest, which concentrates wildlife. Good for budget-conscious travellers.",
+        "icon": "sun"
+      },
+      {
+        "name": "Wet Season",
+        "months": "June to October",
+        "badge": "Lush Scenery",
+        "badgeColor": "blue",
+        "description": "Monsoon brings green rice fields, fuller waterfalls on Kulen Mountain and higher water on Tonle Sap. Temples are quieter and prices are lower.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days Do You Actually Need?",
+    "options": [
+      {
+        "days": "3 Days",
+        "label": "Angkor Focus",
+        "description": "Enough for a full Angkor temple circuit plus time to explore Siem Reap's old quarter and night market."
+      },
+      {
+        "days": "4–5 Days",
+        "label": "Sweet Spot",
+        "description": "Adds Tonle Sap lake, Phnom Penh's highlights and possibly the Mekong sunset cruise. The ideal first Cambodia trip.",
+        "recommended": true
+      },
+      {
+        "days": "6+ Days",
+        "label": "Deep Dive",
+        "description": "Room to add Phnom Kulen, Banteay Srei, the Russian Market, and a slower pace through both cities."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Cambodia Tour Packages for Every Traveller",
+    "subheading": "From temple-focused short breaks to full circuits combining Siem Reap's ancient kingdoms with Phnom Penh's riverside capital and a Mekong cruise. Every package includes airport transfers and Dhesu's trusted on-ground team.",
+    "ctaNote": "Private and group packages available on request.",
+    "items": [
+      {
+        "id": "cambodia-3d-angkor-khmer-empire",
+        "slug": "siem-reap/3-day-angkor-khmer-empire",
+        "name": "3 Days Explore the Lost City of Angkor and Khmer Empire",
+        "duration": "3D2N",
+        "price": "From RM888",
+        "originalPrice": "RM1,066",
+        "priceNote": "per person",
+        "saving": "Save RM355 per couple",
+        "tag": "Best Value",
+        "tagColor": "gray",
+        "highlights": [
+          "Angkor Wat — World's Largest Religious Monument",
+          "Great City of Angkor Thom",
+          "Ta Prohm (Tomb Raider Temple)",
+          "English-Speaking Guide"
+        ],
+        "image": "/images/gallery/14632.jpg",
+        "popular": false,
+        "sourceUrl": "https://www.holidayidea.com.my/promo/package.php?pkgid=961&pkgtype=G",
+        "pkgId": 961,
+        "destinations": ["Siem Reap"],
+        "hotelOptions": [
+          { "stars": 3, "hotel": "Holy Angkor or Kouprey Hotel, Siem Reap", "price": "RM 888" },
+          { "stars": 4, "hotel": "Somadevi / Angkor Holiday, Siem Reap", "price": "RM 1,088" },
+          { "stars": 5, "hotel": "Angkor Miracle Resort, Siem Reap", "price": "RM 1,290" }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Transferred to Hotel | Select Preferred Tour",
+            "meals": [],
+            "description": "Arrival and hotel transfer. Optional afternoon activity of your choice: countryside cooking class, sunset ATV tour, countryside bike tour, or Tonle Sap floating village tour (additional charges apply). Overnight in Siem Reap."
+          },
+          {
+            "day": 2,
+            "title": "Explore the Ancient Capital and the Great City of Angkor",
+            "meals": ["Breakfast", "Lunch"],
+            "description": "Full day Angkor temple circuit: Angkor Wat, Angkor Thom South Gate, Bayon Temple (50 towers, 200 faces), Baphuon Temple, Terrace of Elephants, Terrace of Leper King, Ta Prohm (Tomb Raider filming location), Banteay Kdei, Srah Srang, and Pre Rup sunset temple. Evening free to explore Pub Street and Angkor Night Market."
+          },
+          {
+            "day": 3,
+            "title": "Free to Explore Before Departing Siem Reap",
+            "meals": ["Breakfast"],
+            "description": "Morning at leisure for personal activities. Airport transfer for onward journey."
+          }
+        ],
+        "includes": [
+          "Hotel accommodation as specified",
+          "Meals as specified",
+          "All entrances as specified",
+          "Fully guided tours",
+          "Return airport transfers",
+          "English-speaking guide"
+        ],
+        "excludes": [
+          "Flight ticket and taxes",
+          "Compulsory tour tips (RM 68)",
+          "ETIQA Travel Insurance Area 2 Gold (RM 41)",
+          "High season surcharge",
+          "Items not stated under inclusions"
+        ],
+        "validUntil": "2027-03-31"
+      },
+      {
+        "id": "cambodia-4d-best-siem-reap-tonle-sap",
+        "slug": "siem-reap/4-day-best-of-siem-reap-tonle-sap",
+        "name": "4 Days Best of Siem Reap + Tonle Sap Cruise",
+        "duration": "4D3N",
+        "price": "From RM1,488",
+        "originalPrice": "RM1,786",
+        "priceNote": "per person",
+        "saving": "Save RM595 per couple",
+        "tag": "Best Seller",
+        "tagColor": "red",
+        "highlights": [
+          "Angkor Wat Full Temple Circuit",
+          "Tonle Sap Lake Cruise",
+          "Artisan D'Angkor Cultural Centre",
+          "Pub Street & Angkor Night Market"
+        ],
+        "image": "/images/gallery/14981.jpg",
+        "popular": true,
+        "sourceUrl": "https://www.holidayidea.com.my/promo/package.php?pkgid=46&pkgtype=G",
+        "pkgId": 46,
+        "destinations": ["Siem Reap"],
+        "hotelOptions": [
+          { "stars": 3, "hotel": "Holy Angkor or Kouprey Hotel, Siem Reap", "price": "RM 1,488" },
+          { "stars": 4, "hotel": "Somadevi / Angkor Holiday, Siem Reap", "price": "RM 1,688" },
+          { "stars": 5, "hotel": "Angkor Miracle Resort, Siem Reap", "price": "RM 1,950" }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Discovery Tour of the City",
+            "meals": ["Lunch", "Dinner"],
+            "description": "Arrival and city tour: Wat Preah Prom Rath (Most Beautiful Temple in Cambodia), Preah Ang Chek and Preah Ang Chorm Shrine (The Sisters Temple), Royal Gardens, Wat Thmei Killing Field Memorial, War Memorial Monument, and Satcha Handicraft Centre. Dinner and overnight in Siem Reap."
+          },
+          {
+            "day": 2,
+            "title": "Explore the Ancient Capital and the Great City of Angkor | Cultural Show",
+            "meals": ["Breakfast", "Lunch", "Dinner"],
+            "description": "Full day Angkor circuit: Angkor Wat, Angkor Thom South Gate, Bayon Temple, Baphuon Temple, Terrace of Elephants, Terrace of Leper King, Ta Prohm Temple, Banteay Kdei, Srah Srang, Pre Rup sunset temple. Traditional Khmer dance buffet dinner (subject to availability). Evening at Pub Street and Night Market."
+          },
+          {
+            "day": 3,
+            "title": "Cruise on Tonle Sap Lake | Cultural Tour of Siem Reap | Pub Street",
+            "meals": ["Breakfast", "Lunch", "Dinner"],
+            "description": "Morning boat cruise on Tonle Sap Lake — floating villages, migratory birds, local fishing communities. Afternoon: Old Market, Artisan D'Angkor Centre, Angkor Green Garden Wax Museum. Evening stroll through Pub Street and Night Market."
+          },
+          {
+            "day": 4,
+            "title": "Free to Explore Before Departing Siem Reap",
+            "meals": ["Breakfast"],
+            "description": "Morning at leisure. Airport transfer for onward journey."
+          }
+        ],
+        "includes": [
+          "Hotel accommodation as specified",
+          "Meals as specified",
+          "All entrances as specified",
+          "Fully guided tours",
+          "Return airport transfers",
+          "English-speaking guide"
+        ],
+        "excludes": [
+          "Flight ticket and taxes",
+          "Compulsory tour tips (RM 90)",
+          "ETIQA Travel Insurance Area 2 Gold (RM 41)",
+          "High season surcharge",
+          "Items not stated under inclusions"
+        ],
+        "validUntil": "2027-03-31"
+      },
+      {
+        "id": "cambodia-4d-angkor-kingdom-sacred-mountain",
+        "slug": "siem-reap/4-day-angkor-kingdom-sacred-mountain",
+        "name": "4 Days Siem Reap | Angkor Kingdom & The Sacred Mountain",
+        "duration": "4D3N",
+        "price": "From RM1,588",
+        "originalPrice": "RM1,906",
+        "priceNote": "per person",
+        "saving": "Save RM635 per couple",
+        "tag": "Unique Experience",
+        "tagColor": "purple",
+        "highlights": [
+          "Angkor Wat Full Temple Circuit",
+          "Phnom Kulen National Park",
+          "River of a Thousand Lingas",
+          "Kulen Mountain Waterfalls"
+        ],
+        "image": "/images/gallery/14982.jpg",
+        "popular": false,
+        "sourceUrl": "https://www.holidayidea.com.my/promo/package.php?pkgid=318&pkgtype=G",
+        "pkgId": 318,
+        "destinations": ["Siem Reap", "Kulen Mountain"],
+        "hotelOptions": [
+          { "stars": 3, "hotel": "Holy Angkor or Kouprey Hotel, Siem Reap", "price": "RM 1,588" },
+          { "stars": 4, "hotel": "Somadevi / Angkor Holiday, Siem Reap", "price": "RM 1,788" },
+          { "stars": 5, "hotel": "Angkor Miracle Resort, Siem Reap", "price": "RM 1,950" }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Discovery Tour of the City",
+            "meals": ["Dinner"],
+            "description": "Arrival and city tour: Wat Preah Prom Rath, Preah Ang Chek and Preah Ang Chorm Shrine, Royal Gardens, Artisans Angkor crafts centre. After dinner, leisurely walk around Pub Street and Night Market. Overnight in Siem Reap."
+          },
+          {
+            "day": 2,
+            "title": "Explore the Ancient Capital and the Great City of Angkor | Pub Street",
+            "meals": ["Breakfast", "Lunch", "Dinner"],
+            "description": "Full day Angkor circuit: Angkor Wat, Angkor Thom South Gate, Bayon Temple, Baphuon Temple, Terrace of Elephants, Terrace of Leper King, Ta Prohm Temple, Banteay Kdei, Srah Srang, Pre Rup sunset temple. Evening at Pub Street and Night Market."
+          },
+          {
+            "day": 3,
+            "title": "Explore the Birthplace of the Khmer Empire — Kulen National Park & 1000 Lingas",
+            "meals": ["Breakfast", "Lunch", "Dinner"],
+            "description": "Full day at Phnom Kulen National Park: birthplace of the Khmer Empire (AD 802). Walk the sacred mountain trails, visit the River of a Thousand Lingas (Hindu carvings on the riverbed), ascend to the Reclining Buddha summit viewpoint, swim in the mountain waterfalls. Afternoon visit to Banteay Srei and Preah Dak villages (traditional palm sugar making). Return to hotel for dinner."
+          },
+          {
+            "day": 4,
+            "title": "Free to Explore Before Departing Siem Reap",
+            "meals": ["Breakfast"],
+            "description": "Morning at leisure. Airport transfer for onward journey."
+          }
+        ],
+        "includes": [
+          "Hotel accommodation as specified",
+          "Meals as specified",
+          "All entrances as specified",
+          "Fully guided tours",
+          "Return airport transfers",
+          "English-speaking guide"
+        ],
+        "excludes": [
+          "Flight ticket and taxes",
+          "Compulsory tour tips (RM 90)",
+          "ETIQA Travel Insurance Area 2 Gold (RM 41)",
+          "High season surcharge",
+          "Items not stated under inclusions"
+        ],
+        "validUntil": "2027-03-31"
+      },
+      {
+        "id": "cambodia-4d-best-of-cambodia-mekong-cruise",
+        "slug": "siem-reap-phnom-penh/4-day-mekong-river-cruise",
+        "name": "4 Days Best of Cambodia + Mekong River Cruise",
+        "duration": "4D3N",
+        "price": "From RM1,788",
+        "originalPrice": "RM2,146",
+        "priceNote": "per person",
+        "saving": "Save RM715 per couple",
+        "tag": "Two Cities",
+        "tagColor": "teal",
+        "highlights": [
+          "Angkor Wat Full Temple Circuit",
+          "Sunset Cruise on the Mekong River",
+          "Phnom Penh Discovery Tour",
+          "Wat Ounalom — Cambodia's Oldest Pagoda"
+        ],
+        "image": "/images/gallery/14983.jpg",
+        "popular": false,
+        "sourceUrl": "https://www.holidayidea.com.my/promo/package.php?pkgid=962&pkgtype=G",
+        "pkgId": 962,
+        "destinations": ["Siem Reap", "Phnom Penh"],
+        "hotelOptions": [
+          { "stars": 3, "hotel": "Holy Angkor or Kouprey Hotel, Siem Reap / Rose Emerald, Phnom Penh", "price": "RM 1,788" },
+          { "stars": 4, "hotel": "Somadevi / Angkor Holiday, Siem Reap / Capri or Poulo Wai, Phnom Penh", "price": "RM 2,050" },
+          { "stars": 5, "hotel": "Angkor Miracle Resort, Siem Reap / Naga 2 Hotel, Phnom Penh", "price": "RM 2,190" }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Explore the City of Siem Reap and Understand Its History",
+            "meals": ["Dinner"],
+            "description": "Arrival and city tour: Wat Preah Prom Rath, Preah Ang Chek and Preah Ang Chorm Shrine, Royal Gardens, Wat Thmei Killing Field Memorial, War Memorial Monument. Visit Cambodia's Best Duty-Free Store. Dinner and overnight in Siem Reap."
+          },
+          {
+            "day": 2,
+            "title": "Explore the Ancient Capital and the Great City of Angkor | Pub Street",
+            "meals": ["Breakfast", "Lunch", "Dinner"],
+            "description": "Full day Angkor circuit: Angkor Wat, Angkor Thom South Gate, Bayon Temple, Baphuon Temple, Terrace of Elephants, Terrace of Leper King, Ta Prohm Temple, Banteay Kdei, Srah Srang, Pre Rup sunset temple. Traditional Khmer dance buffet dinner (subject to availability). Evening at Pub Street and Night Market."
+          },
+          {
+            "day": 3,
+            "title": "Proceed to Phnom Penh | Skuon Market | Wat Ounalom | Sunset Mekong Cruise",
+            "meals": ["Breakfast", "Lunch", "Dinner"],
+            "description": "Check out and depart for Phnom Penh (approx. 6 hours). En route stop at Skuon Market (famous for fried spider snacks). Lunch on arrival. Afternoon: Wat Ounalom — Cambodia's oldest Buddhist foundation (est. 1443). Evening sunset cruise on the Mekong River — Tonle Sap confluence, Diamond Island, fishing villages, stilted houses and city skyline at dusk. Dinner and overnight in Phnom Penh."
+          },
+          {
+            "day": 4,
+            "title": "Explore the City of Phnom Penh and Depart",
+            "meals": ["Breakfast", "Lunch"],
+            "description": "Phnom Penh discovery tour: Central Market, Wat Phnom and Daun Penh Statue, Independence Monument, King Norodom Sihanouk Memorial, Royal Palace Park (exterior). Lunch at city restaurant. Airport transfer for onward journey."
+          }
+        ],
+        "includes": [
+          "Hotel accommodation as specified",
+          "Meals as specified",
+          "All entrances as specified",
+          "Fully guided tours",
+          "Return airport transfers",
+          "English-speaking guide"
+        ],
+        "excludes": [
+          "Flight ticket and taxes",
+          "Compulsory tour tips (RM 90)",
+          "ETIQA Travel Insurance Area 2 Gold (RM 41)",
+          "High season surcharge",
+          "Royal Palace entrance ticket (USD 10 per person, own expense if entering)",
+          "Items not stated under inclusions"
+        ],
+        "validUntil": "2027-03-31"
+      },
+      {
+        "id": "cambodia-5d-phnom-penh-sunset-mekong-cruise",
+        "slug": "siem-reap-phnom-penh/5-day-explore-cambodia",
+        "name": "5 Days Explore Cambodia | Phnom Penh + Sunset Mekong River Cruise",
+        "duration": "5D4N",
+        "price": "From RM2,038",
+        "originalPrice": "RM2,446",
+        "priceNote": "per person",
+        "saving": "Save RM815 per couple",
+        "tag": "Most Complete",
+        "tagColor": "red",
+        "highlights": [
+          "Angkor Wat Full Temple Circuit",
+          "Tonle Sap Lake Cruise",
+          "Royal Palace & Silver Pagoda, Phnom Penh",
+          "Toul Sleng Genocide Museum"
+        ],
+        "image": "/images/gallery/10496.jpg",
+        "popular": false,
+        "sourceUrl": "https://www.holidayidea.com.my/promo/package.php?pkgid=50&pkgtype=G",
+        "pkgId": 50,
+        "destinations": ["Siem Reap", "Phnom Penh"],
+        "hotelOptions": [
+          { "stars": 3, "hotel": "Holy Angkor or Kouprey Hotel, Siem Reap / Rose Emerald, Phnom Penh", "price": "RM 2,038" },
+          { "stars": 4, "hotel": "Somadevi / Angkor Holiday, Siem Reap / Capri or Poulo Wai, Phnom Penh", "price": "RM 2,298" },
+          { "stars": 5, "hotel": "Angkor Miracle Resort, Siem Reap / Naga 2 Hotel, Phnom Penh", "price": "RM 2,465" }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Explore the City of Siem Reap and Understand Its History",
+            "meals": ["Dinner"],
+            "description": "Arrival and city tour: Wat Preah Prom Rath, Preah Ang Chek and Preah Ang Chorm Shrine, Royal Gardens, Wat Thmei Killing Field Memorial, War Memorial Monument. Live performance of traditional Cambodian dances with dinner. Overnight in Siem Reap."
+          },
+          {
+            "day": 2,
+            "title": "Explore the Ancient Capital of Angkor and Its Great City | Pub Street",
+            "meals": ["Breakfast", "Lunch", "Dinner"],
+            "description": "Full day Angkor circuit: Angkor Wat, Angkor Thom South Gate, Bayon Temple, Baphuon Temple, Terrace of Elephants, Terrace of Leper King, Ta Prohm Temple, Banteay Kdei, Srah Srang, Pre Rup sunset temple. Evening at Pub Street and Night Market."
+          },
+          {
+            "day": 3,
+            "title": "Cruise on Tonle Sap Lake | Proceed to Phnom Penh",
+            "meals": ["Breakfast", "Lunch"],
+            "description": "Morning boat cruise on Tonle Sap Lake — floating villages, migratory birds, local life on the water. Artisan D'Angkor Centre visit. After lunch, depart for Phnom Penh by tourist bus (approx. 6 hours). En route stop at Skuon Market. Arrival and hotel transfer. Dinner on own account."
+          },
+          {
+            "day": 4,
+            "title": "Explore the City of Phnom Penh",
+            "meals": ["Breakfast", "Lunch", "Dinner"],
+            "description": "Full day Phnom Penh: Royal Palace and Silver Pagoda, Roung Damrei Museum, Ounalom Pagoda, Independence Monument, King Norodom Sihanouk Statue, Naga World entertainment resort, Wat Phnom, Toul Sleng Genocide Museum (S-21 prison complex), Russian Market. Dinner and overnight in Phnom Penh."
+          },
+          {
+            "day": 5,
+            "title": "Free to Explore Before Departing Phnom Penh",
+            "meals": ["Breakfast"],
+            "description": "Morning at leisure. Airport transfer for onward journey."
+          }
+        ],
+        "includes": [
+          "Hotel accommodation as specified",
+          "Meals as specified",
+          "All entrances as specified",
+          "Fully guided tours",
+          "Return airport transfers",
+          "English-speaking guide"
+        ],
+        "excludes": [
+          "Flight ticket and taxes",
+          "Compulsory tour tips (RM 110)",
+          "ETIQA Travel Insurance Area 2 Gold (RM 41)",
+          "High season surcharge",
+          "Day 3 dinner (own expense)",
+          "Items not stated under inclusions"
+        ],
+        "validUntil": "2027-03-31"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Cambodia Trip Through Dhesu",
+    "body": "Cambodia's logistics require people who know what they are doing. Temple entrance permits, transport between cities, halal meal arrangements and Muslim-friendly mosque visits all need coordinating. We have been doing this since 1988 and we know how to make it work.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed and registered. We assist with Cambodia visa documentation and Angkor pass arrangements as part of every package."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "description": "35+ years bringing Malaysian travellers to Cambodia, from first-time visitors to repeat temple enthusiasts."
+      },
+      {
+        "icon": "map",
+        "title": "Muslim-Friendly Options",
+        "description": "Halal and vegetarian meals arranged at no extra cost. Mosque visits included on request. Masjid AN NEAKMAH in Siem Reap and Masjid Al-Serkal in Phnom Penh."
+      },
+      {
+        "icon": "tag",
+        "title": "Right Hotels, Right Season",
+        "description": "Hotels selected for location and value across 3-star, 4-star and 5-star tiers. We book ahead to secure the best rooms for your travel dates."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Cambodia Trip",
+    "subheading": "Angkor Wat is waiting. Tell us when you want to go.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/16363.jpg"
+  }
+}

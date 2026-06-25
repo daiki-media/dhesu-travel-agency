@@ -111,6 +111,12 @@ import vietnamPhuQuoc3DaySuperSaver from "./vietnam/phu-quoc--3-day-phu-quoc-sup
 import vietnamPhuQuoc4DayCableCar from "./vietnam/phu-quoc--4-day-phu-quoc-cable-car.json";
 import vietnamPhuQuoc5DayBest from "./vietnam/phu-quoc--5-day-phu-quoc-best.json";
 
+import cambodiaSiemReap3DayAngkor from "./cambodia/siem-reap--3-day-angkor-khmer-empire.json";
+import cambodiaSiemReap4DayBestTonleSap from "./cambodia/siem-reap--4-day-best-of-siem-reap-tonle-sap.json";
+import cambodiaSiemReap4DayKulen from "./cambodia/siem-reap--4-day-angkor-kingdom-sacred-mountain.json";
+import cambodiaSiemReapPhnomPenh4DayMekong from "./cambodia/siem-reap-phnom-penh--4-day-mekong-river-cruise.json";
+import cambodiaSiemReapPhnomPenh5DayExplore from "./cambodia/siem-reap-phnom-penh--5-day-explore-cambodia.json";
+
 const packageDetails: Record<string, PackageDetailData> = {
   "paro-thimphu/5-day-calm-trails-grand-views": bhutanParoThimphu5DayCalmTrails as PackageDetailData,
   "paro-thimphu/6-day-kingdom-of-happiness": bhutanParoThimphu6DayKingdomHappiness as PackageDetailData,
@@ -218,6 +224,11 @@ const packageDetails: Record<string, PackageDetailData> = {
   "phu-quoc/3-day-phu-quoc-super-saver": vietnamPhuQuoc3DaySuperSaver as PackageDetailData,
   "phu-quoc/4-day-phu-quoc-cable-car": vietnamPhuQuoc4DayCableCar as PackageDetailData,
   "phu-quoc/5-day-phu-quoc-best": vietnamPhuQuoc5DayBest as PackageDetailData,
+  "siem-reap/3-day-angkor-khmer-empire": cambodiaSiemReap3DayAngkor as PackageDetailData,
+  "siem-reap/4-day-best-of-siem-reap-tonle-sap": cambodiaSiemReap4DayBestTonleSap as PackageDetailData,
+  "siem-reap/4-day-angkor-kingdom-sacred-mountain": cambodiaSiemReap4DayKulen as PackageDetailData,
+  "siem-reap-phnom-penh/4-day-mekong-river-cruise": cambodiaSiemReapPhnomPenh4DayMekong as PackageDetailData,
+  "siem-reap-phnom-penh/5-day-explore-cambodia": cambodiaSiemReapPhnomPenh5DayExplore as PackageDetailData,
 };
 
 export const packageSlugs = Object.keys(packageDetails);
