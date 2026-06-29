@@ -119,6 +119,11 @@ import cambodiaSiemReapPhnomPenh5DayExplore from "./cambodia/siem-reap-phnom-pen
 
 import laosVientianeLuangPrabang4DaySacredByTrain from "./laos/vientiane-luang-prabang--4-day-sacred-laos-by-train.json";
 
+import malaysiaSabah3DayKkBongawanCruiseDreamBeach from "./malaysia/sabah--3-day-kk-bongawan-cruise-dream-beach.json";
+import malaysiaSabah3DayBestOfKkKundasang from "./malaysia/sabah--3-day-best-of-kk-kundasang.json";
+import malaysiaSabah4DayKkSnorkellingKundasang from "./malaysia/sabah--4-day-kk-snorkelling-kundasang.json";
+import malaysiaSabah5DayBestOfKkKundasangMariMari from "./malaysia/sabah--5-day-best-of-kk-kundasang-mari-mari.json";
+
 const packageDetails: Record<string, PackageDetailData> = {
   "paro-thimphu/5-day-calm-trails-grand-views": bhutanParoThimphu5DayCalmTrails as PackageDetailData,
   "paro-thimphu/6-day-kingdom-of-happiness": bhutanParoThimphu6DayKingdomHappiness as PackageDetailData,
@@ -232,6 +237,10 @@ const packageDetails: Record<string, PackageDetailData> = {
   "siem-reap-phnom-penh/4-day-mekong-river-cruise": cambodiaSiemReapPhnomPenh4DayMekong as PackageDetailData,
   "siem-reap-phnom-penh/5-day-explore-cambodia": cambodiaSiemReapPhnomPenh5DayExplore as PackageDetailData,
   "vientiane-luang-prabang/4-day-sacred-laos-by-train": laosVientianeLuangPrabang4DaySacredByTrain as PackageDetailData,
+  "sabah/3-day-kk-bongawan-cruise-dream-beach": malaysiaSabah3DayKkBongawanCruiseDreamBeach as PackageDetailData,
+  "sabah/3-day-best-of-kk-kundasang": malaysiaSabah3DayBestOfKkKundasang as PackageDetailData,
+  "sabah/4-day-kk-snorkelling-kundasang": malaysiaSabah4DayKkSnorkellingKundasang as PackageDetailData,
+  "sabah/5-day-best-of-kk-kundasang-mari-mari": malaysiaSabah5DayBestOfKkKundasangMariMari as PackageDetailData,
 };
 
 export const packageSlugs = Object.keys(packageDetails);

@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "name": "Malaysia",
+    "title": "Malaysia Tour Package | Sabah Borneo Tours from KL | Dhesu Travel & Tours",
+    "description": "Explore Malaysian Borneo with Dhesu. Sabah tour packages from RM498 — Kota Kinabalu, UNESCO Kinabalu Park, Kundasang highlands, island snorkelling and cultural villages. MATTA & IATA registered, trusted since 1988.",
+    "slug": "malaysia",
+    "targetKeyword": "Sabah tour package Malaysia",
+    "secondaryKeywords": [
+      "Kota Kinabalu tour package",
+      "Borneo tour Malaysia",
+      "Kinabalu Park tour",
+      "Kundasang tour package",
+      "Sabah island tour"
+    ],
+    "region": "Southeast Asia",
+    "hubCardColor": "green"
+  },
+  "hero": {
+    "badge": "Malaysian Borneo — Sabah & Sarawak",
+    "headline": "Wild Borneo.",
+    "headlineAccent": "Right at Home.",
+    "body": "Proboscis monkeys in mangrove forests. Turquoise water around coral islands 40 minutes from Kota Kinabalu city. UNESCO rainforest trails in the shadow of Mount Kinabalu — the highest peak between the Himalayas and New Guinea. Highland farms with dairy cattle and mountain mist at 6,000 feet. Five indigenous cultures under one longhouse roof. Malaysia's wildest corner is also the one most Malaysians have never seen.",
+    "bgImage": "/images/gallery/12139.jpg",
+    "stats": [
+      { "value": "4,095m", "label": "Mount Kinabalu — Highest Peak in SE Asia" },
+      { "value": "35+", "label": "Years of Travel Expertise" },
+      { "value": "1988", "label": "Trusted Since" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Malaysia",
+    "heading": "The Other Malaysia — Wilder, Quieter, Genuinely Extraordinary",
+    "subheading": "Peninsular Malaysia is familiar. Sabah and Sarawak on the island of Borneo are different countries in every meaningful sense — different wildlife, different geography, different indigenous cultures, and a nature that is simply on a different scale.",
+    "highlights": [
+      {
+        "icon": "mountain",
+        "title": "Kinabalu Park — UNESCO World Heritage Rainforest",
+        "body": "Mount Kinabalu at 4,095 metres is the highest mountain between the Himalayas and Papua New Guinea. The surrounding Kinabalu National Park — a UNESCO World Heritage Site since 2000 — protects one of the most biodiverse ecosystems on Earth: over 5,000 plant species, 326 bird species, and 100 mammal species within its boundaries. A guided nature trail through the park's lower slopes takes you through cloud forest so dense and alive that Borneo's international reputation as a biodiversity hotspot becomes immediately obvious.",
+        "image": "/images/gallery/10299.jpg",
+        "places": ["Kinabalu National Park", "Sosodikon Hill", "Desa Cow Farm"]
+      },
+      {
+        "icon": "wave",
+        "title": "Tunku Abdul Rahman Marine Park — Islands from the City",
+        "body": "Five islands, 40 minutes by boat from Kota Kinabalu's Jesselton Jetty, make up the Tunku Abdul Rahman National Park — Malaysia's first national marine park. Manukan Island has 1,500 metres of white sandy beach and exceptional snorkelling on healthy coral reefs. Sapi Island adds the Coral Flyer — a 250-metre zipline at 60 km/h across the water between two islands. Gaya Island's sandbar at low tide attracts wild proboscis monkeys from the jungle behind the beach.",
+        "image": "/images/gallery/14254.jpg",
+        "places": ["Manukan Island", "Sapi Island", "Gaya Island Sandbar"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Kundasang — The Highlands at 6,000 Feet",
+        "body": "Kundasang sits at 1,800 metres in the Crocker Range, directly facing the granite peaks of Mount Kinabalu across the valley. The temperature drops to 15–20°C at night, the morning clouds sit below the town, and the scenery — mountain pastures, cattle farms, vegetable gardens — is so unlike anything on the Malay Peninsula that first-time visitors frequently compare it to New Zealand or the Swiss Alps. Desa Farm here, with its dairy cattle and highland setting, is the view that defines Sabah for most Malaysian visitors.",
+        "image": "/images/gallery/10299.jpg",
+        "places": ["Kundasang Town", "Sosodikon Hill Sunrise", "Desa Cow Farm"]
+      },
+      {
+        "icon": "temple",
+        "title": "Mari Mari Cultural Village — Five Tribes in One Place",
+        "body": "Twenty-five minutes from Kota Kinabalu, Mari Mari Cultural Village brings together the five major indigenous peoples of Sabah under one roof — or rather, five separate authentic longhouses. The Dusun, Rungus, Lundayeh, Bajau, and Murut tribes each have their own structure built by tribal descendants, their own cultural demonstrations (blowpipe shooting, fire-starting, traditional tattoo art, the Murut Lansaran trampoline jumping), and their own food traditions. It is the most comprehensive introduction to Sabah's extraordinary cultural diversity in one visit.",
+        "image": "/images/gallery/10300.jpg",
+        "places": ["Mari Mari Cultural Village", "Dusun Longhouse", "Bajau Sea Gypsy Village"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Malaysia Destinations",
+    "heading": "Sabah and Sarawak — Malaysian Borneo",
+    "subheading": "Two Malaysian states on the world's third-largest island. Sabah in the north is the most visited — Kota Kinabalu, Kinabalu Park, the islands, Kundasang. Sarawak in the southwest is rainforest, longhouses, and the Iban people's extraordinary river culture.",
+    "areas": [
+      {
+        "name": "Sabah",
+        "tag": "Borneo Wildlife & Islands",
+        "tagColor": "green",
+        "description": "Malaysia's 'Land Below the Wind.' Kota Kinabalu's island-dotted bay, UNESCO Kinabalu Park, the cool highland town of Kundasang, proboscis monkey river cruises, fireflies, sky mirror beach and the Tunku Abdul Rahman Marine Park islands — all in one compact northeast Borneo destination.",
+        "image": "/images/gallery/14253.jpg",
+        "vibe": "Wild & Adventurous",
+        "href": "/tours/malaysia/sabah"
+      },
+      {
+        "name": "Sarawak",
+        "tag": "Rainforest & Longhouses",
+        "tagColor": "orange",
+        "description": "Malaysian Borneo's largest state. Kuching's colonial waterfront and the best food scene in East Malaysia. Bako National Park for proboscis monkeys and pitcher plants. Iban longhouses on the Skrang River. Mulu National Park's cave systems — the world's largest underground chambers. Custom packages available.",
+        "image": "/images/gallery/14254.jpg",
+        "vibe": "Rainforest & Culture",
+        "href": "/tours/malaysia/sarawak"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit Sabah from Kuala Lumpur",
+    "body": "Sabah is a year-round destination. The east coast experiences a different monsoon pattern from the west coast — Kota Kinabalu and the islands are most reliably calm during the dry season.",
+    "seasons": [
+      {
+        "name": "Peak Season",
+        "months": "March to October",
+        "badge": "Best for Islands",
+        "badgeColor": "green",
+        "description": "Kota Kinabalu's west coast dry season. Calm seas for island hopping, clear skies for snorkelling at Tunku Abdul Rahman Marine Park, and the best visibility for Mount Kinabalu from Kundasang. Most popular travel window for Malaysian families.",
+        "icon": "sun"
+      },
+      {
+        "name": "Cool Highland Season",
+        "months": "November to February",
+        "badge": "Best for Highlands",
+        "badgeColor": "blue",
+        "description": "Slightly cooler at Kundasang with morning mist and dramatic cloud formations around Mount Kinabalu. West coast can see some rain but usually clears by mid-morning. Excellent for Kinabalu Park nature trails and Desa Farm visits. Hotel rates are lower.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days Do You Actually Need?",
+    "options": [
+      {
+        "days": "3 Days",
+        "label": "City + One Experience",
+        "description": "Choose between the Bongawan river cruise and fireflies (coastal) or Kinabalu Park and Kundasang (highland). Three days covers one experience well."
+      },
+      {
+        "days": "4 Days",
+        "label": "Sweet Spot",
+        "description": "Adds island snorkelling at Tunku Abdul Rahman Marine Park to the Kundasang highland circuit. The best balance of mountain, coast, and city.",
+        "recommended": true
+      },
+      {
+        "days": "5 Days",
+        "label": "Complete Sabah",
+        "description": "Everything: Kinabalu Park, Kundasang, islands, and the Mari Mari Cultural Village. The most comprehensive Sabah experience in a single trip."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Sabah Tour Packages from Kota Kinabalu",
+    "subheading": "From the mangrove river cruises and fireflies of Bongawan to the UNESCO rainforest of Kinabalu Park, the highland dairy farms of Kundasang, and the island snorkelling of Tunku Abdul Rahman Marine Park. Every package is 100% private with a dedicated driver-guide.",
+    "ctaNote": "Group discounts available from 3 adults. Custom packages on request.",
+    "items": [
+      {
+        "id": "malaysia-3d-kk-bongawan-dream-beach",
+        "slug": "sabah/3-day-kk-bongawan-cruise-dream-beach",
+        "name": "3 Days KK + Bongawan River Cruise & Sky Mirror Beach",
+        "duration": "3D2N",
+        "price": "From RM498",
+        "originalPrice": "RM598",
+        "priceNote": "per person",
+        "saving": "Save RM200 per couple",
+        "tag": "Best Value",
+        "tagColor": "green",
+        "highlights": [
+          "Bongawan Mangrove River Cruise — Proboscis Monkeys & Wildlife",
+          "Sky Mirror Beach Sunset Photography",
+          "Fireflies Cruise at Night",
+          "KK Waterfront & City Exploration"
+        ],
+        "image": "/images/gallery/14296.jpg",
+        "popular": false,
+        "sourceUrl": "https://www.holidayidea.com.my/promo/package.php?pkgid=2311&pkgtype=G",
+        "pkgId": 2311,
+        "destinations": ["Kota Kinabalu", "Bongawan"],
+        "hotelOptions": [
+          { "stars": 3, "hotel": "Dreamtel Hotel or similar, Kota Kinabalu", "price": "RM 498" },
+          { "stars": 4, "hotel": "The Palace Hotel or similar, Kota Kinabalu", "price": "RM 658" },
+          { "stars": 5, "hotel": "The Pacific Sutera or similar, Kota Kinabalu", "price": "RM 898" }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrive Kota Kinabalu | KK Waterfront",
+            "meals": [],
+            "description": "Arrive at Kota Kinabalu International Airport and transfer to hotel. Free time to explore the KK Waterfront area and city centre at leisure. Overnight in Kota Kinabalu."
+          },
+          {
+            "day": 2,
+            "title": "Bongawan Mangrove Cruise | Sky Mirror Beach | Fireflies",
+            "meals": ["Breakfast", "Dinner"],
+            "description": "Hotel breakfast. Afternoon (3PM) pickup to Bongawan River jetty. Welcome refreshments on arrival. Scenic mangrove river cruise with proboscis monkeys, macaques, langurs, otters and monitor lizards. Sky Mirror Beach sunset photography. Local buffet dinner. Evening fireflies cruise. Return to hotel. Overnight Kota Kinabalu."
+          },
+          {
+            "day": 3,
+            "title": "Free Morning | Depart Kota Kinabalu",
+            "meals": ["Breakfast"],
+            "description": "Hotel breakfast. Free time for personal exploration or souvenir shopping. Airport transfer for onward journey."
+          }
+        ],
+        "includes": [
+          "Hotel accommodation as specified",
+          "Meals as specified",
+          "All entrance fees",
+          "Return airport transfers",
+          "English-speaking driver-guide"
+        ],
+        "excludes": [
+          "Flight tickets and taxes",
+          "Compulsory tour tips (RM 29)",
+          "ETIQA Travel Insurance (RM 17)",
+          "Tourism tax for non-Malaysian passport holders",
+          "High season surcharge",
+          "Items not stated under inclusions"
+        ],
+        "validUntil": "2027-03-31"
+      },
+      {
+        "id": "malaysia-3d-kk-kundasang",
+        "slug": "sabah/3-day-best-of-kk-kundasang",
+        "name": "3 Days Best of Kota Kinabalu + Kundasang",
+        "duration": "3D2N",
+        "price": "From RM1,098",
+        "originalPrice": "RM1,373",
+        "priceNote": "per person",
+        "saving": "Save RM550 per couple",
+        "tag": "Popular",
+        "tagColor": "blue",
+        "highlights": [
+          "UNESCO Kinabalu National Park Guided Nature Trail",
+          "Sosodikon Hill Sunrise at 400m Elevation",
+          "Desa Cow Farm — Mount Kinabalu Backdrop",
+          "Rumah Terbalik (Upside Down House) — First in SE Asia"
+        ],
+        "image": "/images/gallery/14252.jpg",
+        "popular": true,
+        "sourceUrl": "https://www.holidayidea.com.my/promo/package.php?pkgid=2310&pkgtype=G",
+        "pkgId": 2310,
+        "destinations": ["Kota Kinabalu", "Kundasang"],
+        "hotelOptions": [
+          { "stars": 3, "hotel": "H. Benjamin Hotel, Kundasang + Howard Johnson by Wyndham, Kota Kinabalu", "price": "RM 1,098" }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrive KK | Rumah Terbalik | Kinabalu Park | Kundasang",
+            "meals": [],
+            "description": "Arrive KK. Rumah Terbalik, Jambatan Tamparuli, Pekan Nabalu, Kinabalu Park guided trail. Hotel Kundasang."
+          },
+          {
+            "day": 2,
+            "title": "Sosodikon Sunrise | Desa Farm | Fish Therapy | KK City",
+            "meals": ["Breakfast"],
+            "description": "Sunrise hike, Desa Cow Farm, fish therapy, Rabbit Farm, Floating Mosque, Tanjung Aru beach."
+          },
+          {
+            "day": 3,
+            "title": "KK City Tour | Depart",
+            "meals": ["Breakfast"],
+            "description": "Museum Negeri Sabah, Filipino Market, Sabah Choco House, Layer Cake, airport departure."
+          }
+        ],
+        "includes": [
+          "Hotel accommodation as specified",
+          "Meals as specified",
+          "All entrance fees",
+          "All transfers",
+          "English-speaking driver-guide",
+          "100% Private Tour"
+        ],
+        "excludes": [
+          "Flight tickets and taxes",
+          "Compulsory tour tips (RM 29)",
+          "ETIQA Travel Insurance (RM 17)",
+          "Tourism tax for non-Malaysian passport holders",
+          "High season surcharge",
+          "Items not stated under inclusions"
+        ],
+        "validUntil": "2027-03-31"
+      },
+      {
+        "id": "malaysia-4d-kk-snorkelling-kundasang",
+        "slug": "sabah/4-day-kk-snorkelling-kundasang",
+        "name": "4 Days Kota Kinabalu Snorkelling + Kundasang",
+        "duration": "4D3N",
+        "price": "From RM1,388",
+        "originalPrice": "RM1,666",
+        "priceNote": "per person",
+        "saving": "Save RM556 per couple",
+        "tag": "Best Seller",
+        "tagColor": "green",
+        "highlights": [
+          "Manukan & Sapi Island Snorkelling — Tunku Abdul Rahman Marine Park",
+          "Coral Flyer Zipline (250m / 60 km/h) Between Islands",
+          "UNESCO Kinabalu National Park Guided Trail",
+          "Desa Cow Farm at Foot of Mount Kinabalu"
+        ],
+        "image": "/images/gallery/14256.jpg",
+        "popular": true,
+        "sourceUrl": "https://www.holidayidea.com.my/promo/package.php?pkgid=2048&pkgtype=G",
+        "pkgId": 2048,
+        "destinations": ["Kota Kinabalu", "Kundasang", "Manukan Island", "Sapi Island"],
+        "hotelOptions": [
+          { "stars": 3, "hotel": "H. Benjamin Hotel, Kundasang + Howard Johnson by Wyndham, Kota Kinabalu", "price": "RM 1,388" }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrive KK | Rumah Terbalik | Kinabalu Park | Kundasang",
+            "meals": [],
+            "description": "Arrive KK. Rumah Terbalik, Tamparuli bridge, Pekan Nabalu, Kinabalu Park guided trail. Overnight Kundasang."
+          },
+          {
+            "day": 2,
+            "title": "Sosodikon Sunrise | Desa Farm | Fish Therapy | KK City",
+            "meals": ["Breakfast"],
+            "description": "Sunrise at Sosodikon Hill, Desa Farm, fish therapy, Rabbit Farm, Floating Mosque, Tanjung Aru beach. Overnight KK."
+          },
+          {
+            "day": 3,
+            "title": "Island Day — Sapi & Manukan, Tunku Abdul Rahman Marine Park",
+            "meals": ["Breakfast"],
+            "description": "09:00 Jesselton Jetty boat to Sapi Island (snorkelling, Coral Flyer zipline) and Manukan Island (beach, snorkelling, parasailing). Return 14:00. Evening seafood dinner (own cost)."
+          },
+          {
+            "day": 4,
+            "title": "KK City Tour | Depart",
+            "meals": ["Breakfast"],
+            "description": "Museum Negeri Sabah, Filipino Market, Sabah Choco House, Layer Cake, airport departure."
+          }
+        ],
+        "includes": [
+          "Hotel accommodation as specified",
+          "Meals as specified (3 breakfasts)",
+          "All entrance fees",
+          "All transfers including Jesselton Jetty to islands",
+          "English-speaking driver-guide"
+        ],
+        "excludes": [
+          "Flight tickets and taxes",
+          "Compulsory tour tips (RM 39)",
+          "ETIQA Travel Insurance (RM 17)",
+          "Optional island BBQ lunch (RM 55/person)",
+          "Tourism tax for non-Malaysian passport holders",
+          "High season surcharge",
+          "Items not stated under inclusions"
+        ],
+        "validUntil": "2027-03-31"
+      },
+      {
+        "id": "malaysia-5d-kk-kundasang-mari-mari",
+        "slug": "sabah/5-day-best-of-kk-kundasang-mari-mari",
+        "name": "5 Days Best of KK + Kundasang + Mari Mari Cultural Village",
+        "duration": "5D4N",
+        "price": "From RM1,678",
+        "originalPrice": "RM2,098",
+        "priceNote": "per person",
+        "saving": "Save RM840 per couple",
+        "tag": "Most Complete",
+        "tagColor": "blue",
+        "highlights": [
+          "Mari Mari Cultural Village — 5 Major Ethnic Tribes of Sabah",
+          "Manukan & Sapi Island Snorkelling",
+          "UNESCO Kinabalu National Park Trail",
+          "Sosodikon Hill Sunrise + Desa Cow Farm"
+        ],
+        "image": "/images/gallery/10300.jpg",
+        "popular": false,
+        "sourceUrl": "https://www.holidayidea.com.my/promo/package.php?pkgid=2049&pkgtype=G",
+        "pkgId": 2049,
+        "destinations": ["Kota Kinabalu", "Kundasang", "Sapi Island", "Manukan Island", "Mari Mari"],
+        "hotelOptions": [
+          { "stars": 3, "hotel": "H. Benjamin Hotel, Kundasang + Howard Johnson by Wyndham, Kota Kinabalu", "price": "RM 1,678" }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrive KK | Rumah Terbalik | Kinabalu Park | Kundasang",
+            "meals": [],
+            "description": "Arrive KK. Rumah Terbalik, Tamparuli bridge, Pekan Nabalu, Kinabalu Park guided trail. Overnight Kundasang."
+          },
+          {
+            "day": 2,
+            "title": "Sosodikon Sunrise | Desa Farm | Fish Therapy | KK City",
+            "meals": ["Breakfast"],
+            "description": "Sunrise Sosodikon Hill, Desa Farm, fish therapy, Rabbit Farm, Floating Mosque, Tanjung Aru sunset. Overnight KK."
+          },
+          {
+            "day": 3,
+            "title": "Island Day — Sapi & Manukan Islands",
+            "meals": ["Breakfast"],
+            "description": "09:00 Jesselton Jetty to Sapi and Manukan Islands. Snorkelling, Coral Flyer zipline, beach, optional parasailing. Return 14:00. Evening at leisure."
+          },
+          {
+            "day": 4,
+            "title": "Mari Mari Cultural Village — 5 Ethnic Tribes of Sabah",
+            "meals": ["Breakfast", "Lunch", "Dinner"],
+            "description": "Full day at Mari Mari Cultural Village: Dusun, Rungus, Lundayeh, Bajau and Murut longhouses. Blowpipe shooting, fire-starting, tattoo art, Lansaran trampoline. Lunch and dinner included."
+          },
+          {
+            "day": 5,
+            "title": "KK City Tour | Depart",
+            "meals": ["Breakfast"],
+            "description": "Museum Negeri Sabah, Filipino Market, Sabah Choco House, Layer Cake, airport departure."
+          }
+        ],
+        "includes": [
+          "Hotel accommodation as specified (4 nights)",
+          "Meals as specified",
+          "All entrance fees including Mari Mari Cultural Village",
+          "All transfers including island boat tickets",
+          "English-speaking driver-guide"
+        ],
+        "excludes": [
+          "Flight tickets and taxes",
+          "Compulsory tour tips (RM 49)",
+          "ETIQA Travel Insurance (RM 17)",
+          "Optional island BBQ lunch (RM 55/person)",
+          "Tourism tax for non-Malaysian passport holders",
+          "High season surcharge",
+          "Items not stated under inclusions"
+        ],
+        "validUntil": "2027-03-31"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Sabah Trip Through Dhesu",
+    "body": "Sabah rewards those who have arranged the details correctly. The timing of Kinabalu Park (early morning before the clouds come in), the Bongawan fireflies cruise (tide-dependent), and the island hopping sequence (Sapi then Manukan, not the reverse) all require local knowledge. Dhesu has been arranging Malaysia travel for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed Malaysian travel agency. Trusted by Malaysian travellers for domestic and international travel since 1988. All Sabah packages are arranged with licensed local operators."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "description": "35+ years arranging travel for Malaysians. We know Sabah's seasons, operators, and how to make each package work well — from the island weather windows to the Kinabalu Park permit system."
+      },
+      {
+        "icon": "map",
+        "title": "100% Private Tours",
+        "description": "Every Sabah package from Dhesu is completely private — your own driver-guide, your own vehicle, your own schedule. No sharing with strangers, no waiting for others. Your trip moves at your pace."
+      },
+      {
+        "icon": "tag",
+        "title": "Group Discounts Available",
+        "description": "Significant price reductions for groups of 3, 5, and 7+ adults. The 5-day package drops to RM988 per person for a group of 7 — making Sabah extremely accessible for extended family trips and company retreats."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Sabah Adventure",
+    "subheading": "Wild Borneo, UNESCO rainforest, island beaches and five indigenous cultures — tell us when you want to go.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/14299.jpg"
+  }
+}

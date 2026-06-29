@@ -9,6 +9,7 @@ import nepalData from "./nepal.json";
 import vietnamData from "./vietnam.json";
 import cambodiaData from "./cambodia.json";
 import laosData from "./laos.json";
+import malaysiaData from "./malaysia.json";
 
 export const tourPages: Record<string, TourPageData> = {
   india: indiaData as TourPageData,
@@ -19,6 +20,7 @@ export const tourPages: Record<string, TourPageData> = {
   vietnam: vietnamData as TourPageData,
   cambodia: cambodiaData as TourPageData,
   laos: laosData as TourPageData,
+  malaysia: malaysiaData as TourPageData,
 };
 
 export const tourSlugs = Object.keys(tourPages);
