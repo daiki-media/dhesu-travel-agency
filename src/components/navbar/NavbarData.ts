@@ -25,15 +25,15 @@ export const navLinks: NavLink[] = [
       {
         heading: "Southeast Asia",
         items: [
-          { label: "Bali", href: "/tours/bali" },
+          { label: "Bhutan", href: "/tours/bhutan" },
           { label: "Indonesia", href: "/tours/indonesia" },
           { label: "Thailand", href: "/tours/thailand" },
           { label: "Vietnam", href: "/tours/vietnam" },
           { label: "Cambodia", href: "/tours/cambodia" },
           { label: "Malaysia", href: "/tours/malaysia" },
-          { label: "Philippines", href: "/tours/philippines" },
+          // { label: "Philippines", href: "/tours/philippines" },
           { label: "Laos", href: "/tours/laos" },
-          { label: "All Southeast Asia", href: "/tours/southeast-asia" },
+          // { label: "All Southeast Asia", href: "/tours/southeast-asia" },
         ],
       },
       {
@@ -43,34 +43,34 @@ export const navLinks: NavLink[] = [
           { label: "Sri Lanka", href: "/tours/sri-lanka" },
           { label: "Nepal", href: "/tours/nepal" },
           { label: "Bhutan", href: "/tours/bhutan" },
-          { label: "Maldives", href: "/tours/maldives" },
+          // { label: "Maldives", href: "/tours/maldives" },
         ],
       },
-      {
-        heading: "Middle East & Africa",
-        items: [
-          { label: "Dubai & UAE", href: "/tours/dubai-uae" },
-          { label: "Egypt", href: "/tours/egypt" },
-          { label: "Africa", href: "/tours/africa" },
-          { label: "Turkey & Greece", href: "/tours/turkey-greece" },
-        ],
-      },
-      {
-        heading: "Far East & Pacific",
-        items: [
-          { label: "China", href: "/tours/china" },
-          { label: "South Korea", href: "/tours/south-korea" },
-          { label: "Japan", href: "/tours/japan" },
-          { label: "Australia", href: "/tours/australia" },
-        ],
-      },
-      {
-        heading: "Europe & Americas",
-        items: [
-          { label: "Europe", href: "/tours/europe" },
-          { label: "Canada", href: "/tours/canada" },
-        ],
-      },
+      // {
+      //   heading: "Middle East & Africa",
+      //   items: [
+      //     // { label: "Dubai & UAE", href: "/tours/dubai-uae" },
+      //     // { label: "Egypt", href: "/tours/egypt" },
+      //     // { label: "Africa", href: "/tours/africa" },
+      //     // { label: "Turkey & Greece", href: "/tours/turkey-greece" },
+      //   ],
+      // },
+      // {
+      //   heading: "Far East & Pacific",
+      //   items: [
+      //     // { label: "China", href: "/tours/china" },
+      //     // { label: "South Korea", href: "/tours/south-korea" },
+      //     // { label: "Japan", href: "/tours/japan" },
+      //     // { label: "Australia", href: "/tours/australia" },
+      //   ],
+      // },
+      // {
+      //   heading: "Europe & Americas",
+      //   items: [
+      //     // { label: "Europe", href: "/tours/europe" },
+      //     // { label: "Canada", href: "/tours/canada" },
+      //   ],
+      // },
     ],
   },
 

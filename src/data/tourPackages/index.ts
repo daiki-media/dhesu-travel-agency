@@ -117,6 +117,8 @@ import cambodiaSiemReap4DayKulen from "./cambodia/siem-reap--4-day-angkor-kingdo
 import cambodiaSiemReapPhnomPenh4DayMekong from "./cambodia/siem-reap-phnom-penh--4-day-mekong-river-cruise.json";
 import cambodiaSiemReapPhnomPenh5DayExplore from "./cambodia/siem-reap-phnom-penh--5-day-explore-cambodia.json";
 
+import laosVientianeLuangPrabang4DaySacredByTrain from "./laos/vientiane-luang-prabang--4-day-sacred-laos-by-train.json";
+
 const packageDetails: Record<string, PackageDetailData> = {
   "paro-thimphu/5-day-calm-trails-grand-views": bhutanParoThimphu5DayCalmTrails as PackageDetailData,
   "paro-thimphu/6-day-kingdom-of-happiness": bhutanParoThimphu6DayKingdomHappiness as PackageDetailData,
@@ -229,6 +231,7 @@ const packageDetails: Record<string, PackageDetailData> = {
   "siem-reap/4-day-angkor-kingdom-sacred-mountain": cambodiaSiemReap4DayKulen as PackageDetailData,
   "siem-reap-phnom-penh/4-day-mekong-river-cruise": cambodiaSiemReapPhnomPenh4DayMekong as PackageDetailData,
   "siem-reap-phnom-penh/5-day-explore-cambodia": cambodiaSiemReapPhnomPenh5DayExplore as PackageDetailData,
+  "vientiane-luang-prabang/4-day-sacred-laos-by-train": laosVientianeLuangPrabang4DaySacredByTrain as PackageDetailData,
 };
 
 export const packageSlugs = Object.keys(packageDetails);

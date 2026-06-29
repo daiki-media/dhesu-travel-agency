@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "name": "Laos",
+    "title": "Laos Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Discover sacred Laos — Vientiane's golden temples and UNESCO-listed Luang Prabang by high-speed train. Laos tour packages from RM1,888. Dhesu — Malaysia's trusted travel agency since 1988. MATTA & IATA registered.",
+    "slug": "laos",
+    "targetKeyword": "Laos tour package from Malaysia",
+    "secondaryKeywords": [
+      "Vientiane tour package Malaysia",
+      "Luang Prabang package Malaysia",
+      "Laos holiday package",
+      "Pha That Luang tour Malaysia",
+      "Kuang Si Waterfall Laos"
+    ],
+    "region": "Southeast Asia",
+    "hubCardColor": "blue"
+  },
+  "hero": {
+    "badge": "Southeast Asia's Most Peaceful Destination",
+    "headline": "Sacred Laos.",
+    "headlineAccent": "Unhurried and Untouched.",
+    "body": "Saffron-robed monks file silently through Luang Prabang's misty streets at dawn. Pha That Luang's golden stupa rises above Vientiane's quiet skyline as the Mekong catches the last light. A high-speed train cuts through karst mountains in two hours. Laos is everything Southeast Asia used to be — and somehow still is.",
+    "bgImage": "/images/gallery/16469.jpg",
+    "stats": [
+      { "value": "UNESCO", "label": "Luang Prabang World Heritage" },
+      { "value": "35+", "label": "Years of Travel Expertise" },
+      { "value": "1988", "label": "Trusted Since" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Laos",
+    "heading": "The Last Quiet Kingdom in Southeast Asia",
+    "subheading": "Laos moves at its own pace. Where other Southeast Asian cities have raced ahead, Laos has held onto something rarer: a genuine stillness, a Buddhist calm that shapes everyday life — from the alms-giving ceremony at dawn to the temple bells at dusk.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "Vientiane: A Capital Unlike Any Other",
+        "body": "The smallest, quietest capital in Southeast Asia — and arguably the most charming. Wat Si Saket's cloister of 6,840 Buddha images. Haw Phra Kaew, the former royal temple and museum of Lao religious art. Pha That Luang, the most important national monument in Laos, a golden stupa that has stood for over 400 years as the symbol of Lao sovereignty. The Patuxai victory gate — a Lao Arc de Triomphe with Buddhist motifs carved into every arch.",
+        "image": "/images/gallery/16470.jpg",
+        "places": ["Pha That Luang", "Wat Si Saket", "Patuxai Monument"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Luang Prabang: A Town Frozen in Time",
+        "body": "A UNESCO World Heritage city at the confluence of the Mekong and Nam Khan rivers. French colonial shophouses line streets dotted with over 30 Buddhist wats. Wat Xieng Thong's sweeping golden-mosaic facade dates to 1560. The Royal Palace Museum holds centuries of Lao royal history. Mount Phousi rises above the old town for the finest sunset view in all of Laos — the two rivers framing the city below in fading gold.",
+        "image": "/images/gallery/16471.jpg",
+        "places": ["Wat Xieng Thong", "Royal Palace Museum", "Mount Phousi Sunset"]
+      },
+      {
+        "icon": "wave",
+        "title": "Kuang Si Falls: Laos at Its Most Beautiful",
+        "body": "Tiered turquoise cascades tumbling through jungle into natural swimming pools of surreal blue-green water. Kuang Si Waterfall is the most beloved natural attraction in Laos — and nothing in a photograph does it justice. The bear rescue centre at the base rehabilitates Asiatic black bears saved from the illegal wildlife trade. An unmissable half-day excursion from Luang Prabang, best reached early before the afternoon crowds arrive.",
+        "image": "/images/gallery/16472.jpg",
+        "places": ["Kuang Si Waterfall", "Bear Rescue Centre", "Natural Travertine Pools"]
+      },
+      {
+        "icon": "food",
+        "title": "Night Markets, Silk Villages and Mekong Evenings",
+        "body": "Laos measures evenings in two ways: watching the sun drop behind the Mekong from a riverside perch, and browsing Luang Prabang's famous Night Market — hundreds of stalls selling handwoven silk, silverwork, and Hmong textiles along the main street. Ban Xang Khong, the silk-weaving village just outside Luang Prabang, keeps alive a craft that has been practised here for generations. Vientiane's French-Lao café culture rounds out a country with more culinary personality than most visitors expect.",
+        "image": "/images/gallery/16473.png",
+        "places": ["Luang Prabang Night Market", "Ban Xang Khong Silk Village", "Mekong Riverside"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Laos Destinations",
+    "heading": "Where to Go and Why",
+    "subheading": "Most Laos trips combine Vientiane's golden temples and monuments with Luang Prabang's UNESCO-listed royal old town — now connected by a scenic high-speed train that makes the journey just two hours through mountain and river valley.",
+    "areas": [
+      {
+        "name": "Vientiane",
+        "tag": "Temples & Monuments",
+        "tagColor": "blue",
+        "description": "Laos's tranquil capital on the Mekong. Pha That Luang golden stupa, Wat Si Saket's 6,840 Buddha images, Haw Phra Kaew royal temple museum, and the Patuxai monument. The most laid-back capital city in Southeast Asia.",
+        "image": "/images/gallery/16474.png",
+        "vibe": "Historic & Peaceful",
+        "href": "/tours/laos/vientiane"
+      },
+      {
+        "name": "Luang Prabang",
+        "tag": "UNESCO World Heritage",
+        "tagColor": "orange",
+        "description": "Laos's jewel — a UNESCO-listed royal city at the junction of two rivers. Wat Xieng Thong monastery, Royal Palace Museum, Mount Phousi sunset, the famous dawn alms-giving ceremony, Kuang Si Waterfall, and the most beautiful night market in Southeast Asia.",
+        "image": "/images/gallery/16475.png",
+        "vibe": "Cultural & Spiritual",
+        "href": "/tours/laos/luang-prabang"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit Laos from Malaysia",
+    "body": "Laos has a distinct dry season and wet season separated by comfortable transition months. The cool dry season is the most popular, but each period offers something different.",
+    "seasons": [
+      {
+        "name": "Cool Dry Season",
+        "months": "November to February",
+        "badge": "Best Time",
+        "badgeColor": "blue",
+        "description": "The ideal window. Temperatures of 20–28°C, clear skies, and low humidity. Perfect for temple visits in Vientiane, hiking around Luang Prabang, and the Kuang Si Waterfall at its most photogenic. Peak season with slightly higher hotel rates.",
+        "icon": "sun"
+      },
+      {
+        "name": "Hot Dry Season",
+        "months": "March to May",
+        "badge": "Good Value",
+        "badgeColor": "orange",
+        "description": "Temperatures climb to 35°C+ but rainfall stays low. Fewer tourists and more competitive hotel rates. Excellent for those who want more breathing room at Luang Prabang's temples and night markets.",
+        "icon": "sun"
+      },
+      {
+        "name": "Wet Season",
+        "months": "June to October",
+        "badge": "Lush & Green",
+        "badgeColor": "green",
+        "description": "Monsoon season brings green rice valleys, Kuang Si Falls at full roaring volume, and a dramatic landscape around Luang Prabang. Roads outside the main cities can be more challenging. Best rates of the year for budget travellers.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days Do You Actually Need?",
+    "options": [
+      {
+        "days": "4 Days",
+        "label": "Vientiane + Luang Prabang",
+        "description": "The perfect Laos introduction. Vientiane temples on Day 1, high-speed train to Luang Prabang, Kuang Si Waterfall, Mount Phousi sunset, and the night market. Covers the essential Laos without rushing."
+      },
+      {
+        "days": "5–6 Days",
+        "label": "Sweet Spot",
+        "description": "Adds time for the dawn alms-giving ceremony in Luang Prabang, a Mekong sunset cruise, and deeper exploration of the old town's 30+ wats and silk-weaving villages.",
+        "recommended": true
+      },
+      {
+        "days": "7+ Days",
+        "label": "Deep Laos",
+        "description": "Room to add Phonsavan's Plain of Jars, the Bolaven Plateau coffee region in the south, or a slow boat journey along the Mekong between Thailand and Luang Prabang."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Laos Tour Packages for Every Traveller",
+    "subheading": "Experience sacred Laos by high-speed train — Vientiane's golden temples and Luang Prabang's UNESCO-listed royal city in one seamless journey. Packages include airport transfers, first-class train tickets, and Dhesu's trusted on-ground team.",
+    "ctaNote": "Private and group packages available on request.",
+    "items": [
+      {
+        "id": "laos-4d-sacred-laos-vientiane-luang-prabang-train",
+        "slug": "vientiane-luang-prabang/4-day-sacred-laos-by-train",
+        "name": "4 Days Sacred Laos | Vientiane & Luang Prabang by Train",
+        "duration": "4D3N",
+        "price": "From RM1,888",
+        "originalPrice": "RM2,266",
+        "priceNote": "per person",
+        "saving": "Save RM756 per couple",
+        "tag": "Best Seller",
+        "tagColor": "blue",
+        "highlights": [
+          "Pha That Luang — Laos's Sacred Golden Stupa",
+          "UNESCO World Heritage Luang Prabang Old Town",
+          "Kuang Si Waterfall & Turquoise Natural Pools",
+          "First-Class High-Speed Train between Cities",
+          "Wat Xieng Thong & Mount Phousi Sunset"
+        ],
+        "image": "/images/gallery/16469.jpg",
+        "popular": true,
+        "sourceUrl": "https://www.holidayidea.com.my/promo/package.php?pkgid=2447&pkgtype=G",
+        "pkgId": 2447,
+        "destinations": ["Vientiane", "Luang Prabang"],
+        "hotelOptions": [
+          { "stars": 3, "hotel": "Family Boutique Hotel, Vientiane / Villa Chit Dara, Luang Prabang", "price": "RM 1,888" },
+          { "stars": 4, "hotel": "Laotel Hotel, Vientiane / Muangthong Boutique Hotel, Luang Prabang", "price": "RM 2,088" },
+          { "stars": 5, "hotel": "Amari Hotel, Vientiane / Hana Boutique, Luang Prabang", "price": "RM 2,350" }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival in Vientiane | Golden Temples & National Monuments Tour",
+            "meals": [],
+            "description": "Arrive in Vientiane and transfer to hotel. Afternoon guided city tour covering Laos's most revered landmarks: Wat Si Saket — the oldest wat in Vientiane, with a cloister of 6,840 miniature Buddha images lining every wall and niche; Haw Phra Kaew — the former royal chapel now serving as Laos's finest museum of religious art; Patuxai Victory Monument — Laos's answer to the Arc de Triomphe, its concrete arches decorated with traditional Buddhist and Hindu motifs and offering city views from the top; and Pha That Luang — the great golden stupa recognised across Laos as the supreme national monument, a symbol of Lao sovereignty built on the site of a 3rd-century Khmer temple. Evening free to explore Vientiane's riverside and café strip. Overnight in Vientiane."
+          },
+          {
+            "day": 2,
+            "title": "High-Speed Train to Luang Prabang | UNESCO Old Town & Mount Phousi Sunset",
+            "meals": ["Breakfast"],
+            "description": "Morning transfer to Vientiane railway station for the scenic high-speed train journey to Luang Prabang (approximately 2 hours through karst mountains and river valleys — one of the most beautiful rail routes in Southeast Asia). On arrival, guided exploration of Luang Prabang's UNESCO-listed old town: Royal Palace Museum — the former royal residence housing Lao royal regalia, ceremonial objects, and the sacred Phra Bang Buddha image that gives the city its name; Wat Xieng Thong — Temple of the Golden City, the finest example of Luang Prabang temple architecture, its sweeping golden-mosaic facades and intricate carved wooden doors dating to 1560; and Wat Mai — a royal monastery with a five-tiered roof and gold-leaf relief facade depicting scenes from the Ramayana. Evening: climb 328 steps to the summit of Mount Phousi for the most celebrated sunset view in Laos — the Mekong and Nam Khan rivers converging below, framing the old town in fading light. Browse the Luang Prabang Night Market along the main street. Overnight in Luang Prabang."
+          },
+          {
+            "day": 3,
+            "title": "Kuang Si Waterfall & Bear Rescue Centre | Silk Village | Return by Train",
+            "meals": ["Breakfast"],
+            "description": "Morning excursion to Kuang Si Waterfall (29 km from Luang Prabang) — three tiers of turquoise-blue cascades tumbling through dense jungle into a series of natural travertine swimming pools. Visit the Free the Bears rescue centre at the base, home to Asiatic black bears rescued from the illegal wildlife trade. Swim in the lower pools before the midday crowd arrives. Return to Luang Prabang via Ban Xang Khong village on the Nam Khan River — the last community in the region where traditional paper-making from mulberry bark and silk weaving on hand looms are still practised commercially. Browse the weavers' roadside stalls for handmade scarves and silk. Evening high-speed train back to Vientiane. Overnight in Vientiane."
+          },
+          {
+            "day": 4,
+            "title": "Free Morning in Vientiane | Depart for Home",
+            "meals": ["Breakfast"],
+            "description": "Morning at leisure — visit Talat Sao (Morning Market) for Lao coffee, handicrafts, and fresh produce, or take a final riverside walk along the Mekong. Airport transfer for your onward journey home."
+          }
+        ],
+        "includes": [
+          "Hotel accommodation as specified (3 nights)",
+          "Meals as specified (3 breakfasts)",
+          "All entrance fees as per itinerary",
+          "First-class high-speed train tickets (Vientiane to Luang Prabang and return)",
+          "Return airport transfers",
+          "English-speaking local guide throughout",
+          "All ground transportation and transfers"
+        ],
+        "excludes": [
+          "Flight tickets and airport taxes",
+          "Compulsory tour tips (RM 68 per person)",
+          "ETIQA Travel Insurance Area 2 Gold (RM 41)",
+          "High season surcharge",
+          "Items not stated under inclusions"
+        ],
+        "validUntil": "2027-03-31"
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Laos Trip Through Dhesu",
+    "body": "Laos is a destination that rewards those who have arranged the details properly. Train seat bookings, temple permits, halal meal coordination, and the right sequencing of Vientiane and Luang Prabang all require experience on the ground. We have been sending Malaysian travellers across Southeast Asia since 1988 — and Laos's particular rhythm is something we understand well.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed Malaysian travel agency. We assist with Laos visa-on-arrival documentation and all entry requirements as part of every package — no guesswork at the airport."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "description": "35+ years sending Malaysian travellers through Southeast Asia. We know the difference between a well-timed Laos itinerary and one that rushes what should be savoured at Laos's own pace."
+      },
+      {
+        "icon": "map",
+        "title": "Muslim-Friendly Options",
+        "description": "Halal meal arrangements available on request. Masjid Al-Azhar in Vientiane and Muslim-friendly dining options in Luang Prabang are part of our standard Laos briefing for Muslim travellers."
+      },
+      {
+        "icon": "tag",
+        "title": "First-Class Train, Right Hotels",
+        "description": "First-class high-speed train seats are included as standard — not an optional upgrade. Hotels are selected for location: walkable to temples in Vientiane, within the UNESCO zone in Luang Prabang."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Laos Journey",
+    "subheading": "Golden stupas, turquoise waterfalls, and the quietest corner of Southeast Asia. Tell us when you want to go.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/16471.jpg"
+  }
+}
