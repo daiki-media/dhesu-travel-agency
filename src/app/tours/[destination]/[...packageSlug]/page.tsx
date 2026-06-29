@@ -7,12 +7,12 @@ import TourPackageDetailTemplate from "@/src/components/tours/TourPackageDetailT
 import TourRegionTemplate from "@/src/components/tours/TourRegionTemplate";
 import packageDetails, { getPackageDetail } from "@/src/data/tourPackages";
 import { getTourPage } from "@/src/data/tourPages";
-import { getIndiaLandingPage, INDIA_LANDING_PAGES } from "@/src/data/destinationDetail/india/regions";
-import { getNepalLandingPage, NEPAL_LANDING_PAGES } from "@/src/data/destinationDetail/nepal/regions";
-import { getSriLankaLandingPage, SRI_LANKA_LANDING_PAGES } from "@/src/data/destinationDetail/sri-lanka/regions";
-import { getBhutanLandingPage, BHUTAN_LANDING_PAGES } from "@/src/data/destinationDetail/bhutan/regions";
-import { getVietnamLandingPage, VIETNAM_LANDING_PAGES } from "@/src/data/destinationDetail/vietnam/regions";
-import { getCambodiaLandingPage, CAMBODIA_LANDING_PAGES } from "@/src/data/destinationDetail/cambodia/regions";
+import { getIndiaLandingPage, INDIA_LANDING_PAGES } from "@/src/data/destinationDetail/india";
+import { getNepalLandingPage, NEPAL_LANDING_PAGES } from "@/src/data/destinationDetail/nepal";
+import { getSriLankaLandingPage, SRI_LANKA_LANDING_PAGES } from "@/src/data/destinationDetail/sri-lanka";
+import { getBhutanLandingPage, BHUTAN_LANDING_PAGES } from "@/src/data/destinationDetail/bhutan";
+import { getVietnamLandingPage, VIETNAM_LANDING_PAGES } from "@/src/data/destinationDetail/vietnam";
+import { getCambodiaLandingPage, CAMBODIA_LANDING_PAGES } from "@/src/data/destinationDetail/cambodia";
 import { getLaosLandingPage, LAOS_LANDING_PAGES } from "@/src/data/destinationDetail/laos";
 
 type PageProps = {
