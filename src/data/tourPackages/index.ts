@@ -124,6 +124,34 @@ import malaysiaSabah3DayBestOfKkKundasang from "./malaysia/sabah--3-day-best-of-
 import malaysiaSabah4DayKkSnorkellingKundasang from "./malaysia/sabah--4-day-kk-snorkelling-kundasang.json";
 import malaysiaSabah5DayBestOfKkKundasangMariMari from "./malaysia/sabah--5-day-best-of-kk-kundasang-mari-mari.json";
 
+import indonesiaBali3DaySuperSaver from "./Indonesia/bali--3-day-super-saver.json";
+import indonesiaBali3DayUnleashedCultureNatureAdventure from "./Indonesia/bali--3-day-unleashed-culture-nature-adventure.json";
+import indonesiaBali3DaySacredCleansingRitual from "./Indonesia/bali--3-day-sacred-cleansing-ritual.json";
+import indonesiaBali4DayBestOfBali from "./Indonesia/bali--4-day-best-of-bali.json";
+import indonesiaBali4DayNusaPenidaIsland from "./Indonesia/bali--4-day-nusa-penida-island.json";
+import indonesiaBali4DayRomanticEscapePoolVilla from "./Indonesia/bali--4-day-romantic-escape-pool-villa.json";
+import indonesiaBali4DayGatesOfHeaven from "./Indonesia/bali--4-day-gates-of-heaven.json";
+import indonesiaBali4DayRomanticEscapeSunsetCruise from "./Indonesia/bali--4-day-romantic-escape-sunset-cruise.json";
+import indonesiaBali5DayBlissTemplesHighlandsSunset from "./Indonesia/bali--5-day-bliss-temples-highlands-sunset.json";
+import indonesiaBali4DayAtvAdventureSunsetDinnerCruise from "./Indonesia/bali--4-day-atv-adventure-sunset-dinner-cruise.json";
+import indonesiaBali4DaySunriseDolphinWatching from "./Indonesia/bali--4-day-sunrise-dolphin-watching.json";
+import indonesiaBali5DayNusaPenidaIslandTour from "./Indonesia/bali--5-day-nusa-penida-island-tour.json";
+import indonesiaBali6DayBestOfBaliPrivateEscape from "./Indonesia/bali--6-day-best-of-bali-private-escape.json";
+import indonesiaYogyakarta3DayBestDealBorobudur from "./Indonesia/yogyakarta--3-day-best-deal-borobudur.json";
+import indonesiaYogyakarta4DayBestSellerBorobudur from "./Indonesia/yogyakarta--4-day-best-seller-borobudur.json";
+import indonesiaYogyakarta4DayAdventureTimangBeachCave from "./Indonesia/yogyakarta--4-day-adventure-timang-beach-cave.json";
+import indonesiaYogyakarta4DayClassicBorobudurPrambanan from "./Indonesia/yogyakarta--4-day-classic-borobudur-prambanan.json";
+import indonesiaYogyakarta5DayJogjaBorobudurPrambananLandAbove from "./Indonesia/yogyakarta--5-day-jogja-borobudur-prambanan-land-above.json";
+import indonesiaMedanLakeToba3DayLakeToba from "./Indonesia/medan-lake-toba--3-day-lake-toba.json";
+import indonesiaMedanLakeToba4DayExploreLakeToba from "./Indonesia/medan-lake-toba--4-day-explore-lake-toba.json";
+import indonesiaLombok3DayLombokIsland from "./Indonesia/lombok--3-day-lombok-island.json";
+import indonesiaLombok4DayLomboksBestKeptSecret from "./Indonesia/lombok--4-day-lomboks-best-kept-secret.json";
+import indonesiaPadang4DayBukittinggiHarauValley from "./Indonesia/padang--4-day-bukittinggi-harau-valley.json";
+import indonesiaSurabayaBromo4DayBromoSunriseAdventure from "./Indonesia/surabaya-bromo--4-day-bromo-sunrise-adventure.json";
+import indonesiaSurabayaBromo5DayBromoBestOfMalang from "./Indonesia/surabaya-bromo--5-day-bromo-best-of-malang.json";
+import indonesiaJakartaBandung4DayWhiteCraterVolcano from "./Indonesia/jakarta-bandung--4-day-white-crater-volcano.json";
+import indonesiaJakartaBandung4DayWhooshBulletTrain from "./Indonesia/jakarta-bandung--4-day-whoosh-bullet-train.json";
+
 const packageDetails: Record<string, PackageDetailData> = {
   "paro-thimphu/5-day-calm-trails-grand-views": bhutanParoThimphu5DayCalmTrails as PackageDetailData,
   "paro-thimphu/6-day-kingdom-of-happiness": bhutanParoThimphu6DayKingdomHappiness as PackageDetailData,
@@ -241,6 +269,33 @@ const packageDetails: Record<string, PackageDetailData> = {
   "sabah/3-day-best-of-kk-kundasang": malaysiaSabah3DayBestOfKkKundasang as PackageDetailData,
   "sabah/4-day-kk-snorkelling-kundasang": malaysiaSabah4DayKkSnorkellingKundasang as PackageDetailData,
   "sabah/5-day-best-of-kk-kundasang-mari-mari": malaysiaSabah5DayBestOfKkKundasangMariMari as PackageDetailData,
+  "bali/3-day-super-saver": indonesiaBali3DaySuperSaver as PackageDetailData,
+  "bali/3-day-unleashed-culture-nature-adventure": indonesiaBali3DayUnleashedCultureNatureAdventure as PackageDetailData,
+  "bali/3-day-sacred-cleansing-ritual": indonesiaBali3DaySacredCleansingRitual as PackageDetailData,
+  "bali/4-day-best-of-bali": indonesiaBali4DayBestOfBali as PackageDetailData,
+  "bali/4-day-nusa-penida-island": indonesiaBali4DayNusaPenidaIsland as PackageDetailData,
+  "bali/4-day-romantic-escape-pool-villa": indonesiaBali4DayRomanticEscapePoolVilla as PackageDetailData,
+  "bali/4-day-gates-of-heaven": indonesiaBali4DayGatesOfHeaven as PackageDetailData,
+  "bali/4-day-romantic-escape-sunset-cruise": indonesiaBali4DayRomanticEscapeSunsetCruise as PackageDetailData,
+  "bali/5-day-bliss-temples-highlands-sunset": indonesiaBali5DayBlissTemplesHighlandsSunset as PackageDetailData,
+  "bali/4-day-atv-adventure-sunset-dinner-cruise": indonesiaBali4DayAtvAdventureSunsetDinnerCruise as PackageDetailData,
+  "bali/4-day-sunrise-dolphin-watching": indonesiaBali4DaySunriseDolphinWatching as PackageDetailData,
+  "bali/5-day-nusa-penida-island-tour": indonesiaBali5DayNusaPenidaIslandTour as PackageDetailData,
+  "bali/6-day-best-of-bali-private-escape": indonesiaBali6DayBestOfBaliPrivateEscape as PackageDetailData,
+  "yogyakarta/3-day-best-deal-borobudur": indonesiaYogyakarta3DayBestDealBorobudur as PackageDetailData,
+  "yogyakarta/4-day-best-seller-borobudur": indonesiaYogyakarta4DayBestSellerBorobudur as PackageDetailData,
+  "yogyakarta/4-day-adventure-timang-beach-cave": indonesiaYogyakarta4DayAdventureTimangBeachCave as PackageDetailData,
+  "yogyakarta/4-day-classic-borobudur-prambanan": indonesiaYogyakarta4DayClassicBorobudurPrambanan as PackageDetailData,
+  "yogyakarta/5-day-jogja-borobudur-prambanan-land-above": indonesiaYogyakarta5DayJogjaBorobudurPrambananLandAbove as PackageDetailData,
+  "medan-lake-toba/3-day-lake-toba": indonesiaMedanLakeToba3DayLakeToba as PackageDetailData,
+  "medan-lake-toba/4-day-explore-lake-toba": indonesiaMedanLakeToba4DayExploreLakeToba as PackageDetailData,
+  "lombok/3-day-lombok-island": indonesiaLombok3DayLombokIsland as PackageDetailData,
+  "lombok/4-day-lomboks-best-kept-secret": indonesiaLombok4DayLomboksBestKeptSecret as PackageDetailData,
+  "padang/4-day-bukittinggi-harau-valley": indonesiaPadang4DayBukittinggiHarauValley as PackageDetailData,
+  "surabaya-bromo/4-day-bromo-sunrise-adventure": indonesiaSurabayaBromo4DayBromoSunriseAdventure as PackageDetailData,
+  "surabaya-bromo/5-day-bromo-best-of-malang": indonesiaSurabayaBromo5DayBromoBestOfMalang as PackageDetailData,
+  "jakarta-bandung/4-day-white-crater-volcano": indonesiaJakartaBandung4DayWhiteCraterVolcano as PackageDetailData,
+  "jakarta-bandung/4-day-whoosh-bullet-train": indonesiaJakartaBandung4DayWhooshBulletTrain as PackageDetailData,
 };
 
 export const packageSlugs = Object.keys(packageDetails);

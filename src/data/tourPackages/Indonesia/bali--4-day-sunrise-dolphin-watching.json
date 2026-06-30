@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "4 Days Bali Sunrise Dolphin Watching from Malaysia | Dhesu Travel",
+    "description": "4-day Bali dolphin watching package from Malaysia. Lovina Bay sunrise dolphin boat tour, Ulun Danu Beratan temple, Mount Batur, Tirta Empul, Uluwatu, Kecak Dance and Jimbaran Bay BBQ. From RM1,188 per person. Dhesu Travel, since 1988.",
+    "keywords": "4 days Bali dolphin watching Malaysia, Lovina dolphin tour Bali, Bali sunrise dolphin Malaysia, Bali Lovina Beach resort, Dhesu Bali dolphin package",
+    "slug": "bali/4-day-sunrise-dolphin-watching",
+    "canonicalUrl": "/tours/indonesia/bali/4-day-sunrise-dolphin-watching",
+    "ogImage": "/images/gallery/15199.jpg",
+    "pkgid": "2385"
+  },
+  "hero": {
+    "badge": "Bali, Indonesia — 4 Days 3 Nights",
+    "title": "4 Days Bali",
+    "titleAccent": "Sunrise Dolphin Watching",
+    "intro": "Wake before dawn to watch spinner dolphins leap across Lovina Bay at sunrise — then spend the rest of four days moving through Bali's temples, volcanoes, sacred springs, and clifftop sunsets.",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Indonesia", "href": "/tours/indonesia" },
+      { "label": "Bali", "href": "/tours/indonesia/bali" },
+      { "label": "4 Days Sunrise Dolphin Watching", "href": null }
+    ],
+    "heroImage": "/images/gallery/15199.jpg",
+    "heroImageAlt": "Sunrise dolphin watching boat Lovina Bay Bali spinner dolphins"
+  },
+  "quickFacts": {
+    "duration": "4D3N",
+    "startingPrice": "From RM1,188",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,485",
+    "saving": "Save RM594 per couple",
+    "groupSize": "100% Private",
+    "includes": [
+      "Hotel accommodation (3 nights, including 1 night Lovina Beach resort)",
+      "All meals as specified in itinerary",
+      "All entrance fees",
+      "Airport transfers",
+      "English-speaking driver-guide",
+      "Pre-sunrise dolphin watching boat tour at Lovina Bay",
+      "Kecak Fire Dance at Uluwatu",
+      "BBQ seafood dinner at Jimbaran Bay"
+    ],
+    "excludes": [
+      "Flight tickets and taxes",
+      "Compulsory tour tips RM49",
+      "ETIQA Travel Insurance Area 2 Gold RM41",
+      "High season surcharge (July–August)",
+      "Bali levy tax IDR 150,000",
+      "Items not listed in inclusions"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      { "icon": "hotel", "label": "Hotel" },
+      { "icon": "meal", "label": "Meals" },
+      { "icon": "entrance", "label": "Entrance Fees" },
+      { "icon": "airport", "label": "Transfers" },
+      { "icon": "guide", "label": "Driver-Guide" }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "Package Overview",
+    "heading": "Four Days Built Around Bali's Most Unexpected Dawn Experience",
+    "body": [
+      "Lovina Bay on Bali's quiet north coast is one of Southeast Asia's best spots to watch wild dolphins in their natural habitat. Traditional outrigger boats launch before sunrise and head out into the calm bay, where pods of spinner dolphins regularly perform aerial displays in the early morning light. It is a peaceful, unhurried wildlife experience — a world away from the crowds of Kuta and Seminyak.",
+      "This four-day package begins with the north coast, overnighting at a 4-star Lovina Beach resort before the pre-dawn dolphin excursion. Day two moves through Kintamani's volcanic crater views and the sacred springs of Tirta Empul on the way back south. Day three delivers Bali's most celebrated cultural trifecta — the GWK statue, Uluwatu's Kecak Fire Dance, and grilled seafood at Jimbaran Bay. Day four is a relaxed departure, giving the whole trip a natural rhythm that starts quiet and builds toward the dramatic."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "Trip Highlights",
+    "heading": "What Makes This Trip Special",
+    "items": [
+      {
+        "title": "Pre-Sunrise Dolphin Watching at Lovina Bay",
+        "body": "Traditional Balinese outrigger fishing boats set out before dawn into Lovina's calm bay, where resident pods of spinner, spotted, and bottlenose dolphins put on a daily show at sunrise. The backdrop of the mountains turning gold as the sun rises behind them while dolphins arc through the water makes this one of Bali's most peaceful and memorable wildlife experiences.",
+        "image": "/images/gallery/15199.jpg",
+        "imageAlt": "Sunrise dolphin watching boat tour Lovina Bay Bali outrigger"
+      },
+      {
+        "title": "Pura Ulun Danu Beratan — Bedugul Floating Temple",
+        "body": "The 17th-century Pura Ulun Danu Beratan sits at the water's edge of Lake Beratan in Bali's cool Bedugul highlands, appearing to float on the surface when the lake is high. Dedicated to the goddess of the lake, it is the second most photographed temple in Bali — and on misty mornings, its multi-tiered meru towers rising above the water surface create an image that never loses its impact.",
+        "image": "/images/gallery/15144.jpg",
+        "imageAlt": "Pura Ulun Danu Beratan floating temple Lake Beratan Bedugul Bali"
+      },
+      {
+        "title": "Kecak Fire Dance at Uluwatu — Sunset Clifftop Performance",
+        "body": "Performed on a stone-paved stage at the lip of Uluwatu's 70-metre sea cliff as the sun sets over the Indian Ocean, the Kecak Dance is Bali's most theatrical cultural performance. Over a hundred bare-chested men in black-and-white checked cloth chant 'cak-cak-cak' in hypnotic polyrhythm while the Ramayana story is enacted with fire. Few experiences in Southeast Asia match this for sheer spectacle.",
+        "image": "/images/gallery/14772.jpg",
+        "imageAlt": "Kecak Fire Dance Uluwatu Temple clifftop Bali sunset ocean"
+      },
+      {
+        "title": "Tirta Empul — Bali's Sacred Spring Temple",
+        "body": "Built in 962 AD around a spring believed to have been created by the god Indra, Tirta Empul is Bali's most important water purification temple. Devotees immerse themselves in the spring's 30 purification pools in a sequence of prayers and cleansing — a ceremony that has continued unbroken for over a thousand years. The temple complex is also architecturally stunning, with ornate split gates and elaborately carved shrines.",
+        "image": "/images/gallery/14818.jpg",
+        "imageAlt": "Tirta Empul sacred spring temple purification pools Tampak Siring Bali"
+      },
+      {
+        "title": "Jimbaran Bay BBQ Seafood Dinner",
+        "body": "Jimbaran Bay's beachfront seafood restaurants are set right on the sand, with tables lit by lanterns as the tide rolls in a few metres away. Fresh prawns, fish, squid, and clams are grilled over charcoal and served while the waves lap nearby — arguably the most atmospheric dining setting in all of Bali, and a fitting finale to a cultural and scenic-rich day three.",
+        "image": "/images/gallery/14813.jpg",
+        "imageAlt": "Jimbaran Bay BBQ seafood dinner Bali beachfront sunset"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day-by-Day Itinerary",
+    "heading": "Your 4-Day Bali Dolphin Journey",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Bali — Beratan Lake Temple & Transfer to Lovina",
+        "meals": "Dinner",
+        "description": "Your driver-guide meets you at Ngurah Rai Airport and heads north through Bali's highland interior. En route, you stop at Pura Ulun Danu Beratan — the Floating Temple on Lake Beratan in Bedugul — for photographs and a walk around the temple grounds. The journey continues north to the Lovina coastal area, where you check in to New Sunari Lovina Beach Resort (4-star) and have dinner before an early night ahead of the pre-dawn start.",
+        "suggestedActivities": [
+          "Airport meet and greet",
+          "Visit Pura Ulun Danu Beratan (Floating Temple) at Lake Beratan",
+          "Transfer to Lovina north coast",
+          "Check-in at New Sunari Lovina Beach Resort",
+          "Dinner and early rest"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Pre-Dawn Dolphin Watching, Mount Batur & Tirta Empul",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "The alarm sounds well before sunrise. Traditional outrigger boats head out into Lovina Bay as the sky begins to lighten, positioning in the pods' usual feeding grounds. Spinner dolphins surface, leap, and spin — sometimes in groups of 50 or more — as the sun rises behind the mountains. Back at the resort for breakfast and a freshen-up, the day then moves inland to Kintamani for lunch with a panoramic view of Mount Batur's active crater and the volcanic lake below. A local coffee plantation stop follows, then an afternoon at Tirta Empul's sacred spring temple. Dinner and check-in at a Kuta hotel.",
+        "suggestedActivities": [
+          "Pre-sunrise dolphin watching boat tour at Lovina Bay",
+          "Return for breakfast at resort",
+          "Drive to Kintamani",
+          "Lunch at Grand Puncak Sari with Mount Batur and Lake Batur views",
+          "Local coffee plantation tasting",
+          "Visit Tirta Empul sacred spring temple",
+          "Dinner and hotel check-in at Kuta"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "GWK, Uluwatu Kecak Dance & Jimbaran Bay BBQ",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "A full southern Bali day. Morning begins at Garuda Wisnu Kencana Cultural Park, home to the 121-metre copper statue of Wisnu on Garuda — the tallest statue in Southeast Asia. Lunch is at Beranda Restaurant. The afternoon takes you to Melasti Beach and then up to Uluwatu cliff for the Kecak Fire Dance performed at sunset on a stage cantilevered over the ocean. The evening ends with grilled BBQ seafood dinner at Jimbaran Bay on the beach sand, with optional candlelight dinner upgrade available (RM90).",
+        "suggestedActivities": [
+          "Visit Garuda Wisnu Kencana (GWK) Cultural Park",
+          "Lunch at Beranda Restaurant",
+          "Melasti Beach",
+          "Uluwatu clifftop exploration",
+          "Kecak Fire Dance at sunset",
+          "Grilled BBQ seafood dinner at Jimbaran Bay"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Leisure & Departure",
+        "meals": "Breakfast",
+        "description": "A relaxed final morning — breakfast at the hotel, free time to explore or pick up souvenirs, then a comfortable transfer to Ngurah Rai Airport.",
+        "suggestedActivities": [
+          "Breakfast at hotel",
+          "Free time or souvenir shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Accommodation",
+    "heading": "Choose Your Hotel Category",
+    "subheading": "All prices are per person, twin-sharing. Night 1 is at New Sunari Lovina Beach Resort (4-star) for all tiers.",
+    "tiers": [
+      {
+        "tier": "Standard",
+        "label": "3-Star Hotels (Kuta nights)",
+        "hotel": "Swiss-Bel Express Kuta / Siesta / Kampi / Nadi or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,188" }
+        ],
+        "fromPrice": "RM1,188",
+        "popular": false
+      },
+      {
+        "tier": "Superior",
+        "label": "4-Star Hotels (Kuta nights)",
+        "hotel": "Episode Kuta / The One Legian / J4 Legian or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,300" }
+        ],
+        "fromPrice": "RM1,300",
+        "popular": true
+      },
+      {
+        "tier": "Deluxe",
+        "label": "5-Star Hotels (Kuta nights)",
+        "hotel": "The Magani / Grand Istana Rama (4-star beachfront) or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,570" }
+        ],
+        "fromPrice": "RM1,570",
+        "popular": false
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Bali Dolphin Tour Through Dhesu",
+    "body": "Dhesu has been arranging Bali trips for Malaysian travellers since 1988. The dolphin watching experience at Lovina is a delicate early-morning excursion — we work with experienced local boat operators who know the bay and the dolphins' patterns, making the most of every sunrise.",
+    "points": [
+      { "icon": "shield", "title": "MATTA & IATA Registered", "body": "Fully licensed Malaysian travel agency with over 35 years of trusted operations." },
+      { "icon": "clock", "title": "Trusted Since 1988", "body": "Over three decades arranging unforgettable Bali experiences for Malaysian families and couples." },
+      { "icon": "map", "title": "100% Private Tours", "body": "Your own guide and vehicle — no strangers on your dolphin boat, no shared schedules." },
+      { "icon": "tag", "title": "Transparent Pricing", "body": "What you see is what you pay. All surcharges listed clearly before you book." }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Bali Dolphin Watching Package from Malaysia — 4 Days 3 Nights",
+        "body": "Lovina on Bali's north coast is one of Asia's best-kept secrets for dolphin watching. Unlike marine parks or aquarium shows, the dolphins here are wild — spinner, spotted, and bottlenose species that inhabit Lovina Bay year-round and are most active at sunrise. This 4-day package from Malaysia is the only itinerary that pairs Lovina with Bali's southern highlights in a single private tour, with daily departures and validity until 31 March 2027."
+      },
+      {
+        "heading": "What Are Spinner Dolphins and Why Lovina?",
+        "body": "Spinner dolphins are named for their acrobatic spinning leaps — they spin on their longitudinal axis up to seven times per aerial jump. Lovina Bay's calm, sheltered waters and proximity to deep-water feeding grounds make it one of the most reliable dolphin watching spots in Southeast Asia. Sightings are not guaranteed — these are wild animals — but Lovina boat operators report dolphin sightings on the vast majority of morning excursions throughout the year."
+      },
+      {
+        "heading": "Is Bali Suitable for Families and Senior Travellers?",
+        "body": "This package is specifically designed to be accessible to a wide range of travellers, including families with children and senior visitors. The dolphin boat excursion is a calm, flat-water experience. All overland transfers use private air-conditioned vehicles with experienced drivers. The Kecak Dance is a seated performance. Bali's warm, tropical climate and excellent food scene make it one of Southeast Asia's most comfortable destinations for travellers of all ages."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What time does the dolphin watching start?",
+        "answer": "The dolphin boat departs before sunrise — typically around 5:30–6:00 AM depending on the time of year. An early night on Day 1 is strongly recommended. Your guide will confirm the exact departure time upon check-in at the Lovina resort."
+      },
+      {
+        "question": "Are dolphin sightings guaranteed?",
+        "answer": "Dolphin sightings cannot be guaranteed as these are wild animals, but Lovina Bay has resident dolphin pods that are present year-round and sightings are very common. Experienced local boat operators know the bay and the typical feeding patterns."
+      },
+      {
+        "question": "Is Lovina far from Kuta and the airport?",
+        "answer": "Lovina is approximately 2 to 2.5 hours by road from Ngurah Rai Airport in the south. The drive passes through Bali's scenic highland interior and includes the Floating Temple stop at Bedugul — so the journey itself is part of the experience."
+      },
+      {
+        "question": "Which hotel is used in Lovina?",
+        "answer": "All hotel tiers include one night at New Sunari Lovina Beach Resort, a 4-star beachfront property in Lovina. The remaining nights are in Kuta at the tier you select."
+      },
+      {
+        "question": "Is this package suitable for children?",
+        "answer": "Yes. The dolphin boat is a flat-water outrigger experience suitable for most ages. The Kecak Dance performance is suitable for children aged 5 and above. Please inform us at booking if you are travelling with young children so we can advise on the best arrangements."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "bali-4d-atv-adventure-sunset-dinner-cruise",
+      "name": "4 Days ATV Adventure & Sunset Dinner Cruise",
+      "price": "From RM1,188",
+      "duration": "4D3N",
+      "slug": "bali/4-day-atv-adventure-sunset-dinner-cruise",
+      "image": "/images/gallery/15198.jpg"
+    },
+    {
+      "id": "bali-5d-bliss-temples-highlands-sunset",
+      "name": "5 Days Bliss: Temples, Highlands & Sunset",
+      "price": "From RM1,188",
+      "duration": "5D4N",
+      "slug": "bali/5-day-bliss-temples-highlands-sunset",
+      "image": "/images/gallery/15203.jpg"
+    },
+    {
+      "id": "bali-5d-nusa-penida-island-tour",
+      "name": "5 Days Bali + Nusa Penida Island Tour",
+      "price": "From RM1,288",
+      "duration": "5D4N",
+      "slug": "bali/5-day-nusa-penida-island-tour",
+      "image": "/images/gallery/15204.jpg"
+    },
+    {
+      "id": "bali-4d-romantic-escape-sunset-cruise",
+      "name": "4 Days Romantic Escape with Sunset Cruise",
+      "price": "From RM1,088",
+      "duration": "4D3N",
+      "slug": "bali/4-day-romantic-escape-sunset-cruise",
+      "image": "/images/gallery/16474.png"
+    }
+  ],
+  "cta": {
+    "heading": "Book Your Bali Dolphin Adventure",
+    "subheading": "Private tour, flexible dates — tell us when you want to go and we'll arrange the rest.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/15199.jpg"
+  }
+}

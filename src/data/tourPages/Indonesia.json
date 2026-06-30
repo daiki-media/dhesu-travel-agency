@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "name": "Indonesia",
+    "title": "Indonesia Tour Packages from Malaysia | Bali, Yogyakarta, Bromo & More | Dhesu Travel",
+    "description": "Indonesia tour packages from RM398 — Bali temples and beaches, UNESCO Borobudur in Yogyakarta, Mount Bromo sunrise, Lake Toba and Lombok island. 27 private packages with MATTA & IATA registered Dhesu Travel, trusted since 1988.",
+    "slug": "indonesia",
+    "targetKeyword": "Indonesia tour package from Malaysia",
+    "region": "Southeast Asia",
+    "hubCardColor": "orange"
+  },
+  "hero": {
+    "badge": "Indonesia — Bali · Yogyakarta · Bromo · Lake Toba",
+    "headline": "17,000 Islands.",
+    "headlineAccent": "Start with These.",
+    "body": "The world's largest archipelago stretches 5,000 kilometres across the equator — more islands than you could visit in a lifetime. But certain ones keep drawing people back. Bali for its temples, terraces and beach sunsets. Yogyakarta for Borobudur, the largest Buddhist monument on Earth. Mount Bromo for a 4WD sunrise across a sea of volcanic ash. Lake Toba for the largest volcanic lake in the world. Lombok for the reef and the mountain and the quiet. These are the ones. We'll take you there.",
+    "bgImage": "/images/gallery/12615.jpg",
+    "stats": [
+      { "value": "27", "label": "Indonesia Packages Available" },
+      { "value": "7", "label": "Destinations Covered" },
+      { "value": "1988", "label": "Trusted Since" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Indonesia",
+    "heading": "The Destinations That Define Indonesia",
+    "subheading": "From the Hindu temple island of Bali to the Buddhist monuments of Yogyakarta, the volcanic landscapes of Java and the crater lakes of Sumatra — Indonesia rewards every type of traveller.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "Bali — Island of the Gods",
+        "body": "Bali is not one thing. It is Uluwatu's clifftop temple above the Indian Ocean, Tegalalang's UNESCO rice terraces carved into volcanic hillsides, Ubud's traditional market and Royal Palace, Tanah Lot perched on a sea rock at sunset, and Nusa Penida's broken beach and manta rays. The island that appears on every bucket list earns it — but the real Bali is the one you find between the famous sights: the offerings at the temple gate every morning, the gamelan music drifting from a compound, the roadside warung.",
+        "image": "/images/gallery/16473.png",
+        "places": ["Uluwatu Temple", "Tegalalang Rice Terraces", "Tanah Lot", "Nusa Penida"]
+      },
+      {
+        "icon": "temple",
+        "title": "Borobudur — Largest Buddhist Monument on Earth",
+        "body": "Built in the 9th century during the Sailendra dynasty and abandoned for nearly a thousand years until Dutch colonial archaeologists began restoration in 1907, Borobudur is 2 million stone blocks assembled into a mandala you walk around and through. The 504 Buddha statues, 2,672 relief panels depicting the life of the Buddha and Javanese court life, and 72 stupas containing meditating Buddhas make it simultaneously a religious monument, an art history lesson, and one of the great human achievements in stone. A sunrise visit — arriving before the tour groups at 06:00 — remains one of the most affecting experiences in Southeast Asia.",
+        "image": "/images/gallery/12615.jpg",
+        "places": ["Borobudur Temple", "Prambanan", "Mount Merapi", "Malioboro Street"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Mount Bromo — Active Volcano at Dawn",
+        "body": "The 2:00 AM wake-up call is non-negotiable. You board a 4WD jeep in darkness, drive up the caldera rim to the Penanjakan viewpoint, and wait. As the sun rises over the volcanic peaks, Mount Bromo's smoking crater emerges from the Sea of Sand — a flat expanse of volcanic ash 10 kilometres across — with steam rising from the active vent 200 metres below. The jeep ride back down through the Sea of Sand to the crater rim, then the 253-step climb to look into an active Indonesian volcano: there is no experience in Malaysia that compares.",
+        "image": "/images/gallery/13429.jpg",
+        "places": ["Mount Bromo", "Penanjakan Viewpoint", "Sea of Sand", "Malang City"]
+      },
+      {
+        "icon": "wave",
+        "title": "Lake Toba — World's Largest Volcanic Lake",
+        "body": "Lake Toba was formed by the largest volcanic eruption in the last 2 million years — an event so catastrophic it may have reduced the human population to fewer than 10,000 individuals. Today the caldera holds a lake 100 kilometres long and 30 kilometres wide, with Samosir Island — larger than Singapore — floating in its centre. Samosir is the homeland of the Batak people, and their traditional villages, tombs of ancient kings, and ceremonial architecture survive here as a living culture, not a museum reconstruction.",
+        "image": "/images/gallery/15102.jpg",
+        "places": ["Lake Toba", "Samosir Island", "Tomok Village", "Sipiso-Piso Waterfall"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Indonesia Destinations",
+    "heading": "7 Destinations, One Archipelago",
+    "subheading": "Bali for temples and beaches. Yogyakarta for UNESCO monuments. Java's volcanoes for the most dramatic sunrises in Asia. Sumatra for ancient crater lakes and colonial hill towns. Lombok for reef and mountain.",
+    "areas": [
+      {
+        "name": "Bali",
+        "tag": "Temples & Beaches",
+        "tagColor": "orange",
+        "description": "13 packages from RM398. Uluwatu sunset, Ubud rice terraces, Tanah Lot, Nusa Penida cliffs and Tegalalang — the island that defines Indonesian tourism delivers. Private tours, full-day programmes, island hopping and romantic escapes.",
+        "image": "/images/gallery/16473.png",
+        "vibe": "Culture & Beach",
+        "href": "/tours/indonesia/bali"
+      },
+      {
+        "name": "Yogyakarta",
+        "tag": "UNESCO Heritage",
+        "tagColor": "blue",
+        "description": "5 packages from RM988. Borobudur at sunrise, Prambanan's Hindu temple complex, Mount Merapi 4WD jeep tour, Taman Sari Water Castle and the Sultan's Kraton palace. The cultural capital of Java.",
+        "image": "/images/gallery/12615.jpg",
+        "vibe": "History & Heritage",
+        "href": "/tours/indonesia/yogyakarta"
+      },
+      {
+        "name": "Medan / Lake Toba",
+        "tag": "Volcanic Lake",
+        "tagColor": "teal",
+        "description": "2 packages from RM788. Lake Toba — the world's largest volcanic lake — with Samosir Island, Batak tribal villages, ancient royal tombs, Sipiso-Piso waterfall and Berastagi highland market.",
+        "image": "/images/gallery/15102.jpg",
+        "vibe": "Nature & Culture",
+        "href": "/tours/indonesia/medan-lake-toba"
+      },
+      {
+        "name": "Lombok",
+        "tag": "Island & Reef",
+        "tagColor": "green",
+        "description": "2 packages from RM688. Mount Rinjani's crater lake, the Gili islands, Senggigi beach, Kuta Lombok surf breaks and traditional Sasak villages. Bali's quieter, wilder neighbour.",
+        "image": "/images/gallery/13329.jpg",
+        "vibe": "Wild & Pristine",
+        "href": "/tours/indonesia/lombok"
+      },
+      {
+        "name": "Padang / Bukittinggi",
+        "tag": "Minangkabau Heritage",
+        "tagColor": "purple",
+        "description": "1 package from RM988. Harau Valley's 150-metre granite cliffs, Bukittinggi's Dutch fort and clock tower, Sianok Canyon gorge, Ngarai viewpoint and Minangkabau traditional architecture — West Sumatra's highland circuit.",
+        "image": "/images/gallery/14397.png",
+        "vibe": "Highland & Heritage",
+        "href": "/tours/indonesia/padang"
+      },
+      {
+        "name": "Surabaya / Bromo",
+        "tag": "Volcano & Jungle",
+        "tagColor": "red",
+        "description": "2 packages from RM1,388. Mount Bromo 4WD sunrise, Museum Angkut Asia's largest transport museum, Coban Rondo waterfall, Malang's colourful Jodipan village and Surabaya's historic Old Batavia quarter.",
+        "image": "/images/gallery/13429.jpg",
+        "vibe": "Adventure & Volcanic",
+        "href": "/tours/indonesia/surabaya-bromo"
+      },
+      {
+        "name": "Jakarta / Bandung",
+        "tag": "City & Crater",
+        "tagColor": "blue",
+        "description": "2 packages from RM1,288. Kawah Putih White Crater turquoise lake, Bandung factory outlets and highlands, National Monument (Monas), WHOOSH bullet train, Taman Mini Indonesia Indah and Old Batavia waterfront.",
+        "image": "/images/gallery/14411.jpg",
+        "vibe": "Urban & Highland",
+        "href": "/tours/indonesia/jakarta-bandung"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit Indonesia from Malaysia",
+    "body": "Indonesia straddles the equator and most destinations have a wet and dry season. The dry season is generally the safest for outdoor activities, though Bali and Yogyakarta are visited year-round.",
+    "seasons": [
+      {
+        "name": "Dry Season",
+        "months": "April to October",
+        "badge": "Best for Most",
+        "badgeColor": "blue",
+        "description": "Ideal for Bali beach and temple visits, Bromo sunrise, Yogyakarta temples, and Lombok island hopping. Clear skies and calm seas. July and August are peak season — book early. Lake Toba and Padang highlands are pleasant year-round.",
+        "icon": "sun"
+      },
+      {
+        "name": "Shoulder & Wet Season",
+        "months": "November to March",
+        "badge": "Lower Prices",
+        "badgeColor": "blue",
+        "description": "November–March brings afternoon rain across Java and Bali, though mornings are usually clear for sightseeing. Hotel and package rates drop 20–30%. Bromo sunrise is still accessible but may require more flexible scheduling. Sumatra (Lake Toba, Padang) is less affected by Java's monsoon.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days for Indonesia?",
+    "options": [
+      {
+        "days": "3 Days",
+        "label": "One Destination",
+        "description": "Ideal for Bali (3D/2N covers Uluwatu, Ubud and Tanah Lot) or Yogyakarta (Borobudur, Merapi, Malioboro). A long weekend from Kuala Lumpur."
+      },
+      {
+        "days": "4 Days",
+        "label": "Best Value",
+        "description": "Adds an island day in Bali (Nusa Penida or island hopping) or the full Yogyakarta–Prambanan circuit. The sweet spot for most travellers.",
+        "recommended": true
+      },
+      {
+        "days": "5–6 Days",
+        "label": "Full Experience",
+        "description": "Combine two destinations — Yogyakarta and Bromo/Malang, or a 5-day Bali with highlands and sunset cruise. The most complete view of one island or region."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Indonesia Tour Packages — All Destinations",
+    "subheading": "27 private packages across Bali, Yogyakarta, Bromo, Lake Toba, Lombok, Padang and Jakarta/Bandung. 100% private tours with licensed English-speaking guides. Group discounts from 3 adults.",
+    "ctaNote": "Group discounts available from 3 adults. Custom packages and multi-destination itineraries on request.",
+    "items": [
+      {
+        "id": "bali-3d-super-saver",
+        "slug": "bali/3-day-super-saver",
+        "name": "3 Days Bali Super Saver",
+        "duration": "3D2N",
+        "price": "From RM398",
+        "originalPrice": "RM478",
+        "priceNote": "per person",
+        "saving": "Save RM160 per couple",
+        "tag": "Best Value",
+        "tagColor": "green",
+        "highlights": ["Uluwatu Cliff Temple", "Kecak Fire Dance", "Jimbaran Bay BBQ Seafood", "Tegalalang Rice Terraces"],
+        "image": "/images/gallery/15692.jpg",
+        "pkgid": "2413",
+        "popular": false
+      },
+      {
+        "id": "bali-3d-unleashed",
+        "slug": "bali/3-day-unleashed-culture-nature-adventure",
+        "name": "3 Days Bali Unleashed — Culture, Nature & Adventure",
+        "duration": "3D2N",
+        "price": "From RM688",
+        "originalPrice": "RM826",
+        "priceNote": "per person",
+        "saving": "Save RM275 per couple",
+        "tag": "Culture & Nature",
+        "tagColor": "teal",
+        "highlights": ["Ubud Art Markets", "Monkey Forest", "Rice Terrace Walk", "Balinese Cooking Class"],
+        "image": "/images/gallery/15200.jpg",
+        "pkgid": "2386",
+        "popular": false
+      },
+      {
+        "id": "bali-3d-sacred-cleansing",
+        "slug": "bali/3-day-sacred-cleansing-ritual",
+        "name": "3 Days Bali Sacred Cleansing Ritual",
+        "duration": "3D2N",
+        "price": "From RM888",
+        "originalPrice": "RM1066",
+        "priceNote": "per person",
+        "saving": "Save RM355 per couple",
+        "tag": "Spiritual",
+        "tagColor": "purple",
+        "highlights": ["Tirta Empul Holy Water Purification", "Penglipuran Traditional Village", "Batukaru Temple", "Highland Retreat"],
+        "image": "/images/gallery/15289.jpg",
+        "pkgid": "2409",
+        "popular": false
+      },
+      {
+        "id": "bali-4d-best-of-bali",
+        "slug": "bali/4-day-best-of-bali",
+        "name": "4 Days Best of Bali — No.1 Bestselling Trip",
+        "duration": "4D3N",
+        "price": "From RM988",
+        "originalPrice": "RM1186",
+        "priceNote": "per person",
+        "saving": "Save RM395 per couple",
+        "tag": "Best Seller",
+        "tagColor": "orange",
+        "highlights": ["Uluwatu Kecak Fire Dance", "Tegalalang Rice Terraces", "Tanah Lot Sunset", "Tirta Empul Temple"],
+        "image": "/images/gallery/16473.png",
+        "pkgid": "2380",
+        "popular": true
+      },
+      {
+        "id": "bali-4d-nusa-penida",
+        "slug": "bali/4-day-nusa-penida-island",
+        "name": "4 Days Bali + Nusa Penida Island",
+        "duration": "4D3N",
+        "price": "From RM988",
+        "originalPrice": "RM1186",
+        "priceNote": "per person",
+        "saving": "Save RM395 per couple",
+        "tag": "Island + Beach",
+        "tagColor": "blue",
+        "highlights": ["Nusa Penida Kelingking Beach", "Angel's Billabong", "Broken Beach", "Crystal Bay Snorkelling"],
+        "image": "/images/gallery/15201.jpg",
+        "pkgid": "2382",
+        "popular": true
+      },
+      {
+        "id": "bali-4d-romantic-pool-villa",
+        "slug": "bali/4-day-romantic-escape-pool-villa",
+        "name": "4 Days Bali Romantic Escape — Private Pool Villa",
+        "duration": "4D3N",
+        "price": "From RM994",
+        "originalPrice": "RM1193",
+        "priceNote": "per person",
+        "saving": "Save RM397 per couple",
+        "tag": "Romantic",
+        "tagColor": "pink",
+        "highlights": ["Private Pool Villa in Canggu", "Uluwatu Sunset Dinner", "Ubud Highlands", "Couples Balinese Spa"],
+        "image": "/images/gallery/15322.jpg",
+        "pkgid": "2410",
+        "popular": false
+      },
+      {
+        "id": "bali-4d-gates-of-heaven",
+        "slug": "bali/4-day-gates-of-heaven",
+        "name": "4 Days Bali + Gates of Heaven",
+        "duration": "4D3N",
+        "price": "From RM1,088",
+        "originalPrice": "RM1306",
+        "priceNote": "per person",
+        "saving": "Save RM436 per couple",
+        "tag": "Instagram",
+        "tagColor": "gold",
+        "highlights": ["Pura Lempuyang Gates of Heaven", "Tukad Cepung Waterfall", "Tirta Gangga Water Palace", "East Bali Villages"],
+        "image": "/images/gallery/15298.jpg",
+        "pkgid": "2293",
+        "popular": true
+      },
+      {
+        "id": "bali-4d-romantic-sunset-cruise",
+        "slug": "bali/4-day-romantic-escape-sunset-cruise",
+        "name": "4 Days Romantic Bali Escape with Sunset Cruise",
+        "duration": "4D3N",
+        "price": "From RM1,088",
+        "originalPrice": "RM1306",
+        "priceNote": "per person",
+        "saving": "Save RM436 per couple",
+        "tag": "Romantic",
+        "tagColor": "pink",
+        "highlights": ["Sunset Dinner Cruise on the Indian Ocean", "Uluwatu Kecak Dance", "Ubud Highland Tour", "Tanah Lot at Dusk"],
+        "image": "/images/gallery/16474.png",
+        "pkgid": "2390",
+        "popular": false
+      },
+      {
+        "id": "bali-5d-bliss",
+        "slug": "bali/5-day-bliss-temples-highlands-sunset",
+        "name": "5 Days Bali Bliss — Temples, Highlands & Sunset",
+        "duration": "5D4N",
+        "price": "From RM1,188",
+        "originalPrice": "RM1426",
+        "priceNote": "per person",
+        "saving": "Save RM475 per couple",
+        "tag": "Complete Bali",
+        "tagColor": "orange",
+        "highlights": ["Full Bali Highland Circuit", "Bedugul Floating Temple", "Uluwatu + Kecak", "Nusa Penida Option"],
+        "image": "/images/gallery/15203.jpg",
+        "pkgid": "2381",
+        "popular": false
+      },
+      {
+        "id": "bali-4d-atv-adventure",
+        "slug": "bali/4-day-atv-adventure-sunset-dinner-cruise",
+        "name": "4 Days Bali ATV Adventure & Sunset Dinner Cruise",
+        "duration": "4D3N",
+        "price": "From RM1,188",
+        "originalPrice": "RM1426",
+        "priceNote": "per person",
+        "saving": "Save RM475 per couple",
+        "tag": "Adventure",
+        "tagColor": "red",
+        "highlights": ["ATV Ride Through Rice Fields & River Gorge", "Sunset Dinner Cruise", "Ubud Highlands", "Uluwatu Temple"],
+        "image": "/images/gallery/15198.jpg",
+        "pkgid": "2384",
+        "popular": false
+      },
+      {
+        "id": "bali-4d-dolphin",
+        "slug": "bali/4-day-sunrise-dolphin-watching",
+        "name": "4 Days Bali Sunrise Dolphin Watching Experience",
+        "duration": "4D3N",
+        "price": "From RM1,188",
+        "originalPrice": "RM1426",
+        "priceNote": "per person",
+        "saving": "Save RM475 per couple",
+        "tag": "Wildlife",
+        "tagColor": "teal",
+        "highlights": ["Lovina Beach Dolphin Sunrise Boat", "Bali Swing in Ubud", "Handara Gate", "Bedugul Floating Temple"],
+        "image": "/images/gallery/15199.jpg",
+        "pkgid": "2385",
+        "popular": false
+      },
+      {
+        "id": "bali-5d-nusa-penida",
+        "slug": "bali/5-day-nusa-penida-island-tour",
+        "name": "5 Days Bali + Nusa Penida Island Tour",
+        "duration": "5D4N",
+        "price": "From RM1,288",
+        "originalPrice": "RM1546",
+        "priceNote": "per person",
+        "saving": "Save RM515 per couple",
+        "tag": "Best of Both",
+        "tagColor": "blue",
+        "highlights": ["Full Day Nusa Penida", "Kelingking Beach T-Rex Cliff", "Angel's Billabong & Crystal Bay", "Full Bali Temple Circuit"],
+        "image": "/images/gallery/15204.jpg",
+        "pkgid": "2383",
+        "popular": false
+      },
+      {
+        "id": "bali-6d-private-escape",
+        "slug": "bali/6-day-best-of-bali-private-escape",
+        "name": "6 Days Best of Bali Private Escape",
+        "duration": "6D5N",
+        "price": "From RM1,398",
+        "originalPrice": "RM1678",
+        "priceNote": "per person",
+        "saving": "Save RM560 per couple",
+        "tag": "Most Complete",
+        "tagColor": "gold",
+        "highlights": ["Complete Bali in 6 Days", "North Bali Dolphin + Lovina", "Full Highland Circuit", "Nusa Penida Full Day"],
+        "image": "/images/gallery/16475.png",
+        "pkgid": "2448",
+        "popular": false
+      },
+      {
+        "id": "yogya-3d-best-deal",
+        "slug": "yogyakarta/3-day-best-deal-borobudur",
+        "name": "3 Days Yogyakarta Best Deal — Borobudur & Merapi",
+        "duration": "3D2N",
+        "price": "From RM988",
+        "originalPrice": "RM1186",
+        "priceNote": "per person",
+        "saving": "Save RM395 per couple",
+        "tag": "Best Value",
+        "tagColor": "green",
+        "highlights": ["Borobudur Temple", "Mount Merapi 4WD Jeep", "Parangtritis Beach", "Malioboro Street Shopping"],
+        "image": "/images/gallery/16207.jpg",
+        "pkgid": "2452",
+        "popular": false
+      },
+      {
+        "id": "yogya-4d-best-seller",
+        "slug": "yogyakarta/4-day-best-seller-borobudur",
+        "name": "4 Days Yogyakarta Best-Seller — Borobudur & Prambanan",
+        "duration": "4D3N",
+        "price": "From RM1,288",
+        "originalPrice": "RM1546",
+        "priceNote": "per person",
+        "saving": "Save RM515 per couple",
+        "tag": "Best Seller",
+        "tagColor": "orange",
+        "highlights": ["Borobudur Sunrise", "Prambanan Hindu Temple Complex", "Mount Merapi Jeep", "Kraton Sultan's Palace"],
+        "image": "/images/gallery/16197.jpg",
+        "pkgid": "2450",
+        "popular": true
+      },
+      {
+        "id": "yogya-4d-adventure",
+        "slug": "yogyakarta/4-day-adventure-timang-beach-cave",
+        "name": "4 Days Yogyakarta Adventure — Timang Beach & Caves",
+        "duration": "4D3N",
+        "price": "From RM1,288",
+        "originalPrice": "RM1546",
+        "priceNote": "per person",
+        "saving": "Save RM515 per couple",
+        "tag": "Adventure",
+        "tagColor": "red",
+        "highlights": ["Timang Beach Gondola over Crashing Waves", "Jomblang Cave Vertical Rappel", "Borobudur Temple", "Merapi Jeep Tour"],
+        "image": "/images/gallery/16204.jpg",
+        "pkgid": "2451",
+        "popular": false
+      },
+      {
+        "id": "yogya-4d-classic",
+        "slug": "yogyakarta/4-day-classic-borobudur-prambanan",
+        "name": "4 Days Classic Yogyakarta — Borobudur & Prambanan",
+        "duration": "4D3N",
+        "price": "From RM1,488",
+        "originalPrice": "RM1786",
+        "priceNote": "per person",
+        "saving": "Save RM595 per couple",
+        "tag": "Premium",
+        "tagColor": "gold",
+        "highlights": ["Private Borobudur Sunrise Tour", "Prambanan Sunset Visit", "Merapi Lava Tour", "Taman Sari Water Castle"],
+        "image": "/images/gallery/16208.jpg",
+        "pkgid": "2398",
+        "popular": false
+      },
+      {
+        "id": "yogya-5d-jogja",
+        "slug": "yogyakarta/5-day-jogja-borobudur-prambanan-land-above",
+        "name": "5 Days JOGJA — Borobudur, Prambanan & The Land Above Clouds",
+        "duration": "5D4N",
+        "price": "From RM1,850",
+        "originalPrice": "RM2220",
+        "priceNote": "per person",
+        "saving": "Save RM740 per couple",
+        "tag": "Most Complete",
+        "tagColor": "purple",
+        "highlights": ["Borobudur & Prambanan Full Days", "Dieng Plateau Above the Clouds", "Merapi Lava Jeep", "Traditional Wayang Shadow Puppet"],
+        "image": "/images/gallery/12615.jpg",
+        "pkgid": "2152",
+        "popular": false
+      },
+      {
+        "id": "medan-3d-lake-toba",
+        "slug": "medan-lake-toba/3-day-lake-toba",
+        "name": "3 Days Medan + Lake Toba",
+        "duration": "3D2N",
+        "price": "From RM788",
+        "originalPrice": "RM946",
+        "priceNote": "per person",
+        "saving": "Save RM315 per couple",
+        "tag": "Volcanic Lake",
+        "tagColor": "teal",
+        "highlights": ["Lake Toba — World's Largest Volcanic Lake", "Samosir Island & Batak Villages", "Sipiso-Piso Waterfall", "Maimoon Palace Medan"],
+        "image": "/images/gallery/15102.jpg",
+        "pkgid": "2157",
+        "popular": false
+      },
+      {
+        "id": "medan-4d-explore-toba",
+        "slug": "medan-lake-toba/4-day-explore-lake-toba",
+        "name": "4 Days Explore the Beauty of Lake Toba",
+        "duration": "4D3N",
+        "price": "From RM988",
+        "originalPrice": "RM1186",
+        "priceNote": "per person",
+        "saving": "Save RM395 per couple",
+        "tag": "Extended",
+        "tagColor": "blue",
+        "highlights": ["Lake Toba Extended Circuit", "Samosir Island Overnight", "Berastagi Highland Market", "Batak Cultural Immersion"],
+        "image": "/images/gallery/14410.jpg",
+        "pkgid": "2156",
+        "popular": false
+      },
+      {
+        "id": "lombok-3d-island",
+        "slug": "lombok/3-day-lombok-island",
+        "name": "3 Days Lombok — Bali's Wild Sister",
+        "duration": "3D2N",
+        "price": "From RM688",
+        "originalPrice": "RM826",
+        "priceNote": "per person",
+        "saving": "Save RM275 per couple",
+        "tag": "Island Escape",
+        "tagColor": "green",
+        "highlights": ["Pink Beach Snorkelling", "Gili Trawangan Island", "Sasak Traditional Village", "Mount Rinjani Views"],
+        "image": "/images/gallery/13329.jpg",
+        "pkgid": "2191",
+        "popular": false
+      },
+      {
+        "id": "lombok-4d-best-kept-secret",
+        "slug": "lombok/4-day-lomboks-best-kept-secret",
+        "name": "4 Days Lombok's Best-Kept Secret",
+        "duration": "4D3N",
+        "price": "From RM988",
+        "originalPrice": "RM1186",
+        "priceNote": "per person",
+        "saving": "Save RM395 per couple",
+        "tag": "Nature Lovers",
+        "tagColor": "teal",
+        "highlights": ["Senaru Crater Rim Trek", "Tiu Kelep Waterfall", "Senggigi Beach Sunset", "Traditional Weaving Village"],
+        "image": "/images/gallery/16195.jpg",
+        "pkgid": "2449",
+        "popular": false
+      },
+      {
+        "id": "padang-4d-bukittinggi",
+        "slug": "padang/4-day-bukittinggi-harau-valley",
+        "name": "4 Days Padang, Bukittinggi & Harau Valley Escape",
+        "duration": "4D3N",
+        "price": "From RM988",
+        "originalPrice": "RM1186",
+        "priceNote": "per person",
+        "saving": "Save RM395 per couple",
+        "tag": "Highland Heritage",
+        "tagColor": "purple",
+        "highlights": ["Harau Valley 150m Granite Cliffs", "Bukittinggi Fort de Kock", "Sianok Canyon", "Minangkabau Traditional Village"],
+        "image": "/images/gallery/14397.png",
+        "pkgid": "2160",
+        "popular": false
+      },
+      {
+        "id": "bromo-4d-sunrise",
+        "slug": "surabaya-bromo/4-day-bromo-sunrise-adventure",
+        "name": "4 Days Bromo Sunrise Adventure + Hidden Waterfall",
+        "duration": "4D3N",
+        "price": "From RM1,388",
+        "originalPrice": "RM1735",
+        "priceNote": "per person",
+        "saving": "Save RM695 per couple",
+        "tag": "Adventure",
+        "tagColor": "red",
+        "highlights": ["Mount Bromo 4WD Sunrise — Sea of Volcanic Sand", "Coban Rondo Waterfall", "Museum Angkut Asia's Largest", "Malang City Tour"],
+        "image": "/images/gallery/13429.jpg",
+        "pkgid": "2167",
+        "popular": true
+      },
+      {
+        "id": "surabaya-5d-bromo-malang",
+        "slug": "surabaya-bromo/5-day-bromo-best-of-malang",
+        "name": "5 Days Surabaya | Bromo + Best of Malang",
+        "duration": "5D4N",
+        "price": "From RM1,688",
+        "originalPrice": "RM2026",
+        "priceNote": "per person",
+        "saving": "Save RM675 per couple",
+        "tag": "Complete Java",
+        "tagColor": "orange",
+        "highlights": ["Mount Bromo Sunrise", "Apple Garden Kusuma Agro", "Surabaya Historic Tour", "Jodipan Colourful Village Malang"],
+        "image": "/images/gallery/14433.jpg",
+        "pkgid": "2321",
+        "popular": false
+      },
+      {
+        "id": "jakarta-bandung-4d-crater",
+        "slug": "jakarta-bandung/4-day-white-crater-volcano",
+        "name": "4 Days Jakarta Bandung + White Crater Volcano",
+        "duration": "4D3N",
+        "price": "From RM1,288",
+        "originalPrice": "RM1546",
+        "priceNote": "per person",
+        "saving": "Save RM515 per couple",
+        "tag": "City + Nature",
+        "tagColor": "blue",
+        "highlights": ["Kawah Putih Turquoise Crater Lake", "Bandung Factory Outlets", "National Monument Monas Jakarta", "Taman Mini Indonesia Indah"],
+        "image": "/images/gallery/14411.jpg",
+        "pkgid": "2159",
+        "popular": false
+      },
+      {
+        "id": "jakarta-bandung-4d-whoosh",
+        "slug": "jakarta-bandung/4-day-whoosh-bullet-train",
+        "name": "4 Days Jakarta Bandung by WHOOSH Bullet Train",
+        "duration": "4D3N",
+        "price": "From RM1,388",
+        "originalPrice": "RM1666",
+        "priceNote": "per person",
+        "saving": "Save RM555 per couple",
+        "tag": "Modern Java",
+        "tagColor": "teal",
+        "highlights": ["WHOOSH High-Speed Train Jakarta–Bandung", "Kawah Putih White Crater", "Old Batavia Kota Tua", "Bandung Riau Factory Outlets"],
+        "image": "/images/gallery/14413.jpg",
+        "pkgid": "2323",
+        "popular": false
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Indonesia Trip Through Dhesu",
+    "body": "Indonesia's scale is the challenge. From Kuala Lumpur there are direct flights to Bali, Yogyakarta, Lombok, Medan, Surabaya and Jakarta — but each island and city has its own seasons, its own operators, its own unwritten rules about what to do first and what to skip. Dhesu has been arranging Indonesia travel for Malaysian clients for over 35 years.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed Malaysian travel agency. All Indonesia packages are arranged through licensed local operators in each city. Your money is protected."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "description": "Over 35 years of sending Malaysian travellers to Indonesia. We know the Bromo 2AM wake-up drill, the Borobudur sunrise permit system, and when to go to Bali and when to avoid."
+      },
+      {
+        "icon": "map",
+        "title": "100% Private Tours",
+        "description": "Every Indonesia package from Dhesu is completely private — your own driver-guide, your own vehicle, your own schedule. No waiting for strangers, no group dynamics."
+      },
+      {
+        "icon": "tag",
+        "title": "Group Discounts Available",
+        "description": "Significant reductions for groups of 3 and 5 adults. Multi-destination custom itineraries combining two or more Indonesian cities are available on request."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Indonesia Adventure",
+    "subheading": "Bali temples, Borobudur at sunrise, Mount Bromo's volcanic sea and Lake Toba's ancient crater. Tell us where and when.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/13429.jpg"
+  }
+}

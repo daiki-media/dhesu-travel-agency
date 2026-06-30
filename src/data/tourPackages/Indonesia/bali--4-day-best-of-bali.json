@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "title": "4 Days Best of Bali — No.1 Bestselling Bali Package from RM988 | Dhesu Travel",
+    "description": "Bali's No.1 bestselling tour — 4 days covering Uluwatu, Kecak Fire Dance, Jimbaran Bay, Ubud cultural heart, Mount Batur volcano, Tirta Empul temple, Bedugul highlands, Tanah Lot sunset and more. From RM988 per person. Private tour, daily departures.",
+    "keywords": "4 days best of Bali, bestselling Bali package, Uluwatu temple, Tanah Lot temple, Tirta Empul, Mount Batur, Bedugul highlands, Ubud tour, Kecak fire dance, Bali package Malaysia RM988, 4D3N Bali holiday",
+    "slug": "bali/4-day-best-of-bali",
+    "canonicalUrl": "/tours/indonesia/bali/4-day-best-of-bali",
+    "ogImage": "/images/gallery/16473.png",
+    "pkgid": "2380"
+  },
+  "hero": {
+    "badge": "Bali, Indonesia — 4 Days 3 Nights",
+    "title": "4 Days",
+    "titleAccent": "Best of Bali",
+    "intro": "Bali's No.1 bestselling private tour — spanning clifftop temples, sacred springs, volcanic highlands, floating lake temples and iconic sunsets across 4 perfectly paced days of discovery.",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Indonesia", "href": "/tours/indonesia" },
+      { "label": "Bali", "href": "/tours/indonesia/bali" },
+      { "label": "4 Days Best of Bali", "href": null }
+    ],
+    "heroImage": "/images/gallery/16473.png",
+    "heroImageAlt": "Iconic Tanah Lot sea temple perched on a rocky outcrop in the ocean at sunset, Bali"
+  },
+  "quickFacts": {
+    "duration": "4D3N",
+    "startingPrice": "From RM988",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,238",
+    "saving": "Save RM250 per person (20% online discount)",
+    "groupSize": "100% Private",
+    "includes": [
+      "Hotel accommodation (3 nights)",
+      "Meals as specified (3 breakfasts, 2 lunches, 3 dinners)",
+      "All entrance fees per itinerary",
+      "Airport transfers (arrival & departure)",
+      "English-speaking driver-guide",
+      "FREE Kecak Fire Dance show",
+      "All land transfers"
+    ],
+    "excludes": [
+      "Flight tickets and taxes",
+      "Compulsory tour tips RM49",
+      "ETIQA Travel Insurance Area 2 Gold RM41",
+      "High season surcharge (July–August)",
+      "Bali Levy Tax IDR 150,000",
+      "Optional activities (Bali Swing RM68, candlelight dinner RM90, massage RM90)",
+      "Items not listed under inclusions"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      { "icon": "hotel", "label": "Hotel" },
+      { "icon": "meal", "label": "Meals" },
+      { "icon": "entrance", "label": "Entrance Fees" },
+      { "icon": "airport", "label": "Transfers" },
+      { "icon": "guide", "label": "Driver-Guide" }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "Package Overview",
+    "heading": "Bali's Greatest Hits — The Complete Private Island Experience",
+    "body": [
+      "Bali's No.1 bestselling tour is exactly what the name promises — the absolute best of Bali, delivered in 4 days through a perfectly balanced private itinerary. From the dramatic cliffs of Uluwatu and the legendary Kecak Fire Dance on Day 1, to the cultural heartland of Ubud, sacred Mount Batur views and the thousand-year-old Tirta Empul purification temple on Day 2, to the Bedugul highlands, Bali's iconic floating lake temple and the magnificent Tanah Lot sunset on Day 3 — every day delivers something truly extraordinary.",
+      "Designed for Malaysian travellers who want to experience Bali thoroughly without needing a week, this private package covers the island's essential spiritual sites, natural wonders, cultural villages and culinary highlights. Your dedicated English-speaking driver-guide is with you every step of the way, ensuring a seamless, relaxed and deeply memorable 4-day Bali adventure. Daily departures mean you can travel on any date that suits your schedule."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "Trip Highlights",
+    "heading": "What Makes This Trip Special",
+    "items": [
+      {
+        "title": "Uluwatu Cliff Temple & FREE Kecak Fire Dance",
+        "body": "Watch the sunset from the top of a 70-metre ocean cliff at Uluwatu Temple, one of Bali's most sacred sea temples, then experience the legendary Kecak Fire Dance — 50+ performers chanting and dancing around a fire against the burning sky as the Ramayana epic unfolds. Fully included in your package.",
+        "image": "/images/gallery/15119.jpg",
+        "imageAlt": "Kecak Fire Dance performers at Uluwatu Temple cliff at sunset in Bali"
+      },
+      {
+        "title": "Jimbaran Bay BBQ Seafood Dinner",
+        "body": "The quintessential Bali dining experience — fresh grilled lobster, prawns, fish and squid served beachside on the golden sands of Jimbaran Bay as the last light fades over the Indian Ocean. Romantic, flavourful and completely unforgettable.",
+        "image": "/images/gallery/14713.jpg",
+        "imageAlt": "Beachside BBQ seafood dinner at Jimbaran Bay with sunset views, Bali"
+      },
+      {
+        "title": "Tirta Empul Sacred Holy Spring Temple",
+        "body": "One of Bali's most sacred and atmospheric sites — the Tirta Empul temple complex is built around a holy spring where Balinese Hindus have performed purification rituals for over a thousand years. Watch devotees bathing in the spring pools or follow your guide through the beautifully carved temple grounds.",
+        "image": "/images/gallery/15186.jpg",
+        "imageAlt": "Sacred Tirta Empul holy spring purification pools and temple in Ubud, Bali"
+      },
+      {
+        "title": "Mount Batur Volcanic Panorama Lunch",
+        "body": "Dine at altitude at Grand Puncak Sari restaurant on the rim of the Kintamani caldera, enjoying a panoramic Indonesian buffet lunch overlooking the steaming cone of Mount Batur and the vast expanse of Lake Batur — one of the most dramatic and memorable dining views in all of Southeast Asia.",
+        "image": "/images/gallery/14720.jpg",
+        "imageAlt": "Panoramic view of Mount Batur active volcano and Lake Batur crater in Kintamani, Bali"
+      },
+      {
+        "title": "Pura Ulun Danu Beratan — The Floating Temple",
+        "body": "Set on the shores of the misty highland lake of Beratan, the Pura Ulun Danu Beratan temple appears to float on the water's surface, its multi-tiered pagodas reflected in the still lake in cool morning air. Dedicated to Dewi Danu, the goddess of the lake, this is one of Bali's most photographed and most magical sites.",
+        "image": "/images/gallery/14729.jpg",
+        "imageAlt": "Pura Ulun Danu Beratan floating temple on Lake Beratan in Bedugul highlands, Bali"
+      },
+      {
+        "title": "Tanah Lot — Bali's Most Iconic Sea Temple at Sunset",
+        "body": "Perched on a rocky offshore islet battered by waves, the ancient Tanah Lot temple is one of the most photographed images in all of Indonesia. At sunset, the silhouette of its multi-tiered shrines against a blazing sky is a sight of extraordinary beauty — and a perfect final flourish on Day 3.",
+        "image": "/images/gallery/14730.jpg",
+        "imageAlt": "Tanah Lot sea temple silhouetted against a dramatic sunset sky, Bali"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day-by-Day Itinerary",
+    "heading": "Your 4-Day Best of Bali Journey",
+    "days": [
+      {
+        "day": 1,
+        "title": "Melasti Beach, Uluwatu, Kecak Fire Dance & Jimbaran Bay",
+        "meals": "Dinner",
+        "description": "Your Bali journey begins with a warm welcome at Ngurah Rai International Airport. After checking into your hotel, head straight to the scenic Melasti Beach, one of Bali's most breathtaking coastal escapes, set against dramatic limestone cliffs with brilliant turquoise water. As afternoon turns to golden hour, make your way to Uluwatu Temple — one of Bali's six key Kayangan Jagat directional temples — dramatically perched on the southwestern cliffs 70 metres above the Indian Ocean. The clifftop walk to the temple with ocean views on all sides is extraordinary, and the resident monkeys are an added entertainment. Time your visit perfectly to catch the magnificent FREE Kecak Fire Dance performance at sunset — one of Bali's most spellbinding cultural experiences, performed by over 50 male performers who chant in interlocking rhythms while enacting scenes from the Ramayana. Afterwards, descend to Jimbaran Bay for the quintessential Bali evening: a candlelit grilled BBQ seafood dinner on the beach, with fresh prawns, fish, squid and lobster cooked over coconut husks as the stars emerge over the ocean.",
+        "suggestedActivities": [
+          "Melasti Beach — dramatic limestone cove",
+          "Uluwatu Temple — clifftop sea temple walk",
+          "FREE Kecak Fire Dance at sunset",
+          "Grilled BBQ seafood dinner at Jimbaran Bay",
+          "Optional: Romantic candlelight dinner upgrade (RM90)"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Ubud Cultural Heart, Mount Batur Volcano & Tirta Empul Temple",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "After a hearty hotel breakfast, your private guide escorts you into Bali's cool and culturally rich Ubud highlands. Begin at Celuk Village, where master goldsmiths and silversmiths have been creating extraordinary jewellery for generations — watch them work and browse at workshop prices. Explore the majestic Ubud Royal Palace (Puri Saren Agung) with its elaborately carved gates and traditional Balinese architecture, then wander the adjacent colourful Ubud Traditional Market for silk scarves, wooden carvings, rattan bags, handmade kites and local handicrafts. A stop at the local coffee plantation follows for tastings of Luwak coffee, traditional Balinese coffee and a selection of herbal teas. Drive up to the Kintamani highlands for a spectacular Indonesian buffet lunch at Grand Puncak Sari, set on the rim of the ancient Batur caldera with an unobstructed panoramic view of the active Mount Batur volcano and the vast, serene Lake Batur. In the afternoon, visit the sacred Tegalalang Rice Terrace — emerald terraces cascading down a jungle valley that are among Asia's most iconic landscapes — with the optional Alas Arum Bali Swing (RM68) for aerial views. The day's spiritual high point is the Tirta Empul Temple, where the holy spring waters have flowed continuously for over a thousand years and devotees immerse themselves in purification rituals believed to restore health and spiritual purity. Dinner at Fork Bakery and Grill Kuta rounds off a full and wonderful day.",
+        "suggestedActivities": [
+          "Celuk Gold & Silver Village",
+          "Ubud Royal Palace (Puri Saren Agung)",
+          "Ubud Traditional Market",
+          "Local coffee plantation — Luwak coffee tasting",
+          "Kintamani volcano panorama lunch at Grand Puncak Sari",
+          "Tegalalang Rice Terrace",
+          "Optional: Alas Arum Bali Swing (RM68, self-paid)",
+          "Tirta Empul Sacred Holy Spring Temple",
+          "Dinner at Fork Bakery and Grill Kuta"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Bedugul Highlands, Floating Temple, Chocolate Factory & Tanah Lot Sunset",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "Today takes you through the lush Bedugul highlands in the north of Bali. Begin at Bloom Garden Bedugul — a beautiful tropical flower garden where the cool mountain air carries the scent of orchids and roses against a backdrop of misty hills. Continue to the magical Pura Ulun Danu Beratan, the iconic floating temple on Lake Beratan's shores, dedicated to Dewi Danu, the goddess of the lake. The temple's multi-tiered pagodas are reflected perfectly in the still water, creating a scene of extraordinary beauty that is one of the most photographed images in all of Bali. Lunch at Ulun Danu Resto overlooks the lake. A fascinating detour follows to Junglegold Chocolate Factory — the world's first plant-based chocolate factory — where you can learn about Bali's cacao heritage and sample some extraordinary local chocolate creations. The day reaches its dramatic crescendo at Tanah Lot, one of Bali's most iconic sea temples, perched on a rocky sea stack surrounded by crashing waves. As the sun descends and the sky turns to fire, the temple silhouette makes for an extraordinary final image of the day. Dinner at Tempong Indra serves authentic Balinese grilled chicken.",
+        "suggestedActivities": [
+          "Bloom Garden Bedugul — tropical flower garden",
+          "Pura Ulun Danu Beratan — floating lake temple",
+          "Lunch at Ulun Danu Resto with lake views",
+          "Junglegold Chocolate Factory — world's first plant-based chocolate factory",
+          "Tanah Lot sea temple at sunset",
+          "Dinner at Tempong Indra",
+          "Optional: Balinese full-body massage (RM90)"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Free Morning Exploration & Departure",
+        "meals": "Breakfast",
+        "description": "Your final morning in Bali is completely free — spend it at the beach, exploring the local markets, getting a traditional Balinese massage, or simply relaxing over a long breakfast. At the appropriate time, check out of your hotel and stop at a quality souvenir shop for last-minute gifts — Balinese coffee, batik fabric, silver jewellery and artisan crafts are all excellent choices — before your comfortable airport transfer to Ngurah Rai International Airport.",
+        "suggestedActivities": [
+          "Free morning — beach, spa, market or café",
+          "Hotel checkout",
+          "Souvenir shop visit",
+          "Airport transfer for departure"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Accommodation",
+    "heading": "Choose Your Hotel Category",
+    "subheading": "All hotels are on a twin-sharing basis. Private pool villa option available for couples.",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "label": "3-Star Budget Friendly",
+        "hotel": "Swiss-Bel Express Kuta, Siesta Legian, Kampi Hotel, Nadi Hotel or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM988" }
+        ],
+        "fromPrice": "RM988",
+        "popular": false
+      },
+      {
+        "tier": "Comfort",
+        "label": "4-Star Comfort",
+        "hotel": "Episode Kuta, The One Legian, J4 Hotels Legian or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,088" }
+        ],
+        "fromPrice": "RM1,088",
+        "popular": true
+      },
+      {
+        "tier": "Premium",
+        "label": "5-Star Premium",
+        "hotel": "The Magani Hotel & Spa, Tuntrum Kuta, Grand Istana Rama (4-star beachfront) or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,388" }
+        ],
+        "fromPrice": "RM1,388",
+        "popular": false
+      },
+      {
+        "tier": "Villa",
+        "label": "4-Star Private Pool Villa",
+        "hotel": "Manca Villas Canggu (iNi Vie Hospitality) or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,488" }
+        ],
+        "fromPrice": "RM1,488",
+        "popular": false
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Bali Trip Through Dhesu",
+    "body": "Dhesu Travel has been Bali's most trusted outbound travel partner for Malaysian visitors since 1988. Our '4 Days Best of Bali' is consistently our highest-rated package — and the feedback from thousands of happy travellers tells us why: the balance of experiences is simply perfect.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Dhesu is a fully licensed Malaysian travel agency registered with MATTA and IATA, giving you full consumer protection and financial security for every booking."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "body": "Over 35 years of delivering outstanding Bali holidays to Malaysian travellers gives us an unmatched depth of local knowledge, supplier relationships and itinerary expertise."
+      },
+      {
+        "icon": "map",
+        "title": "100% Private Tours",
+        "body": "Your own vehicle, your own driver-guide, your own pace. No waiting for strangers, no compromise on timing — just your group and a beautifully personalised Bali journey."
+      },
+      {
+        "icon": "tag",
+        "title": "Our Most Popular Package",
+        "body": "The '4 Days Best of Bali' is Dhesu's No.1 selling package for a reason — it hits every iconic Bali highlight without a single wasted moment, delivering exceptional value at every price tier."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Why the 4-Day Bali Itinerary is Perfect for Malaysian Travellers",
+        "body": "With direct flights from Kuala Lumpur taking just 2.5 hours, Bali is perfectly positioned for a 4-day escape over a long weekend or a mid-week break. The '4 Days Best of Bali' itinerary is structured so that you return home feeling like you have truly experienced the island — not just skimmed its surface. South Bali's beaches and cliffs on Day 1, Ubud's cultural highlands on Day 2, the Bedugul lakes and the west coast's iconic Tanah Lot on Day 3 — the geographic spread covers the island beautifully without ever feeling rushed."
+      },
+      {
+        "heading": "Tanah Lot: The Temple Every Bali Visitor Must See",
+        "body": "Tanah Lot is arguably the single most iconic image of Bali — an ancient Hindu temple perched on a dramatic sea stack, surrounded by the crashing surf of the Indian Ocean. Built in the 16th century, it is one of seven sea temples along the Balinese coast, all positioned so that each one can be seen from the next. At sunset, the silhouette of Tanah Lot against an orange and purple sky is so extraordinary that even the most seasoned travellers find themselves breathless. Local legend speaks of the temple being protected by venomous sea snakes — guardians sent by the priest who founded it."
+      },
+      {
+        "heading": "The Junglegold Chocolate Factory — A Uniquely Balinese Experience",
+        "body": "Tucked into the Bedugul highlands, the Junglegold Chocolate Factory is the world's first certified plant-based chocolate factory, producing extraordinary single-origin chocolates from Balinese cacao. A visit here is equal parts fascinating education and delicious indulgence — learn the entire bean-to-bar production process, discover the history of cacao in Bali, and sample an array of innovative plant-based chocolate creations you simply cannot find anywhere else."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Why is this Bali's No.1 bestselling package?",
+        "answer": "The '4 Days Best of Bali' covers the island's most iconic and varied experiences — dramatic coastal cliffs, sacred temples, volcanic highlands, floating lake temples, cultural villages and beachside dining — in a perfectly balanced 4-day private itinerary. It delivers maximum Bali in minimum time, and the feedback from thousands of travellers consistently rates it as the ideal introduction to the island."
+      },
+      {
+        "question": "What meals are included?",
+        "answer": "Day 1: Dinner (Jimbaran Bay BBQ seafood). Day 2: Breakfast, lunch (Kintamani volcano viewpoint), dinner (Fork Bakery and Grill). Day 3: Breakfast, lunch (Ulun Danu Resto), dinner (Tempong Indra). Day 4: Breakfast. Total: 3 breakfasts, 2 lunches, 3 dinners."
+      },
+      {
+        "question": "Is the Kecak Fire Dance really free?",
+        "answer": "Yes — entrance to Uluwatu Temple and the Kecak Fire Dance performance are fully included in your package price. No additional charges apply."
+      },
+      {
+        "question": "Can we upgrade to a private pool villa?",
+        "answer": "Yes — the private pool villa option (Manca Villas Canggu or similar) is available at RM1,488 per person on twin-sharing basis. This is a particularly popular choice for honeymoon couples and anniversaries."
+      },
+      {
+        "question": "What is the Bali Levy Tax and how do I pay it?",
+        "answer": "The Bali provincial government introduced a tourist levy of IDR 150,000 (approximately RM44) per international visitor. It can be paid online before your trip at the official Bali Love portal, or upon arrival. It is not included in the package price."
+      },
+      {
+        "question": "Are there high season surcharges?",
+        "answer": "Yes — additional surcharges apply during the Bali high season (July–August) and some peak periods. Our team will advise on the exact surcharge amount when you make your enquiry."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "bali-4d-nusa-penida-island",
+      "name": "4 Days Bali + Nusa Penida Island",
+      "price": "From RM988",
+      "duration": "4D3N",
+      "slug": "bali/4-day-nusa-penida-island",
+      "image": "/images/gallery/15201.jpg"
+    },
+    {
+      "id": "bali-4d-gates-of-heaven",
+      "name": "4 Days Bali Gates of Heaven",
+      "price": "From RM1,088",
+      "duration": "4D3N",
+      "slug": "bali/4-day-gates-of-heaven",
+      "image": "/images/gallery/15298.jpg"
+    },
+    {
+      "id": "bali-5d-bliss-temples-highlands-sunset",
+      "name": "5 Days Bali Bliss: Temples, Highlands & Sunset",
+      "price": "From RM1,188",
+      "duration": "5D4N",
+      "slug": "bali/5-day-bliss-temples-highlands-sunset",
+      "image": "/images/gallery/15203.jpg"
+    }
+  ],
+  "cta": {
+    "heading": "Book Bali's No.1 Best-Selling Tour",
+    "subheading": "Private tour, flexible dates — tell us when you want to go and we'll handle the rest.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/16473.png"
+  }
+}

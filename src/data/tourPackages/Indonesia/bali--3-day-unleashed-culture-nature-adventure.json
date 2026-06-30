@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "title": "3 Days Bali Unleashed: Culture, Nature & Adventure | From RM688 | Dhesu Travel",
+    "description": "Experience the best of Bali in 3 days — Pandawa Beach, Uluwatu cliff, FREE Kecak Fire Dance, Jimbaran Bay BBQ seafood, Tirta Empul sacred spring, volcanic views and Tegalalang rice terrace. From RM688 per person. Valid until March 2027.",
+    "keywords": "3 days Bali culture nature adventure, Pandawa Beach Bali, Uluwatu temple tour, Kecak fire dance, Jimbaran Bay seafood, Tirta Empul temple, Bali highland tour, Kintamani volcano, Tegalalang rice terrace, Bali package Malaysia RM688",
+    "slug": "bali/3-day-unleashed-culture-nature-adventure",
+    "canonicalUrl": "/tours/indonesia/bali/3-day-unleashed-culture-nature-adventure",
+    "ogImage": "/images/gallery/15200.jpg",
+    "pkgid": "2386"
+  },
+  "hero": {
+    "badge": "Bali, Indonesia — 3 Days 2 Nights",
+    "title": "3 Days Bali Unleashed:",
+    "titleAccent": "Culture, Nature & Adventure",
+    "intro": "From cliffside temples and sacred healing springs to an active volcano panorama and a sunset Kecak fire dance — this action-packed 3-day Bali tour packs more magic into 72 hours than most people see in a week.",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Indonesia", "href": "/tours/indonesia" },
+      { "label": "Bali", "href": "/tours/indonesia/bali" },
+      { "label": "3 Days Bali Unleashed", "href": null }
+    ],
+    "heroImage": "/images/gallery/15200.jpg",
+    "heroImageAlt": "Sacred Tirta Empul holy spring temple surrounded by tropical jungle in Bali, Indonesia"
+  },
+  "quickFacts": {
+    "duration": "3D2N",
+    "startingPrice": "From RM688",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM860",
+    "saving": "Save RM172 per person (20% online discount)",
+    "groupSize": "100% Private",
+    "includes": [
+      "Hotel accommodation (2 nights)",
+      "Meals as specified (2 breakfasts, 1 lunch, 2 dinners)",
+      "All entrance fees per itinerary",
+      "Airport transfers (arrival & departure)",
+      "English-speaking driver-guide",
+      "FREE Kecak Fire Dance show",
+      "All land transfers"
+    ],
+    "excludes": [
+      "Flight tickets and taxes",
+      "Compulsory tour tips RM29",
+      "ETIQA Travel Insurance Area 2 Gold RM41",
+      "High season surcharge (July–August)",
+      "Bali Levy Tax IDR 150,000",
+      "Optional Bali Swing RM18–25",
+      "Items not listed under inclusions"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      { "icon": "hotel", "label": "Hotel" },
+      { "icon": "meal", "label": "Meals" },
+      { "icon": "entrance", "label": "Entrance Fees" },
+      { "icon": "airport", "label": "Transfers" },
+      { "icon": "guide", "label": "Driver-Guide" }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "Package Overview",
+    "heading": "Bali's Best Beaches, Temples, Volcanoes and Culture — All in 3 Days",
+    "body": [
+      "This is Bali as it was meant to be experienced. The '3 Days Bali Unleashed' package combines the island's most iconic spiritual, natural and cultural attractions into a perfectly paced private itinerary. On Day 1, you arrive to white-sand beaches at Pandawa, dramatic ocean cliffs at Uluwatu, a mesmerising Kecak Fire Dance at sunset, and a legendary BBQ seafood feast on the sands of Jimbaran Bay. Day 2 takes you deep into the cool Ubud highlands — through artisan villages, a holy spring temple where Balinese have purified themselves for over a thousand years, a volcanic panorama over Mount Batur, and the world-famous Tegalalang Rice Terrace. Day 3 is a relaxed farewell morning before your airport transfer.",
+      "Designed specifically for Malaysian travellers, this private tour means you are never rushed and never herded with strangers. Your personal English-speaking driver-guide customises the pace to your group, and with daily departures, you can choose any date that suits your schedule. It is the most popular Bali itinerary for a reason — it delivers maximum Bali in minimum time, with all the important details handled for you."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "Trip Highlights",
+    "heading": "What Makes This Trip Special",
+    "items": [
+      {
+        "title": "Pandawa Beach — Hidden White Sand Cove",
+        "body": "Tucked behind dramatic limestone cliffs carved with statues of the five Pandawa warriors, Pandawa Beach is one of Bali's most scenic and least crowded coastal escapes. Turquoise water, pristine white sand and towering rock walls make it an extraordinary welcome to the island.",
+        "image": "/images/gallery/15123.jpg",
+        "imageAlt": "Pandawa Beach with turquoise water and dramatic limestone cliffs in Bali, Indonesia"
+      },
+      {
+        "title": "Uluwatu Cliff Temple & FREE Kecak Fire Dance",
+        "body": "Stand on the edge of a 70-metre sea cliff at Uluwatu Temple as the sky blazes orange at sunset, then watch the legendary Kecak Fire Dance — a hypnotic performance of rhythmic chanting, dramatic storytelling from the Ramayana epic and fire — included free in your package.",
+        "image": "/images/gallery/15124.jpg",
+        "imageAlt": "Kecak Fire Dance performance at sunset at Uluwatu Temple, Bali"
+      },
+      {
+        "title": "Jimbaran Bay Grilled Seafood Dinner",
+        "body": "Dine with your feet practically in the sand as the last light fades over the Indian Ocean. Jimbaran Bay's famous beachfront warung restaurants grill fresh lobster, prawns, fish and squid over coconut husks — it is one of those Bali experiences that guests remember for years.",
+        "image": "/images/gallery/14833.jpg",
+        "imageAlt": "Grilled seafood dinner at sunset on Jimbaran Bay beach, Bali"
+      },
+      {
+        "title": "Tirta Empul Sacred Purification Temple",
+        "body": "Built around a sacred spring that Balinese Hindus have used for spiritual purification for over a thousand years, Tirta Empul is one of Bali's most sacred and atmospheric temple complexes. Watch pilgrims bathe in the spring's crystal-clear waters believed to have healing powers, or join a guided purification ritual yourself.",
+        "image": "/images/gallery/14838.jpg",
+        "imageAlt": "Sacred Tirta Empul holy spring temple with purification pools in Bali"
+      },
+      {
+        "title": "Mount Batur Volcano Panorama Lunch",
+        "body": "Enjoy a stunning Indonesian buffet lunch at Grand Puncak Sari restaurant on the rim of the Kintamani caldera, with an unobstructed panoramic view of Mount Batur's active volcano and the vast blue expanse of Lake Batur stretching out below — one of the most dramatic dining views in Southeast Asia.",
+        "image": "/images/gallery/14840.jpg",
+        "imageAlt": "Panoramic view of Mount Batur active volcano and Lake Batur in Kintamani, Bali"
+      },
+      {
+        "title": "Tegalalang Rice Terrace & Alas Arum Swing",
+        "body": "Walk through the cascading emerald-green terraces of Tegalalang, one of the most beautiful rice paddies in Asia. For the adventurous, the Alas Arum Bali Swing launches you up to 25 metres above the ground for a breathtaking bird's-eye view over the jungle valley below.",
+        "image": "/images/gallery/14843.jpg",
+        "imageAlt": "Terraced green rice paddies at Tegalalang in Ubud, Bali, Indonesia"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day-by-Day Itinerary",
+    "heading": "Your 3-Day Bali Unleashed Journey",
+    "days": [
+      {
+        "day": 1,
+        "title": "Pandawa Beach, Uluwatu, Kecak Fire Dance & Jimbaran Bay",
+        "meals": "Dinner",
+        "description": "Your Bali adventure begins the moment you land. After your airport greeting and hotel check-in, head straight for Pandawa Beach — a stunning hidden gem framed by towering limestone cliffs and crystal-clear turquoise water. As the afternoon sun begins to mellow, make your way up to the clifftop Uluwatu Temple, one of Bali's most spectacular sea temples perched 70 metres above the crashing Indian Ocean waves. Time your visit perfectly for the legendary FREE Kecak Fire Dance performance at sunset — a hypnotic spectacle of over 50 bare-chested male performers chanting in unison, narrating tales from the Ramayana epic amidst flickering torchlight. Afterwards, descend to the golden sands of Jimbaran Bay for a magnificent grilled BBQ seafood dinner as the stars appear over the ocean — the perfect Bali welcome.",
+        "suggestedActivities": [
+          "Pandawa Beach – white sand and dramatic cliff scenery",
+          "Uluwatu Temple – clifftop views over the Indian Ocean",
+          "FREE Kecak Fire Dance show at sunset",
+          "Grilled BBQ seafood dinner at Jimbaran Bay",
+          "Optional: Candlelight romantic dinner upgrade (RM90)"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Ubud Highlands: Art Villages, Volcano Views & Sacred Spring Temple",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "After breakfast, your private guide leads you up into the cooler Ubud highlands for a day packed with cultural and natural wonders. Begin at Celuk Village, Bali's legendary gold and silver craft centre, where master jewellers create extraordinary pieces at incredibly reasonable workshop prices. Then visit the majestic Tirta Empul Temple, built around a sacred spring used by Balinese Hindus for purification for over a millennium — the spring water is believed to bestow good health and prosperity. Refresh yourself at a local coffee plantation with tastings of Luwak coffee and aromatic herbal teas before heading to the Kintamani highlands for a spectacular Indonesian buffet lunch overlooking the active Mount Batur volcano and the vast Lake Batur crater. The afternoon brings you to the iconic Tegalalang Rice Terrace — one of the most photographed landscapes in Asia — where the optional Alas Arum Bali Swing offers heart-pumping aerial views for RM18–25. Explore the ornate Ubud Royal Palace (Puri Saren Agung) and adjacent Traditional Market before a hearty dinner of traditional Balinese cuisine at Ayam Betutu Khas Bali restaurant.",
+        "suggestedActivities": [
+          "Celuk Gold & Silver Village – artisan jewellery workshop",
+          "Tirta Empul Sacred Holy Spring Temple",
+          "Local coffee plantation – Luwak coffee and herbal tea tasting",
+          "Kintamani volcano panorama lunch at Grand Puncak Sari",
+          "Tegalalang Rice Terrace exploration",
+          "Optional: Alas Arum Bali Swing (RM18–25, self-paid)",
+          "Ubud Royal Palace (Puri Saren Agung)",
+          "Ubud Traditional Market – souvenirs and handicrafts",
+          "Dinner at Ayam Betutu Khas Bali"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Souvenir Shopping & Departure",
+        "meals": "Breakfast",
+        "description": "Your final morning in Bali is yours to enjoy at a relaxed pace. Savour your last Balinese breakfast at the hotel before checking out. There may be time for a quick beach walk, a traditional Balinese massage, or one final smoothie bowl at a local café. Your driver will then take you to a quality souvenir shop for last-minute gifts — Balinese batik, coffee blends, wood carvings and local handicrafts make excellent keepsakes — before your comfortable transfer to Ngurah Rai International Airport.",
+        "suggestedActivities": [
+          "Final breakfast and hotel checkout",
+          "Optional morning beach walk or spa session",
+          "Souvenir shopping — batik, coffee, handicrafts",
+          "Airport transfer for departure"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Accommodation",
+    "heading": "Choose Your Hotel Category",
+    "subheading": "All hotels are on a twin-sharing basis. Upgrade to a private pool villa for a romantic touch.",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "label": "3-Star Budget Friendly",
+        "hotel": "Siesta Legian, Rhadana Kuta, Neo Kuta Jelantik or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM688" }
+        ],
+        "fromPrice": "RM688",
+        "popular": false
+      },
+      {
+        "tier": "Comfort",
+        "label": "4-Star Comfort",
+        "hotel": "Episode Kuta, Bedrock Kuta, The One Legian or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM788" }
+        ],
+        "fromPrice": "RM788",
+        "popular": true
+      },
+      {
+        "tier": "Premium",
+        "label": "5-Star Premium",
+        "hotel": "Dream of Aventus, Grand Istana Rama (4-star beachfront) or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM988" }
+        ],
+        "fromPrice": "RM988",
+        "popular": false
+      },
+      {
+        "tier": "Villa",
+        "label": "4-Star Private Pool Villa",
+        "hotel": "La Mira Villa, Manca Villa Canggu or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,188" }
+        ],
+        "fromPrice": "RM1,188",
+        "popular": false
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Bali Trip Through Dhesu",
+    "body": "Dhesu Travel has been crafting memorable Bali holidays for Malaysian travellers since 1988. Our private tour model means you travel on your own schedule with a dedicated guide — and our MATTA registration gives you the consumer protection and peace of mind you deserve.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "body": "Dhesu is a fully licensed Malaysian travel agency registered with MATTA and IATA, giving you full consumer protection and confidence that your booking is secure."
+      },
+      {
+        "icon": "clock",
+        "title": "Trusted Since 1988",
+        "body": "Over 35 years of organising Bali tours for Malaysian families and couples means we have the experience and local knowledge to deliver an exceptional holiday every time."
+      },
+      {
+        "icon": "map",
+        "title": "100% Private Tours",
+        "body": "Your dedicated vehicle and guide, your own pace. No strangers, no fixed coach schedules — just your group and a personalised Bali experience."
+      },
+      {
+        "icon": "tag",
+        "title": "Transparent Pricing",
+        "body": "The price you see includes all the key experiences — meals, entrance fees, transfers and guide. No surprise charges on arrival."
+      }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "The Kecak Fire Dance — A Bali Experience Like No Other",
+        "body": "The Kecak Dance is unique to Bali and unlike any performance you will see anywhere else in the world. Performed by a chorus of up to 100 bare-chested men who chant 'cak' in interlocking rhythms while enacting scenes from the Ramayana, the show is simultaneously a religious ceremony, a theatrical performance and a musical experience. Watching it at sunset on the cliff edge of Uluwatu — with the Indian Ocean as a backdrop — is a spine-tingling, unforgettable highlight of any Bali holiday."
+      },
+      {
+        "heading": "Tirta Empul: Bali's Most Sacred Purification Temple",
+        "body": "Founded in 926 AD according to Balinese inscriptions, Tirta Empul's holy spring has been a site of ritual purification for Balinese Hindus for over a thousand years. The spring emerges in a large rectangular pool divided into separate purification spouts, each believed to have different healing properties. Even if you don't participate in the ritual bathing, the temple complex — with its ornate split gates, moss-covered shrines and devotional offerings — is among the most atmospheric sacred sites in all of Southeast Asia."
+      },
+      {
+        "heading": "Planning Your 3-Day Bali Trip from Kuala Lumpur",
+        "body": "Bali is just 2.5 hours by direct flight from Kuala Lumpur, making it ideal for a 3-day escape over a long weekend or public holiday. AirAsia and Batik Air (formerly Malindo) offer frequent daily services to Ngurah Rai International Airport (DPS). Add a day either side and you have a perfect 5-day Bali holiday. Our team can also arrange flight recommendations, travel insurance and any pre- or post-tour extensions you need."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Is the Kecak Fire Dance really free with this package?",
+        "answer": "Yes! The Kecak Fire Dance at Uluwatu Temple is fully included in your package — entrance and show tickets are covered. This is one of Bali's most sought-after experiences and normally costs USD8–15 per person at the gate."
+      },
+      {
+        "question": "What meals are included?",
+        "answer": "Day 1: Dinner (Jimbaran Bay BBQ seafood). Day 2: Breakfast at hotel, lunch at Kintamani volcano viewpoint restaurant, dinner at Ayam Betutu Khas Bali. Day 3: Breakfast at hotel. Total: 2 breakfasts, 1 lunch, 2 dinners."
+      },
+      {
+        "question": "Can I do the Tirta Empul purification ritual?",
+        "answer": "Yes, visitors of all faiths are welcome to participate in the purification ritual at Tirta Empul. You will need to wear a sarong (provided at the temple for a small fee) and will be guided through the ritual by the temple priests or your guide. It is a profoundly moving experience."
+      },
+      {
+        "question": "Is Pandawa Beach suitable for swimming?",
+        "answer": "Pandawa Beach is generally calm and suitable for swimming, especially during the dry season (April–October). However, ocean conditions can change, so always check with your guide and observe any safety flags on the day."
+      },
+      {
+        "question": "What is the Bali Levy Tax?",
+        "answer": "The Bali provincial government introduced a tourist levy of IDR 150,000 (approximately RM44) per international visitor. This must be paid separately upon arrival or online before your trip."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "bali-3d-super-saver",
+      "name": "3 Days Bali Super Saver",
+      "price": "From RM398",
+      "duration": "3D2N",
+      "slug": "bali/3-day-super-saver",
+      "image": "/images/gallery/15692.jpg"
+    },
+    {
+      "id": "bali-3d-sacred-cleansing-ritual",
+      "name": "3 Days Bali Sacred Cleansing Ritual",
+      "price": "From RM888",
+      "duration": "3D2N",
+      "slug": "bali/3-day-sacred-cleansing-ritual",
+      "image": "/images/gallery/15289.jpg"
+    },
+    {
+      "id": "bali-4d-best-of-bali",
+      "name": "4 Days Best of Bali",
+      "price": "From RM988",
+      "duration": "4D3N",
+      "slug": "bali/4-day-best-of-bali",
+      "image": "/images/gallery/16473.png"
+    }
+  ],
+  "cta": {
+    "heading": "Book Your Bali Unleashed Adventure",
+    "subheading": "Private tour, flexible dates — tell us when you want to go and we'll handle the rest.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/15200.jpg"
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "title": "4 Days Bali Romantic Escape with Sunset Cruise & Candlelight Dinner | Dhesu Travel",
+    "description": "4-day romantic Bali escape for couples from Malaysia. Uluwatu clifftop, Ubud highlands, Tegalalang rice terraces, Phinisi sunset dinner cruise, Jimbaran Bay BBQ seafood. From RM1,088 per person. Dhesu Travel, since 1988.",
+    "keywords": "4 days Bali romantic tour Malaysia, Bali sunset cruise Malaysia, Bali honeymoon package Malaysia, Bali couple tour, Bali Jimbaran dinner, Dhesu Bali",
+    "slug": "bali/4-day-romantic-escape-sunset-cruise",
+    "canonicalUrl": "/tours/indonesia/bali/4-day-romantic-escape-sunset-cruise",
+    "ogImage": "/images/gallery/16474.png",
+    "pkgid": "2390"
+  },
+  "hero": {
+    "badge": "Bali, Indonesia — 4 Days 3 Nights",
+    "title": "4 Days Bali",
+    "titleAccent": "Romantic Escape with Sunset Cruise",
+    "intro": "Clifftop temples, highland rice terraces, a Phinisi sunset dinner cruise, and candlelit BBQ seafood at Jimbaran Bay — four days designed entirely around Bali at its most romantic.",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Indonesia", "href": "/tours/indonesia" },
+      { "label": "Bali", "href": "/tours/indonesia/bali" },
+      { "label": "4 Days Romantic Escape with Sunset Cruise", "href": null }
+    ],
+    "heroImage": "/images/gallery/16474.png",
+    "heroImageAlt": "Bali Phinisi sunset dinner cruise on the Indian Ocean"
+  },
+  "quickFacts": {
+    "duration": "4D3N",
+    "startingPrice": "From RM1,088",
+    "priceNote": "per person (twin sharing)",
+    "originalPrice": "RM1,306",
+    "saving": "Save RM436 per couple",
+    "groupSize": "100% Private",
+    "includes": [
+      "Hotel accommodation (3 nights)",
+      "All meals as specified in itinerary",
+      "All entrance fees",
+      "Airport transfers",
+      "English-speaking driver-guide",
+      "Phinisi sunset dinner cruise",
+      "Candlelight dinner at Jimbaran Bay"
+    ],
+    "excludes": [
+      "Flight tickets and taxes",
+      "Compulsory tour tips RM49",
+      "ETIQA Travel Insurance Area 2 Gold RM41",
+      "High season surcharge (July–August)",
+      "Bali levy tax IDR 150,000",
+      "Items not listed in inclusions"
+    ]
+  },
+  "inclusions": {
+    "icons": [
+      { "icon": "hotel", "label": "Hotel" },
+      { "icon": "meal", "label": "Meals" },
+      { "icon": "entrance", "label": "Entrance Fees" },
+      { "icon": "airport", "label": "Transfers" },
+      { "icon": "guide", "label": "Driver-Guide" }
+    ]
+  },
+  "overview": {
+    "sectionLabel": "Package Overview",
+    "heading": "Four Days Built Around Bali's Most Romantic Experiences",
+    "body": [
+      "This package earns its romantic label honestly. Day two takes couples through Bali's cultural heart — Celuk village silver workshops, the holy springs of Tirta Empul, Tegalalang's terraced rice paddies — before a candlelit dinner overlooking Jimbaran Bay with the Indian Ocean glittering in the dark. Day three delivers the headline: a Phinisi sunset dinner cruise aboard a traditional Indonesian wooden schooner, rounding out an afternoon that began at Tanjung Benoa's water sports beach and Pandawa's white sand cove.",
+      "Named the world's most romantic destination by the 2024 World Travel Awards, Bali rewards couples who move at a pace that lets each place breathe. This four-day private tour is structured to do exactly that — unhurried, personal, and guided by someone who knows every vantage point worth stopping at."
+    ]
+  },
+  "highlights": {
+    "sectionLabel": "Trip Highlights",
+    "heading": "What Makes This Trip Special",
+    "items": [
+      {
+        "title": "Phinisi Sunset Dinner Cruise",
+        "body": "Board a traditional Phinisi wooden schooner for an evening cruise along Bali's southern coast. Watch the sun melt behind the horizon from the deck as a full buffet dinner is served with live music — one of Bali's most atmospheric experiences, especially at dusk.",
+        "image": "/images/gallery/16474.png",
+        "imageAlt": "Phinisi sunset dinner cruise Bali southern coast"
+      },
+      {
+        "title": "Candlelight Dinner at Jimbaran Bay",
+        "body": "Jimbaran Bay's beachfront seafood restaurants are Bali's most celebrated dining setting. Tables are set right on the sand, lanterns light the shoreline, and grilled prawns, fish, and lobster arrive fresh from the morning's catch while the surf rolls in a few metres away.",
+        "image": "/images/gallery/14793.jpg",
+        "imageAlt": "Jimbaran Bay candlelight BBQ seafood dinner Bali beach"
+      },
+      {
+        "title": "Uluwatu Clifftop & Ocean Views",
+        "body": "Perched 70 metres above the crashing Indian Ocean on Bali's Bukit Peninsula, Uluwatu Temple is one of the island's six directional temples. The clifftop walk delivers staggering coastal views in every direction — a dramatic introduction to Bali on arrival day.",
+        "image": "/images/gallery/14772.jpg",
+        "imageAlt": "Uluwatu Temple clifftop Bali with ocean views"
+      },
+      {
+        "title": "Tegalalang Rice Terrace & Ubud Highlands",
+        "body": "The UNESCO-listed subak irrigation system at Tegalalang creates a cascading landscape of emerald terraces that drop into a narrow valley. Paired with a stop at a traditional coffee plantation — where you can taste Balinese kopi and the famous Luwak coffee — the Ubud highland loop is Bali's most rewarding half-day drive.",
+        "image": "/images/gallery/14936.jpg",
+        "imageAlt": "Tegalalang rice terrace Ubud Bali green terraces"
+      },
+      {
+        "title": "Tirta Empul Sacred Spring Temple",
+        "body": "Built around a holy spring in 962 AD, Tirta Empul is Bali's most important water purification temple. Balinese Hindus immerse themselves in the spring's clear pools as an act of spiritual cleansing — watching the ceremony, and understanding its meaning, is one of the most authentic cultural experiences Bali offers.",
+        "image": "/images/gallery/14818.jpg",
+        "imageAlt": "Tirta Empul sacred spring temple Bali Tampak Siring"
+      }
+    ]
+  },
+  "itinerary": {
+    "sectionLabel": "Day-by-Day Itinerary",
+    "heading": "Your Bali Romantic Journey",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive Bali — Uluwatu Clifftop & Welcome Dinner",
+        "meals": "Dinner",
+        "description": "Your English-speaking driver-guide meets you at Ngurah Rai International Airport and whisks you to Bali's southern peninsula. The afternoon takes you to the Uluwatu clifftop, where a 70-metre sea cliff frames one of the island's most dramatic temple backdrops. Explore the area, breathe in the salt air, then check in to your hotel before a welcome dinner to ease into Bali time.",
+        "suggestedActivities": [
+          "Meet and greet at Bali airport",
+          "Visit Uluwatu clifftop area with ocean views",
+          "Hotel check-in",
+          "Welcome dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Ubud Highlands, Mount Batur Views & Candlelight Dinner",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "A full day into Bali's cultural highlands. The route passes through Celuk village, famous for its gold and silver handicraft workshops, before climbing to the Tirta Empul sacred spring temple where Balinese Hindus have been purifying themselves for over a thousand years. Tegalalang's sculpted rice terraces provide a photogenic stop, with an optional Bali Swing experience (own expense). Lunch is served at Grand Puncak Sari restaurant with sweeping views of Mount Batur and the volcanic caldera lake below. The village of Penglipuran — one of the world's cleanest villages — is the afternoon highlight before your candlelight dinner at Jimbaran Bay, tables set right on the sand.",
+        "suggestedActivities": [
+          "Celuk Village gold and silver handicraft workshops",
+          "Tirta Empul sacred spring temple",
+          "Tegalalang Rice Terrace (optional Bali Swing)",
+          "Coffee plantation tasting stop",
+          "Lunch at Grand Puncak Sari with Mount Batur views",
+          "Penglipuran Village exploration",
+          "Candlelight BBQ seafood dinner at Jimbaran Bay"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Water Sports, Scenic Beaches & Phinisi Sunset Dinner Cruise",
+        "meals": "Breakfast, Lunch, Dinner",
+        "description": "The morning heads to Tanjung Benoa, Bali's main water sports beach where you can try banana boat rides, jet skiing, or parasailing at your own expense. After a seaside lunch, the afternoon moves through Pandawa Beach — a gorgeous white-sand cove carved out of limestone cliffs — and Melasti Beach before the day's centrepiece: boarding the Phinisi, a traditional Indonesian wooden schooner, for a sunset dinner cruise. Buffet dinner, live music, and Bali's southern coastline fading into dusk.",
+        "suggestedActivities": [
+          "Tanjung Benoa water sports (banana boat, jet ski, parasailing at own expense)",
+          "Local restaurant lunch",
+          "Pandawa Beach visit",
+          "Tanah Barak Cliff exploration",
+          "Melasti Beach relaxation",
+          "Phinisi sunset dinner cruise with buffet and live music"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Leisure Morning & Departure",
+        "meals": "Breakfast",
+        "description": "A relaxed final morning — breakfast at the hotel, then free time to explore on your own, pick up souvenirs, or simply sit by the pool. Your driver-guide collects you in time for a comfortable airport transfer.",
+        "suggestedActivities": [
+          "Breakfast at hotel",
+          "Free time for personal exploration or souvenir shopping",
+          "Airport transfer"
+        ]
+      }
+    ]
+  },
+  "hotelOptions": {
+    "sectionLabel": "Accommodation",
+    "heading": "Choose Your Hotel Category",
+    "subheading": "All prices are per person, twin-sharing",
+    "tiers": [
+      {
+        "tier": "Standard",
+        "label": "3-Star Hotels",
+        "hotel": "Swiss-Bel Express Kuta / Siesta / Kampi / Nadi or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,088" }
+        ],
+        "fromPrice": "RM1,088",
+        "popular": false
+      },
+      {
+        "tier": "Superior",
+        "label": "4-Star Hotels",
+        "hotel": "Episode Kuta / The One Legian / J4 Legian or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,188" }
+        ],
+        "fromPrice": "RM1,188",
+        "popular": true
+      },
+      {
+        "tier": "Deluxe",
+        "label": "5-Star Hotels",
+        "hotel": "The Magani / Grand Istana Rama (4-star beachfront) or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,498" }
+        ],
+        "fromPrice": "RM1,498",
+        "popular": false
+      },
+      {
+        "tier": "Villa",
+        "label": "4-Star Private Pool Villa",
+        "hotel": "The Jimbaran Villa / Manca Villa Canggu or similar",
+        "pricing": [
+          { "label": "Per person (twin share)", "price": "RM1,598" }
+        ],
+        "fromPrice": "RM1,598",
+        "popular": false
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Bali Romantic Escape Through Dhesu",
+    "body": "Dhesu has been arranging Bali trips for Malaysian couples and honeymooners since 1988. Every package is private — your own guide, your own vehicle, your own pace. No strangers sharing your sunset cruise table.",
+    "points": [
+      { "icon": "shield", "title": "MATTA & IATA Registered", "body": "Fully licensed Malaysian travel agency with over 35 years of operations and thousands of satisfied travellers." },
+      { "icon": "clock", "title": "Trusted Since 1988", "body": "Over three decades arranging Bali honeymoons and romantic escapes for Malaysian couples." },
+      { "icon": "map", "title": "100% Private Tours", "body": "Your own guide and vehicle throughout — no group schedules, no sharing with strangers on your sunset cruise." },
+      { "icon": "tag", "title": "Transparent Pricing", "body": "What you see is what you pay. Inclusions, exclusions, and surcharges are listed clearly before you book." }
+    ]
+  },
+  "seoContent": {
+    "sections": [
+      {
+        "heading": "Bali Romantic Package from Malaysia — 4 Days 3 Nights",
+        "body": "Bali is a 2.5-hour direct flight from Kuala Lumpur, making it one of the most accessible romantic getaways for Malaysian couples. This 4-day package covers the island's most celebrated couple experiences — the sacred highlands around Ubud, the dramatic sea cliffs of Uluwatu, and Bali's most iconic dining settings at Jimbaran Bay and aboard a Phinisi sunset cruise. All tours are fully private: your guide and vehicle are exclusive to your travel party."
+      },
+      {
+        "heading": "What Is a Phinisi Dinner Cruise?",
+        "body": "A Phinisi is a traditional two-masted Indonesian wooden sailing vessel, historically built by the Bugis people of Sulawesi. In Bali, Phinisi cruises depart from the southern coast and sail along the shoreline as the sun descends. On board, a full buffet dinner is served with live music — the combination of warm sea air, dramatic skies, and excellent food makes this one of Bali's most memorable evening experiences for couples."
+      },
+      {
+        "heading": "Jimbaran Bay Candlelight Dinner — Bali's Most Romantic Dining",
+        "body": "Jimbaran Bay on Bali's southwestern coast is lined with open-air seafood restaurants that set their tables directly on the sand each evening. As the tide comes in and lanterns are lit, couples dine on freshly grilled seafood — prawns, fish, squid, clams — with the sound of gentle surf a few metres away. This is the Bali dinner experience that travel magazines have been writing about for decades, and it fully lives up to its reputation."
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa to visit Bali?",
+        "answer": "No. Malaysian passport holders enjoy visa-free entry to Indonesia (including Bali) for stays of up to 30 days. Note that Bali introduced a tourism levy of IDR 150,000 (approximately RM45) per international visitor, payable separately."
+      },
+      {
+        "question": "Is this package suitable for honeymoons?",
+        "answer": "Absolutely. The package is designed with couples in mind — the Phinisi sunset cruise, candlelight dinner at Jimbaran Bay, and 100% private touring format make it ideal for honeymoons. An optional candlelight dinner upgrade with flower decoration is available for RM90."
+      },
+      {
+        "question": "What is included in the Phinisi cruise?",
+        "answer": "The Phinisi cruise includes a full buffet dinner with live music as you sail along Bali's southern coast at sunset. Alcoholic beverages may be available for additional purchase on board."
+      },
+      {
+        "question": "Can I add extra nights in Bali?",
+        "answer": "Yes. Contact Dhesu to extend your stay or add pre/post-tour nights at the same hotel. We can also arrange additional activities such as spa treatments, cooking classes, or a Nusa Penida day trip."
+      },
+      {
+        "question": "What are the water sports options at Tanjung Benoa?",
+        "answer": "Tanjung Benoa offers banana boat rides, jet skiing, parasailing, wakeboarding, glass-bottom boat tours, scuba diving, and turtle island visits. All water sports are at your own additional expense — the package covers the visit and transfers."
+      },
+      {
+        "question": "When is the best time to visit Bali from Malaysia?",
+        "answer": "Bali's dry season runs from April to October and is the most popular travel period. July and August attract peak crowds and carry high season surcharges — these are listed separately in the exclusions. April–June and September–October offer excellent weather with fewer crowds and standard pricing."
+      }
+    ]
+  },
+  "relatedPackages": [
+    {
+      "id": "bali-4d-romantic-escape-pool-villa",
+      "name": "4 Days Romantic Escape Pool Villa",
+      "price": "From RM994",
+      "duration": "4D3N",
+      "slug": "bali/4-day-romantic-escape-pool-villa",
+      "image": "/images/gallery/15322.jpg"
+    },
+    {
+      "id": "bali-4d-gates-of-heaven",
+      "name": "4 Days Gates of Heaven",
+      "price": "From RM1,088",
+      "duration": "4D3N",
+      "slug": "bali/4-day-gates-of-heaven",
+      "image": "/images/gallery/15298.jpg"
+    },
+    {
+      "id": "bali-5d-bliss-temples-highlands-sunset",
+      "name": "5 Days Bliss: Temples, Highlands & Sunset",
+      "price": "From RM1,188",
+      "duration": "5D4N",
+      "slug": "bali/5-day-bliss-temples-highlands-sunset",
+      "image": "/images/gallery/15203.jpg"
+    },
+    {
+      "id": "bali-4d-atv-adventure-sunset-dinner-cruise",
+      "name": "4 Days ATV Adventure & Sunset Dinner Cruise",
+      "price": "From RM1,188",
+      "duration": "4D3N",
+      "slug": "bali/4-day-atv-adventure-sunset-dinner-cruise",
+      "image": "/images/gallery/15198.jpg"
+    }
+  ],
+  "cta": {
+    "heading": "Book Your Bali Romantic Escape",
+    "subheading": "Private tour, flexible dates — tell us when you want to go and we'll arrange the rest.",
+    "phone": "+6019 336 4465",
+    "whatsapp": "60193364465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/16474.png"
+  }
+}
