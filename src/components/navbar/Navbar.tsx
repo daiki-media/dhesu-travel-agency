@@ -159,11 +159,10 @@ export default function Navbar() {
             <Image
               src="/images/dhesu_logos.png"
               alt="dhesu logo"
-              height={100}
-              width={150}
+              height={111}
+              width={260}
               priority
-              style={{ width: "auto" }}
-              className="object-contain"
+              className="h-14 w-auto object-contain"
             />
           </Link>
         </div>

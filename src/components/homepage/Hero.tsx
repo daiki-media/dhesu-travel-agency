@@ -41,7 +41,7 @@ export default function Hero() {
   const goPrev = () => setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
 
   return (
-    <section className="relative h-[700px] bg-slate-900 overflowX-hidden">
+    <section className="relative h-[600px] md:h-[700px] bg-slate-900 overflow-x-clip">
       {/* Background slides */}
       <AnimatePresence initial={false}>
         <motion.div
@@ -82,7 +82,7 @@ export default function Hero() {
                 {slides[current].subtitle}
               </p>
               {/* Bold Header */}
-              <h1 className="font-primary text-5xl md:text-8xl font-bold text-white leading-[1.05] mb-10 tracking-tight">
+              <h1 className="font-primary text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[1.05] mb-10 tracking-tight">
                 {slides[current].title1}
                 <br />
                 {slides[current].title2}

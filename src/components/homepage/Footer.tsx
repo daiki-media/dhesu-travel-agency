@@ -44,11 +44,10 @@ export default function Footer() {
                     <Image
                       src="/images/dhesu_logos.png"
                       alt="dhesu logo"
-                      height={100}
-                      width={150}
+                      height={111}
+                      width={260}
                       priority
-                      style={{ width: "auto" }}
-                      className="object-contain rounded"
+                      className="h-14 w-auto object-contain rounded"
                     />
                   </Link>
               <p className="text-gray-500 text-sm leading-relaxed mb-5">
