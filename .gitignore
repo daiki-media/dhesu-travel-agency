@@ -16,6 +16,10 @@
 # next.js
 /.next/
 /out/
+/out.zip
+
+# local-only full image archive (kept off GitHub and out of the build)
+/gallery-backup/
 
 # production
 /build

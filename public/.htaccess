@@ -1,0 +1,35 @@
+# Serve Next.js static export on Apache shared hosting.
+
+# Use the exported 404 page for missing routes.
+ErrorDocument 404 /404.html
+
+# Serve index.html for directory requests (folder-style URLs).
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # If a request maps to a real file, serve it as-is.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Otherwise, try the folder-style HTML file (e.g. /tours/india -> /tours/india/index.html).
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^(.*?)/?$ /$1/index.html [L]
+
+  # Fall back to the flat HTML file (e.g. /about -> /about.html).
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*?)/?$ /$1.html [L]
+</IfModule>
+
+# Long-cache hashed build assets.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+</IfModule>
