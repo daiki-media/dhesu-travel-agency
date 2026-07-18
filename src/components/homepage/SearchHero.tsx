@@ -62,7 +62,7 @@ export default function SearchHero() {
                 onChange={(e) => setDestination(e.target.value)}
                 className="bg-transparent w-full font-bold text-gray-800 focus:outline-none appearance-none cursor-pointer p-4"
               >
-                <option value="">Where are you going?</option>
+                <option value="">Where are you going ?</option>
                 {destinations.map((d) => (
                   <option key={d.slug} value={d.slug}>
                     {d.name}
