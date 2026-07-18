@@ -44,7 +44,7 @@ export default function SearchHero() {
       <div className="relative z-20 -mt-[20px] md:-mt-[70px] bg-white rounded-xl flex flex-col lg:flex-row items-stretch min-h-[140px] overflow-hidden">
 
         {/* Destination */}
-        <div className="flex-1 flex items-center px-8 py-7 border-b lg:border-b-0 lg:border-r border-gray-100 hover:bg-primarydark/10 transition-all group">
+        <div className="flex-1 flex items-center px-8 py-2 md:py-7 border-b lg:border-b-0 lg:border-r border-gray-100 hover:bg-primarydark/10 transition-all group">
           <div className="bg-blue-400/10 p-3 rounded-full mr-4 group-hover:scale-110 transition-transform">
             <MapPin className="text-primary" size={20} />
           </div>
@@ -75,7 +75,7 @@ export default function SearchHero() {
         </div>
 
         {/* Duration */}
-        <div className="flex-1 flex items-center px-8 py-7 border-b lg:border-b-0 lg:border-r border-gray-100 hover:bg-primarydark/10 transition-all group">
+        <div className="flex-1 flex items-center px-8 py-2 md:py-7 border-b lg:border-b-0 lg:border-r border-gray-100 hover:bg-primarydark/10 transition-all group">
           <div className="bg-blue-400/10 p-3 rounded-full mr-4 group-hover:scale-110 transition-transform">
             <Clock className="text-primary" size={20} />
           </div>
@@ -105,7 +105,7 @@ export default function SearchHero() {
         </div>
 
         {/* Budget */}
-        <div className="flex-1 flex items-center px-8 py-7 hover:bg-primarydark/10 transition-all group">
+        <div className="flex-1 flex items-center px-8 py-2 md:py-7 hover:bg-primarydark/10 transition-all group">
           <div className="bg-blue-400/10 p-3 rounded-full mr-4 group-hover:scale-110 transition-transform">
             <Banknote className="text-primary" size={20} />
           </div>
