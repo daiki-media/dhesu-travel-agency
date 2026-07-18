@@ -309,7 +309,7 @@
       "name": "5 Days Sri Lankan Adventure",
       "price": "From RM1,688",
       "duration": "5D4N",
-      "slug": "kandy/5-day-sri-lankan-adventure",
+      "slug": "sigiriya/5-day-sri-lankan-adventure",
       "image": "/images/gallery/87.jpg"
     },
     {
@@ -317,7 +317,7 @@
       "name": "6 Days Best of Sri Lanka: Central + Down South",
       "price": "From RM2,098",
       "duration": "6D5N",
-      "slug": "south/6-day-central-south",
+      "slug": "kataragama/6-day-central-south",
       "image": "/images/gallery/425.jpg"
     },
     {
@@ -325,7 +325,7 @@
       "name": "7 Days Best of Central & Southern Sri Lanka",
       "price": "From RM2,688",
       "duration": "7D6N",
-      "slug": "south/7-day-central-southern-overnight",
+      "slug": "yala-national-park/7-day-central-southern-overnight",
       "image": "/images/gallery/2456.jpg"
     }
   ],

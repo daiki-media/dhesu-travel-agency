@@ -1,6 +1,7 @@
 "use client";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useInView } from "framer-motion";
 import Button from "@/src/components/Button";
 import {
@@ -128,7 +129,7 @@ export default function PlanYourTrip() {
             className="text-center lg:text-left"
           >
             <p className="font-secondary text-primary-dark text-lg sm:text-xl md:text-2xl lg:text-3xl mb-2 sm:mb-3">
-              Let's Go Together
+              Let&apos;s Go Together
             </p>
             <h2 className="font-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-teal-navy leading-tight mb-3 sm:mb-4 md:mb-5">
               Plan Your Trip
@@ -136,9 +137,9 @@ export default function PlanYourTrip() {
               <span className="inline-block sm:block">With us</span>
             </h2>
             <p className="text-gray-500 leading-relaxed mb-6 sm:mb-7 md:mb-8 text-sm sm:text-base max-w-2xl lg:max-w-full mx-auto lg:mx-0">
-              There are many variations of passages of available but the majority have
-              suffered alteration in some form, by injected hum randomised words which
-              don't look even slightly.
+              Tell us where you want to go and roughly when — we build the itinerary,
+              book the hotels and transfers, and hand you a costed plan. Every package is
+              100% private, with your own driver-guide and no strangers on your tour.
             </p>
 
             {/* Feature list - Responsive grid on tablet+ */}
@@ -167,9 +168,11 @@ export default function PlanYourTrip() {
             </div>
             
             <div className="flex justify-center lg:justify-start">
-              <Button variant="dark" showArrow size="lg" className="w-full sm:w-auto">
-                Explore Tours
-              </Button>
+              <Link href="/tours" className="w-full sm:w-auto">
+                <Button variant="dark" showArrow size="lg" className="w-full sm:w-auto">
+                  Explore Tours
+                </Button>
+              </Link>
             </div>
           </motion.div>
         </div>

@@ -1,60 +1,14 @@
 "use client";
 import { useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useInView } from "framer-motion";
-import { MapPin, Clock, Users, ArrowRight, Star} from "lucide-react";
-import Button from "@/src/components/Button"
+import { MapPin, Clock, Users, Star } from "lucide-react";
+import Button from "@/src/components/Button";
+import { featuredTours } from "@/src/data/featuredTours";
 
-const tours = [
-  {
-    name: "Greece Tour Package",
-    location: "Athens, Greece",
-    days: "7 Days / 6 Nights",
-    people: "Max 12 People",
-    rating: 4.8,
-    reviews: 124,
-    price: "$980.00",
-    image:
-      "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=700&auto=format&fit=crop",
-    badge: "Popular",
-  },
-  {
-    name: "Italy Tour Package",
-    location: "Amalfi, Italy",
-    days: "5 Days / 4 Nights",
-    people: "Max 10 People",
-    rating: 4.8,
-    reviews: 98,
-    price: "$980.00",
-    image:
-      "https://images.unsplash.com/photo-1549366021-9f761d450615?q=80&w=700&auto=format&fit=crop",
-    badge: "",
-  },
-  {
-    name: "Dubai Tour Package",
-    location: "Dubai, UAE",
-    days: "6 Days / 5 Nights",
-    people: "Max 15 People",
-    rating: 4.8,
-    reviews: 210,
-    price: "$980.00",
-    image:
-      "https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?q=80&w=700&auto=format&fit=crop",
-    badge: "Featured",
-  },
-  {
-    name: "Switzerland Tour",
-    location: "Swiss Alps",
-    days: "8 Days / 7 Nights",
-    people: "Max 8 People",
-    rating: 4.8,
-    reviews: 87,
-    price: "$980.00",
-    image:
-      "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?q=80&w=700&auto=format&fit=crop",
-    badge: "",
-  },
-];
+// Show the first four on the homepage; the rest live on /tours.
+const tours = featuredTours.slice(0, 4);
 
 export default function PopularTours() {
   const ref = useRef(null);
@@ -74,11 +28,11 @@ export default function PopularTours() {
             Best Place For You
           </p>
           <h2 className="font-primary text-4xl md:text-5xl font-bold text-teal-navy mb-4">
-            Most Popular Tour
+            Most Popular Tours
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto text-[15px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+            Our bestselling private packages across Asia — every price is per person on twin
+            sharing, with all transfers, entrance fees and an English-speaking guide included.
           </p>
         </motion.div>
 
@@ -86,14 +40,14 @@ export default function PopularTours() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
           {tours.map((tour, i) => (
             <motion.div
-              key={tour.name}
-              className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-shadow duration-400 group cursor-pointer"
+              key={tour.href}
+              className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-shadow duration-400 group flex flex-col"
               initial={{ y: 40, opacity: 0 }}
               animate={inView ? { y: 0, opacity: 1 } : {}}
               transition={{ duration: 0.5, delay: 0.1 * i }}
             >
               {/* Image */}
-              <div className="relative overflow-hidden aspect-[4/3]">
+              <Link href={tour.href} className="relative overflow-hidden aspect-[4/3] block">
                 <Image
                   src={tour.image}
                   alt={tour.name}
@@ -106,47 +60,69 @@ export default function PopularTours() {
                     {tour.badge}
                   </span>
                 )}
-              </div>
+              </Link>
 
               {/* Content */}
-              <div className="p-5">
-                <h3 className="font-bold text-teal-navy text-[16px] mb-2 group-hover:text-primary transition-colors duration-200">
-                  {tour.name}
-                </h3>
+              <div className="p-5 flex flex-col flex-1">
+                <Link href={tour.href}>
+                  <h3 className="font-bold text-teal-navy text-[16px] mb-2 group-hover:text-primary transition-colors duration-200">
+                    {tour.name}
+                  </h3>
+                </Link>
 
                 {/* Stars */}
                 <div className="flex items-center gap-1.5 mb-3">
                   {[...Array(5)].map((_, j) => (
                     <Star key={j} size={13} className="text-amber-400" />
                   ))}
-                  <span className="text-gray-500 text-xs ml-1">({tour.rating} Rating)</span>
                 </div>
 
                 {/* Details */}
-                <div className="flex flex-col gap-1.5 mb-4 text-[13px] text-gray-500">
+                <div className="flex flex-col gap-1.5 mb-4 text-[13px] text-gray-500 flex-1">
                   <span className="flex items-center gap-1.5">
                     <MapPin size={12} className="text-primary" /> {tour.location}
                   </span>
                   <span className="flex items-center gap-1.5">
-                    <Clock size={12} className="text-primary" /> {tour.days}
+                    <Clock size={12} className="text-primary" /> {tour.duration}
                   </span>
                   <span className="flex items-center gap-1.5">
-                    <Users size={12} className="text-primary" /> {tour.people}
+                    <Users size={12} className="text-primary" /> {tour.groupSize}
                   </span>
                 </div>
 
                 {/* Price + button */}
                 <div className="flex items-center justify-between border-t border-gray-100 pt-4">
                   <div>
-                    <span className="text-xl font-bold text-primary">{tour.price}</span>
-                    <span className="text-gray-400 text-xs">/Person</span>
+                    <div className="flex items-baseline gap-1.5">
+                      <span className="text-xl font-bold text-primary">{tour.price}</span>
+                      <span className="text-gray-400 text-xs line-through">
+                        {tour.originalPrice}
+                      </span>
+                    </div>
+                    <span className="text-gray-400 text-xs">/person</span>
                   </div>
-                  <Button variant="dark" size="sm"> Book Now</Button>
+                  <Link href={tour.href}>
+                    <Button variant="dark" size="sm">Book Now</Button>
+                  </Link>
                 </div>
               </div>
             </motion.div>
           ))}
         </div>
+
+        {/* View all */}
+        <motion.div
+          className="text-center mt-12"
+          initial={{ y: 20, opacity: 0 }}
+          animate={inView ? { y: 0, opacity: 1 } : {}}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          <Link href="/tours">
+            <Button variant="light" showArrow size="lg">
+              View All Tour Packages
+            </Button>
+          </Link>
+        </motion.div>
       </div>
     </section>
   );

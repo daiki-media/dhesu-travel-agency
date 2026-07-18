@@ -1,58 +1,15 @@
 "use client";
 import { useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import { motion, useInView } from "framer-motion";
 import { MapPin } from "lucide-react";
+import { destinations } from "@/src/data/destinations";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-const destinations = [
-  {
-    name: "Maldives",
-    country: "Indian Ocean",
-    tours: "12 Tours",
-    image:
-      "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?q=80&w=900&auto=format&fit=crop",
-  },
-  {
-    name: "Santorini",
-    country: "Greece",
-    tours: "8 Tours",
-    image:
-      "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=900&auto=format&fit=crop",
-  },
-  {
-    name: "Bali",
-    country: "Indonesia",
-    tours: "15 Tours",
-    image:
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=900&auto=format&fit=crop",
-  },
-  {
-    name: "Phang Nga",
-    country: "Thailand",
-    tours: "10 Tours",
-    image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=900&auto=format&fit=crop",
-  },
-  {
-    name: "Amalfi Coast",
-    country: "Italy",
-    tours: "9 Tours",
-    image:
-      "https://images.unsplash.com/photo-1534430480872-3498386e7856?q=80&w=900&auto=format&fit=crop",
-  },
-  {
-    name: "Banff",
-    country: "Canada",
-    tours: "7 Tours",
-    image:
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?q=80&w=900&auto=format&fit=crop",
-  },
-];
 
 export default function PopularDestination() {
   const ref = useRef(null);
@@ -98,8 +55,11 @@ export default function PopularDestination() {
             className="dest-swiper pb-14"
           >
             {destinations.map((dest) => (
-              <SwiperSlide key={dest.name}>
-                <div className="group cursor-pointer relative overflow-hidden rounded-3xl aspect-[4/3] shadow-lg">
+              <SwiperSlide key={dest.slug}>
+                <Link
+                  href={dest.href}
+                  className="group cursor-pointer relative overflow-hidden rounded-3xl aspect-[4/3] shadow-lg block"
+                >
                   <Image
                     src={dest.image}
                     alt={dest.name}
@@ -114,14 +74,22 @@ export default function PopularDestination() {
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                     <div className="flex items-center gap-1.5 text-white/80 text-sm mb-1">
                       <MapPin size={13} />
-                      {dest.country}
+                      {dest.region}
                     </div>
                     <h3 className="text-2xl font-bold">{dest.name}</h3>
-                    <span className="inline-block mt-2 bg-primary/90 text-white text-xs font-medium px-3 py-1 rounded-full">
-                      {dest.tours}
-                    </span>
+                    <p className="text-white/80 text-sm mt-1 line-clamp-2 max-w-md">
+                      {dest.blurb}
+                    </p>
+                    <div className="flex items-center gap-2 mt-3">
+                      <span className="inline-block bg-primary/90 text-white text-xs font-medium px-3 py-1 rounded-full">
+                        {dest.tourCount} {dest.tourCount === 1 ? "Tour" : "Tours"}
+                      </span>
+                      <span className="inline-block bg-white/20 backdrop-blur-sm text-white text-xs font-medium px-3 py-1 rounded-full">
+                        From {dest.fromPrice}
+                      </span>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>

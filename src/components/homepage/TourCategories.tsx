@@ -2,7 +2,9 @@
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { motion, useInView } from "framer-motion";
+import { destinations } from "@/src/data/destinations";
 
 // ─── Types ───────────────────────────────────────────────────────────────
 interface Category {
@@ -12,58 +14,12 @@ interface Category {
 }
 
 // ─── Data ────────────────────────────────────────────────────────────────
-const categories: Category[] = [
-  {
-    name: "Hiking",
-    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Hiking",
-    image: "/images/gallery/14145.jpg",
-  },
-  {
-    name: "Cruises",
-    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Cruises",
-    image: "/images/gallery/15205.jpg",
-  },
-  {
-    name: "Airbirds",
-    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Airbirds",
-    image: "/images/gallery/14410.jpg",
-  },
-  {
-    name: "Wildlife",
-    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Wildlife",
-    image: "/images/gallery/3370.png",
-  },
-  {
-    name: "Walking",
-    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Walking",
-    image: "/images/gallery/14479.jpg",
-  },
-  {
-    name: "Camping",
-    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Camping",
-    image: "/images/gallery/3404.jpg",
-  },
-  {
-    name: "Surfing",
-    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Surfing",
-    image: "/images/gallery/15198.jpg",
-  },
-  {
-    name: "Safari",
-    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Safari",
-    image: "/images/gallery/14981.jpg",
-  },
-  {
-    name: "Diving",
-    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Diving",
-    image: "/images/gallery/10531.jpg",
-  },
-  {
-    name: "Skiing",
-    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Skiing",
-    image: "/images/gallery/14620.jpg",
-  },
-];
+// Driven by the real destination list so every card links to a live hub page.
+const categories: Category[] = destinations.map((d) => ({
+  name: d.name,
+  link: d.href,
+  image: d.image,
+}));
 
 // ─── Constants ───────────────────────────────────────────────────────────
 const VISIBLE = 5;
@@ -91,6 +47,7 @@ function getSlotPos(slotAngle: number, stageW: number) {
 
 // ─── Component ───────────────────────────────────────────────────────────
 export default function TourCategories() {
+  const router = useRouter();
   const sectionRef = useRef<HTMLElement>(null);
   const stageRef = useRef<HTMLDivElement>(null);
   const autoRef = useRef<NodeJS.Timeout | null>(null);
@@ -236,8 +193,8 @@ export default function TourCategories() {
 
             return (
               <motion.div key={slot} role="button" tabIndex={0} 
-                onClick={() => { if (slotOffset !== 0) goTo(catIdx); else window.open(cat.link, "_blank"); }} 
-                onKeyDown={(e) => { if (e.key === "Enter") { if (slotOffset !== 0) goTo(catIdx); else window.open(cat.link, "_blank"); } }} 
+                onClick={() => { if (slotOffset !== 0) goTo(catIdx); else router.push(cat.link); }}
+                onKeyDown={(e) => { if (e.key === "Enter") { if (slotOffset !== 0) goTo(catIdx); else router.push(cat.link); } }} 
                 animate={{ left: pos.x, top: pos.y, rotate: pos.rot, scale: slotOffset === 0 ? 1 : 0.88, opacity: slotOffset === 0 ? 1 : 0.6 }} 
                 transition={{ type: "spring", stiffness: 120, damping: 20 }} style={{ zIndex: VISIBLE - Math.abs(slotOffset) }} 
                 className="absolute flex w-[380px] cursor-pointer flex-col items-center">

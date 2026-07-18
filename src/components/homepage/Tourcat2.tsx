@@ -2,19 +2,13 @@
 
 import { useRef, useEffect, useState, useCallback } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useInView } from "framer-motion";
+import { destinations } from "@/src/data/destinations";
 
 const categories = [
-  { name: "Hiking",   link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Hiking",   image: "/images/gallery/14145.jpg" },
-  { name: "Cruises",  link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Cruises",  image: "/images/gallery/15205.jpg" },
-  { name: "Airbirds", link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Airbirds", image: "/images/gallery/14410.jpg" },
-  { name: "Wildlife", link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Wildlife", image: "/images/gallery/3370.png"  },
-  { name: "Walking",  link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Walking",  image: "/images/gallery/14479.jpg" },
-  { name: "Camping",  link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Camping",  image: "/images/gallery/3404.jpg"  },
-  { name: "Surfing",  link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Surfing",  image: "/images/gallery/15198.jpg" },
-  { name: "Safari",   link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Safari",   image: "/images/gallery/14981.jpg" },
-  { name: "Diving",   link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Diving",   image: "/images/gallery/10531.jpg" },
-  { name: "Skiing",   link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Skiing",   image: "/images/gallery/14620.jpg" },
+  // Driven by the real destination list so every card links to a live hub page.
+  ...destinations.map((d) => ({ name: d.name, link: d.href, image: d.image })),
 ];
 
 // Responsive slot configurations based on screen width
@@ -259,14 +253,12 @@ export default function TourCategories() {
                   >
                     {cat.name}
                   </h3>
-                  <a 
-                    href={cat.link} 
+                  <Link
+                    href={cat.link}
                     className="text-[#b0bec5] text-xs sm:text-sm mt-1 hover:text-primary-dark transition-colors inline-block"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     See More
-                  </a>
+                  </Link>
                 </div>
               );
             })}

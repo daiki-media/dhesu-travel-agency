@@ -9,7 +9,6 @@ import PopularTours from "@/src/components/homepage/PopularTours";
 import RecentGallery from "@/src/components/homepage/RecentGallery";
 import Stats from "@/src/components/homepage/Stats";
 import BrandTicker from "@/src/components/homepage/BrandTicker";
-import BlogSection from "@/src/components/homepage/BlogSection";
 import Footer from "@/src/components/homepage/Footer";
 
 export default function Home() {
@@ -26,7 +25,6 @@ export default function Home() {
       <RecentGallery />
       <Stats />
       <BrandTicker />
-      <BlogSection />
       <Footer />
     </main>
   );

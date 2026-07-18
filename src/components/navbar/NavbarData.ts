@@ -25,15 +25,12 @@ export const navLinks: NavLink[] = [
       {
         heading: "Southeast Asia",
         items: [
-          { label: "Bhutan", href: "/tours/bhutan" },
-          { label: "Indonesia", href: "/tours/indonesia" },
-          { label: "Thailand", href: "/tours/thailand" },
+          { label: "Bali & Indonesia", href: "/tours/indonesia" },
           { label: "Vietnam", href: "/tours/vietnam" },
           { label: "Cambodia", href: "/tours/cambodia" },
           { label: "Malaysia", href: "/tours/malaysia" },
-          // { label: "Philippines", href: "/tours/philippines" },
           { label: "Laos", href: "/tours/laos" },
-          // { label: "All Southeast Asia", href: "/tours/southeast-asia" },
+          { label: "Thailand", href: "/tours/thailand" },
         ],
       },
       {
@@ -43,7 +40,6 @@ export const navLinks: NavLink[] = [
           { label: "Sri Lanka", href: "/tours/sri-lanka" },
           { label: "Nepal", href: "/tours/nepal" },
           { label: "Bhutan", href: "/tours/bhutan" },
-          // { label: "Maldives", href: "/tours/maldives" },
         ],
       },
       // {
@@ -81,22 +77,22 @@ export const navLinks: NavLink[] = [
       {
         heading: "By Interest",
         items: [
-          { label: "Honeymoon Packages", href: "/tours/honeymoon-packages" },
-          { label: "Muslim Friendly Tours", href: "/tours/muslim-friendly-tours" },
-          { label: "Group Tours", href: "/tours/group-tours" },
-          { label: "All-Inclusive Holidays", href: "/tours/all-inclusive-holidays" },
-          { label: "Incentive Travel", href: "/incentive-travel" },
+          { label: "Muslim Friendly — Nepal", href: "/tours/nepal/muslim-friendly" },
+          { label: "Muslim Friendly — Sri Lanka", href: "/tours/sri-lanka/muslim-friendly" },
+          { label: "Romantic Pool Villa Escape", href: "/tours/indonesia/bali/4-day-romantic-escape-pool-villa" },
+          { label: "Buddhist Pilgrimage", href: "/tours/india/north-india/11-day-buddhist-pilgrimage" },
+          { label: "Wildlife Safari", href: "/tours/sri-lanka/yala-national-park/6-day-wildlife-safari" },
         ],
       },
       {
         heading: "Popular Bali Tours",
         items: [
-          { label: "3D Bali Super Saver", href: "/tours/bali/3-day-bali-super-saver" },
-          { label: "4D Best of Bali", href: "/tours/bali/4-day-best-of-bali" },
-          { label: "4D Bali Honeymoon Villa", href: "/tours/bali/4-day-bali-honeymoon-pool-villa" },
-          { label: "5D Bali Bliss", href: "/tours/bali/5-day-bali-bliss" },
-          { label: "4D Gates of Heaven", href: "/tours/bali/4-day-gates-of-heaven" },
-          { label: "View All Bali Tours", href: "/tours/bali" },
+          { label: "3D Bali Super Saver", href: "/tours/indonesia/bali/3-day-super-saver" },
+          { label: "4D Best of Bali", href: "/tours/indonesia/bali/4-day-best-of-bali" },
+          { label: "4D Romantic Pool Villa", href: "/tours/indonesia/bali/4-day-romantic-escape-pool-villa" },
+          { label: "5D Bali Bliss", href: "/tours/indonesia/bali/5-day-bliss-temples-highlands-sunset" },
+          { label: "4D Gates of Heaven", href: "/tours/indonesia/bali/4-day-gates-of-heaven" },
+          { label: "View All Bali Tours", href: "/tours/indonesia/bali" },
         ],
       },
       {
@@ -105,7 +101,7 @@ export const navLinks: NavLink[] = [
           { label: "Golden Triangle", href: "/tours/india/golden-triangle" },
           { label: "Kerala", href: "/tours/india/kerala" },
           { label: "Kashmir", href: "/tours/india/kashmir" },
-          { label: "Spiritual India", href: "/tours/india/spiritual-india" },
+          { label: "Varanasi", href: "/tours/india/varanasi" },
           { label: "9D Shimla Manali", href: "/tours/india/north-india/9-day-shimla-manali" },
           { label: "View All India Tours", href: "/tours/india" },
         ],
@@ -113,8 +109,8 @@ export const navLinks: NavLink[] = [
       {
         heading: "Popular Indonesia Tours",
         items: [
-          { label: "Yogyakarta Best Seller", href: "/tours/indonesia/yogyakarta/4-day-yogyakarta-best-seller" },
-          { label: "Bromo Sunrise", href: "/tours/indonesia/surabaya-bromo/4-day-bromo-sunrise" },
+          { label: "Yogyakarta Best Seller", href: "/tours/indonesia/yogyakarta/4-day-best-seller-borobudur" },
+          { label: "Bromo Sunrise", href: "/tours/indonesia/surabaya-bromo/4-day-bromo-sunrise-adventure" },
           { label: "Lake Toba", href: "/tours/indonesia/medan-lake-toba/3-day-lake-toba" },
           { label: "Lombok Island", href: "/tours/indonesia/lombok/3-day-lombok-island" },
           { label: "Jakarta Bandung Whoosh", href: "/tours/indonesia/jakarta-bandung/4-day-whoosh-bullet-train" },
@@ -124,19 +120,8 @@ export const navLinks: NavLink[] = [
     ],
   },
 
-  {
-    label: "Blog",
-    href: "/blog",
-    simple: [
-      { label: "All Articles", href: "/blog" },
-      { label: "Best Time to Visit Bali", href: "/blog/best-time-to-visit-bali-from-malaysia" },
-      { label: "Bali vs Thailand Honeymoon", href: "/blog/bali-vs-thailand-honeymoon" },
-      { label: "India Visa for Malaysians", href: "/blog/india-visa-for-malaysians" },
-      { label: "Things to Do in Cappadocia", href: "/blog/things-to-do-in-cappadocia" },
-      { label: "Sri Lanka 7-Day Itinerary", href: "/blog/sri-lanka-7-day-itinerary" },
-      { label: "Nepal Trekking Guide", href: "/blog/nepal-trekking-guide-for-malaysians" },
-    ],
-  },
+  // NOTE: a "Blog" menu previously lived here, but /blog and its article pages
+  // were never built. Restore this block once real articles exist.
 
   { label: "About Us", href: "/about-us" },
   { label: "Contact", href: "/contact" },

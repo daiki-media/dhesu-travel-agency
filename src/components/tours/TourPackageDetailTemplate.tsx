@@ -440,6 +440,10 @@ function FaqAccordion({ items }: { items: { question: string; answer: string }[]
 export default function TourPackageDetailTemplate({ data }: { data: PackageDetailData }) {
   const { hero, quickFacts, overview, highlights, itinerary, hotelOptions, whyBook, seoContent, faq, relatedPackages, cta, meta } = data;
 
+  // Related packages always belong to this package's own destination, so derive
+  // the destination segment from the canonical URL rather than hardcoding it.
+  const destinationSlug = meta.canonicalUrl.replace(/^\/+tours\/+/, "").split("/")[0];
+
   return (
     <main className="bg-white overflow-x-hidden">
 
@@ -724,7 +728,7 @@ export default function TourPackageDetailTemplate({ data }: { data: PackageDetai
                 <h2 className="font-primary font-bold text-[#1a1a1a] text-xl mb-6">You Might Also Like</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {relatedPackages.map((pkg) => (
-                    <Link key={pkg.id} href={`/tours/india/${pkg.slug}`}
+                    <Link key={pkg.id} href={`/tours/${destinationSlug}/${pkg.slug}`}
                       className="group flex gap-4 border border-gray-200 rounded-xl overflow-hidden hover:border-primary/30 hover:shadow-md transition-all">
                       <div className="relative w-24 flex-shrink-0">
                         <Image src={pkg.image} alt={pkg.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="96px" />

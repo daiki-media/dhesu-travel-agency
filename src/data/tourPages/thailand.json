@@ -15,9 +15,18 @@
     "body": "Come back a second time and Thailand surprises you again. A third time and you realise you have barely scratched it. Beaches, a great world city, and cool mountain temples, all at once, and somehow it feels natural.",
     "bgImage": "https://images.unsplash.com/photo-1528181304800-259b08848526?w=1920&auto=format&fit=crop",
     "stats": [
-      { "value": "RM688", "label": "Packages Starting From" },
-      { "value": "35+", "label": "Years of Travel Expertise" },
-      { "value": "2.5h", "label": "Flight from Kuala Lumpur" }
+      {
+        "value": "RM688",
+        "label": "Packages Starting From"
+      },
+      {
+        "value": "35+",
+        "label": "Years of Travel Expertise"
+      },
+      {
+        "value": "2.5h",
+        "label": "Flight from Kuala Lumpur"
+      }
     ]
   },
   "why": {
@@ -30,28 +39,44 @@
         "title": "Phuket: The Famous Island",
         "body": "Big, well-connected and lively, with genuinely lovely beaches. Day trips reach Phi Phi's turquoise water and the karst formations of James Bond Island in Phang Nga Bay. The pastel Sino-Portuguese Old Town is worth half a day too.",
         "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
-        "places": ["Patong Beach", "Phi Phi Island", "James Bond Island"]
+        "places": [
+          "Patong Beach",
+          "Phi Phi Island",
+          "James Bond Island"
+        ]
       },
       {
         "icon": "mountain",
         "title": "Krabi: Cliffs and Emerald Water",
         "body": "Towering limestone karsts rise straight out of the sea. Railay Beach, reachable only by boat, is one of the most beautiful in the world. The Four Islands tour and world-class rock climbing make Krabi the one people love more quietly.",
         "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
-        "places": ["Railay Beach", "Four Islands Tour", "Tiger Cave Temple"]
+        "places": [
+          "Railay Beach",
+          "Four Islands Tour",
+          "Tiger Cave Temple"
+        ]
       },
       {
         "icon": "temple",
         "title": "Bangkok: The City That Never Gets Old",
         "body": "The Emerald Buddha, Wat Pho's 46-metre Reclining Buddha and Wat Arun. Then Chatuchak's 15,000 stalls, Jodd Fairs, the riverside Asiatique, and street food that is world class at every price point.",
         "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&auto=format&fit=crop",
-        "places": ["Grand Palace", "Wat Arun", "Chatuchak Market"]
+        "places": [
+          "Grand Palace",
+          "Wat Arun",
+          "Chatuchak Market"
+        ]
       },
       {
         "icon": "food",
         "title": "Chiang Mai: The North That Surprises",
         "body": "A moated old city with over 300 temples, Doi Suthep on the mountain, hill-tribe treks and the famous Walking Streets. The responsible elephant sanctuaries in the hills are among the best experiences in Thailand right now.",
         "image": "https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?w=800&auto=format&fit=crop",
-        "places": ["Doi Suthep", "Elephant Sanctuary", "Sunday Walking Street"]
+        "places": [
+          "Doi Suthep",
+          "Elephant Sanctuary",
+          "Sunday Walking Street"
+        ]
       }
     ]
   },
@@ -155,79 +180,103 @@
     "items": [
       {
         "id": "thailand-phuket",
-        "slug": "phuket",
         "name": "Phuket Island & Phi Phi",
         "duration": "3D / 4D",
         "price": "From RM688",
         "priceNote": "per person",
         "tag": "Most Popular",
         "tagColor": "red",
-        "highlights": ["Phi Phi Day Trip", "Island Hopping", "Beach Resort", "Phuket Old Town"],
+        "highlights": [
+          "Phi Phi Day Trip",
+          "Island Hopping",
+          "Beach Resort",
+          "Phuket Old Town"
+        ],
         "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
         "popular": true
       },
       {
         "id": "thailand-krabi",
-        "slug": "krabi",
         "name": "Krabi Railay & Four Islands",
         "duration": "3D / 4D",
         "price": "From RM788",
         "priceNote": "per person",
         "tag": "Scenic",
         "tagColor": "green",
-        "highlights": ["Railay Beach", "Four Islands Tour", "Tiger Cave Temple", "Beachfront Stay"],
+        "highlights": [
+          "Railay Beach",
+          "Four Islands Tour",
+          "Tiger Cave Temple",
+          "Beachfront Stay"
+        ],
         "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
         "popular": false
       },
       {
         "id": "thailand-bangkok",
-        "slug": "bangkok",
         "name": "Bangkok Temples, Markets & River",
         "duration": "3D / 4D",
         "price": "From RM688",
         "priceNote": "per person",
         "tag": "City Break",
         "tagColor": "orange",
-        "highlights": ["Grand Palace & Wat Pho", "Chao Phraya River", "Night Markets", "Street Food"],
+        "highlights": [
+          "Grand Palace & Wat Pho",
+          "Chao Phraya River",
+          "Night Markets",
+          "Street Food"
+        ],
         "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&auto=format&fit=crop",
         "popular": false
       },
       {
         "id": "thailand-chiang-mai",
-        "slug": "chiang-mai",
         "name": "Chiang Mai Temples & Elephants",
         "duration": "4D3N",
         "price": "From RM988",
         "priceNote": "per person",
         "tag": "Culture",
         "tagColor": "blue",
-        "highlights": ["Doi Suthep Temple", "Ethical Elephant Sanctuary", "Night Bazaar", "Old City Tour"],
+        "highlights": [
+          "Doi Suthep Temple",
+          "Ethical Elephant Sanctuary",
+          "Night Bazaar",
+          "Old City Tour"
+        ],
         "image": "https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?w=800&auto=format&fit=crop",
         "popular": false
       },
       {
         "id": "thailand-bangkok-chiang-mai",
-        "slug": "bangkok-chiang-mai-combo",
         "name": "Bangkok + Chiang Mai Combo",
         "duration": "From 5D",
         "price": "From RM1,488",
         "priceNote": "per person",
         "tag": "City + North",
         "tagColor": "purple",
-        "highlights": ["City Sightseeing", "Northern Temples", "Internal Flight", "Daily Breakfast"],
+        "highlights": [
+          "City Sightseeing",
+          "Northern Temples",
+          "Internal Flight",
+          "Daily Breakfast"
+        ],
         "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&auto=format&fit=crop",
         "popular": false
       },
       {
         "id": "thailand-phuket-krabi",
-        "slug": "phuket-krabi-combo",
         "name": "Phuket + Krabi Combo",
         "duration": "From 5D",
         "price": "From RM1,388",
         "priceNote": "per person",
         "tag": "Two Coasts",
         "tagColor": "teal",
-        "highlights": ["Phi Phi & Four Islands", "Railay Beach", "Speedboat Transfers", "Beach Resorts"],
+        "highlights": [
+          "Phi Phi & Four Islands",
+          "Railay Beach",
+          "Speedboat Transfers",
+          "Beach Resorts"
+        ],
         "image": "https://images.unsplash.com/photo-1598935898639-81586f7d2129?w=800&auto=format&fit=crop",
         "popular": false
       }

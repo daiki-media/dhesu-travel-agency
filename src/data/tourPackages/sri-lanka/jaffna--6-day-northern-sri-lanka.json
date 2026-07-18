@@ -309,7 +309,7 @@
       "name": "9 Days Northern Sri Lanka Discovery: Where Cultures Collide",
       "price": "From RM3,488",
       "duration": "9D8N",
-      "slug": "north/9-day-northern-discovery",
+      "slug": "jaffna/9-day-northern-discovery",
       "image": "/images/gallery/667.jpg"
     },
     {
@@ -317,7 +317,7 @@
       "name": "5 Days Sri Lankan Adventure",
       "price": "From RM1,688",
       "duration": "5D4N",
-      "slug": "kandy/5-day-sri-lankan-adventure",
+      "slug": "sigiriya/5-day-sri-lankan-adventure",
       "image": "/images/gallery/87.jpg"
     },
     {
@@ -325,7 +325,7 @@
       "name": "12 Days Best of Sri Lanka: Central + North + South",
       "price": "From RM4,528",
       "duration": "12D11N",
-      "slug": "kandy/12-day-complete-island",
+      "slug": "jaffna/12-day-complete-island",
       "image": "/images/gallery/2193.jpg"
     }
   ],

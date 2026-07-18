@@ -344,7 +344,7 @@
       "name": "6 Days Northern Sri Lanka",
       "price": "From RM2,388",
       "duration": "6D5N",
-      "slug": "north/6-day-northern-sri-lanka",
+      "slug": "jaffna/6-day-northern-sri-lanka",
       "image": "/images/gallery/2453.jpg"
     },
     {
@@ -352,7 +352,7 @@
       "name": "7 Days Best of Central & Southern Sri Lanka",
       "price": "From RM2,688",
       "duration": "7D6N",
-      "slug": "south/7-day-central-southern-overnight",
+      "slug": "yala-national-park/7-day-central-southern-overnight",
       "image": "/images/gallery/2456.jpg"
     },
     {
@@ -360,7 +360,7 @@
       "name": "12 Days Best of Sri Lanka: Central + North + South",
       "price": "From RM4,528",
       "duration": "12D11N",
-      "slug": "kandy/12-day-complete-island",
+      "slug": "jaffna/12-day-complete-island",
       "image": "/images/gallery/2193.jpg"
     }
   ],

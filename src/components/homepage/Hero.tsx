@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import SearchHero from '@/src/components/homepage/SearchHero';
 import ArrowUp from "@/src/components/icons/ArrowUp";
@@ -8,7 +9,7 @@ import ArrowDown from "@/src/components/icons/ArrowDown";
 import Button from "../Button"; // Ensure your Button component supports 'rounded-full'
 const slides = [
   {
-    bg: "https://www.holidayidea.com.my/promo/img/frntbck2.jpg",
+    bg: "/images/gallery/12615.jpg",
     subtitle: "Get unforgettable pleasure with us",
     title1: "Natural Wonder",
     title2: "of the world",
@@ -97,8 +98,12 @@ export default function Hero() {
             transition={{ delay: 0.45, duration: 0.6 }}
             className="flex gap-4 flex-wrap"
           >
-            <Button variant="light" showArrow size="lg">Explore Tours</Button>
-            <Button variant="transparent" showArrow size="lg"> Our Services</Button>
+            <Link href="/tours">
+              <Button variant="light" showArrow size="lg">Explore Tours</Button>
+            </Link>
+            <Link href="/about-us">
+              <Button variant="transparent" showArrow size="lg">Our Services</Button>
+            </Link>
           </motion.div>
         </div>
       </div>
