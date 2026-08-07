@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://dhesu.com"),
   title: "Daily Customized & Ready Made Holidays Worldwide. Have a Chat Online Now | Dhesu",
   description: "With 30years of experience this award winning Travel Agent offers the widest choice of holidays, including ground only holidays, all inclusive holidays, group holidays and incentive travel plans for co. Let Us Plan Your Vacation For You. Book Flights, Hotels, Tours & Incentive Trips With Us.",
+  verification: {
+    google: "aNPzTbZC9UPNAfmwNW82oVD0WbtQ25f9tMNMYHlcBtU",
+  },
 };
 
 export default function RootLayout({

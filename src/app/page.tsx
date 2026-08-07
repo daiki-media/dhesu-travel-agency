@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Hero from "@/src/components/homepage/Hero";
@@ -10,6 +11,13 @@ import RecentGallery from "@/src/components/homepage/RecentGallery";
 import Stats from "@/src/components/homepage/Stats";
 import BrandTicker from "@/src/components/homepage/BrandTicker";
 import Footer from "@/src/components/homepage/Footer";
+
+// Title and description are inherited from the root layout.
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function Home() {
   return (

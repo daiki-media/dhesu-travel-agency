@@ -129,22 +129,24 @@ export default function AboutContent() {
               Since {company.foundedYear}
             </motion.div>
 
-            <motion.h1
-              initial={{ opacity: 0, y: 28 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.1, ease: easeOut }}
-              className="font-primary font-bold text-white text-5xl md:text-7xl leading-[1.05] mb-2"
-            >
-              About Dhesu
-            </motion.h1>
-            <motion.h1
-              initial={{ opacity: 0, y: 28 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
-              className="font-primary font-bold text-primary text-5xl md:text-7xl leading-[1.05] mb-6"
-            >
-              Travel &amp; Tours
-            </motion.h1>
+            <h1 className="font-primary font-bold text-5xl md:text-7xl leading-[1.05] mb-6">
+              <motion.span
+                initial={{ opacity: 0, y: 28 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1, ease: easeOut }}
+                className="block text-white mb-2"
+              >
+                About Dhesu
+              </motion.span>
+              <motion.span
+                initial={{ opacity: 0, y: 28 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
+                className="block text-primary"
+              >
+                Travel &amp; Tours
+              </motion.span>
+            </h1>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}

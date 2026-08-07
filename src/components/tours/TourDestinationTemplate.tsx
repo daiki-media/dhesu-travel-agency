@@ -280,22 +280,24 @@ export default function TourDestinationTemplate({
             </motion.div>
 
             {/* Headline */}
-            <motion.h1
-              initial={{ opacity: 0, y: 28 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.1, ease: easeOut }}
-              className="font-primary font-bold text-white text-5xl md:text-7xl leading-[1.05] mb-2"
-            >
-              {hero.headline}
-            </motion.h1>
-            <motion.h1
-              initial={{ opacity: 0, y: 28 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
-              className="font-primary font-bold text-primary text-5xl md:text-7xl leading-[1.05] mb-6"
-            >
-              {hero.headlineAccent}
-            </motion.h1>
+            <h1 className="font-primary font-bold text-5xl md:text-7xl leading-[1.05] mb-6">
+              <motion.span
+                initial={{ opacity: 0, y: 28 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1, ease: easeOut }}
+                className="block text-white mb-2"
+              >
+                {hero.headline}
+              </motion.span>
+              <motion.span
+                initial={{ opacity: 0, y: 28 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
+                className="block text-primary"
+              >
+                {hero.headlineAccent}
+              </motion.span>
+            </h1>
 
             {/* Body */}
             <motion.p
