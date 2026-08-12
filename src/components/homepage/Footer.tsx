@@ -1,4 +1,3 @@
-"use client";
 import { MessageCircle, ChevronRight, Send, Phone, MapPin } from "lucide-react";
 import { FacebookIcon } from "@/src/components/icons/SocialIcons";
 import Image from "next/image";
@@ -44,7 +43,6 @@ export default function Footer() {
                       alt="dhesu logo"
                       height={111}
                       width={260}
-                      priority
                       className="h-14 w-auto object-contain rounded"
                     />
                   </Link>
@@ -70,7 +68,7 @@ export default function Footer() {
 
             {/* Quick Links */}
             <div>
-              <h4 className="font-bold text-teal-navy text-lg mb-5">Quick Links</h4>
+              <h3 className="font-bold text-teal-navy text-lg mb-5">Quick Links</h3>
               <ul className="flex flex-col gap-3">
                 {quickLinks.map((link) => (
                   <li key={link.href}>
@@ -91,7 +89,7 @@ export default function Footer() {
 
             {/* Address */}
             <div>
-              <h4 className="font-bold text-teal-navy text-lg mb-5">Address</h4>
+              <h3 className="font-bold text-teal-navy text-lg mb-5">Address</h3>
               <div className="flex flex-col gap-4">
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 rounded-full bg-primary-dark/10 flex items-center justify-center shrink-0">
@@ -100,7 +98,12 @@ export default function Footer() {
                   <div className="text-gray-500 text-sm leading-relaxed">
                     {company.phones.map((p) => (
                       <p key={p.tel}>
-                        <a href={`tel:${p.tel}`} className="hover:text-primary-dark transition-colors">
+                        {/* inline-block + vertical padding keeps the tap target
+                            at 24px+ and spaced from its neighbour. */}
+                        <a
+                          href={`tel:${p.tel}`}
+                          className="inline-block py-1.5 hover:text-primary-dark transition-colors"
+                        >
                           {p.display}
                         </a>
                       </p>
@@ -116,7 +119,7 @@ export default function Footer() {
                       <p key={em.address}>
                         <a
                           href={`mailto:${em.address}`}
-                          className="hover:text-primary-dark transition-colors"
+                          className="inline-block py-1.5 hover:text-primary-dark transition-colors"
                         >
                           {em.address}
                         </a>
@@ -141,7 +144,7 @@ export default function Footer() {
 
             {/* Instagram Post */}
             <div>
-              <h4 className="font-bold text-teal-navy text-lg mb-5">Top Destinations</h4>
+              <h3 className="font-bold text-teal-navy text-lg mb-5">Top Destinations</h3>
               <div className="grid grid-cols-3 gap-2">
                 {footerDestinations.map((dest) => (
                   <Link

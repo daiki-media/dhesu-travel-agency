@@ -51,7 +51,7 @@ export default function SearchHero() {
           <div className="flex-1">
             <label
               htmlFor="search-destination"
-              className="block text-[10px] text-gray-400 font-bold uppercase tracking-widest mb-1"
+              className="block text-[10px] text-gray-600 font-bold uppercase tracking-widest mb-1"
             >
               Destination
             </label>
@@ -82,7 +82,7 @@ export default function SearchHero() {
           <div className="flex-1">
             <label
               htmlFor="search-duration"
-              className="block text-[10px] text-gray-400 font-bold uppercase tracking-widest mb-1"
+              className="block text-[10px] text-gray-600 font-bold uppercase tracking-widest mb-1"
             >
               Duration
             </label>
@@ -112,7 +112,7 @@ export default function SearchHero() {
           <div className="flex-1">
             <label
               htmlFor="search-budget"
-              className="block text-[10px] text-gray-400 font-bold uppercase tracking-widest mb-1"
+              className="block text-[10px] text-gray-600 font-bold uppercase tracking-widest mb-1"
             >
               Average Budget
             </label>

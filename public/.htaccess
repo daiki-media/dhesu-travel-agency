@@ -23,13 +23,59 @@ DirectoryIndex index.html
   RewriteRule ^(.*?)/?$ /$1.html [L]
 </IfModule>
 
-# Long-cache hashed build assets.
+# =============================================================================
+# COMPRESSION
+# Everything text-based is served gzipped; images and fonts are already
+# compressed, so re-compressing them only burns CPU.
+# =============================================================================
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css text/xml
+  AddOutputFilterByType BROTLI_COMPRESS application/javascript text/javascript
+  AddOutputFilterByType BROTLI_COMPRESS application/json application/xml
+  AddOutputFilterByType BROTLI_COMPRESS image/svg+xml
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml
+  AddOutputFilterByType DEFLATE application/javascript text/javascript
+  AddOutputFilterByType DEFLATE application/json application/xml
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# =============================================================================
+# CACHING
+# `/_next/static` and `/_next/image` filenames carry a content hash, so they can
+# be cached forever. `/_img` holds the generated WebP variants: the path is
+# derived from the source filename, so replacing a photo means giving it a NEW
+# filename — overwriting one in place will not reach returning visitors until
+# the year is up.
+# HTML stays revalidated so a redeploy is picked up immediately.
+# =============================================================================
+<IfModule mod_headers.c>
+  <FilesMatch "\.(webp|avif|jpe?g|png|gif|svg|ico|woff2?|ttf|otf|eot)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  <FilesMatch "\.(js|mjs|css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  <FilesMatch "\.(html|json|txt|xml)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
 <IfModule mod_expires.c>
   ExpiresActive On
-  ExpiresByType text/css "access plus 1 year"
-  ExpiresByType application/javascript "access plus 1 year"
-  ExpiresByType image/jpeg "access plus 1 month"
-  ExpiresByType image/png "access plus 1 month"
-  ExpiresByType image/webp "access plus 1 month"
-  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresDefault "access plus 1 year"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/json "access plus 0 seconds"
+  ExpiresByType text/plain "access plus 0 seconds"
+</IfModule>
+
+# Serve the generated variants with the right type even if the host's mime
+# table predates WebP.
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType font/woff2 .woff2
 </IfModule>

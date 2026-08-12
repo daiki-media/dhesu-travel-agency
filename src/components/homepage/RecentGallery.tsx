@@ -1,7 +1,4 @@
-"use client";
-import { useRef } from "react";
 import Image from "next/image";
-import { motion, useInView } from "framer-motion";
 import { ZoomIn } from "lucide-react";
 
 const images = [
@@ -43,41 +40,27 @@ const images = [
 ];
 
 export default function RecentGallery() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-80px" });
-
   return (
-    <section className="py-20 bg-white hidden md:block" ref={ref}>
+    <section className="py-20 bg-white hidden md:block">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
-        <motion.div
-          className="text-center mb-12"
-          initial={{ y: 30, opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 1 } : {}}
-          transition={{ duration: 0.6 }}
-        >
+        <div className="text-center mb-12" data-reveal>
           <p className="font-secondary text-primary-dark text-2xl md:text-3xl mb-2">
             Make Your Tour More Pleasure
           </p>
           <h2 className="text-4xl md:text-6xl font-bold text-teal-navy">
             Recent Gallery
           </h2>
-        </motion.div>
+        </div>
 
         {/* Mosaic grid */}
-        <motion.div
-          className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 grid-rows-2 gap-4 h-[600px]"
-          initial={{ y: 40, opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 1 } : {}}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 grid-rows-2 gap-4 h-[600px]">
           {images.map((img, i) => (
-            <motion.div
+            <div
               key={i}
               className={`relative overflow-hidden rounded-2xl group cursor-pointer ${img.span}`}
-              initial={{ scale: 0.95, opacity: 0 }}
-              animate={inView ? { scale: 1, opacity: 1 } : {}}
-              transition={{ duration: 0.5, delay: 0.05 * i + 0.2 }}
+              data-reveal
+              style={{ "--reveal-delay": `${200 + i * 50}ms` } as React.CSSProperties}
             >
               <Image
                 src={img.src}
@@ -92,9 +75,9 @@ export default function RecentGallery() {
                   <ZoomIn size={20} className="text-primary-dark" />
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

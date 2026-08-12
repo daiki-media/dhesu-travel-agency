@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Hero from "@/src/components/homepage/Hero";
 import TourCategories from "@/src/components/homepage/TourCategories";
-import Tourcat2 from "@/src/components/homepage/Tourcat2";
+// Kept for reference — see the commented-out usage below.
+// import Tourcat2 from "@/src/components/homepage/Tourcat2";
 import PopularDestination from "@/src/components/homepage/PopularDestination";
 import PlanYourTrip from "@/src/components/homepage/PlanYourTrip";
 import PopularTours from "@/src/components/homepage/PopularTours";
@@ -25,11 +27,21 @@ export default function Home() {
       <TopBar />
       <Navbar />
       <Hero />
-      <TourCategories />
-      <PopularDestination />
+      {/* Each below-the-fold carousel is its own Suspense boundary so React can
+          hydrate them as separate units and yield to the main thread in between,
+          instead of running one long task that blocks the hero paint. */}
+      <Suspense>
+        <TourCategories />
+      </Suspense>
+      <Suspense>
+        <PopularDestination />
+      </Suspense>
       <PlanYourTrip />
       <PopularTours />
-      <Tourcat2 />
+      {/* Duplicate of <TourCategories /> above — same heading, images and links.
+          Kept in the tree but not rendered: it doubled the destination cards in
+          the DOM and the hydration work behind them. */}
+      {/* <Tourcat2 /> */}
       <RecentGallery />
       <Stats />
       <BrandTicker />

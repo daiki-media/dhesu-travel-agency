@@ -1,10 +1,5 @@
-"use client";
-
 import Link from "next/link";
-import { motion } from "framer-motion";
 import Button from "@/src/components/Button";
-
-const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 // Popular destinations to help the user navigate
 const suggestedLinks = [
@@ -23,54 +18,41 @@ export default function NotFound() {
           {/* ── Left: text ─────────────────────────────────────────────────── */}
           <div>
             {/* Section label */}
-            <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="flex items-center gap-3 mb-4"
-            >
+            <div className="animate-fade-up flex items-center gap-3 mb-4">
               <span className="w-8 h-[2px] bg-primary" />
               <span className="text-primary font-semibold text-sm uppercase tracking-widest font-primary">
                 Page Not Found
               </span>
-            </motion.div>
+            </div>
 
             {/* 404 headline */}
-            <motion.h1
-              initial={{ opacity: 0, y: 28 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.08, ease: easeOut }}
-              className="font-primary font-bold text-[#1a1a1a] text-8xl md:text-[140px] leading-none mb-0 select-none"
+            <h1
+              style={{ "--d": "80ms" } as React.CSSProperties}
+              className="animate-fade-up font-primary font-bold text-[#1a1a1a] text-8xl md:text-[140px] leading-none mb-0 select-none"
             >
               404
-            </motion.h1>
+            </h1>
 
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.18, ease: easeOut }}
-              className="font-primary font-bold text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-4"
+            <h2
+              style={{ "--d": "180ms" } as React.CSSProperties}
+              className="animate-fade-up font-primary font-bold text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-4"
             >
               Looks like this page{" "}
               <span className="text-primary">went on holiday</span> without us.
-            </motion.h2>
+            </h2>
 
-            <motion.p
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.28 }}
-              className="text-gray-500 text-lg leading-relaxed mb-10 max-w-md"
+            <p
+              style={{ "--d": "280ms" } as React.CSSProperties}
+              className="animate-fade-up text-gray-500 text-lg leading-relaxed mb-10 max-w-md"
             >
               The link you followed may be broken, or the page may have moved.
               Let us help you find your next adventure.
-            </motion.p>
+            </p>
 
             {/* CTAs */}
-            <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.38 }}
-              className="flex flex-wrap gap-4 mb-14"
+            <div
+              style={{ "--d": "380ms" } as React.CSSProperties}
+              className="animate-fade-up flex flex-wrap gap-4 mb-14"
             >
               <Link href="/">
                 <Button variant="dark" showArrow size="lg">
@@ -82,14 +64,10 @@ export default function NotFound() {
                   View All Tours
                 </Button>
               </Link>
-            </motion.div>
+            </div>
 
             {/* Suggested destinations */}
-            <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
-            >
+            <div className="animate-fade-up" style={{ "--d": "500ms" } as React.CSSProperties}>
               <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">
                 Popular Destinations
               </p>
@@ -104,15 +82,13 @@ export default function NotFound() {
                   </Link>
                 ))}
               </div>
-            </motion.div>
+            </div>
           </div>
 
           {/* ── Right: visual ───────────────────────────────────────────────── */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.96 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: easeOut }}
-            className="hidden lg:flex items-center justify-center"
+          <div
+            style={{ "--d": "200ms" } as React.CSSProperties}
+            className="animate-fade-up hidden lg:flex items-center justify-center"
           >
             <div className="relative w-full max-w-[480px] aspect-square">
               {/* Decorative background circle */}
@@ -124,11 +100,7 @@ export default function NotFound() {
               {/* Center content */}
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-12">
                 {/* Plane icon */}
-                <motion.div
-                  animate={{ y: [0, -10, 0] }}
-                  transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                  className="mb-6"
-                >
+                <div className="animate-float mb-6">
                   <svg
                     className="w-20 h-20 text-primary mx-auto"
                     fill="none"
@@ -142,7 +114,7 @@ export default function NotFound() {
                       d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
                     />
                   </svg>
-                </motion.div>
+                </div>
 
                 <p className="font-primary font-bold text-[#1a1a1a] text-xl mb-2">
                   Lost in transit?
@@ -160,19 +132,16 @@ export default function NotFound() {
                 { label: "Paris", top: "72%", left: "10%", delay: 0.8 },
                 { label: "Dubai", top: "80%", left: "62%", delay: 1.2 },
               ].map((pill) => (
-                <motion.span
+                <span
                   key={pill.label}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5, delay: 0.6 + pill.delay }}
-                  style={{ top: pill.top, left: pill.left }}
-                  className="absolute bg-white border border-gray-100 shadow-md text-xs font-semibold text-gray-700 px-3 py-1.5 rounded-full font-primary"
+                  style={{ top: pill.top, left: pill.left, "--d": `${600 + pill.delay * 1000}ms` } as React.CSSProperties}
+                  className="animate-fade-up absolute bg-white border border-gray-100 shadow-md text-xs font-semibold text-gray-700 px-3 py-1.5 rounded-full font-primary"
                 >
                   {pill.label}
-                </motion.span>
+                </span>
               ))}
             </div>
-          </motion.div>
+          </div>
 
         </div>
       </div>

@@ -3,20 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run images && next dev",
+    "images": "node scripts/optimize-images.mjs",
+    "prebuild": "node scripts/optimize-images.mjs",
     "build": "next build",
-    "postbuild": "node scripts/zip-out.mjs",
+    "postbuild": "node scripts/postbuild.mjs && node scripts/zip-out.mjs",
     "zip": "node scripts/zip-out.mjs",
     "start": "next start",
     "lint": "eslint"
   },
+  "browserslist": [
+    "chrome >= 111",
+    "edge >= 111",
+    "firefox >= 111",
+    "safari >= 16.4",
+    "ios_saf >= 16.4",
+    "not dead"
+  ],
   "dependencies": {
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.14.0",
     "next": "16.2.6",
     "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "swiper": "^12.1.4"
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -26,6 +35,7 @@
     "archiver": "^8.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
+    "sharp": "^0.35.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

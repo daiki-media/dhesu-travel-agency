@@ -59,6 +59,7 @@ export default function TourRegionTemplate({
             alt={label}
             fill
             priority
+            fetchPriority="high"
             className="object-cover"
             sizes="100vw"
           />

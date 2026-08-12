@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
+/* #E60000 rather than pure #FF0000: white-on-#FF0000 lands at 3.99:1, just under
+   the 4.5:1 WCAG AA threshold, so every red button and the red-on-white body text
+   failed the contrast audit. This is the nearest red that passes (4.81:1) and is
+   visually indistinguishable from the original. */
 @theme {
-  --color-primary: #FF0000;
+  --color-primary: #E60000;
   --color-primary-dark: #990000;
   --color-primary-hover: #0EA2B5;
   --color-teal-navy: #1B3A4A;
@@ -10,7 +14,7 @@
 }
 
 :root {
-  --primary-color: #FF0000;
+  --primary-color: #E60000;
   --title-color: #990000;
 }
 .font-primary {
@@ -165,32 +169,126 @@ body {
   border-color: white;
 }
 /* =======================
-   SWIPER PAGINATION
+   404 PAGE ANIMATIONS
+   These are plain CSS so not-found.tsx can stay a server component. It is the
+   root not-found boundary, so anything it imports is bundled into *every* route
+   — when it used framer-motion, all 219 exported pages carried the library.
+   `animation-delay` via --d reproduces the old stagger.
 ======================= */
-.swiper-pagination-bullet {
-  background-color: #d1d5db !important;
-  opacity: 1 !important;
-  width: 11px !important;
-  height: 11px !important;
-  border: 2px solid #d1d5db !important;
-  transition: all 0.3s !important;
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-.swiper-pagination-bullet-active {
-  background-color: #990000 !important;
-  border-color: #990000 !important;
-  width: 28px !important;
-  border-radius: 5px !important;
+.animate-fade-up {
+  animation: fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--d, 0ms);
 }
 
-.hero-dots .swiper-pagination-bullet {
-  background: rgba(255, 255, 255, 0.5) !important;
-  border-color: rgba(255, 255, 255, 0.5) !important;
+@keyframes float-y {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
-.hero-dots .swiper-pagination-bullet-active {
-  background: white !important;
-  border-color: white !important;
+.animate-float {
+  animation: float-y 3s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 24s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-float,
+  .animate-spin-slow {
+    animation: none;
+  }
+}
+
+/* =======================
+   HERO COPY TRANSITION
+   Applied only after the first slide change (see Hero.tsx) — animating the
+   initial render would paint the <h1> at opacity 0 and delay LCP.
+======================= */
+@keyframes hero-copy-in {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.hero-copy {
+  animation: hero-copy-in 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-copy {
+    animation: none;
+  }
+}
+
+/* =======================
+   SCROLL REVEAL
+   Replaces framer-motion's in-view fades. A single IntersectionObserver (the
+   inline script in layout.tsx) flips `data-revealed`; everything else is CSS.
+   That keeps whole sections as server components instead of pulling an
+   animation library into the client bundle and hydrating it.
+
+   The hidden start state is scoped to `html[data-reveal="on"]`, which only that
+   script sets — so if it never runs, content stays visible rather than stuck at
+   opacity 0. Never put `data-reveal` on above-the-fold markup: it would hide
+   the LCP element until the observer fires.
+======================= */
+html[data-reveal="on"] [data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+html[data-reveal="on"] [data-reveal][data-revealed] {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 0.6s ease var(--reveal-delay, 0ms),
+    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1) var(--reveal-delay, 0ms);
+}
+
+/* Sideways variants, matching the old x-axis entrances. */
+html[data-reveal="on"] [data-reveal="left"] {
+  transform: translateX(-40px);
+}
+
+html[data-reveal="on"] [data-reveal="right"] {
+  transform: translateX(40px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-reveal="on"] [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 /* =======================
@@ -212,26 +310,77 @@ body {
 /* =======================
    BACKGROUND PATTERN
 ======================= */
+/* Points at the generated WebP (scripts/optimize-images.mjs) — 211 KB PNG -> ~20 KB. */
 .bg-pattern {
   background-image:
     linear-gradient(to bottom, #a30b0b23, #ffffff00),
-    url("/images/category_bg_1.png");
+    url("/_img/images/category_bg_1/1920.webp");
   background-repeat: no-repeat;
 }
 
 /* =======================
    DESTINATION COVERFLOW
+   Native scroll-snap carousel (see PopularDestination.tsx). Replaces Swiper so
+   no carousel library or extra render-blocking stylesheet sits on the critical
+   path — and the slides are swipeable before JavaScript has hydrated.
 ======================= */
-.dest-swiper .swiper-slide {
+.dest-track {
+  --dest-slide: 85%;
+  display: flex;
+  gap: 28px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding-block: 8px;
+}
+
+/* Flex spacers centre the first and last slides. Deliberately not
+   `padding-inline`: a percentage padding shrinks the content box that the
+   slides' percentage flex-basis then resolves against, so the two compound and
+   the cards come out a fraction of their intended width. Spacer boxes are
+   measured against the same content box as the slides, so the maths holds. */
+.dest-track::before,
+.dest-track::after {
+  content: "";
+  flex: 0 0 calc((100% - var(--dest-slide)) / 2);
+}
+
+.dest-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* Deliberately no `blur()` here. Blurring nine full-width photos costs hundreds
+   of milliseconds of rasterisation on a throttled mobile CPU and was a large
+   part of the Style & Layout time that delayed the hero paint; brightness plus
+   scale reads the same at a glance and is essentially free. */
+.dest-slide {
+  flex: 0 0 var(--dest-slide);
+  scroll-snap-align: center;
+  filter: brightness(0.75);
+  transform: scale(0.88);
   transition: transform 0.4s ease, filter 0.4s ease;
 }
 
-.dest-swiper .swiper-slide:not(.swiper-slide-active) {
-  filter: blur(1px) brightness(0.75);
-  transform: scale(0.88);
-}
-
-.dest-swiper .swiper-slide-active {
+.dest-slide[data-active="true"] {
   filter: none;
   transform: scale(1);
+}
+
+@media (min-width: 640px) {
+  .dest-track { --dest-slide: 68%; }
+}
+
+@media (min-width: 900px) {
+  .dest-track { --dest-slide: 53%; }
+}
+
+@media (min-width: 1200px) {
+  .dest-track { --dest-slide: 40%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dest-track { scroll-behavior: auto; }
+  .dest-slide { transition: none; }
 }

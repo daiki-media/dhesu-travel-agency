@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import JsonLd from "@/src/components/JsonLd";
 import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/homepage/Footer";
@@ -329,14 +330,8 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
 
     return (
       <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
-        />
+        <JsonLd data={breadcrumbJsonLd} />
+        <JsonLd data={collectionJsonLd} />
         <TopBar />
         <Navbar />
         <TourRegionTemplate
@@ -399,14 +394,8 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
 
     return (
       <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
-        />
+        <JsonLd data={breadcrumbJsonLd} />
+        <JsonLd data={collectionJsonLd} />
         <TopBar />
         <Navbar />
         <TourRegionTemplate
@@ -469,14 +458,8 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
 
     return (
       <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
-        />
+        <JsonLd data={breadcrumbJsonLd} />
+        <JsonLd data={collectionJsonLd} />
         <TopBar />
         <Navbar />
         <TourRegionTemplate
@@ -539,14 +522,8 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
 
     return (
       <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
-        />
+        <JsonLd data={breadcrumbJsonLd} />
+        <JsonLd data={collectionJsonLd} />
         <TopBar />
         <Navbar />
         <TourRegionTemplate
@@ -609,14 +586,8 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
 
     return (
       <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
-        />
+        <JsonLd data={breadcrumbJsonLd} />
+        <JsonLd data={collectionJsonLd} />
         <TopBar />
         <Navbar />
         <TourRegionTemplate
@@ -679,14 +650,8 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
 
     return (
       <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
-        />
+        <JsonLd data={breadcrumbJsonLd} />
+        <JsonLd data={collectionJsonLd} />
         <TopBar />
         <Navbar />
         <TourRegionTemplate
@@ -749,14 +714,8 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
 
     return (
       <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
-        />
+        <JsonLd data={breadcrumbJsonLd} />
+        <JsonLd data={collectionJsonLd} />
         <TopBar />
         <Navbar />
         <TourRegionTemplate
@@ -819,14 +778,8 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
 
     return (
       <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
-        />
+        <JsonLd data={breadcrumbJsonLd} />
+        <JsonLd data={collectionJsonLd} />
         <TopBar />
         <Navbar />
         <TourRegionTemplate
@@ -889,14 +842,8 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
 
     return (
       <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
-        />
+        <JsonLd data={breadcrumbJsonLd} />
+        <JsonLd data={collectionJsonLd} />
         <TopBar />
         <Navbar />
         <TourRegionTemplate
@@ -963,18 +910,9 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-      />
+      <JsonLd data={productJsonLd} />
+      <JsonLd data={faqJsonLd} />
+      <JsonLd data={breadcrumbJsonLd} />
       <TopBar />
       <Navbar />
       <TourPackageDetailTemplate data={data} />

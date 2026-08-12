@@ -102,6 +102,7 @@ export default function ToursIndexContent() {
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 768px) 100vw, 50vw"
                       priority={i === 0}
+                      fetchPriority={i === 0 ? "high" : "auto"}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
 

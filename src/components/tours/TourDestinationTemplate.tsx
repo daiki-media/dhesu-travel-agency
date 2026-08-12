@@ -259,6 +259,7 @@ export default function TourDestinationTemplate({
             alt={meta.name}
             fill
             priority
+            fetchPriority="high"
             className="object-cover"
             sizes="100vw"
           />

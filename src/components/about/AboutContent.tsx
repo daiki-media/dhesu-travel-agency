@@ -111,6 +111,7 @@ export default function AboutContent() {
             alt="Dhesu Travel & Tours"
             fill
             priority
+            fetchPriority="high"
             className="object-cover"
             sizes="100vw"
           />

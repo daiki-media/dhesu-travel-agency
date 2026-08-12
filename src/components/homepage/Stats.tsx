@@ -1,6 +1,5 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
-import { motion, useInView } from "framer-motion";
 
 const stats = [
   { value: 12, suffix: "", label: "Years Experience", dotPos: "bottom" },
@@ -42,22 +41,39 @@ function Counter({ end, suffix, start }: { end: number; suffix: string; start: b
 }
 
 export default function Stats() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-80px" });
+  const ref = useRef<HTMLElement>(null);
+  const [inView, setInView] = useState(false);
+
+  // The counters need to start on scroll, which is the only reason this stays a
+  // client component — a bare IntersectionObserver replaces framer's useInView.
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInView(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "0px 0px -80px 0px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   return (
     <section className="py-24 bg-white" ref={ref}>
       <div className="max-w-5xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-4 items-center">
           {stats.map((stat, i) => (
-            <motion.div
+            <div
               key={stat.label}
               className={`flex flex-col items-center ${
                 i % 2 === 0 ? "lg:mt-12" : "lg:-mt-12"
               }`}
-              initial={{ y: 40, opacity: 0 }}
-              animate={inView ? { y: 0, opacity: 1 } : {}}
-              transition={{ duration: 0.6, delay: 0.15 * i }}
+              data-reveal
+              style={{ "--reveal-delay": `${i * 150}ms` } as React.CSSProperties}
             >
               {/* Outer ring with dot */}
               <div className="relative w-44 h-44 flex items-center justify-center">
@@ -83,7 +99,7 @@ export default function Stats() {
                   </div>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

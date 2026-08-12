@@ -2,8 +2,7 @@
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { motion, useInView } from "framer-motion";
+import Link from "next/link";
 import { destinations } from "@/src/data/destinations";
 
 // ─── Types ───────────────────────────────────────────────────────────────
@@ -47,18 +46,32 @@ function getSlotPos(slotAngle: number, stageW: number) {
 
 // ─── Component ───────────────────────────────────────────────────────────
 export default function TourCategories() {
-  const router = useRouter();
   const sectionRef = useRef<HTMLElement>(null);
   const stageRef = useRef<HTMLDivElement>(null);
   const autoRef = useRef<NodeJS.Timeout | null>(null);
   const animatingRef = useRef(false);
 
-  const inView = useInView(sectionRef, {
-    once: true,
-    margin: "-80px",
-  });
+  const [inView, setInView] = useState(false);
 
   const total = categories.length;
+
+  // Replaces framer's useInView: the carousel only needs to know when it is
+  // approached, which one IntersectionObserver answers without the library.
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInView(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "0px 0px -80px 0px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   const [centerIdx, setCenterIdx] = useState(2);
   const [stageW, setStageW] = useState(680);
@@ -123,11 +136,15 @@ export default function TourCategories() {
     }, AUTO_DELAY);
   }, [shift, stopAuto]);
 
+  // The carousel sits well below the fold — leaving its timer (and the re-renders
+  // it triggers) running from hydration competes with the hero paint.
   useEffect(() => {
+    if (!inView) return;
+
     startAuto();
 
     return stopAuto;
-  }, [startAuto, stopAuto]);
+  }, [inView, startAuto, stopAuto]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -164,12 +181,7 @@ export default function TourCategories() {
         onMouseLeave={startAuto}
       >
         {/* Heading */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.5 }}
-          className="mb-10 text-center lg:mb-14"
-        >
+        <div className="mb-10 text-center lg:mb-14" data-reveal>
           <p className="font-secondary text-primary-dark mb-2 text-2xl">
             Wonderful Place For You
           </p>
@@ -177,66 +189,92 @@ export default function TourCategories() {
           <h2 className="font-primary text-teal-navy text-4xl font-bold md:text-5xl lg:text-6xl">
             Tour Categories
           </h2>
-        </motion.div>
+        </div>
 
         {/* Stage */}
-        <motion.div
+        <div
           ref={stageRef}
-          initial={{ opacity: 0, y: 40 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6, delay: 0.2 }}
           style={{ height: stageH }}
           className="relative w-full"
         >
           {slots.map(({ slot, slotOffset, catIdx, pos }) => {
             const cat = categories[catIdx];
 
+            const isCentre = slotOffset === 0;
+
             return (
-              <motion.div key={slot} role="button" tabIndex={0} 
-                onClick={() => { if (slotOffset !== 0) goTo(catIdx); else router.push(cat.link); }}
-                onKeyDown={(e) => { if (e.key === "Enter") { if (slotOffset !== 0) goTo(catIdx); else router.push(cat.link); } }} 
-                animate={{ left: pos.x, top: pos.y, rotate: pos.rot, scale: slotOffset === 0 ? 1 : 0.88, opacity: slotOffset === 0 ? 1 : 0.6 }} 
-                transition={{ type: "spring", stiffness: 120, damping: 20 }} style={{ zIndex: VISIBLE - Math.abs(slotOffset) }} 
-                className="absolute flex w-[380px] cursor-pointer flex-col items-center">
-                  
-                <div className="group relative h-[320px] w-[280px] overflow-hidden rounded-[22px] shadow-xl transition-all duration-300 hover:shadow-2xl">
-                  <Image
-                    src={cat.image}
-                    alt={cat.name}
-                    fill
-                    sizes="280px"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
+              <div
+                key={slot}
+                // The arc positioning was a framer spring; a CSS transition on
+                // the same values animates it on the compositor instead.
+                style={{
+                  left: pos.x,
+                  top: pos.y,
+                  transform: `rotate(${pos.rot}deg) scale(${isCentre ? 1 : 0.88})`,
+                  opacity: isCentre ? 1 : 0.6,
+                  zIndex: VISIBLE - Math.abs(slotOffset),
+                  transition:
+                    "left .65s cubic-bezier(.22,1,.36,1), top .65s cubic-bezier(.22,1,.36,1), transform .65s cubic-bezier(.22,1,.36,1), opacity .65s ease",
+                }}
+                className="absolute flex w-[380px] flex-col items-center"
+              >
 
-                {/* Content */}
-                <div className="mt-2 text-center">
-                  <h3 className="font-primary text-primary-dark text-sm font-bold">
-                    {cat.name}
-                  </h3>
+                {/* A real anchor so the destination hubs stay crawlable; the
+                    off-centre cards bring their slide forward first instead of
+                    navigating, which is what a click there means visually. */}
+                <Link
+                  href={cat.link}
+                  className="flex cursor-pointer flex-col items-center"
+                  onClick={(e) => {
+                    if (isCentre) return;
+                    e.preventDefault();
+                    goTo(catIdx);
+                  }}
+                >
+                  <div className="group relative h-[320px] w-[280px] overflow-hidden rounded-[22px] shadow-xl transition-all duration-300 hover:shadow-2xl">
+                    <Image
+                      src={cat.image}
+                      alt={cat.name}
+                      fill
+                      sizes="280px"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
 
-                  <p className="hover:text-primary-dark mt-1 text-xs text-black transition-colors sm:text-sm">
-                    See More
-                  </p>
-                </div>
-              </motion.div>
+                  {/* Content */}
+                  <div className="mt-2 text-center">
+                    <h3 className="font-primary text-primary-dark text-sm font-bold">
+                      {cat.name}
+                    </h3>
+
+                    <p className="hover:text-primary-dark mt-1 text-xs text-gray-700 transition-colors sm:text-sm">
+                      See More
+                    </p>
+                  </div>
+                </Link>
+              </div>
             );
           })}
-        </motion.div>
+        </div>
 
-        {/* Dots */}
-        <div className="relative z-10 flex justify-center gap-3">
+        {/* Dots — the button keeps a 44px touch target while the inner span
+            stays the small visual pill. */}
+        <div className="relative z-10 flex justify-center">
           {categories.map((cat, i) => (
             <button
               key={cat.name}
+              type="button"
               aria-label={`Go to ${cat.name}`}
+              aria-current={i === centerIdx}
               onClick={() => goTo(i)}
-              className={`h-4 border border-[#990000] transition-all duration-300 ${
-                i === centerIdx
-                  ? "w-8 rounded-full bg-[#990000]"
-                  : "w-4 rounded-full bg-transparent"
-              }`}
-            />
+              className="grid h-11 w-11 place-items-center"
+            >
+              <span
+                className={`block h-4 rounded-full border border-[#990000] transition-all duration-300 ${
+                  i === centerIdx ? "w-8 bg-[#990000]" : "w-4 bg-transparent"
+                }`}
+              />
+            </button>
           ))}
         </div>
       </div>

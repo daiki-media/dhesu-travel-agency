@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/src/data/site";
 import packageDetails from "@/src/data/tourPackages";
 import { tourSlugs } from "@/src/data/tourPages";
 import { INDIA_LANDING_PAGES } from "@/src/data/destinationDetail/india";
@@ -11,7 +12,7 @@ import { LAOS_LANDING_PAGES } from "@/src/data/destinationDetail/laos";
 import { MALAYSIA_LANDING_PAGES } from "@/src/data/destinationDetail/malaysia";
 import { INDONESIA_LANDING_PAGES } from "@/src/data/destinationDetail/Indonesia";
 
-const BASE_URL = "https://dhesu.com";
+const BASE_URL = SITE_URL;
 
 // The site is built with trailingSlash: true, so canonical tags render with a
 // trailing slash — sitemap URLs must use the same form.

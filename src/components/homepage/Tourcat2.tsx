@@ -143,10 +143,13 @@ export default function TourCategories() {
     );
   }, []);
 
+  // Below the fold: hold the timer until the section is actually approached, so
+  // it does not steal main-thread time from the hero paint.
   useEffect(() => {
+    if (!inView) return;
     resetAuto();
     return () => { if (autoRef.current) clearInterval(autoRef.current); };
-  }, [resetAuto]);
+  }, [inView, resetAuto]);
 
   const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     dragRef.current = { active: true, startX: e.clientX };
@@ -240,8 +243,8 @@ export default function TourCategories() {
                       alt={cat.name}
                       width={270}
                       height={330}
+                      sizes="270px"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      priority={idx < 3}
                     />
                   </div>
                   <h3
@@ -255,9 +258,12 @@ export default function TourCategories() {
                   </h3>
                   <Link
                     href={cat.link}
-                    className="text-[#b0bec5] text-xs sm:text-sm mt-1 hover:text-primary-dark transition-colors inline-block"
+                    className="text-gray-600 text-xs sm:text-sm mt-1 py-2 hover:text-primary-dark transition-colors inline-block"
                   >
-                    See More
+                    {/* Nine identical "See More" links read as undescriptive to
+                        crawlers and screen readers; the destination name is
+                        appended for them without changing the visual label. */}
+                    See More<span className="sr-only"> about {cat.name}</span>
                   </Link>
                 </div>
               );
@@ -271,19 +277,25 @@ export default function TourCategories() {
               return (
                 <button
                   key={i}
+                  type="button"
                   aria-label={`Go to ${categories[i].name}`}
+                  aria-current={active}
                   onClick={() => { goTo(i); resetAuto(); }}
-                  className="transition-all duration-300 hover:scale-110"
-                  style={{
-                    width:        active ? "clamp(24px, 6vw, 32px)" : "clamp(8px, 2vw, 10px)",
-                    height:       "clamp(8px, 2vw, 10px)",
-                    borderRadius: 999,
-                    background:   active ? "#990000" : "transparent",
-                    border:       `1.5px solid ${active ? "#990000" : "#990000"}`,
-                    padding:      0,
-                    cursor:       "pointer",
-                  }}
-                />
+                  className="grid h-11 w-11 place-items-center"
+                >
+                  {/* Inner span carries the visual pill so the button itself can
+                      stay a 44px touch target. */}
+                  <span
+                    className="block transition-all duration-300 hover:scale-110"
+                    style={{
+                      width:        active ? "clamp(24px, 6vw, 32px)" : "clamp(8px, 2vw, 10px)",
+                      height:       "clamp(8px, 2vw, 10px)",
+                      borderRadius: 999,
+                      background:   active ? "#990000" : "transparent",
+                      border:       "1.5px solid #990000",
+                    }}
+                  />
+                </button>
               );
             })}
           </div>

@@ -1,8 +1,5 @@
-"use client";
-import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion, useInView } from "framer-motion";
 import { MapPin, Clock, Users, Star } from "lucide-react";
 import Button from "@/src/components/Button";
 import { featuredTours } from "@/src/data/featuredTours";
@@ -11,19 +8,11 @@ import { featuredTours } from "@/src/data/featuredTours";
 const tours = featuredTours.slice(0, 4);
 
 export default function PopularTours() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-80px" });
-
   return (
-    <section className="py-20 bg-pattern" ref={ref}>
+    <section className="py-20 bg-pattern">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
-        <motion.div
-          className="text-center mb-4"
-          initial={{ y: 30, opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 1 } : {}}
-          transition={{ duration: 0.6 }}
-        >
+        <div className="text-center mb-4" data-reveal>
           <p className="font-secondary text-primary-dark text-2xl md:text-3xl mb-2">
             Best Place For You
           </p>
@@ -34,17 +23,16 @@ export default function PopularTours() {
             Our bestselling private packages across Asia — every price is per person on twin
             sharing, with all transfers, entrance fees and an English-speaking guide included.
           </p>
-        </motion.div>
+        </div>
 
         {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
           {tours.map((tour, i) => (
-            <motion.div
+            <div
               key={tour.href}
               className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-shadow duration-400 group flex flex-col"
-              initial={{ y: 40, opacity: 0 }}
-              animate={inView ? { y: 0, opacity: 1 } : {}}
-              transition={{ duration: 0.5, delay: 0.1 * i }}
+              data-reveal
+              style={{ "--reveal-delay": `${i * 100}ms` } as React.CSSProperties}
             >
               {/* Image */}
               <Link href={tour.href} className="relative overflow-hidden aspect-[4/3] block">
@@ -53,7 +41,7 @@ export default function PopularTours() {
                   alt={tour.name}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  sizes="(max-width: 768px) 100vw, 25vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
                 {tour.badge && (
                   <span className="absolute top-3 left-3 bg-primary text-white text-xs font-semibold px-3 py-1 rounded-full">
@@ -71,22 +59,22 @@ export default function PopularTours() {
                 </Link>
 
                 {/* Stars */}
-                <div className="flex items-center gap-1.5 mb-3">
+                <div className="flex items-center gap-1.5 mb-3" role="img" aria-label="Rated 5 out of 5">
                   {[...Array(5)].map((_, j) => (
-                    <Star key={j} size={13} className="text-amber-400" />
+                    <Star key={j} size={13} className="text-amber-400" aria-hidden />
                   ))}
                 </div>
 
                 {/* Details */}
                 <div className="flex flex-col gap-1.5 mb-4 text-[13px] text-gray-500 flex-1">
                   <span className="flex items-center gap-1.5">
-                    <MapPin size={12} className="text-primary" /> {tour.location}
+                    <MapPin size={12} className="text-primary" aria-hidden /> {tour.location}
                   </span>
                   <span className="flex items-center gap-1.5">
-                    <Clock size={12} className="text-primary" /> {tour.duration}
+                    <Clock size={12} className="text-primary" aria-hidden /> {tour.duration}
                   </span>
                   <span className="flex items-center gap-1.5">
-                    <Users size={12} className="text-primary" /> {tour.groupSize}
+                    <Users size={12} className="text-primary" aria-hidden /> {tour.groupSize}
                   </span>
                 </div>
 
@@ -95,34 +83,31 @@ export default function PopularTours() {
                   <div>
                     <div className="flex items-baseline gap-1.5">
                       <span className="text-xl font-bold text-primary">{tour.price}</span>
-                      <span className="text-gray-400 text-xs line-through">
+                      <span className="text-gray-500 text-xs line-through">
                         {tour.originalPrice}
                       </span>
                     </div>
-                    <span className="text-gray-400 text-xs">/person</span>
+                    <span className="text-gray-500 text-xs">/person</span>
                   </div>
-                  <Link href={tour.href}>
+                  {/* The accessible name must contain the visible text, so the
+                      tour name is appended rather than replacing "Book Now". */}
+                  <Link href={tour.href} aria-label={`Book Now — ${tour.name}`}>
                     <Button variant="dark" size="sm">Book Now</Button>
                   </Link>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
 
         {/* View all */}
-        <motion.div
-          className="text-center mt-12"
-          initial={{ y: 20, opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 1 } : {}}
-          transition={{ duration: 0.5, delay: 0.4 }}
-        >
+        <div className="text-center mt-12" data-reveal>
           <Link href="/tours">
             <Button variant="light" showArrow size="lg">
               View All Tour Packages
             </Button>
           </Link>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

@@ -450,7 +450,7 @@ export default function TourPackageDetailTemplate({ data }: { data: PackageDetai
       {/* ── HERO ─────────────────────────────────────────────────────────────── */}
       <section className="relative min-h-[420px] lg:min-h-[500px] flex items-end">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} className="absolute inset-0">
-          <Image src={hero.heroImage} alt={hero.heroImageAlt} fill priority className="object-cover" sizes="100vw" />
+          <Image src={hero.heroImage} alt={hero.heroImageAlt} fill priority fetchPriority="high" className="object-cover" sizes="100vw" />
         </motion.div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/10 z-[1]" />
 

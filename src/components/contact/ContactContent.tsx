@@ -107,6 +107,7 @@ export default function ContactContent() {
             alt="Contact Dhesu Travel & Tours"
             fill
             priority
+            fetchPriority="high"
             className="object-cover"
             sizes="100vw"
           />

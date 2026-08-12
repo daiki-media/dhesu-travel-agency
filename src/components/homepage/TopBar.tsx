@@ -1,4 +1,3 @@
-"use client";
 import { MapPin, Clock3, Phone, MessageCircle } from "lucide-react";
 import { company } from "@/src/data/company";
 export default function TopBar() {
