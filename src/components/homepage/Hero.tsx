@@ -32,25 +32,13 @@ const SLIDE_MS = 6000;
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
   const [current, setCurrent] = useState(0);
-  // Slides 2 and 3 are kept out of the DOM until the carousel first advances,
-  // so their photography never competes with the LCP image for bandwidth.
   const [mounted, setMounted] = useState([0]);
-  // The copy only animates once the slide has actually changed. Animating the
-  // first render would paint the <h1> at opacity 0 and push out LCP.
   const [advanced, setAdvanced] = useState(false);
 
   const goTo = (next: number) => {
     setAdvanced(true);
     setCurrent(((next % slides.length) + slides.length) % slides.length);
   };
-
-  // Rotation deliberately does NOT begin at mount. Swapping a full-viewport
-  // image while the page is still loading made slide 2 — a lazily-loaded remote
-  // photo — the Largest Contentful Paint element, and repainting the whole
-  // viewport mid-load wrecks Speed Index. So we wait for `load`, then for the
-  // main thread to go idle, before the first interval even starts. It also
-  // holds while the tab is hidden or the hero is scrolled away, so it never
-  // burns work nobody can see.
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
@@ -98,8 +86,6 @@ export default function Hero() {
 
   return (
     <section ref={sectionRef} className="relative h-[600px] md:h-[700px] bg-slate-900 overflow-x-clip">
-      {/* Background slides — stacked and crossfaded with a plain CSS opacity
-          transition rather than an animation library. */}
       {slides.map((slide, i) =>
         mounted.includes(i) ? (
           <div
@@ -110,14 +96,8 @@ export default function Hero() {
           >
             <Image
               src={slide.bg}
-              alt=""
-              aria-hidden
+              alt={slide.title1}
               fill
-              // In Next 16 `priority` only emits the preload tag — the priority
-              // hint and the loading mode are separate props now. Without the
-              // hint the LCP image is fetched at Low priority behind a dozen
-              // scripts; `loading` is set explicitly so intent is on the element
-              // rather than relying on the <img> default.
               priority={i === 0}
               fetchPriority={i === 0 ? "high" : "auto"}
               loading={i === 0 ? "eager" : "lazy"}
@@ -128,18 +108,14 @@ export default function Hero() {
         ) : null
       )}
 
-      {/* Darker Overlay to match image_a30918.jpg */}
       <div className="absolute inset-0 bg-black/40 z-[1]" />
 
-      {/* Main Content */}
       <div className="relative z-10 h-full max-w-8xl mx-auto px-8 flex items-center">
         <div className="max-w-8xl">
-          <div key={current} className={advanced ? "hero-copy" : undefined}>
-            {/* Subtitle with Script Font */}
+          <div className={advanced ? "hero-copy" : undefined}>
             <p className="font-secondary text-white text-3xl md:text-4xl mb-4 drop-shadow-md">
               {slides[current].subtitle}
             </p>
-            {/* Bold Header */}
             <h1 className="font-primary text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[1.05] mb-10 tracking-tight">
               {slides[current].title1}
               <br />
@@ -147,8 +123,6 @@ export default function Hero() {
             </h1>
           </div>
 
-          {/* Action Buttons — above the fold, so they render at their final
-              position instead of fading in after hydration. */}
           <div className="flex gap-4 flex-wrap">
             <Link href="/tours">
               <Button variant="light" showArrow size="lg">Explore Tours</Button>
@@ -160,7 +134,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Right Side Navigation (Exactly as image_a30918.jpg) */}
       <div className="absolute right-4 md:right-12 top-1/2 -translate-y-1/2 z-20 flex flex-col items-center">
         <button
           type="button"
@@ -171,7 +144,6 @@ export default function Hero() {
           <ArrowUp />
         </button>
 
-        {/* The Vertical Indicator Track */}
         <div className="relative flex flex-col gap-7 items-center py-2">
             <div className="absolute w-[2px] h-full bg-white/30 left-1/2 -translate-x-1/2" />
             {slides.map((slide, i) => (
