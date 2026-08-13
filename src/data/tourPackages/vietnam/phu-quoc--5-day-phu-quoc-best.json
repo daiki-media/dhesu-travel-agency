@@ -6,7 +6,7 @@
     "slug": "phu-quoc/5-day-phu-quoc-best",
     "canonicalUrl": "/tours/vietnam/phu-quoc/5-day-phu-quoc-best",
     "pkgid": "2340",
-    "ogImage": "/images/gallery/14882.jpg"
+    "ogImage": "/images/gallery/14875.jpg"
   },
   "hero": {
     "badge": "Phu Quoc — 5 Days",
@@ -19,7 +19,7 @@
       { "label": "Phu Quoc", "href": "/tours/vietnam/phu-quoc" },
       { "label": "5 Days Best of Phu Quoc", "href": null }
     ],
-    "heroImage": "/images/gallery/14882.jpg",
+    "heroImage": "/images/gallery/14875.jpg",
     "heroImageAlt": "Phu Quoc Grand World Venice canal gondola island Vietnam"
   },
   "quickFacts": {
@@ -322,7 +322,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/gallery/14882.jpg"
+    "bgImage": "/images/gallery/14875.jpg"
   },
   "schema": {
     "type": "TouristTrip",
