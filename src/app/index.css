@@ -175,9 +175,15 @@ body {
    — when it used framer-motion, all 219 exported pages carried the library.
    `animation-delay` via --d reproduces the old stagger.
 ======================= */
+/* NOTE: entrance animations start at opacity 0.01, not 0. A documented
+   Chromium bug drops the page's Largest Contentful Paint measurement when a
+   candidate element is CSS-animated from exactly opacity 0 — PageSpeed
+   Insights then errors with NO_LCP. Any non-zero start value avoids it and
+   0.01 is visually indistinguishable from 0.
+   https://github.com/GoogleChrome/lighthouse/issues/16934 */
 @keyframes fade-up {
   from {
-    opacity: 0;
+    opacity: 0.01;
     transform: translateY(16px);
   }
   to {
@@ -228,9 +234,11 @@ body {
    Applied only after the first slide change (see Hero.tsx) — animating the
    initial render would paint the <h1> at opacity 0 and delay LCP.
 ======================= */
+/* Starts at 0.01, not 0 — see the NO_LCP note above @keyframes fade-up. The
+   h1 this animates is the page's text LCP candidate. */
 @keyframes hero-copy-in {
   from {
-    opacity: 0;
+    opacity: 0.01;
     transform: translateY(28px);
   }
   to {
@@ -261,8 +269,10 @@ body {
    opacity 0. Never put `data-reveal` on above-the-fold markup: it would hide
    the LCP element until the observer fires.
 ======================= */
+/* Hidden start state is 0.01, not 0 — see the NO_LCP note above
+   @keyframes fade-up. */
 html[data-reveal="on"] [data-reveal] {
-  opacity: 0;
+  opacity: 0.01;
   transform: translateY(24px);
 }
 

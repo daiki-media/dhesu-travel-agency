@@ -96,7 +96,14 @@ export default function Hero() {
           <div
             key={slide.bg}
             className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
-            style={{ opacity: i === current ? 1 : 0 }}
+            // Inactive slides sit at 0.01, not 0. Fading the active slide — the
+            // page's LCP element — to exactly opacity 0 trips a documented
+            // Chromium bug that discards the LCP measurement entirely, which is
+            // what had PageSpeed Insights erroring with NO_LCP on this page
+            // (see the note in index.css). At 0.01 the outgoing slide is
+            // invisible behind the incoming opaque one, but LCP tracking
+            // survives the rotation.
+            style={{ opacity: i === current ? 1 : 0.01 }}
             aria-hidden={i !== current}
           >
             <Image
