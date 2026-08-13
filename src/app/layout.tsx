@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Montez } from "next/font/google";
 import JsonLd from "@/src/components/JsonLd";
 import { SITE_URL } from "@/src/data/site";
-import { organisationSchema, websiteSchema } from "@/src/data/structuredData";
+import { graph, organisationSchema, websiteSchema } from "@/src/data/structuredData";
 import "./index.css";
 
 // Body + headings. No `weight` on purpose — that would pull a separate static
@@ -63,8 +63,10 @@ export default function RootLayout({
         />
       </head>
       <body className={`${manrope.variable} ${montez.variable}`}>
-        {/* Site-wide identity for search engines and AI agents. */}
-        <JsonLd data={[organisationSchema, websiteSchema]} />
+        {/* Site-wide identity for search engines and AI agents. Emitted once,
+            here; every page's own graph references these two nodes by @id
+            (see src/data/structuredData.ts) instead of repeating them. */}
+        <JsonLd data={graph([organisationSchema, websiteSchema])} />
         {children}
       </body>
     </html>

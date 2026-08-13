@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import JsonLd from "@/src/components/JsonLd";
+import { graph, orgRef, webPage } from "@/src/data/structuredData";
 import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Hero from "@/src/components/homepage/Hero";
@@ -21,9 +23,23 @@ export const metadata: Metadata = {
   },
 };
 
+// The home page is the site's front door: one WebPage node, about the agency
+// itself. No BreadcrumbList — there is no trail above the root.
+const homeJsonLd = graph([
+  webPage({
+    path: "/",
+    name: "Dhesu Travel & Tours",
+    description:
+      "Daily customized and ready-made holidays worldwide from a Malaysian travel agent operating since 1988.",
+    about: orgRef,
+    mainEntity: orgRef,
+  }),
+]);
+
 export default function Home() {
   return (
     <main>
+      <JsonLd data={homeJsonLd} />
       <TopBar />
       <Navbar />
       <Hero />

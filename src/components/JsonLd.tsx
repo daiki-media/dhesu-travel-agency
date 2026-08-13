@@ -2,7 +2,15 @@ import { absoluteUrl } from "@/src/data/site";
 import imageLoader from "@/src/lib/image-loader";
 
 /** Fields whose values schema.org expects to be resolvable URLs. */
-const URL_FIELDS = new Set(["url", "item", "logo", "image", "sameAs", "@id"]);
+const URL_FIELDS = new Set([
+  "url",
+  "item",
+  "logo",
+  "image",
+  "contentUrl",
+  "sameAs",
+  "@id",
+]);
 
 /** Width used for images referenced from structured data (og/rich-result size). */
 const SCHEMA_IMAGE_WIDTH = 1200;
@@ -13,10 +21,14 @@ const SCHEMA_IMAGE_WIDTH = 1200;
  * The original JPEG/PNGs are stripped from the export (scripts/postbuild.mjs),
  * because nothing renders them any more — so a schema `image` of
  * `/images/gallery/12930.jpg` would 404 for the crawler that follows it.
+ *
+ * Applied to every URL field rather than just `image`, because an ImageObject
+ * carries its src on `url`/`contentUrl`; keying off the field name alone would
+ * let those through unrewritten.
  */
-function resolveImage(value: string): string {
+function resolveImagePath(value: string): string {
   if (!value.startsWith("/images/")) return value;
-  return absoluteUrl(imageLoader({ src: value, width: SCHEMA_IMAGE_WIDTH }));
+  return imageLoader({ src: value, width: SCHEMA_IMAGE_WIDTH });
 }
 
 /**
@@ -27,17 +39,28 @@ function resolveImage(value: string): string {
  * relative paths, so this normalises them at render time rather than requiring
  * every call site to remember.
  */
+function absolutizeUrl(value: string): string {
+  return absoluteUrl(resolveImagePath(value));
+}
+
+function absolutizeField(key: string, value: unknown): unknown {
+  if (typeof value === "string") {
+    return value.startsWith("/") ? absolutizeUrl(value) : value;
+  }
+  // `image` and `sameAs` are commonly arrays of URL strings — without this the
+  // array would fall through to the generic walker, which has no field context
+  // and would leave every entry relative.
+  if (Array.isArray(value)) return value.map((entry) => absolutizeField(key, entry));
+  return absolutize(value);
+}
+
 function absolutize(value: unknown): unknown {
   if (Array.isArray(value)) return value.map(absolutize);
   if (value && typeof value === "object") {
     return Object.fromEntries(
       Object.entries(value as Record<string, unknown>).map(([key, val]) => [
         key,
-        URL_FIELDS.has(key) && typeof val === "string" && val.startsWith("/")
-          ? key === "image" || key === "logo"
-            ? resolveImage(val)
-            : absoluteUrl(val)
-          : absolutize(val),
+        URL_FIELDS.has(key) ? absolutizeField(key, val) : absolutize(val),
       ])
     );
   }
