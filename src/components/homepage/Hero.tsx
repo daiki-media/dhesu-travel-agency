@@ -5,7 +5,7 @@ import Link from "next/link";
 import SearchHero from '@/src/components/homepage/SearchHero';
 import ArrowUp from "@/src/components/icons/ArrowUp";
 import ArrowDown from "@/src/components/icons/ArrowDown";
-import Button from "../Button"; // Ensure your Button component supports 'rounded-full'
+import Button from "../Button";
 const slides = [
   {
     bg: "/images/gallery/12615.jpg",
@@ -39,6 +39,7 @@ export default function Hero() {
     setAdvanced(true);
     setCurrent(((next % slides.length) + slides.length) % slides.length);
   };
+
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
@@ -62,27 +63,31 @@ export default function Hero() {
       }, SLIDE_MS);
     };
 
+    const INTERACTION_EVENTS = ["pointerdown", "pointermove", "touchstart", "keydown", "wheel", "scroll"] as const;
+
     const begin = () => {
+      INTERACTION_EVENTS.forEach((e) => window.removeEventListener(e, begin));
       idle =
         "requestIdleCallback" in window
           ? window.requestIdleCallback(start, { timeout: 2000 })
           : (setTimeout(start, 1200) as unknown as number);
     };
 
-    if (document.readyState === "complete") begin();
-    else window.addEventListener("load", begin, { once: true });
+    INTERACTION_EVENTS.forEach((e) =>
+      window.addEventListener(e, begin, { once: true, passive: true })
+    );
 
     return () => {
       clearInterval(timer);
-      window.removeEventListener("load", begin);
+      INTERACTION_EVENTS.forEach((e) => window.removeEventListener(e, begin));
       observer?.disconnect();
       if (idle !== undefined && "cancelIdleCallback" in window) window.cancelIdleCallback(idle);
     };
   }, []);
 
-  useEffect(() => {
-    setMounted((prev) => (prev.includes(current) ? prev : [...prev, current]));
-  }, [current]);
+  if (!mounted.includes(current)) {
+    setMounted([...mounted, current]);
+  }
 
   return (
     <section ref={sectionRef} className="relative h-[600px] md:h-[700px] bg-slate-900 overflow-x-clip">
@@ -101,7 +106,7 @@ export default function Hero() {
               priority={i === 0}
               fetchPriority={i === 0 ? "high" : "auto"}
               loading={i === 0 ? "eager" : "lazy"}
-              className="object-cover scale-105" // Slight scale for a cinematic feel
+              className="object-cover scale-105"
               sizes="100vw"
             />
           </div>
