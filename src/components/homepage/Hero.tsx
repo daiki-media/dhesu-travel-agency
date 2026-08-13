@@ -91,26 +91,18 @@ export default function Hero() {
 
   return (
     <section ref={sectionRef} className="relative h-[600px] md:h-[700px] bg-slate-900 overflow-x-clip">
-      {/* A/B test D: slide 0 is a fully static base layer — no opacity logic,
-          no transition, no transform, no state-dependent rendering. Slides 1-2
-          keep the carousel behaviour and stack above it when active. */}
-      <div className="absolute inset-0">
-        <Image
-          src={slides[0].bg}
-          alt={slides[0].title1}
-          fill
-          priority
-          fetchPriority="high"
-          loading="eager"
-          className="object-cover"
-          sizes="100vw"
-        />
-      </div>
       {slides.map((slide, i) =>
-        i !== 0 && mounted.includes(i) ? (
+        mounted.includes(i) ? (
           <div
             key={slide.bg}
             className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+            // Inactive slides sit at 0.01, not 0. Fading the active slide — the
+            // page's LCP element — to exactly opacity 0 trips a documented
+            // Chromium bug that discards the LCP measurement entirely, which is
+            // what had PageSpeed Insights erroring with NO_LCP on this page
+            // (see the note in index.css). At 0.01 the outgoing slide is
+            // invisible behind the incoming opaque one, but LCP tracking
+            // survives the rotation.
             style={{ opacity: i === current ? 1 : 0.01 }}
             aria-hidden={i !== current}
           >
@@ -118,7 +110,9 @@ export default function Hero() {
               src={slide.bg}
               alt={slide.title1}
               fill
-              loading="lazy"
+              priority={i === 0}
+              fetchPriority={i === 0 ? "high" : "auto"}
+              loading={i === 0 ? "eager" : "lazy"}
               className="object-cover scale-105"
               sizes="100vw"
             />
