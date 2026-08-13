@@ -37,9 +37,9 @@ export default function Home() {
       <JsonLd data={homeJsonLd} />
       <TopBar />
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       <TourCategories />
-      <PopularDestination />
+      {/* <PopularDestination /> */}
       <PlanYourTrip />
       <PopularTours />
       {/* <Tourcat2 /> */}

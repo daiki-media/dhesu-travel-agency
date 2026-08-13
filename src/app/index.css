@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-/* #E60000 rather than pure #FF0000: white-on-#FF0000 lands at 3.99:1, just under
-   the 4.5:1 WCAG AA threshold, so every red button and the red-on-white body text
-   failed the contrast audit. This is the nearest red that passes (4.81:1) and is
-   visually indistinguishable from the original. */
 @theme {
   --color-primary: #E60000;
   --color-primary-dark: #990000;
@@ -168,19 +164,6 @@ body {
 .btn-transparent:hover {
   border-color: white;
 }
-/* =======================
-   404 PAGE ANIMATIONS
-   These are plain CSS so not-found.tsx can stay a server component. It is the
-   root not-found boundary, so anything it imports is bundled into *every* route
-   — when it used framer-motion, all 219 exported pages carried the library.
-   `animation-delay` via --d reproduces the old stagger.
-======================= */
-/* NOTE: entrance animations start at opacity 0.01, not 0. A documented
-   Chromium bug drops the page's Largest Contentful Paint measurement when a
-   candidate element is CSS-animated from exactly opacity 0 — PageSpeed
-   Insights then errors with NO_LCP. Any non-zero start value avoids it and
-   0.01 is visually indistinguishable from 0.
-   https://github.com/GoogleChrome/lighthouse/issues/16934 */
 @keyframes fade-up {
   from {
     opacity: 0.01;
@@ -229,13 +212,6 @@ body {
   }
 }
 
-/* =======================
-   HERO COPY TRANSITION
-   Applied only after the first slide change (see Hero.tsx) — animating the
-   initial render would paint the <h1> at opacity 0 and delay LCP.
-======================= */
-/* Starts at 0.01, not 0 — see the NO_LCP note above @keyframes fade-up. The
-   h1 this animates is the page's text LCP candidate. */
 @keyframes hero-copy-in {
   from {
     opacity: 0.01;
@@ -257,17 +233,6 @@ body {
   }
 }
 
-/* =======================
-   HERO SLIDE FIRST-PAINT DELAY
-   PSI's measurement environment (Lightrider) drops LCP candidates that are
-   painted in the page's very first contentful frame, which is why the homepage
-   errored with NO_LCP while pages whose hero enters via JS animation measured
-   fine. Holding the hero image back ~0.1s makes its paint land in a later
-   frame, so the LCP entry is actually emitted. `visibility` rather than
-   opacity on purpose: the delayed appearance is a real main-thread paint
-   record, not a composited fade that would leave the original frame-1 paint
-   as the only record. Costs at most ~0.1s of real LCP; no layout shift.
-======================= */
 @keyframes hero-slide-appear {
   from {
     visibility: hidden;
@@ -281,20 +246,6 @@ body {
   animation: hero-slide-appear 0s linear 0.1s both;
 }
 
-/* =======================
-   SCROLL REVEAL
-   Replaces framer-motion's in-view fades. A single IntersectionObserver (the
-   inline script in layout.tsx) flips `data-revealed`; everything else is CSS.
-   That keeps whole sections as server components instead of pulling an
-   animation library into the client bundle and hydrating it.
-
-   The hidden start state is scoped to `html[data-reveal="on"]`, which only that
-   script sets — so if it never runs, content stays visible rather than stuck at
-   opacity 0. Never put `data-reveal` on above-the-fold markup: it would hide
-   the LCP element until the observer fires.
-======================= */
-/* Hidden start state is 0.01, not 0 — see the NO_LCP note above
-   @keyframes fade-up. */
 html[data-reveal="on"] [data-reveal] {
   opacity: 0.01;
   transform: translateY(24px);
@@ -344,7 +295,6 @@ html[data-reveal="on"] [data-reveal="right"] {
 /* =======================
    BACKGROUND PATTERN
 ======================= */
-/* Points at the generated WebP (scripts/optimize-images.mjs) — 211 KB PNG -> ~20 KB. */
 .bg-pattern {
   background-image:
     linear-gradient(to bottom, #a30b0b23, #ffffff00),
@@ -352,12 +302,6 @@ html[data-reveal="on"] [data-reveal="right"] {
   background-repeat: no-repeat;
 }
 
-/* =======================
-   DESTINATION COVERFLOW
-   Native scroll-snap carousel (see PopularDestination.tsx). Replaces Swiper so
-   no carousel library or extra render-blocking stylesheet sits on the critical
-   path — and the slides are swipeable before JavaScript has hydrated.
-======================= */
 .dest-track {
   --dest-slide: 85%;
   display: flex;
@@ -370,11 +314,6 @@ html[data-reveal="on"] [data-reveal="right"] {
   padding-block: 8px;
 }
 
-/* Flex spacers centre the first and last slides. Deliberately not
-   `padding-inline`: a percentage padding shrinks the content box that the
-   slides' percentage flex-basis then resolves against, so the two compound and
-   the cards come out a fraction of their intended width. Spacer boxes are
-   measured against the same content box as the slides, so the maths holds. */
 .dest-track::before,
 .dest-track::after {
   content: "";
@@ -385,10 +324,6 @@ html[data-reveal="on"] [data-reveal="right"] {
   display: none;
 }
 
-/* Deliberately no `blur()` here. Blurring nine full-width photos costs hundreds
-   of milliseconds of rasterisation on a throttled mobile CPU and was a large
-   part of the Style & Layout time that delayed the hero paint; brightness plus
-   scale reads the same at a glance and is essentially free. */
 .dest-slide {
   flex: 0 0 var(--dest-slide);
   scroll-snap-align: center;
