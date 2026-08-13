@@ -258,6 +258,30 @@ body {
 }
 
 /* =======================
+   HERO SLIDE FIRST-PAINT DELAY
+   PSI's measurement environment (Lightrider) drops LCP candidates that are
+   painted in the page's very first contentful frame, which is why the homepage
+   errored with NO_LCP while pages whose hero enters via JS animation measured
+   fine. Holding the hero image back ~0.1s makes its paint land in a later
+   frame, so the LCP entry is actually emitted. `visibility` rather than
+   opacity on purpose: the delayed appearance is a real main-thread paint
+   record, not a composited fade that would leave the original frame-1 paint
+   as the only record. Costs at most ~0.1s of real LCP; no layout shift.
+======================= */
+@keyframes hero-slide-appear {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+.hero-slide-appear {
+  animation: hero-slide-appear 0s linear 0.1s both;
+}
+
+/* =======================
    SCROLL REVEAL
    Replaces framer-motion's in-view fades. A single IntersectionObserver (the
    inline script in layout.tsx) flips `data-revealed`; everything else is CSS.

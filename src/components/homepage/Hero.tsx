@@ -95,7 +95,7 @@ export default function Hero() {
         mounted.includes(i) ? (
           <div
             key={slide.bg}
-            className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+            className="absolute inset-0 transition-opacity duration-1000 ease-in-out hero-slide-appear"
             // Inactive slides sit at 0.01, not 0. Fading the active slide — the
             // page's LCP element — to exactly opacity 0 trips a documented
             // Chromium bug that discards the LCP measurement entirely, which is
