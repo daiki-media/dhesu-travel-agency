@@ -21,11 +21,13 @@ export const metadata: Metadata = {
   },
 };
 
-// Mirrors the card list ToursIndexContent renders — destinations that actually
-// have packages, in the same order.
-const destinationCards = Object.values(tourPages)
-  .filter((d) => d.packages?.items?.length > 0)
-  .map((d) => ({ name: d.meta.name, url: `/tours/${d.meta.slug}` }));
+// Mirrors the card list ToursIndexContent renders — every destination hub, in
+// the same order. The markup has to match what is on the page, so this list
+// must keep tracking that component rather than filtering separately.
+const destinationCards = Object.values(tourPages).map((d) => ({
+  name: d.meta.name,
+  url: `/tours/${d.meta.slug}`,
+}));
 
 const toursJsonLd = graph([
   webPage({

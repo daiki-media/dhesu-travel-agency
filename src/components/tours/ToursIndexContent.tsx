@@ -8,6 +8,7 @@ import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/homepage/Footer";
 import { tourPages } from "@/src/data/tourPages";
+import { getGuidePages } from "@/src/data/destinationDetail";
 import Button from "@/src/components/Button";
 const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -30,20 +31,34 @@ const badgeColors: Record<string, string> = {
   gray: "bg-gray-100 text-gray-600",
 };
 
-// Derive destination cards from tourPages — only show destinations with packages.
-const destinations = Object.values(tourPages)
-  .filter((d) => d.packages?.items?.length > 0)
-  .map((d) => ({
+// Derive destination cards from tourPages.
+//
+// Every hub is listed, including the newer destinations whose itineraries are
+// still being built. Those already have a full planning guide, so the card
+// counts what is actually there — guides and packages named separately — rather
+// than calling a destination "Coming Soon" while an article sits behind it.
+const plural = (n: number, noun: string) => `${n} ${noun}${n !== 1 ? "s" : ""}`;
+
+const destinations = Object.values(tourPages).map((d) => {
+  const count = d.packages?.items?.length ?? 0;
+  const guides = getGuidePages(d.meta.slug).length;
+  return {
     name: d.meta.name,
     tagline: d.hero.badge,
     body: d.hero.body,
     image: d.hero.bgImage,
     href: `/tours/${d.meta.slug}`,
-    packageCount: `${d.packages.items.length} Package${d.packages.items.length !== 1 ? "s" : ""}`,
+    packageCount:
+      count > 0
+        ? plural(count, "Package")
+        : guides > 0
+          ? plural(guides, "Travel Guide")
+          : "Coming Soon",
     highlights: d.zones.areas.slice(0, 4).map((a) => a.name),
     badge: d.meta.region ?? "",
     tagColor: d.meta.hubCardColor ?? "gray",
-  }));
+  };
+});
 
 export default function ToursIndexContent() {
   return (
@@ -53,7 +68,7 @@ export default function ToursIndexContent() {
 
       <main>
         {/* ── Page Header ─────────────────────────────────────────────── */}
-        <section className="bg-[#faf9f7] border-b border-gray-100 py-16 px-5 text-center">
+        <section className="bg-[#faf9f7] border-b border-gray-100 py-12 lg:py-16 px-5 text-center">
           <motion.div
             initial="hidden"
             animate="visible"
@@ -78,7 +93,7 @@ export default function ToursIndexContent() {
         </section>
 
         {/* ── Destination Cards ────────────────────────────────────────── */}
-        <section className="max-w-6xl mx-auto px-5 py-16 md:py-24">
+        <section className="max-w-6xl mx-auto px-5 py-12 lg:py-16 md:py-24">
           <div className="grid md:grid-cols-2 gap-8">
             {destinations.map((dest, i) => (
               <motion.div
@@ -88,10 +103,11 @@ export default function ToursIndexContent() {
                 whileInView="visible"
                 viewport={{ once: true, margin: "-60px" }}
                 variants={fadeUp}
+                className="h-full"
               >
                 <Link
                   href={dest.href}
-                  className="group block rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 bg-white"
+                  className="group flex h-full flex-col rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 bg-white"
                 >
                   {/* Image */}
                   <div className="relative h-72 w-full overflow-hidden">
@@ -126,12 +142,15 @@ export default function ToursIndexContent() {
                     </div>
                   </div>
 
-                  {/* Card body */}
-                  <div className="p-6">
-                    <p className="text-primary font-semibold text-sm mb-1">
+                  {/* Card body.
+                      Blurbs and zone counts differ per destination, so the
+                      body is clamped and the footer pushed down with mt-auto —
+                      otherwise cards in the same row end at different heights. */}
+                  <div className="flex flex-1 flex-col p-6">
+                    <p className="text-primary font-semibold text-sm mb-1 line-clamp-1">
                       {dest.tagline}
                     </p>
-                    <p className="text-gray-500 text-sm leading-relaxed mb-4">
+                    <p className="text-gray-500 text-sm leading-relaxed mb-4 line-clamp-3">
                       {dest.body}
                     </p>
 
@@ -147,8 +166,8 @@ export default function ToursIndexContent() {
                       ))}
                     </div>
 
-                    <div className="flex items-center gap-1.5 text-primary font-semibold text-sm group-hover:gap-3 transition-all duration-200">
-                      View {dest.name} Packages
+                    <div className="mt-auto flex items-center gap-1.5 text-primary font-semibold text-sm group-hover:gap-3 transition-all duration-200">
+                      Explore {dest.name}
                       <ArrowRight size={15} />
                     </div>
                   </div>
@@ -159,7 +178,7 @@ export default function ToursIndexContent() {
         </section>
 
         {/* ── More Coming Soon ─────────────────────────────────────────── */}
-        <section className="bg-[#faf9f7] border-t border-gray-100 py-16 px-5 text-center">
+        <section className="bg-[#faf9f7] border-t border-gray-100 py-12 lg:py-16 px-5 text-center">
           <motion.div
             initial="hidden"
             whileInView="visible"

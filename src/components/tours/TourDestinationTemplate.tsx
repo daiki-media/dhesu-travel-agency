@@ -77,10 +77,12 @@ export function PackageCard({
         </div>
       )}
 
-      {/* Duration pill */}
-      <div className="absolute top-3 right-3 z-10 bg-black/50 backdrop-blur-sm text-white text-xs font-semibold px-3 py-1 rounded-full">
-        {pkg.duration}
-      </div>
+      {/* Duration pill. A guide is an article, not a trip, so it has no length. */}
+      {pkg.duration && (
+        <div className="absolute top-3 right-3 z-10 bg-black/50 backdrop-blur-sm text-white text-xs font-semibold px-3 py-1 rounded-full">
+          {pkg.duration}
+        </div>
+      )}
 
       {/* Image */}
       <div className="relative h-60 w-full overflow-hidden">
@@ -108,15 +110,19 @@ export function PackageCard({
           {pkg.name}
         </h3>
 
-        {/* Highlights */}
-        <ul className="space-y-1.5 mb-4 flex-1">
-          {pkg.highlights.map((h) => (
-            <li key={h} className="flex items-center gap-2 text-sm text-gray-600">
-              <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
-              {h}
-            </li>
-          ))}
-        </ul>
+        {/* Highlights, or — for a guide, which has none — what the article covers. */}
+        {pkg.blurb ? (
+          <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-1">{pkg.blurb}</p>
+        ) : (
+          <ul className="space-y-1.5 mb-4 flex-1">
+            {pkg.highlights?.map((h) => (
+              <li key={h} className="flex items-center gap-2 text-sm text-gray-600">
+                <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                {h}
+              </li>
+            ))}
+          </ul>
+        )}
 
         {/* Saving badge */}
         {pkg.saving && (
@@ -125,20 +131,24 @@ export function PackageCard({
           </span>
         )}
 
-        {/* Price + CTA */}
+        {/* Price + CTA. Nothing is priced that has no price: a guide says so. */}
         <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-          <div>
-            <div className="flex items-baseline gap-2">
-              <span className="text-primary font-bold text-xl font-primary">{pkg.price}</span>
-              {pkg.originalPrice && (
-                <span className="text-gray-400 text-sm line-through">{pkg.originalPrice}</span>
-              )}
+          {pkg.kind === "guide" ? (
+            <span className="text-gray-500 text-sm">Free to read</span>
+          ) : (
+            <div>
+              <div className="flex items-baseline gap-2">
+                <span className="text-primary font-bold text-xl font-primary">{pkg.price}</span>
+                {pkg.originalPrice && (
+                  <span className="text-gray-400 text-sm line-through">{pkg.originalPrice}</span>
+                )}
+              </div>
+              <span className="text-gray-400 text-xs">{pkg.priceNote}</span>
             </div>
-            <span className="text-gray-400 text-xs">{pkg.priceNote}</span>
-          </div>
+          )}
           <Link href={pkg.slug ? `/tours/${slug}/${pkg.slug}` : "/contact"}>
             <Button variant="light" size="sm" showArrow>
-              Book Now
+              {pkg.kind === "guide" ? "Read Guide" : "Book Now"}
             </Button>
           </Link>
         </div>
@@ -267,7 +277,7 @@ export default function TourDestinationTemplate({
         <div className="absolute inset-0 bg-black/55 z-[1]" />
 
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-24 w-full">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-16 w-full">
           <div className="max-w-3xl">
             {/* Badge */}
             <motion.div
@@ -344,7 +354,7 @@ export default function TourDestinationTemplate({
       </section>
 
       {/* ── WHY ────────────────────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28 bg-white">
+      <section className="py-12 lg:py-12 lg:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           {/* Header */}
           <motion.div
@@ -371,7 +381,7 @@ export default function TourDestinationTemplate({
       </section>
 
       {/* ── ZONES ─────────────────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28 bg-pattern">
+      <section className="py-12 lg:py-12 lg:py-16 bg-pattern">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           {/* Header */}
           <motion.div
@@ -399,7 +409,7 @@ export default function TourDestinationTemplate({
       </section>
 
       {/* ── BEST TIME + TRIP LENGTH ────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28 bg-white">
+      <section className="py-12 lg:py-12 lg:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
 
@@ -527,7 +537,7 @@ export default function TourDestinationTemplate({
       </section>
 
       {/* ── PACKAGES ──────────────────────────────────────────────────────────── */}
-      <section id="packages" className="py-20 lg:py-28 bg-pattern scroll-mt-20">
+      <section id="packages" className="py-12 lg:py-12 lg:py-16 bg-pattern scroll-mt-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           {/* Header */}
           <motion.div
@@ -580,7 +590,7 @@ export default function TourDestinationTemplate({
       </section>
 
       {/* ── WHY BOOK WITH DHESU ────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28 bg-white">
+      <section className="py-12 lg:py-12 lg:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Left: text */}
@@ -637,7 +647,7 @@ export default function TourDestinationTemplate({
       </section>
 
       {/* ── CTA BANNER ────────────────────────────────────────────────────────── */}
-      <section className="relative py-24 overflow-hidden">
+      <section className="relative py-12 lg:py-16 overflow-hidden">
         {/* BG */}
         <div className="absolute inset-0">
           <Image

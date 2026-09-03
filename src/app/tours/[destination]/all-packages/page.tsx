@@ -6,6 +6,7 @@ import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/homepage/Footer";
 import TourAllPackagesTemplate from "@/src/components/tours/TourAllPackagesTemplate";
 import { getTourPage, tourSlugs, type TourPageData } from "@/src/data/tourPages";
+import { guidePackageItems } from "@/src/data/destinationDetail";
 import {
   breadcrumbList,
   graph,
@@ -104,12 +105,28 @@ export default async function TourAllPackagesPage({ params }: PageProps) {
     notFound();
   }
 
+  // The destination's planning guides sit in the same grid as its packages, so
+  // a country is never a dead end while its itineraries are still being
+  // written. They are merged here rather than stored in the hub JSON, which
+  // would duplicate the name, blurb and image that already live on the landing
+  // page entry.
+  const withGuides: TourPageData = {
+    ...data,
+    packages: {
+      ...data.packages,
+      // Guide first: the hub grid previews only the first six cards, and the
+      // planning guide is where a traveller who has not chosen an itinerary
+      // yet should start.
+      items: [...guidePackageItems(destination), ...data.packages.items],
+    },
+  };
+
   return (
     <>
-      <JsonLd data={allPackagesJsonLd(data)} />
+      <JsonLd data={allPackagesJsonLd(withGuides)} />
       <TopBar />
       <Navbar />
-      <TourAllPackagesTemplate data={data} />
+      <TourAllPackagesTemplate data={withGuides} />
       <Footer />
     </>
   );
