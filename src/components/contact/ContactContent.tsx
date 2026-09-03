@@ -7,6 +7,7 @@ import { Phone, Mail, MapPin, Clock3, MessageCircle } from "lucide-react";
 import { FacebookIcon } from "@/src/components/icons/SocialIcons";
 import Button from "@/src/components/Button";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
+import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
 import { company } from "@/src/data/company";
 
 const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -39,7 +40,58 @@ const inputClass =
 
 const labelClass = "block font-primary font-semibold text-[#1a1a1a] text-sm mb-2";
 
-export default function ContactContent() {
+// ── Copy from content-document/contact&bookings/Contact Us.docx, taken verbatim
+// from the draft. The address is read from the company record rather than the
+// draft so it can only ever be stated in one place.
+
+// "Visit Our Office" — the draft's Address / Area / Best For table.
+const officeRows = [
+  { label: "Address", value: company.address.full },
+  { label: "Area", value: "Bangsar, Kuala Lumpur" },
+  {
+    label: "Best For",
+    value:
+      "In-person consultations, group and corporate travel planning, document submission for visa-related bookings",
+  },
+];
+
+// "What to Include When You Reach Out" — the draft's five-item list.
+const enquiryChecklist = [
+  "Your preferred destination(s), or a general idea if you're still deciding",
+  "Approximate travel dates or timeframe",
+  "Number of travellers, including children's ages if applicable",
+  "Any specific interests or requirements (honeymoon, family-friendly, halal-friendly, corporate group, etc.)",
+  "Your preferred way to receive a follow-up (call, WhatsApp, or email)",
+];
+
+// Photography for this page only. None of these frames shows the Dhesu office
+// or Dhesu staff, so each alt text describes the scene and nothing more, and no
+// frame sits beside the office copy where it could be mistaken for one.
+const PHOTO = {
+  philosophy: {
+    src: "/images/contact/kota-kinabalu-waterfront.jpg",
+    alt: "A Malaysian coastal city waterfront under a golden-hour sky",
+  },
+  checklist: {
+    src: "/images/contact/light-filled-lounge.jpg",
+    alt: "A bright, plant-filled modern lounge with armchairs beside tall windows",
+  },
+  quote: {
+    src: "/images/contact/island-aerial-lake.jpg",
+    alt: "An aerial view of an island town surrounded by lake water",
+  },
+  faq: {
+    src: "/images/contact/cafe-terrace-conversation.jpg",
+    alt: "People talking across the tables of a busy café terrace",
+  },
+};
+
+export default function ContactContent({
+  faqs,
+}: {
+  /** Owned by the page so the same list drives the FAQPage markup. */
+  faqs: { question: string; answer: string }[];
+}) {
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -114,7 +166,7 @@ export default function ContactContent() {
         </motion.div>
         <div className="absolute inset-0 bg-black/60 z-[1]" />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-20 w-full">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-16 w-full">
           <div className="max-w-3xl">
             <motion.div
               initial={{ opacity: 0, y: 16 }}
@@ -159,7 +211,7 @@ export default function ContactContent() {
       </section>
 
       {/* ── QUICK CONTACT CARDS ───────────────────────────────────────────── */}
-      <section className="py-16 lg:py-20 bg-white">
+      <section className="py-12 lg:py-12 lg:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Phone */}
@@ -265,8 +317,185 @@ export default function ContactContent() {
         </div>
       </section>
 
+      {/* ── VISIT OUR OFFICE ──────────────────────────────────────────────── */}
+      <section className="py-10 lg:py-12 bg-pattern">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-start">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              className="lg:col-span-5"
+            >
+              <SectionLabel text="In Person" />
+              <h2 className="font-primary font-bold text-[#1a1a1a] text-3xl md:text-4xl leading-tight mb-4">
+                Visit our office
+              </h2>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                We have our office at Wisma Dhesu situated right at the heart of Bangsar
+                Utama which will be a simple choice for you if you wish to meet a consultant
+                physically, especially when your itinerary becomes complicated or if you are
+                booking for groups or international trips.
+              </p>
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${company.address.lat},${company.address.lng}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary font-semibold text-sm hover:underline"
+              >
+                Get directions →
+              </a>
+            </motion.div>
+
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              className="lg:col-span-7"
+            >
+              <dl className="bg-white rounded-2xl shadow-sm overflow-hidden divide-y divide-gray-100">
+                {officeRows.map((row) => (
+                  <div
+                    key={row.label}
+                    className="grid grid-cols-1 sm:grid-cols-3 gap-1 sm:gap-6 px-6 sm:px-8 py-5"
+                  >
+                    <dt className="font-primary font-semibold text-[#1a1a1a] text-sm">
+                      {row.label}
+                    </dt>
+                    <dd className="sm:col-span-2 text-gray-600 text-sm leading-relaxed">
+                      {row.value}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── OUR PHILOSOPHY ────────────────────────────────────────────────── */}
+      <section className="relative py-10 lg:py-12 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src={PHOTO.philosophy.src}
+            alt={PHOTO.philosophy.alt}
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-black/70" />
+        </div>
+
+        <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-12 text-center">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeUp}
+          >
+            <h2 className="text-primary font-primary font-semibold text-sm uppercase tracking-widest mb-5">
+              Our Philosophy
+            </h2>
+            <blockquote className="font-primary font-bold text-white text-2xl md:text-3xl lg:text-4xl leading-snug">
+              &ldquo;{company.philosophy}&rdquo;
+            </blockquote>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ── WHAT TO INCLUDE + FREE QUOTE ──────────────────────────────────── */}
+      <section className="py-10 lg:py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-center">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              className="lg:col-span-7"
+            >
+              <SectionLabel text="Before You Write" />
+              <h2 className="font-primary font-bold text-[#1a1a1a] text-3xl md:text-4xl leading-tight mb-4">
+                What to include when you reach out
+              </h2>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                To help us get back to you with an accurate, useful response as quickly as
+                possible, it&apos;s helpful to include:
+              </p>
+
+              <ul className="space-y-3">
+                {enquiryChecklist.map((item, i) => (
+                  <motion.li
+                    key={item}
+                    custom={i}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, margin: "-40px" }}
+                    variants={fadeUp}
+                    className="flex gap-4"
+                  >
+                    <span
+                      className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary"
+                      aria-hidden
+                    />
+                    <span className="text-gray-600 text-[15px] leading-relaxed">{item}</span>
+                  </motion.li>
+                ))}
+              </ul>
+            </motion.div>
+
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              className="lg:col-span-5"
+            >
+              <div className="relative aspect-[3/2] lg:aspect-[4/5] rounded-2xl overflow-hidden">
+                <Image
+                  src={PHOTO.checklist.src}
+                  alt={PHOTO.checklist.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                />
+              </div>
+            </motion.div>
+          </div>
+
+          {/* Request a free quote — leads straight into the form below. */}
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeUp}
+            className="mt-10 grid grid-cols-1 md:grid-cols-12 rounded-2xl overflow-hidden border-2 border-gray-100"
+          >
+            <div className="md:col-span-5 relative min-h-[200px] md:min-h-0">
+              <Image
+                src={PHOTO.quote.src}
+                alt={PHOTO.quote.alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 40vw"
+              />
+            </div>
+            <div className="md:col-span-7 bg-gray-50 p-7 lg:p-10">
+              <SectionLabel text="Request a Free Quote" />
+              <p className="text-gray-600 leading-relaxed">
+                Prefer not to call right away? You can also request a free, no-obligation
+                quote online. Share a few details about your ideal trip, and a consultant
+                will follow up with tailored options and pricing.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* ── FORM + INFO ───────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28 bg-pattern">
+      <section className="py-12 lg:py-12 lg:py-16 bg-pattern">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
             {/* Form */}
@@ -499,6 +728,93 @@ export default function ContactContent() {
               </motion.div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ── FAQ ───────────────────────────────────────────────────────────── */}
+      <section className="py-10 lg:py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              className="lg:col-span-5"
+            >
+              <div className="lg:sticky lg:top-28">
+                <SectionLabel text="Questions" />
+                <h2 className="font-primary font-bold text-[#1a1a1a] text-3xl md:text-4xl leading-tight mb-6">
+                  Frequently asked questions
+                </h2>
+                <div className="relative aspect-[3/2] rounded-2xl overflow-hidden">
+                  <Image
+                    src={PHOTO.faq.src}
+                    alt={PHOTO.faq.alt}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 40vw"
+                  />
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              className="lg:col-span-7"
+            >
+              <FaqAccordion items={faqs} />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── READY TO START PLANNING ───────────────────────────────────────
+          The draft's closing block. It sits between the answers and the map so
+          the page ends on the invitation rather than on an embed. */}
+      <section className="py-10 lg:py-12 bg-pattern">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeUp}
+            className="rounded-2xl bg-teal-navy px-7 py-10 md:px-12 md:py-12"
+          >
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 lg:gap-14 items-center">
+              <div className="lg:col-span-7">
+                <span className="block h-[2px] w-10 bg-primary mb-5" aria-hidden />
+                <h2 className="font-primary font-bold text-white text-2xl md:text-3xl leading-tight mb-3">
+                  Ready to Start Planning?
+                </h2>
+                <p className="text-white/70 text-[15px] md:text-base leading-relaxed">
+                  Whether you know exactly where you&rsquo;re going or need help
+                  deciding, our team is here to help. Call, WhatsApp, email, or
+                  visit us in Bangsar. We look forward to planning your next
+                  holiday with you.
+                </p>
+              </div>
+              <div className="lg:col-span-5 flex flex-col sm:flex-row lg:flex-col gap-3">
+                <a
+                  href={`https://wa.me/${company.whatsapp[0].number}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-xl bg-[#25D366] px-6 py-3.5 text-center text-white text-sm font-semibold hover:bg-[#20b858] transition-colors"
+                >
+                  WhatsApp {company.whatsapp[0].display}
+                </a>
+                <a
+                  href={`tel:${company.phones[0].tel}`}
+                  className="rounded-xl border border-white/40 px-6 py-3.5 text-center text-white text-sm font-semibold hover:bg-white/10 transition-colors"
+                >
+                  Call {company.phones[0].display}
+                </a>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
 

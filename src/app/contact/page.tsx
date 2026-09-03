@@ -4,8 +4,10 @@ import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/homepage/Footer";
 import ContactContent from "@/src/components/contact/ContactContent";
+import { company } from "@/src/data/company";
 import {
   breadcrumbList,
+  faqQuestions,
   graph,
   orgRef,
   webPage,
@@ -23,18 +25,64 @@ export const metadata: Metadata = {
   },
 };
 
+// Taken verbatim from the "Frequently Asked Questions" section of the draft,
+// with the address and email read from the company record so they are stated in
+// one place only. Lives here rather than in ContactContent so the same list can
+// feed both the rendered accordion and the FAQPage markup below.
+const FAQS = [
+  {
+    question: "What's the fastest method to contact you?",
+    answer:
+      "WhatsApp is the fastest method to contact us for basic questions and email should be used for complex quote requests with lots of details involved.",
+  },
+  {
+    question: "Can I drop by your office without prior notice?",
+    answer:
+      "You should give a call or WhatsApp before dropping by to ensure that there is a consultant ready to help you at our Bangsar office.",
+  },
+  {
+    question: "Do you provide services related to group or business trips?",
+    answer:
+      "Yes, our company deals with bookings for holidays as well as business groups and incentive trips; you can start contacting us through email or phone.",
+  },
+  {
+    question: "How long does it take to get a quote after my request?",
+    answer:
+      "Our response time varies according to the complexity of the request but we do our best to reply as quickly as possible.",
+  },
+  {
+    question: "Can I call your office in case I need assistance during my journey?",
+    answer:
+      "Yes, you can call our phone number in case you need help while you are on your holiday or trip.",
+  },
+  {
+    question: "Can I contact you via WhatsApp from abroad?",
+    answer:
+      "Yes, you can contact us using our WhatsApp number whatever number you use all over the world provided that you have WhatsApp installed.",
+  },
+  {
+    question: "Where exactly is your office located?",
+    answer: `We're based at ${company.address.full}, in the Bangsar area of the city.`,
+  },
+  {
+    question: "Can I email you instead of calling?",
+    answer: `Yes, you can reach our team anytime at ${company.emails[1].address}, and a consultant will follow up with a response.`,
+  },
+];
+
 // The phone numbers, address and opening hours shown on this page are the same
 // ones the organisation node already carries, so this page points at that node
-// rather than restating them.
+// rather than restating them. The FAQ markup is safe because the same questions
+// and answers are rendered on the page.
 const contactJsonLd = graph([
   webPage({
     path: "/contact",
     name: TITLE,
     description: DESCRIPTION,
-    type: "ContactPage",
+    type: ["ContactPage", "FAQPage"],
     hasBreadcrumb: true,
     about: orgRef,
-    mainEntity: orgRef,
+    mainEntity: faqQuestions(FAQS),
   }),
   breadcrumbList("/contact", [
     { name: "Home", url: "/" },
@@ -48,7 +96,7 @@ export default function ContactPage() {
       <JsonLd data={contactJsonLd} />
       <TopBar />
       <Navbar />
-      <ContactContent />
+      <ContactContent faqs={FAQS} />
       <Footer />
     </main>
   );
