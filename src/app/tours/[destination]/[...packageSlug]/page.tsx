@@ -8,6 +8,9 @@ import TourPackageDetailTemplate, {
   type PackageDetailData,
 } from "@/src/components/tours/TourPackageDetailTemplate";
 import TourRegionTemplate from "@/src/components/tours/TourRegionTemplate";
+import TourGuideTemplate from "@/src/components/tours/TourGuideTemplate";
+import { getGuideContent } from "@/src/components/guides";
+import { getGuideFaqs } from "@/src/data/guideFaqs";
 import packageDetails, { getPackageDetail } from "@/src/data/tourPackages";
 import { getTourPage } from "@/src/data/tourPages";
 import {
@@ -61,6 +64,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       return {
         title: page.metaTitle,
         description: page.metaDescription,
+        // Optional: only the Holiday Idea guides carry a primary keyword so
+        // far. Destination hubs and package pages already emit theirs, so
+        // setting it here keeps landing pages consistent with both.
+        ...(page.primaryKeyword ? { keywords: page.primaryKeyword } : {}),
         alternates: { canonical: page.canonicalUrl },
         openGraph: {
           title: page.ogTitle,
@@ -114,18 +121,26 @@ function landingPageJsonLd(
   const path = page.canonicalUrl;
   const hubPath = `/tours/${destination}`;
 
+  // Holiday Idea guides render an FAQ accordion, so the page is also an
+  // FAQPage. The questions come from the same module the guide renders from,
+  // which is why they are not exported from the client component itself.
+  const faqs = getGuideFaqs(destination, page.key);
+
   return graph([
     webPage({
       path,
       name: page.h1,
       description: page.metaDescription,
-      type: "CollectionPage",
+      type: faqs.length > 0 ? ["CollectionPage", "FAQPage"] : "CollectionPage",
       image: page.ogImage,
       hasBreadcrumb: true,
       ...(page.kind === "region"
         ? { about: { "@id": nodeId(path, "destination") } }
         : {}),
-      mainEntity: { "@id": nodeId(path, "packages") },
+      mainEntity:
+        faqs.length > 0
+          ? faqQuestions(faqs)
+          : { "@id": nodeId(path, "packages") },
     }),
     breadcrumbList(path, [
       { name: "Home", url: "/" },
@@ -209,6 +224,35 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
       }
 
       const packages = page.select(hub.packages.items);
+
+      // A Holiday Idea guide is a landing page with a long-form article behind
+      // it, so it renders through the guide template instead of the plain
+      // region listing. Landing pages without an article are unaffected.
+      const guideArticle = getGuideContent(destination, packageSlug[0]);
+      if (guideArticle) {
+        return (
+          <>
+            <JsonLd
+              data={landingPageJsonLd(page, destination, hub.meta.name, packages)}
+            />
+            <TopBar />
+            <Navbar />
+            <TourGuideTemplate
+              label={page.label}
+              h1={page.h1}
+              intro={page.intro}
+              heroImage={page.ogImage}
+              packages={packages}
+              cta={hub.cta}
+              destination={destination}
+              destinationLabel={hub.meta.name}
+            >
+              {guideArticle}
+            </TourGuideTemplate>
+            <Footer />
+          </>
+        );
+      }
 
       return (
         <>
