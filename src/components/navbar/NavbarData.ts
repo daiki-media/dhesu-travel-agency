@@ -31,6 +31,11 @@ export const navLinks: NavLink[] = [
           { label: "Malaysia", href: "/tours/malaysia" },
           { label: "Laos", href: "/tours/laos" },
           { label: "Thailand", href: "/tours/thailand" },
+          {
+            label: "Phuket & Krabi",
+            href: "/tours/thailand/phuket-krabi-holiday-guide-2026",
+          },
+          { label: "Myanmar", href: "/tours/myanmar" },
         ],
       },
       {
@@ -42,31 +47,25 @@ export const navLinks: NavLink[] = [
           { label: "Bhutan", href: "/tours/bhutan" },
         ],
       },
-      // {
-      //   heading: "Middle East & Africa",
-      //   items: [
-      //     // { label: "Dubai & UAE", href: "/tours/dubai-uae" },
-      //     // { label: "Egypt", href: "/tours/egypt" },
-      //     // { label: "Africa", href: "/tours/africa" },
-      //     // { label: "Turkey & Greece", href: "/tours/turkey-greece" },
-      //   ],
-      // },
-      // {
-      //   heading: "Far East & Pacific",
-      //   items: [
-      //     // { label: "China", href: "/tours/china" },
-      //     // { label: "South Korea", href: "/tours/south-korea" },
-      //     // { label: "Japan", href: "/tours/japan" },
-      //     // { label: "Australia", href: "/tours/australia" },
-      //   ],
-      // },
-      // {
-      //   heading: "Europe & Americas",
-      //   items: [
-      //     // { label: "Europe", href: "/tours/europe" },
-      //     // { label: "Canada", href: "/tours/canada" },
-      //   ],
-      // },
+      // These three columns were placeholders for destinations with no page.
+      // The Holiday Idea plan built them as standalone package pages rather
+      // than /tours/* hubs, so they point there.
+      {
+        heading: "Far East & Pacific",
+        items: [
+          { label: "China", href: "/tours/china" },
+          { label: "Hong Kong", href: "/tours/hong-kong" },
+          { label: "Australia", href: "/tours/australia" },
+        ],
+      },
+      {
+        heading: "Middle East & Beyond",
+        items: [
+          { label: "Dubai", href: "/tours/dubai" },
+          { label: "Mauritius", href: "/tours/mauritius" },
+          { label: "Europe", href: "/tours/europe" },
+        ],
+      },
     ],
   },
 
@@ -87,6 +86,10 @@ export const navLinks: NavLink[] = [
       {
         heading: "Popular Bali Tours",
         items: [
+          {
+            label: "Bali Holiday Guide",
+            href: "/tours/indonesia/bali-holiday-travel-guide-2026",
+          },
           { label: "3D Bali Super Saver", href: "/tours/indonesia/bali/3-day-super-saver" },
           { label: "4D Best of Bali", href: "/tours/indonesia/bali/4-day-best-of-bali" },
           { label: "4D Romantic Pool Villa", href: "/tours/indonesia/bali/4-day-romantic-escape-pool-villa" },
@@ -117,12 +120,94 @@ export const navLinks: NavLink[] = [
           { label: "View All Indonesia", href: "/tours/indonesia" },
         ],
       },
+      {
+        heading: "By Type & Season",
+        items: [
+          // The honeymoon row in the content sheet was split into one guide per
+          // destination; this links the comparison page that weighs them up.
+          {
+            label: "Honeymoon Ideas",
+            href: "/tours/mauritius/honeymoon-holiday-guide-2026",
+          },
+          {
+            label: "Muslim-Friendly Tours",
+            href: "/muslim-friendly-holiday-travel-guide/",
+          },
+          {
+            label: "Group & Incentive Travel",
+            href: "/group-incentive-travel-packages/",
+          },
+          {
+            label: "Star Cruise Packages",
+            href: "/star-cruise-holiday-guide-2026/",
+          },
+          {
+            label: "School Holiday Deals",
+            href: "/school-holiday-travel-deals-2026/",
+          },
+          {
+            label: "Year-End Holiday Deals",
+            href: "/year-end-holiday-travel-deals-2026/",
+          },
+          {
+            label: "Raya Holiday Deals",
+            href: "/raya-holiday-travel-deals-2026/",
+          },
+        ],
+      },
     ],
   },
 
-  // NOTE: a "Blog" menu previously lived here, but /blog and its article pages
-  // were never built. Restore this block once real articles exist.
+  // Restored: /blog and its six article routes now exist.
+  // Labels here are shortened for menu width — the full SEO titles live in
+  // src/data/pageSeo.ts and are what the pages themselves render.
+  {
+    label: "Blog",
+    href: "/blog",
+    simple: [
+      {
+        label: "Best Time to Visit Bali",
+        href: "/blog/best-time-to-visit-bali-2026/",
+      },
+      {
+        label: "Visa Guide for Malaysians",
+        href: "/blog/malaysia-travel-visa-guide-2026/",
+      },
+      {
+        label: "Budget Family Travel Tips",
+        href: "/blog/budget-family-travel-tips-2026/",
+      },
+      {
+        label: "Tropical Packing Guide",
+        href: "/blog/tropical-holiday-packing-guide/",
+      },
+      { label: "Halal Travel Guide", href: "/blog/halal-travel-guide-malaysia/" },
+      {
+        label: "Solo vs Group Travel",
+        href: "/blog/solo-vs-group-travel-guide/",
+      },
+      { label: "All Articles", href: "/blog/" },
+    ],
+  },
 
-  { label: "About Us", href: "/about-us" },
-  { label: "Contact", href: "/contact" },
+  {
+    label: "About Us",
+    href: "/about-us",
+    simple: [
+      { label: "About Dhesu Travel", href: "/about-us" },
+      {
+        label: "Why Book With a Travel Agent",
+        href: "/why-book-with-a-travel-agent-2026/",
+      },
+    ],
+  },
+  {
+    label: "Contact",
+    href: "/contact",
+    simple: [
+      { label: "Contact Us", href: "/contact" },
+      { label: "Request a Custom Itinerary", href: "/custom-itinerary-request/" },
+      { label: "Current Promotions", href: "/promotions/" },
+    ],
+  },
 ];

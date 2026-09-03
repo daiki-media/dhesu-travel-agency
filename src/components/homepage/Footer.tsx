@@ -8,10 +8,24 @@ import { destinations } from "@/src/data/destinations";
 const quickLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about-us" },
+  { label: "Why Book With an Agent", href: "/why-book-with-a-travel-agent-2026" },
   { label: "All Destinations", href: "/tours" },
-  { label: "Bali & Indonesia", href: "/tours/indonesia" },
-  { label: "India Tours", href: "/tours/india" },
+  { label: "Travel Blog", href: "/blog" },
+  { label: "Current Promotions", href: "/promotions" },
   { label: "Contact Us", href: "/contact" },
+];
+
+// The theme and seasonal pages from the Holiday Idea sheet. They are the pages
+// a visitor is least likely to reach from a destination hub, so the footer is
+// where they earn their keep.
+const holidayIdeas = [
+  { label: "Muslim-Friendly Tours", href: "/muslim-friendly-holiday-travel-guide" },
+  { label: "Group & Incentive Travel", href: "/group-incentive-travel-packages" },
+  { label: "Star Cruise Packages", href: "/star-cruise-holiday-guide-2026" },
+  { label: "School Holiday Deals 2026", href: "/school-holiday-travel-deals-2026" },
+  { label: "Year-End Deals 2026", href: "/year-end-holiday-travel-deals-2026" },
+  { label: "Raya Holiday Packages", href: "/raya-holiday-travel-deals-2026" },
+  { label: "Request a Custom Itinerary", href: "/custom-itinerary-request" },
 ];
 
 // Real destination photography, each linking to its live hub page.
@@ -34,9 +48,9 @@ export default function Footer() {
       {/* Main footer */}
       <div className="bg-white pt-10 pb-12">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10">
             {/* Brand */}
-            <div>
+            <div className="lg:col-span-2">
                   <Link href="/">
                     <Image
                       src="/images/dhesu_logos.png"
@@ -79,6 +93,27 @@ export default function Footer() {
                       <ChevronRight
                         size={9}
                         className="text-primary/70 group-hover:translate-x-1 transition-transform"
+                      />
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Holiday Ideas */}
+            <div>
+              <h3 className="font-bold text-teal-navy text-lg mb-5">Holiday Ideas</h3>
+              <ul className="flex flex-col gap-3">
+                {holidayIdeas.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="flex items-center gap-2 text-gray-500 hover:text-primary-dark text-sm transition-colors duration-200 group"
+                    >
+                      <ChevronRight
+                        size={9}
+                        className="text-primary/70 group-hover:translate-x-1 transition-transform shrink-0"
                       />
                       {link.label}
                     </Link>
@@ -145,7 +180,10 @@ export default function Footer() {
             {/* Instagram Post */}
             <div>
               <h3 className="font-bold text-teal-navy text-lg mb-5">Top Destinations</h3>
-              <div className="grid grid-cols-3 gap-2">
+              {/* Two across from lg: the footer went from four columns to six,
+                  and three thumbnails in the narrower cell shrank to the point
+                  where the destination was no longer recognisable. */}
+              <div className="grid grid-cols-3 lg:grid-cols-2 gap-2">
                 {footerDestinations.map((dest) => (
                   <Link
                     key={dest.slug}
@@ -158,7 +196,7 @@ export default function Footer() {
                       alt={dest.name}
                       fill
                       className="object-cover transition-transform duration-400 group-hover:scale-110"
-                      sizes="80px"
+                      sizes="(max-width: 1024px) 33vw, 90px"
                     />
                     <div className="absolute inset-0 bg-primary/25 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </Link>
@@ -179,6 +217,7 @@ export default function Footer() {
           <div className="flex gap-5">
             <Link href="/about-us" className="hover:text-primary transition-colors">About Us</Link>
             <Link href="/tours" className="hover:text-primary transition-colors">Destinations</Link>
+            <Link href="/blog" className="hover:text-primary transition-colors">Blog</Link>
             <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
           </div>
         </div>
