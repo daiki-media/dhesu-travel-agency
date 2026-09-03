@@ -14,6 +14,7 @@ export interface SriLankaLandingPage {
   blurb: string;
   /** Pure selector over the Sri Lanka packages.items array. */
   select: (packages: TourPackage[]) => TourPackage[];
+  primaryKeyword?: string;
   metaTitle: string;
   metaDescription: string;
   h1: string;
@@ -202,6 +203,34 @@ export const SRI_LANKA_THEMES: SriLankaLandingPage[] = [
     ogDescription:
       "Halal meals, prayer-time scheduling and private tours. Plan your Muslim-friendly Sri Lanka trip with Dhesu Travel, since 1988.",
     ogImage: "/images/gallery/424.jpg",
+  },
+  {
+    // Holiday Idea sheet, row 14. Meta title and description are copied
+    // verbatim; the body copy is still in the .docx named in `intro`.
+    key: "sri-lanka-tour-travel-guide-2026",
+    label: "Sri Lanka Travel Guide 2026",
+    kind: "theme",
+    blurb:
+      "A planning guide to Sri Lanka for Malaysian travellers: how culture, hill country, wildlife and beaches combine, and how long each leg really needs.",
+    // A country-level guide speaks to the whole range, so it lists every
+    // Sri Lanka package rather than filtering to a subset.
+    select: (packages) => packages,
+    primaryKeyword: "sri lanka tour package malaysia",
+    metaTitle:
+      "Sri Lanka Tour Packages From Malaysia: Culture, Hill Country & Wildlife",
+    metaDescription:
+      "Sri Lanka tour packages from Malaysia: cultural heritage, hill country tea estates, wildlife safaris, and beach combinations in one itinerary.",
+    h1: "Sri Lanka Tour Packages From Malaysia: Culture, Hill Country & Wildlife",
+    // Opening paragraph of the draft; the rest of the article is in
+    // src/components/guides/SriLankaGuide.tsx.
+    intro:
+      "With the rise of Sri Lanka among Malaysian vacation searchers in recent times, it is no surprise that this small yet densely packed island contains all the elements necessary for an excellent trip in one package.",
+    canonicalUrl: "/tours/sri-lanka/sri-lanka-tour-travel-guide-2026",
+    ogTitle:
+      "Sri Lanka Tour Packages From Malaysia: Culture, Hill Country & Wildlife",
+    ogDescription:
+      "Sri Lanka tour packages from Malaysia: cultural heritage, hill country tea estates, wildlife safaris, and beach combinations in one itinerary.",
+    ogImage: "/images/guides/sigiriya-rock.jpg",
   },
 ];
 

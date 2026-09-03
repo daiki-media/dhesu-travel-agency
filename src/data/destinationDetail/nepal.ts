@@ -15,6 +15,7 @@ export interface NepalLandingPage {
   blurb: string;
   /** Pure selector over the Nepal packages.items array. */
   select: (packages: TourPackage[]) => TourPackage[];
+  primaryKeyword?: string;
   metaTitle: string;
   metaDescription: string;
   h1: string;
@@ -189,6 +190,34 @@ export const NEPAL_THEMES: NepalLandingPage[] = [
     ogDescription:
       "Nepal for Muslim travellers: halal dining, prayer-time guidance and private tours. Plan with Dhesu Travel, since 1988.",
     ogImage: "/images/gallery/20.jpg",
+  },
+  {
+    // Holiday Idea sheet, row 15. Meta title and description are copied
+    // verbatim; the body copy is still in the .docx named in `intro`.
+    key: "nepal-tour-travel-guide-2026",
+    label: "Nepal Travel Guide 2026",
+    kind: "theme",
+    blurb:
+      "A planning guide to Nepal for Malaysian travellers: Himalayan views and light trekking options that need no mountaineering experience.",
+    // A country-level guide speaks to the whole range, so it lists every
+    // Nepal package rather than filtering to a subset.
+    select: (packages) => packages,
+    primaryKeyword: "nepal tour package malaysia",
+    metaTitle:
+      "Nepal Tour Packages From Malaysia: Himalayan Views Without the Hardcore Trek",
+    metaDescription:
+      "Nepal tour packages from Malaysia: Kathmandu culture, Himalayan sunrise views, and light trekking options. No hardcore trekking experience needed.",
+    h1: "Nepal Tour Packages From Malaysia: Himalayan Views Without the Hardcore Trek",
+    // Opening paragraph of the draft; the rest of the article is in
+    // src/components/guides/NepalGuide.tsx.
+    intro:
+      "Nepal is usually famous for treks which take several weeks to accomplish, but that perception is not in line with the possibilities that exist for tourists who just want a holiday. Malaysian travellers interested in the Himalayas and its wildlife do not necessarily have to do any difficult trek to enjoy their stay.",
+    canonicalUrl: "/tours/nepal/nepal-tour-travel-guide-2026",
+    ogTitle:
+      "Nepal Tour Packages From Malaysia: Himalayan Views Without the Hardcore Trek",
+    ogDescription:
+      "Nepal tour packages from Malaysia: Kathmandu culture, Himalayan sunrise views, and light trekking options. No hardcore trekking experience needed.",
+    ogImage: "/images/guides/pokhara-annapurna.jpg",
   },
 ];
 

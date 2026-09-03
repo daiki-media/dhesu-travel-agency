@@ -6,6 +6,7 @@ export interface IndonesiaLandingPage {
   kind: "region" | "theme";
   blurb: string;
   select: (packages: TourPackage[]) => TourPackage[];
+  primaryKeyword?: string;
   metaTitle: string;
   metaDescription: string;
   h1: string;
@@ -166,10 +167,70 @@ export const INDONESIA_REGIONS: IndonesiaLandingPage[] = [
   },
 ];
 
+// ─── Themes ──────────────────────────────────────────────────────────────────
+
+export const INDONESIA_THEMES: IndonesiaLandingPage[] = [
+  {
+    // Holiday Idea sheet, row 10. Meta title and description are copied
+    // verbatim; the body copy is still in the .docx named in `intro`.
+    key: "bali-holiday-travel-guide-2026",
+    label: "Bali Travel Guide 2026",
+    kind: "theme",
+    blurb:
+      "A planning guide to Bali for Malaysian travellers: how honeymoon, family and budget trips differ, and which itinerary suits which kind of holiday.",
+    select: startsWith("bali/"),
+    primaryKeyword: "bali holiday package malaysia",
+    metaTitle:
+      "Bali Holiday Packages From Malaysia: Honeymoon, Family & Budget Options",
+    metaDescription:
+      "Bali holiday packages from Malaysia: honeymoon, family, and budget options. Private tours with sunset cruises, ATV adventures, and cultural sites.",
+    h1: "Bali Holiday Packages From Malaysia: Honeymoon, Family & Budget Options",
+    // Opening paragraph of the draft; the rest of the article is in
+    // src/components/guides/BaliGuide.tsx.
+    intro:
+      "Even today, Bali continues to be one of the most sought-after tourist spots for the people from Malaysia, and not without reason its proximity to Malaysia, the combination of culture and beauty, and sufficient variety that allows it to accommodate the requirements of honeymoon couples as well as families who are on vacation or budget travelers.",
+    canonicalUrl: "/tours/indonesia/bali-holiday-travel-guide-2026",
+    ogTitle:
+      "Bali Holiday Packages From Malaysia: Honeymoon, Family & Budget Options",
+    ogDescription:
+      "Bali holiday packages from Malaysia: honeymoon, family, and budget options. Private tours with sunset cruises, ATV adventures, and cultural sites.",
+    ogImage: "/images/guides/ulun-danu-beratan.jpg",
+  },
+  {
+    // Holiday Idea sheet, row 27. That row is a single cross-destination page;
+    // its Content Notes say "Cross-link Bali, Mauritius, Europe", so it is
+    // split into one page per destination. The sheet's own title and
+    // description describe the comparison, not any one island, so the strings
+    // below are NOT sheet copy.
+    // TODO(seo): confirm this per-destination wording with the content team.
+    key: "honeymoon-holiday-guide-2026",
+    label: "Bali Honeymoons 2026",
+    primaryKeyword: "bali honeymoon package malaysia",
+    kind: "theme",
+    blurb:
+      "Bali for couples: private pool villas, sunset cruises and the quieter corners of the island, with the practicalities handled.",
+    select: startsWith("bali/"),
+    metaTitle: "Bali Honeymoon Packages From Malaysia: Romantic Escapes 2026",
+    metaDescription:
+      "Bali honeymoon packages from Malaysia — private pool villas, sunset cruises and romantic dining. Compare Bali against Mauritius and Europe.",
+    h1: "Bali Honeymoon Packages From Malaysia",
+    // The draft's own Bali paragraph; the rest of the article is in
+    // src/components/guides/BaliHoneymoonGuide.tsx.
+    intro:
+      "A trip to Bali will continue to be the best choice for couples from Malaysia to spend their honeymoon as the place is just an hour away by plane along with being very romantic and offers private villas, cruises, and dinners under candlelight amidst the terraced fields and cliffs.",
+    canonicalUrl: "/tours/indonesia/honeymoon-holiday-guide-2026",
+    ogTitle: "Bali Honeymoon Packages From Malaysia: Romantic Escapes 2026",
+    ogDescription:
+      "Bali honeymoon packages from Malaysia — private pool villas, sunset cruises and romantic dining. Compare Bali against Mauritius and Europe.",
+    ogImage: "/images/guides/tanah-lot-sunset.jpg",
+  },
+];
+
 // ─── Combined list ────────────────────────────────────────────────────────────
 
 export const INDONESIA_LANDING_PAGES: IndonesiaLandingPage[] = [
   ...INDONESIA_REGIONS,
+  ...INDONESIA_THEMES,
 ];
 
 const byKey: Record<string, IndonesiaLandingPage> = Object.fromEntries(

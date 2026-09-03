@@ -1,0 +1,309 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
+import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
+import { getGuideFaqs } from "@/src/data/guideFaqs";
+import Button from "@/src/components/Button";
+
+/**
+ * Body copy is taken verbatim from
+ * content-document/destinations-in-asia/Cambodia Tour Packages From Malaysia_
+ * Angkor Wat & Siem Reap.docx — the draft's own order, headings and wording.
+ * The opening paragraph is not repeated here; it is the hero lead, set as
+ * `intro` on src/data/destinationDetail/cambodia.ts.
+ *
+ * Shape follows BaliGuide.tsx in this folder: same section devices, same type
+ * sizes, same spacing.
+ */
+
+// In-article break image. Chosen to match what this page is actually
+// about, not to decorate it; see public/images/guides/.
+const PHOTO = "/images/guides/ta-prohm.jpg";
+const PHOTO_ALT = "Fig roots growing over the ruins of Ta Prohm at Angkor";
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 24 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+};
+
+const temples = [
+  "Angkor Wat — The iconic centrepiece, best experienced with expert guides who can explain its history and architectural significance",
+  "Angkor Thom and Bayon Temple — Known for its distinctive giant stone faces",
+  "Ta Prohm — Famous for its dramatic tree roots overtaking the ancient structures, made internationally recognisable through film",
+  "Banteay Srei — Known for its intricate, finely detailed pink sandstone carvings",
+];
+
+const tripStyles = [
+  {
+    style: "Cambodia only (Siem Reap-focused)",
+    duration: "4 days",
+    suits: "Travellers primarily interested in the Angkor temple complex and Tonle Sap Lake",
+  },
+  {
+    style: "Cambodia + Phnom Penh",
+    duration: "5–6 days",
+    suits: "Travellers wanting a more complete picture of Cambodia beyond Siem Reap",
+  },
+  {
+    style: "Cambodia + Vietnam combined",
+    duration: "8+ days",
+    suits: "Travellers wanting a broader Southeast Asia cultural journey in one trip",
+  },
+];
+
+const included = [
+  "Private transport within Cambodia",
+  "Accommodation matched to your selected package tier",
+  "Expert-guided temple touring at Angkor Wat and surrounding sites",
+  "Tonle Sap Lake cruise where included",
+  "A structured itinerary with realistic pacing for temple exploration, which can be physically tiring in Cambodia's heat",
+];
+
+// Shared with the route, which emits the same list as FAQPage markup.
+const faqs = getGuideFaqs("cambodia", "cambodia-tour-travel-guide-2026");
+
+/** Section wrapper: label, heading, then the body. */
+function Section({
+  label,
+  heading,
+  children,
+}: {
+  label: string;
+  heading: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-60px" }}
+      variants={fadeUp}
+    >
+      <SectionLabel text={label} />
+      <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-6">
+        {heading}
+      </h2>
+      {children}
+    </motion.div>
+  );
+}
+
+/** List item marked with a short rule rather than an icon tile. */
+function Bullet({ children }: { children: React.ReactNode }) {
+  return (
+    <li className="flex gap-4">
+      <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
+      <span className="text-gray-600 text-[15px] leading-relaxed">{children}</span>
+    </li>
+  );
+}
+
+export default function CambodiaGuide() {
+  return (
+    <>
+      <Section
+        label="Getting Started"
+        heading="Why Siem Reap anchors almost every Cambodia itinerary"
+      >
+        <p className="text-gray-600 leading-relaxed">
+          The City of Siem Reap is the gateway city to the famous Angkor archaeological park,
+          and this makes it the obvious first stop in Cambodia for almost every tourist who
+          comes here. Not only does Siem Reap have the benefit of being close to Angkor Wat,
+          but it is a tourist destination in its own right.
+        </p>
+      </Section>
+
+      <Section label="Temples" heading="Angkor Wat and the wider temple complex">
+        <p className="text-gray-600 leading-relaxed mb-6">
+          Angkor Wat itself is only the most famous of dozens of temples spread across the
+          wider Angkor archaeological park, and most well-planned itineraries include several
+          of these sites, not just the headline temple.
+        </p>
+        <p className="font-primary font-bold text-teal-navy text-lg leading-snug mb-4">
+          Commonly included temple sites
+        </p>
+        <ul className="space-y-4 mb-6">
+          {temples.map((item) => (
+            <Bullet key={item}>{item}</Bullet>
+          ))}
+        </ul>
+        <p className="text-gray-600 leading-relaxed">
+          Exploring these sites typically requires at least a full day, and many travellers
+          dedicate two days to properly appreciate the scale and detail of the complex without
+          feeling rushed.
+        </p>
+      </Section>
+
+      <Section label="Add-On" heading="Tonle Sap Lake: Cambodia's floating villages">
+        <p className="text-gray-600 leading-relaxed">
+          Aside from the temples, Tonle Sap Lake presents a completely unique opportunity in
+          that it involves a boat ride through Southeast Asia&rsquo;s largest lake. The trip
+          includes floating villages where the entire community lives atop the lake&rsquo;s
+          waters. It is often combined with visits to Angkor Wat to complete the Siem Reap tour
+          experience.
+        </p>
+      </Section>
+
+      <Section label="Beyond Siem Reap" heading="Beyond Siem Reap: Phnom Penh">
+        <p className="text-gray-600 leading-relaxed">
+          Siem Reap may be the highlight of most itineraries to Cambodia, however, the capital
+          of Phnom Penh gives travelers an alternative perspective to visit, such as the Royal
+          Palace, Silver Pagoda, and the history of the country within the last few years.
+          While most itineraries to Cambodia will concentrate only on Siem Reap, one can
+          include Phnom Penh in their itinerary to get a glimpse of the entire country.
+        </p>
+      </Section>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-60px" }}
+        variants={fadeUp}
+        className="relative h-64 md:h-80 overflow-hidden rounded-2xl"
+      >
+        <Image
+          src={PHOTO}
+          alt={PHOTO_ALT}
+          fill
+          className="object-cover"
+          sizes="(max-width: 1024px) 100vw, 66vw"
+        />
+      </motion.div>
+
+      <Section label="Multi-Country" heading="Combining Cambodia with Vietnam">
+        <p className="text-gray-600 leading-relaxed mb-8">
+          Given that both Cambodia and{" "}
+          <Link href="/tours/vietnam" className="text-primary underline underline-offset-2">
+            Vietnam
+          </Link>{" "}
+          are close neighbours with short flight and travel distances, putting together both
+          countries in one itinerary tour package has been gaining popularity, sometimes
+          described as part of the &ldquo;Iconic Asean&rdquo; package tours. This will give
+          visitors a chance to visit the historic Angkor Wat while enjoying the unique features
+          of Vietnam at the same time.
+        </p>
+        <div className="overflow-x-auto">
+          <table className="w-full min-w-[640px] border-collapse text-left">
+            <thead>
+              <tr className="border-b-2 border-teal-navy">
+                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6 w-1/4">
+                  Trip style
+                </th>
+                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6">
+                  Typical duration
+                </th>
+                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3">
+                  Best suited for
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {tripStyles.map((row) => (
+                <tr key={row.style} className="border-b border-gray-200">
+                  <td className="py-5 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] align-top">
+                    {row.style}
+                  </td>
+                  <td className="py-5 pr-6 text-gray-600 text-[15px] leading-relaxed align-top">
+                    {row.duration}
+                  </td>
+                  <td className="py-5 text-gray-600 text-[15px] leading-relaxed align-top">
+                    {row.suits}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </Section>
+
+      <Section label="Inclusions" heading="What's typically included in a Cambodia package">
+        <ul className="space-y-4">
+          {included.map((item) => (
+            <Bullet key={item}>{item}</Bullet>
+          ))}
+        </ul>
+      </Section>
+
+      <Section label="When to Go" heading="Best time to visit Cambodia">
+        <p className="text-gray-600 leading-relaxed">
+          Cambodia&rsquo;s dry season, roughly November through April, generally offers the
+          most comfortable conditions for temple exploration, avoiding both the intense heat
+          that can precede the rains and the heavier rainfall of the wet season. Given how much
+          walking is involved in exploring the Angkor complex, timing your visit around cooler,
+          drier conditions can make a meaningful difference to overall comfort.
+        </p>
+      </Section>
+
+      <Section label="Choosing" heading="Choosing the right Cambodia itinerary">
+        <p className="text-gray-600 leading-relaxed">
+          In case you are interested in Angkor Wat first and foremost and have only 4 days for
+          your stay, this itinerary will allow you to visit all important temples, as well as
+          Tonle Sap Lake without too much traveling. In case you are interested in getting to
+          know the country a little bit better, visiting Phnom Penh will help you understand
+          the modern face of Cambodia beyond its ancient past. In case you are planning to
+          travel around the region, a combination with{" "}
+          <Link href="/tours/vietnam" className="text-primary underline underline-offset-2">
+            Vietnam
+          </Link>{" "}
+          will be a perfect choice.
+        </p>
+      </Section>
+
+      <Section label="Culture" heading="Cambodian culture beyond the temples">
+        <p className="text-gray-600 leading-relaxed">
+          While Angkor Wat dominates most itineraries, Cambodia&rsquo;s living culture offers
+          additional depth worth including. Traditional Apsara dance performances, depicting
+          stories from Khmer mythology through intricate hand and body movements, are commonly
+          offered as an evening experience in Siem Reap, providing cultural context that
+          complements the historical temple sites during the day. Cambodian cuisine, distinct
+          from its Thai and Vietnamese neighbours despite some overlapping ingredients, is also
+          worth exploring through the city&rsquo;s growing range of restaurants blending
+          traditional and modern approaches.
+        </p>
+      </Section>
+
+      <Section label="Good to Know" heading="Practical considerations for temple exploration">
+        <p className="text-gray-600 leading-relaxed">
+          Given how much of a Cambodia itinerary revolves around outdoor temple exploration, a
+          few practical considerations are worth planning around. Modest dress is expected at
+          religious sites, meaning shoulders and knees should generally be covered even in
+          Cambodia&rsquo;s tropical heat. Starting temple visits early in the morning, both to
+          catch favourable light for photography and to avoid the most intense midday heat, is
+          a strategy most well-planned itineraries build in as standard practice.
+        </p>
+      </Section>
+
+      <Section label="Questions" heading="Frequently asked questions">
+        <FaqAccordion items={faqs} />
+      </Section>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-60px" }}
+        variants={fadeUp}
+        className="border-l-2 border-primary pl-8"
+      >
+        <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl leading-tight mb-3">
+          Plan your Cambodia &amp; Angkor Wat journey
+        </h2>
+        <p className="text-gray-600 leading-relaxed mb-6">
+          Discover the grandeur of Angkor Wat and Cambodia&rsquo;s rich heritage, with the
+          option to combine it with{" "}
+          <Link href="/tours/vietnam" className="text-primary underline underline-offset-2">
+            Vietnam
+          </Link>
+          . Request a free, personalised quote today.
+        </p>
+        <Link href="/contact">
+          <Button variant="light" showArrow size="lg">
+            Request a Free Quote
+          </Button>
+        </Link>
+      </motion.div>
+    </>
+  );
+}

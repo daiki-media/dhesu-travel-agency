@@ -6,6 +6,7 @@ export interface CambodiaLandingPage {
   kind: "region" | "theme";
   blurb: string;
   select: (packages: TourPackage[]) => TourPackage[];
+  primaryKeyword?: string;
   metaTitle: string;
   metaDescription: string;
   h1: string;
@@ -103,6 +104,33 @@ export const CAMBODIA_THEMES: CambodiaLandingPage[] = [
     ogDescription:
       "Full-day guided Angkor circuit: Angkor Wat, Bayon, Ta Prohm and the Pre Rup sunset. Plan your trip with Dhesu, trusted since 1988.",
     ogImage: "/images/gallery/16408.jpeg",
+  },
+  {
+    // Holiday Idea sheet, row 16. Meta title and description are copied
+    // verbatim; the body copy is still in the .docx named in `intro`.
+    key: "cambodia-tour-travel-guide-2026",
+    label: "Cambodia Travel Guide 2026",
+    kind: "theme",
+    blurb:
+      "A planning guide to Cambodia for Malaysian travellers: what the temples involve, how long to allow, and which itinerary suits which kind of trip.",
+    // A country-level guide speaks to the whole range, so it lists every
+    // Cambodia package rather than filtering to a subset.
+    select: (packages) => packages,
+    primaryKeyword: "cambodia tour package malaysia",
+    metaTitle:
+      "Cambodia Tour Packages From Malaysia: Angkor Wat & Siem Reap",
+    metaDescription:
+      "Cambodia tour packages from Malaysia: Angkor Wat, Siem Reap, and Tonle Sap Lake. Combine with Vietnam for a multi-country Southeast Asia trip.",
+    h1: "Cambodia Tour Packages From Malaysia: Angkor Wat & Siem Reap",
+    // Opening paragraph of the draft; the rest of the article is in
+    // src/components/guides/CambodiaGuide.tsx.
+    intro:
+      "Tourism in Cambodia revolves completely around one single remarkable site, Angkor Wat, which happens to be the biggest temple on earth. A Cambodia vacation that revolves around Siem Reap could be truly memorable for tourists coming from Malaysia, while at the same time being followed by a vacation in Vietnam.",
+    canonicalUrl: "/tours/cambodia/cambodia-tour-travel-guide-2026",
+    ogTitle: "Cambodia Tour Packages From Malaysia: Angkor Wat & Siem Reap",
+    ogDescription:
+      "Cambodia tour packages from Malaysia: Angkor Wat, Siem Reap, and Tonle Sap Lake. Combine with Vietnam for a multi-country Southeast Asia trip.",
+    ogImage: "/images/guides/angkor-wat-sunrise.jpg",
   },
 ];
 

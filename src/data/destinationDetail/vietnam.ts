@@ -6,6 +6,7 @@ export interface VietnamLandingPage {
   kind: "region" | "theme";
   blurb: string;
   select: (packages: TourPackage[]) => TourPackage[];
+  primaryKeyword?: string;
   metaTitle: string;
   metaDescription: string;
   h1: string;
@@ -126,9 +127,45 @@ export const VIETNAM_REGIONS: VietnamLandingPage[] = [
   },
 ];
 
+// ─── Themes ──────────────────────────────────────────────────────────────────
+
+export const VIETNAM_THEMES: VietnamLandingPage[] = [
+  {
+    // Holiday Idea sheet, row 11. Meta title and description are copied
+    // verbatim; the body copy is still in the .docx named in `intro`.
+    key: "vietnam-tour-travel-guide-2026",
+    label: "Vietnam Travel Guide 2026",
+    kind: "theme",
+    blurb:
+      "A planning guide to Vietnam for Malaysian travellers: how the north, centre and south differ, visa notes, and which route suits how long you have.",
+    // A country-level guide speaks to the whole range, so it lists every
+    // Vietnam package rather than filtering to a subset.
+    select: (packages) => packages,
+    primaryKeyword: "vietnam tour package malaysia",
+    metaTitle:
+      "Vietnam Tour Packages From Malaysia: North, Central & South Options",
+    metaDescription:
+      "Vietnam tour packages from Malaysia: Hanoi, Halong Bay, Da Nang, Hoi An & Ho Chi Minh City. Visa info and multi-region itineraries included.",
+    h1: "Vietnam Tour Packages From Malaysia: North, Central & South Options",
+    // Opening paragraph of the draft; the rest of the article is in
+    // src/components/guides/VietnamGuide.tsx.
+    intro:
+      "Vietnam is one of the most diverse geographic locations in Southeast Asia, with the beautiful past of Hanoi and the majestic rocks in Halong Bay in the north, the streets illuminated by lights and Ba Na Hills in the center, as well as the busy city of Ho Chi Minh and Mekong Delta in the south.",
+    canonicalUrl: "/tours/vietnam/vietnam-tour-travel-guide-2026",
+    ogTitle:
+      "Vietnam Tour Packages From Malaysia: North, Central & South Options",
+    ogDescription:
+      "Vietnam tour packages from Malaysia: Hanoi, Halong Bay, Da Nang, Hoi An & Ho Chi Minh City. Visa info and multi-region itineraries included.",
+    ogImage: "/images/guides/ha-long-bay.jpg",
+  },
+];
+
 // ─── Combined list ───────────────────────────────────────────────────────────
 
-export const VIETNAM_LANDING_PAGES: VietnamLandingPage[] = VIETNAM_REGIONS;
+export const VIETNAM_LANDING_PAGES: VietnamLandingPage[] = [
+  ...VIETNAM_REGIONS,
+  ...VIETNAM_THEMES,
+];
 
 const byKey: Record<string, VietnamLandingPage> = Object.fromEntries(
   VIETNAM_LANDING_PAGES.map((p) => [p.key, p]),

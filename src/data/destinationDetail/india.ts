@@ -16,6 +16,7 @@ export interface IndiaLandingPage {
   blurb: string;
   /** Pure selector over the India packages.items array. */
   select: (packages: TourPackage[]) => TourPackage[];
+  primaryKeyword?: string;
   metaTitle: string;
   metaDescription: string;
   h1: string;
@@ -208,6 +209,34 @@ export const THEMES: IndiaLandingPage[] = [
     ogDescription:
       "Ganga Aarti, sunrise boat rides and Sarnath. Plan your Varanasi trip with Dhesu Travel, trusted since 1988.",
     ogImage: "/images/gallery/14014.jpg",
+  },
+  {
+    // Holiday Idea sheet, row 13. Meta title and description are copied
+    // verbatim; the body copy is still in the .docx named in `intro`.
+    key: "india-tour-travel-guide-2026",
+    label: "India Travel Guide 2026",
+    kind: "theme",
+    blurb:
+      "A planning guide to India for Malaysian travellers: how the regions differ, how much time each needs, and which itinerary fits which kind of trip.",
+    // A country-level guide speaks to the whole range, so it lists every
+    // India package rather than filtering to a subset.
+    select: (packages) => packages,
+    primaryKeyword: "india tour package from malaysia",
+    metaTitle:
+      "India Tour Packages From Malaysia: Taj Mahal, Kerala, Kashmir & Beyond",
+    metaDescription:
+      "India tour packages from Malaysia: Taj Mahal, Kerala backwaters, Kashmir, and spiritual journeys. Private, customizable itineraries available.",
+    h1: "India Tour Packages From Malaysia: Taj Mahal, Kerala, Kashmir & Beyond",
+    // Opening paragraph of the draft; the rest of the article is in
+    // src/components/guides/IndiaGuide.tsx.
+    intro:
+      "Not many countries can boast the variety of experiences that India does right from the majestic white domes of the Taj Mahal to the peaceful backwaters of Kerala to the snowy peaks of Kashmir and its cable cars. For the Malaysian traveler, there is something about India that naturally draws one towards it, both culturally and spiritually.",
+    canonicalUrl: "/tours/india/india-tour-travel-guide-2026",
+    ogTitle:
+      "India Tour Packages From Malaysia: Taj Mahal, Kerala, Kashmir & Beyond",
+    ogDescription:
+      "India tour packages from Malaysia: Taj Mahal, Kerala backwaters, Kashmir, and spiritual journeys. Private, customizable itineraries available.",
+    ogImage: "/images/guides/taj-mahal.jpg",
   },
 ];
 
