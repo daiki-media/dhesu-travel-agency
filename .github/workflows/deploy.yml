@@ -33,7 +33,13 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # A cold FTPS sync of ~1500 small files takes ~50 min: every file costs a
+    # fresh TLS data connection, so wall-clock is bound by round-trips, not
+    # bandwidth. The deploy action only writes its manifest after a fully
+    # successful run, so a cap that cuts the first run short means the next one
+    # starts from zero again. Generous here on purpose; later runs are
+    # incremental and finish in under a minute.
+    timeout-minutes: 120
     steps:
       - name: Resolve target environment
         id: target
