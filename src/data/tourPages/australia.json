@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "name": "Australia",
+    "title": "Australia Holiday Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Sydney, Melbourne and family-friendly itineraries timed around school holidays. Australia packages from Malaysia with Dhesu Travel, since 1988.",
+    "slug": "australia",
+    "targetKeyword": "australia holiday package malaysia",
+    "region": "Pacific",
+    "hubCardColor": "teal"
+  },
+  "hero": {
+    "badge": "Sydney, Melbourne, Family Travel",
+    "headline": "Australia Holiday Packages",
+    "headlineAccent": "From Malaysia.",
+    "body": "Sydney, Melbourne and family itineraries timed around school holidays. Australia itineraries are being finalised — tell us your dates and we will build one around them.",
+    "bgImage": "/images/guides/sydney-opera-house.jpg",
+    "stats": [
+      { "value": "Since 1988", "label": "Planning Malaysian Holidays" },
+      { "value": "IATA & MATTA", "label": "Licensed and Accredited" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Australia",
+    "heading": "Two Very Different Cities, One Easy Trip",
+    "subheading": "Section outline taken from the approved draft; the supporting copy is still to be written.",
+    "highlights": [
+      {
+        "icon": "wave",
+        "title": "Sydney Highlights",
+        "body": "Draft section pending. See the Australia draft in content-document/destinations-europe/.",
+        "image": "/images/guides/sydney-harbour-bridge.jpg",
+        "places": ["Opera House", "Harbour Bridge", "Bondi Beach"]
+      },
+      {
+        "icon": "food",
+        "title": "Melbourne Highlights",
+        "body": "Draft section pending. See the Australia draft in content-document/destinations-europe/.",
+        "image": "/images/guides/brighton-bathing-boxes.jpg",
+        "places": ["Laneways", "Great Ocean Road", "Coffee Culture"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Family Travel and School Holiday Timing",
+        "body": "Draft section pending. See the Australia draft in content-document/destinations-europe/.",
+        "image": "/images/guides/rottnest-quokkas.jpg",
+        "places": ["School Holidays", "Family Attractions"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Australia Regions",
+    "heading": "Where to Go and Why",
+    "subheading": "Region list taken from the approved draft; descriptions are still to be written.",
+    "areas": [
+      {
+        "name": "Sydney",
+        "tag": "Harbour City",
+        "tagColor": "blue",
+        "description": "Draft description pending.",
+        "image": "/images/guides/sydney-opera-aerial.jpg",
+        "vibe": "Iconic"
+      },
+      {
+        "name": "Melbourne",
+        "tag": "Culture & Food",
+        "tagColor": "purple",
+        "description": "Draft description pending.",
+        "image": "/images/guides/melbourne-yarra.jpg",
+        "vibe": "Creative"
+      },
+      {
+        "name": "Gold Coast",
+        "tag": "Family & Beach",
+        "tagColor": "orange",
+        "description": "Draft description pending.",
+        "image": "/images/guides/gold-coast-beach.jpg",
+        "vibe": "Playful"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Go",
+    "heading": "Best Time to Visit Australia",
+    "body": "Seasonal guidance is still to be written. See the Australia draft in content-document/destinations-europe/.",
+    "seasons": [
+      {
+        "name": "Spring and Autumn",
+        "months": "September to November, March to May",
+        "badge": "Most Comfortable",
+        "badgeColor": "red",
+        "description": "Draft description pending.",
+        "icon": "sun"
+      },
+      {
+        "name": "Australian Summer",
+        "months": "December to February",
+        "badge": "Beach Season",
+        "badgeColor": "blue",
+        "description": "Draft description pending.",
+        "icon": "sun"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "How Long to Go",
+    "heading": "Suggested Itinerary Structures",
+    "options": [
+      {
+        "days": "5-6 Days",
+        "label": "One City",
+        "description": "Draft description pending."
+      },
+      {
+        "days": "8-10 Days",
+        "label": "Sydney and Melbourne",
+        "description": "Draft description pending.",
+        "recommended": true
+      },
+      {
+        "days": "12+ Days",
+        "label": "Australia and New Zealand",
+        "description": "Draft description pending."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Australia Packages",
+    "heading": "Start With the Australia Travel Guide",
+    "subheading": "Our Australia planning guide is ready now. The itineraries are being finalised \u2014 tell us your dates and we will build one around them.",
+    "ctaNote": "Every Australia itinerary is planned around your dates, budget and pace.",
+    "items": []
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Planning Malaysian Holidays Since 1988",
+    "body": "A Malaysian travel agent licensed by the Ministry of Tourism and accredited by IATA, PATA and MATTA.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "Licensed and Accredited",
+        "description": "Licensed by the Ministry of Tourism Malaysia, accredited by IATA, PATA and MATTA."
+      },
+      {
+        "icon": "clock",
+        "title": "Over 30 Years of Planning",
+        "description": "Arranging holidays for Malaysian travellers since 1988."
+      },
+      {
+        "icon": "map",
+        "title": "Timed Around School Holidays",
+        "description": "Family itineraries planned around Malaysian school holiday dates."
+      },
+      {
+        "icon": "tag",
+        "title": "One Point of Contact",
+        "description": "One team handles flights, hotels, guides and transfers from first enquiry to return."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Australia Trip",
+    "subheading": "Tell us who is travelling and when. We will take care of the rest.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/guides/twelve-apostles.jpg"
+  }
+}

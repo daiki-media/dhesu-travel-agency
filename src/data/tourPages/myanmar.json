@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "name": "Myanmar",
+    "title": "Myanmar Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Bagan's temple plain, Yangon's golden pagodas and Inle Lake. Myanmar tour packages from Malaysia with Dhesu Travel, a Malaysian travel agent since 1988.",
+    "slug": "myanmar",
+    "targetKeyword": "myanmar tour package malaysia",
+    "region": "Southeast Asia",
+    "hubCardColor": "orange"
+  },
+  "hero": {
+    "badge": "Bagan, Yangon, Inle Lake",
+    "headline": "Myanmar Tour Packages",
+    "headlineAccent": "From Malaysia.",
+    "body": "Bagan's temple plain, Yangon's golden pagodas and Inle Lake. Myanmar itineraries are being finalised — tell us your dates and we will build one around them.",
+    "bgImage": "/images/guides/golden-rock.jpg",
+    "stats": [
+      { "value": "Since 1988", "label": "Planning Malaysian Holidays" },
+      { "value": "IATA & MATTA", "label": "Licensed and Accredited" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Myanmar",
+    "heading": "A Temple Landscape Like Nowhere Else",
+    "subheading": "Section outline taken from the approved draft; the supporting copy is still to be written.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "Bagan: A Temple Landscape Like Nowhere Else",
+        "body": "Draft section pending. See the Myanmar draft in content-document/destinations-in-asia/.",
+        "image": "/images/guides/bagan-temple-plain.jpg",
+        "places": ["Bagan Plain", "Ananda Temple", "Sunrise Viewpoints"]
+      },
+      {
+        "icon": "temple",
+        "title": "Yangon: Cultural and Commercial Hub",
+        "body": "Draft section pending. See the Myanmar draft in content-document/destinations-in-asia/.",
+        "image": "/images/guides/yangon-colonial.jpg",
+        "places": ["Shwedagon Pagoda", "Colonial Quarter"]
+      },
+      {
+        "icon": "wave",
+        "title": "Inle Lake: A Distinctive Way of Life",
+        "body": "Draft section pending. See the Myanmar draft in content-document/destinations-in-asia/.",
+        "image": "/images/guides/sule-pagoda.jpg",
+        "places": ["Floating Gardens", "Stilt Villages"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Myanmar Regions",
+    "heading": "Where to Go and Why",
+    "subheading": "Region list taken from the approved draft; descriptions are still to be written.",
+    "areas": [
+      {
+        "name": "Bagan",
+        "tag": "Temples",
+        "tagColor": "orange",
+        "description": "Draft description pending.",
+        "image": "/images/guides/bagan-sunset.jpg",
+        "vibe": "Ancient"
+      },
+      {
+        "name": "Yangon",
+        "tag": "City & Culture",
+        "tagColor": "red",
+        "description": "Draft description pending.",
+        "image": "/images/guides/shwedagon-day.jpg",
+        "vibe": "Bustling"
+      },
+      {
+        "name": "Inle Lake",
+        "tag": "Lake & Villages",
+        "tagColor": "teal",
+        "description": "Draft description pending.",
+        "image": "/images/guides/shwedagon-night.jpg",
+        "vibe": "Tranquil"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Go",
+    "heading": "Best Time to Visit Myanmar",
+    "body": "Seasonal guidance is still to be written. See the Myanmar draft in content-document/destinations-in-asia/.",
+    "seasons": [
+      {
+        "name": "Cool Dry Season",
+        "months": "November to February",
+        "badge": "Most Popular",
+        "badgeColor": "red",
+        "description": "Draft description pending.",
+        "icon": "sun"
+      },
+      {
+        "name": "Wet Season",
+        "months": "June to October",
+        "badge": "Quieter",
+        "badgeColor": "blue",
+        "description": "Draft description pending.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "How Long to Go",
+    "heading": "Suggested Itinerary Combinations",
+    "options": [
+      {
+        "days": "4-5 Days",
+        "label": "Yangon and Bagan",
+        "description": "Draft description pending."
+      },
+      {
+        "days": "7-8 Days",
+        "label": "Three Highlights",
+        "description": "Draft description pending.",
+        "recommended": true
+      },
+      {
+        "days": "10+ Days",
+        "label": "Extended Cultural Route",
+        "description": "Draft description pending."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Myanmar Packages",
+    "heading": "Start With the Myanmar Travel Guide",
+    "subheading": "Our Myanmar planning guide is ready now. The itineraries are being finalised \u2014 tell us your dates and we will build one around them.",
+    "ctaNote": "Every Myanmar itinerary is planned around your dates, budget and pace.",
+    "items": []
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Planning Malaysian Holidays Since 1988",
+    "body": "A Malaysian travel agent licensed by the Ministry of Tourism and accredited by IATA, PATA and MATTA.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "Licensed and Accredited",
+        "description": "Licensed by the Ministry of Tourism Malaysia, accredited by IATA, PATA and MATTA."
+      },
+      {
+        "icon": "clock",
+        "title": "Over 30 Years of Planning",
+        "description": "Arranging holidays for Malaysian travellers since 1988."
+      },
+      {
+        "icon": "map",
+        "title": "Private and Customised",
+        "description": "Itineraries built around your dates, budget and travel pace."
+      },
+      {
+        "icon": "tag",
+        "title": "One Point of Contact",
+        "description": "One team handles flights, hotels, guides and transfers from first enquiry to return."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Myanmar Trip",
+    "subheading": "Tell us how long you have and what you want to see. We will take care of the rest.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/guides/shwedagon-complex.jpg"
+  }
+}

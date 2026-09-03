@@ -48,11 +48,21 @@ export interface TourPackage {
   /** Clean SEO slug, e.g. "4-day-best-of-bali" → /tours/{destination}/{slug} */
   slug?: string;
   name: string;
-  duration: string;
-  price: string;
+  /**
+   * What this entry is. A "guide" is one of the Holiday Idea planning guides,
+   * listed alongside the packages so a destination is never a dead end while
+   * its itineraries are still being written. Guides have no duration, price or
+   * highlights — the card shows the blurb and links to the article instead, so
+   * nothing has to be invented to fill a package-shaped slot.
+   */
+  kind?: "package" | "guide";
+  /** Blurb shown in place of price and highlights on a guide card. */
+  blurb?: string;
+  duration?: string;
+  price?: string;
   /** Pre-discount price, shown struck through next to `price`, e.g. "RM478" */
   originalPrice?: string;
-  priceNote: string;
+  priceNote?: string;
   /** Savings copy, e.g. "Save RM159 per couple" */
   saving?: string;
   tag: string;
@@ -67,7 +77,7 @@ export interface TourPackage {
     | "gray"
     | "gold"
     | "saffron";
-  highlights: string[];
+  highlights?: string[];
   image: string;
   /** External booking/package ID from the source system */
   pkgid?: string;

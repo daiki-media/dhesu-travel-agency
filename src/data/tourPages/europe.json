@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "name": "Europe",
+    "title": "Europe Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Multi-country Europe group tours from Malaysia with Schengen visa guidance. Planned by Dhesu Travel, a Malaysian travel agent since 1988.",
+    "slug": "europe",
+    "targetKeyword": "europe tour package from malaysia",
+    "region": "Europe",
+    "hubCardColor": "blue"
+  },
+  "hero": {
+    "badge": "Multi-Country Group Tours",
+    "headline": "Europe Tour Packages",
+    "headlineAccent": "From Malaysia.",
+    "body": "Multi-country group tours with Schengen visa guidance. Europe departures are being finalised — tell us your dates and we will build one around them.",
+    "bgImage": "/images/guides/paris-eiffel-autumn.jpg",
+    "stats": [
+      { "value": "Since 1988", "label": "Planning Malaysian Holidays" },
+      { "value": "IATA & MATTA", "label": "Licensed and Accredited" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Europe",
+    "heading": "Why Group Tours Suit Europe Particularly Well",
+    "subheading": "Section outline taken from the approved draft; the supporting copy is still to be written.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "Popular Multi-Country Routes",
+        "body": "Draft section pending. See the Europe draft in content-document/destinations-europe/.",
+        "image": "/images/guides/plitvice-lakes.jpg",
+        "places": ["Western Europe", "Central Europe", "Nordics"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Understanding the Schengen Visa",
+        "body": "Draft section pending. See the Europe draft in content-document/destinations-europe/.",
+        "image": "/images/guides/edinburgh-parliament.jpg",
+        "places": ["Application", "Documents", "Timing"]
+      },
+      {
+        "icon": "food",
+        "title": "What a Structured Coach Tour Involves",
+        "body": "Draft section pending. See the Europe draft in content-document/destinations-europe/.",
+        "image": "/images/guides/mediterranean-terrace.jpg",
+        "places": ["Coach Travel", "Guided Days", "Group Meals"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Europe Routes",
+    "heading": "Where to Go and Why",
+    "subheading": "Route list taken from the approved draft; descriptions are still to be written.",
+    "areas": [
+      {
+        "name": "Western Europe Classic",
+        "tag": "Multi-Country",
+        "tagColor": "blue",
+        "description": "Draft description pending.",
+        "image": "/images/guides/rotterdam-cube-houses.jpg",
+        "vibe": "Classic"
+      },
+      {
+        "name": "Central Europe",
+        "tag": "Multi-Country",
+        "tagColor": "purple",
+        "description": "Draft description pending.",
+        "image": "/images/guides/prague-christmas-market.jpg",
+        "vibe": "Historic"
+      },
+      {
+        "name": "Southern Europe",
+        "tag": "Coast & Culture",
+        "tagColor": "orange",
+        "description": "Draft description pending.",
+        "image": "/images/guides/sagrada-familia.jpg",
+        "vibe": "Sunny"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Go",
+    "heading": "Best Time to Visit Europe",
+    "body": "Seasonal guidance is still to be written. See the Europe draft in content-document/destinations-europe/.",
+    "seasons": [
+      {
+        "name": "Spring and Autumn",
+        "months": "April to June, September to October",
+        "badge": "Most Comfortable",
+        "badgeColor": "red",
+        "description": "Draft description pending.",
+        "icon": "sun"
+      },
+      {
+        "name": "Summer",
+        "months": "July to August",
+        "badge": "Peak Season",
+        "badgeColor": "blue",
+        "description": "Draft description pending.",
+        "icon": "sun"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "How Long to Go",
+    "heading": "Suggested Trip Lengths by Route",
+    "options": [
+      {
+        "days": "9-10 Days",
+        "label": "Two to Three Countries",
+        "description": "Draft description pending."
+      },
+      {
+        "days": "12-14 Days",
+        "label": "Four to Five Countries",
+        "description": "Draft description pending.",
+        "recommended": true
+      },
+      {
+        "days": "16+ Days",
+        "label": "Grand Tour",
+        "description": "Draft description pending."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Europe Packages",
+    "heading": "Start With the Europe Travel Guide",
+    "subheading": "Our Europe planning guide is ready now. The group tour departures are being finalised \u2014 tell us your dates and we will build one around them.",
+    "ctaNote": "Every Europe itinerary is planned around your dates, budget and pace.",
+    "items": []
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Planning Malaysian Holidays Since 1988",
+    "body": "A Malaysian travel agent licensed by the Ministry of Tourism and accredited by IATA, PATA and MATTA.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "Licensed and Accredited",
+        "description": "Licensed by the Ministry of Tourism Malaysia, accredited by IATA, PATA and MATTA."
+      },
+      {
+        "icon": "clock",
+        "title": "Over 30 Years of Planning",
+        "description": "Arranging holidays for Malaysian travellers since 1988."
+      },
+      {
+        "icon": "map",
+        "title": "Visa Guidance Included",
+        "description": "Schengen visa requirements explained and supporting documents prepared with you."
+      },
+      {
+        "icon": "tag",
+        "title": "One Point of Contact",
+        "description": "One team handles flights, hotels, guides and transfers from first enquiry to return."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Europe Trip",
+    "subheading": "Tell us which countries you want to cover and how long you have. We will take care of the rest.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/guides/charles-bridge-prague.jpg"
+  }
+}

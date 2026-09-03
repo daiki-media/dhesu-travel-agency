@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "name": "Hong Kong",
+    "title": "Hong Kong Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Disneyland, family attractions and shopping. Hong Kong tour packages from Malaysia with Dhesu Travel, a Malaysian travel agent since 1988.",
+    "slug": "hong-kong",
+    "targetKeyword": "hong kong tour package malaysia",
+    "region": "East Asia",
+    "hubCardColor": "red"
+  },
+  "hero": {
+    "badge": "Disneyland, Family Fun, Shopping",
+    "headline": "Hong Kong Tour Packages",
+    "headlineAccent": "From Malaysia.",
+    "body": "Disneyland, family attractions and the shopping districts. Hong Kong itineraries are being finalised — tell us your dates and we will build one around them.",
+    "bgImage": "/images/guides/hk-junk-harbour.jpg",
+    "stats": [
+      { "value": "Since 1988", "label": "Planning Malaysian Holidays" },
+      { "value": "IATA & MATTA", "label": "Licensed and Accredited" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Hong Kong",
+    "heading": "A Short Flight That Fits a Lot In",
+    "subheading": "Section outline taken from the approved draft; the supporting copy is still to be written.",
+    "highlights": [
+      {
+        "icon": "wave",
+        "title": "Hong Kong Disneyland: The Family Favourite",
+        "body": "Draft section pending. See the Hong Kong draft in content-document/destinations-in-asia/.",
+        "image": "/images/guides/hk-disneyland-castle.jpg",
+        "places": ["Disneyland", "Lantau Island"]
+      },
+      {
+        "icon": "temple",
+        "title": "Beyond Disneyland and Shopping",
+        "body": "Draft section pending. See the Hong Kong draft in content-document/destinations-in-asia/.",
+        "image": "/images/guides/avenue-of-stars.jpg",
+        "places": ["Victoria Peak", "Big Buddha", "Star Ferry"]
+      },
+      {
+        "icon": "food",
+        "title": "A Food Scene That Deserves Its Own Focus",
+        "body": "Draft section pending. See the Hong Kong draft in content-document/destinations-in-asia/.",
+        "image": "/images/guides/victoria-harbour.jpg",
+        "places": ["Dim Sum", "Street Food", "Night Markets"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Hong Kong Areas",
+    "heading": "Where to Go and Why",
+    "subheading": "Area list taken from the approved draft; descriptions are still to be written.",
+    "areas": [
+      {
+        "name": "Hong Kong Disneyland",
+        "tag": "Family",
+        "tagColor": "pink",
+        "description": "Draft description pending.",
+        "image": "/images/guides/hk-disneyland-characters.jpg",
+        "vibe": "Playful"
+      },
+      {
+        "name": "Shopping Districts",
+        "tag": "Shopping",
+        "tagColor": "orange",
+        "description": "Draft description pending.",
+        "image": "/images/guides/hong-kong-peak-sunset.jpg",
+        "vibe": "Busy"
+      },
+      {
+        "name": "Victoria Peak & Harbour",
+        "tag": "City Views",
+        "tagColor": "blue",
+        "description": "Draft description pending.",
+        "image": "/images/guides/victoria-harbour.jpg",
+        "vibe": "Iconic"
+      },
+      {
+        "name": "Lantau Island",
+        "tag": "Culture & Nature",
+        "tagColor": "green",
+        "description": "Draft description pending.",
+        "image": "/images/guides/hk-junk-harbour.jpg",
+        "vibe": "Calmer"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Go",
+    "heading": "Best Time to Visit Hong Kong",
+    "body": "Seasonal guidance is still to be written. See the Hong Kong draft in content-document/destinations-in-asia/.",
+    "seasons": [
+      {
+        "name": "Autumn and Winter",
+        "months": "October to March",
+        "badge": "Most Comfortable",
+        "badgeColor": "red",
+        "description": "Draft description pending.",
+        "icon": "sun"
+      },
+      {
+        "name": "Spring and Summer",
+        "months": "April to September",
+        "badge": "Warm and Humid",
+        "badgeColor": "blue",
+        "description": "Draft description pending.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "How Long to Go",
+    "heading": "Suggested Itinerary Structure",
+    "options": [
+      {
+        "days": "3 Days",
+        "label": "Short Getaway",
+        "description": "Draft description pending."
+      },
+      {
+        "days": "4-5 Days",
+        "label": "Disneyland Plus City",
+        "description": "Draft description pending.",
+        "recommended": true
+      },
+      {
+        "days": "6+ Days",
+        "label": "Hong Kong and Macau",
+        "description": "Draft description pending."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Hong Kong Packages",
+    "heading": "Start With the Hong Kong Travel Guide",
+    "subheading": "Our Hong Kong planning guide is ready now. The itineraries are being finalised \u2014 tell us your dates and we will build one around them.",
+    "ctaNote": "Every Hong Kong itinerary is planned around your dates, budget and pace.",
+    "items": []
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Planning Malaysian Holidays Since 1988",
+    "body": "A Malaysian travel agent licensed by the Ministry of Tourism and accredited by IATA, PATA and MATTA.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "Licensed and Accredited",
+        "description": "Licensed by the Ministry of Tourism Malaysia, accredited by IATA, PATA and MATTA."
+      },
+      {
+        "icon": "clock",
+        "title": "Over 30 Years of Planning",
+        "description": "Arranging holidays for Malaysian travellers since 1988."
+      },
+      {
+        "icon": "map",
+        "title": "Private and Customised",
+        "description": "Itineraries built around your dates, budget and travel pace."
+      },
+      {
+        "icon": "tag",
+        "title": "One Point of Contact",
+        "description": "One team handles flights, hotels, guides and transfers from first enquiry to return."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Hong Kong Trip",
+    "subheading": "Tell us who is travelling and how long you have. We will take care of the rest.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/guides/hong-kong-peak-sunset.jpg"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "name": "Mauritius",
+    "title": "Mauritius Holiday Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Luxury beach resorts and island romance. Mauritius packages from Malaysia with Dhesu Travel, a Malaysian travel agent since 1988.",
+    "slug": "mauritius",
+    "targetKeyword": "mauritius honeymoon package malaysia",
+    "region": "Indian Ocean",
+    "hubCardColor": "teal"
+  },
+  "hero": {
+    "badge": "Island Luxury for Couples",
+    "headline": "Mauritius Holiday Packages",
+    "headlineAccent": "From Malaysia.",
+    "body": "Luxury beach resorts and island romance in the Indian Ocean. Mauritius itineraries are being finalised — tell us your dates and we will build one around them.",
+    "bgImage": "/images/guides/mauritius-resort-garden.jpg",
+    "stats": [
+      { "value": "Since 1988", "label": "Planning Malaysian Holidays" },
+      { "value": "IATA & MATTA", "label": "Licensed and Accredited" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Mauritius",
+    "heading": "Why Mauritius Is a Top Honeymoon Destination",
+    "subheading": "Section outline taken from the approved draft; the supporting copy is still to be written.",
+    "highlights": [
+      {
+        "icon": "wave",
+        "title": "Choosing the Right Coast",
+        "body": "Draft section pending. See the Mauritius draft in content-document/destinations-europe/.",
+        "image": "/images/guides/trou-aux-cerfs.jpg",
+        "places": ["North Coast", "West Coast", "East Coast"]
+      },
+      {
+        "icon": "temple",
+        "title": "What to Look for in a Resort",
+        "body": "Draft section pending. See the Mauritius draft in content-document/destinations-europe/.",
+        "image": "/images/guides/mauritius-resort-pool.jpg",
+        "places": ["Beachfront", "Private Villas", "Spa"]
+      },
+      {
+        "icon": "food",
+        "title": "Island Life and Practical Tips",
+        "body": "Draft section pending. See the Mauritius draft in content-document/destinations-europe/.",
+        "image": "/images/guides/caudan-waterfront.jpg",
+        "places": ["Local Cuisine", "Island Tours"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Mauritius Coasts",
+    "heading": "Where to Stay and Why",
+    "subheading": "Coast list taken from the approved draft; descriptions are still to be written.",
+    "areas": [
+      {
+        "name": "North Coast",
+        "tag": "Lively",
+        "tagColor": "orange",
+        "description": "Draft description pending.",
+        "image": "/images/guides/model-ship-museum.jpg",
+        "vibe": "Sociable"
+      },
+      {
+        "name": "West Coast",
+        "tag": "Sunsets",
+        "tagColor": "red",
+        "description": "Draft description pending.",
+        "image": "/images/guides/fort-adelaide-port-louis.jpg",
+        "vibe": "Scenic"
+      },
+      {
+        "name": "East Coast",
+        "tag": "Secluded",
+        "tagColor": "teal",
+        "description": "Draft description pending.",
+        "image": "/images/guides/mauritius-colonial-dusk.jpg",
+        "vibe": "Quiet"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Go",
+    "heading": "Best Time to Visit Mauritius",
+    "body": "Seasonal guidance is still to be written. See the Mauritius draft in content-document/destinations-europe/.",
+    "seasons": [
+      {
+        "name": "Dry Season",
+        "months": "May to November",
+        "badge": "Most Popular",
+        "badgeColor": "red",
+        "description": "Draft description pending.",
+        "icon": "sun"
+      },
+      {
+        "name": "Warm and Wet",
+        "months": "December to April",
+        "badge": "Warmer Sea",
+        "badgeColor": "blue",
+        "description": "Draft description pending.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "How Long to Go",
+    "heading": "Suggested Trip Length",
+    "options": [
+      {
+        "days": "5-6 Days",
+        "label": "Resort Stay",
+        "description": "Draft description pending."
+      },
+      {
+        "days": "7-8 Days",
+        "label": "Resort and Island Tours",
+        "description": "Draft description pending.",
+        "recommended": true
+      },
+      {
+        "days": "10+ Days",
+        "label": "Two Coasts",
+        "description": "Draft description pending."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Mauritius Packages",
+    "heading": "Start With the Mauritius Travel Guide",
+    "subheading": "Our Mauritius planning guide is ready now. The itineraries are being finalised \u2014 tell us your dates and we will build one around them.",
+    "ctaNote": "Every Mauritius itinerary is planned around your dates, budget and pace.",
+    "items": []
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Planning Malaysian Holidays Since 1988",
+    "body": "A Malaysian travel agent licensed by the Ministry of Tourism and accredited by IATA, PATA and MATTA.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "Licensed and Accredited",
+        "description": "Licensed by the Ministry of Tourism Malaysia, accredited by IATA, PATA and MATTA."
+      },
+      {
+        "icon": "clock",
+        "title": "Over 30 Years of Planning",
+        "description": "Arranging holidays for Malaysian travellers since 1988."
+      },
+      {
+        "icon": "map",
+        "title": "Private and Customised",
+        "description": "Itineraries built around your dates, budget and travel pace."
+      },
+      {
+        "icon": "tag",
+        "title": "One Point of Contact",
+        "description": "One team handles flights, hotels, guides and transfers from first enquiry to return."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Mauritius Trip",
+    "subheading": "Tell us your dates and the kind of resort you have in mind. We will take care of the rest.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/guides/mauritius-resort-garden.jpg"
+  }
+}

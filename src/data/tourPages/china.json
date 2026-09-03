@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "name": "China",
+    "title": "China Tour Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Beijing, Shanghai, Xi'an and the Great Wall. China tour packages from Malaysia with Dhesu Travel, a Malaysian travel agent since 1988.",
+    "slug": "china",
+    "targetKeyword": "china tour package malaysia",
+    "region": "East Asia",
+    "hubCardColor": "red"
+  },
+  "hero": {
+    "badge": "Great Wall, Terracotta Warriors, Modern Cities",
+    "headline": "China Tour Packages",
+    "headlineAccent": "From Malaysia.",
+    "body": "Beijing, Shanghai, Xi'an and the Great Wall. China itineraries are being finalised — tell us your dates and we will build one around them.",
+    "bgImage": "/images/guides/tiananmen-gate.jpg",
+    "stats": [
+      { "value": "Since 1988", "label": "Planning Malaysian Holidays" },
+      { "value": "IATA & MATTA", "label": "Licensed and Accredited" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why China",
+    "heading": "Imperial History and Modern Cities in One Country",
+    "subheading": "Section outline taken from the approved draft; the supporting copy is still to be written.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "Beijing: The Great Wall and Imperial Capital",
+        "body": "Draft section pending. See the China draft in content-document/destinations-in-asia/.",
+        "image": "/images/guides/great-wall-gateway.jpg",
+        "places": ["Great Wall", "Forbidden City", "Tiananmen Square"]
+      },
+      {
+        "icon": "mountain",
+        "title": "Xi'an: Home of the Terracotta Warriors",
+        "body": "Draft section pending. See the China draft in content-document/destinations-in-asia/.",
+        "image": "/images/guides/terracotta-army.jpg",
+        "places": ["Terracotta Army", "City Wall", "Muslim Quarter"]
+      },
+      {
+        "icon": "food",
+        "title": "Chinese Cuisine Across Regions",
+        "body": "Draft section pending. See the China draft in content-document/destinations-in-asia/.",
+        "image": "/images/guides/china-shopping-street.jpg",
+        "places": ["Beijing", "Sichuan", "Shanghai"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "China Regions",
+    "heading": "Where to Go and Why",
+    "subheading": "Region list taken from the approved draft; descriptions are still to be written.",
+    "areas": [
+      {
+        "name": "Beijing",
+        "tag": "History & Imperial",
+        "tagColor": "red",
+        "description": "Draft description pending.",
+        "image": "/images/guides/china-great-wall.jpg",
+        "vibe": "Historic"
+      },
+      {
+        "name": "Shanghai",
+        "tag": "Modern City",
+        "tagColor": "blue",
+        "description": "Draft description pending.",
+        "image": "/images/guides/shanghai-the-bund.jpg",
+        "vibe": "Contemporary"
+      },
+      {
+        "name": "Xi'an",
+        "tag": "Ancient Capital",
+        "tagColor": "orange",
+        "description": "Draft description pending.",
+        "image": "/images/guides/xian-bell-tower.jpg",
+        "vibe": "Archaeological"
+      },
+      {
+        "name": "Zhangjiajie",
+        "tag": "Landscape",
+        "tagColor": "green",
+        "description": "Draft description pending.",
+        "image": "/images/guides/tianmen-mountain.jpg",
+        "vibe": "Dramatic"
+      },
+      {
+        "name": "Chengdu & Chongqing",
+        "tag": "Southwestern Culture",
+        "tagColor": "teal",
+        "description": "Draft description pending.",
+        "image": "/images/guides/chengdu-panda.jpg",
+        "vibe": "Relaxed"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Go",
+    "heading": "Best Time to Visit China",
+    "body": "Seasonal guidance is still to be written. See the China draft in content-document/destinations-in-asia/.",
+    "seasons": [
+      {
+        "name": "Spring and Autumn",
+        "months": "April to May, September to October",
+        "badge": "Most Comfortable",
+        "badgeColor": "red",
+        "description": "Draft description pending.",
+        "icon": "sun"
+      },
+      {
+        "name": "Summer",
+        "months": "June to August",
+        "badge": "Warm and Busy",
+        "badgeColor": "blue",
+        "description": "Draft description pending.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "How Long to Go",
+    "heading": "Suggested Itinerary Combinations",
+    "options": [
+      {
+        "days": "5-6 Days",
+        "label": "One City",
+        "description": "Draft description pending."
+      },
+      {
+        "days": "8-9 Days",
+        "label": "Two Cities",
+        "description": "Draft description pending.",
+        "recommended": true
+      },
+      {
+        "days": "12+ Days",
+        "label": "Multi-City",
+        "description": "Draft description pending."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "China Packages",
+    "heading": "Start With the China Travel Guide",
+    "subheading": "Our China planning guide is ready now. The itineraries are being finalised \u2014 tell us your dates and we will build one around them.",
+    "ctaNote": "Every China itinerary is planned around your dates, budget and pace.",
+    "items": []
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Planning Malaysian Holidays Since 1988",
+    "body": "A Malaysian travel agent licensed by the Ministry of Tourism and accredited by IATA, PATA and MATTA.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "Licensed and Accredited",
+        "description": "Licensed by the Ministry of Tourism Malaysia, accredited by IATA, PATA and MATTA."
+      },
+      {
+        "icon": "clock",
+        "title": "Over 30 Years of Planning",
+        "description": "Arranging holidays for Malaysian travellers since 1988."
+      },
+      {
+        "icon": "map",
+        "title": "Private and Customised",
+        "description": "Itineraries built around your dates, budget and travel pace."
+      },
+      {
+        "icon": "tag",
+        "title": "One Point of Contact",
+        "description": "One team handles flights, hotels, guides and transfers from first enquiry to return."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your China Trip",
+    "subheading": "Tell us which part of China you want to explore. We will take care of the rest.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/guides/shanghai-pudong.jpg"
+  }
+}

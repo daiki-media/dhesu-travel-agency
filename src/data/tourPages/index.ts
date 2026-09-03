@@ -12,6 +12,17 @@ import laosData from "./laos.json";
 import malaysiaData from "./malaysia.json";
 import indonesiaData from "./Indonesia.json";
 
+// Added for the Holiday Idea content plan. These destinations have no packages
+// yet, so they are deliberately absent from the /tours index, which lists only
+// hubs with at least one package.
+import chinaData from "./china.json";
+import hongKongData from "./hong-kong.json";
+import myanmarData from "./myanmar.json";
+import dubaiData from "./dubai.json";
+import europeData from "./europe.json";
+import australiaData from "./australia.json";
+import mauritiusData from "./mauritius.json";
+
 export const tourPages: Record<string, TourPageData> = {
   india: indiaData as TourPageData,
   thailand: thailandData as TourPageData,
@@ -23,6 +34,13 @@ export const tourPages: Record<string, TourPageData> = {
   laos: laosData as TourPageData,
   malaysia: malaysiaData as TourPageData,
   indonesia: indonesiaData as TourPageData,
+  china: chinaData as TourPageData,
+  "hong-kong": hongKongData as TourPageData,
+  myanmar: myanmarData as TourPageData,
+  dubai: dubaiData as TourPageData,
+  europe: europeData as TourPageData,
+  australia: australiaData as TourPageData,
+  mauritius: mauritiusData as TourPageData,
 };
 
 export const tourSlugs = Object.keys(tourPages);

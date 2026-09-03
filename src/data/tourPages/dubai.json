@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "name": "Dubai",
+    "title": "Dubai Holiday Package from Malaysia | Dhesu Travel & Tours",
+    "description": "Family, honeymoon and luxury Dubai holidays with desert safari add-ons. Dubai packages from Malaysia with Dhesu Travel, a Malaysian travel agent since 1988.",
+    "slug": "dubai",
+    "targetKeyword": "dubai holiday package malaysia",
+    "region": "Middle East",
+    "hubCardColor": "orange"
+  },
+  "hero": {
+    "badge": "Family, Honeymoon, Luxury",
+    "headline": "Dubai Holiday Packages",
+    "headlineAccent": "From Malaysia.",
+    "body": "Family, honeymoon and luxury trips, with desert safari add-ons. Dubai itineraries are being finalised — tell us your dates and we will build one around them.",
+    "bgImage": "/images/guides/palm-jumeirah.jpg",
+    "stats": [
+      { "value": "Since 1988", "label": "Planning Malaysian Holidays" },
+      { "value": "IATA & MATTA", "label": "Licensed and Accredited" }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Dubai",
+    "heading": "One City That Suits Very Different Trips",
+    "subheading": "Section outline taken from the approved draft; the supporting copy is still to be written.",
+    "highlights": [
+      {
+        "icon": "mountain",
+        "title": "Desert Safari: Dubai's Signature Add-On",
+        "body": "Draft section pending. See the Dubai draft in content-document/destinations-middle east/.",
+        "image": "/images/guides/dubai-desert-majlis.jpg",
+        "places": ["Dune Drive", "Desert Camp", "Camel Ride"]
+      },
+      {
+        "icon": "temple",
+        "title": "Dubai's Core Attractions",
+        "body": "Draft section pending. See the Dubai draft in content-document/destinations-middle east/.",
+        "image": "/images/guides/burj-al-arab.jpg",
+        "places": ["Burj Khalifa", "Dubai Mall", "Palm Jumeirah"]
+      },
+      {
+        "icon": "food",
+        "title": "Shopping and Dining in Dubai",
+        "body": "Draft section pending. See the Dubai draft in content-document/destinations-middle east/.",
+        "image": "/images/guides/dubai-creek-abra.jpg",
+        "places": ["Gold Souk", "Spice Souk", "Marina"]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Dubai Areas",
+    "heading": "Where to Go and Why",
+    "subheading": "Area list taken from the approved draft; descriptions are still to be written.",
+    "areas": [
+      {
+        "name": "Downtown Dubai",
+        "tag": "Landmarks",
+        "tagColor": "blue",
+        "description": "Draft description pending.",
+        "image": "/images/guides/burj-khalifa-skyline.jpg",
+        "vibe": "Iconic"
+      },
+      {
+        "name": "The Desert",
+        "tag": "Safari",
+        "tagColor": "orange",
+        "description": "Draft description pending.",
+        "image": "/images/guides/dubai-camel-ride.jpg",
+        "vibe": "Adventurous"
+      },
+      {
+        "name": "Palm Jumeirah & Marina",
+        "tag": "Beach & Luxury",
+        "tagColor": "teal",
+        "description": "Draft description pending.",
+        "image": "/images/guides/dubai-marina-night.jpg",
+        "vibe": "Resort"
+      },
+      {
+        "name": "Abu Dhabi",
+        "tag": "Day Trip",
+        "tagColor": "green",
+        "description": "Draft description pending.",
+        "image": "/images/guides/ferrari-world-abu-dhabi.jpg",
+        "vibe": "Cultural"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Go",
+    "heading": "Best Time to Visit Dubai",
+    "body": "Seasonal guidance is still to be written. See the Dubai draft in content-document/destinations-middle east/.",
+    "seasons": [
+      {
+        "name": "Cooler Months",
+        "months": "November to March",
+        "badge": "Most Popular",
+        "badgeColor": "red",
+        "description": "Draft description pending.",
+        "icon": "sun"
+      },
+      {
+        "name": "Hot Season",
+        "months": "May to September",
+        "badge": "Indoor Focus",
+        "badgeColor": "blue",
+        "description": "Draft description pending.",
+        "icon": "sun"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "How Long to Go",
+    "heading": "Suggested Trip Lengths",
+    "options": [
+      {
+        "days": "4 Days",
+        "label": "City Highlights",
+        "description": "Draft description pending."
+      },
+      {
+        "days": "5-6 Days",
+        "label": "City and Desert",
+        "description": "Draft description pending.",
+        "recommended": true
+      },
+      {
+        "days": "7+ Days",
+        "label": "Dubai and Abu Dhabi",
+        "description": "Draft description pending."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Dubai Packages",
+    "heading": "Start With the Dubai Travel Guide",
+    "subheading": "Our Dubai planning guide is ready now. The itineraries are being finalised \u2014 tell us your dates and we will build one around them.",
+    "ctaNote": "Every Dubai itinerary is planned around your dates, budget and pace.",
+    "items": []
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Planning Malaysian Holidays Since 1988",
+    "body": "A Malaysian travel agent licensed by the Ministry of Tourism and accredited by IATA, PATA and MATTA.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "Licensed and Accredited",
+        "description": "Licensed by the Ministry of Tourism Malaysia, accredited by IATA, PATA and MATTA."
+      },
+      {
+        "icon": "clock",
+        "title": "Over 30 Years of Planning",
+        "description": "Arranging holidays for Malaysian travellers since 1988."
+      },
+      {
+        "icon": "map",
+        "title": "Private and Customised",
+        "description": "Itineraries built around your dates, budget and travel pace."
+      },
+      {
+        "icon": "tag",
+        "title": "One Point of Contact",
+        "description": "One team handles flights, hotels, guides and transfers from first enquiry to return."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Dubai Trip",
+    "subheading": "Tell us who is travelling and what kind of trip you want. We will take care of the rest.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/guides/museum-of-the-future.jpg"
+  }
+}
