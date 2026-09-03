@@ -2,15 +2,7 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/src/data/site";
 import packageDetails from "@/src/data/tourPackages";
 import { tourSlugs } from "@/src/data/tourPages";
-import { INDIA_LANDING_PAGES } from "@/src/data/destinationDetail/india";
-import { NEPAL_LANDING_PAGES } from "@/src/data/destinationDetail/nepal";
-import { SRI_LANKA_LANDING_PAGES } from "@/src/data/destinationDetail/sri-lanka";
-import { BHUTAN_LANDING_PAGES } from "@/src/data/destinationDetail/bhutan";
-import { VIETNAM_LANDING_PAGES } from "@/src/data/destinationDetail/vietnam";
-import { CAMBODIA_LANDING_PAGES } from "@/src/data/destinationDetail/cambodia";
-import { LAOS_LANDING_PAGES } from "@/src/data/destinationDetail/laos";
-import { MALAYSIA_LANDING_PAGES } from "@/src/data/destinationDetail/malaysia";
-import { INDONESIA_LANDING_PAGES } from "@/src/data/destinationDetail/Indonesia";
+import { landingPagesByDestination } from "@/src/data/destinationDetail";
 
 const BASE_URL = SITE_URL;
 
@@ -67,17 +59,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]);
 
-  const landingPages = [
-    ...INDIA_LANDING_PAGES,
-    ...NEPAL_LANDING_PAGES,
-    ...SRI_LANKA_LANDING_PAGES,
-    ...BHUTAN_LANDING_PAGES,
-    ...VIETNAM_LANDING_PAGES,
-    ...CAMBODIA_LANDING_PAGES,
-    ...LAOS_LANDING_PAGES,
-    ...MALAYSIA_LANDING_PAGES,
-    ...INDONESIA_LANDING_PAGES,
-  ].map((page) => ({
+  // Read from the registry the catch-all route resolves against, rather than a
+  // hand-written list of imports. The list had been added to nine times and
+  // missed the eight destinations added with the Holiday Idea guides, so eight
+  // live guide pages were absent from the sitemap; sourcing both from the same
+  // module means a new destination can only ever appear in both or neither.
+  const landingPages = Object.values(landingPagesByDestination)
+    .flatMap((set) => set.pages)
+    .map((page) => ({
     url: url(page.canonicalUrl),
     changeFrequency: "weekly" as const,
     priority: 0.7,
