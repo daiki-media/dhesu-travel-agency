@@ -28,6 +28,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "" ? 1 : 0.8,
   }));
 
+  // Standalone pages from the Holiday Idea content plan. The destination
+  // guides are not listed here — they are landing pages, so they already come
+  // through `landingPages` below.
+  const planPages = [
+    "/why-book-with-a-travel-agent-2026",
+    "/muslim-friendly-holiday-travel-guide",
+    "/group-incentive-travel-packages",
+    "/star-cruise-holiday-guide-2026",
+    "/school-holiday-travel-deals-2026",
+    "/year-end-holiday-travel-deals-2026",
+    "/raya-holiday-travel-deals-2026",
+    "/blog",
+    "/blog/best-time-to-visit-bali-2026",
+    "/blog/malaysia-travel-visa-guide-2026",
+    "/blog/budget-family-travel-tips-2026",
+    "/blog/tropical-holiday-packing-guide",
+    "/blog/halal-travel-guide-malaysia",
+    "/blog/solo-vs-group-travel-guide",
+    "/promotions",
+    "/custom-itinerary-request",
+  ].map((path) => ({
+    url: url(path),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+
   const destinationPages = tourSlugs.flatMap((slug) => [
     {
       url: url(`/tours/${slug}`),
@@ -63,5 +89,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...destinationPages, ...landingPages, ...packagePages];
+  return [
+    ...staticPages,
+    ...planPages,
+    ...destinationPages,
+    ...landingPages,
+    ...packagePages,
+  ];
 }
