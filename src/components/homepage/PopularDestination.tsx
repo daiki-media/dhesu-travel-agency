@@ -91,7 +91,7 @@ export default function PopularDestination() {
   }, [paused, inView, scrollTo]);
 
   return (
-    <section className="py-20 bg-white overflow-hidden" ref={ref}>
+    <section className="py-12 lg:py-16 bg-white overflow-hidden" ref={ref}>
       <div className="max-w-8xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-14" data-reveal>

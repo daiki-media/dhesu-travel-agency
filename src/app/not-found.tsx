@@ -12,7 +12,7 @@ const suggestedLinks = [
 export default function NotFound() {
   return (
     <main className="bg-white min-h-[80vh] flex items-center overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24 w-full">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-16 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
           {/* ── Left: text ─────────────────────────────────────────────────── */}

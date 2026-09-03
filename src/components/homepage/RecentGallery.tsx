@@ -41,7 +41,7 @@ const images = [
 
 export default function RecentGallery() {
   return (
-    <section className="py-20 bg-white hidden md:block">
+    <section className="py-12 lg:py-16 bg-white hidden md:block">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-12" data-reveal>

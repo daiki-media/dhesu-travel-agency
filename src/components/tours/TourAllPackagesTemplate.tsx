@@ -46,7 +46,7 @@ export default function TourAllPackagesTemplate({ data }: { data: TourPageData }
         </motion.div>
         <div className="absolute inset-0 bg-black/60 z-[1]" />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-20 w-full">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-16 w-full">
           {/* Breadcrumb */}
           <motion.nav
             initial={{ opacity: 0, y: 12 }}
@@ -83,7 +83,7 @@ export default function TourAllPackagesTemplate({ data }: { data: TourPageData }
       </section>
 
       {/* ── PACKAGES GRID ─────────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28 bg-pattern">
+      <section className="py-12 lg:py-12 lg:py-16 bg-pattern">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           {/* Header */}
           <motion.div
@@ -139,7 +139,7 @@ export default function TourAllPackagesTemplate({ data }: { data: TourPageData }
       </section>
 
       {/* ── CTA BANNER ────────────────────────────────────────────────────────── */}
-      <section className="relative py-24 overflow-hidden">
+      <section className="relative py-12 lg:py-16 overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src={cta.bgImage}

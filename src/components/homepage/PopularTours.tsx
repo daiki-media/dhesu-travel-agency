@@ -9,7 +9,7 @@ const tours = featuredTours.slice(0, 4);
 
 export default function PopularTours() {
   return (
-    <section className="py-20 bg-pattern">
+    <section className="py-12 lg:py-16 bg-pattern">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-4" data-reveal>
