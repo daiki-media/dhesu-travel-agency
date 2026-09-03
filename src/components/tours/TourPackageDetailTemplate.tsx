@@ -180,7 +180,7 @@ function InclusionIcon({ type }: { type: string }) {
 
 // ─── Inquiry Form ──────────────────────────────────────────────────────────────
 
-function InquiryForm({ packageName, whatsapp }: { packageName: string; whatsapp: string }) {
+export function InquiryForm({ packageName, whatsapp }: { packageName: string; whatsapp: string }) {
   const [form, setForm] = useState({
     name: "", email: "", phone: "", adults: "2",
     childWithBed: "0", childNoBed: "0",
@@ -392,7 +392,7 @@ function InquiryForm({ packageName, whatsapp }: { packageName: string; whatsapp:
 
 // ─── FAQ Accordion ─────────────────────────────────────────────────────────────
 
-function FaqAccordion({ items }: { items: { question: string; answer: string }[] }) {
+export function FaqAccordion({ items }: { items: { question: string; answer: string }[] }) {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
@@ -514,7 +514,7 @@ export default function TourPackageDetailTemplate({ data }: { data: PackageDetai
       </div>
 
       {/* ── MAIN CONTENT + STICKY SIDEBAR ────────────────────────────────────── */}
-      <section className="max-w-7xl mx-auto px-6 lg:px-12 py-14 lg:py-20">
+      <section className="max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-12 lg:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-10 lg:gap-14">
 
           {/* LEFT COLUMN */}
@@ -779,7 +779,7 @@ export default function TourPackageDetailTemplate({ data }: { data: PackageDetai
       </section>
 
       {/* ── CTA BANNER ───────────────────────────────────────────────────────── */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative py-12 lg:py-16 overflow-hidden">
         <div className="absolute inset-0">
           <Image src={cta.bgImage} alt="Book your Chennai trip" fill className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-black/70" />
