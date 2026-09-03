@@ -1,0 +1,128 @@
+# Build the static export once, then push it to Exabytes shared hosting over FTPS.
+#
+# The host exposes no SSH port (checked: 22/2200/2222/7822/22222 all closed), so
+# rsync and server-side unzip are unavailable. FTP-Deploy-Action keeps a manifest
+# on the server and uploads only changed files, which is what makes a ~1500-file
+# static export practical over FTP.
+#
+#   push to main            -> staging.dhesu.com  (automatic)
+#   Actions > Run workflow  -> dhesu.com          (manual, typed confirmation)
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Where to deploy
+        type: choice
+        options: [staging, production]
+        default: staging
+      confirm:
+        description: 'Production only: type "deploy" to confirm'
+        required: false
+        default: ""
+
+# Never let two deploys race onto the same docroot. Queue instead of cancelling:
+# a half-uploaded site is worse than a slow one.
+concurrency:
+  group: deploy-${{ github.event.inputs.environment || 'staging' }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Resolve target environment
+        id: target
+        # Inputs go through env, never straight into the shell: a workflow_dispatch
+        # value interpolated with ${{ }} is executed as code by the runner.
+        env:
+          IN_ENV: ${{ github.event.inputs.environment || 'staging' }}
+          IN_CONFIRM: ${{ github.event.inputs.confirm }}
+        run: |
+          ENV="$IN_ENV"
+          if [ "$ENV" = "production" ] && [ "$IN_CONFIRM" != "deploy" ]; then
+            echo '::error::Production deploy needs the word "deploy" typed in the confirm box.'
+            exit 1
+          fi
+          echo "env=$ENV" >> "$GITHUB_OUTPUT"
+          echo "Deploying to: $ENV"
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Re-encoding every source photo with sharp is the slowest part of the
+      # build. Key on the sources so the cache only misses when a photo changes.
+      - name: Cache generated WebP variants
+        uses: actions/cache@v4
+        with:
+          path: public/_img
+          key: img-${{ hashFiles('public/images/**') }}
+          restore-keys: img-
+
+      - run: npm run lint
+
+      - run: npm run build
+
+      - name: Fail if the export looks wrong
+        run: |
+          test -f out/index.html || { echo "::error::out/index.html missing"; exit 1; }
+          test -f out/.htaccess || { echo "::error::out/.htaccess missing"; exit 1; }
+          echo "Exported $(find out -name 'index.html' | wc -l) pages, $(du -sh out | cut -f1) total"
+
+      # Staging serves the identical bytes production will get, plus a password
+      # wall and a noindex header. Appended here so the block can never end up
+      # in the production artifact.
+      - name: Apply staging-only overlay
+        if: steps.target.outputs.env == 'staging'
+        run: |
+          cat .deploy/staging.htaccess >> out/.htaccess
+          printf 'User-agent: *\nDisallow: /\n' > out/robots.txt
+          echo "Staging overlay applied."
+
+      - name: Deploy to staging.dhesu.com
+        if: steps.target.outputs.env == 'staging'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER_STAGING }}
+          password: ${{ secrets.FTP_PASSWORD_STAGING }}
+          protocol: ftps
+          local-dir: ./out/
+          server-dir: ./
+          # Keep the password file out of the sync so a deploy never deletes it.
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.htpasswd
+
+      - name: Deploy to dhesu.com (PRODUCTION)
+        if: steps.target.outputs.env == 'production'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER_PROD }}
+          password: ${{ secrets.FTP_PASSWORD_PROD }}
+          protocol: ftps
+          local-dir: ./out/
+          server-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.htpasswd
+
+      - name: Summary
+        run: |
+          ENV="${{ steps.target.outputs.env }}"
+          URL=$([ "$ENV" = "production" ] && echo "https://dhesu.com/" || echo "https://staging.dhesu.com/")
+          echo "### Deployed to $ENV" >> "$GITHUB_STEP_SUMMARY"
+          echo "$URL" >> "$GITHUB_STEP_SUMMARY"
