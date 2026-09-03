@@ -14,6 +14,32 @@ import { SITE_URL } from "@/src/data/site";
  */
 export const dynamic = "force-static";
 
+/**
+ * The theme, seasonal and blog pages from the Holiday Idea content plan.
+ *
+ * Destinations come from the `destinations` module below, but these pages are
+ * not destinations — an agent asked "does this agency do Muslim-friendly
+ * travel" or "when should I go to Bali" has no way to reach them from the
+ * destination list alone.
+ */
+const holidayIdeaPages = [
+  ["/muslim-friendly-holiday-travel-guide/", "Muslim-friendly packages: halal food arrangements and prayer facility access."],
+  ["/group-incentive-travel-packages/", "Corporate group and incentive travel, including MICE and company retreats."],
+  ["/star-cruise-holiday-guide-2026/", "Star Cruise sailings from Malaysia: itineraries, cabin categories and onboard facilities."],
+  ["/school-holiday-travel-deals-2026/", "Family packages timed to the 2026 Malaysian school holiday windows."],
+  ["/year-end-holiday-travel-deals-2026/", "Year-end and festive-season travel, the busiest booking window of the year."],
+  ["/raya-holiday-travel-deals-2026/", "Raya packages built around Muslim-friendly destinations."],
+];
+
+const blogArticles = [
+  ["/blog/best-time-to-visit-bali-2026/", "Best time to visit Bali: month-by-month weather, crowd levels and pricing."],
+  ["/blog/malaysia-travel-visa-guide-2026/", "Visa requirements for Malaysian travellers by destination, including Schengen."],
+  ["/blog/budget-family-travel-tips-2026/", "Budget travel tips for families: booking, accommodation and on-the-ground costs."],
+  ["/blog/tropical-holiday-packing-guide/", "Packing checklist for tropical destinations, including temple dress codes."],
+  ["/blog/halal-travel-guide-malaysia/", "Halal travel guide ranking destinations by food, prayer and cultural ease."],
+  ["/blog/solo-vs-group-travel-guide/", "Solo versus group travel compared on cost, safety, flexibility and planning effort."],
+];
+
 export function GET(): Response {
   const hours = company.hours.map((h) => `- ${h.days}: ${h.time}`).join("\n");
   const phones = company.phones.map((p) => `- ${p.label}: ${p.display}`).join("\n");
@@ -41,8 +67,22 @@ export function GET(): Response {
 - [Home](${SITE_URL}/): overview of destinations and featured packages.
 - [All tours](${SITE_URL}/tours/): every destination hub and the full package list.
 - [About us](${SITE_URL}/about-us/): company background, licensing and accreditations.
+- [Why book with a travel agent](${SITE_URL}/why-book-with-a-travel-agent-2026/): what an agent adds over booking each component yourself.
+- [Travel blog](${SITE_URL}/blog/): practical guides on timing, visas, packing and budgeting.
+- [Promotions](${SITE_URL}/promotions/): where package deals run and how to ask for current pricing.
+- [Request a custom itinerary](${SITE_URL}/custom-itinerary-request/): high-intent enquiry page for a trip built to order.
 - [Contact](${SITE_URL}/contact/): enquiry form, phone, WhatsApp and office address.
 - [Sitemap](${SITE_URL}/sitemap.xml): machine-readable list of every page.
+
+## Holiday ideas
+
+${holidayIdeaPages.map(([href, blurb]) => `- [${href}](${SITE_URL}${href}): ${blurb}`).join("\n")}
+
+## Travel guides
+
+Informational articles, not package pages. Each carries schema.org FAQPage data.
+
+${blogArticles.map(([href, blurb]) => `- [${href}](${SITE_URL}${href}): ${blurb}`).join("\n")}
 
 ## Destinations
 
