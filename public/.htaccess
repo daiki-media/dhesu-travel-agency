@@ -79,14 +79,3 @@ DirectoryIndex index.html
   AddType image/webp .webp
   AddType font/woff2 .woff2
 </IfModule>
-
-# =============================================================================
-# DEPLOY ARTEFACTS
-# The FTPS deploy leaves a sync manifest in the web root so the next run can
-# upload only what changed. It lists every file on the site, so it must not be
-# publicly fetchable. Apache blocks .htaccess/.htpasswd itself; the manifest
-# has an ordinary name and does not get that for free.
-# =============================================================================
-<FilesMatch "^\.ftp-deploy-sync-state\.json$">
-  Require all denied
-</FilesMatch>
