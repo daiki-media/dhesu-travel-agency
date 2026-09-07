@@ -7,7 +7,9 @@ import { Phone, Mail, MapPin, Clock3, MessageCircle } from "lucide-react";
 import { FacebookIcon } from "@/src/components/icons/SocialIcons";
 import Button from "@/src/components/Button";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
+import AllPagesHero from "@/src/components/AllPagesHero";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 import { company } from "@/src/data/company";
 
 const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -146,69 +148,17 @@ export default function ContactContent({
 
   return (
     <>
-      {/* ── HERO ──────────────────────────────────────────────────────────── */}
-      <section className="relative min-h-[460px] lg:min-h-[520px] flex items-center">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          className="absolute inset-0"
-        >
-          <Image
-            src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?q=80&w=2000&auto=format&fit=crop"
-            alt="Contact Dhesu Travel & Tours"
-            fill
-            priority
-            fetchPriority="high"
-            className="object-cover"
-            sizes="100vw"
-          />
-        </motion.div>
-        <div className="absolute inset-0 bg-black/60 z-[1]" />
-
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-16 w-full">
-          <div className="max-w-3xl">
-            <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="inline-flex items-center gap-2 bg-primary text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6 font-primary"
-            >
-              <span className="w-1.5 h-1.5 rounded-full bg-white" />
-              We reply within one working day
-            </motion.div>
-
-            <h1 className="font-primary font-bold text-5xl md:text-7xl leading-[1.05] mb-6">
-              <motion.span
-                initial={{ opacity: 0, y: 28 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.1, ease: easeOut }}
-                className="block text-white mb-2"
-              >
-                Talk to a
-              </motion.span>
-              <motion.span
-                initial={{ opacity: 0, y: 28 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
-                className="block text-primary"
-              >
-                travel specialist
-              </motion.span>
-            </h1>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.3 }}
-              className="text-white/90 text-lg md:text-xl max-w-xl leading-relaxed"
-            >
-              Tell us where you want to go and roughly when. We will come back with a costed
-              itinerary built around you — no obligation.
-            </motion.p>
-          </div>
-        </div>
-      </section>
+      <AllPagesHero
+        image="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?q=80&w=2000&auto=format&fit=crop"
+        imageAlt="Contact Dhesu Travel & Tours"
+        badge="We reply within one working day"
+        title="Talk to a"
+        titleAccent="travel specialist"
+        intro="Tell us where you want to go and roughly when. We will come back with a costed itinerary built around you — no obligation."
+        size="lg"
+        align="center"
+        overlay="solid"
+      />
 
       {/* ── QUICK CONTACT CARDS ───────────────────────────────────────────── */}
       <section className="py-12 lg:py-12 lg:py-16 bg-white">
@@ -732,92 +682,35 @@ export default function ContactContent({
         </div>
       </section>
 
-      {/* ── FAQ ───────────────────────────────────────────────────────────── */}
-      <section className="py-10 lg:py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={fadeUp}
-              className="lg:col-span-5"
-            >
-              <div className="lg:sticky lg:top-28">
-                <SectionLabel text="Questions" />
-                <h2 className="font-primary font-bold text-[#1a1a1a] text-3xl md:text-4xl leading-tight mb-6">
-                  Frequently asked questions
-                </h2>
-                <div className="relative aspect-[3/2] rounded-2xl overflow-hidden">
-                  <Image
-                    src={PHOTO.faq.src}
-                    alt={PHOTO.faq.alt}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 1024px) 100vw, 40vw"
-                  />
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={fadeUp}
-              className="lg:col-span-7"
-            >
-              <FaqAccordion items={faqs} />
-            </motion.div>
+      <FaqSection
+        faqs={faqs}
+        aside={
+          <div className="relative aspect-[3/2] rounded-2xl overflow-hidden">
+            <Image
+              src={PHOTO.faq.src}
+              alt={PHOTO.faq.alt}
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 40vw"
+            />
           </div>
-        </div>
-      </section>
+        }
+      />
 
-      {/* ── READY TO START PLANNING ───────────────────────────────────────
-          The draft's closing block. It sits between the answers and the map so
-          the page ends on the invitation rather than on an embed. */}
-      <section className="py-10 lg:py-12 bg-pattern">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeUp}
-            className="rounded-2xl bg-teal-navy px-7 py-10 md:px-12 md:py-12"
-          >
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 lg:gap-14 items-center">
-              <div className="lg:col-span-7">
-                <span className="block h-[2px] w-10 bg-primary mb-5" aria-hidden />
-                <h2 className="font-primary font-bold text-white text-2xl md:text-3xl leading-tight mb-3">
-                  Ready to Start Planning?
-                </h2>
-                <p className="text-white/70 text-[15px] md:text-base leading-relaxed">
-                  Whether you know exactly where you&rsquo;re going or need help
-                  deciding, our team is here to help. Call, WhatsApp, email, or
-                  visit us in Bangsar. We look forward to planning your next
-                  holiday with you.
-                </p>
-              </div>
-              <div className="lg:col-span-5 flex flex-col sm:flex-row lg:flex-col gap-3">
-                <a
-                  href={`https://wa.me/${company.whatsapp[0].number}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-xl bg-[#25D366] px-6 py-3.5 text-center text-white text-sm font-semibold hover:bg-[#20b858] transition-colors"
-                >
-                  WhatsApp {company.whatsapp[0].display}
-                </a>
-                <a
-                  href={`tel:${company.phones[0].tel}`}
-                  className="rounded-xl border border-white/40 px-6 py-3.5 text-center text-white text-sm font-semibold hover:bg-white/10 transition-colors"
-                >
-                  Call {company.phones[0].display}
-                </a>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
+      <CtaSection
+        heading="Ready to Start Planning?"
+        body="Whether you know exactly where you&rsquo;re going or need help deciding, our team is here to help. Call, WhatsApp, email, or visit us in Bangsar. We look forward to planning your next holiday with you."
+        actions={[
+          {
+            label: `WhatsApp ${company.whatsapp[0].display}`,
+            href: `https://wa.me/${company.whatsapp[0].number}`,
+          },
+          {
+            label: `Call ${company.phones[0].display}`,
+            href: `tel:${company.phones[0].tel}`,
+          },
+        ]}
+      />
 
       {/* ── MAP ───────────────────────────────────────────────────────────── */}
       <section className="bg-white">

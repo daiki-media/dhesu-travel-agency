@@ -7,7 +7,7 @@ import BlogArticleLayout, {
   Figure,
   FigurePair,
   P,
-} from "@/src/components/blog/BlogArticleLayout";
+} from "@/src/components/BlogArticleLayout";
 
 /**
  * "Best Time to Visit Bali: A Month-by-Month Guide" — Holiday Idea sheet row 36.

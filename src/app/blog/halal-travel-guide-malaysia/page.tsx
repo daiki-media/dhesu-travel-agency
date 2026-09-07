@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import HalalTravelArticle from "@/src/components/blog/HalalTravelArticle";
+import HalalTravelArticle from "./HalalTravelArticle";
 import {
   breadcrumbList,
   faqQuestions,
@@ -97,10 +94,7 @@ export default function HalalTravelGuidePage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={articleJsonLd} />
-      <TopBar />
-      <Navbar />
       <HalalTravelArticle faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

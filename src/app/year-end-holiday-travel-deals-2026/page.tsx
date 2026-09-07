@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import YearEndContent from "@/src/components/seasonal/YearEndContent";
+import YearEndContent from "./YearEndContent";
 import {
   breadcrumbList,
   faqQuestions,
@@ -97,10 +94,7 @@ export default function YearEndPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={yearEndJsonLd} />
-      <TopBar />
-      <Navbar />
       <YearEndContent faqs={faqs} />
-      <Footer />
     </main>
   );
 }

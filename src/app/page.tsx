@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
 import { faqQuestions, graph, orgRef, webPage } from "@/src/data/structuredData";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
 import Hero from "@/src/components/homepage/Hero";
 import TourCategories from "@/src/components/homepage/TourCategories";
 import HolidayIdeas from "@/src/components/homepage/HolidayIdeas";
@@ -12,9 +10,8 @@ import RecentGallery from "@/src/components/homepage/RecentGallery";
 import Stats from "@/src/components/homepage/Stats";
 import BrandTicker from "@/src/components/homepage/BrandTicker";
 import WhyChooseDhesu from "@/src/components/homepage/WhyChooseDhesu";
-import HomeFaq from "@/src/components/homepage/HomeFaq";
-import HomeCta from "@/src/components/homepage/HomeCta";
-import Footer from "@/src/components/homepage/Footer";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 
 // Holiday Idea sheet, row 6. Before this the homepage set no title at all and
 // inherited the root layout's.
@@ -91,8 +88,6 @@ export default function Home() {
   return (
     <main>
       <JsonLd data={homeJsonLd} />
-      <TopBar />
-      <Navbar />
       <Hero />
       <TourCategories />
       <PlanYourTrip />
@@ -102,9 +97,16 @@ export default function Home() {
       <WhyChooseDhesu />
       <Stats />
       <BrandTicker />
-      <HomeFaq faqs={FAQS} />
-      <HomeCta />
-      <Footer />
+      <FaqSection faqs={FAQS} />
+      <CtaSection
+        eyebrow="Let&apos;s Go Together"
+        heading="Start Planning Your Next Holiday"
+        body="Whether you already know your destination or need help narrowing it down, a consultant can help turn your travel ideas into a properly planned itinerary. Reach out today for a free, personalised quote."
+        actions={[
+          { label: "Get a Free Quote", href: "/contact#free-quote" },
+          { label: "Browse Destinations", href: "/tours" },
+        ]}
+      />
     </main>
   );
 }

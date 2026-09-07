@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import WhyBookContent from "@/src/components/whyBook/WhyBookContent";
+import WhyBookContent from "./WhyBookContent";
 import {
   breadcrumbList,
   faqQuestions,
@@ -11,8 +8,6 @@ import {
   webPage,
 } from "@/src/data/structuredData";
 
-// Holiday Idea sheet, row 8. Title and description are copied verbatim; the
-// body copy is still in content-document/home&company/.
 const TITLE = "Why Book With a Travel Agent Instead of Doing It Yourself";
 const DESCRIPTION =
   "Discover why booking through a travel agent beats DIY planning — custom itineraries, group rates, local support, and real accountability.";
@@ -25,10 +20,6 @@ export const metadata: Metadata = {
     canonical: "/why-book-with-a-travel-agent-2026",
   },
 };
-
-// Taken verbatim from the "Frequently Asked Questions" section of the draft.
-// Lives here rather than in the content component so the same list can feed
-// both the rendered accordion and the FAQPage markup below.
 const FAQS = [
   {
     question:
@@ -74,8 +65,6 @@ const FAQS = [
   },
 ];
 
-// The FAQ markup is safe here because the same questions and answers are
-// rendered on the page, in the accordion at the bottom.
 const whyBookJsonLd = graph([
   webPage({
     path: "/why-book-with-a-travel-agent-2026",
@@ -95,10 +84,7 @@ export default function WhyBookWithATravelAgentPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={whyBookJsonLd} />
-      <TopBar />
-      <Navbar />
       <WhyBookContent faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

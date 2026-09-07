@@ -5,7 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
+import AllPagesHero from "@/src/components/AllPagesHero";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 import { company } from "@/src/data/company";
 
 /**
@@ -410,33 +412,15 @@ export default function BlogArticleLayout({
   // nesting a second one would leave the document with two main landmarks.
   return (
     <div className="bg-white">
-      {/* ── HERO ─────────────────────────────────────────────────────────── */}
-      <section className="relative min-h-[380px] lg:min-h-[460px] flex items-end">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          className="absolute inset-0"
-        >
-          <Image
-            src={heroImage}
-            alt={heroAlt}
-            fill
-            priority
-            fetchPriority="high"
-            className="object-cover"
-            sizes="100vw"
-          />
-        </motion.div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/45 to-black/10 z-[1]" />
-
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-10 pt-20 w-full">
-          <motion.nav
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="flex flex-wrap items-center gap-1.5 text-white/60 text-xs mb-5 font-primary"
-          >
+      <AllPagesHero
+        image={heroImage}
+        imageAlt={heroAlt}
+        badge={category}
+        title={title}
+        intro={lead}
+        size="sm"
+        breadcrumb={
+          <>
             <Link href="/" className="hover:text-white transition-colors">
               Home
             </Link>
@@ -446,36 +430,9 @@ export default function BlogArticleLayout({
             </Link>
             <span>/</span>
             <span className="text-white/90">{category}</span>
-          </motion.nav>
-
-          <motion.span
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.05 }}
-            className="inline-block bg-primary text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4"
-          >
-            {category}
-          </motion.span>
-
-          <motion.h1
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.65, delay: 0.1, ease: easeOut }}
-            className="font-primary font-bold text-white text-3xl md:text-4xl lg:text-5xl leading-[1.08] mb-3 max-w-3xl"
-          >
-            {title}
-          </motion.h1>
-
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2, ease: easeOut }}
-            className="text-white/80 text-base lg:text-lg max-w-2xl leading-relaxed"
-          >
-            {lead}
-          </motion.p>
-        </div>
-      </section>
+          </>
+        }
+      />
 
       {/* ── FACTS STRIP ──────────────────────────────────────────────────── */}
       {facts.length > 0 && (
@@ -528,77 +485,19 @@ export default function BlogArticleLayout({
         </div>
       </section>
 
-      {/* ── FAQ ──────────────────────────────────────────────────────────── */}
-      <section id="faq" className="py-10 lg:py-14 bg-pattern scroll-mt-28">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={fadeUp}
-              className="lg:col-span-5"
-            >
-              <div className="lg:sticky lg:top-28">
-                <SectionLabel text="Questions" />
-                <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-[1.75rem] leading-[1.2]">
-                  Frequently asked questions
-                </h2>
-              </div>
-            </motion.div>
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={fadeUp}
-              className="lg:col-span-7"
-            >
-              <FaqAccordion items={faqs} />
-            </motion.div>
-          </div>
-        </div>
-      </section>
+      <FaqSection faqs={faqs} className="bg-pattern scroll-mt-28" />
 
-      {/* ── CLOSING CTA ──────────────────────────────────────────────────── */}
-      <section className="py-10 lg:py-14 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeUp}
-            className="rounded-2xl bg-teal-navy px-7 py-10 md:px-12 md:py-12"
-          >
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 lg:gap-14 items-center">
-              <div className="lg:col-span-7">
-                <span className="block h-[2px] w-10 bg-primary mb-5" aria-hidden />
-                <h2 className="font-primary font-bold text-white text-2xl md:text-3xl leading-tight mb-3">
-                  {closing.heading}
-                </h2>
-                <p className="text-white/70 text-[15px] md:text-base leading-relaxed">
-                  {closing.body}
-                </p>
-              </div>
-              <div className="lg:col-span-5 flex flex-col sm:flex-row lg:flex-col gap-3">
-                <Link
-                  href={closing.href}
-                  className="rounded-xl bg-white px-6 py-3.5 text-center text-teal-navy text-sm font-semibold hover:bg-white/90 transition-colors"
-                >
-                  {closing.linkLabel}
-                </Link>
-                <a
-                  href={`https://wa.me/${whatsapp}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-xl border border-white/40 px-6 py-3.5 text-center text-white text-sm font-semibold hover:bg-white/10 transition-colors"
-                >
-                  WhatsApp {company.whatsapp[0].display}
-                </a>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
+      <CtaSection
+        heading={closing.heading}
+        body={closing.body}
+        actions={[
+          { label: closing.linkLabel, href: closing.href },
+          {
+            label: `WhatsApp ${company.whatsapp[0].display}`,
+            href: `https://wa.me/${whatsapp}`,
+          },
+        ]}
+      />
 
       {/* ── READ NEXT ────────────────────────────────────────────────────── */}
       <section className="pb-12 lg:pb-16 bg-white">

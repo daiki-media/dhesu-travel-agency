@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import BlogContent from "@/src/components/blog/BlogContent";
+import BlogContent from "./BlogContent";
 import { breadcrumbList, graph, webPage } from "@/src/data/structuredData";
 
 // TODO(seo): the Holiday Idea sheet has no row for the blog index itself, so
@@ -37,10 +34,7 @@ export default function BlogPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={blogJsonLd} />
-      <TopBar />
-      <Navbar />
       <BlogContent />
-      <Footer />
     </main>
   );
 }

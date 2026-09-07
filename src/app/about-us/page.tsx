@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import AboutContent from "@/src/components/about/AboutContent";
+import AboutContent from "./AboutContent";
 import {
   breadcrumbList,
   faqQuestions,
@@ -12,7 +9,6 @@ import {
   webPage,
 } from "@/src/data/structuredData";
 
-// Holiday Idea sheet, row 7.
 const TITLE =
   "About Dhesu Travel & Tours: 30+ Years of Planning Malaysian Holidays";
 const DESCRIPTION =
@@ -26,10 +22,6 @@ export const metadata: Metadata = {
     canonical: "/about-us",
   },
 };
-
-// Taken verbatim from the "Frequently Asked Questions" section of the draft.
-// Lives here rather than in AboutContent so the same list can feed both the
-// rendered accordion and the FAQPage markup below.
 const FAQS = [
   {
     question: "In which year did Dhesu Travel & Tours commence operations?",
@@ -72,10 +64,6 @@ const FAQS = [
       "You can contact the agency using the telephone and WhatsApp numbers 019 336 4465 | 019 263 8877 / 03 2287 5525, or visit the office in Bangsar.",
   },
 ];
-
-// An AboutPage whose subject is the organisation node from the root layout —
-// the company details themselves are declared there, once. The FAQ markup is
-// safe because the same questions and answers are rendered on the page.
 const aboutJsonLd = graph([
   webPage({
     path: "/about-us",
@@ -96,10 +84,7 @@ export default function AboutUsPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={aboutJsonLd} />
-      <TopBar />
-      <Navbar />
       <AboutContent faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

@@ -9,7 +9,7 @@ import BlogArticleLayout, {
   Figure,
   FigurePair,
   P,
-} from "@/src/components/blog/BlogArticleLayout";
+} from "@/src/components/BlogArticleLayout";
 
 /**
  * Holiday Idea sheet, row 38 — "Budget Travel Tips for Families".

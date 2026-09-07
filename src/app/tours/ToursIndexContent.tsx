@@ -4,9 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
 import { tourPages } from "@/src/data/tourPages";
 import { getGuidePages } from "@/src/data/destinationDetail";
 import Button from "@/src/components/Button";
@@ -63,8 +60,6 @@ const destinations = Object.values(tourPages).map((d) => {
 export default function ToursIndexContent() {
   return (
     <>
-      <TopBar />
-      <Navbar />
 
       <main>
         {/* ── Page Header ─────────────────────────────────────────────── */}
@@ -201,7 +196,6 @@ export default function ToursIndexContent() {
         </section>
       </main>
 
-      <Footer />
     </>
   );
 }

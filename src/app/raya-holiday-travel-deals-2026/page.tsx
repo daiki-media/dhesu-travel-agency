@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import RayaContent from "@/src/components/seasonal/RayaContent";
+import RayaContent from "./RayaContent";
 import {
   breadcrumbList,
   faqQuestions,
@@ -98,10 +95,7 @@ export default function RayaPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={rayaJsonLd} />
-      <TopBar />
-      <Navbar />
       <RayaContent faqs={faqs} />
-      <Footer />
     </main>
   );
 }

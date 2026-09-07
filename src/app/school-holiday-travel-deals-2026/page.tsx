@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import SchoolHolidayContent from "@/src/components/seasonal/SchoolHolidayContent";
+import SchoolHolidayContent from "./SchoolHolidayContent";
 import {
   breadcrumbList,
   faqQuestions,
@@ -99,10 +96,7 @@ export default function SchoolHolidayPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={schoolHolidayJsonLd} />
-      <TopBar />
-      <Navbar />
       <SchoolHolidayContent faqs={faqs} />
-      <Footer />
     </main>
   );
 }

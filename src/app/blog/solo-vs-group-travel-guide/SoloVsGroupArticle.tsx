@@ -9,7 +9,7 @@ import BlogArticleLayout, {
   DataTable,
   FigurePair,
   P,
-} from "@/src/components/blog/BlogArticleLayout";
+} from "@/src/components/BlogArticleLayout";
 
 /**
  * "Solo vs. Group Travel: Which Suits Your Next Trip?" — Holiday Idea sheet row 41.

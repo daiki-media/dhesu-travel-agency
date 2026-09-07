@@ -1,11 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
-import Button from "@/src/components/Button";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
-import { company } from "@/src/data/company";
+import AllPagesHero from "@/src/components/AllPagesHero";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 
 // Every string of copy below is taken from
 // content-document/home&company/Why Book With a Travel Agent Instead of Doing It Yourself.docx.
@@ -171,97 +170,38 @@ export default function WhyBookContent({
 }) {
   return (
     <>
-      {/* ── HERO ──────────────────────────────────────────────────────────
-          Compact teal field. The two tracks under the headline set up the
-          comparison the whole page is arguing. */}
-      <section className="relative bg-teal-navy overflow-hidden">
-        <div className="absolute inset-0">
-          <Image
-            src={PHOTO.hero}
-            alt="Zebra grazing on open plains beneath a distant mountain"
-            fill
-            priority
-            fetchPriority="high"
-            className="object-cover"
-            sizes="100vw"
-          />
+      <AllPagesHero
+        image={PHOTO.hero}
+        imageAlt="Zebra grazing on open plains beneath a distant mountain"
+        eyebrow="Planning advice"
+        title="Why Book With a Travel Agent"
+        titleAccent="Instead of Doing It Yourself?"
+        size="lg"
+        actions={[
+          { label: "Request a Free Quote", href: "/contact" },
+          { label: "Browse Destinations", href: "/tours" },
+        ]}
+      >
+        {/* The fork: the choice this page is about, stated once. */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-white/15 mt-16 lg:mt-12">
+          <div className="bg-teal-navy pt-8 pb-10 sm:pr-10">
+            <p className="text-white/50 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
+              Booking it yourself
+            </p>
+            <p className="text-white font-primary text-lg leading-snug">
+              Total control, and the entire research load.
+            </p>
+          </div>
+          <div className="bg-teal-navy pt-8 pb-10 sm:pl-10">
+            <p className="text-primary text-xs uppercase tracking-[0.18em] font-semibold mb-2">
+              Booking through an agent
+            </p>
+            <p className="text-white font-primary text-lg leading-snug">
+              A little less flexibility, and someone carrying the risk.
+            </p>
+          </div>
         </div>
-        <div className="absolute inset-0 bg-teal-navy/80" />
-        {/* a single warm rule bleeding off the right edge */}
-        <div className="absolute top-0 right-0 h-full w-px bg-white/10 hidden lg:block" />
-
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-0 lg:pt-20">
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <Eyebrow tone="light">Planning advice</Eyebrow>
-          </motion.div>
-
-          <h1 className="font-primary font-bold text-5xl md:text-7xl leading-[1.05] tracking-[-0.02em] max-w-5xl">
-            <motion.span
-              initial={{ opacity: 0, y: 28 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.1 }}
-              className="block text-white"
-            >
-              Why Book With a Travel Agent
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0, y: 28 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.18 }}
-              className="block text-primary"
-            >
-              Instead of Doing It Yourself?
-            </motion.span>
-          </h1>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.32 }}
-            className="flex gap-4 flex-wrap mt-10"
-          >
-            <Link href="/contact">
-              <Button variant="light" showArrow size="lg">
-                Request a Free Quote
-              </Button>
-            </Link>
-            <Link href="/tours">
-              <Button variant="transparent" showArrow size="lg">
-                Browse Destinations
-              </Button>
-            </Link>
-          </motion.div>
-
-          {/* The fork: the choice this page is about, stated once. */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.5 }}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-white/15 mt-16 lg:mt-12"
-          >
-            <div className="bg-teal-navy pt-8 pb-10 sm:pr-10">
-              <p className="text-white/50 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
-                Booking it yourself
-              </p>
-              <p className="text-white font-primary text-lg leading-snug">
-                Total control, and the entire research load.
-              </p>
-            </div>
-            <div className="bg-teal-navy pt-8 pb-10 sm:pl-10">
-              <p className="text-primary text-xs uppercase tracking-[0.18em] font-semibold mb-2">
-                Booking through an agent
-              </p>
-              <p className="text-white font-primary text-lg leading-snug">
-                A little less flexibility, and someone carrying the risk.
-              </p>
-            </div>
-          </motion.div>
-        </div>
-      </section>
+      </AllPagesHero>
 
       {/* ── LEAD ─────────────────────────────────────────────────────────── */}
       <section className="pt-12 pb-10 lg:pt-14 lg:pb-12 bg-white">
@@ -631,90 +571,15 @@ export default function WhyBookContent({
         </div>
       </section>
 
-      {/* ── FAQ ───────────────────────────────────────────────────────────── */}
-      <section className="py-10 lg:py-12 bg-teal-light/40">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-14">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-80px" }}
-              variants={fadeUp}
-              className="lg:col-span-4"
-            >
-              <div className="lg:sticky lg:top-28">
-                <Eyebrow>Still wondering</Eyebrow>
-                <h2 className="font-primary font-bold text-[#1a1a1a] text-[1.75rem] md:text-[2rem] leading-[1.2] tracking-[-0.01em]">
-                  Frequently Asked Questions
-                </h2>
-              </div>
-            </motion.div>
+      <FaqSection faqs={faqs} label="Still wondering" heading="Frequently Asked Questions" />
 
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-80px" }}
-              variants={fadeUp}
-              className="lg:col-span-8"
-            >
-              <FaqAccordion items={faqs} />
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── CTA ───────────────────────────────────────────────────────────── */}
-      <section className="relative py-10 lg:py-12 overflow-hidden bg-teal-navy">
-        <div className="absolute inset-0">
-          <Image
-            src={PHOTO.lagoon}
-            alt="A calm turquoise lagoon fringed by trees"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-        </div>
-        <div className="absolute inset-0 bg-teal-navy/85" />
-
-        <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-12 text-center">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeUp}
-          >
-            <Eyebrow tone="light">Ready when you are</Eyebrow>
-            <h2 className="font-primary font-bold text-white text-3xl md:text-5xl leading-tight tracking-[-0.01em] mb-4">
-              Let an Experienced Consultant Plan Your Next Trip
-            </h2>
-            <p className="text-white/70 text-lg max-w-2xl mx-auto leading-relaxed mb-10">
-              Skip the hours of research and get a personalised itinerary backed by decades of
-              destination expertise. Request a free quote today.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-              <a
-                href={`https://wa.me/${company.whatsapp[0].number}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-base btn-light px-8 py-3.5 text-base font-primary"
-              >
-                <span className="btn-content">
-                  WhatsApp {company.whatsapp[0].display}
-                </span>
-              </a>
-              <a
-                href={`mailto:${company.emails[1].address}`}
-                className="btn-base btn-transparent px-8 py-3.5 text-base font-primary"
-              >
-                <span className="btn-content">{company.emails[1].address}</span>
-              </a>
-            </div>
-
-            <p className="text-white/50 text-sm">{company.address.full}</p>
-          </motion.div>
-        </div>
-      </section>
+      <CtaSection
+        eyebrow="Ready when you are"
+        image={PHOTO.lagoon}
+        imageAlt="A calm turquoise lagoon fringed by trees"
+        heading="Let an Experienced Consultant Plan Your Next Trip"
+        body="Skip the hours of research and get a personalised itinerary backed by decades of destination expertise. Request a free quote today."
+      />
     </>
   );
 }

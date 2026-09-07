@@ -1,11 +1,10 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import Button from "@/src/components/Button";
 
 /**
  * Body copy is taken verbatim from
@@ -231,31 +230,14 @@ export default function MyanmarGuide() {
         </p>
       </Section>
 
-      <Section label="Questions" heading="Frequently asked questions">
-        <FaqAccordion items={faqs} />
-      </Section>
+      <FaqSection faqs={faqs} layout="stacked" />
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="border-l-2 border-primary pl-8"
-      >
-        <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl leading-tight mb-3">
-          Plan your Myanmar cultural journey
-        </h2>
-        <p className="text-gray-600 leading-relaxed mb-6">
-          From Bagan&rsquo;s ancient temple plain to Yangon&rsquo;s golden pagodas, a consultant
-          can help you plan a meaningful Myanmar itinerary. Request a free, personalised quote
-          today.
-        </p>
-        <Link href="/contact">
-          <Button variant="light" showArrow size="lg">
-            Request a Free Quote
-          </Button>
-        </Link>
-      </motion.div>
+      <CtaSection
+        variant="card"
+        heading="Plan your Myanmar cultural journey"
+        body="From Bagan&rsquo;s ancient temple plain to Yangon&rsquo;s golden pagodas, a consultant can help you plan a meaningful Myanmar itinerary. Request a free, personalised quote today."
+        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+      />
     </>
   );
 }

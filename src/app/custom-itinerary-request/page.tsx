@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import CustomItineraryContent from "@/src/components/itinerary/CustomItineraryContent";
+import CustomItineraryContent from "./CustomItineraryContent";
 import {
   breadcrumbList,
   faqQuestions,
@@ -101,10 +98,7 @@ export default function CustomItineraryRequestPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={customItineraryJsonLd} />
-      <TopBar />
-      <Navbar />
       <CustomItineraryContent faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

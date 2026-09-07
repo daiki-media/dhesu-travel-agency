@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 import { MessageCircle, Phone, Mail, MapPin } from "lucide-react";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import {
-  FaqAccordion,
   InquiryForm,
 } from "@/src/components/tours/TourPackageDetailTemplate";
 import { company } from "@/src/data/company";
+import FaqSection from "@/src/components/FaqSection";
 
 const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -565,35 +565,11 @@ export default function CustomItineraryContent({
         </div>
       </section>
 
-      {/* ── FAQ ───────────────────────────────────────────────────────────── */}
-      <section className="py-10 lg:py-12 bg-pattern">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeUp}
-            className="max-w-3xl mx-auto text-center mb-8"
-          >
-            <div className="flex justify-center">
-              <SectionLabel text="Before You Ask" />
-            </div>
-            <h2 className="font-primary font-bold text-[#1a1a1a] text-3xl md:text-4xl leading-tight">
-              Custom itinerary questions
-            </h2>
-          </motion.div>
-
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeUp}
-            className="max-w-3xl mx-auto"
-          >
-            <FaqAccordion items={faqs} />
-          </motion.div>
-        </div>
-      </section>
+      <FaqSection
+        faqs={faqs}
+        label="Before You Ask"
+        heading="Custom itinerary questions"
+      />
 
       {/* ── CLOSING CONTACT PANEL ─────────────────────────────────────────────
           A solid panel rather than a photo-backed CTA, so the page does not

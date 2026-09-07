@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import SoloVsGroupArticle from "@/src/components/blog/SoloVsGroupArticle";
+import SoloVsGroupArticle from "./SoloVsGroupArticle";
 import {
   breadcrumbList,
   faqQuestions,
@@ -95,10 +92,7 @@ export default function SoloVsGroupTravelPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={articleJsonLd} />
-      <TopBar />
-      <Navbar />
       <SoloVsGroupArticle faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

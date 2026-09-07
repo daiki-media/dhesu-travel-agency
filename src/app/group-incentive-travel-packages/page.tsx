@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import GroupIncentiveContent from "@/src/components/tourTypes/GroupIncentiveContent";
+import GroupIncentiveContent from "./GroupIncentiveContent";
 import {
   breadcrumbList,
   faqQuestions,
@@ -100,10 +97,7 @@ export default function GroupIncentivePage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={groupIncentiveJsonLd} />
-      <TopBar />
-      <Navbar />
       <GroupIncentiveContent faqs={faqs} />
-      <Footer />
     </main>
   );
 }

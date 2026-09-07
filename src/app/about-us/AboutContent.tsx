@@ -16,7 +16,9 @@ import {
 } from "lucide-react";
 import Button from "@/src/components/Button";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
+import AllPagesHero from "@/src/components/AllPagesHero";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 import { company } from "@/src/data/company";
 
 const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
@@ -197,7 +199,13 @@ const credentials = [
   },
 ];
 
-const strengths = [
+const strengths: {
+  title: string;
+  body: string;
+  image: string;
+  alt: string;
+  href?: string;
+}[] = [
   {
     title: "Individual and family travel",
     body: "Packages designed for small groups, starting from as few as two travellers, rather than large coach-tour formats.",
@@ -221,6 +229,7 @@ const strengths = [
     body: "A particular strength in pilgrimage and culturally significant itineraries, including specialised trips through India's most sacred sites.",
     image: "/images/about/monks-morning-walk.jpg",
     alt: "A line of monks walking through palm groves at first light",
+    href: "/tours/india",
   },
 ];
 
@@ -366,100 +375,30 @@ export default function AboutContent({
 }) {
   return (
     <>
-      {/* ── HERO ──────────────────────────────────────────────────────────── */}
-      <section className="relative min-h-[560px] lg:min-h-[640px] flex items-center">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          className="absolute inset-0"
-        >
-          <Image
-            src={PHOTO.hero}
-            alt="A Dhesu guide walking a tour group through a tropical garden"
-            fill
-            priority
-            fetchPriority="high"
-            className="object-cover"
-            sizes="100vw"
-          />
-        </motion.div>
-        <div className="absolute inset-0 bg-black/60 z-[1]" />
-
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-16 w-full">
-          <div className="max-w-3xl">
-            <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="inline-flex items-center gap-2 bg-primary text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6 font-primary"
-            >
-              <span className="w-1.5 h-1.5 rounded-full bg-white" />
-              Since {company.foundedYear}
-            </motion.div>
-
-            <h1 className="font-primary font-bold text-5xl md:text-7xl leading-[1.05] mb-6">
-              <motion.span
-                initial={{ opacity: 0, y: 28 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.1, ease: easeOut }}
-                className="block text-white mb-2"
-              >
-                About Dhesu
-              </motion.span>
-              <motion.span
-                initial={{ opacity: 0, y: 28 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
-                className="block text-primary"
-              >
-                Travel &amp; Tours
-              </motion.span>
-            </h1>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.3 }}
-              className="text-white/90 text-lg md:text-xl max-w-xl leading-relaxed mb-10"
-            >
-              {company.philosophy}
-            </motion.p>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.45 }}
-              className="flex gap-4 flex-wrap"
-            >
-              <Link href="/tours">
-                <Button variant="light" showArrow size="lg">
-                  Explore Tours
-                </Button>
-              </Link>
-              <Link href="/contact">
-                <Button variant="transparent" showArrow size="lg">
-                  Talk to Us
-                </Button>
-              </Link>
-            </motion.div>
-          </div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.6 }}
-            className="flex flex-wrap gap-8 mt-14 pt-10 border-t border-white/20"
-          >
-            {heroStats.map((stat) => (
-              <div key={stat.label}>
-                <p className="text-white font-primary font-bold text-3xl">{stat.value}</p>
-                <p className="text-white/70 text-sm mt-0.5">{stat.label}</p>
-              </div>
-            ))}
-          </motion.div>
+      <AllPagesHero
+        image={PHOTO.hero}
+        imageAlt="A Dhesu guide walking a tour group through a tropical garden"
+        badge={`Since ${company.foundedYear}`}
+        title="About Dhesu"
+        titleAccent="Travel & Tours"
+        intro={company.philosophy}
+        size="lg"
+        align="center"
+        overlay="solid"
+        actions={[
+          { label: "Explore Tours", href: "/tours" },
+          { label: "Talk to Us", href: "/contact" },
+        ]}
+      >
+        <div className="flex flex-wrap gap-8 mt-14 pt-10 border-t border-white/20">
+          {heroStats.map((stat) => (
+            <div key={stat.label}>
+              <p className="text-white font-primary font-bold text-3xl">{stat.value}</p>
+              <p className="text-white/70 text-sm mt-0.5">{stat.label}</p>
+            </div>
+          ))}
         </div>
-      </section>
+      </AllPagesHero>
 
       {/* ── OUR STORY ─────────────────────────────────────────────────────── */}
       <section className="py-10 lg:py-12 bg-white">
@@ -867,7 +806,16 @@ export default function AboutContent({
                 />
                 <span className="block h-[2px] w-10 bg-primary mb-5" aria-hidden />
                 <h3 className="font-primary font-bold text-teal-navy text-xl leading-snug mb-3">
-                  {item.title}
+                  {item.href ? (
+                    <Link
+                      href={item.href}
+                      className="underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors"
+                    >
+                      {item.title}
+                    </Link>
+                  ) : (
+                    item.title
+                  )}
                 </h3>
                 <p className="text-gray-600 text-[15px] leading-relaxed">{item.body}</p>
               </motion.div>
@@ -954,89 +902,26 @@ export default function AboutContent({
         </div>
       </section>
 
-      {/* ── FAQ ───────────────────────────────────────────────────────────── */}
-      <section className="py-10 lg:py-12 bg-pattern">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={fadeUp}
-              className="lg:col-span-5"
+      <FaqSection faqs={faqs} />
+
+      <CtaSection
+        image={PHOTO.cta}
+        imageAlt="Travellers sharing a shaded lunch on a beach beside their boat"
+        heading="Plan your next trip with a team you can trust"
+        body={
+          <>
+            Three decades of experience means fewer surprises and more confidence in your
+            holiday planning. Reach out today for a{" "}
+            <Link
+              href="/custom-itinerary-request"
+              className="text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors"
             >
-              <div className="lg:sticky lg:top-28">
-                <SectionLabel text="Questions" />
-                <h2 className="font-primary font-bold text-[#1a1a1a] text-4xl md:text-5xl leading-tight">
-                  Frequently asked questions
-                </h2>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={fadeUp}
-              className="lg:col-span-7"
-            >
-              <FaqAccordion items={faqs} />
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── CTA ───────────────────────────────────────────────────────────── */}
-      <section className="relative py-12 lg:py-16 overflow-hidden">
-        <div className="absolute inset-0">
-          <Image
-            src={PHOTO.cta}
-            alt="Travellers sharing a shaded lunch on a beach beside their boat"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-black/65" />
-        </div>
-
-        <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-12 text-center">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeUp}
-          >
-            <h2 className="font-primary font-bold text-white text-4xl md:text-5xl leading-tight mb-4">
-              Plan your next trip with a team you can trust
-            </h2>
-            <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed mb-10">
-              Three decades of experience means fewer surprises and more confidence in your
-              holiday planning. Reach out today for a personalized consultation and quote.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-              <a
-                href={`https://wa.me/${company.whatsapp[0].number}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-base btn-light px-8 py-3.5 text-base font-primary"
-              >
-                <span className="btn-content">
-                  WhatsApp {company.whatsapp[0].display}
-                </span>
-              </a>
-              <a
-                href={`mailto:${company.emails[1].address}`}
-                className="btn-base btn-transparent px-8 py-3.5 text-base font-primary"
-              >
-                <span className="btn-content">{company.emails[1].address}</span>
-              </a>
-            </div>
-
-            <p className="text-white/60 text-sm">{company.address.full}</p>
-          </motion.div>
-        </div>
-      </section>
+              personalized consultation and quote
+            </Link>
+            .
+          </>
+        }
+      />
     </>
   );
 }

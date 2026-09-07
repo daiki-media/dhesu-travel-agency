@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
-import Button from "@/src/components/Button";
+import AllPagesHero from "@/src/components/AllPagesHero";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 
 /**
  * Body copy is taken verbatim from
@@ -203,79 +203,15 @@ export default function StarCruiseContent({
   return (
     <>
       {/* ── HERO ──────────────────────────────────────────────────────────── */}
-      <section className="relative bg-teal-navy overflow-hidden min-h-[420px] lg:min-h-[500px] flex items-end">
-        <div className="absolute inset-0">
-          <Image
-            src={PHOTO.hero}
-            alt={PHOTO.heroAlt}
-            fill
-            priority
-            fetchPriority="high"
-            className="object-cover"
-            sizes="100vw"
-          />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/45 to-black/10" />
-
-        <div className="relative z-10 w-full max-w-6xl mx-auto px-6 lg:px-12 pb-12 lg:pb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="flex items-center gap-3 mb-4"
-          >
-            <span className="w-8 h-[2px] bg-primary" />
-            <span className="text-white/80 font-semibold text-sm uppercase tracking-widest font-primary">
-              Cruise Holidays
-            </span>
-          </motion.div>
-
-          <h1 className="font-primary font-bold text-3xl md:text-5xl lg:text-6xl leading-[1.05] max-w-4xl">
-            <motion.span
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.1 }}
-              className="block text-white"
-            >
-              Star Cruise Packages From Malaysia
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.18 }}
-              className="block text-primary"
-            >
-              Itineraries, Cabins &amp; What to Expect
-            </motion.span>
-          </h1>
-
-          <motion.p
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-6 text-white/85 text-base md:text-lg leading-relaxed max-w-3xl"
-          >
-            Cruising has gained popularity among tourists from Malaysia as a means of seeing
-            many destinations without having to plan several flights and hotels. Star Cruises
-            is one of the easiest ways to go on a cruise out of the region. The following
-            guide will help you learn about Star Cruises packages, cabins and choosing the
-            appropriate cruise.
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="mt-8"
-          >
-            <Link href="/contact">
-              <Button variant="light" showArrow size="lg">
-                Request a Free Quote
-              </Button>
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+      <AllPagesHero
+        image={PHOTO.hero}
+        imageAlt={PHOTO.heroAlt}
+        eyebrow="Cruise Holidays"
+        title="Star Cruise Packages From Malaysia"
+        titleAccent="Itineraries, Cabins &amp; What to Expect"
+        intro="Cruising has gained popularity among tourists from Malaysia as a means of seeing many destinations without having to plan several flights and hotels. Star Cruises is one of the easiest ways to go on a cruise out of the region. The following guide will help you learn about Star Cruises packages, cabins and choosing the appropriate cruise."
+        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+      />
 
       {/* ── CRUISE VS STANDARD TRIP ───────────────────────────────────────── */}
       <Section
@@ -595,42 +531,14 @@ export default function StarCruiseContent({
       </Section>
 
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
-      <Section
-        label="Questions"
-        heading="Frequently Asked Questions"
-        className="bg-teal-light/40"
-      >
-        <div className="max-w-3xl">
-          <FaqAccordion items={faqs} />
-        </div>
-      </Section>
+      <FaqSection faqs={faqs} heading="Frequently Asked Questions" />
 
       {/* ── CTA ───────────────────────────────────────────────────────────── */}
-      <section className="py-12 lg:py-12 lg:py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-12">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-60px" }}
-            variants={fadeUp}
-            className="border-l-2 border-primary pl-8"
-          >
-            <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl leading-tight mb-3">
-              Book Your Star Cruise Getaway
-            </h2>
-            <p className="text-gray-600 leading-relaxed mb-6 max-w-2xl">
-              From short regional sailings to extended cruise holidays, a consultant can help
-              you choose the right itinerary and cabin. Request a free, personalised quote
-              today.
-            </p>
-            <Link href="/contact">
-              <Button variant="light" showArrow size="lg">
-                Request a Free Quote
-              </Button>
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+      <CtaSection
+        heading="Book Your Star Cruise Getaway"
+        body="From short regional sailings to extended cruise holidays, a consultant can help you choose the right itinerary and cabin. Request a free, personalised quote today."
+        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+      />
     </>
   );
 }

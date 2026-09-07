@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
 import TourPackageDetailTemplate, {
   type PackageDetailData,
 } from "@/src/components/tours/TourPackageDetailTemplate";
@@ -235,8 +232,6 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
             <JsonLd
               data={landingPageJsonLd(page, destination, hub.meta.name, packages)}
             />
-            <TopBar />
-            <Navbar />
             <TourGuideTemplate
               label={page.label}
               h1={page.h1}
@@ -249,7 +244,6 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
             >
               {guideArticle}
             </TourGuideTemplate>
-            <Footer />
           </>
         );
       }
@@ -259,8 +253,6 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
           <JsonLd
             data={landingPageJsonLd(page, destination, hub.meta.name, packages)}
           />
-          <TopBar />
-          <Navbar />
           <TourRegionTemplate
             label={page.label}
             h1={page.h1}
@@ -271,7 +263,6 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
             destination={destination}
             destinationLabel={hub.meta.name}
           />
-          <Footer />
         </>
       );
     }
@@ -288,10 +279,7 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
   return (
     <>
       <JsonLd data={packageDetailJsonLd(data)} />
-      <TopBar />
-      <Navbar />
       <TourPackageDetailTemplate data={data} />
-      <Footer />
     </>
   );
 }

@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import BudgetFamilyArticle from "@/src/components/blog/BudgetFamilyArticle";
+import BudgetFamilyArticle from "./BudgetFamilyArticle";
 import {
   breadcrumbList,
   faqQuestions,
@@ -98,10 +95,7 @@ export default function BudgetFamilyTravelTipsPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={articleJsonLd} />
-      <TopBar />
-      <Navbar />
       <BudgetFamilyArticle faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

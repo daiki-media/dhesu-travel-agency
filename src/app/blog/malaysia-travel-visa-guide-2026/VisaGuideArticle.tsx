@@ -10,7 +10,7 @@ import BlogArticleLayout, {
   FigurePair,
   H3,
   P,
-} from "@/src/components/blog/BlogArticleLayout";
+} from "@/src/components/BlogArticleLayout";
 
 /**
  * Blog article — "Visa Requirements for Malaysian Travellers".

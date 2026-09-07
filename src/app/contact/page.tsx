@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import ContactContent from "@/src/components/contact/ContactContent";
+import ContactContent from "./ContactContent";
 import { company } from "@/src/data/company";
 import {
   breadcrumbList,
@@ -94,10 +91,7 @@ export default function ContactPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={contactJsonLd} />
-      <TopBar />
-      <Navbar />
       <ContactContent faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

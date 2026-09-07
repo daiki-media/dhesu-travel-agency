@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Manrope, Montez } from "next/font/google";
 import JsonLd from "@/src/components/JsonLd";
+import TopBar from "@/src/components/homepage/TopBar";
+import Navbar from "@/src/components/navbar/Navbar";
+import Footer from "@/src/components/Footer";
 import { SITE_URL } from "@/src/data/site";
 import { graph, organisationSchema, websiteSchema } from "@/src/data/structuredData";
 import "./index.css";
@@ -61,7 +64,12 @@ export default function RootLayout({
         </noscript>
         {/* End Google Tag Manager (noscript) */}
         <JsonLd data={graph([organisationSchema, websiteSchema])} />
+        {/* Site chrome is identical on every route, so it lives here rather
+            than being repeated in each page. */}
+        <TopBar />
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

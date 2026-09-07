@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import ToursIndexContent from "@/src/components/tours/ToursIndexContent";
+import ToursIndexContent from "./ToursIndexContent";
 import { tourPages } from "@/src/data/tourPages";
 import {
   breadcrumbList,

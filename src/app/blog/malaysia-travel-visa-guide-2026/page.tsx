@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import VisaGuideArticle from "@/src/components/blog/VisaGuideArticle";
+import VisaGuideArticle from "./VisaGuideArticle";
 import {
   breadcrumbList,
   faqQuestions,
@@ -94,10 +91,7 @@ export default function MalaysiaTravelVisaGuidePage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={articleJsonLd} />
-      <TopBar />
-      <Navbar />
       <VisaGuideArticle faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

@@ -4,9 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import Button from "@/src/components/Button";
 
 /**
  * The Europe cut of the honeymoon-comparison draft at
@@ -262,31 +262,14 @@ export default function EuropeHoneymoonGuide() {
         </div>
       </Section>
 
-      <Section label="Questions" heading="Frequently asked questions">
-        <FaqAccordion items={faqs} />
-      </Section>
+      <FaqSection faqs={faqs} layout="stacked" />
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="border-l-2 border-primary pl-8"
-      >
-        <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl leading-tight mb-3">
-          Find your perfect honeymoon destination
-        </h2>
-        <p className="text-gray-600 leading-relaxed mb-6">
-          Whether you&apos;re drawn to Bali&apos;s accessible romance, Mauritius&apos;s
-          luxury seclusion, or Europe&apos;s cultural charm, a consultant can help you
-          choose and plan the right trip. Request a free, personalised quote today.
-        </p>
-        <Link href="/contact">
-          <Button variant="light" showArrow size="lg">
-            Request a Free Quote
-          </Button>
-        </Link>
-      </motion.div>
+      <CtaSection
+        variant="card"
+        heading="Find your perfect honeymoon destination"
+        body="Whether you&apos;re drawn to Bali&apos;s accessible romance, Mauritius&apos;s luxury seclusion, or Europe&apos;s cultural charm, a consultant can help you choose and plan the right trip. Request a free, personalised quote today."
+        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+      />
     </>
   );
 }

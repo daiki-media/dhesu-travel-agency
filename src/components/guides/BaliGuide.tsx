@@ -1,12 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import Button from "@/src/components/Button";
 
 /**
  * Reference implementation for the Holiday Idea destination guides.
@@ -287,31 +286,14 @@ export default function BaliGuide() {
         </p>
       </Section>
 
-      <Section label="Questions" heading="Frequently asked questions">
-        <FaqAccordion items={faqs} />
-      </Section>
+      <FaqSection faqs={faqs} layout="stacked" />
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="border-l-2 border-primary pl-8"
-      >
-        <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl leading-tight mb-3">
-          Start planning your Bali getaway
-        </h2>
-        <p className="text-gray-600 leading-relaxed mb-6">
-          Whether you&apos;re after romance, family fun, or adventure, a consultant can
-          help match you with the right Bali itinerary. Request a free, personalised quote
-          today.
-        </p>
-        <Link href="/contact">
-          <Button variant="light" showArrow size="lg">
-            Request a Free Quote
-          </Button>
-        </Link>
-      </motion.div>
+      <CtaSection
+        variant="card"
+        heading="Start planning your Bali getaway"
+        body="Whether you&apos;re after romance, family fun, or adventure, a consultant can help match you with the right Bali itinerary. Request a free, personalised quote today."
+        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+      />
     </>
   );
 }

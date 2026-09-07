@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
 import TourDestinationTemplate from "@/src/components/tours/TourDestinationTemplate";
 import { getTourPage, tourSlugs, type TourPageData } from "@/src/data/tourPages";
 import { guidePackageItems } from "@/src/data/destinationDetail";
@@ -119,10 +116,7 @@ export default async function TourDestinationPage({ params }: PageProps) {
   return (
     <>
       <JsonLd data={destinationJsonLd(withGuides)} />
-      <TopBar />
-      <Navbar />
       <TourDestinationTemplate data={withGuides} />
-      <Footer />
     </>
   );
 }

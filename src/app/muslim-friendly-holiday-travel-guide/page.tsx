@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import MuslimFriendlyContent from "@/src/components/tourTypes/MuslimFriendlyContent";
+import MuslimFriendlyContent from "./MuslimFriendlyContent";
 import {
   breadcrumbList,
   faqQuestions,
@@ -102,10 +99,7 @@ export default function MuslimFriendlyPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={muslimFriendlyJsonLd} />
-      <TopBar />
-      <Navbar />
       <MuslimFriendlyContent faqs={faqs} />
-      <Footer />
     </main>
   );
 }

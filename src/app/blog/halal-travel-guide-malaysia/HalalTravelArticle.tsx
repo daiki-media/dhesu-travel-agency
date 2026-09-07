@@ -10,7 +10,7 @@ import BlogArticleLayout, {
   Figure,
   FigurePair,
   P,
-} from "@/src/components/blog/BlogArticleLayout";
+} from "@/src/components/BlogArticleLayout";
 
 /**
  * "Halal Travel Guide: Ranking the Best Muslim-Friendly Destinations" —

@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import PromotionsContent from "@/src/components/promotions/PromotionsContent";
+import PromotionsContent from "./PromotionsContent";
 import { breadcrumbList, faqQuestions, graph, webPage } from "@/src/data/structuredData";
 
 // Holiday Idea sheet, row 43 — "DEALS & PROMOTIONS". The sheet supplies no
@@ -91,10 +88,7 @@ export default function PromotionsPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={promotionsJsonLd} />
-      <TopBar />
-      <Navbar />
       <PromotionsContent faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

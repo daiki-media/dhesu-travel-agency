@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import BestTimeBaliArticle from "@/src/components/blog/BestTimeBaliArticle";
+import BestTimeBaliArticle from "./BestTimeBaliArticle";
 import {
   breadcrumbList,
   faqQuestions,
@@ -96,10 +93,7 @@ export default function BestTimeToVisitBaliPage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={articleJsonLd} />
-      <TopBar />
-      <Navbar />
       <BestTimeBaliArticle faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

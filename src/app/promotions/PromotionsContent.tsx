@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Button from "@/src/components/Button";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
+import FaqSection from "@/src/components/FaqSection";
 import { company } from "@/src/data/company";
 
 // The Holiday Idea sheet marks this row "Need more info": the client has not
@@ -657,14 +657,11 @@ export default function PromotionsContent({
         </div>
       </Section>
 
-      {/* ── FAQ ───────────────────────────────────────────────────────────── */}
-      <Section
+      <FaqSection
+        faqs={faqs}
         label="Before You Ask"
         heading="Promotions, Quotes and Payment"
-        className="bg-teal-light/40"
-      >
-        <FaqAccordion items={faqs} />
-      </Section>
+      />
 
       {/* ── GET A PRICE ───────────────────────────────────────────────────
           The only dark plate on the page, and the page's actual purpose:

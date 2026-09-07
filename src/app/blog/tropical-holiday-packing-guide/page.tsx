@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
-import TopBar from "@/src/components/homepage/TopBar";
-import Navbar from "@/src/components/navbar/Navbar";
-import Footer from "@/src/components/homepage/Footer";
-import PackingGuideArticle from "@/src/components/blog/PackingGuideArticle";
+import PackingGuideArticle from "./PackingGuideArticle";
 import {
   breadcrumbList,
   faqQuestions,
@@ -93,10 +90,7 @@ export default function TropicalHolidayPackingGuidePage() {
   return (
     <main className="bg-white overflow-x-hidden">
       <JsonLd data={articleJsonLd} />
-      <TopBar />
-      <Navbar />
       <PackingGuideArticle faqs={FAQS} />
-      <Footer />
     </main>
   );
 }

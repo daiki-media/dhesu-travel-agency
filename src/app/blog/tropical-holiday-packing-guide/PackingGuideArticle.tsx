@@ -9,7 +9,7 @@ import BlogArticleLayout, {
   DataTable,
   Figure,
   P,
-} from "@/src/components/blog/BlogArticleLayout";
+} from "@/src/components/BlogArticleLayout";
 
 /**
  * Holiday Idea sheet, row 39 — /blog/tropical-holiday-packing-guide.

@@ -1,12 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import Button from "@/src/components/Button";
 
 /**
  * Every string of copy is taken verbatim from
@@ -353,41 +352,14 @@ export default function MauritiusGuide() {
         </p>
       </Section>
 
-      <Section label="Questions" heading="Frequently asked questions">
-        <FaqAccordion items={faqs} />
-      </Section>
+      <FaqSection faqs={faqs} layout="stacked" />
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="border-l-2 border-primary pl-8"
-      >
-        <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl leading-tight mb-3">
-          Plan Your Mauritius Honeymoon
-        </h2>
-        <p className="text-gray-600 leading-relaxed mb-6">
-          From private beach dinners to turquoise lagoons, a consultant can help you
-          plan the perfect island honeymoon. Request a free, personalised quote today.
-        </p>
-        <div className="flex flex-wrap items-center gap-6">
-          <Link href="/contact">
-            <Button variant="light" showArrow size="lg">
-              Request a Free Quote
-            </Button>
-          </Link>
-          {/* The sheet's Content Notes ask this page to pair with the honeymoon
-              hub. The draft has no sentence to hang that link on, so it sits
-              here as a navigation affordance rather than as invented prose. */}
-          <Link
-            href="/tours/mauritius/honeymoon-holiday-guide-2026"
-            className="text-primary-dark font-semibold text-[15px] hover:underline"
-          >
-            Compare Mauritius with Bali and Europe →
-          </Link>
-        </div>
-      </motion.div>
+      <CtaSection
+        variant="card"
+        heading="Plan Your Mauritius Honeymoon"
+        body="From private beach dinners to turquoise lagoons, a consultant can help you plan the perfect island honeymoon. Request a free, personalised quote today."
+        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+      />
     </>
   );
 }

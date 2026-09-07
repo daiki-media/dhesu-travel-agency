@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
-import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
-import Button from "@/src/components/Button";
+import AllPagesHero from "@/src/components/AllPagesHero";
+import FaqSection from "@/src/components/FaqSection";
+import CtaSection from "@/src/components/CtaSection";
 
 /**
  * Body copy is taken verbatim from
@@ -224,79 +224,15 @@ export default function RayaContent({
   return (
     <>
       {/* ── HERO ──────────────────────────────────────────────────────────── */}
-      <section className="relative bg-teal-navy overflow-hidden min-h-[420px] lg:min-h-[500px] flex items-end">
-        <div className="absolute inset-0">
-          <Image
-            src={PHOTO.hero}
-            alt={PHOTO.heroAlt}
-            fill
-            priority
-            fetchPriority="high"
-            className="object-cover"
-            sizes="100vw"
-          />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/45 to-black/10" />
-
-        <div className="relative z-10 w-full max-w-6xl mx-auto px-6 lg:px-12 pb-12 lg:pb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="flex items-center gap-3 mb-4"
-          >
-            <span className="w-8 h-[2px] bg-primary" />
-            <span className="text-white/80 font-semibold text-sm uppercase tracking-widest font-primary">
-              Festive Season
-            </span>
-          </motion.div>
-
-          <h1 className="font-primary font-bold text-3xl md:text-5xl lg:text-6xl leading-[1.05] max-w-4xl">
-            <motion.span
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.1 }}
-              className="block text-white"
-            >
-              Raya Holiday Packages
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.18 }}
-              className="block text-primary"
-            >
-              Festive Travel Made Muslim-Friendly
-            </motion.span>
-          </h1>
-
-          <motion.p
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-6 text-white/85 text-base md:text-lg leading-relaxed max-w-3xl"
-          >
-            The Hari Raya holiday period is probably the most significant time of the year for
-            Malaysian Muslim families to go traveling, and there are certain planning issues
-            involved in this type of holiday that make it different from a regular holiday
-            booking. There are some places that are friendly toward Muslims, and other
-            planning aspects that take into account the importance of the holiday period.
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="mt-8"
-          >
-            <Link href="/contact">
-              <Button variant="light" showArrow size="lg">
-                Request a Free Quote
-              </Button>
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+      <AllPagesHero
+        image={PHOTO.hero}
+        imageAlt={PHOTO.heroAlt}
+        eyebrow="Festive Season"
+        title="Raya Holiday Packages"
+        titleAccent="Festive Travel Made Muslim-Friendly"
+        intro="The Hari Raya holiday period is probably the most significant time of the year for Malaysian Muslim families to go traveling, and there are certain planning issues involved in this type of holiday that make it different from a regular holiday booking. There are some places that are friendly toward Muslims, and other planning aspects that take into account the importance of the holiday period."
+        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+      />
 
       {/* ── WHAT CHANGES ──────────────────────────────────────────────────── */}
       <Section
@@ -577,41 +513,14 @@ export default function RayaContent({
       </section>
 
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
-      <Section
-        label="Questions"
-        heading="Frequently Asked Questions"
-        className="bg-teal-light/40"
-      >
-        <div className="max-w-3xl">
-          <FaqAccordion items={faqs} />
-        </div>
-      </Section>
+      <FaqSection faqs={faqs} heading="Frequently Asked Questions" />
 
       {/* ── CTA ───────────────────────────────────────────────────────────── */}
-      <section className="py-12 lg:py-12 lg:py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-12">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-60px" }}
-            variants={fadeUp}
-            className="border-l-2 border-primary pl-8"
-          >
-            <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl leading-tight mb-3">
-              Plan Your Raya Getaway
-            </h2>
-            <p className="text-gray-600 leading-relaxed mb-6 max-w-2xl">
-              Celebrate the festive season with a trip that respects both your traditions and
-              your travel goals. Request a free, personalised quote today.
-            </p>
-            <Link href="/contact">
-              <Button variant="light" showArrow size="lg">
-                Request a Free Quote
-              </Button>
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+      <CtaSection
+        heading="Plan Your Raya Getaway"
+        body="Celebrate the festive season with a trip that respects both your traditions and your travel goals. Request a free, personalised quote today."
+        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+      />
     </>
   );
 }
