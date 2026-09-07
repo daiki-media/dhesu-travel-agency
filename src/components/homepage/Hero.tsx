@@ -6,24 +6,68 @@ import SearchHero from '@/src/components/homepage/SearchHero';
 import ArrowUp from "@/src/components/icons/ArrowUp";
 import ArrowDown from "@/src/components/icons/ArrowDown";
 import Button from "../Button";
-const slides = [
+
+// One slide per theme of the Holiday Idea sheet: the headline offer, why an
+// agency, and ready-made vs customized. Slide one carries the page H1; the
+// others render the same styling as a paragraph so the page keeps one H1.
+const inlineLink =
+  "underline decoration-white/50 underline-offset-4 hover:decoration-white transition-colors";
+
+const slides: {
+  bg: string;
+  alt: string;
+  eyebrow: string;
+  title: [string, string];
+  body: React.ReactNode;
+  primary: { label: string; href: string };
+  secondary: { label: string; href: string };
+}[] = [
   {
     bg: "/images/gallery/12615.jpg",
-    subtitle: "Get unforgettable pleasure with us",
-    title1: "Natural Wonder",
-    title2: "of the world",
+    alt: "Traveller on a swing overlooking a lake in the Dieng highlands",
+    eyebrow: "Trusted by Malaysian Travellers Since 1988",
+    title: ["Daily Customized &", "Ready-Made Holidays"],
+    // The sheet links Bali and Varanasi to the legacy holidayidea.com.my
+    // pages; these are the same destinations on this site (Varanasi is the
+    // sheet's package 2207).
+    body: (
+      <>
+        Arranging a holiday ought to be fun-filled, not stress-inducing. For more than three
+        decades, Dhesu Travel &amp; Tours has helped travellers from Malaysia turn the
+        &ldquo;place I&apos;d like to see someday&rdquo; into an organised holiday, whether
+        that place is{" "}
+        <Link href="/tours/indonesia" className={inlineLink}>
+          Bali
+        </Link>
+        ,{" "}
+        <Link href="/tours/india/north-india/3-day-varanasi-ganga-aarti" className={inlineLink}>
+          Varanasi
+        </Link>
+        , Nepal or anywhere else.
+      </>
+    ),
+    primary: { label: "Explore Tours", href: "/tours" },
+    secondary: { label: "Get a Free Quote", href: "/contact#free-quote" },
   },
   {
     bg: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1920&auto=format&fit=crop",
-    subtitle: "Experience amazing adventures",
-    title1: "Discover Hidden",
-    title2: "Gem Destinations",
+    alt: "Tropical island coastline seen from above",
+    eyebrow: "Why Malaysians Still Choose an Agency",
+    title: ["A Real Person to Call,", "Wherever You Are"],
+    body:
+      "Curated itineraries built from decades of on-ground experience, negotiated group rates that are hard to replicate piece by piece, and a real person to call if a flight is delayed or an itinerary needs adjusting.",
+    primary: { label: "Why Book With Us", href: "#why-choose-dhesu" },
+    secondary: { label: "Get a Free Quote", href: "/contact#free-quote" },
   },
   {
     bg: "/images/gallery/140.jpg",
-    subtitle: "Travel the world with us",
-    title1: "Explore the",
-    title2: "Beautiful World",
+    alt: "Scenic travel destination",
+    eyebrow: "30+ Years, Built One Trip at a Time",
+    title: ["Ready-Made or", "Fully Customized"],
+    body:
+      "Proven itineraries with set inclusions and competitive group pricing, or a trip tailored to your exact dates, interests and group size. Both draw on the same destination expertise and supplier relationships.",
+    primary: { label: "View Tour Packages", href: "/tours" },
+    secondary: { label: "Request a Custom Itinerary", href: "/custom-itinerary-request" },
   },
 ];
 
@@ -89,6 +133,9 @@ export default function Hero() {
     setMounted([...mounted, current]);
   }
 
+  const titleClass =
+    "font-primary text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.05] mb-6 tracking-tight";
+
   return (
     <section ref={sectionRef} className="relative h-[600px] md:h-[700px] bg-slate-900 overflow-x-clip">
       {slides.map((slide, i) =>
@@ -108,7 +155,7 @@ export default function Hero() {
           >
             <Image
               src={slide.bg}
-              alt={slide.title1}
+              alt={slide.alt}
               fill
               priority={i === 0}
               fetchPriority={i === 0 ? "high" : "auto"}
@@ -120,29 +167,50 @@ export default function Hero() {
         ) : null
       )}
 
-      <div className="absolute inset-0 bg-black/40 z-[1]" />
+      <div className="absolute inset-0 bg-black/45 z-[1]" />
 
       <div className="relative z-10 h-full max-w-8xl mx-auto px-8 flex items-center">
-        <div className="max-w-8xl">
-          <div className={advanced ? "hero-copy" : undefined}>
-            <p className="font-secondary text-white text-3xl md:text-4xl mb-4 drop-shadow-md">
-              {slides[current].subtitle}
-            </p>
-            <h1 className="font-primary text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[1.05] mb-10 tracking-tight">
-              {slides[current].title1}
-              <br />
-              {slides[current].title2}
-            </h1>
-          </div>
+        <div className="max-w-4xl">
+          {/* Every slide's copy stays in the DOM (hidden, not unmounted) so
+              crawlers and reader mode see all three; only the active one shows.
+              Toggling display restarts the hero-copy entrance each time. */}
+          {slides.map((slide, i) => {
+            const active = i === current;
+            return (
+              <div key={slide.bg} hidden={!active} aria-hidden={!active}>
+                <div className={advanced ? "hero-copy" : undefined}>
+                  <p className="font-secondary text-white text-3xl md:text-4xl mb-4 drop-shadow-md">
+                    {slide.eyebrow}
+                  </p>
+                  {i === 0 ? (
+                    <h1 className={titleClass}>
+                      {slide.title[0]}
+                      <br />
+                      {slide.title[1]}
+                    </h1>
+                  ) : (
+                    <p className={titleClass}>
+                      {slide.title[0]}
+                      <br />
+                      {slide.title[1]}
+                    </p>
+                  )}
+                  <p className="hidden md:block text-white/85 text-lg leading-relaxed max-w-2xl mb-10">
+                    {slide.body}
+                  </p>
+                </div>
 
-          <div className="flex gap-4 flex-wrap">
-            <Link href="/tours">
-              <Button variant="light" showArrow size="lg">Explore Tours</Button>
-            </Link>
-            <Link href="/about-us">
-              <Button variant="transparent" showArrow size="lg">Our Services</Button>
-            </Link>
-          </div>
+                <div className="flex gap-4 flex-wrap mt-6 md:mt-0">
+                  <Link href={slide.primary.href}>
+                    <Button variant="light" showArrow size="lg">{slide.primary.label}</Button>
+                  </Link>
+                  <Link href={slide.secondary.href}>
+                    <Button variant="transparent" showArrow size="lg">{slide.secondary.label}</Button>
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
 

@@ -1,11 +1,13 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
 
+// Figures the Holiday Idea sheet actually states; the previous values were
+// placeholders (the "12 years" contradicted "since 1988").
 const stats = [
-  { value: 12, suffix: "", label: "Years Experience", dotPos: "bottom" },
-  { value: 97, suffix: "%", label: "Retention Rate", dotPos: "top" },
-  { value: 8, suffix: "K", label: "Tour Completed", dotPos: "bottom" },
-  { value: 19, suffix: "K", label: "Happy Travellers", dotPos: "top" },
+  { value: 1988, suffix: "", label: "Founded in Kuala Lumpur", dotPos: "bottom" },
+  { value: 30, suffix: "+", label: "Years of Experience", dotPos: "top" },
+  { value: 3, suffix: "", label: "Industry Accreditations (IATA, PATA, MATTA)", dotPos: "bottom" },
+  { value: 6, suffix: "", label: "Trending Destinations", dotPos: "top" },
 ];
 
 function Counter({ end, suffix, start }: { end: number; suffix: string; start: boolean }) {

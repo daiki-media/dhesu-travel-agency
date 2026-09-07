@@ -10,15 +10,26 @@ interface Category {
   name: string;
   link: string;
   image: string;
+  blurb: string;
 }
 
 // ─── Data ────────────────────────────────────────────────────────────────
-// Driven by the real destination list so every card links to a live hub page.
-const categories: Category[] = destinations.map((d) => ({
-  name: d.name,
-  link: d.href,
-  image: d.image,
-}));
+// The six "currently trending" destinations from the Holiday Idea sheet, in
+// its order, with its one-line blurbs. Images and links come from the curated
+// destination list so every card still points at a live hub page.
+const trending = [
+  { slug: "sri-lanka", blurb: "Cultural heritage, hill country, and beach combinations" },
+  { slug: "india", blurb: "From the Taj Mahal to Kerala's backwaters and Kashmir's mountains" },
+  { slug: "indonesia", blurb: "Honeymoon escapes, family holidays, and adventure add-ons" },
+  { slug: "nepal", blurb: "Himalayan scenery paired with Kathmandu's cultural depth" },
+  { slug: "vietnam", blurb: "Hanoi, Halong Bay, and Ho Chi Minh City itineraries" },
+  { slug: "cambodia", blurb: "Angkor Wat and Siem Reap's temple heritage" },
+];
+
+const categories: Category[] = trending.flatMap(({ slug, blurb }) => {
+  const d = destinations.find((dest) => dest.slug === slug);
+  return d ? [{ name: d.name, link: d.href, image: d.image, blurb }] : [];
+});
 
 // ─── Constants ───────────────────────────────────────────────────────────
 const VISIBLE = 5;
@@ -181,14 +192,20 @@ export default function TourCategories() {
         onMouseLeave={startAuto}
       >
         {/* Heading */}
-        <div className="mb-10 text-center lg:mb-14" data-reveal>
+        <div className="mb-10 text-center lg:mb-14 px-6" data-reveal>
           <p className="font-secondary text-primary-dark mb-2 text-2xl">
-            Wonderful Place For You
+            Currently Trending Destinations
           </p>
 
           <h2 className="font-primary text-teal-navy text-4xl font-bold md:text-5xl lg:text-6xl">
-            Tour Categories
+            Where Malaysians Are Travelling With Dhesu
           </h2>
+
+          <p className="text-gray-500 max-w-2xl mx-auto mt-4 text-[15px] md:text-base leading-relaxed">
+            The most searched and booked destinations reflect what Malaysian travellers are
+            prioritising this year: a mix of value-for-money classics and increasingly
+            popular new interests.
+          </p>
         </div>
 
         {/* Stage */}
@@ -242,13 +259,13 @@ export default function TourCategories() {
                   </div>
 
                   {/* Content */}
-                  <div className="mt-2 text-center">
-                    <h3 className="font-primary text-primary-dark text-sm font-bold">
+                  <div className="mt-3 w-[280px] text-center">
+                    <h3 className="font-primary text-primary-dark text-base font-bold">
                       {cat.name}
                     </h3>
 
-                    <p className="hover:text-primary-dark mt-1 text-xs text-gray-700 transition-colors sm:text-sm">
-                      See More
+                    <p className="mt-1 text-xs text-gray-700 leading-snug sm:text-sm">
+                      {cat.blurb}
                     </p>
                   </div>
                 </Link>
@@ -277,6 +294,11 @@ export default function TourCategories() {
             </button>
           ))}
         </div>
+
+        <p className="text-gray-500 text-center text-[15px] md:text-base max-w-2xl mx-auto mt-8 px-6" data-reveal>
+          Each of these destinations has dedicated itinerary options, ranging from short 3 to
+          4 day getaways to more immersive 8 to 11 day journeys.
+        </p>
       </div>
     </section>
   );

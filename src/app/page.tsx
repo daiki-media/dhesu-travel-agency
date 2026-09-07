@@ -6,13 +6,14 @@ import Navbar from "@/src/components/navbar/Navbar";
 import Hero from "@/src/components/homepage/Hero";
 import TourCategories from "@/src/components/homepage/TourCategories";
 // import Tourcat2 from "@/src/components/homepage/Tourcat2";
-import PopularDestination from "@/src/components/homepage/PopularDestination";
 import PlanYourTrip from "@/src/components/homepage/PlanYourTrip";
 import PopularTours from "@/src/components/homepage/PopularTours";
 import RecentGallery from "@/src/components/homepage/RecentGallery";
 import Stats from "@/src/components/homepage/Stats";
 import BrandTicker from "@/src/components/homepage/BrandTicker";
-import PlanningGuide from "@/src/components/homepage/PlanningGuide";
+import WhyChooseDhesu from "@/src/components/homepage/WhyChooseDhesu";
+import HomeFaq from "@/src/components/homepage/HomeFaq";
+import HomeCta from "@/src/components/homepage/HomeCta";
 import Footer from "@/src/components/homepage/Footer";
 
 // Holiday Idea sheet, row 6. Before this the homepage set no title at all and
@@ -31,9 +32,6 @@ export const metadata: Metadata = {
   },
 };
 
-// Taken verbatim from the "Frequently Asked Questions" section of the draft.
-// Lives here rather than in PlanningGuide so the same list can feed both the
-// rendered accordion and the FAQPage markup below.
 const FAQS = [
   {
     question: "Since when has Dhesu Travel & Tours been operating?",
@@ -77,8 +75,6 @@ const FAQS = [
   },
 ];
 
-// The FAQ markup is safe here because the same questions and answers are
-// rendered on the page, in the accordion near the bottom.
 const homeJsonLd = graph([
   webPage({
     path: "/",
@@ -99,14 +95,15 @@ export default function Home() {
       <Navbar />
       <Hero />
       <TourCategories />
-      {/* <PopularDestination /> */}
       <PlanYourTrip />
       <PopularTours />
       {/* <Tourcat2 /> */}
       <RecentGallery />
+      <WhyChooseDhesu />
       <Stats />
       <BrandTicker />
-      <PlanningGuide faqs={FAQS} />
+      <HomeFaq faqs={FAQS} />
+      <HomeCta />
       <Footer />
     </main>
   );

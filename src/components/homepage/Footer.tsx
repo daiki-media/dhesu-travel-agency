@@ -1,4 +1,4 @@
-import { MessageCircle, ChevronRight, Send, Phone, MapPin } from "lucide-react";
+import { MessageCircle, ChevronRight, Send, Phone, MapPin, Clock, ArrowRight } from "lucide-react";
 import { FacebookIcon } from "@/src/components/icons/SocialIcons";
 import Image from "next/image";
 import Link from "next/link";
@@ -42,28 +42,87 @@ const socials = [
   },
 ];
 
+const openHours = company.hours.filter((h) => !h.closed);
+
+function FooterHeading({ children }: { children: string }) {
+  return (
+    <h3 className="relative font-primary font-bold text-teal-navy text-lg pb-3 mb-5">
+      {children}
+      <span className="absolute left-0 bottom-0 h-[2px] w-8 bg-primary" aria-hidden />
+    </h3>
+  );
+}
+
+function LinkList({ links }: { links: { label: string; href: string }[] }) {
+  return (
+    <ul className="flex flex-col gap-2.5">
+      {links.map((link) => (
+        <li key={link.href}>
+          <Link
+            href={link.href}
+            className="inline-flex items-center gap-2 text-gray-500 hover:text-primary-dark text-sm transition-colors duration-200 group py-0.5"
+          >
+            <ChevronRight
+              size={12}
+              className="text-primary/70 shrink-0 group-hover:translate-x-1 transition-transform"
+            />
+            <span>{link.label}</span>
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function ContactRow({ icon, children }: { icon: React.ReactNode; children: React.ReactNode }) {
+  return (
+    <div className="flex items-start gap-3">
+      <div className="w-9 h-9 rounded-full bg-primary-dark/10 flex items-center justify-center shrink-0 text-primary-dark">
+        {icon}
+      </div>
+      <div className="text-gray-500 text-sm leading-relaxed pt-1.5 min-w-0">{children}</div>
+    </div>
+  );
+}
+
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-white">
       {/* Main footer */}
-      <div className="bg-white pt-10 pb-12">
+      <div className="pt-14 pb-12">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10">
+          {/* Twelve tracks so each column gets the width its content needs:
+              the brand block is widest, the short link list narrowest. */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-x-8 gap-y-12">
             {/* Brand */}
-            <div className="lg:col-span-2">
-                  <Link href="/">
-                    <Image
-                      src="/images/dhesu_logos.png"
-                      alt="dhesu logo"
-                      height={111}
-                      width={260}
-                      className="h-14 w-auto object-contain rounded"
-                    />
-                  </Link>
-              <p className="text-gray-500 text-sm leading-relaxed mb-5 mt-4">
+            <div className="md:col-span-2 lg:col-span-4 lg:pr-8">
+              <Link href="/" className="inline-block">
+                <Image
+                  src="/images/dhesu_logos.png"
+                  alt="dhesu logo"
+                  height={111}
+                  width={260}
+                  className="h-14 w-auto object-contain"
+                />
+              </Link>
+              <p className="text-gray-500 text-sm leading-relaxed mt-5 mb-6 max-w-sm">
                 {company.philosophy} Licensed by the Ministry of Tourism Malaysia and accredited
                 by IATA, PATA and MATTA since {company.foundedYear}.
               </p>
+
+              {/* Accreditation chips: the trust signals the sheet says to check. */}
+              <ul className="flex flex-wrap gap-2 mb-6" aria-label="Accreditations">
+                {company.accreditations.map((a) => (
+                  <li
+                    key={a.abbr}
+                    className="text-[11px] font-semibold tracking-wide text-teal-navy bg-gray-100 rounded-full px-3 py-1"
+                    title={a.name}
+                  >
+                    {a.abbr}
+                  </li>
+                ))}
+              </ul>
+
               <div className="flex gap-2.5">
                 {socials.map((s) => (
                   <a
@@ -72,7 +131,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`Dhesu on ${s.label}`}
-                    className="w-9 h-9 rounded-full border border-primary/40 text-primary flex items-center justify-center hover:bg-primary-dark hover:text-white hover:border-primary transition-all duration-300"
+                    className="w-10 h-10 rounded-full border border-primary/40 text-primary flex items-center justify-center hover:bg-primary-dark hover:text-white hover:border-primary transition-all duration-300"
                   >
                     {s.icon}
                   </a>
@@ -81,144 +140,118 @@ export default function Footer() {
             </div>
 
             {/* Quick Links */}
-            <div>
-              <h3 className="font-bold text-teal-navy text-lg mb-5">Quick Links</h3>
-              <ul className="flex flex-col gap-3">
-                {quickLinks.map((link) => (
-                  <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className="flex items-center gap-2 text-gray-500 hover:text-primary-dark text-sm transition-colors duration-200 group"
-                    >
-                      <ChevronRight
-                        size={9}
-                        className="text-primary/70 group-hover:translate-x-1 transition-transform"
-                      />
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+            <div className="lg:col-span-2">
+              <FooterHeading>Quick Links</FooterHeading>
+              <LinkList links={quickLinks} />
             </div>
 
             {/* Holiday Ideas */}
-            <div>
-              <h3 className="font-bold text-teal-navy text-lg mb-5">Holiday Ideas</h3>
-              <ul className="flex flex-col gap-3">
-                {holidayIdeas.map((link) => (
-                  <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className="flex items-center gap-2 text-gray-500 hover:text-primary-dark text-sm transition-colors duration-200 group"
-                    >
-                      <ChevronRight
-                        size={9}
-                        className="text-primary/70 group-hover:translate-x-1 transition-transform shrink-0"
-                      />
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+            <div className="lg:col-span-3">
+              <FooterHeading>Holiday Ideas</FooterHeading>
+              <LinkList links={holidayIdeas} />
             </div>
 
-            {/* Address */}
-            <div>
-              <h3 className="font-bold text-teal-navy text-lg mb-5">Address</h3>
+            {/* Contact */}
+            <div className="lg:col-span-3">
+              <FooterHeading>Get in Touch</FooterHeading>
               <div className="flex flex-col gap-4">
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-primary-dark/10 flex items-center justify-center shrink-0">
-                    <Phone size={13} className="text-primary-dark" />
-                  </div>
-                  <div className="text-gray-500 text-sm leading-relaxed">
-                    {company.phones.map((p) => (
-                      <p key={p.tel}>
-                        {/* inline-block + vertical padding keeps the tap target
-                            at 24px+ and spaced from its neighbour. */}
-                        <a
-                          href={`tel:${p.tel}`}
-                          className="inline-block py-1.5 hover:text-primary-dark transition-colors"
-                        >
-                          {p.display}
-                        </a>
-                      </p>
-                    ))}
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-primary-dark/10 flex items-center justify-center shrink-0">
-                    <  Send size={13} className="text-primary-dark" />
-                  </div>
-                  <div className="text-gray-500 text-sm leading-relaxed">
-                    {company.emails.map((em) => (
-                      <p key={em.address}>
-                        <a
-                          href={`mailto:${em.address}`}
-                          className="inline-block py-1.5 hover:text-primary-dark transition-colors"
-                        >
-                          {em.address}
-                        </a>
-                      </p>
-                    ))}
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-primary-dark/10 flex items-center justify-center shrink-0">
-                    <MapPin size={14} className="text-primary-dark" />
-                  </div>
-                  <p className="text-gray-500 text-sm leading-relaxed">
+                <ContactRow icon={<Phone size={15} />}>
+                  {company.phones.map((p) => (
+                    <p key={p.tel}>
+                      <a
+                        href={`tel:${p.tel}`}
+                        className="inline-block py-0.5 hover:text-primary-dark transition-colors"
+                      >
+                        {p.display}
+                      </a>
+                    </p>
+                  ))}
+                </ContactRow>
+                <ContactRow icon={<Send size={15} />}>
+                  {company.emails.map((em) => (
+                    <p key={em.address}>
+                      <a
+                        href={`mailto:${em.address}`}
+                        className="inline-block py-0.5 hover:text-primary-dark transition-colors break-all"
+                      >
+                        {em.address}
+                      </a>
+                    </p>
+                  ))}
+                </ContactRow>
+                <ContactRow icon={<MapPin size={15} />}>
+                  <p>
                     {company.address.line1},
                     <br />
                     {company.address.line2},
                     <br />
                     {company.address.postcode} {company.address.city}, {company.address.country}
                   </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Instagram Post */}
-            <div>
-              <h3 className="font-bold text-teal-navy text-lg mb-5">Top Destinations</h3>
-              {/* Two across from lg: the footer went from four columns to six,
-                  and three thumbnails in the narrower cell shrank to the point
-                  where the destination was no longer recognisable. */}
-              <div className="grid grid-cols-3 lg:grid-cols-2 gap-2">
-                {footerDestinations.map((dest) => (
-                  <Link
-                    key={dest.slug}
-                    href={dest.href}
-                    aria-label={`${dest.name} tours`}
-                    className="relative overflow-hidden rounded-lg aspect-square group"
-                  >
-                    <Image
-                      src={dest.image}
-                      alt={dest.name}
-                      fill
-                      className="object-cover transition-transform duration-400 group-hover:scale-110"
-                      sizes="(max-width: 1024px) 33vw, 90px"
-                    />
-                    <div className="absolute inset-0 bg-primary/25 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  </Link>
-                ))}
+                </ContactRow>
+                <ContactRow icon={<Clock size={15} />}>
+                  {openHours.map((h) => (
+                    <p key={h.days}>
+                      <span className="text-teal-navy font-medium">{h.days}:</span> {h.time}
+                    </p>
+                  ))}
+                </ContactRow>
               </div>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Top destinations: a full-width photo strip instead of a cramped
+          sixth column, so the thumbnails are large enough to recognise. */}
+      <div className="border-t border-gray-100 py-10">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex items-end justify-between gap-4 mb-6">
+            <h3 className="font-primary font-bold text-teal-navy text-lg">Top Destinations</h3>
+            <Link
+              href="/tours"
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-dark hover:text-primary transition-colors"
+            >
+              View all destinations
+              <ArrowRight size={14} />
+            </Link>
+          </div>
+          <div className="grid grid-cols-3 md:grid-cols-6 gap-3">
+            {footerDestinations.map((dest) => (
+              <Link
+                key={dest.slug}
+                href={dest.href}
+                aria-label={`${dest.name} tours`}
+                className="relative overflow-hidden rounded-xl aspect-[4/3] group"
+              >
+                <Image
+                  src={dest.image}
+                  alt={dest.name}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 33vw, 200px"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                <span className="absolute left-3 right-3 bottom-2.5 text-white text-xs sm:text-sm font-semibold truncate drop-shadow">
+                  {dest.name}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* Bottom bar */}
-      <div className="border-t border-gray-100 py-8 bg-primary-dark">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-white">
-          <p>
+      <div className="py-6 bg-primary-dark">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-white/90">
+          <p className="text-center sm:text-left">
             © {new Date().getFullYear()} {company.legalName} ({company.companyNo}) ·{" "}
             {company.licenseNo}. All Rights Reserved.
           </p>
-          <div className="flex gap-5">
-            <Link href="/about-us" className="hover:text-primary transition-colors">About Us</Link>
-            <Link href="/tours" className="hover:text-primary transition-colors">Destinations</Link>
-            <Link href="/blog" className="hover:text-primary transition-colors">Blog</Link>
-            <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
+          <div className="flex flex-wrap justify-center gap-x-5 gap-y-2">
+            <Link href="/about-us" className="hover:text-white transition-colors">About Us</Link>
+            <Link href="/tours" className="hover:text-white transition-colors">Destinations</Link>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+            <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
           </div>
         </div>
       </div>

@@ -14,14 +14,16 @@ export default function PopularTours() {
         {/* Heading */}
         <div className="text-center mb-4" data-reveal>
           <p className="font-secondary text-primary-dark text-2xl md:text-3xl mb-2">
-            Best Place For You
+            Ready-Made Packages
           </p>
           <h2 className="font-primary text-4xl md:text-5xl font-bold text-teal-navy mb-4">
             Most Popular Tours
           </h2>
-          <p className="text-gray-500 max-w-xl mx-auto text-[15px]">
-            Our bestselling private packages across Asia — every price is per person on twin
-            sharing, with all transfers, entrance fees and an English-speaking guide included.
+          {/* "Ready-made packages" row of the sheet's Ready-Made vs Customized table. */}
+          <p className="text-gray-500 max-w-2xl mx-auto text-[15px]">
+            Proven itineraries for travellers who want a holiday without extensive planning:
+            set inclusions, competitive group pricing and faster booking. Prefer something
+            built around your own dates and interests? Every package can be fully customized.
           </p>
         </div>
 

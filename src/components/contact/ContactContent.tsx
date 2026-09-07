@@ -406,7 +406,8 @@ export default function ContactContent({
       </section>
 
       {/* ── WHAT TO INCLUDE + FREE QUOTE ──────────────────────────────────── */}
-      <section className="py-10 lg:py-12 bg-white">
+      {/* Anchor target for the homepage "Get a Free Quote" buttons. */}
+      <section id="free-quote" className="py-10 lg:py-12 bg-white scroll-mt-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-center">
             <motion.div
