@@ -1,9 +1,10 @@
-import { MessageCircle, ChevronRight, Send, Phone, MapPin, Clock, ArrowRight } from "lucide-react";
+import { MessageCircle, ChevronRight, Send, Phone, MapPin, Clock } from "lucide-react";
 import { FacebookIcon } from "@/src/components/icons/SocialIcons";
 import Image from "next/image";
 import Link from "next/link";
 import { company } from "@/src/data/company";
 import { destinations } from "@/src/data/destinations";
+import { holidayIdeas } from "@/src/data/holidayIdeas";
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -15,21 +16,16 @@ const quickLinks = [
   { label: "Contact Us", href: "/contact" },
 ];
 
-// The theme and seasonal pages from the Holiday Idea sheet. They are the pages
-// a visitor is least likely to reach from a destination hub, so the footer is
-// where they earn their keep.
-const holidayIdeas = [
-  { label: "Muslim-Friendly Tours", href: "/muslim-friendly-holiday-travel-guide" },
-  { label: "Group & Incentive Travel", href: "/group-incentive-travel-packages" },
-  { label: "Star Cruise Packages", href: "/star-cruise-holiday-guide-2026" },
-  { label: "School Holiday Deals 2026", href: "/school-holiday-travel-deals-2026" },
-  { label: "Year-End Deals 2026", href: "/year-end-holiday-travel-deals-2026" },
-  { label: "Raya Holiday Packages", href: "/raya-holiday-travel-deals-2026" },
+// The theme and seasonal pages, from the same list that drives the homepage
+// Holiday Ideas carousel, plus the custom itinerary form.
+const holidayIdeaLinks = [
+  ...holidayIdeas.map(({ label, href }) => ({ label, href })),
   { label: "Request a Custom Itinerary", href: "/custom-itinerary-request" },
 ];
 
-// Real destination photography, each linking to its live hub page.
-const footerDestinations = destinations.slice(0, 6);
+// Every destination hub as a text link: real anchor text on every page, and
+// no image requests for the footer.
+const destinationLinks = destinations.map((d) => ({ label: d.name, href: d.href }));
 
 // Only Facebook and WhatsApp are confirmed Dhesu channels — add the rest here
 // once the real handles are known rather than linking to "#".
@@ -95,7 +91,7 @@ export default function Footer() {
               the brand block is widest, the short link list narrowest. */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-x-8 gap-y-12">
             {/* Brand */}
-            <div className="md:col-span-2 lg:col-span-4 lg:pr-8">
+            <div className="md:col-span-2 lg:col-span-3 lg:pr-4">
               <Link href="/" className="inline-block">
                 <Image
                   src="/images/dhesu_logos.png"
@@ -146,9 +142,15 @@ export default function Footer() {
             </div>
 
             {/* Holiday Ideas */}
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-2">
               <FooterHeading>Holiday Ideas</FooterHeading>
-              <LinkList links={holidayIdeas} />
+              <LinkList links={holidayIdeaLinks} />
+            </div>
+
+            {/* Destinations */}
+            <div className="lg:col-span-2">
+              <FooterHeading>Destinations</FooterHeading>
+              <LinkList links={destinationLinks} />
             </div>
 
             {/* Contact */}
@@ -197,45 +199,6 @@ export default function Footer() {
                 </ContactRow>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Top destinations: a full-width photo strip instead of a cramped
-          sixth column, so the thumbnails are large enough to recognise. */}
-      <div className="border-t border-gray-100 py-10">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex items-end justify-between gap-4 mb-6">
-            <h3 className="font-primary font-bold text-teal-navy text-lg">Top Destinations</h3>
-            <Link
-              href="/tours"
-              className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-dark hover:text-primary transition-colors"
-            >
-              View all destinations
-              <ArrowRight size={14} />
-            </Link>
-          </div>
-          <div className="grid grid-cols-3 md:grid-cols-6 gap-3">
-            {footerDestinations.map((dest) => (
-              <Link
-                key={dest.slug}
-                href={dest.href}
-                aria-label={`${dest.name} tours`}
-                className="relative overflow-hidden rounded-xl aspect-[4/3] group"
-              >
-                <Image
-                  src={dest.image}
-                  alt={dest.name}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  sizes="(max-width: 768px) 33vw, 200px"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-                <span className="absolute left-3 right-3 bottom-2.5 text-white text-xs sm:text-sm font-semibold truncate drop-shadow">
-                  {dest.name}
-                </span>
-              </Link>
-            ))}
           </div>
         </div>
       </div>

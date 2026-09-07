@@ -5,7 +5,7 @@ import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Hero from "@/src/components/homepage/Hero";
 import TourCategories from "@/src/components/homepage/TourCategories";
-// import Tourcat2 from "@/src/components/homepage/Tourcat2";
+import HolidayIdeas from "@/src/components/homepage/HolidayIdeas";
 import PlanYourTrip from "@/src/components/homepage/PlanYourTrip";
 import PopularTours from "@/src/components/homepage/PopularTours";
 import RecentGallery from "@/src/components/homepage/RecentGallery";
@@ -97,7 +97,7 @@ export default function Home() {
       <TourCategories />
       <PlanYourTrip />
       <PopularTours />
-      {/* <Tourcat2 /> */}
+      <HolidayIdeas />
       <RecentGallery />
       <WhyChooseDhesu />
       <Stats />
