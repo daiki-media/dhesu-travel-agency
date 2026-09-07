@@ -49,7 +49,7 @@ export const THAILAND_THEMES: ThailandLandingPage[] = [
     select: matchesKeywords(["Phuket", "Krabi", "Phi Phi", "James Bond Island"]),
     primaryKeyword: "phuket krabi holiday package",
     metaTitle:
-      "Phuket & Krabi Holiday Packages: The Best of Southern Thailand's Islands",
+      "Phuket & Krabi Holiday Packages from Malaysia: The Best of Southern Thailand's Islands",
     metaDescription:
       "Combine Phuket and Krabi in one island-hopping Thailand holiday. Beaches, island tours, and relaxed itineraries for Malaysian travellers.",
     h1: "Phuket & Krabi Holiday Packages: The Best of Southern Thailand's Islands",
@@ -59,7 +59,7 @@ export const THAILAND_THEMES: ThailandLandingPage[] = [
       "Phuket and Krabi are among the most popular beach resorts in the south of Thailand, and although both of them make excellent stand-alone destinations, taking a combination tour of the two to enjoy greater variety has become the choice of many tourists coming from Malaysia.",
     canonicalUrl: "/tours/thailand/phuket-krabi-holiday-guide-2026",
     ogTitle:
-      "Phuket & Krabi Holiday Packages: The Best of Southern Thailand's Islands",
+      "Phuket & Krabi Holiday Packages from Malaysia: The Best of Southern Thailand's Islands",
     ogDescription:
       "Combine Phuket and Krabi in one island-hopping Thailand holiday. Beaches, island tours, and relaxed itineraries for Malaysian travellers.",
     ogImage: "/images/guides/phang-nga-longtail.jpg",

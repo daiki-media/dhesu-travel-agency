@@ -123,11 +123,9 @@ export const navLinks: NavLink[] = [
       {
         heading: "By Type & Season",
         items: [
-          // The honeymoon row in the content sheet was split into one guide per
-          // destination; this links the comparison page that weighs them up.
           {
             label: "Honeymoon Ideas",
-            href: "/tours/mauritius/honeymoon-holiday-guide-2026",
+            href: "/honeymoon-holiday-guide-2026/",
           },
           {
             label: "Muslim-Friendly Tours",

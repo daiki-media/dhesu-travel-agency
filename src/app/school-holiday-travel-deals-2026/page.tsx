@@ -11,7 +11,7 @@ import {
 // Holiday Idea sheet, row 32. Title and description are copied verbatim; the
 // body copy comes from content-document/sesional&school-holiday/.
 const PATH = "/school-holiday-travel-deals-2026";
-const TITLE = "School Holiday Deals 2026: Family Packages While Availability Lasts";
+const TITLE = "School Holiday Deals 2026: Malaysian Family Packages While Availability Lasts";
 const DESCRIPTION =
   "School holiday holiday packages for 2026 — family-friendly destinations, limited-time pricing, and fast-filling dates. Book before slots run out.";
 

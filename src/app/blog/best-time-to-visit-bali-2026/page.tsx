@@ -10,9 +10,9 @@ import {
 
 // Holiday Idea sheet, row 36. Title and description are copied verbatim; the
 // body copy comes from content-document/travel-blog/.
-const TITLE = "Best Time to Visit Bali: A Month-by-Month Guide";
+const TITLE = "Best Time to Visit Bali From Malaysia: Month-by-Month Guide";
 const DESCRIPTION =
-  "When's the best time to visit Bali? A month-by-month breakdown of weather, crowds, and pricing to help you plan the perfect trip.";
+  "When's the best time for Malaysian travellers to visit Bali? A month-by-month breakdown of weather, crowds, and pricing to plan the perfect trip from Malaysia.";
 
 export const metadata: Metadata = {
   title: TITLE,

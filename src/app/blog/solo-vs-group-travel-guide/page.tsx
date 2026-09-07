@@ -10,9 +10,9 @@ import {
 
 // Holiday Idea sheet, row 41. Title and description are copied verbatim; the
 // body copy comes from content-document/travel-blog/.
-const TITLE = "Solo vs. Group Travel: Which Suits Your Next Trip?";
+const TITLE = "Solo vs Group Travel: What Suits Malaysian Travellers Best?";
 const DESCRIPTION =
-  "Solo or group travel — which fits your next trip? Compare cost, safety, flexibility, and experience to decide what suits you best.";
+  "Solo or group travel — which fits your next trip? A comparison for Malaysian travellers on cost, safety, flexibility, and overall experience.";
 
 export const metadata: Metadata = {
   title: TITLE,

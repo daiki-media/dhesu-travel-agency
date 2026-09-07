@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/muslim-friendly-holiday-travel-guide",
     "/group-incentive-travel-packages",
     "/star-cruise-holiday-guide-2026",
+    "/honeymoon-holiday-guide-2026",
     "/school-holiday-travel-deals-2026",
     "/year-end-holiday-travel-deals-2026",
     "/raya-holiday-travel-deals-2026",

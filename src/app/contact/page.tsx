@@ -12,7 +12,7 @@ import {
 
 const TITLE = "Contact Us | Dhesu Travel & Tours (M) Sdn Bhd";
 const DESCRIPTION =
-  "Talk to a Dhesu travel specialist. Call +603 2287 5525, WhatsApp +6019 336 4465 or email tours@dhesu.travel. Level 2 & 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.";
+  "Get in touch with Dhesu Travel & Tours for holiday enquiries and quotes. Call, WhatsApp, or email us, or visit our Bangsar office in Kuala Lumpur.";
 
 export const metadata: Metadata = {
   title: TITLE,

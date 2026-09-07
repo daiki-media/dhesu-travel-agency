@@ -11,9 +11,9 @@ import {
 // Holiday Idea sheet, row 40. Title and description are copied verbatim; the
 // body copy lives in HalalTravelArticle, taken from the approved draft in
 // content-document/travel-blog/.
-const TITLE = "Halal Travel Guide: Ranking the Best Muslim-Friendly Destinations";
+const TITLE = "Halal Travel Guide for Malaysian Muslim Travellers (2026 Ranking)";
 const DESCRIPTION =
-  "A practical halal travel guide ranking the best Muslim-friendly destinations by food access, prayer facilities, and overall travel ease.";
+  "A practical halal travel guide for Malaysian Muslim travellers, ranking the best Muslim-friendly destinations by food access, prayer facilities, and ease of travel.";
 
 export const metadata: Metadata = {
   title: TITLE,

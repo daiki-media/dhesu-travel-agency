@@ -9,9 +9,9 @@ import {
 } from "@/src/data/structuredData";
 
 // Holiday Idea sheet, row 38. Title and description are copied verbatim.
-const TITLE = "Budget Travel Tips for Families: Getting More From Every Ringgit";
+const TITLE = "Budget Travel Tips for Malaysian Families: Every Ringgit Counts";
 const DESCRIPTION =
-  "Practical budget travel tips for Malaysian families — save on flights, accommodation, and activities without compromising on a great holiday.";
+  "Practical budget travel tips for Malaysian families planning their next holiday — save on flights, accommodation, and activities without compromising the trip.";
 
 export const metadata: Metadata = {
   title: TITLE,

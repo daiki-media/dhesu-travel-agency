@@ -9,9 +9,9 @@ import {
 } from "@/src/data/structuredData";
 
 // Holiday Idea sheet, row 39. Title and description are copied verbatim.
-const TITLE = "Packing Guide for Tropical Destinations: The Complete Checklist";
+const TITLE = "Tropical Destination Packing Guide for Malaysian Travellers";
 const DESCRIPTION =
-  "A complete packing checklist for tropical destinations like Bali, Thailand, and Vietnam — clothing, essentials, and what to leave at home.";
+  "A complete packing checklist for Malaysian tourists heading to tropical destinations like Bali, Thailand, and Vietnam — essentials and what to leave at home.";
 
 export const metadata: Metadata = {
   title: TITLE,
