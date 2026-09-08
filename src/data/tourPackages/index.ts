@@ -111,6 +111,13 @@ import vietnamPhuQuoc3DaySuperSaver from "./vietnam/phu-quoc--3-day-phu-quoc-sup
 import vietnamPhuQuoc4DayCableCar from "./vietnam/phu-quoc--4-day-phu-quoc-cable-car.json";
 import vietnamPhuQuoc5DayBest from "./vietnam/phu-quoc--5-day-phu-quoc-best.json";
 
+import thailandPhuket3DayIslandEscape from "./thailand/phuket--3-day-island-escape-james-bond-canoeing.json";
+import thailandPhuket3DayCityFantasea from "./thailand/phuket--3-day-james-bond-city-fantasea.json";
+import thailandPhuket4DayPhiPhiFantasea from "./thailand/phuket--4-day-james-bond-phi-phi-fantasea.json";
+import thailandKrabi3Day4Islands from "./thailand/krabi--3-day-amazing-krabi-4-islands.json";
+import thailandKrabi3DayEmeraldPool from "./thailand/krabi--3-day-4-islands-emerald-pool.json";
+import thailandKrabi4DayHongIslands from "./thailand/krabi--4-day-tropical-escape-hong-islands.json";
+
 import cambodiaSiemReap3DayAngkor from "./cambodia/siem-reap--3-day-angkor-khmer-empire.json";
 import cambodiaSiemReap4DayBestTonleSap from "./cambodia/siem-reap--4-day-best-of-siem-reap-tonle-sap.json";
 import cambodiaSiemReap4DayKulen from "./cambodia/siem-reap--4-day-angkor-kingdom-sacred-mountain.json";
@@ -296,6 +303,12 @@ const packageDetails: Record<string, PackageDetailData> = {
   "surabaya-bromo/5-day-bromo-best-of-malang": indonesiaSurabayaBromo5DayBromoBestOfMalang as PackageDetailData,
   "jakarta-bandung/4-day-white-crater-volcano": indonesiaJakartaBandung4DayWhiteCraterVolcano as PackageDetailData,
   "jakarta-bandung/4-day-whoosh-bullet-train": indonesiaJakartaBandung4DayWhooshBulletTrain as PackageDetailData,
+  "phuket/3-day-island-escape-james-bond-canoeing": thailandPhuket3DayIslandEscape as PackageDetailData,
+  "phuket/3-day-james-bond-city-fantasea": thailandPhuket3DayCityFantasea as PackageDetailData,
+  "phuket/4-day-james-bond-phi-phi-fantasea": thailandPhuket4DayPhiPhiFantasea as PackageDetailData,
+  "krabi/3-day-amazing-krabi-4-islands": thailandKrabi3Day4Islands as PackageDetailData,
+  "krabi/3-day-4-islands-emerald-pool": thailandKrabi3DayEmeraldPool as PackageDetailData,
+  "krabi/4-day-tropical-escape-hong-islands": thailandKrabi4DayHongIslands as PackageDetailData,
 };
 
 export const packageSlugs = Object.keys(packageDetails);

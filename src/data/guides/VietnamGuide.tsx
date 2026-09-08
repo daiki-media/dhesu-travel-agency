@@ -1,9 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
+import { Bullet, DataTable, GuideFigure, INLINE_LINK, Section } from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -21,6 +22,14 @@ import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 const PHOTO = "/images/guides/saigon-city-hall.jpg";
 const PHOTO_ALT = "Cyclists in ao dai passing Ho Chi Minh City Hall";
 
+// The draft's own internal links. The .docx still points at the old
+// holidayidea.com.my URLs, so they are remapped here: search-travel.php?s=Vietnam
+// -> the destination hub, and each package.php?pkgid=N -> the package carrying
+// that pkgid in its meta.
+const VIETNAM_HUB = "/tours/vietnam";
+const NORTH_PACKAGE = "/tours/vietnam/north-vietnam/4-day-hanoi-halong-luxury";
+const CENTRAL_PACKAGE = "/tours/vietnam/central-vietnam/4-day-danang-hoi-an-bana";
+const SOUTH_PACKAGE = "/tours/vietnam/south-vietnam/5-day-saigon-cu-chi-mui-ne";
 
 const regionsTable = [
   {
@@ -40,18 +49,58 @@ const regionsTable = [
   },
 ];
 
-const byRegion = [
+const byRegion: { title: string; body: React.ReactNode }[] = [
   {
     title: "North Vietnam: Hanoi & Halong Bay",
-    body: "The itinerary for North Vietnam continues to be one of the top requests, thanks to the long history of its capital city Hanoi and the UNESCO World Heritage Site of Halong Bay. The North Vietnam tour includes a visit to the ancient feel of the old quarter in Hanoi as well as an exploration of Halong Bay, usually involving at least one overnight stay onboard. Sometimes the mountainous region of Sapa is included in the package for those wishing to cool off.",
+    body: (
+      <>
+        The itinerary for North Vietnam continues to be one of the top requests, thanks to
+        the long history of its capital city{" "}
+        <Link href={NORTH_PACKAGE} className={INLINE_LINK}>
+          Hanoi and the UNESCO World Heritage Site of Halong Bay
+        </Link>
+        . The North Vietnam tour includes a visit to the ancient feel of the old quarter in
+        Hanoi as well as an exploration of Halong Bay, usually involving at least one
+        overnight stay onboard. Sometimes the mountainous region of Sapa is included in the
+        package for those wishing to cool off.
+      </>
+    ),
   },
   {
     title: "Central Vietnam: Da Nang, Hoi An & Hue",
-    body: "Vietnam Central has become increasingly popular, especially for tourists looking for a combination of both beach fun and culture. There is Da Nang city where you can relax on the coast and visit the amazing Ba Na Hills (the place that is home to the well-known Golden Bridge). Another place to explore in Vietnam Central is the old city of Hoi An, where you can take a stroll down the streets of lanterns and admire the well-preserved buildings. One can easily travel between the cities of Da Nang and Hue using a beautiful train trip along the coast of Vietnam.",
+    body: (
+      <>
+        Vietnam Central has become increasingly popular, especially for tourists looking
+        for a combination of both beach fun and culture. There is{" "}
+        <Link href={CENTRAL_PACKAGE} className={INLINE_LINK}>
+          Da Nang city
+        </Link>{" "}
+        where you can relax on the coast and visit the amazing Ba Na Hills (the place that
+        is home to the well-known Golden Bridge). Another place to explore in Vietnam
+        Central is the{" "}
+        <Link href={CENTRAL_PACKAGE} className={INLINE_LINK}>
+          old city of Hoi An
+        </Link>
+        , where you can take a stroll down the streets of lanterns and admire the
+        well-preserved buildings. One can easily travel between the cities of Da Nang and
+        Hue using a beautiful train trip along the coast of Vietnam.
+      </>
+    ),
   },
   {
     title: "South Vietnam: Ho Chi Minh City, Mui Ne & Dalat",
-    body: "The south itinerary will be based on the hustle and bustle of Ho Chi Minh City streets and markets, often supplemented by day trips or add-ons to the sand dunes and beaches of Mui Ne or the cooler climes and flower gardens of Dalat. This area is usually attractive to those seeking a blend of city life and natural settings close by.",
+    body: (
+      <>
+        The south itinerary will be based on the hustle and bustle of Ho Chi Minh City
+        streets and markets, often supplemented by day trips or add-ons to the sand dunes
+        and{" "}
+        <Link href={SOUTH_PACKAGE} className={INLINE_LINK}>
+          beaches of Mui Ne
+        </Link>{" "}
+        or the cooler climes and flower gardens of Dalat. This area is usually attractive
+        to those seeking a blend of city life and natural settings close by.
+      </>
+    ),
   },
 ];
 
@@ -96,8 +145,12 @@ export default function VietnamGuide() {
     <>
       <Section label="Regions" heading="Vietnam's three distinct regions">
         <p className="text-gray-600 leading-relaxed mb-6">
-          Because Vietnam is a long, narrow country, most itineraries focus on one or two
-          regions rather than attempting the entire country in a single short trip.
+          Because{" "}
+          <Link href={VIETNAM_HUB} className={INLINE_LINK}>
+            Vietnam
+          </Link>{" "}
+          is a long, narrow country, most itineraries focus on one or two regions rather
+          than attempting the entire country in a single short trip.
         </p>
         <DataTable
           headers={["Region", "Key destinations", "Known for"]}

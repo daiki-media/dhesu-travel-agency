@@ -1,9 +1,17 @@
 "use client";
 
+import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives";
+import {
+  Bullet,
+  DataTable,
+  GuideFigure,
+  INLINE_LINK,
+  Section,
+  TripRows,
+} from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -22,6 +30,12 @@ import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives"
 const PHOTO = "/images/guides/phuket-island-cove.jpg";
 const PHOTO_ALT = "Longtail boats moored in a palm-fringed cove in the Andaman Sea";
 
+// The draft's own internal links. The .docx points at the old
+// holidayidea.com.my search pages (search-travel.php?s=Phuket / s=Krabi); those
+// listings were migrated into the two region pages below, so each anchor
+// resolves to the island it actually names.
+const PHUKET = "/tours/thailand/phuket";
+const KRABI = "/tours/thailand/krabi";
 
 const characterTable = [
   {
@@ -36,23 +50,63 @@ const characterTable = [
   },
 ];
 
-const whatToExpect = [
+const whatToExpect: { title: string; body: React.ReactNode }[] = [
   {
     title: "What to Expect in Phuket",
-    body: "There is a good blend of beach and urban facilities that Phuket provides. Patong Beach is still the most popular beach of the island when it comes to night-time enjoyment. However, there are also other quiet beaches like Kata and Karon that provide a more laid-back beach experience without being too distant from Phuket's facilities. There are also many islands near Phuket where tourists usually visit during their stay on the island.",
+    body: (
+      <>
+        There is a good blend of beach and urban facilities that{" "}
+        <Link href={PHUKET} className={INLINE_LINK}>
+          Phuket
+        </Link>{" "}
+        provides. Patong Beach is still the most popular beach of the island when it comes
+        to night-time enjoyment. However, there are also other quiet beaches like Kata and
+        Karon that provide a more laid-back beach experience without being too distant from
+        Phuket&apos;s facilities. There are also many islands near Phuket where tourists
+        usually visit during their stay on the island.
+      </>
+    ),
   },
   {
     title: "What to Expect in Krabi",
-    body: "The natural landscape of Krabi consists of beautiful karsts of limestones rising up from the ocean, especially around Railay Beach, a beautiful peninsula that can be reached via boat since it is surrounded by cliffs which make road access impossible. Krabi is usually less developed compared to Phuket, as it is more suited for travelers interested in combining beach life with hiking and rock climbing.",
+    body: (
+      <>
+        The natural landscape of{" "}
+        <Link href={KRABI} className={INLINE_LINK}>
+          Krabi
+        </Link>{" "}
+        consists of beautiful karsts of limestones rising up from the ocean, especially
+        around Railay Beach, a beautiful peninsula that can be reached via boat since it is
+        surrounded by cliffs which make road access impossible. Krabi is usually less
+        developed compared to Phuket, as it is more suited for travelers interested in
+        combining beach life with hiking and rock climbing.
+      </>
+    ),
   },
 ];
 
+// The draft bolds the lead phrase of each of these.
 const islandHopping = [
-  "Phi Phi Islands - Dramatic cliffs, clear water, and Maya Bay's iconic scenery",
-  "James Bond Island (Koh Tapu) - A striking limestone pillar made famous by the film franchise, located in Phang Nga Bay",
-  "Railay Beach - Krabi's cliff-bound peninsula, accessible only by boat",
-  "Emerald Pool and Tiger Cave Temple - Inland nature and cultural stops near Krabi town",
-  "Panyee Village - A Muslim fishing village built on stilts over the water in Phang Nga Bay",
+  {
+    label: "Phi Phi Islands",
+    body: "Dramatic cliffs, clear water, and Maya Bay's iconic scenery",
+  },
+  {
+    label: "James Bond Island (Koh Tapu)",
+    body: "A striking limestone pillar made famous by the film franchise, located in Phang Nga Bay",
+  },
+  {
+    label: "Railay Beach",
+    body: "Krabi's cliff-bound peninsula, accessible only by boat",
+  },
+  {
+    label: "Emerald Pool and Tiger Cave Temple",
+    body: "Inland nature and cultural stops near Krabi town",
+  },
+  {
+    label: "Panyee Village",
+    body: "A Muslim fishing village built on stilts over the water in Phang Nga Bay",
+  },
 ];
 
 const itineraryStructure = [
@@ -91,11 +145,13 @@ export default function PhuketKrabiGuide() {
       <Section label="Why Combine" heading="Why combine Phuket and Krabi?">
         <p className="text-gray-600 leading-relaxed mb-6">
           While only separated by a relatively brief water or land journey, Phuket and
-          Krabi have their own unique personality. As Thailand&rsquo;s largest island,
-          Phuket has more nightlife, shopping, and facilities, while Krabi is renowned for
-          its stunning cliffs, calm beaches, and relaxed pace. Getting both islands in one
-          vacation ensures that you experience the excitement of an island and also the
-          tranquility of nature.
+          Krabi have their own unique personality. As Thailand&rsquo;s largest island,{" "}
+          <Link href={PHUKET} className={INLINE_LINK}>
+            Phuket has more nightlife
+          </Link>
+          , shopping, and facilities, while Krabi is renowned for its stunning cliffs, calm
+          beaches, and relaxed pace. Getting both islands in one vacation ensures that you
+          experience the excitement of an island and also the tranquility of nature.
         </p>
         <DataTable
           headers={["Destination", "Character", "Best for"]}
@@ -128,7 +184,10 @@ export default function PhuketKrabiGuide() {
         </p>
         <ul className="space-y-4">
           {islandHopping.map((item) => (
-            <Bullet key={item}>{item}</Bullet>
+            <Bullet key={item.label}>
+              <strong className="font-semibold text-teal-navy">{item.label}</strong> -{" "}
+              {item.body}
+            </Bullet>
           ))}
         </ul>
       </Section>
@@ -168,8 +227,12 @@ export default function PhuketKrabiGuide() {
       <Section label="Choosing" heading="Choosing between Phuket-only, Krabi-only, or combined">
         <p className="text-gray-600 leading-relaxed">
           For those who want their holiday to include nightlife and shopping, along with
-          more choices for eating out and staying at resorts, then a Phuket-only holiday
-          might be for you. However, if natural beauty and tranquility are the key things
+          more choices for eating out and staying at resorts, then a{" "}
+          <Link href={PHUKET} className={INLINE_LINK}>
+            Phuket
+          </Link>
+          -only holiday might be for you. However, if natural beauty and tranquility are
+          the key things
           that you are looking for, then the Krabi-focused holiday can be done separately.
           But for most people visiting for the first time, an ideal way would be to combine
           both holidays.
@@ -182,7 +245,11 @@ export default function PhuketKrabiGuide() {
           Thailand worth visiting because the culinary side of Southern Thailand,
           especially seafood and curries with unique spices, differs from the Bangkok one,
           and the tourists can enjoy it while being there. Night markets on the Phuket
-          Island as well as Krabi town are popular and easy ways to try local cuisine
+          Island as well as{" "}
+          <Link href={KRABI} className={INLINE_LINK}>
+            Krabi town
+          </Link>{" "}
+          are popular and easy ways to try local cuisine
           without paying lots of money, and it&rsquo;s common that travelers&rsquo;
           schedules have some free time for them.
         </p>

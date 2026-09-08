@@ -99,7 +99,8 @@
         "tagColor": "orange",
         "description": "Thailand's biggest island. Resorts, international infrastructure, Phi Phi day trips and a nightlife scene that runs until dawn.",
         "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&auto=format&fit=crop",
-        "vibe": "Lively"
+        "vibe": "Lively",
+        "href": "/tours/thailand/phuket"
       },
       {
         "name": "Krabi",
@@ -107,7 +108,8 @@
         "tagColor": "green",
         "description": "Dramatic limestone karsts, Railay Beach and the Four Islands tour. Quieter and more scenic than Phuket, and a climber's paradise.",
         "image": "https://images.unsplash.com/photo-1598935898639-81586f7d2129?w=800&auto=format&fit=crop",
-        "vibe": "Scenic"
+        "vibe": "Scenic",
+        "href": "/tours/thailand/krabi"
       },
       {
         "name": "Chiang Mai",
@@ -175,109 +177,115 @@
   "packages": {
     "sectionLabel": "Our Packages",
     "heading": "Thailand Packages for Every Trip",
-    "subheading": "Packages include transfers, accommodation we have personally vetted, and guided tours where they add real value. The rest of the time is yours. International flights can be added on request.",
-    "ctaNote": "Honeymoon and romantic escapes available for all destinations.",
+    "subheading": "Packages include private airport transfers, accommodation we have personally vetted, and guided island tours with an English-speaking guide. The rest of the time is yours. International flights can be added on request.",
+    "ctaNote": "Bangkok and Chiang Mai itineraries are arranged on request — tell us your dates and we will build one.",
     "items": [
       {
-        "id": "thailand-phuket",
-        "name": "Phuket Island & Phi Phi",
-        "duration": "3D / 4D",
-        "price": "From RM688",
+        "id": "thailand-phuket-4d-phi-phi-fantasea",
+        "slug": "phuket/4-day-james-bond-phi-phi-fantasea",
+        "name": "4 Days Explore Phuket: James Bond Island, Phi Phi & FantaSea",
+        "duration": "4D3N",
+        "price": "From RM1,388",
         "priceNote": "per person",
         "tag": "Most Popular",
         "tagColor": "red",
         "highlights": [
-          "Phi Phi Day Trip",
-          "Island Hopping",
-          "Beach Resort",
-          "Phuket Old Town"
+          "Phi Phi & Maya Bay",
+          "James Bond Island",
+          "Phuket Old Town",
+          "FantaSea Show"
         ],
-        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
+        "image": "/images/guides/phang-nga-longtail.jpg",
         "popular": true
       },
       {
-        "id": "thailand-krabi",
-        "name": "Krabi Railay & Four Islands",
-        "duration": "3D / 4D",
-        "price": "From RM788",
+        "id": "thailand-phuket-3d-island-escape",
+        "slug": "phuket/3-day-island-escape-james-bond-canoeing",
+        "name": "3 Days Phuket Island Escape: James Bond Island & Canoeing",
+        "duration": "3D2N",
+        "price": "From RM728",
         "priceNote": "per person",
-        "tag": "Scenic",
+        "tag": "Best Value",
         "tagColor": "green",
         "highlights": [
-          "Railay Beach",
-          "Four Islands Tour",
-          "Tiger Cave Temple",
-          "Beachfront Stay"
+          "Phang Nga Bay",
+          "James Bond Island",
+          "Sea Canoeing",
+          "Naka Island"
         ],
-        "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
+        "image": "/images/guides/phang-nga-longtail.jpg",
         "popular": false
       },
       {
-        "id": "thailand-bangkok",
-        "name": "Bangkok Temples, Markets & River",
-        "duration": "3D / 4D",
-        "price": "From RM688",
-        "priceNote": "per person",
-        "tag": "City Break",
-        "tagColor": "orange",
-        "highlights": [
-          "Grand Palace & Wat Pho",
-          "Chao Phraya River",
-          "Night Markets",
-          "Street Food"
-        ],
-        "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&auto=format&fit=crop",
-        "popular": false
-      },
-      {
-        "id": "thailand-chiang-mai",
-        "name": "Chiang Mai Temples & Elephants",
-        "duration": "4D3N",
-        "price": "From RM988",
+        "id": "thailand-phuket-3d-city-fantasea",
+        "slug": "phuket/3-day-james-bond-city-fantasea",
+        "name": "3 Days Phuket: City Highlights, Phang Nga Bay & FantaSea",
+        "duration": "3D2N",
+        "price": "From RM1,188",
         "priceNote": "per person",
         "tag": "Culture",
         "tagColor": "blue",
         "highlights": [
-          "Doi Suthep Temple",
-          "Ethical Elephant Sanctuary",
-          "Night Bazaar",
-          "Old City Tour"
+          "Promthep Cape",
+          "Wat Chalong",
+          "Phuket Old Town",
+          "FantaSea Show"
         ],
-        "image": "https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?w=800&auto=format&fit=crop",
+        "image": "/images/guides/phang-nga-longtail.jpg",
         "popular": false
       },
       {
-        "id": "thailand-bangkok-chiang-mai",
-        "name": "Bangkok + Chiang Mai Combo",
-        "duration": "From 5D",
-        "price": "From RM1,488",
+        "id": "thailand-krabi-3d-4-islands",
+        "slug": "krabi/3-day-amazing-krabi-4-islands",
+        "name": "3 Days Amazing Krabi: 4 Islands Adventure",
+        "duration": "3D2N",
+        "price": "From RM528",
         "priceNote": "per person",
-        "tag": "City + North",
-        "tagColor": "purple",
+        "tag": "Best Value",
+        "tagColor": "green",
         "highlights": [
-          "City Sightseeing",
-          "Northern Temples",
-          "Internal Flight",
-          "Daily Breakfast"
+          "Phranang Cave",
+          "Chicken Island",
+          "Tup Island Sandbar",
+          "Poda Island"
         ],
-        "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&auto=format&fit=crop",
+        "image": "/images/guides/phuket-island-cove.jpg",
         "popular": false
       },
       {
-        "id": "thailand-phuket-krabi",
-        "name": "Phuket + Krabi Combo",
-        "duration": "From 5D",
-        "price": "From RM1,388",
+        "id": "thailand-krabi-3d-emerald-pool",
+        "slug": "krabi/3-day-4-islands-emerald-pool",
+        "name": "3 Days Krabi: 4 Islands, Emerald Pool & Hot Springs",
+        "duration": "3D2N",
+        "price": "From RM748",
         "priceNote": "per person",
-        "tag": "Two Coasts",
+        "tag": "Scenic",
         "tagColor": "teal",
         "highlights": [
-          "Phi Phi & Four Islands",
-          "Railay Beach",
-          "Speedboat Transfers",
-          "Beach Resorts"
+          "Emerald Pool",
+          "Hot Spring Waterfalls",
+          "Tiger Cave Temple",
+          "4 Islands Tour"
         ],
-        "image": "https://images.unsplash.com/photo-1598935898639-81586f7d2129?w=800&auto=format&fit=crop",
+        "image": "/images/guides/phuket-island-cove.jpg",
+        "popular": false
+      },
+      {
+        "id": "thailand-krabi-4d-hong-islands",
+        "slug": "krabi/4-day-tropical-escape-hong-islands",
+        "name": "4 Days Krabi Tropical Escape: Hong Lagoon & Kayaking",
+        "duration": "4D3N",
+        "price": "From RM1,088",
+        "priceNote": "per person",
+        "tag": "Adventure",
+        "tagColor": "orange",
+        "highlights": [
+          "Hong Lagoon",
+          "Kayaking",
+          "4 Islands Tour",
+          "Emerald Pool"
+        ],
+        "image": "/images/guides/phuket-island-cove.jpg",
         "popular": false
       }
     ]
