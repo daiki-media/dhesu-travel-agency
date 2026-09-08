@@ -44,7 +44,7 @@ export const MYANMAR_THEMES: MyanmarLandingPage[] = [
       "Myanmar tour packages from Malaysia: Bagan's ancient temples, Yangon's golden pagodas, and Inle Lake's unique culture in one itinerary.",
     h1: "Myanmar Tour Packages From Malaysia: Bagan's Temples & Cultural Heritage",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/MyanmarGuide.tsx.
+    // src/data/guides/MyanmarGuide.tsx.
     intro:
       "Myanmar is still an extremely fascinating country in terms of its unique temples in Bagan, which can be considered one of the most spectacular archaeological sites in the world.",
     canonicalUrl: "/tours/myanmar/myanmar-tour-travel-guide-2026",

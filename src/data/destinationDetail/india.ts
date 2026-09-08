@@ -228,7 +228,7 @@ export const THEMES: IndiaLandingPage[] = [
       "India tour packages from Malaysia: Taj Mahal, Kerala backwaters, Kashmir, and spiritual journeys. Private, customizable itineraries available.",
     h1: "India Tour Packages From Malaysia: Taj Mahal, Kerala, Kashmir & Beyond",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/IndiaGuide.tsx.
+    // src/data/guides/IndiaGuide.tsx.
     intro:
       "Not many countries can boast the variety of experiences that India does right from the majestic white domes of the Taj Mahal to the peaceful backwaters of Kerala to the snowy peaks of Kashmir and its cable cars. For the Malaysian traveler, there is something about India that naturally draws one towards it, both culturally and spiritually.",
     canonicalUrl: "/tours/india/india-tour-travel-guide-2026",

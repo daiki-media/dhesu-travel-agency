@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import AllPagesHero from "@/src/components/AllPagesHero";
 import FaqSection from "@/src/components/FaqSection";
@@ -81,11 +82,28 @@ const supportSituations = [
   "A local guide or transport arrangement doesn't show up as expected",
 ];
 
-const complexTrips = [
-  "Multi-country itineraries requiring coordinated transport and logistics across borders",
-  "Destinations with limited English-language infrastructure, where local support matters more",
-  "Pilgrimage or culturally specific travel, where getting the sequencing and access right requires genuine local knowledge",
-  "First-time visits to unfamiliar regions, where you don't yet know what you don't know",
+// The draft bolds the lead phrase of each and links two of them. The .docx
+// still points at the old holidayidea.com.my URLs, so they are remapped here:
+// /IconicAsean/ -> the destination index, /SpiritualIndia/ -> Varanasi.
+const complexTrips: { label: string; body: string; href?: string }[] = [
+  {
+    label: "Multi-country itineraries",
+    body: " requiring coordinated transport and logistics across borders",
+    href: "/tours",
+  },
+  {
+    label: "Destinations with limited English-language infrastructure",
+    body: ", where local support matters more",
+  },
+  {
+    label: "Pilgrimage or culturally specific travel",
+    body: ", where getting the sequencing and access right requires genuine local knowledge",
+    href: "/tours/india/varanasi",
+  },
+  {
+    label: "First-time visits to unfamiliar regions",
+    body: ", where you don't yet know what you don't know",
+  },
 ];
 
 // The draft writes these as "Label - explanation"; split so the label can lead.
@@ -107,6 +125,9 @@ const diyPitfalls = [
     body: "Having no established point of contact if a hotel booking falls through or a local operator cancels last minute",
   },
 ];
+
+const INLINE_LINK =
+  "font-semibold text-teal-navy underline decoration-primary/40 underline-offset-4 hover:decoration-primary transition-colors";
 
 /** Script eyebrow, borrowing the Montez face the homepage hero uses. */
 function Eyebrow({ children, tone = "dark" }: { children: string; tone?: "dark" | "light" }) {
@@ -197,9 +218,9 @@ export default function WhyBookContent({
             With hundreds of websites that allow you to compare flights, mobile
             applications that help you reserve hotels, and an abundance of travel blogs, it
             might be reasonable to question whether there is any reason to book a trip via a
-            travel agent. However, self-booking and booking via a travel agent tackle
-            completely different issues — and a lot of times booking through a travel agent
-            wins.
+            travel agent. However, it should be mentioned that self-booking and booking via a
+            travel agent tackle completely different issues and a lot of times booking
+            through a travel agent wins. The reasons why will be outlined below.
           </motion.p>
         </div>
       </section>
@@ -218,7 +239,7 @@ export default function WhyBookContent({
           >
             <Eyebrow>Three ways to book</Eyebrow>
             <h2 className="font-primary font-bold text-[#1a1a1a] text-[1.75rem] md:text-[2rem] leading-[1.2] tracking-[-0.01em]">
-              The Core Trade-Off
+              The Core Trade-Off: Control vs. Convenience and Expertise
             </h2>
             <p className="text-gray-600 text-[15px] md:text-base leading-relaxed mt-6">
               When it all comes down to self-booking, then one is in total control of making
@@ -320,9 +341,16 @@ export default function WhyBookContent({
       {/* ── CUSTOM ITINERARIES ────────────────────────────────────────────── */}
       <section className="py-10 lg:py-12 bg-teal-light/40">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <Argument eyebrow="Built from experience" heading="Custom Itineraries, Not Search Results">
+          <Argument
+            eyebrow="Built from experience"
+            heading="Custom Itineraries Built From Real Experience"
+          >
             <p className="text-gray-600 text-[15px] md:text-base leading-relaxed">
-              Anyone can search &ldquo;best things to do in Bali&rdquo; and get a list. What a
+              Anyone can search{" "}
+              <Link href="/tours/indonesia/bali" className={INLINE_LINK}>
+                &ldquo;best things to do in Bali&rdquo;
+              </Link>{" "}
+              and get a list. What a
               travel agent offers is different: an itinerary shaped by actual traveller
               feedback, seasonal knowledge, and an understanding of how activities and
               destinations fit together logistically.
@@ -347,7 +375,7 @@ export default function WhyBookContent({
       {/* ── GROUP RATES ───────────────────────────────────────────────────── */}
       <section className="py-10 lg:py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <Argument eyebrow="Pricing" heading="Rates You Cannot Reach on Your Own">
+          <Argument eyebrow="Pricing" heading="Group Rates and Package Pricing">
             <p className="text-gray-600 text-[15px] md:text-base leading-relaxed">
               The travel agencies also benefit from negotiated discounts with the hotels,
               ground transportation companies, and other operators. In particular, this
@@ -368,7 +396,7 @@ export default function WhyBookContent({
       {/* ── ON-GROUND SUPPORT ─────────────────────────────────────────────── */}
       <section className="py-10 lg:py-12 bg-teal-light/40">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <Argument eyebrow="When plans break" heading="Local Support When You Need It">
+          <Argument eyebrow="When plans break" heading="Local, On-Ground Support When You Need It">
             <p className="text-gray-600 text-[15px] md:text-base leading-relaxed">
               Maybe the single most overlooked benefit of working with a travel agent may not
               become clear until things start going wrong like a missed flight, an incorrect
@@ -397,7 +425,7 @@ export default function WhyBookContent({
       {/* ── TIME SAVED + COMPLEX DESTINATIONS ─────────────────────────────── */}
       <section className="py-10 lg:py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 space-y-12 lg:space-y-14">
-          <Argument eyebrow="Hours, not weeks" heading="Research and Planning, Handled">
+          <Argument eyebrow="Hours, not weeks" heading="Time Saved on Research and Planning">
             <p className="text-gray-600 text-[15px] md:text-base leading-relaxed">
               A well-rounded research for a multi-destination holiday that involves flight
               bookings, hotel research, itinerary preparation, visa application, and
@@ -409,7 +437,7 @@ export default function WhyBookContent({
 
           <Argument
             eyebrow="Where it matters most"
-            heading="Complex or Unfamiliar Destinations"
+            heading="Better Suited to Complex or Unfamiliar Destinations"
           >
             <p className="text-gray-600 text-[15px] md:text-base leading-relaxed mb-8">
               DIY booking tends to work well for simple, familiar trips — a short beach
@@ -418,7 +446,16 @@ export default function WhyBookContent({
             </p>
             <ul className="space-y-4">
               {complexTrips.map((item) => (
-                <Bullet key={item}>{item}</Bullet>
+                <Bullet key={item.label}>
+                  {item.href ? (
+                    <Link href={item.href} className={INLINE_LINK}>
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <strong className="font-semibold text-teal-navy">{item.label}</strong>
+                  )}
+                  {item.body}
+                </Bullet>
               ))}
             </ul>
             <Figure
@@ -443,7 +480,7 @@ export default function WhyBookContent({
           >
             <Eyebrow>A realistic look</Eyebrow>
             <h2 className="font-primary font-bold text-[#1a1a1a] text-[1.75rem] md:text-[2rem] leading-[1.2] tracking-[-0.01em] mb-6">
-              What Goes Wrong With DIY Booking
+              A Realistic Look at What Can Go Wrong With DIY Booking
             </h2>
             <p className="text-gray-600 text-[15px] md:text-base leading-relaxed">
               It&rsquo;s worth being specific about the kinds of problems that self-booked
@@ -501,7 +538,7 @@ export default function WhyBookContent({
                 Being honest about it
               </p>
               <h3 className="font-primary font-bold text-white text-2xl leading-snug mb-5">
-                When DIY booking genuinely makes sense
+                When DIY Booking Genuinely Makes Sense
               </h3>
               <p className="text-white/70 text-[15px] leading-relaxed">
                 However, to be honest, self-booking can be quite an acceptable alternative in
@@ -560,6 +597,7 @@ export default function WhyBookContent({
         imageAlt="A calm turquoise lagoon fringed by trees"
         heading="Let an Experienced Consultant Plan Your Next Trip"
         body="Skip the hours of research and get a personalised itinerary backed by decades of destination expertise. Request a free quote today."
+        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
       />
     </>
   );

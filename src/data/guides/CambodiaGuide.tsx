@@ -1,12 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
+import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 
 /**
  * Body copy is taken verbatim from
@@ -24,10 +22,6 @@ import { getGuideFaqs } from "@/src/data/guideFaqs";
 const PHOTO = "/images/guides/ta-prohm.jpg";
 const PHOTO_ALT = "Fig roots growing over the ruins of Ta Prohm at Angkor";
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
 
 const temples = [
   "Angkor Wat — The iconic centrepiece, best experienced with expert guides who can explain its history and architectural significance",
@@ -65,41 +59,7 @@ const included = [
 // Shared with the route, which emits the same list as FAQPage markup.
 const faqs = getGuideFaqs("cambodia", "cambodia-tour-travel-guide-2026");
 
-/** Section wrapper: label, heading, then the body. */
-function Section({
-  label,
-  heading,
-  children,
-}: {
-  label: string;
-  heading: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <motion.div
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-60px" }}
-      variants={fadeUp}
-    >
-      <SectionLabel text={label} />
-      <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-6">
-        {heading}
-      </h2>
-      {children}
-    </motion.div>
-  );
-}
 
-/** List item marked with a short rule rather than an icon tile. */
-function Bullet({ children }: { children: React.ReactNode }) {
-  return (
-    <li className="flex gap-4">
-      <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
-      <span className="text-gray-600 text-[15px] leading-relaxed">{children}</span>
-    </li>
-  );
-}
 
 export default function CambodiaGuide() {
   return (
@@ -157,21 +117,7 @@ export default function CambodiaGuide() {
         </p>
       </Section>
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="relative h-64 md:h-80 overflow-hidden rounded-2xl"
-      >
-        <Image
-          src={PHOTO}
-          alt={PHOTO_ALT}
-          fill
-          className="object-cover"
-          sizes="(max-width: 1024px) 100vw, 66vw"
-        />
-      </motion.div>
+      <GuideFigure src={PHOTO} alt={PHOTO_ALT} />
 
       <Section label="Multi-Country" heading="Combining Cambodia with Vietnam">
         <p className="text-gray-600 leading-relaxed mb-8">
@@ -185,38 +131,11 @@ export default function CambodiaGuide() {
           visitors a chance to visit the historic Angkor Wat while enjoying the unique features
           of Vietnam at the same time.
         </p>
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[640px] border-collapse text-left">
-            <thead>
-              <tr className="border-b-2 border-teal-navy">
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6 w-1/4">
-                  Trip style
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6">
-                  Typical duration
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3">
-                  Best suited for
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {tripStyles.map((row) => (
-                <tr key={row.style} className="border-b border-gray-200">
-                  <td className="py-5 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] align-top">
-                    {row.style}
-                  </td>
-                  <td className="py-5 pr-6 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.duration}
-                  </td>
-                  <td className="py-5 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.suits}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <DataTable
+          headers={["Trip style", "Typical duration", "Best suited for"]}
+          widths={["w-1/4", undefined, undefined]}
+          rows={tripStyles.map((row) => [row.style, row.duration, row.suits])}
+        />
       </Section>
 
       <Section label="Inclusions" heading="What's typically included in a Cambodia package">

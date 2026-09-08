@@ -23,9 +23,13 @@ import MauritiusHoneymoonGuide from "./MauritiusHoneymoonGuide";
  *
  * A guide is a landing page under /tours/<destination>/<key>, so its metadata,
  * hero lead and package selection live in
- * src/data/destinationDetail/<destination>.ts like any other landing page. Only
- * the article itself lives here, because it is long-form markup rather than
- * data.
+ * src/data/destinationDetail/<destination>.ts like any other landing page, and
+ * its FAQs in src/data/guideFaqs.ts. The article itself lives here, alongside
+ * them: it is page content like the rest, written as markup only because it
+ * carries inline links and tables that a plain string could not hold.
+ *
+ * The shared look — Section, Bullet, DataTable, TripRows — is in ./primitives,
+ * so a guide file holds nothing but its own copy.
  *
  * Keyed by `<destination>/<key>` — the two segments the route resolves. A
  * landing page with no entry renders through TourRegionTemplate as before; one

@@ -1,12 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
+import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 
 /**
  * The Mauritius cut of the honeymoon-comparison draft at
@@ -27,10 +25,6 @@ import { getGuideFaqs } from "@/src/data/guideFaqs";
 const PHOTO = "/images/guides/mauritius-hotel-room.jpg";
 const PHOTO_ALT = "A resort room on the Mauritius coast";
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
 
 const comparisonTable = [
   {
@@ -84,84 +78,17 @@ const emergingDestinations = [
 // Shared with the route, which emits the same list as FAQPage markup.
 const faqs = getGuideFaqs("mauritius", "honeymoon-holiday-guide-2026");
 
-/** Section wrapper: label, heading, then the body. */
-function Section({
-  label,
-  heading,
-  children,
-}: {
-  label: string;
-  heading: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <motion.div
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-60px" }}
-      variants={fadeUp}
-    >
-      <SectionLabel text={label} />
-      <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-6">
-        {heading}
-      </h2>
-      {children}
-    </motion.div>
-  );
-}
 
-/** List item marked with a short rule rather than an icon tile. */
-function Bullet({ children }: { children: React.ReactNode }) {
-  return (
-    <li className="flex gap-4">
-      <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
-      <span className="text-gray-600 text-[15px] leading-relaxed">{children}</span>
-    </li>
-  );
-}
 
 export default function MauritiusHoneymoonGuide() {
   return (
     <>
       <Section label="Comparison" heading="Comparing Malaysia's top honeymoon destinations">
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[640px] border-collapse text-left">
-            <thead>
-              <tr className="border-b-2 border-teal-navy">
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6 w-1/5">
-                  Destination
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6">
-                  Flight time from Malaysia
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6">
-                  Best for
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3">
-                  Typical trip length
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {comparisonTable.map((row) => (
-                <tr key={row.destination} className="border-b border-gray-200">
-                  <td className="py-5 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] align-top">
-                    {row.destination}
-                  </td>
-                  <td className="py-5 pr-6 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.flightTime}
-                  </td>
-                  <td className="py-5 pr-6 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.bestFor}
-                  </td>
-                  <td className="py-5 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.tripLength}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <DataTable
+          headers={["Destination", "Flight time from Malaysia", "Best for", "Typical trip length"]}
+          widths={["w-1/5", undefined, undefined, undefined]}
+          rows={comparisonTable.map((row) => [row.destination, row.flightTime, row.bestFor, row.tripLength])}
+        />
       </Section>
 
       <Section label="Why Mauritius" heading="Mauritius: ultra-luxury island seclusion">
@@ -182,52 +109,18 @@ export default function MauritiusHoneymoonGuide() {
         </ul>
       </Section>
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="relative h-64 md:h-80 overflow-hidden rounded-2xl"
-      >
-        <Image
-          src={PHOTO}
-          alt={PHOTO_ALT}
-          fill
-          className="object-cover"
-          sizes="(max-width: 1024px) 100vw, 66vw"
-        />
-      </motion.div>
+      <GuideFigure src={PHOTO} alt={PHOTO_ALT} />
 
       <Section
         label="Other Options"
         heading="Other emerging honeymoon destinations worth considering"
       >
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[480px] border-collapse text-left">
-            <thead>
-              <tr className="border-b-2 border-teal-navy">
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6 w-1/4">
-                  Destination
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3">
-                  Appeal
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {emergingDestinations.map((row) => (
-                <tr key={row.destination} className="border-b border-gray-200">
-                  <td className="py-5 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] align-top">
-                    {row.destination}
-                  </td>
-                  <td className="py-5 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.appeal}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <DataTable
+          headers={["Destination", "Appeal"]}
+          widths={["w-1/4", undefined]}
+          minWidth={480}
+          rows={emergingDestinations.map((row) => [row.destination, row.appeal])}
+        />
       </Section>
 
       <Section label="Timing" heading="Planning your honeymoon around your wedding date">

@@ -44,7 +44,7 @@ export const DUBAI_THEMES: DubaiLandingPage[] = [
       "Dubai holiday packages from Malaysia — family, honeymoon, and luxury options with desert safari add-ons. Get a free, personalised quote today.",
     h1: "Dubai Holiday Packages From Malaysia: Family, Honeymoon & Luxury Options",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/DubaiGuide.tsx.
+    // src/data/guides/DubaiGuide.tsx.
     intro:
       "Dubai has become one of the most multipurpose destinations for tourism among Malaysians regardless of whether the vacation is a family vacation with amusement parks, a honeymoon in a five star hotel, or simply a luxurious holiday vacation.",
     canonicalUrl: "/tours/dubai/dubai-holiday-travel-guide-2026",

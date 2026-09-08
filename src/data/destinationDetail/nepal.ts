@@ -209,7 +209,7 @@ export const NEPAL_THEMES: NepalLandingPage[] = [
       "Nepal tour packages from Malaysia: Kathmandu culture, Himalayan sunrise views, and light trekking options. No hardcore trekking experience needed.",
     h1: "Nepal Tour Packages From Malaysia: Himalayan Views Without the Hardcore Trek",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/NepalGuide.tsx.
+    // src/data/guides/NepalGuide.tsx.
     intro:
       "Nepal is usually famous for treks which take several weeks to accomplish, but that perception is not in line with the possibilities that exist for tourists who just want a holiday. Malaysian travellers interested in the Himalayas and its wildlife do not necessarily have to do any difficult trek to enjoy their stay.",
     canonicalUrl: "/tours/nepal/nepal-tour-travel-guide-2026",

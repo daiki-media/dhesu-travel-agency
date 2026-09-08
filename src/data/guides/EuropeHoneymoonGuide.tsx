@@ -1,12 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
+import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 
 /**
  * The Europe cut of the honeymoon-comparison draft at
@@ -26,10 +24,6 @@ import { getGuideFaqs } from "@/src/data/guideFaqs";
 const PHOTO = "/images/guides/seine-river-cruise.jpg";
 const PHOTO_ALT = "An evening cruise boat on the Seine in Paris";
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
 
 const whyEurope = [
   "A genuinely different pace and experience from beach-focused destinations",
@@ -80,41 +74,7 @@ const packageDifference = [
 // Shared with the route, which emits the same list as FAQPage markup.
 const faqs = getGuideFaqs("europe", "honeymoon-holiday-guide-2026");
 
-/** Section wrapper: label, heading, then the body. */
-function Section({
-  label,
-  heading,
-  children,
-}: {
-  label: string;
-  heading: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <motion.div
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-60px" }}
-      variants={fadeUp}
-    >
-      <SectionLabel text={label} />
-      <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-6">
-        {heading}
-      </h2>
-      {children}
-    </motion.div>
-  );
-}
 
-/** List item marked with a short rule rather than an icon tile. */
-function Bullet({ children }: { children: React.ReactNode }) {
-  return (
-    <li className="flex gap-4">
-      <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
-      <span className="text-gray-600 text-[15px] leading-relaxed">{children}</span>
-    </li>
-  );
-}
 
 export default function EuropeHoneymoonGuide() {
   return (
@@ -128,32 +88,12 @@ export default function EuropeHoneymoonGuide() {
       </Section>
 
       <Section label="Budget" heading="Budget considerations by destination">
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[480px] border-collapse text-left">
-            <thead>
-              <tr className="border-b-2 border-teal-navy">
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6 w-1/4">
-                  Destination
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3">
-                  General budget positioning
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {budgetTable.map((row) => (
-                <tr key={row.destination} className="border-b border-gray-200">
-                  <td className="py-5 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] align-top">
-                    {row.destination}
-                  </td>
-                  <td className="py-5 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.positioning}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <DataTable
+          headers={["Destination", "General budget positioning"]}
+          widths={["w-1/4", undefined]}
+          minWidth={480}
+          rows={budgetTable.map((row) => [row.destination, row.positioning])}
+        />
         <p className="text-gray-600 leading-relaxed mt-6">
           Exact costs vary significantly based on hotel category, season, and specific
           inclusions, so it&apos;s worth requesting a tailored quote for accurate
@@ -161,58 +101,17 @@ export default function EuropeHoneymoonGuide() {
         </p>
       </Section>
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="relative h-64 md:h-80 overflow-hidden rounded-2xl"
-      >
-        <Image
-          src={PHOTO}
-          alt={PHOTO_ALT}
-          fill
-          className="object-cover"
-          sizes="(max-width: 1024px) 100vw, 66vw"
-        />
-      </motion.div>
+      <GuideFigure src={PHOTO} alt={PHOTO_ALT} />
 
       <Section
         label="Honeymoon vs Standard"
         heading="What makes a honeymoon package different from a standard holiday package"
       >
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[640px] border-collapse text-left">
-            <thead>
-              <tr className="border-b-2 border-teal-navy">
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6 w-1/4">
-                  Element
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6">
-                  Standard holiday package
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3">
-                  Honeymoon package
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {packageDifference.map((row) => (
-                <tr key={row.element} className="border-b border-gray-200">
-                  <td className="py-5 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] align-top">
-                    {row.element}
-                  </td>
-                  <td className="py-5 pr-6 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.standard}
-                  </td>
-                  <td className="py-5 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.honeymoon}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <DataTable
+          headers={["Element", "Standard holiday package", "Honeymoon package"]}
+          widths={["w-1/4", undefined, undefined]}
+          rows={packageDifference.map((row) => [row.element, row.standard, row.honeymoon])}
+        />
       </Section>
 
       <Section label="Compare" heading="See how Europe compares">

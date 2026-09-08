@@ -44,7 +44,7 @@ export const CHINA_THEMES: ChinaLandingPage[] = [
       "China tour packages from Malaysia: Beijing, Shanghai, the Great Wall, and more. Visa requirements and multi-city itinerary options explained.",
     h1: "China Tour Packages From Malaysia: Major Cities & the Great Wall",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/ChinaGuide.tsx.
+    // src/data/guides/ChinaGuide.tsx.
     intro:
       "From the history of the Forbidden City in Beijing and its world-famous Wall, to Shanghai’s stunning modern architecture, to the incredible natural scenery of Zhangjiajie and the ancient wonder of Xi’an, there is much to see and experience in China.",
     canonicalUrl: "/tours/china/china-tour-travel-guide-2026",

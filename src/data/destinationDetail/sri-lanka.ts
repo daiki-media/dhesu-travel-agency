@@ -222,7 +222,7 @@ export const SRI_LANKA_THEMES: SriLankaLandingPage[] = [
       "Sri Lanka tour packages from Malaysia: cultural heritage, hill country tea estates, wildlife safaris, and beach combinations in one itinerary.",
     h1: "Sri Lanka Tour Packages From Malaysia: Culture, Hill Country & Wildlife",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/SriLankaGuide.tsx.
+    // src/data/guides/SriLankaGuide.tsx.
     intro:
       "With the rise of Sri Lanka among Malaysian vacation searchers in recent times, it is no surprise that this small yet densely packed island contains all the elements necessary for an excellent trip in one package.",
     canonicalUrl: "/tours/sri-lanka/sri-lanka-tour-travel-guide-2026",

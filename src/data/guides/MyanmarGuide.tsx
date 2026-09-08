@@ -1,10 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
+import { Bullet, DataTable, Section } from "./primitives";
 
 /**
  * Body copy is taken verbatim from
@@ -24,10 +23,6 @@ import { getGuideFaqs } from "@/src/data/guideFaqs";
 // this destination at a usable size, and a stand-in from somewhere else
 // would misrepresent the page, so the section runs without one.
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
 
 const baganExperiences = [
   "Sunrise or sunset viewpoints overlooking the temple plain",
@@ -66,41 +61,7 @@ const included = [
 // Shared with the route, which emits the same list as FAQPage markup.
 const faqs = getGuideFaqs("myanmar", "myanmar-tour-travel-guide-2026");
 
-/** Section wrapper: label, heading, then the body. */
-function Section({
-  label,
-  heading,
-  children,
-}: {
-  label: string;
-  heading: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <motion.div
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-60px" }}
-      variants={fadeUp}
-    >
-      <SectionLabel text={label} />
-      <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-6">
-        {heading}
-      </h2>
-      {children}
-    </motion.div>
-  );
-}
 
-/** List item marked with a short rule rather than an icon tile. */
-function Bullet({ children }: { children: React.ReactNode }) {
-  return (
-    <li className="flex gap-4">
-      <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
-      <span className="text-gray-600 text-[15px] leading-relaxed">{children}</span>
-    </li>
-  );
-}
 
 export default function MyanmarGuide() {
   return (
@@ -144,38 +105,11 @@ export default function MyanmarGuide() {
       </Section>
 
       <Section label="Suggested Routes" heading="Suggested itinerary combinations">
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[640px] border-collapse text-left">
-            <thead>
-              <tr className="border-b-2 border-teal-navy">
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6 w-1/4">
-                  Package focus
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6">
-                  Typical duration
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3">
-                  Best suited for
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {itineraries.map((row) => (
-                <tr key={row.focus} className="border-b border-gray-200">
-                  <td className="py-5 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] align-top">
-                    {row.focus}
-                  </td>
-                  <td className="py-5 pr-6 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.duration}
-                  </td>
-                  <td className="py-5 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.suits}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <DataTable
+          headers={["Package focus", "Typical duration", "Best suited for"]}
+          widths={["w-1/4", undefined, undefined]}
+          rows={itineraries.map((row) => [row.focus, row.duration, row.suits])}
+        />
       </Section>
 
       <Section label="Inclusions" heading="What's typically included in a Myanmar package">

@@ -44,7 +44,7 @@ export const AUSTRALIA_THEMES: AustraliaLandingPage[] = [
       "Australia holiday packages from Malaysia — Sydney, Melbourne, and family-friendly itineraries timed around school holiday periods.",
     h1: "Australia Holiday Packages From Malaysia: Sydney, Melbourne & Family Travel",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/AustraliaGuide.tsx.
+    // src/data/guides/AustraliaGuide.tsx.
     intro:
       "Australia remains a consistently popular destination for Malaysian families, particularly during school holiday periods, thanks to its combination of iconic city landmarks, accessible nature experiences, and a relatively easy adjustment in terms of time zone and general comfort.",
     canonicalUrl: "/tours/australia/australia-holiday-travel-guide-2026",

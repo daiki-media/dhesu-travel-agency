@@ -1,12 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
+import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 
 /**
  * The Bali cut of the honeymoon-comparison draft at
@@ -26,10 +24,6 @@ import { getGuideFaqs } from "@/src/data/guideFaqs";
 const PHOTO = "/images/guides/pura-taman-ayun.jpg";
 const PHOTO_ALT = "The moat and meru towers of Pura Taman Ayun in Mengwi, Bali";
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
 
 const whyBali = [
   "Shortest flight time of the three main options",
@@ -60,41 +54,7 @@ const decideFramework = [
 // Shared with the route, which emits the same list as FAQPage markup.
 const faqs = getGuideFaqs("indonesia", "honeymoon-holiday-guide-2026");
 
-/** Section wrapper: label, heading, then the body. */
-function Section({
-  label,
-  heading,
-  children,
-}: {
-  label: string;
-  heading: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <motion.div
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-60px" }}
-      variants={fadeUp}
-    >
-      <SectionLabel text={label} />
-      <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-6">
-        {heading}
-      </h2>
-      {children}
-    </motion.div>
-  );
-}
 
-/** List item marked with a short rule rather than an icon tile. */
-function Bullet({ children }: { children: React.ReactNode }) {
-  return (
-    <li className="flex gap-4">
-      <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
-      <span className="text-gray-600 text-[15px] leading-relaxed">{children}</span>
-    </li>
-  );
-}
 
 export default function BaliHoneymoonGuide() {
   return (
@@ -108,49 +68,15 @@ export default function BaliHoneymoonGuide() {
       </Section>
 
       <Section label="Comparison" heading="Choosing based on honeymoon style">
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[480px] border-collapse text-left">
-            <thead>
-              <tr className="border-b-2 border-teal-navy">
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6">
-                  Your priority
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3">
-                  Best-suited destination
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {styleTable.map((row) => (
-                <tr key={row.priority} className="border-b border-gray-200">
-                  <td className="py-5 pr-6 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.priority}
-                  </td>
-                  <td className="py-5 font-primary font-bold text-[#1a1a1a] text-[15px] align-top">
-                    {row.destination}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <DataTable
+          headers={["Your priority", "Best-suited destination"]}
+          minWidth={480}
+          boldColumn={1}
+          rows={styleTable.map((row) => [row.priority, row.destination])}
+        />
       </Section>
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="relative h-64 md:h-80 overflow-hidden rounded-2xl"
-      >
-        <Image
-          src={PHOTO}
-          alt={PHOTO_ALT}
-          fill
-          className="object-cover"
-          sizes="(max-width: 1024px) 100vw, 66vw"
-        />
-      </motion.div>
+      <GuideFigure src={PHOTO} alt={PHOTO_ALT} />
 
       <Section label="Deciding" heading="How to decide: a simple framework">
         <ul className="space-y-4">

@@ -1,12 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
+import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -26,10 +24,6 @@ import { getGuideFaqs } from "@/src/data/guideFaqs";
 const PHOTO = "/images/guides/blue-mountains.jpg";
 const PHOTO_ALT = "The Three Sisters rock formation in the Blue Mountains, New South Wales";
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
 
 const sydneyVsMelbourne = [
   {
@@ -160,82 +154,6 @@ const bestTime = [
 // Shared with the route, which emits the same list as FAQPage markup.
 const faqs = getGuideFaqs("australia", "australia-holiday-travel-guide-2026");
 
-/** Section wrapper: label, heading, then the body. */
-function Section({
-  label,
-  heading,
-  children,
-}: {
-  label: string;
-  heading: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <motion.div
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-60px" }}
-      variants={fadeUp}
-    >
-      <SectionLabel text={label} />
-      <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-6">
-        {heading}
-      </h2>
-      {children}
-    </motion.div>
-  );
-}
-
-/** List item marked with a short rule rather than an icon tile. */
-function Bullet({ children }: { children: React.ReactNode }) {
-  return (
-    <li className="flex gap-4">
-      <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
-      <span className="text-gray-600 text-[15px] leading-relaxed">{children}</span>
-    </li>
-  );
-}
-
-/** Generic data table, generalised from Bali's package-types table. */
-function DataTable({ headers, rows }: { headers: string[]; rows: string[][] }) {
-  return (
-    <div className="overflow-x-auto">
-      <table className="w-full min-w-[640px] border-collapse text-left">
-        <thead>
-          <tr className="border-b-2 border-teal-navy">
-            {headers.map((header, i) => (
-              <th
-                key={header}
-                className={`font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 ${
-                  i < headers.length - 1 ? "pr-6" : ""
-                }`}
-              >
-                {header}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((row, ri) => (
-            <tr key={ri} className="border-b border-gray-200">
-              {row.map((cell, ci) => (
-                <td
-                  key={ci}
-                  className={`py-5 align-top text-[15px] leading-relaxed ${
-                    ci < row.length - 1 ? "pr-6" : ""
-                  } ${ci === 0 ? "font-primary font-bold text-[#1a1a1a]" : "text-gray-600"}`}
-                >
-                  {cell}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
-}
-
 export default function AustraliaGuide() {
   return (
     <>
@@ -260,21 +178,7 @@ export default function AustraliaGuide() {
         />
       </Section>
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="relative h-64 md:h-80 overflow-hidden rounded-2xl"
-      >
-        <Image
-          src={PHOTO}
-          alt={PHOTO_ALT}
-          fill
-          className="object-cover"
-          sizes="(max-width: 1024px) 100vw, 66vw"
-        />
-      </motion.div>
+      <GuideFigure src={PHOTO} alt={PHOTO_ALT} />
 
       <Section label="Timing" heading="Family Travel and School Holiday Timing">
         <p className="text-gray-600 leading-relaxed mb-6">

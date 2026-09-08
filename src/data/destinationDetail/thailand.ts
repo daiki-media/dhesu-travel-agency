@@ -54,7 +54,7 @@ export const THAILAND_THEMES: ThailandLandingPage[] = [
       "Combine Phuket and Krabi in one island-hopping Thailand holiday. Beaches, island tours, and relaxed itineraries for Malaysian travellers.",
     h1: "Phuket & Krabi Holiday Packages: The Best of Southern Thailand's Islands",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/PhuketKrabiGuide.tsx.
+    // src/data/guides/PhuketKrabiGuide.tsx.
     intro:
       "Phuket and Krabi are among the most popular beach resorts in the south of Thailand, and although both of them make excellent stand-alone destinations, taking a combination tour of the two to enjoy greater variety has become the choice of many tourists coming from Malaysia.",
     canonicalUrl: "/tours/thailand/phuket-krabi-holiday-guide-2026",

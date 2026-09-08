@@ -1,11 +1,9 @@
 "use client";
 
-import Image from "next/image";
-import { motion } from "framer-motion";
-import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
+import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -24,10 +22,6 @@ import { getGuideFaqs } from "@/src/data/guideFaqs";
 const PHOTO = "/images/guides/phuket-island-cove.jpg";
 const PHOTO_ALT = "Longtail boats moored in a palm-fringed cove in the Andaman Sea";
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
 
 const characterTable = [
   {
@@ -89,41 +83,7 @@ const included = [
 // Shared with the route, which emits the same list as FAQPage markup.
 const faqs = getGuideFaqs("thailand", "phuket-krabi-holiday-guide-2026");
 
-/** Section wrapper: label, heading, then the body. */
-function Section({
-  label,
-  heading,
-  children,
-}: {
-  label: string;
-  heading: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <motion.div
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-60px" }}
-      variants={fadeUp}
-    >
-      <SectionLabel text={label} />
-      <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-6">
-        {heading}
-      </h2>
-      {children}
-    </motion.div>
-  );
-}
 
-/** List item marked with a short rule rather than an icon tile. */
-function Bullet({ children }: { children: React.ReactNode }) {
-  return (
-    <li className="flex gap-4">
-      <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
-      <span className="text-gray-600 text-[15px] leading-relaxed">{children}</span>
-    </li>
-  );
-}
 
 export default function PhuketKrabiGuide() {
   return (
@@ -137,38 +97,11 @@ export default function PhuketKrabiGuide() {
           vacation ensures that you experience the excitement of an island and also the
           tranquility of nature.
         </p>
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[640px] border-collapse text-left">
-            <thead>
-              <tr className="border-b-2 border-teal-navy">
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6 w-1/4">
-                  Destination
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6">
-                  Character
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3">
-                  Best for
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {characterTable.map((row) => (
-                <tr key={row.destination} className="border-b border-gray-200">
-                  <td className="py-5 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] align-top">
-                    {row.destination}
-                  </td>
-                  <td className="py-5 pr-6 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.character}
-                  </td>
-                  <td className="py-5 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.bestFor}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <DataTable
+          headers={["Destination", "Character", "Best for"]}
+          widths={["w-1/4", undefined, undefined]}
+          rows={characterTable.map((row) => [row.destination, row.character, row.bestFor])}
+        />
       </Section>
 
       <Section label="By Island" heading="What to expect on each island">
@@ -185,21 +118,7 @@ export default function PhuketKrabiGuide() {
         </div>
       </Section>
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="relative h-64 md:h-80 overflow-hidden rounded-2xl"
-      >
-        <Image
-          src={PHOTO}
-          alt={PHOTO_ALT}
-          fill
-          className="object-cover"
-          sizes="(max-width: 1024px) 100vw, 66vw"
-        />
-      </motion.div>
+      <GuideFigure src={PHOTO} alt={PHOTO_ALT} />
 
       <Section label="Island-Hopping" heading="Island-hopping highlights worth including">
         <p className="text-gray-600 leading-relaxed mb-6">
@@ -215,21 +134,12 @@ export default function PhuketKrabiGuide() {
       </Section>
 
       <Section label="Itinerary" heading="Suggested itinerary structure">
-        <div className="border-t-2 border-teal-navy">
-          {itineraryStructure.map((row) => (
-            <div
-              key={row.days}
-              className="grid grid-cols-1 sm:grid-cols-12 gap-1 sm:gap-8 border-b border-gray-200 py-5"
-            >
-              <p className="sm:col-span-3 font-primary font-bold text-[#1a1a1a] text-[15px]">
-                {row.days}
-              </p>
-              <p className="sm:col-span-9 text-gray-600 text-[15px] leading-relaxed">
-                {row.focus}
-              </p>
-            </div>
-          ))}
-        </div>
+        <TripRows
+          rows={itineraryStructure.map((row) => ({
+            label: row.days,
+            detail: row.focus,
+          }))}
+        />
         <p className="text-gray-600 leading-relaxed mt-6">
           This structure can be adjusted based on your total trip length, with shorter
           versions focusing on just one destination plus a single island-hopping day, and

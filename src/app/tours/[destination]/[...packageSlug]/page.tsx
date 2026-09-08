@@ -6,7 +6,7 @@ import TourPackageDetailTemplate, {
 } from "@/src/components/tours/TourPackageDetailTemplate";
 import TourRegionTemplate from "@/src/components/tours/TourRegionTemplate";
 import TourGuideTemplate from "@/src/components/tours/TourGuideTemplate";
-import { getGuideContent } from "@/src/components/guides";
+import { getGuideContent } from "@/src/data/guides";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
 import packageDetails, { getPackageDetail } from "@/src/data/tourPackages";
 import { getTourPage } from "@/src/data/tourPages";

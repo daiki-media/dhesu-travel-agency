@@ -45,7 +45,7 @@ export const EUROPE_THEMES: EuropeLandingPage[] = [
       "Multi-country Europe tour packages from Malaysia, with Schengen visa guidance. Group tours covering major cities and iconic landmarks.",
     h1: "Europe Tour Packages From Malaysia: Multi-Country Group Tours",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/EuropeGuide.tsx.
+    // src/data/guides/EuropeGuide.tsx.
     intro:
       "A tour to Europe is usually a rare thing in the life of Malaysians, which is the very reason multi-nation group tours are still in fashion — they make it possible to visit many countries’ attractions in one trip without the hassle of organising it independently across different languages, currencies and modes of transport.",
     canonicalUrl: "/tours/europe/europe-tour-travel-guide-2026",
@@ -73,7 +73,7 @@ export const EUROPE_THEMES: EuropeLandingPage[] = [
       "Europe honeymoon packages from Malaysia — romantic cities, scenic rail and coastal escapes. Compare Europe against Bali and Mauritius.",
     h1: "Europe Honeymoon Packages From Malaysia",
     // The draft's own Europe paragraph; the rest of the article is in
-    // src/components/guides/EuropeHoneymoonGuide.tsx.
+    // src/data/guides/EuropeHoneymoonGuide.tsx.
     intro:
       "For those couples that would like to see their honeymoon not only as a romantic escape but also as a vacation that can provide them with some cultural knowledge as well as give them the chance to see various attractions, a multi-nation European tour will provide something entirely different from the beach resort kind of honeymoon.",
     canonicalUrl: "/tours/europe/honeymoon-holiday-guide-2026",

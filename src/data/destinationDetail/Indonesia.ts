@@ -186,9 +186,9 @@ export const INDONESIA_THEMES: IndonesiaLandingPage[] = [
       "Bali holiday packages from Malaysia: honeymoon, family, and budget options. Private tours with sunset cruises, ATV adventures, and cultural sites.",
     h1: "Bali Holiday Packages From Malaysia: Honeymoon, Family & Budget Options",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/BaliGuide.tsx.
+    // src/data/guides/BaliGuide.tsx.
     intro:
-      "Even today, Bali continues to be one of the most sought-after tourist spots for the people from Malaysia, and not without reason its proximity to Malaysia, the combination of culture and beauty, and sufficient variety that allows it to accommodate the requirements of honeymoon couples as well as families who are on vacation or budget travelers.",
+      "Even today, Bali continues to be one of the most sought-after tourist spots for the people from Malaysia, and not without reason its proximity to Malaysia, the combination of culture and beauty, and sufficient variety that allows it to accommodate the requirements of honeymoon couples as well as families who are on vacation or budget travelers. The following article provides an insight into the various types of Bali packages available.",
     canonicalUrl: "/tours/indonesia/bali-holiday-travel-guide-2026",
     ogTitle:
       "Bali Holiday Packages From Malaysia: Honeymoon, Family & Budget Options",
@@ -215,7 +215,7 @@ export const INDONESIA_THEMES: IndonesiaLandingPage[] = [
       "Bali honeymoon packages from Malaysia — private pool villas, sunset cruises and romantic dining. Compare Bali against Mauritius and Europe.",
     h1: "Bali Honeymoon Packages From Malaysia",
     // The draft's own Bali paragraph; the rest of the article is in
-    // src/components/guides/BaliHoneymoonGuide.tsx.
+    // src/data/guides/BaliHoneymoonGuide.tsx.
     intro:
       "A trip to Bali will continue to be the best choice for couples from Malaysia to spend their honeymoon as the place is just an hour away by plane along with being very romantic and offers private villas, cruises, and dinners under candlelight amidst the terraced fields and cliffs.",
     canonicalUrl: "/tours/indonesia/honeymoon-holiday-guide-2026",

@@ -1,11 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import { motion } from "framer-motion";
-import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
+import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
+import { Bullet, DataTable, GuideFigure, INLINE_LINK, Section, TripRows } from "./primitives";
 
 /**
  * Reference implementation for the Holiday Idea destination guides.
@@ -25,10 +24,14 @@ import { getGuideFaqs } from "@/src/data/guideFaqs";
 const PHOTO = "/images/guides/kecak-fire-dance.jpg";
 const PHOTO_ALT = "The Kecak fire dance performed on the Uluwatu cliffs at sunset, Bali";
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
+// The draft's own internal links. The .docx still points at the old
+// holidayidea.com.my URLs, so they are remapped here: /BALI/ -> the Bali
+// landing page, and package.php?pkgid=2381 -> the package carrying that pkgid
+// in its meta (Kecak dance, Mount Batur and the Bedugul floating temple).
+const BALI_LANDING = "/tours/indonesia/bali";
+const CLASSIC_PACKAGE = "/tours/indonesia/bali/5-day-bliss-temples-highlands-sunset";
+
+
 
 const packageTypes = [
   {
@@ -86,10 +89,22 @@ const tripLengths = [
   },
 ];
 
-const styleGuide = [
+const styleGuide: { title: string; body: React.ReactNode }[] = [
   {
     title: "Romantic Bali Escapes",
-    body: "In relation to couples, Bali tour packages are more about combining the beauty of scenery with personal activities. A good romantic tour plan should feature the magnificent cliffs of Uluwatu, the greenery of the hills of Ubud, cultural sites such as GWK Cultural Park, and time spent on the beach, preferably in Melasti Beach, with a final day comprising of a sunset cruise and candlelit dinner. The tours are often arranged according to 4-day plans.",
+    body: (
+      <>
+        In relation to couples,{" "}
+        <Link href={BALI_LANDING} className={INLINE_LINK}>
+          Bali tour packages
+        </Link>{" "}
+        are more about combining the beauty of scenery with personal activities. A good
+        romantic tour plan should feature the magnificent cliffs of Uluwatu, the greenery
+        of the hills of Ubud, cultural sites such as GWK Cultural Park, and time spent on
+        the beach, preferably in Melasti Beach, with a final day comprising of a sunset
+        cruise and candlelit dinner. The tours are often arranged according to 4-day plans.
+      </>
+    ),
   },
   {
     title: "Family-Friendly Bali Holidays",
@@ -101,48 +116,28 @@ const styleGuide = [
   },
   {
     title: "Best-Selling Classic Bali Itineraries",
-    body: "When visiting for the first time, and one is not sure how to start, a standard package can be a good choice for them. Such packages often include viewing the sunset show of the Kecak Fire Dance Show, Mount Batur, and Bali’s mystical floating temple. Thus, one gets to see all of the must-see places in Bali without having to conduct extensive research.",
+    body: (
+      <>
+        When visiting for the first time, and one is not sure how to start, a standard
+        package can be a good choice for them. Such packages often include viewing the{" "}
+        <Link href={CLASSIC_PACKAGE} className={INLINE_LINK}>
+          sunset show
+        </Link>{" "}
+        of the Kecak Fire Dance Show, Mount Batur, and{" "}
+        <Link href={CLASSIC_PACKAGE} className={INLINE_LINK}>
+          Bali’s mystical floating temple
+        </Link>
+        . Thus, one gets to see all of the must-see places in Bali without having to
+        conduct extensive research.
+      </>
+    ),
   },
 ];
 
 // Shared with the route, which emits the same list as FAQPage markup.
 const faqs = getGuideFaqs("indonesia", "bali-holiday-travel-guide-2026");
 
-/** Section wrapper: label, heading, then the body. */
-function Section({
-  label,
-  heading,
-  children,
-}: {
-  label: string;
-  heading: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <motion.div
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-60px" }}
-      variants={fadeUp}
-    >
-      <SectionLabel text={label} />
-      <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-6">
-        {heading}
-      </h2>
-      {children}
-    </motion.div>
-  );
-}
 
-/** List item marked with a short rule rather than an icon tile. */
-function Bullet({ children }: { children: React.ReactNode }) {
-  return (
-    <li className="flex gap-4">
-      <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
-      <span className="text-gray-600 text-[15px] leading-relaxed">{children}</span>
-    </li>
-  );
-}
 
 export default function BaliGuide() {
   return (
@@ -152,8 +147,11 @@ export default function BaliGuide() {
         heading="Why Bali continues to be a top choice for Malaysians"
       >
         <p className="text-gray-600 leading-relaxed">
-          The secret behind the longevity of popularity of Bali is its unique blend. It
-          is not only easy enough to reach and travel around but also has the right kind
+          The secret behind the{" "}
+          <Link href={BALI_LANDING} className={INLINE_LINK}>
+            longevity of popularity of Bali
+          </Link>{" "}
+          is its unique blend. It is not only easy enough to reach and travel around but also has the right kind
           of diversity to offer something new to first-time and tenth-time visitors. The
           beautiful cliffs of Uluwatu, the rice fields of Ubud, and the developed tourist
           infrastructure make it very easy and diverse at the same time.
@@ -161,38 +159,11 @@ export default function BaliGuide() {
       </Section>
 
       <Section label="At a Glance" heading="Bali package types">
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[640px] border-collapse text-left">
-            <thead>
-              <tr className="border-b-2 border-teal-navy">
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6 w-1/4">
-                  Package style
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3 pr-6">
-                  Best for
-                </th>
-                <th className="font-primary font-bold text-teal-navy text-xs uppercase tracking-widest pb-3">
-                  Typical highlights
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {packageTypes.map((row) => (
-                <tr key={row.style} className="border-b border-gray-200">
-                  <td className="py-5 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] align-top">
-                    {row.style}
-                  </td>
-                  <td className="py-5 pr-6 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.bestFor}
-                  </td>
-                  <td className="py-5 text-gray-600 text-[15px] leading-relaxed align-top">
-                    {row.highlights}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <DataTable
+          headers={["Package style", "Best for", "Typical highlights"]}
+          widths={["w-1/4", undefined, undefined]}
+          rows={packageTypes.map((row) => [row.style, row.bestFor, row.highlights])}
+        />
       </Section>
 
       <Section label="By Travel Style" heading="Which Bali trip suits you">
@@ -209,21 +180,7 @@ export default function BaliGuide() {
         </div>
       </Section>
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-60px" }}
-        variants={fadeUp}
-        className="relative h-64 md:h-80 overflow-hidden rounded-2xl"
-      >
-        <Image
-          src={PHOTO}
-          alt={PHOTO_ALT}
-          fill
-          className="object-cover"
-          sizes="(max-width: 1024px) 100vw, 66vw"
-        />
-      </motion.div>
+      <GuideFigure src={PHOTO} alt={PHOTO_ALT} />
 
       <Section label="Inclusions" heading="What's typically included in a Bali package">
         <ul className="space-y-4">
@@ -234,21 +191,12 @@ export default function BaliGuide() {
       </Section>
 
       <Section label="Trip Length" heading="How long should your Bali trip be?">
-        <div className="border-t-2 border-teal-navy">
-          {tripLengths.map((row) => (
-            <div
-              key={row.length}
-              className="grid grid-cols-1 sm:grid-cols-12 gap-1 sm:gap-8 border-b border-gray-200 py-5"
-            >
-              <p className="sm:col-span-3 font-primary font-bold text-[#1a1a1a] text-[15px]">
-                {row.length}
-              </p>
-              <p className="sm:col-span-9 text-gray-600 text-[15px] leading-relaxed">
-                {row.suits}
-              </p>
-            </div>
-          ))}
-        </div>
+        <TripRows
+          rows={tripLengths.map((row) => ({
+            label: row.length,
+            detail: row.suits,
+          }))}
+        />
       </Section>
 
       <Section label="Choosing" heading="Choosing between package styles">
@@ -280,8 +228,11 @@ export default function BaliGuide() {
           as problematic as travelers would think. The rain will come in quick, heavy
           showers instead of being a day-long rain, thus making tourism and other
           activities still possible with some adaptation in your schedule. If travelers are
-          after having clear skies during their beach vacations, they may opt to go during
-          the dry season. Rainy season travelers, on the other hand, get the advantage of
+          after having clear skies during their{" "}
+          <Link href={BALI_LANDING} className={INLINE_LINK}>
+            beach vacations
+          </Link>
+          , they may opt to go during the dry season. Rainy season travelers, on the other hand, get the advantage of
           not dealing with large crowds and more attractive prices.
         </p>
       </Section>

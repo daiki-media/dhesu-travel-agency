@@ -44,7 +44,7 @@ export const MAURITIUS_THEMES: MauritiusLandingPage[] = [
       "Mauritius honeymoon packages from Malaysia — luxury beach resorts, private experiences, and island romance. Get a free, personalised quote today.",
     h1: "Mauritius Honeymoon Packages From Malaysia: Island Luxury for Couples",
     // Opening paragraph of the draft; the rest of the article is in
-    // src/components/guides/MauritiusGuide.tsx.
+    // src/data/guides/MauritiusGuide.tsx.
     intro:
       "Mauritius is well-known internationally as one of the world’s top destinations for honeymoons. The attractiveness of Mauritius to honeymooning couples from Malaysia lies in the perfect combination of its turquoise lagoons, luxury resorts, and romantic privacy.",
     canonicalUrl: "/tours/mauritius/mauritius-honeymoon-travel-guide-2026",
@@ -76,7 +76,7 @@ export const MAURITIUS_THEMES: MauritiusLandingPage[] = [
     h1: "Choosing Your Honeymoon: Mauritius, Bali or Europe",
     // This page is framed as the comparison itself, so it opens with the
     // draft's own opening paragraph rather than one destination's section.
-    // The rest of the article is in src/components/guides/MauritiusHoneymoonGuide.tsx.
+    // The rest of the article is in src/data/guides/MauritiusHoneymoonGuide.tsx.
     intro:
       "Selecting a honeymoon destination is one of the most important choices travelers make during their vacations. It is not just about the scenic beauty; it is about the pace and privacy of the place that will make it memorable.",
     canonicalUrl: "/tours/mauritius/honeymoon-holiday-guide-2026",
