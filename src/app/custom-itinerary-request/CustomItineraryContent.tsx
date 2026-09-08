@@ -145,15 +145,10 @@ const briefChecklist = [
 export default function CustomItineraryContent({
   faqs,
 }: {
-  /** Owned by the page so the same list drives the FAQPage markup. */
   faqs: { question: string; answer: string }[];
 }) {
   return (
     <>
-      {/* ── REQUEST: headline + form side by side ─────────────────────────────
-          This is a conversion page, so the form is part of the first screen
-          rather than a destination at the bottom. On mobile the left column is
-          kept deliberately short so the form is the second thing you reach. */}
       <section className="py-10 lg:py-12 bg-pattern">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14">

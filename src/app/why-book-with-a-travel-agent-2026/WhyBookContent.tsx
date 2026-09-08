@@ -182,25 +182,6 @@ export default function WhyBookContent({
           { label: "Browse Destinations", href: "/tours" },
         ]}
       >
-        {/* The fork: the choice this page is about, stated once. */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-white/15 mt-16 lg:mt-12">
-          <div className="bg-teal-navy pt-8 pb-10 sm:pr-10">
-            <p className="text-white/50 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
-              Booking it yourself
-            </p>
-            <p className="text-white font-primary text-lg leading-snug">
-              Total control, and the entire research load.
-            </p>
-          </div>
-          <div className="bg-teal-navy pt-8 pb-10 sm:pl-10">
-            <p className="text-primary text-xs uppercase tracking-[0.18em] font-semibold mb-2">
-              Booking through an agent
-            </p>
-            <p className="text-white font-primary text-lg leading-snug">
-              A little less flexibility, and someone carrying the risk.
-            </p>
-          </div>
-        </div>
       </AllPagesHero>
 
       {/* ── LEAD ─────────────────────────────────────────────────────────── */}
