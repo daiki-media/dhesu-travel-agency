@@ -6,7 +6,7 @@
     "slug": "phuket/3-day-james-bond-city-fantasea",
     "canonicalUrl": "/tours/thailand/phuket/3-day-james-bond-city-fantasea",
     "pkgid": "92",
-    "ogImage": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop"
+    "ogImage": "/images/gallery/16713.jpg"
   },
   "hero": {
     "badge": "City, Bay & FantaSea — 3 Days",
@@ -31,8 +31,8 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
-    "heroImageAlt": "Limestone islands and turquoise water off Phuket, Thailand"
+    "heroImage": "/images/gallery/16713.jpg",
+    "heroImageAlt": "Sunset over the Andaman Sea from Promthep Cape, Phuket"
   },
   "quickFacts": {
     "duration": "3 Days / 2 Nights",
@@ -101,26 +101,26 @@
       {
         "title": "Phuket FantaSea — Palace of the Elephants",
         "body": "FantaSea is a Thai cultural theme park on Kamala Beach, and its centrepiece is the Palace of the Elephants theatre. The production runs around seventy minutes and combines Thai mythology and cultural storytelling with illusion, aerial ballet, acrobatics, indoor pyrotechnics and stunts. An international buffet dinner and time to browse the grounds come before the show. Performances run Tuesday, Friday and Sunday; when FantaSea is not running, the Carnival Magic show is substituted.",
-        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
-        "imageAlt": "Illuminated Thai theatre architecture at night in Phuket"
+        "image": "/images/gallery/16716.jpg",
+        "imageAlt": "Costumed performers and elephants on stage at the Phuket FantaSea show"
       },
       {
         "title": "Promthep Cape & Wat Chalong",
         "body": "Promthep Cape is the headland at Phuket's southern tip and the island's most photographed viewpoint, looking out across the Andaman Sea, the offshore islands and the rugged southern coastline. Wat Chalong is Phuket's largest and one of its most important Buddhist temples, with elaborately decorated halls and a grand pagoda, and your guide provides the context for what it means to the local community.",
-        "image": "/images/guides/phuket-island-cove.jpg",
-        "imageAlt": "Headland viewpoint over the Andaman Sea at sunset, Phuket"
+        "image": "/images/gallery/16714.jpg",
+        "imageAlt": "The gilded pagoda of Wat Chalong temple, Phuket"
       },
       {
         "title": "Phuket Old Town's Sino-Portuguese Streets",
         "body": "Phuket Old Town is a compact grid of preserved heritage buildings — Sino-Portuguese shophouses in faded pastel, built on the island's tin-mining wealth. Thalang, Dibuk and Soi Romanee are now filled with cafés, boutiques, galleries and street art, and it is the part of Phuket that looks least like a resort and most like a town with its own history.",
-        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
-        "imageAlt": "Colourful Sino-Portuguese shophouses in Phuket Old Town"
+        "image": "/images/gallery/16715.jpg",
+        "imageAlt": "Sino-Portuguese shophouses and the clock tower in Phuket Old Town"
       },
       {
         "title": "Phang Nga Bay & James Bond Island",
         "body": "The full-day speedboat tour cruises Panak Island's limestone cliffs and sea caves, lands at James Bond Island — Khao Ping Kan and the offshore stack of Koh Tapu, made famous by the 1974 film The Man with the Golden Gun — and includes a canoe through Tham Lod Cave at Koh Talu. Lunch is at Koh Panyee, the stilt village in the bay, and the day finishes with swimming at Naka Island.",
-        "image": "/images/guides/phang-nga-longtail.jpg",
-        "imageAlt": "Longtail boat beneath limestone cliffs in Phang Nga Bay"
+        "image": "/images/gallery/16683.jpg",
+        "imageAlt": "Khao Ping Kan and the offshore stack of Koh Tapu, known as James Bond Island"
       }
     ]
   },
@@ -278,7 +278,7 @@
       "price": "From RM728",
       "duration": "3D2N",
       "slug": "phuket/3-day-island-escape-james-bond-canoeing",
-      "image": "/images/guides/phang-nga-longtail.jpg"
+      "image": "/images/gallery/14166.jpg"
     },
     {
       "id": "thailand-phuket-4-day-james-bond-phi-phi-fantasea",
@@ -286,7 +286,7 @@
       "price": "From RM1,388",
       "duration": "4D3N",
       "slug": "phuket/4-day-james-bond-phi-phi-fantasea",
-      "image": "/images/guides/phuket-island-cove.jpg"
+      "image": "/images/gallery/16723.jpg"
     }
   ],
   "cta": {
@@ -296,7 +296,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop"
+    "bgImage": "/images/gallery/16713.jpg"
   },
   "schema": {
     "type": "TouristTrip",

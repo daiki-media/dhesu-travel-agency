@@ -224,7 +224,7 @@ export const SRI_LANKA_THEMES: SriLankaLandingPage[] = [
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/SriLankaGuide.tsx.
     intro:
-      "With the rise of Sri Lanka among Malaysian vacation searchers in recent times, it is no surprise that this small yet densely packed island contains all the elements necessary for an excellent trip in one package.",
+      "With the rise of Sri Lanka among Malaysian vacation searchers in recent times, it is no surprise that this small yet densely packed island contains all the elements necessary for an excellent trip in one package. The following discussion is dedicated to the key travel topics of Sri Lanka and how to put together the best package for your visit.",
     canonicalUrl: "/tours/sri-lanka/sri-lanka-tour-travel-guide-2026",
     ogTitle:
       "Sri Lanka Tour Packages From Malaysia: Culture, Hill Country & Wildlife",

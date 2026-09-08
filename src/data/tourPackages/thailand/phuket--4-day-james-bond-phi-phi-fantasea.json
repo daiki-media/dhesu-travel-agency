@@ -6,7 +6,7 @@
     "slug": "phuket/4-day-james-bond-phi-phi-fantasea",
     "canonicalUrl": "/tours/thailand/phuket/4-day-james-bond-phi-phi-fantasea",
     "pkgid": "339",
-    "ogImage": "/images/guides/phuket-island-cove.jpg"
+    "ogImage": "/images/gallery/16723.jpg"
   },
   "hero": {
     "badge": "Explore Phuket — 4 Days",
@@ -31,8 +31,8 @@
         "href": null
       }
     ],
-    "heroImage": "/images/guides/phuket-island-cove.jpg",
-    "heroImageAlt": "Longtail boats in a palm-fringed cove in the Andaman Sea, Phuket"
+    "heroImage": "/images/gallery/16723.jpg",
+    "heroImageAlt": "The beach at Maya Bay, Phi Phi Leh"
   },
   "quickFacts": {
     "duration": "4 Days / 3 Nights",
@@ -103,26 +103,26 @@
       {
         "title": "Maya Bay & the Phi Phi Islands",
         "body": "The Phi Phi day covers Monkey Beach and Tonsai Bay for swimming and snorkelling, then cruises Phi Phi Leh past the Viking Cave and into Pileh Lagoon — a sheer-sided inlet of calm, emerald-turquoise water — and Loh Samah Bay, before reaching Maya Bay, the beach that made the islands famous. The day finishes at Khai Island for more snorkelling and relaxation.",
-        "image": "/images/guides/phuket-island-cove.jpg",
-        "imageAlt": "Turquoise lagoon enclosed by limestone cliffs, Phi Phi Islands"
+        "image": "/images/gallery/10572.jpg",
+        "imageAlt": "Phi Phi Leh from the air, with Maya Bay and Pileh Lagoon"
       },
       {
         "title": "James Bond Island & Phang Nga Bay",
         "body": "The second boat day is a different landscape entirely. The speedboat cruises Panak Island for its limestone cliffs and sea caves — Ice Cream Cave, Keaw Cave or Mangrove Cave, depending on conditions — then lands at James Bond Island, Khao Ping Kan with the offshore stack of Koh Tapu, made internationally famous by the 1974 film The Man with the Golden Gun.",
-        "image": "/images/guides/phang-nga-longtail.jpg",
-        "imageAlt": "James Bond Island limestone stack in Phang Nga Bay Thailand"
+        "image": "/images/gallery/16683.jpg",
+        "imageAlt": "Khao Ping Kan and the offshore stack of Koh Tapu, known as James Bond Island"
       },
       {
         "title": "Phuket FantaSea & the Island's Cultural Side",
         "body": "The arrival day covers Promthep Cape for its panorama over the Andaman Sea, Wat Chalong — the island's largest and most significant Buddhist temple — and the Sino-Portuguese heritage streets of Phuket Old Town. The evening is spent at Phuket FantaSea, with an international buffet followed by a roughly seventy-minute production combining Thai mythology, illusion, aerial ballet and acrobatics.",
-        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
-        "imageAlt": "Sino-Portuguese heritage shophouses in Phuket Old Town"
+        "image": "/images/gallery/16715.jpg",
+        "imageAlt": "Sino-Portuguese shophouses and the clock tower in Phuket Old Town"
       },
       {
         "title": "Canoeing, Koh Panyee & Naka Island",
         "body": "Within the Phang Nga Bay day, a canoe takes you through Tham Lod Cave at Koh Talu, lunch is served at Koh Panyee — a fishing village built on stilts above the sea, with a famous floating football pitch — and the afternoon finishes with swimming and beach time at Naka Island before the 17:00 return to the pier.",
-        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
-        "imageAlt": "Stilt houses of Koh Panyee floating village, Phang Nga Bay"
+        "image": "/images/gallery/16685.jpg",
+        "imageAlt": "The stilt village of Koh Panyee beneath a limestone cliff in Phang Nga Bay"
       }
     ]
   },
@@ -292,7 +292,7 @@
       "price": "From RM728",
       "duration": "3D2N",
       "slug": "phuket/3-day-island-escape-james-bond-canoeing",
-      "image": "/images/guides/phang-nga-longtail.jpg"
+      "image": "/images/gallery/14166.jpg"
     },
     {
       "id": "thailand-phuket-3-day-james-bond-city-fantasea",
@@ -300,7 +300,7 @@
       "price": "From RM1,188",
       "duration": "3D2N",
       "slug": "phuket/3-day-james-bond-city-fantasea",
-      "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop"
+      "image": "/images/gallery/16713.jpg"
     }
   ],
   "cta": {
@@ -310,7 +310,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/guides/phuket-island-cove.jpg"
+    "bgImage": "/images/gallery/16723.jpg"
   },
   "schema": {
     "type": "TouristTrip",

@@ -6,7 +6,7 @@
     "slug": "phuket/3-day-island-escape-james-bond-canoeing",
     "canonicalUrl": "/tours/thailand/phuket/3-day-island-escape-james-bond-canoeing",
     "pkgid": "2115",
-    "ogImage": "/images/guides/phang-nga-longtail.jpg"
+    "ogImage": "/images/gallery/14166.jpg"
   },
   "hero": {
     "badge": "Phuket Island Escape — 3 Days",
@@ -31,8 +31,8 @@
         "href": null
       }
     ],
-    "heroImage": "/images/guides/phang-nga-longtail.jpg",
-    "heroImageAlt": "Longtail boat beneath limestone cliffs in Phang Nga Bay, Phuket"
+    "heroImage": "/images/gallery/14166.jpg",
+    "heroImageAlt": "James Bond Island rising from the emerald water of Phang Nga Bay, Phuket"
   },
   "quickFacts": {
     "duration": "3 Days / 2 Nights",
@@ -100,26 +100,26 @@
       {
         "title": "James Bond Island — Phang Nga Bay's Signature Stack",
         "body": "Khao Ping Kan and the slim limestone pillar of Koh Tapu standing offshore are the most photographed rocks in Thailand. The pairing was made internationally famous by the 1974 James Bond film The Man with the Golden Gun, and the nickname stuck. The speedboat allows time ashore to explore, photograph the stack from the beach, and browse the souvenir stalls behind it.",
-        "image": "/images/guides/phang-nga-longtail.jpg",
-        "imageAlt": "James Bond Island limestone stack in Phang Nga Bay Thailand"
+        "image": "/images/gallery/16683.jpg",
+        "imageAlt": "Khao Ping Kan and the offshore stack of Koh Tapu, known as James Bond Island"
       },
       {
         "title": "Sea Canoeing at Tham Lod Cave",
         "body": "At Koh Talu the speedboat stops and you transfer to a canoe for roughly thirty minutes, paddling through Tham Lod Cave and the hidden passages around it. The water is flat, the ceilings are low in places, and the paddling is done for you if you would rather sit and look. It is the quietest part of the day and, for many travellers, the most memorable.",
-        "image": "/images/guides/phuket-island-cove.jpg",
-        "imageAlt": "Canoe passing through a sea cave in the Andaman Sea"
+        "image": "/images/gallery/16684.jpg",
+        "imageAlt": "Bamboo rafts on the water inside Tham Lod Cave"
       },
       {
         "title": "Koh Panyee — The Village Built on Stilts",
         "body": "Lunch is served at Koh Panyee, a Muslim fishing village built almost entirely on stilts above the water against a limestone cliff in Phang Nga Bay. After eating there is time to walk the boardwalks between the houses and see the village's famous floating football pitch, built by local children who had no flat ground to play on.",
-        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop",
-        "imageAlt": "Stilt houses of Koh Panyee floating village, Phang Nga Bay"
+        "image": "/images/gallery/16685.jpg",
+        "imageAlt": "The stilt village of Koh Panyee beneath a limestone cliff in Phang Nga Bay"
       },
       {
         "title": "Panak Island Caves & Naka Island Beach Time",
         "body": "The morning cruise takes in Panak Island's limestone cliffs and its sea caves — Ice Cream Cave, Keaw Cave or Mangrove Cave, depending on the tide and conditions on the day. The tour finishes with an afternoon at Naka Island for swimming and beach time before the speedboat returns to the pier at around 5pm.",
-        "image": "/images/guides/phuket-island-cove.jpg",
-        "imageAlt": "Speedboat moored off a sandy beach in the Andaman Sea"
+        "image": "/images/gallery/16687.jpg",
+        "imageAlt": "Naka Island from the air, with its beach, pool and palms"
       }
     ]
   },
@@ -276,7 +276,7 @@
       "price": "From RM1,188",
       "duration": "3D2N",
       "slug": "phuket/3-day-james-bond-city-fantasea",
-      "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=800&auto=format&fit=crop"
+      "image": "/images/gallery/16713.jpg"
     },
     {
       "id": "thailand-phuket-4-day-james-bond-phi-phi-fantasea",
@@ -284,7 +284,7 @@
       "price": "From RM1,388",
       "duration": "4D3N",
       "slug": "phuket/4-day-james-bond-phi-phi-fantasea",
-      "image": "/images/guides/phuket-island-cove.jpg"
+      "image": "/images/gallery/16723.jpg"
     }
   ],
   "cta": {
@@ -294,7 +294,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/guides/phang-nga-longtail.jpg"
+    "bgImage": "/images/gallery/14166.jpg"
   },
   "schema": {
     "type": "TouristTrip",

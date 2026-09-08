@@ -211,7 +211,7 @@ export const NEPAL_THEMES: NepalLandingPage[] = [
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/NepalGuide.tsx.
     intro:
-      "Nepal is usually famous for treks which take several weeks to accomplish, but that perception is not in line with the possibilities that exist for tourists who just want a holiday. Malaysian travellers interested in the Himalayas and its wildlife do not necessarily have to do any difficult trek to enjoy their stay.",
+      "Nepal is usually famous for treks, which take several weeks to accomplish; but this is a perception that is not in line with the possibilities that exist in the country for tourists who are less adventurous in nature and just want to go for a holiday. Malaysian tourists interested in seeing the beauty of the Himalayas and wildlife do not necessarily have to do any difficult trek to enjoy their stay in Nepal.",
     canonicalUrl: "/tours/nepal/nepal-tour-travel-guide-2026",
     ogTitle:
       "Nepal Tour Packages From Malaysia: Himalayan Views Without the Hardcore Trek",

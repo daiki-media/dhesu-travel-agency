@@ -230,7 +230,7 @@ export const THEMES: IndiaLandingPage[] = [
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/IndiaGuide.tsx.
     intro:
-      "Not many countries can boast the variety of experiences that India does right from the majestic white domes of the Taj Mahal to the peaceful backwaters of Kerala to the snowy peaks of Kashmir and its cable cars. For the Malaysian traveler, there is something about India that naturally draws one towards it, both culturally and spiritually.",
+      "Not many countries can boast the variety of experiences that India does right from the majestic white domes of the Taj Mahal to the peaceful backwaters of Kerala to the snowy peaks of Kashmir and its cable cars. In addition, for the Malaysian traveler, there is something about India that naturally draws one towards it, both culturally and spiritually. This guide helps you understand the different regions of India favored by Malaysian tourists and what they include.",
     canonicalUrl: "/tours/india/india-tour-travel-guide-2026",
     ogTitle:
       "India Tour Packages From Malaysia: Taj Mahal, Kerala, Kashmir & Beyond",

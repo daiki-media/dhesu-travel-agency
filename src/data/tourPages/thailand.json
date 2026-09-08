@@ -98,7 +98,7 @@
         "tag": "Beach & Nightlife",
         "tagColor": "orange",
         "description": "Thailand's biggest island. Resorts, international infrastructure, Phi Phi day trips and a nightlife scene that runs until dawn.",
-        "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/14166.jpg",
         "vibe": "Lively",
         "href": "/tours/thailand/phuket"
       },
@@ -107,7 +107,7 @@
         "tag": "Cliffs & Lagoons",
         "tagColor": "green",
         "description": "Dramatic limestone karsts, Railay Beach and the Four Islands tour. Quieter and more scenic than Phuket, and a climber's paradise.",
-        "image": "https://images.unsplash.com/photo-1598935898639-81586f7d2129?w=800&auto=format&fit=crop",
+        "image": "/images/gallery/14168.jpg",
         "vibe": "Scenic",
         "href": "/tours/thailand/krabi"
       },
@@ -195,7 +195,7 @@
           "Phuket Old Town",
           "FantaSea Show"
         ],
-        "image": "/images/guides/phang-nga-longtail.jpg",
+        "image": "/images/gallery/16723.jpg",
         "popular": true
       },
       {
@@ -213,7 +213,7 @@
           "Sea Canoeing",
           "Naka Island"
         ],
-        "image": "/images/guides/phang-nga-longtail.jpg",
+        "image": "/images/gallery/14166.jpg",
         "popular": false
       },
       {
@@ -231,7 +231,7 @@
           "Phuket Old Town",
           "FantaSea Show"
         ],
-        "image": "/images/guides/phang-nga-longtail.jpg",
+        "image": "/images/gallery/16715.jpg",
         "popular": false
       },
       {
@@ -249,7 +249,7 @@
           "Tup Island Sandbar",
           "Poda Island"
         ],
-        "image": "/images/guides/phuket-island-cove.jpg",
+        "image": "/images/gallery/14168.jpg",
         "popular": false
       },
       {
@@ -267,7 +267,7 @@
           "Tiger Cave Temple",
           "4 Islands Tour"
         ],
-        "image": "/images/guides/phuket-island-cove.jpg",
+        "image": "/images/gallery/10456.jpg",
         "popular": false
       },
       {
@@ -285,7 +285,7 @@
           "4 Islands Tour",
           "Emerald Pool"
         ],
-        "image": "/images/guides/phuket-island-cove.jpg",
+        "image": "/images/gallery/10544.jpg",
         "popular": false
       }
     ]

@@ -6,7 +6,7 @@
     "slug": "krabi/3-day-amazing-krabi-4-islands",
     "canonicalUrl": "/tours/thailand/krabi/3-day-amazing-krabi-4-islands",
     "pkgid": "2116",
-    "ogImage": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop"
+    "ogImage": "/images/gallery/14168.jpg"
   },
   "hero": {
     "badge": "Amazing Krabi — 3 Days",
@@ -31,8 +31,8 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
-    "heroImageAlt": "Limestone karsts rising from the sea off Krabi, Thailand"
+    "heroImage": "/images/gallery/14168.jpg",
+    "heroImageAlt": "Couple on Railay Beach beneath Krabi's limestone cliffs, a longtail boat offshore"
   },
   "quickFacts": {
     "duration": "3 Days / 2 Nights",
@@ -99,26 +99,26 @@
       {
         "title": "The Four Islands by Traditional Longtail",
         "body": "The route covers Phranang Cave, Chicken Island, Tup Island and Poda Island in a single day from Ao Nang, travelling by traditional longtail boat or speedboat depending on the day and the group. It is the classic Krabi excursion and the reason most people come, taking in shrine caves, snorkelling water, a tidal sandbar and a white-sand beach in one loop of the Andaman Sea.",
-        "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
-        "imageAlt": "Traditional longtail boat on turquoise water off Krabi"
+        "image": "/images/gallery/10543.jpg",
+        "imageAlt": "Longtail boat and limestone tower on Phranang Beach, Krabi"
       },
       {
         "title": "Chicken Island & the Snorkelling Stop",
         "body": "Koh Kai takes its name from the limestone formation at its tip, which from the right angle resembles the head and neck of a chicken. The water around it is the day's main snorkelling stop, shallow and clear enough to see reef fish without diving, and the boat anchors long enough to get properly in the water rather than just look at it.",
-        "image": "/images/guides/phuket-island-cove.jpg",
-        "imageAlt": "Snorkelling in clear shallow water beside a limestone island"
+        "image": "/images/gallery/10540.jpg",
+        "imageAlt": "Chicken Island's distinctive limestone formation rising from the sea off Krabi"
       },
       {
         "title": "The Tup Island Sandbar",
         "body": "At low tide a strip of white sand emerges from the sea between Tup Island and its neighbours, and you can walk out along it with water on both sides. It is a genuinely unusual thing to stand on, and it is the photograph most people take home from Krabi. Whether it appears depends on the tide on the day, which is why the boat timings are set around it.",
-        "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
-        "imageAlt": "White sandbar emerging between islands at low tide, Krabi"
+        "image": "/images/gallery/10539.jpg",
+        "imageAlt": "The white sandbar at Tup Island emerging at low tide, Krabi"
       },
       {
         "title": "Phranang Cave & Poda Island",
         "body": "Phranang Cave sits beneath the Railay headland and is well known for the local legends attached to it and for the shrine to a princess spirit that fishermen still honour. Poda Island closes the day: a wide white beach backed by a single limestone outcrop, with shallow, clear water for swimming before the boat turns for Ao Nang.",
-        "image": "/images/guides/phuket-island-cove.jpg",
-        "imageAlt": "White sand beach and limestone outcrop at Poda Island, Krabi"
+        "image": "/images/gallery/10537.jpg",
+        "imageAlt": "Swimmer among shoals of fish off Poda Island, Krabi"
       }
     ]
   },
@@ -271,7 +271,7 @@
       "price": "From RM748",
       "duration": "3D2N",
       "slug": "krabi/3-day-4-islands-emerald-pool",
-      "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop"
+      "image": "/images/gallery/10456.jpg"
     },
     {
       "id": "thailand-krabi-4-day-tropical-escape-hong-islands",
@@ -279,7 +279,7 @@
       "price": "From RM1,088",
       "duration": "4D3N",
       "slug": "krabi/4-day-tropical-escape-hong-islands",
-      "image": "/images/guides/phuket-island-cove.jpg"
+      "image": "/images/gallery/10544.jpg"
     }
   ],
   "cta": {
@@ -289,7 +289,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop"
+    "bgImage": "/images/gallery/14168.jpg"
   },
   "schema": {
     "type": "TouristTrip",

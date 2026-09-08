@@ -1,9 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
+import { Bullet, DataTable, GuideFigure, INLINE_LINK, Section } from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -22,20 +23,46 @@ import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 const PHOTO = "/images/guides/patan-durbar.jpg";
 const PHOTO_ALT = "Patan Durbar Square in the Kathmandu Valley, Nepal";
 
+// The draft's own internal links. The .docx still points at the old
+// holidayidea.com.my search pages (search-travel.php?s=<place>&c=25, and a bare
+// s=Nepal for the country-wide ones); each is remapped to the page that now
+// covers it. Anchors the draft left unlinked — Sarangkot, Chitwan — stay
+// unlinked rather than being second-guessed.
+const NEPAL = "/tours/nepal";
+const KATHMANDU = "/tours/nepal/kathmandu";
+const NAGARKOT = "/tours/nepal/nagarkot";
+const POKHARA = "/tours/nepal/pokhara";
 
-const coreDestinations = [
+
+const coreDestinations: {
+  destination: React.ReactNode;
+  character: string;
+  highlights: string;
+}[] = [
   {
-    destination: "Kathmandu",
+    destination: (
+      <Link href={KATHMANDU} className={INLINE_LINK}>
+        Kathmandu
+      </Link>
+    ),
     character: "Nepal's cultural and historic capital",
     highlights: "Durbar Square, the Living Goddess (Kumari) tradition, temples",
   },
   {
-    destination: "Nagarkot",
+    destination: (
+      <Link href={NAGARKOT} className={INLINE_LINK}>
+        Nagarkot
+      </Link>
+    ),
     character: "Hilltop village above the clouds",
     highlights: "Sunrise views over the Himalayan range, including Everest on clear days",
   },
   {
-    destination: "Pokhara",
+    destination: (
+      <Link href={POKHARA} className={INLINE_LINK}>
+        Pokhara
+      </Link>
+    ),
     character: "Lakeside city at the base of the Annapurna range",
     highlights: "Phewa Lake, mountain views, a more relaxed pace",
   },
@@ -51,18 +78,50 @@ const coreDestinations = [
   },
 ];
 
-const byDestination = [
+const byDestination: { title: string; body: React.ReactNode }[] = [
   {
     title: "Kathmandu: Nepal's Cultural Heart",
-    body: "Kathmandu forms an important part of almost all the itineraries of Nepal, because it houses the famous Durbar Square, and one of the most unique cultural practices of the country – Kumari, which is the term for a living goddess in Nepal. She is basically a young girl who is revered as the living god.",
+    body: (
+      <>
+        <Link href={KATHMANDU} className={INLINE_LINK}>
+          Kathmandu
+        </Link>{" "}
+        forms an important part of almost all the itineraries of Nepal, because it houses
+        the famous Durbar Square, and one of the most unique cultural practices of the
+        country – Kumari, which is the term for a living goddess in Nepal. She is basically
+        a young girl who is revered as the living god.
+      </>
+    ),
   },
   {
     title: "Nagarkot: The Himalayan Village Above the Clouds",
-    body: "This location has come to be the one most sought after in any travel itinerary in Nepal since it provides an experience of the Himalayas in an easy manner that does not require any tough trekking. Rising early at the break of dawn in this peaceful hill town and watching the sunrise on the snow capped mountains is an experience to remember.",
+    body: (
+      <>
+        This location has come to be the one most sought after in any travel itinerary in
+        Nepal since it provides an experience of the Himalayas in an easy manner that does
+        not require any tough trekking. Rising early at the break of dawn in this{" "}
+        <Link href={NAGARKOT} className={INLINE_LINK}>
+          peaceful hill town
+        </Link>{" "}
+        and watching the sunrise on the snow capped mountains is an experience to
+        remember.
+      </>
+    ),
   },
   {
     title: "Pokhara: Lakeside Serenity at the Foot of the Annapurna Range",
-    body: "While Pokhara is quite a bit different from Kathmandu in terms of pace, it is a tranquil lakeside town where one can see the reflection of the Annapurna mountain range in Phewa Lake on a clear day. It is also the starting point for shorter treks to Sarangkot, another sunrise viewing spot.",
+    body: (
+      <>
+        While{" "}
+        <Link href={POKHARA} className={INLINE_LINK}>
+          Pokhara
+        </Link>{" "}
+        is quite a bit different from Kathmandu in terms of pace, it is a tranquil lakeside
+        town where one can see the reflection of the Annapurna mountain range in Phewa Lake
+        on a clear day. It is also the starting point for shorter treks to Sarangkot,
+        another sunrise viewing spot.
+      </>
+    ),
   },
   {
     title: "Chitwan National Park: Nepal's Wildlife Side",
@@ -182,7 +241,11 @@ export default function NepalGuide() {
           The fact remains that even itineraries not associated with treks in Nepal come
           with certain elevations that need to be known in advance. Kathmandu is an area
           of medium elevation, whereas Nagarkot and Pokhara have certain elevated areas,
-          which are nowhere near the high Himalayan trekking regions in terms of altitude.
+          which are nowhere near the high{" "}
+          <Link href={NEPAL} className={INLINE_LINK}>
+            Himalayan trekking regions
+          </Link>{" "}
+          in terms of altitude.
           However, people do not experience any negative impacts due to the
           above-mentioned elevations; still people who have certain medical problems can
           inform about the same during planning of the trip.
@@ -191,7 +254,11 @@ export default function NepalGuide() {
 
       <Section label="Etiquette" heading="Nepal's cultural etiquette worth knowing">
         <p className="text-gray-600 leading-relaxed">
-          The Nepalese culture, which is predominantly Buddhist and Hindu, has many rules
+          The{" "}
+          <Link href={NEPAL} className={INLINE_LINK}>
+            Nepalese culture
+          </Link>
+          , which is predominantly Buddhist and Hindu, has many rules
           of etiquette one should be aware of before visiting the temples and shrines, for
           example, taking off one&rsquo;s shoes when entering a temple, covering up when
           visiting shrines, walking clockwise around religious structures, like stupas,

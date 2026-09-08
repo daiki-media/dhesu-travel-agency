@@ -6,7 +6,7 @@
     "slug": "krabi/3-day-4-islands-emerald-pool",
     "canonicalUrl": "/tours/thailand/krabi/3-day-4-islands-emerald-pool",
     "pkgid": "2121",
-    "ogImage": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop"
+    "ogImage": "/images/gallery/10456.jpg"
   },
   "hero": {
     "badge": "Islands & Rainforest — 3 Days",
@@ -31,8 +31,8 @@
         "href": null
       }
     ],
-    "heroImage": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
-    "heroImageAlt": "Limestone cliffs above the Andaman Sea in Krabi, Thailand"
+    "heroImage": "/images/gallery/10456.jpg",
+    "heroImageAlt": "Wooden bridge across the turquoise water of the Emerald Pool, Krabi"
   },
   "quickFacts": {
     "duration": "3 Days / 2 Nights",
@@ -100,26 +100,26 @@
       {
         "title": "The Emerald Pool",
         "body": "Fed by freshwater springs deep in the rainforest, the Emerald Pool holds water of a genuinely unusual colour — a clear, luminous green that comes from the mineral content and the limestone bed beneath it. The walk in runs through forest on a boardwalk trail, and the pool itself is shallow, warm and open for swimming.",
-        "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
-        "imageAlt": "Clear green freshwater pool in tropical rainforest, Krabi"
+        "image": "/images/gallery/10456.jpg",
+        "imageAlt": "Wooden bridge across the turquoise water of the Emerald Pool, Krabi"
       },
       {
         "title": "Hot Spring Waterfalls",
         "body": "Upstream of the Emerald Pool, thermal water rich in mineral salts runs down a series of smooth limestone basins that have been worn into natural bathtubs. The water is naturally heated and sits at bath temperature, and the setting — under rainforest canopy, with cool stream water running alongside — is the reason it is worth the drive inland.",
-        "image": "/images/guides/phuket-island-cove.jpg",
-        "imageAlt": "Thermal water flowing over limestone basins in rainforest"
+        "image": "/images/gallery/10553.jpg",
+        "imageAlt": "Bathers in the thermal limestone basins of the Hot Spring Waterfalls, Krabi"
       },
       {
         "title": "Tiger Cave Temple",
         "body": "Wat Tham Suea is a working spiritual and meditation centre built around a complex of limestone caves, surrounded by ancient trees and quiet forest. The grounds at the base can be explored at an easy pace; for those who want it, a long stairway climbs to the mountaintop shrine and a panoramic view over Krabi, the surrounding karsts and the coast.",
-        "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
-        "imageAlt": "Limestone cliffs and temple grounds at Tiger Cave Temple, Krabi"
+        "image": "/images/gallery/10552.jpg",
+        "imageAlt": "The gilded Buddha and mountaintop shrine at Tiger Cave Temple, Krabi"
       },
       {
         "title": "The Four Islands by Boat",
         "body": "The second day covers the classic Krabi sea route from Ao Nang: Phranang Cave with its princess shrine, snorkelling at Chicken Island, the white-sand bar that emerges at low tide beside Tup Island, and Poda Island's wide beach and clear shallow water. Picnic-box lunch is provided on the boat and you are back at the hotel by around 2pm.",
-        "image": "/images/guides/phuket-island-cove.jpg",
-        "imageAlt": "Longtail boats moored off a white sand beach in Krabi"
+        "image": "/images/gallery/10539.jpg",
+        "imageAlt": "The white sandbar at Tup Island emerging at low tide, Krabi"
       }
     ]
   },
@@ -273,7 +273,7 @@
       "price": "From RM528",
       "duration": "3D2N",
       "slug": "krabi/3-day-amazing-krabi-4-islands",
-      "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop"
+      "image": "/images/gallery/14168.jpg"
     },
     {
       "id": "thailand-krabi-4-day-tropical-escape-hong-islands",
@@ -281,7 +281,7 @@
       "price": "From RM1,088",
       "duration": "4D3N",
       "slug": "krabi/4-day-tropical-escape-hong-islands",
-      "image": "/images/guides/phuket-island-cove.jpg"
+      "image": "/images/gallery/10544.jpg"
     }
   ],
   "cta": {
@@ -291,7 +291,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop"
+    "bgImage": "/images/gallery/10456.jpg"
   },
   "schema": {
     "type": "TouristTrip",

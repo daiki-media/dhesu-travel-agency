@@ -6,7 +6,7 @@
     "slug": "krabi/4-day-tropical-escape-hong-islands",
     "canonicalUrl": "/tours/thailand/krabi/4-day-tropical-escape-hong-islands",
     "pkgid": "94",
-    "ogImage": "/images/guides/phuket-island-cove.jpg"
+    "ogImage": "/images/gallery/10544.jpg"
   },
   "hero": {
     "badge": "Tropical Escape — 4 Days",
@@ -31,8 +31,8 @@
         "href": null
       }
     ],
-    "heroImage": "/images/guides/phuket-island-cove.jpg",
-    "heroImageAlt": "Longtail boats in a calm bay enclosed by limestone cliffs"
+    "heroImage": "/images/gallery/10544.jpg",
+    "heroImageAlt": "Shallow water and fish at the entrance to Hong Lagoon, Krabi"
   },
   "quickFacts": {
     "duration": "4 Days / 3 Nights",
@@ -101,26 +101,26 @@
       {
         "title": "Hong Lagoon — The Room in the Rock",
         "body": "Hong Lagoon is a natural pool of still, shallow water almost completely enclosed by sheer limestone walls, reached by boat through a narrow entrance that opens only at the right tide. Inside, the water is glass-flat and the cliffs rise on every side. The Thai word hong means room, and the name is exact.",
-        "image": "/images/guides/phuket-island-cove.jpg",
-        "imageAlt": "Enclosed lagoon surrounded by towering limestone cliffs, Krabi"
+        "image": "/images/gallery/10544.jpg",
+        "imageAlt": "Shallow water and fish at the entrance to Hong Lagoon, Krabi"
       },
       {
         "title": "Kayaking Beneath the Cliffs",
         "body": "The Hong Island day includes a kayak session on the calm coastal water at the island's edge, paddling beneath overhanging limestone and into the shallows along the shore. It is unhurried and requires no experience — the water is sheltered, and it is the closest you get to the rock formations that define this coastline.",
-        "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
-        "imageAlt": "Kayaking on calm water beneath limestone cliffs in Krabi"
+        "image": "/images/gallery/10573.jpg",
+        "imageAlt": "Longtail boats moored off a tree-covered island in the Andaman Sea"
       },
       {
         "title": "The Classic Four Islands",
         "body": "Day two covers Krabi's signature sea route from Ao Nang — Phranang Cave and its princess shrine beneath the Railay headland, snorkelling at Chicken Island, the low-tide sandbar at Tup Island, and Poda Island's white-sand beach and clear shallow water — with lunch provided and a return to the hotel by around 2pm.",
-        "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop",
-        "imageAlt": "White sandbar between limestone islands at low tide, Krabi"
+        "image": "/images/gallery/10539.jpg",
+        "imageAlt": "The white sandbar at Tup Island emerging at low tide, Krabi"
       },
       {
         "title": "Rainforest, Emerald Pool & Tiger Cave Temple",
         "body": "The arrival day runs inland to the Hot Spring Waterfalls, where naturally heated thermal pools sit under the rainforest canopy, and the Emerald Pool, a spring-fed pool that glows a clear green. It finishes at Tiger Cave Temple, a meditation centre among limestone caves and ancient trees, with an optional stairway climb to a panoramic mountaintop view.",
-        "image": "/images/guides/phuket-island-cove.jpg",
-        "imageAlt": "Emerald green freshwater pool in tropical rainforest, Krabi"
+        "image": "/images/gallery/10456.jpg",
+        "imageAlt": "Wooden bridge across the turquoise water of the Emerald Pool, Krabi"
       }
     ]
   },
@@ -288,7 +288,7 @@
       "price": "From RM528",
       "duration": "3D2N",
       "slug": "krabi/3-day-amazing-krabi-4-islands",
-      "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop"
+      "image": "/images/gallery/14168.jpg"
     },
     {
       "id": "thailand-krabi-3-day-4-islands-emerald-pool",
@@ -296,7 +296,7 @@
       "price": "From RM748",
       "duration": "3D2N",
       "slug": "krabi/3-day-4-islands-emerald-pool",
-      "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=800&auto=format&fit=crop"
+      "image": "/images/gallery/10456.jpg"
     }
   ],
   "cta": {
@@ -306,7 +306,7 @@
     "whatsapp": "60193364465",
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
-    "bgImage": "/images/guides/phuket-island-cove.jpg"
+    "bgImage": "/images/gallery/10544.jpg"
   },
   "schema": {
     "type": "TouristTrip",

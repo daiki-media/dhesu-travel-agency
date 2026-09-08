@@ -4,7 +4,7 @@ import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
+import { Bullet, DataTable, GuideFigure, INLINE_LINK, Section } from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -23,56 +23,138 @@ import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 const PHOTO = "/images/guides/hawa-mahal.jpg";
 const PHOTO_ALT = "The honeycomb facade of Hawa Mahal in Jaipur, Rajasthan";
 
+// The draft's own internal links. The .docx still points at the old
+// holidayidea.com.my search pages (search-travel.php?s=<region>&c=6); each one
+// is remapped to the region page that now covers it.
+const TAJ = "/tours/india/taj-mahal";
+const KERALA = "/tours/india/kerala";
+const KASHMIR = "/tours/india/kashmir";
+const NORTH_INDIA = "/tours/india/north-india";
+const VARANASI = "/tours/india/varanasi";
+const SOUTH_INDIA = "/tours/india/south-india";
+const NEPAL = "/tours/nepal";
 
+/** The draft links the first cell of every row in this table. */
 const regionalItineraries = [
   {
     region: "Taj Mahal & Golden Triangle",
+    href: TAJ,
     destinations: "Delhi, Agra, Jaipur",
     knownFor: "India's most iconic monument, royal Rajasthan heritage",
   },
   {
     region: "Kerala",
+    href: KERALA,
     destinations: "Backwaters, Munnar, Thekkady",
     knownFor: "Houseboat stays, tea plantations, “God's Own Country”",
   },
   {
     region: "Kashmir",
+    href: KASHMIR,
     destinations: "Srinagar, Gulmarg, Pahalgam",
     knownFor: "Houseboats, cable car rides, Himalayan scenery",
   },
   {
     region: "Himachal Pradesh",
+    href: NORTH_INDIA,
     destinations: "Shimla, Manali",
     knownFor: "Colonial hill stations, mountain views, cooler climate",
   },
   {
     region: "Varanasi & Spiritual India",
+    href: VARANASI,
     destinations: "Varanasi, Prayagraj, Ayodhya",
     knownFor: "Ganga Aarti, sacred rivers, temple pilgrimage",
   },
   {
     region: "South India Temples",
+    href: SOUTH_INDIA,
     destinations: "Tirupati, Kanchipuram, Chennai",
     knownFor: "Ancient temple architecture and pilgrimage circuits",
   },
 ];
 
-const regionDetails = [
+// The draft's own order: Taj Mahal, Kerala, Kashmir, Himachal, Varanasi.
+const regionDetails: { title: string; body: React.ReactNode }[] = [
   {
     title: "The Taj Mahal & Golden Triangle Circuit",
-    body: "This circuit is still among the most favored destinations for tourists to India for the first time. The Taj Mahal of Agra stands out as the finest Indo-Islamic structure, and this is owing to the rhythmic proportions of its solid and void spaces along with light and shadow. In combination with the historical landmarks of Delhi and the royal Rajasthani heritage of Jaipur, it provides a good introduction to Indian history and architecture in North India.",
+    body: (
+      <>
+        This circuit is still among the most favored destinations for tourists to India
+        for the first time. The{" "}
+        <Link href={TAJ} className={INLINE_LINK}>
+          Taj Mahal of Agra
+        </Link>{" "}
+        stands out as the finest Indo-Islamic structure, and this is owing to the rhythmic
+        proportions of its solid and void spaces along with light and shadow. In
+        combination with the historical landmarks of Delhi and the royal Rajasthani
+        heritage of Jaipur, it provides a good introduction to Indian history and
+        architecture in North India.
+      </>
+    ),
+  },
+  {
+    title: "Kerala: Backwaters and “God's Own Country”",
+    body: (
+      <>
+        Kerala is always counted amongst the top choices for Indian travel destinations
+        from Malaysia, and there is a good reason for this Kerala is among the 10
+        paradises of the world, according to National Geographic. A usual Kerala tour will
+        combine exploration of culture, food, and nature, with an overnight journey in a
+        house boat through the{" "}
+        <Link href={KERALA} className={INLINE_LINK}>
+          backwaters of Kerala
+        </Link>
+        , coupled with tea gardens in Munnar and wildlife in Thekkady.
+      </>
+    ),
   },
   {
     title: "Kashmir: Himalayan Scenery and Houseboat Stays",
-    body: "Commonly known as the “Switzerland of India,” Kashmir is a place where the scenery differs greatly from that of the rest of India, having snowcapped mountains, lakes of alpine nature, and houseboats to stay at, on Dal Lake, Srinagar. Common tours also include cable cars through mountain scenery in Gulmarg, as well as gardens of the Mughal period.",
+    body: (
+      <>
+        Commonly known as the{" "}
+        <Link href={KASHMIR} className={INLINE_LINK}>
+          “Switzerland of India,” Kashmir
+        </Link>{" "}
+        is a place where the scenery differs greatly from that of the rest of India,
+        having snowcapped mountains, lakes of alpine nature, and houseboats to stay at, on
+        Dal Lake, Srinagar. Common tours also include cable cars through mountain scenery
+        in Gulmarg, as well as gardens of the Mughal period.
+      </>
+    ),
   },
   {
     title: "Himachal Pradesh: Shimla & Manali",
-    body: "Those who desire to experience cool weather as well as the old-world charm of a colonial hill-station can enjoy themselves in Shimla and Manali. Shimla is the erstwhile summer capital of British India and boasts of colonial architecture and the scenic beauty of the mountains from its bustling Mall Road, whereas Manali lies on the banks of the Beas river.",
+    body: (
+      <>
+        Those who desire to experience cool weather as well as the old-world charm of a
+        colonial hill-station can enjoy themselves in{" "}
+        <Link href={NORTH_INDIA} className={INLINE_LINK}>
+          Shimla and Manali
+        </Link>
+        . Shimla is the erstwhile summer capital of British India and boasts of colonial
+        architecture and the scenic beauty of the mountains from its bustling Mall Road,
+        whereas Manali lies on the banks of the Beas river.
+      </>
+    ),
   },
   {
     title: "Varanasi and Spiritual India Journeys",
-    body: "For people who want to have a trip that is more spiritual or a pilgrimage journey, Varanasi is the place from which some of the most spiritually charged itineraries in India originate. Tours usually include the enchanting Ganga Aarti ritual, a boat journey on the holy Ganges river, and trips to some well-known temples, and some of the itineraries even organise Pind Daan prayer for those who want to honor their dead family members. The extended itineraries may also take in Prayagraj, Ayodhya, or the temple itineraries of South India.",
+    body: (
+      <>
+        For people who want to have a trip that is more spiritual or a pilgrimage journey,{" "}
+        <Link href={VARANASI} className={INLINE_LINK}>
+          Varanasi
+        </Link>{" "}
+        is the place from which some of the most spiritually charged itineraries in India
+        originate. Tours usually include the enchanting Ganga Aarti ritual, a boat journey
+        on the holy Ganges river, and trips to some well-known temples, and some of the
+        itineraries even organise Pind Daan prayer for those who want to honor their dead
+        family members. The extended itineraries may also take in Prayagraj, Ayodhya, or
+        the temple itineraries of South India.
+      </>
+    ),
   },
 ];
 
@@ -130,7 +212,13 @@ export default function IndiaGuide() {
         <DataTable
           headers={["Region / Focus", "Key destinations", "Known for"]}
           widths={["w-1/4", undefined, undefined]}
-          rows={regionalItineraries.map((row) => [row.region, row.destinations, row.knownFor])}
+          rows={regionalItineraries.map((row) => [
+            <Link key={row.region} href={row.href} className={INLINE_LINK}>
+              {row.region}
+            </Link>,
+            row.destinations,
+            row.knownFor,
+          ])}
         />
       </Section>
 
@@ -149,23 +237,6 @@ export default function IndiaGuide() {
       </Section>
 
       <GuideFigure src={PHOTO} alt={PHOTO_ALT} />
-
-      <Section label="Kerala" heading="Kerala: backwaters and “God's Own Country”">
-        <p className="text-gray-600 leading-relaxed">
-          Kerala is always counted amongst the top choices for Indian travel destinations
-          from Malaysia, and there is a good reason for this Kerala is among the 10
-          paradises of the world, according to National Geographic. A usual Kerala tour
-          will combine exploration of culture, food, and nature, with an overnight journey
-          in a house boat through the backwaters of Kerala, coupled with tea gardens in
-          Munnar and wildlife in Thekkady. Travellers wanting to add Thekkady&rsquo;s
-          spice country and Periyar wildlife to the Kerala classics can see how that looks
-          in practice on our{" "}
-          <Link href="/tours/india/kerala/6-day-beautiful-thekkady" className="text-primary underline">
-            6-day Kerala &amp; Thekkady itinerary
-          </Link>
-          .
-        </p>
-      </Section>
 
       <Section label="Choosing" heading="Choosing the right India itinerary">
         <DataTable
@@ -212,11 +283,11 @@ export default function IndiaGuide() {
           itinerary, particularly for travellers with a spiritual or Himalayan focus. This
           kind of combination works especially well for journeys connecting North
           India&rsquo;s cultural sites with{" "}
-          <Link href="/tours/nepal" className="text-primary underline">
-            Nepal&rsquo;s Kathmandu and mountain viewpoints
-          </Link>
-          , offering a broader Himalayan and subcontinental experience without needing two
-          entirely separate trips.
+          <Link href={NEPAL} className={INLINE_LINK}>
+            Nepal&rsquo;s Kathmandu
+          </Link>{" "}
+          and mountain viewpoints, offering a broader Himalayan and subcontinental
+          experience without needing two entirely separate trips.
         </p>
       </Section>
 

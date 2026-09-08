@@ -1,9 +1,17 @@
 "use client";
 
+import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives";
+import {
+  Bullet,
+  DataTable,
+  GuideFigure,
+  INLINE_LINK,
+  Section,
+  TripRows,
+} from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -22,6 +30,18 @@ import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives"
 const PHOTO = "/images/guides/nine-arch-bridge.jpg";
 const PHOTO_ALT = "A train crossing the Nine Arch Bridge at Ella, Sri Lanka";
 
+// The draft's own internal links. The .docx still points at the old
+// holidayidea.com.my search pages (search-travel.php?s=<place>&c=24); each one
+// is remapped to the region page that now covers it. Two of them search for a
+// place the anchor does not name — the cuisine link searches Nuwara Eliya, the
+// heritage link searches Jaffna — and those targets are kept as the draft set
+// them rather than second-guessed.
+const SRI_LANKA = "/tours/sri-lanka";
+const COLOMBO = "/tours/sri-lanka/colombo";
+const KANDY = "/tours/sri-lanka/kandy";
+const YALA = "/tours/sri-lanka/yala-national-park";
+const NUWARA_ELIYA = "/tours/sri-lanka/nuwara-eliya";
+const JAFFNA = "/tours/sri-lanka/jaffna";
 
 const themes = [
   {
@@ -51,18 +71,40 @@ const themes = [
   },
 ];
 
-const byTheme = [
+const byTheme: { title: string; body: React.ReactNode }[] = [
   {
     title: "Nuwara Eliya: Sri Lanka's “Little England”",
     body: "Nuwara Eliya is still considered one of the top locations in the country because of the beauty and serenity that it possesses in the form of the tea gardens. However, besides the tea gardens, there are many other tourist spots that can be visited in Nuwara Eliya, like Horton Plains National Park, Gregory Lake, and Sita Temple.",
   },
   {
     title: "Kandy and Sigiriya: Sri Lanka's Cultural Heart",
-    body: "Kandy, with its famous Temple of the Tooth, acts as the spiritual and cultural hub for most Sri Lankan itineraries. Along with Sigiriya Rock Fortress, which is listed as a UNESCO World Heritage site and among the most popular monuments in Sri Lanka, this makes up the heart of most cultural tours, and gives an authentic feel of its rich history.",
+    body: (
+      <>
+        <Link href={KANDY} className={INLINE_LINK}>
+          Kandy
+        </Link>
+        , with its famous Temple of the Tooth, acts as the spiritual and cultural hub for
+        most Sri Lankan itineraries. Along with Sigiriya Rock Fortress, which is listed as
+        a UNESCO World Heritage site and among the most popular monuments in Sri Lanka,
+        this makes up the heart of most cultural tours, and gives an authentic feel of its
+        rich history.
+      </>
+    ),
   },
   {
     title: "Yala National Park: Wildlife Safari Experiences",
-    body: "For people looking for some excitement along with wildlife during their visit, the Yala National Park has jeep safaris that have been known for sightings of leopards and elephants, both amidst one of the finest biodiversity in the whole of Sri Lanka. The safari has been known to be included in most itineraries as an alternative to other excursions.",
+    body: (
+      <>
+        For people looking for some excitement along with wildlife during their visit, the{" "}
+        <Link href={YALA} className={INLINE_LINK}>
+          Yala National Park
+        </Link>{" "}
+        has jeep safaris that have been known for sightings of leopards and elephants,
+        both amidst one of the finest biodiversity in the whole of Sri Lanka. The safari
+        has been known to be included in most itineraries as an alternative to other
+        excursions.
+      </>
+    ),
   },
 ];
 
@@ -100,8 +142,12 @@ export default function SriLankaGuide() {
       <Section label="Why Sri Lanka" heading="Why Sri Lanka has become so popular">
         <p className="text-gray-600 leading-relaxed">
           Travelers love Sri Lanka because of its small geographical size; instead of
-          having to fly for hours from one place to another, in Sri Lanka, one gets the
-          chance to experience completely different geographical and experiential zones
+          having to fly for hours from one place to another, in{" "}
+          <Link href={SRI_LANKA} className={INLINE_LINK}>
+            Sri Lanka
+          </Link>
+          , one gets the chance to experience completely different geographical and
+          experiential zones
           in a short period of time. One can actually manage to do all that in just one
           week of travel.
         </p>
@@ -111,7 +157,17 @@ export default function SriLankaGuide() {
         <DataTable
           headers={["Theme", "Key destinations", "Highlights"]}
           widths={["w-1/4", undefined, undefined]}
-          rows={themes.map((row) => [row.theme, row.destinations, row.highlights])}
+          rows={themes.map((row) => [
+            row.theme === "Colombo & Modern Sri Lanka" ? (
+              <Link key={row.theme} href={COLOMBO} className={INLINE_LINK}>
+                {row.theme}
+              </Link>
+            ) : (
+              row.theme
+            ),
+            row.destinations,
+            row.highlights,
+          ])}
         />
       </Section>
 
@@ -177,8 +233,10 @@ export default function SriLankaGuide() {
 
       <Section label="Cuisine" heading="Sri Lankan cuisine and local culture">
         <p className="text-gray-600 leading-relaxed">
-          Sri Lankan food offers a distinctive blend of South Asian and Southeast Asian
-          influences, with rice and curry forming the backbone of most meals, alongside
+          <Link href={NUWARA_ELIYA} className={INLINE_LINK}>
+            Sri Lankan food
+          </Link>{" "}
+          offers a distinctive blend of South Asian and Southeast Asian influences, with rice and curry forming the backbone of most meals, alongside
           fresh seafood along the coastal regions and Ceylon tea, unsurprisingly, being a
           genuine highlight given the country&rsquo;s tea-growing heritage. Many
           hill-country itineraries include a visit to an active tea factory, offering
@@ -189,8 +247,12 @@ export default function SriLankaGuide() {
 
       <Section label="Heritage" heading="Sri Lanka's multicultural heritage">
         <p className="text-gray-600 leading-relaxed">
-          One of Sri Lanka&rsquo;s understated strengths as a travel destination is its
-          genuine cultural and religious diversity, shaped by Buddhist, Hindu, Muslim, and
+          One of{" "}
+          <Link href={JAFFNA} className={INLINE_LINK}>
+            Sri Lanka&rsquo;s
+          </Link>{" "}
+          understated strengths as a travel destination is its genuine cultural and
+          religious diversity, shaped by Buddhist, Hindu, Muslim, and
           Christian communities across the island. This is reflected in the range of
           religious and cultural sites included in many itineraries, from Kandy&rsquo;s
           Buddhist Temple of the Tooth to Hindu temples in the country&rsquo;s north and
