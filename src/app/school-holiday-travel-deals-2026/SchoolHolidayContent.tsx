@@ -246,7 +246,7 @@ export default function SchoolHolidayContent({
             Malaysia in 2026.
           </>
         }
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
 
       {/* ── THE 2026 WINDOWS ──────────────────────────────────────────────
@@ -509,7 +509,7 @@ export default function SchoolHolidayContent({
       <CtaSection
         heading="Secure Your School Holiday Trip Now"
         body="Popular destinations and dates fill up months in advance for school holidays. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

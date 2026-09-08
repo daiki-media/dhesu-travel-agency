@@ -690,7 +690,7 @@ export default function PromotionsContent({
                 many are travelling and the ages of any children. That is enough for a
                 consultant to come back with a written quote and the current availability.
               </p>
-              <Link href="/contact">
+              <Link href="/contact-us">
                 <Button variant="light" showArrow size="lg">
                   Send an Enquiry
                 </Button>

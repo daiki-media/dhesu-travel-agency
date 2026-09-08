@@ -243,7 +243,7 @@ export default function BaliGuide() {
         variant="card"
         heading="Start planning your Bali getaway"
         body="Whether you&apos;re after romance, family fun, or adventure, a consultant can help match you with the right Bali itinerary. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

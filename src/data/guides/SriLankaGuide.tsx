@@ -267,7 +267,7 @@ export default function SriLankaGuide() {
         variant="card"
         heading="Plan your Sri Lanka adventure"
         body="From misty tea country to ancient temples to wildlife safaris, a consultant can help you build the right Sri Lanka itinerary. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

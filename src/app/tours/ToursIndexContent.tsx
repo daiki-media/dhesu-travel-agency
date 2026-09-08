@@ -189,7 +189,7 @@ export default function ToursIndexContent() {
               added. In the meantime, our team can arrange any destination —
               just ask.
             </p>
-            <a href="/contact">
+            <a href="/contact-us">
               <Button variant="dark" showArrow size="lg">Plan a Custom Trip </Button>
             </a>
           </motion.div>

@@ -179,7 +179,7 @@ export default function VisaGuideArticle({
       closing={{
         heading: "Get Current Visa Guidance for Your Trip",
         body: "Visa requirements can change, and getting it wrong can mean missing your trip entirely. Speak with a consultant who can confirm current requirements for your specific destination and travel dates.",
-        href: "/contact",
+        href: "/contact-us",
         linkLabel: "Speak to a Consultant",
       }}
     >

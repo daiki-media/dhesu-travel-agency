@@ -170,7 +170,7 @@ export default function MyanmarGuide() {
         variant="card"
         heading="Plan your Myanmar cultural journey"
         body="From Bagan&rsquo;s ancient temple plain to Yangon&rsquo;s golden pagodas, a consultant can help you plan a meaningful Myanmar itinerary. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

@@ -139,7 +139,7 @@ export default function BaliHoneymoonGuide() {
         variant="card"
         heading="Find your perfect honeymoon destination"
         body="Whether you&apos;re drawn to Bali&apos;s accessible romance, Mauritius&apos;s luxury seclusion, or Europe&apos;s cultural charm, a consultant can help you choose and plan the right trip. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

@@ -168,7 +168,7 @@ export default function PlanYourTrip() {
                   Explore Tours
                 </Button>
               </Link>
-              <Link href="/contact#free-quote" className="w-full sm:w-auto">
+              <Link href="/contact-us#free-quote" className="w-full sm:w-auto">
                 <Button variant="light" showArrow size="lg" className="w-full sm:w-auto">
                   Get a Free Quote
                 </Button>

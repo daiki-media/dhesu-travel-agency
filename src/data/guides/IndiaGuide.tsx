@@ -297,7 +297,7 @@ export default function IndiaGuide() {
         variant="card"
         heading="Start planning your India journey"
         body="From the Taj Mahal to Kerala&apos;s backwaters to spiritual Varanasi, a consultant can help you choose the right region and build your ideal itinerary. Request a free quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

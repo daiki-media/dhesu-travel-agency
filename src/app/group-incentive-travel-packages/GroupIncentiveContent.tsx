@@ -293,7 +293,7 @@ export default function GroupIncentiveContent({
             and incentive travel and how a travel partner helps with the same.
           </>
         }
-        actions={[{ label: "Request a Formal Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Formal Quote", href: "/contact-us" }]}
       />
 
       {/* ── THE CONTRAST ──────────────────────────────────────────────────
@@ -555,7 +555,7 @@ export default function GroupIncentiveContent({
       <CtaSection
         heading="Request a Corporate Group Travel Quote"
         body="Whether it&rsquo;s a reward trip, retreat, or milestone celebration, a dedicated consultant can manage the full logistics for your team. Request a free, formal quote today."
-        actions={[{ label: "Request a Formal Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Formal Quote", href: "/contact-us" }]}
       />
     </>
   );

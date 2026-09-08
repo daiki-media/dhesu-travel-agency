@@ -243,7 +243,7 @@ export default function VietnamGuide() {
         variant="card"
         heading="Plan your Vietnam journey"
         body="From Halong Bay&apos;s dramatic scenery to Hoi An&apos;s lantern-lit charm, a consultant can help you choose the right region and itinerary. Request a free quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

@@ -14,7 +14,7 @@ const url = (path: string) => `${BASE_URL}${path.replace(/\/+$/, "")}/`;
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages = ["", "/tours", "/about-us", "/contact"].map((path) => ({
+  const staticPages = ["", "/tours", "/about-us", "/contact-us"].map((path) => ({
     url: url(path),
     changeFrequency: "weekly" as const,
     priority: path === "" ? 1 : 0.8,

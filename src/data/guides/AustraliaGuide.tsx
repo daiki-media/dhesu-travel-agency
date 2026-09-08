@@ -289,7 +289,7 @@ export default function AustraliaGuide() {
         variant="card"
         heading="Plan Your Australia Family Getaway"
         body="From Sydney&apos;s iconic harbour to Melbourne&apos;s laneway culture, a consultant can help you plan the right Australia itinerary timed around your school holidays. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

@@ -200,7 +200,7 @@ export default function Navbar() {
 
         {/* Plan My Trip CTA */}
         <div className="mr-8 lg:mr-20 hidden md:block flex-shrink-0">
-          <a href="/contact">
+          <a href="/contact-us">
           <Button variant="dark" showArrow>
             Plan My Trip
           </Button>
@@ -235,7 +235,7 @@ export default function Navbar() {
           ))}
 
           <div className="text-center mt-5">
-            <a href="/contact">
+            <a href="/contact-us">
               <Button showArrow variant="dark">
                 Plan My Trip
               </Button>

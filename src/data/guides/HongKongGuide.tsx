@@ -197,7 +197,7 @@ export default function HongKongGuide() {
         variant="card"
         heading="Plan your Hong Kong getaway"
         body="From Disneyland magic to skyline views to bustling markets, a consultant can help you plan the perfect short Hong Kong trip. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

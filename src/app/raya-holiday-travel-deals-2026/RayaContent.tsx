@@ -263,7 +263,7 @@ export default function RayaContent({
             aspects that take into account the importance of the holiday period.
           </>
         }
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
 
       {/* ── WHAT CHANGES ──────────────────────────────────────────────────── */}
@@ -563,7 +563,7 @@ export default function RayaContent({
       <CtaSection
         heading="Plan Your Raya Getaway"
         body="Celebrate the festive season with a trip that respects both your traditions and your travel goals. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

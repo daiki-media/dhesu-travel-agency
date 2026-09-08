@@ -11,25 +11,6 @@ import { company } from "@/src/data/company";
 
 export { default as BlogTable } from "./BlogTable";
 
-/**
- * Shared shell for the six Holiday Idea blog articles.
- *
- * The destination guides under /tours each get their own visual treatment
- * because each one sells a different place. The blog is the opposite case: six
- * articles that a reader moves between, so they deliberately share one shell —
- * same hero, same reading measure, same table and callout devices. Only the
- * words and the photography change.
- *
- * The body is a single centred column rather than a column beside a rail. These
- * are articles, not documentation: a fixed reading measure of roughly 70
- * characters is what makes long prose readable, and a sticky sidebar competes
- * with the text for attention while costing the mobile reader nothing but a
- * wider layout. The contents list is inline above the article instead, where it
- * is available to every reader and to search engines as jump links.
- *
- * Every primitive an article needs is exported from here, so an article file
- * contains its copy and nothing else.
- */
 
 const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -126,12 +107,7 @@ export const ARTICLE_LINK =
 export const LEAD_LINK =
   "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
 
-/**
- * Body paragraph at the article's reading size.
- *
- * 17px at 1.75 line-height, in a near-black grey rather than a mid grey: long
- * prose needs both the size and the contrast that a UI label does not.
- */
+
 export function P({ children }: { children: React.ReactNode }) {
   return (
     <p className="text-[16.5px] md:text-[17px] leading-[1.75] text-gray-700">
@@ -402,10 +378,6 @@ export default function BlogArticleLayout({
         </div>
       )}
 
-      {/* ── ARTICLE ──────────────────────────────────────────────────────
-          One centred column at a ~70-character measure. Everything the reader
-          needs is in the flow of the piece; nothing sits beside it competing
-          for attention. */}
       <section className="mx-auto max-w-6xl px-6 py-10 lg:py-14">
         <Contents sections={sections} />
         <article className="mt-12 space-y-14 lg:space-y-16">{children}</article>

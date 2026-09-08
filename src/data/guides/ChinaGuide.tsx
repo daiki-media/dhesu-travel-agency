@@ -242,7 +242,7 @@ export default function ChinaGuide() {
         variant="card"
         heading="Plan your China adventure"
         body="From the Great Wall to the Terracotta Warriors to Zhangjiajie&rsquo;s otherworldly landscapes, a consultant can help you build the right multi-city itinerary. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

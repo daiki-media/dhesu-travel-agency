@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   alternates: {
-    canonical: "/contact",
+    canonical: "/contact-us",
   },
 };
 
@@ -73,7 +73,7 @@ const FAQS = [
 // and answers are rendered on the page.
 const contactJsonLd = graph([
   webPage({
-    path: "/contact",
+    path: "/contact-us",
     name: TITLE,
     description: DESCRIPTION,
     type: ["ContactPage", "FAQPage"],
@@ -81,7 +81,7 @@ const contactJsonLd = graph([
     about: orgRef,
     mainEntity: faqQuestions(FAQS),
   }),
-  breadcrumbList("/contact", [
+  breadcrumbList("/contact-us", [
     { name: "Home", url: "/" },
     { name: "Contact Us" },
   ]),

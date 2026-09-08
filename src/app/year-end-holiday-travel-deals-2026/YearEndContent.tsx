@@ -250,7 +250,7 @@ export default function YearEndContent({
             will overlap making this an important time.
           </>
         }
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
 
       {/* ── WHY IT IS DIFFERENT ───────────────────────────────────────────── */}
@@ -561,7 +561,7 @@ export default function YearEndContent({
       <CtaSection
         heading="Lock In Your Year-End Holiday Now"
         body="The year-end travel window fills up fast, and pricing only rises the closer you get to peak dates. Request a free, personalised quote today to secure your preferred destination."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

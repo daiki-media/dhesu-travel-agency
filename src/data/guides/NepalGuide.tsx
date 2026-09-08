@@ -274,7 +274,7 @@ export default function NepalGuide() {
         variant="card"
         heading="Plan your Nepal journey"
         body="Experience the Himalayas, rich culture, and even wildlife, without the demands of a hardcore trek. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

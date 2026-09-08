@@ -288,7 +288,7 @@ export default function MuslimFriendlyContent({
             and the destinations where such tourism plans can be made.
           </>
         }
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
 
       {/* ── WHAT IT MEANS IN PRACTICE ─────────────────────────────────────── */}
@@ -546,7 +546,7 @@ export default function MuslimFriendlyContent({
       <CtaSection
         heading="Plan Your Muslim-Friendly Holiday"
         body="Travel with confidence knowing your halal food and prayer needs are genuinely planned for, not an afterthought. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

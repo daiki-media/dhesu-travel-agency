@@ -42,7 +42,7 @@ const fadeUp = {
 const BALI = "/tours/indonesia/bali";
 const MAURITIUS = "/tours/mauritius";
 const EUROPE = "/tours/europe";
-const QUOTE = "/contact";
+const QUOTE = "/contact-us";
 
 const INLINE_LINK =
   "font-semibold text-teal-navy underline decoration-primary/40 underline-offset-4 hover:decoration-primary transition-colors";
@@ -310,7 +310,7 @@ export default function HoneymoonHubContent({
         title="Honeymoon Packages From Malaysia"
         titleAccent="Comparing the Top Destinations"
         intro="Selecting a honeymoon destination is one of the most important choices travelers make during their vacations. It is not just about the scenic beauty; it is about the pace and privacy of the place that will make it memorable for the travelers. This page will compare the most popular honeymoon destinations of Malaysia."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
 
       {/* ── THE COMPARISON TABLE ──────────────────────────────────────────── */}
@@ -602,7 +602,7 @@ export default function HoneymoonHubContent({
         imageAlt={PHOTO.heroAlt}
         heading="Find Your Perfect Honeymoon Destination"
         body="Whether you're drawn to Bali's accessible romance, Mauritius's luxury seclusion, or Europe's cultural charm, a consultant can help you choose and plan the right trip. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

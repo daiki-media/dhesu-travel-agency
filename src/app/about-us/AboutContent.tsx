@@ -387,7 +387,7 @@ export default function AboutContent({
         overlay="solid"
         actions={[
           { label: "Explore Tours", href: "/tours" },
-          { label: "Talk to Us", href: "/contact" },
+          { label: "Talk to Us", href: "/contact-us" },
         ]}
       >
         <div className="flex flex-wrap gap-8 mt-14 pt-10 border-t border-white/20">
@@ -448,7 +448,7 @@ export default function AboutContent({
               </ul>
 
               <div className="mt-10">
-                <Link href="/contact">
+                <Link href="/contact-us">
                   <Button variant="light" showArrow size="lg">
                     Plan Your Trip
                   </Button>

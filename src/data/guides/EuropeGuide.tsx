@@ -301,7 +301,7 @@ export default function EuropeGuide() {
         variant="card"
         heading="Start Planning Your Europe Journey"
         body="From iconic landmarks to Schengen visa guidance, a consultant can help you plan a smooth multi-country Europe trip. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

@@ -42,7 +42,7 @@ const inputClass =
 
 const labelClass = "block font-primary font-semibold text-[#1a1a1a] text-sm mb-2";
 
-// ── Copy from content-document/contact&bookings/Contact Us.docx, taken verbatim
+// ── Copy from content-document/contact-us&bookings/Contact Us.docx, taken verbatim
 // from the draft. The address is read from the company record rather than the
 // draft so it can only ever be stated in one place.
 
@@ -71,19 +71,19 @@ const enquiryChecklist = [
 // frame sits beside the office copy where it could be mistaken for one.
 const PHOTO = {
   philosophy: {
-    src: "/images/contact/kota-kinabalu-waterfront.jpg",
+    src: "/images/contact-us/kota-kinabalu-waterfront.jpg",
     alt: "A Malaysian coastal city waterfront under a golden-hour sky",
   },
   checklist: {
-    src: "/images/contact/light-filled-lounge.jpg",
+    src: "/images/contact-us/light-filled-lounge.jpg",
     alt: "A bright, plant-filled modern lounge with armchairs beside tall windows",
   },
   quote: {
-    src: "/images/contact/island-aerial-lake.jpg",
+    src: "/images/contact-us/island-aerial-lake.jpg",
     alt: "An aerial view of an island town surrounded by lake water",
   },
   faq: {
-    src: "/images/contact/cafe-terrace-conversation.jpg",
+    src: "/images/contact-us/cafe-terrace-conversation.jpg",
     alt: "People talking across the tables of a busy café terrace",
   },
 };

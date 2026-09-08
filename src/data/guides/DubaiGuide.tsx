@@ -309,7 +309,7 @@ export default function DubaiGuide() {
         variant="card"
         heading="Plan Your Dubai Getaway"
         body="From desert safaris to skyline views to private honeymoon experiences, a consultant can help build the right Dubai itinerary for you. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

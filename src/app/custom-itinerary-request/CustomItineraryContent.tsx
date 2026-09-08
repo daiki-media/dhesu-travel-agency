@@ -128,7 +128,7 @@ const steps = [
   },
 ];
 
-// Pairs with the same idea on /contact/ — the more of this we have up front,
+// Pairs with the same idea on /contact-us/ — the more of this we have up front,
 // the more useful the first reply can be.
 const briefChecklist = [
   "Where you want to go, or the region you are choosing between",

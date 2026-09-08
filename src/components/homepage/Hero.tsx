@@ -47,7 +47,7 @@ const slides: {
       </>
     ),
     primary: { label: "Explore Tours", href: "/tours" },
-    secondary: { label: "Get a Free Quote", href: "/contact#free-quote" },
+    secondary: { label: "Get a Free Quote", href: "/contact-us#free-quote" },
   },
   {
     bg: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1920&auto=format&fit=crop",
@@ -57,7 +57,7 @@ const slides: {
     body:
       "Curated itineraries built from decades of on-ground experience, negotiated group rates that are hard to replicate piece by piece, and a real person to call if a flight is delayed or an itinerary needs adjusting.",
     primary: { label: "Why Book With Us", href: "#why-choose-dhesu" },
-    secondary: { label: "Get a Free Quote", href: "/contact#free-quote" },
+    secondary: { label: "Get a Free Quote", href: "/contact-us#free-quote" },
   },
   {
     bg: "/images/gallery/140.jpg",

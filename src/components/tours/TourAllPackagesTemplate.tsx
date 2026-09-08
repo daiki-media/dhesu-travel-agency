@@ -122,7 +122,7 @@ export default function TourAllPackagesTemplate({ data }: { data: TourPageData }
             className="text-center text-gray-500 mt-12 text-sm"
           >
             {packages.ctaNote}{" "}
-            <Link href="/contact" className="text-primary font-semibold hover:underline">
+            <Link href="/contact-us" className="text-primary font-semibold hover:underline">
               Contact us to customise.
             </Link>
           </motion.p>

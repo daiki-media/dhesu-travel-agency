@@ -274,7 +274,7 @@ export default function PhuketKrabiGuide() {
         variant="card"
         heading="Plan your Southern Thailand island-hopping trip"
         body="Combine the best of Phuket and Krabi in one seamlessly planned holiday. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

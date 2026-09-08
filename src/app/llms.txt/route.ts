@@ -71,7 +71,7 @@ export function GET(): Response {
 - [Travel blog](${SITE_URL}/blog/): practical guides on timing, visas, packing and budgeting.
 - [Promotions](${SITE_URL}/promotions/): where package deals run and how to ask for current pricing.
 - [Request a custom itinerary](${SITE_URL}/custom-itinerary-request/): high-intent enquiry page for a trip built to order.
-- [Contact](${SITE_URL}/contact/): enquiry form, phone, WhatsApp and office address.
+- [Contact](${SITE_URL}/contact-us/): enquiry form, phone, WhatsApp and office address.
 - [Sitemap](${SITE_URL}/sitemap.xml): machine-readable list of every page.
 
 ## Holiday ideas
@@ -91,7 +91,7 @@ ${destinationLines}
 ## Booking and enquiries
 
 Tours are quoted and booked directly with the agency; there is no online checkout.
-An enquiry form is at ${SITE_URL}/contact/, or use the phone/WhatsApp numbers below.
+An enquiry form is at ${SITE_URL}/contact-us/, or use the phone/WhatsApp numbers below.
 
 ${phones}
 ${emails}

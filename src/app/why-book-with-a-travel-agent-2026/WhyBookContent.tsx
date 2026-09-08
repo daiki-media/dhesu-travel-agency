@@ -199,7 +199,7 @@ export default function WhyBookContent({
         titleAccent="Instead of Doing It Yourself?"
         size="lg"
         actions={[
-          { label: "Request a Free Quote", href: "/contact" },
+          { label: "Request a Free Quote", href: "/contact-us" },
           { label: "Browse Destinations", href: "/tours" },
         ]}
       >
@@ -597,7 +597,7 @@ export default function WhyBookContent({
         imageAlt="A calm turquoise lagoon fringed by trees"
         heading="Let an Experienced Consultant Plan Your Next Trip"
         body="Skip the hours of research and get a personalised itinerary backed by decades of destination expertise. Request a free quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

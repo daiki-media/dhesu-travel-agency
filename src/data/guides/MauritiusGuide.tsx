@@ -260,7 +260,7 @@ export default function MauritiusGuide() {
         variant="card"
         heading="Plan Your Mauritius Honeymoon"
         body="From private beach dinners to turquoise lagoons, a consultant can help you plan the perfect island honeymoon. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

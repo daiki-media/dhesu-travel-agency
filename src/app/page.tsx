@@ -103,7 +103,7 @@ export default function Home() {
         heading="Start Planning Your Next Holiday"
         body="Whether you already know your destination or need help narrowing it down, a consultant can help turn your travel ideas into a properly planned itinerary. Reach out today for a free, personalised quote."
         actions={[
-          { label: "Get a Free Quote", href: "/contact#free-quote" },
+          { label: "Get a Free Quote", href: "/contact-us#free-quote" },
           { label: "Browse Destinations", href: "/tours" },
         ]}
       />

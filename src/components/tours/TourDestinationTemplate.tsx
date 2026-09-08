@@ -146,7 +146,7 @@ export function PackageCard({
               <span className="text-gray-400 text-xs">{pkg.priceNote}</span>
             </div>
           )}
-          <Link href={pkg.slug ? `/tours/${slug}/${pkg.slug}` : "/contact"}>
+          <Link href={pkg.slug ? `/tours/${slug}/${pkg.slug}` : "/contact-us"}>
             <Button variant="light" size="sm" showArrow>
               {pkg.kind === "guide" ? "Read Guide" : "Book Now"}
             </Button>
@@ -330,7 +330,7 @@ export default function TourDestinationTemplate({
               <Link href="#packages">
                 <Button variant="light" showArrow size="lg">View Packages</Button>
               </Link>
-              <Link href="/contact">
+              <Link href="/contact-us">
                 <Button variant="transparent" showArrow size="lg">Contact Us</Button>
               </Link>
             </motion.div>
@@ -570,7 +570,7 @@ export default function TourDestinationTemplate({
             className="text-center text-gray-500 mt-10 text-sm"
           >
             {packages.ctaNote}{" "}
-            <Link href="/contact" className="text-primary font-semibold hover:underline">
+            <Link href="/contact-us" className="text-primary font-semibold hover:underline">
               Contact us to customise.
             </Link>
           </motion.p>
@@ -605,7 +605,7 @@ export default function TourDestinationTemplate({
                 {whyBook.heading}
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-10">{whyBook.body}</p>
-              <Link href="/contact">
+              <Link href="/contact-us">
                 <Button variant="light" showArrow size="lg">Get Your {meta.name} Quote</Button>
               </Link>
             </motion.div>

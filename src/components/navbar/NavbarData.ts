@@ -201,9 +201,9 @@ export const navLinks: NavLink[] = [
   },
   {
     label: "Contact",
-    href: "/contact",
+    href: "/contact-us",
     simple: [
-      { label: "Contact Us", href: "/contact" },
+      { label: "Contact Us", href: "/contact-us" },
       { label: "Request a Custom Itinerary", href: "/custom-itinerary-request/" },
       { label: "Current Promotions", href: "/promotions/" },
     ],

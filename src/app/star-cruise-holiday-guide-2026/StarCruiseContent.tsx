@@ -44,10 +44,10 @@ const fadeUp = {
 };
 
 // The draft's own internal links. Two point at the old quote form, one at the
-// old holidayidea.com.my homepage; the quote form is now /contact, and the
+// old holidayidea.com.my homepage; the quote form is now /contact-us, and the
 // homepage link has no more specific equivalent on a page that is not about
 // one destination.
-const QUOTE = "/contact";
+const QUOTE = "/contact-us";
 const HOME = "/";
 
 const INLINE_LINK =
@@ -236,7 +236,7 @@ export default function StarCruiseContent({
             cabins and choosing the appropriate cruise.
           </>
         }
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
 
       {/* ── CRUISE VS STANDARD TRIP ───────────────────────────────────────── */}
@@ -568,7 +568,7 @@ export default function StarCruiseContent({
       <CtaSection
         heading="Book Your Star Cruise Getaway"
         body="From short regional sailings to extended cruise holidays, a consultant can help you choose the right itinerary and cabin. Request a free, personalised quote today."
-        actions={[{ label: "Request a Free Quote", href: "/contact" }]}
+        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
     </>
   );

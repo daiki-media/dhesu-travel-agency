@@ -13,7 +13,7 @@ const quickLinks = [
   { label: "All Destinations", href: "/tours" },
   { label: "Travel Blog", href: "/blog" },
   { label: "Current Promotions", href: "/promotions" },
-  { label: "Contact Us", href: "/contact" },
+  { label: "Contact Us", href: "/contact-us" },
 ];
 
 // The theme and seasonal pages, from the same list that drives the homepage
@@ -214,7 +214,7 @@ export default function Footer() {
             <Link href="/about-us" className="hover:text-white transition-colors">About Us</Link>
             <Link href="/tours" className="hover:text-white transition-colors">Destinations</Link>
             <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-            <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
+            <Link href="/contact-us" className="hover:text-white transition-colors">Contact</Link>
           </div>
         </div>
       </div>
