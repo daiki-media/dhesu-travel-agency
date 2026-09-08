@@ -1,4 +1,5 @@
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { IntroLink } from "./types";
 
 /**
  * Landing pages under /tours/dubai.
@@ -17,6 +18,8 @@ export interface DubaiLandingPage {
   metaDescription: string;
   h1: string;
   intro: string;
+  /** The draft's own hyperlink inside `intro`, when it has one. */
+  introLink?: IntroLink;
   canonicalUrl: string;
   ogTitle: string;
   ogDescription: string;
@@ -46,7 +49,8 @@ export const DUBAI_THEMES: DubaiLandingPage[] = [
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/DubaiGuide.tsx.
     intro:
-      "Dubai has become one of the most multipurpose destinations for tourism among Malaysians regardless of whether the vacation is a family vacation with amusement parks, a honeymoon in a five star hotel, or simply a luxurious holiday vacation.",
+      "Dubai has become one of the most multipurpose destinations for tourism among Malaysians regardless of whether the vacation is a family vacation with amusement parks, a honeymoon in a five star hotel, or simply a luxurious holiday vacation. Below is a description of some of the different holidays one can enjoy in Dubai and how to go about it.",
+    introLink: { text: "enjoy in Dubai", href: "/tours/dubai" },
     canonicalUrl: "/tours/dubai/dubai-holiday-travel-guide-2026",
     ogTitle:
       "Dubai Holiday Packages From Malaysia: Family, Honeymoon & Luxury Options",

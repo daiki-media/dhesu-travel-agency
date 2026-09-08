@@ -4,6 +4,7 @@
 // prefix; themes select by keyword match against the package name and slug.
 
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { IntroLink } from "./types";
 
 export interface NepalLandingPage {
   /** URL segment, e.g. "kathmandu". Page lives at /tours/nepal/{key}. */
@@ -20,6 +21,8 @@ export interface NepalLandingPage {
   metaDescription: string;
   h1: string;
   intro: string;
+  /** The draft's own hyperlink inside `intro`, when it has one. */
+  introLink?: IntroLink;
   canonicalUrl: string;
   ogTitle: string;
   ogDescription: string;
@@ -212,6 +215,7 @@ export const NEPAL_THEMES: NepalLandingPage[] = [
     // src/data/guides/NepalGuide.tsx.
     intro:
       "Nepal is usually famous for treks, which take several weeks to accomplish; but this is a perception that is not in line with the possibilities that exist in the country for tourists who are less adventurous in nature and just want to go for a holiday. Malaysian tourists interested in seeing the beauty of the Himalayas and wildlife do not necessarily have to do any difficult trek to enjoy their stay in Nepal.",
+    introLink: { text: "Himalayas and wildlife", href: "/tours/nepal" },
     canonicalUrl: "/tours/nepal/nepal-tour-travel-guide-2026",
     ogTitle:
       "Nepal Tour Packages From Malaysia: Himalayan Views Without the Hardcore Trek",

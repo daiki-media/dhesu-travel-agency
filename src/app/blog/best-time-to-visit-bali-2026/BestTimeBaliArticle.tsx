@@ -1,13 +1,16 @@
 "use client";
 
+import Link from "next/link";
 import BlogArticleLayout, {
   ArticleSection,
+  ARTICLE_LINK,
+  BlogTable,
   Bullets,
-  DataTable,
   Figure,
   FigurePair,
+  LEAD_LINK,
   P,
-} from "@/src/components/BlogArticleLayout";
+} from "@/src/components/blog/BlogArticleLayout";
 
 /**
  * "Best Time to Visit Bali: A Month-by-Month Guide" — Holiday Idea sheet row 36.
@@ -19,6 +22,13 @@ import BlogArticleLayout, {
  */
 
 const IMG = "/images/blog/best-time-to-visit-bali-2026";
+
+// The draft's own internal links. The .docx points at the old holidayidea.com.my
+// site: /BALI/ for the three Bali anchors, and the Thailand and Vietnam search
+// listings for the comparison table.
+const BALI = "/tours/indonesia/bali";
+const THAILAND = "/tours/thailand";
+const VIETNAM = "/tours/vietnam";
 
 const SECTIONS = [
   { id: "two-main-seasons", label: "Two Main Seasons" },
@@ -40,9 +50,18 @@ export default function BestTimeBaliArticle({
     <BlogArticleLayout
       slug="best-time-to-visit-bali-2026"
       category="Destination Timing"
-      title="Best Time to Visit Bali: A Month-by-Month Guide"
+      title="Best Time to Visit Bali From Malaysia: Month-by-Month Guide"
       lead={
-        '"The ideal time to visit Bali" is not one size fits all, it really does depend on whether you value sunny skies, crowd avoidance, or budget friendliness most highly. This guide will help you to understand the ins and outs of Bali\'s weather and tourist seasons on a month-by-month basis.'
+        <>
+          &ldquo;The ideal time to visit Bali&rdquo; is not one size fits all, it really
+          does depend on whether you value sunny skies, crowd avoidance, or budget
+          friendliness most highly. This guide will help you to understand the ins and outs
+          of{" "}
+          <Link href={BALI} className={LEAD_LINK}>
+            Bali&rsquo;s
+          </Link>{" "}
+          weather and tourist seasons on a month-by-month basis.
+        </>
       }
       heroImage={`${IMG}/uluwatu-coastline.jpg`}
       heroAlt="Clifftop coastline at Uluwatu in southern Bali, with surf breaking against the rocks below"
@@ -61,7 +80,7 @@ export default function BestTimeBaliArticle({
         eyebrow="The Basics"
         heading="Bali's Two Main Seasons"
       >
-        <DataTable
+        <BlogTable
           headers={["Season", "Months", "General Conditions"]}
           rows={[
             [
@@ -95,7 +114,7 @@ export default function BestTimeBaliArticle({
         eyebrow="The Calendar"
         heading="Month-by-Month Breakdown"
       >
-        <DataTable
+        <BlogTable
           headers={["Month", "Weather", "Crowd Level", "Notes"]}
           rows={[
             [
@@ -183,7 +202,7 @@ export default function BestTimeBaliArticle({
         eyebrow="Your Priorities"
         heading="Choosing Timing Based on What Matters Most to You"
       >
-        <DataTable
+        <BlogTable
           headers={["Priority", "Recommended Timing"]}
           rows={[
             ["Guaranteed dry weather", "May, June, or September"],
@@ -240,7 +259,7 @@ export default function BestTimeBaliArticle({
         eyebrow="Geography"
         heading="Regional Weather Variation Within Bali"
       >
-        <DataTable
+        <BlogTable
           headers={["Area", "Typical Climate Character"]}
           rows={[
             [
@@ -258,7 +277,12 @@ export default function BestTimeBaliArticle({
           ]}
         />
         <P>
-          {"If your itinerary spans multiple areas of Bali, it's worth noting that weather can genuinely differ between the coast and the highlands on the same day."}
+          If your itinerary spans{" "}
+          <Link href={BALI} className={ARTICLE_LINK}>
+            multiple areas of Bali
+          </Link>
+          , it&rsquo;s worth noting that weather can genuinely differ between the coast and
+          the highlands on the same day.
         </P>
         <FigurePair
           items={[
@@ -279,17 +303,27 @@ export default function BestTimeBaliArticle({
         eyebrow="Comparison"
         heading="How Bali's Timing Compares to Neighbouring Destinations"
       >
-        <DataTable
+        <BlogTable
           headers={["Destination", "Dry Season Timing", "How It Compares to Bali"]}
           rows={[
-            ["Bali", "April–October", "Baseline for comparison"],
             [
-              "Thailand (Phuket/Krabi)",
+              <Link key="bali" href={BALI} className={ARTICLE_LINK}>
+                Bali
+              </Link>,
+              "April–October",
+              "Baseline for comparison",
+            ],
+            [
+              <Link key="thailand" href={THAILAND} className={ARTICLE_LINK}>
+                Thailand (Phuket/Krabi)
+              </Link>,
               "November–April",
               "Roughly opposite pattern; good alternative during Bali's wet season",
             ],
             [
-              "Vietnam",
+              <Link key="vietnam" href={VIETNAM} className={ARTICLE_LINK}>
+                Vietnam
+              </Link>,
               "Varies significantly by region",
               "North and South Vietnam have different optimal windows",
             ],

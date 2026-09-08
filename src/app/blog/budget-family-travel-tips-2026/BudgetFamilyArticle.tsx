@@ -3,13 +3,14 @@
 import Link from "next/link";
 import BlogArticleLayout, {
   ArticleSection,
+  BlogTable,
   Bullets,
   Checklist,
-  DataTable,
   Figure,
   FigurePair,
+  LEAD_LINK,
   P,
-} from "@/src/components/BlogArticleLayout";
+} from "@/src/components/blog/BlogArticleLayout";
 
 /**
  * Holiday Idea sheet, row 38 — "Budget Travel Tips for Families".
@@ -22,6 +23,13 @@ import BlogArticleLayout, {
  */
 
 const IMG = "/images/blog/budget-family-travel-tips-2026";
+
+// The draft's own internal links. Two point at the old holidayidea.com.my
+// homepage, which on a general budget article has no more specific equivalent
+// than our own homepage; the third points at the old /SpiritualIndia/ landing
+// page, whose nearest equivalent here is the Varanasi page.
+const HOME = "/";
+const SPIRITUAL_INDIA = "/tours/india/varanasi";
 
 const linkClass =
   "font-semibold text-primary-dark underline decoration-primary/40 underline-offset-2 hover:text-primary transition-colors";
@@ -49,7 +57,18 @@ export default function BudgetFamilyArticle({
       slug="budget-family-travel-tips-2026"
       category="Family Budget"
       title="Budget Travel Tips for Families: Getting More From Every Ringgit"
-      lead="Family travel does not have to be either an exciting vacation or sticking to the budget there is a way to do both. It only takes some effort and planning to make your family travel budget go further without cutting back on experiences. In this article, we will explore the best methods for saving on family travel."
+      lead={
+        <>
+          Family travel does not have to be either an exciting vacation or sticking to the
+          budget there is a way to do both. It only takes some effort and planning to make
+          your{" "}
+          <Link href={HOME} className={LEAD_LINK}>
+            family travel budget
+          </Link>{" "}
+          go further without cutting back on experiences. In this article, we will explore
+          the best methods for saving on family travel.
+        </>
+      }
       heroImage={`${IMG}/family-banana-boat.jpg`}
       heroAlt="Four people laughing together on a banana boat ride"
       facts={["Family travel", "Southeast Asia focus", "9 min read"]}
@@ -67,7 +86,7 @@ export default function BudgetFamilyArticle({
         eyebrow="Booking"
         heading="Booking Strategies That Save the Most Money"
       >
-        <DataTable
+        <BlogTable
           headers={["Strategy", "Why It Works"]}
           rows={[
             [
@@ -110,7 +129,7 @@ export default function BudgetFamilyArticle({
         eyebrow="Destinations"
         heading="Choosing Budget-Friendly Destinations"
       >
-        <DataTable
+        <BlogTable
           headers={["Destination Type", "Why It's Budget-Friendly"]}
           rows={[
             [
@@ -181,7 +200,7 @@ export default function BudgetFamilyArticle({
         eyebrow="Daily Spending"
         heading="Managing On-the-Ground Costs"
       >
-        <DataTable
+        <BlogTable
           headers={["Expense Category", "Money-Saving Approach"]}
           rows={[
             [
@@ -214,7 +233,7 @@ export default function BudgetFamilyArticle({
         heading="The Value of Package Deals for Families Specifically"
       >
         <P>
-          <Link href="/group-incentive-travel-packages" className={linkClass}>
+          <Link href={HOME} className={linkClass}>
             Family vacation packages
           </Link>{" "}
           typically offer much greater value than arranging a vacation on an
@@ -230,7 +249,7 @@ export default function BudgetFamilyArticle({
         eyebrow="Timing"
         heading="Timing Your Trip for Maximum Value"
       >
-        <DataTable
+        <BlogTable
           headers={["Approach", "Trade-Off"]}
           rows={[
             [
@@ -283,7 +302,7 @@ export default function BudgetFamilyArticle({
         eyebrow="By Age"
         heading="Age-Specific Considerations for Budget Family Travel"
       >
-        <DataTable
+        <BlogTable
           headers={["Age Group", "Budget Consideration"]}
           rows={[
             [
@@ -315,11 +334,15 @@ export default function BudgetFamilyArticle({
           Traveling does not always require having substantial funds at hand.
           There are a number of locations with valuable opportunities to engage
           in various activities for free or very little money, including beaches,
-          markets, historically interesting cities with walking trails and
+          markets,{" "}
+          <Link href={SPIRITUAL_INDIA} className={linkClass}>
+            historically interesting cities
+          </Link>{" "}
+          with walking trails and
           cultural attractions, that can be the core of your budget tour plan,
           with the rest of your time spent on paid tours.
         </P>
-        <DataTable
+        <BlogTable
           headers={["Low-Cost Activity Type", "Example"]}
           rows={[
             [

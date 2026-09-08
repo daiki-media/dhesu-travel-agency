@@ -3,13 +3,15 @@
 import Link from "next/link";
 import BlogArticleLayout, {
   ArticleSection,
+  ARTICLE_LINK,
+  BlogTable,
   Bullets,
   Callout,
   Checklist,
-  DataTable,
   FigurePair,
+  LEAD_LINK,
   P,
-} from "@/src/components/BlogArticleLayout";
+} from "@/src/components/blog/BlogArticleLayout";
 
 /**
  * "Solo vs. Group Travel: Which Suits Your Next Trip?" — Holiday Idea sheet row 41.
@@ -26,6 +28,15 @@ import BlogArticleLayout, {
  */
 
 const IMG = "/images/blog/solo-vs-group-travel-guide";
+
+// The draft's own internal links. All four point at the old holidayidea.com.my
+// homepage, so none names a specific target; on an article that is not about
+// any one destination, our own homepage is the equivalent.
+const HOME = "/";
+
+// The same underline set for the dark callout the third link sits in.
+const CALLOUT_LINK =
+  "text-white underline decoration-primary underline-offset-4 hover:text-primary transition-colors";
 
 const SECTIONS = [
   { id: "core-trade-off", label: "The Core Trade-Off" },
@@ -49,7 +60,17 @@ export default function SoloVsGroupArticle({
       slug="solo-vs-group-travel-guide"
       category="Travel Styles"
       title="Solo vs. Group Travel: Which Suits Your Next Trip?"
-      lead="It is not just a question of personal choice whether one decides to travel alone or with a group, because traveling either way makes a difference in how costly, logistical, safe, and enjoyable the journey will be. The following guide evaluates both forms of traveling objectively in terms of what really matters."
+      lead={
+        <>
+          It is not just a question of personal choice whether one decides to{" "}
+          <Link href={HOME} className={LEAD_LINK}>
+            travel alone or with a group,
+          </Link>{" "}
+          because traveling either way makes a difference in how costly, logistical, safe,
+          and enjoyable the journey will be. The following guide evaluates both forms of
+          traveling objectively in terms of what really matters.
+        </>
+      }
       heroImage={`${IMG}/group-dolphin-cruise.jpg`}
       heroAlt="A boatful of travellers watching a dolphin leap clear of the water beside them"
       facts={["Solo vs group", "Cost · safety · flexibility", "8 min read"]}
@@ -67,7 +88,7 @@ export default function SoloVsGroupArticle({
         eyebrow="Side by Side"
         heading="The Core Trade-Off"
       >
-        <DataTable
+        <BlogTable
           headers={["Factor", "Solo Travel", "Group Travel"]}
           rows={[
             [
@@ -121,7 +142,7 @@ export default function SoloVsGroupArticle({
         eyebrow="The Numbers"
         heading="Cost Comparison: Where the Numbers Actually Differ"
       >
-        <DataTable
+        <BlogTable
           headers={["Cost Category", "Solo Travel Impact", "Group Travel Impact"]}
           rows={[
             [
@@ -147,7 +168,12 @@ export default function SoloVsGroupArticle({
           ]}
         />
         <P>
-          {"While group travel may not necessarily be cheaper, depending highly on the trip involved, there is no doubt that the structure of group travel is cheaper than solo travel when it comes to high accommodation and transport costs."}
+          While group travel may not necessarily be cheaper, depending highly on the trip
+          involved, there is no doubt that the structure of group travel is cheaper than{" "}
+          <Link href={HOME} className={ARTICLE_LINK}>
+            solo travel
+          </Link>{" "}
+          when it comes to high accommodation and transport costs.
         </P>
         <FigurePair
           items={[
@@ -200,7 +226,7 @@ export default function SoloVsGroupArticle({
         eyebrow="When Things Go Wrong"
         heading="Safety and Support Considerations"
       >
-        <DataTable
+        <BlogTable
           headers={["Situation", "Solo Travel", "Group Travel"]}
           rows={[
             [
@@ -246,17 +272,18 @@ export default function SoloVsGroupArticle({
       >
         <Callout title="Not every group tour is a big coach tour">
           <p>
-            {"What needs to be considered is that “group travel” is not always necessarily the big bus tour type that comes to mind. In many modern packages, even those of "}
-            <Link
-              href="/group-incentive-travel-packages"
-              className="text-white underline decoration-primary underline-offset-4 hover:text-primary transition-colors"
-            >
+            {"What needs to be considered is that “group travel” is not always necessarily the big bus tour type that comes to mind. In many "}
+            <Link href={HOME} className={CALLOUT_LINK}>
+              modern packages
+            </Link>
+            {", even those of "}
+            <Link href="/group-incentive-travel-packages" className={CALLOUT_LINK}>
               {"private and smaller group kinds"}
             </Link>
             {", there exists something of a perfect compromise, with the logistical and organizational benefits of group travel but without the big group social element that certain travelers would prefer to avoid."}
           </p>
         </Callout>
-        <DataTable
+        <BlogTable
           headers={["Travel Format", "Group Size", "Flexibility Level"]}
           rows={[
             [
@@ -313,7 +340,16 @@ export default function SoloVsGroupArticle({
         heading="Solo and Group Travel Aren't Mutually Exclusive Over Time"
       >
         <P>
-          {"Many experienced travellers move between solo and group formats depending on the specific trip, rather than committing permanently to one style. A first visit to a logistically complex destination might warrant a group tour for ease and structure, while a return visit to a now-familiar destination might be approached solo for greater flexibility and a more personal pace. Thinking of this as a per-trip decision, rather than a fixed personal identity, often leads to a better match between travel style and destination."}
+          Many experienced travellers move between solo and group formats depending on the
+          specific trip, rather than committing permanently to one style. A first visit to a
+          logistically complex destination might warrant a group tour for ease and
+          structure, while a return visit to a now-familiar destination might be approached
+          solo for greater flexibility and a more personal pace. Thinking of this as a
+          per-trip decision, rather than a fixed personal identity, often leads to a better
+          match between{" "}
+          <Link href={HOME} className={ARTICLE_LINK}>
+            travel style and destination.
+          </Link>
         </P>
       </ArticleSection>
 

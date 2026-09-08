@@ -3,14 +3,16 @@
 import Link from "next/link";
 import BlogArticleLayout, {
   ArticleSection,
+  ARTICLE_LINK,
+  BlogTable,
   Bullets,
   Callout,
-  DataTable,
   Figure,
   FigurePair,
   H3,
+  LEAD_LINK,
   P,
-} from "@/src/components/BlogArticleLayout";
+} from "@/src/components/blog/BlogArticleLayout";
 
 /**
  * Blog article — "Visa Requirements for Malaysian Travellers".
@@ -42,6 +44,13 @@ const SECTIONS = [
  * only those with a published guide carry a link — the UK has none, so it is
  * rendered as plain text.
  */
+// The draft's prose links. Two point at the old holidayidea.com.my homepage,
+// which on a cross-destination article has no more specific equivalent than our
+// own homepage; the other two point at the old Europe & Canada listing, which
+// the Europe hub now covers.
+const HOME = "/";
+const EUROPE = "/tours/europe";
+
 const GUIDE_LINKS: Record<string, string> = {
   "Indonesia (Bali)": "/tours/indonesia/bali-holiday-travel-guide-2026",
   Thailand: "/tours/thailand/phuket-krabi-holiday-guide-2026",
@@ -56,6 +65,9 @@ const GUIDE_LINKS: Record<string, string> = {
   "Schengen Europe": "/tours/europe/europe-tour-travel-guide-2026",
   "Hong Kong": "/tours/hong-kong/hong-kong-tour-travel-guide-2026",
   Myanmar: "/tours/myanmar/myanmar-tour-travel-guide-2026",
+  // The draft links the UK row to its old Europe & Canada listing. There is no
+  // UK page here, so it goes to the Europe hub rather than staying unlinked.
+  UK: EUROPE,
 };
 
 function Destination({ name }: { name: string }) {
@@ -147,7 +159,18 @@ export default function VisaGuideArticle({
       slug="malaysia-travel-visa-guide-2026"
       category="Travel Admin"
       title="Visa Requirements for Malaysian Travellers: A Practical Guide by Destination"
-      lead="From the numerous questions asked by individuals when planning for travel, one of the most commonly asked is a very simple one; will I need a visa? The thing that needs to be noted about visa requirements is that they are subject to change without any notice, hence making the information given below a general guide."
+      lead={
+        <>
+          From the numerous questions asked by individuals when planning for travel, one of
+          the most commonly asked is a very simple one; will I need a visa? The thing that
+          needs to be noted about{" "}
+          <Link href={HOME} className={LEAD_LINK}>
+            visa requirements
+          </Link>{" "}
+          is that they are subject to change without any notice, hence making the
+          information given below a general guide.
+        </>
+      }
       heroImage="/images/blog/malaysia-travel-visa-guide-2026/border-flag-ceremony.jpg"
       heroAlt="Uniformed border guards and national flags at a land border crossing ceremony"
       facts={["14 destinations", "Schengen included", "9 min read"]}
@@ -165,7 +188,7 @@ export default function VisaGuideArticle({
         eyebrow="The Four Types"
         heading="General Visa Categories Malaysian Travellers Encounter"
       >
-        <DataTable
+        <BlogTable
           headers={["Category", "What It Means"]}
           rows={[
             [
@@ -210,7 +233,7 @@ export default function VisaGuideArticle({
             },
           ]}
         />
-        <DataTable
+        <BlogTable
           headers={[
             "Destination",
             "General Category (confirm before booking)",
@@ -269,10 +292,14 @@ export default function VisaGuideArticle({
         heading="The Schengen Visa: What Malaysian Travellers Need to Know"
       >
         <P>
-          Because European trips typically span multiple countries, the Schengen
-          visa deserves specific attention.
+          Because{" "}
+          <Link href={EUROPE} className={ARTICLE_LINK}>
+            European trips
+          </Link>{" "}
+          typically span multiple countries, the Schengen visa deserves specific
+          attention.
         </P>
-        <DataTable
+        <BlogTable
           headers={["Schengen Visa Basics", "Details"]}
           rows={[
             [
@@ -376,7 +403,19 @@ export default function VisaGuideArticle({
         <Callout title="Reconfirm close to departure, not just at booking">
           <p>
             {
-              "Because visa policy is set independently by each country's government, it's technically possible for requirements to change between the time you book your trip and your actual travel date. While this is relatively uncommon for well-established travel routes, it underscores the value of reconfirming requirements close to departure rather than relying solely on information gathered at the time of booking, particularly for destinations where policy has shown more volatility in recent years."
+              <>
+                Because visa policy is set independently by each country&rsquo;s
+                government, it&rsquo;s technically possible for requirements to change
+                between the time you book your trip and your actual travel date. While this
+                is relatively uncommon for well-established{" "}
+                <Link href={HOME} className={ARTICLE_LINK}>
+                  travel routes
+                </Link>
+                , it underscores the value of reconfirming requirements close to departure
+                rather than relying solely on information gathered at the time of booking,
+                particularly for destinations where policy has shown more volatility in
+                recent years.
+              </>
             }
           </p>
         </Callout>

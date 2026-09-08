@@ -1,9 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
+import { Bullet, DataTable, GuideFigure, INLINE_LINK, Section } from "./primitives";
 
 /**
  * Body copy is taken verbatim from
@@ -22,6 +23,13 @@ import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 // about, not to decorate it; see public/images/guides/.
 const PHOTO = "/images/guides/avenue-of-stars.jpg";
 const PHOTO_ALT = "The Bruce Lee statue on the Avenue of Stars, Tsim Sha Tsui";
+
+// The draft's own internal links. Unlike the other destination drafts, all
+// three point at the old holidayidea.com.my homepage (promo/index.php) rather
+// than a search page, so none names a specific target. Hong Kong has no
+// sub-pages on this site either, so all three resolve to the /tours/hong-kong
+// hub.
+const HONG_KONG = "/tours/hong-kong";
 
 
 const shoppingDistricts = [
@@ -62,9 +70,12 @@ export default function HongKongGuide() {
     <>
       <Section label="Why Hong Kong" heading="Why Hong Kong works so well for short getaways">
         <p className="text-gray-600 leading-relaxed">
-          Unlike places which would require you to travel long distances to make it worth your
-          while, Hong Kong&rsquo;s small size and efficient transportation system makes it
-          possible for travelers to actually enjoy their vacation by going to theme parks,
+          Unlike places which would require you to travel long distances to make it worth
+          your while,{" "}
+          <Link href={HONG_KONG} className={INLINE_LINK}>
+            Hong Kong&rsquo;s
+          </Link>{" "}
+          small size and efficient transportation system makes it possible for travelers to actually enjoy their vacation by going to theme parks,
           doing some shopping, eating, and enjoying the view from the top of buildings, all in
           a short span of 4 or 5 days.
         </p>
@@ -120,7 +131,7 @@ export default function HongKongGuide() {
         </p>
       </Section>
 
-      <Section label="Inclusions" heading="What's typically included in a Hong Kong package">
+      <Section label="Inclusions" heading="What's typically included">
         <ul className="space-y-4">
           {included.map((item) => (
             <Bullet key={item}>{item}</Bullet>
@@ -130,8 +141,11 @@ export default function HongKongGuide() {
 
       <Section label="When to Go" heading="Best time to visit Hong Kong">
         <p className="text-gray-600 leading-relaxed">
-          Hong Kong is a year-round destination, though autumn (October to December) generally
-          offers the most comfortable weather, avoiding both summer&rsquo;s heat and humidity
+          <Link href={HONG_KONG} className={INLINE_LINK}>
+            Hong Kong
+          </Link>{" "}
+          is a year-round destination, though autumn (October to December) generally offers
+          the most comfortable weather, avoiding both summer&rsquo;s heat and humidity
           and the occasional typhoon risk during peak summer months. Winter can bring cooler
           temperatures, which some travellers find a pleasant change from Malaysia&rsquo;s
           consistent tropical climate.
@@ -155,8 +169,11 @@ export default function HongKongGuide() {
           from Michelin-starred fine dining to unpretentious local dai pai gong street stalls.
           Dim sum remains an essential experience for most visitors, traditionally enjoyed over
           a leisurely breakfast or lunch, while the city&rsquo;s night markets offer a more
-          casual, budget-friendly way to sample local specialties like egg waffles and fish
-          balls. Given how central food is to Hong Kong&rsquo;s identity, many itineraries are
+          casual,{" "}
+          <Link href={HONG_KONG} className={INLINE_LINK}>
+            budget-friendly way
+          </Link>{" "}
+          to sample local specialties like egg waffles and fish balls. Given how central food is to Hong Kong&rsquo;s identity, many itineraries are
           built in unstructured time specifically for exploring neighbourhood eateries, rather
           than filling every meal with pre-planned restaurant bookings.
         </p>

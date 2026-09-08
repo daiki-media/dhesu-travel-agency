@@ -1,9 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
+import { Bullet, DataTable, GuideFigure, INLINE_LINK, Section } from "./primitives";
 
 /**
  * Body copy is taken verbatim from
@@ -21,6 +22,14 @@ import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 // about, not to decorate it; see public/images/guides/.
 const PHOTO = "/images/guides/terracotta-army.jpg";
 const PHOTO_ALT = "The excavated pits of the Terracotta Army at Xi'an";
+
+// The draft's own internal links. The .docx points at the old
+// holidayidea.com.my search pages: s=China for the two country-wide anchors and
+// s=Beijing / s=Shanghai / s=Zhangjiajie (&c=99) for the three city ones. China
+// has no city landing pages on this site — only the /tours/china hub — so all
+// five resolve there for now. Build the city pages (as was done for Phuket and
+// Krabi) and the three city anchors should be repointed.
+const CHINA = "/tours/china";
 
 
 const categories = [
@@ -105,8 +114,11 @@ export default function ChinaGuide() {
 
       <Section label="Beijing" heading="Beijing: the Great Wall and imperial capital">
         <p className="text-gray-600 leading-relaxed">
-          Beijing is undoubtedly the place where you need to start from when it comes to
-          planning your first trip to China, due to its most iconic landmark, the Great Wall of
+          <Link href={CHINA} className={INLINE_LINK}>
+            Beijing
+          </Link>{" "}
+          is undoubtedly the place where you need to start from when it comes to planning
+          your first trip to China, due to its most iconic landmark, the Great Wall of
           China, the landmark that truly stands out from the rest of the world&rsquo;s
           landmarks and it is an awesome thing to see yourself walking on the Great Wall.
         </p>
@@ -114,7 +126,10 @@ export default function ChinaGuide() {
 
       <Section label="Shanghai" heading="Shanghai: China's modern face">
         <p className="text-gray-600 leading-relaxed">
-          Shanghai offers a complete contrast from Beijing in terms of its modernization, as it
+          <Link href={CHINA} className={INLINE_LINK}>
+            Shanghai
+          </Link>{" "}
+          offers a complete contrast from Beijing in terms of its modernization, as it
           features China&rsquo;s future-oriented skyline with high-tech buildings that overlook
           the Huangpu River and historic Bund district. For tourists who are looking for a
           modern city experience, Shanghai with all its opportunities for shopping,
@@ -136,8 +151,11 @@ export default function ChinaGuide() {
       <Section label="Zhangjiajie" heading="Zhangjiajie: China's otherworldly landscapes">
         <p className="text-gray-600 leading-relaxed">
           Zhangjiajie is one of the locations in China where those looking for scenic views and
-          not the cityscape would get a great experience with the tallest sandstone pillars in
-          China, which are said to have been an inspiration behind the floating mountains in
+          not the cityscape would get a great experience with the{" "}
+          <Link href={CHINA} className={INLINE_LINK}>
+            tallest sandstone pillars
+          </Link>{" "}
+          in China, which are said to have been an inspiration behind the floating mountains in
           the film Avatar. This place has become very popular with travelers as part of their
           itinerary of China.
         </p>
@@ -171,7 +189,7 @@ export default function ChinaGuide() {
         />
       </Section>
 
-      <Section label="Inclusions" heading="What's typically included in a China package">
+      <Section label="Inclusions" heading="What's typically included">
         <ul className="space-y-4">
           {included.map((item) => (
             <Bullet key={item}>{item}</Bullet>
@@ -183,8 +201,11 @@ export default function ChinaGuide() {
         <p className="text-gray-600 leading-relaxed">
           China&rsquo;s size means climate varies significantly by region and season. Spring
           (April to May) and autumn (September to October) generally offer the most comfortable
-          travel conditions across most of the country&rsquo;s popular destinations, avoiding
-          both summer&rsquo;s intense heat in cities like Xi&apos;an and winter&rsquo;s cold in
+          travel conditions across most of the country&rsquo;s{" "}
+          <Link href={CHINA} className={INLINE_LINK}>
+            popular destinations
+          </Link>
+          , avoiding both summer&rsquo;s intense heat in cities like Xi&apos;an and winter&rsquo;s cold in
           the north, though Harbin&rsquo;s winter ice festival is a notable seasonal exception
           worth planning around specifically.
         </p>
@@ -205,7 +226,10 @@ export default function ChinaGuide() {
         <p className="text-gray-600 leading-relaxed">
           Like the geography of China itself, Chinese food is diverse. Different regions have
           their own cuisines that can easily catch visitors by surprise in terms of their
-          variety from one another when compared to the concept of &ldquo;Chinese food&rdquo;
+          variety from one another when compared to the concept of{" "}
+          <Link href={CHINA} className={INLINE_LINK}>
+            &ldquo;Chinese food&rdquo;
+          </Link>{" "}
           that travelers might expect. In Beijing, for example, there is the roasted duck while
           Sichuan has its own well-known hot foods based in Chengdu and Chongqing. Shanghai
           also has its unique flavors which are less spicy but somewhat sweet.

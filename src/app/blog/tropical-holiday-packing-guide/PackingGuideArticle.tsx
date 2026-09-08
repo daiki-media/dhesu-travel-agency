@@ -3,13 +3,15 @@
 import Link from "next/link";
 import BlogArticleLayout, {
   ArticleSection,
+  ARTICLE_LINK,
+  BlogTable,
   Bullets,
   Callout,
   Checklist,
-  DataTable,
   Figure,
+  LEAD_LINK,
   P,
-} from "@/src/components/BlogArticleLayout";
+} from "@/src/components/blog/BlogArticleLayout";
 
 /**
  * Holiday Idea sheet, row 39 — /blog/tropical-holiday-packing-guide.
@@ -22,6 +24,15 @@ import BlogArticleLayout, {
  */
 
 const IMG = "/images/blog/tropical-holiday-packing-guide";
+
+// The draft's own internal links. The lead names three destinations and links
+// each to its old holidayidea.com.my listing; the dress-code paragraph links
+// the old homepage, which on a general packing article has no more specific
+// equivalent than our own homepage.
+const BALI = "/tours/indonesia/bali";
+const THAILAND = "/tours/thailand";
+const VIETNAM = "/tours/vietnam";
+const HOME = "/";
 
 const SECTIONS = [
   { id: "clothing-essentials", label: "Clothing Essentials" },
@@ -46,7 +57,27 @@ export default function PackingGuideArticle({
       slug="tropical-holiday-packing-guide"
       category="Packing"
       title="Packing Guide for Tropical Destinations: The Complete Checklist"
-      lead="There are distinct factors which determine why people should pack properly when planning to travel to a tropical region; the hot temperature, humidity, protection from rains, relaxing on the beaches, historical and temple sites that one should dress modestly for."
+      lead={
+        <>
+          There are distinct factors which determine why people should pack properly when
+          planning to travel to a tropical region; the hot temperature, humidity,
+          protection from rains, relaxing on the beaches, historical and temple sites that
+          one should dress modestly for. This packing list includes everything needed while
+          traveling to a tropical destination such as{" "}
+          <Link href={BALI} className={LEAD_LINK}>
+            Bali
+          </Link>
+          ,{" "}
+          <Link href={THAILAND} className={LEAD_LINK}>
+            Thailand
+          </Link>
+          ,{" "}
+          <Link href={VIETNAM} className={LEAD_LINK}>
+            Vietnam
+          </Link>
+          , etc.
+        </>
+      }
       heroImage={`${IMG}/tropical-beach-loungers.jpg`}
       heroAlt="A thatched parasol shading two loungers on white tropical sand"
       facts={["Bali · Thailand · Vietnam", "Evergreen checklist", "8 min read"]}
@@ -91,7 +122,7 @@ export default function PackingGuideArticle({
           , etc.
         </P>
 
-        <DataTable
+        <BlogTable
           headers={["Item", "Why It's Essential"]}
           rows={[
             [
@@ -158,7 +189,7 @@ export default function PackingGuideArticle({
         eyebrow="Small Bag"
         heading="Health and Toiletries"
       >
-        <DataTable
+        <BlogTable
           headers={["Item", "Notes"]}
           rows={[
             [
@@ -218,12 +249,14 @@ export default function PackingGuideArticle({
         heading="Culturally Appropriate Dress: A Closer Look"
       >
         <P>
-          Many tropical destinations, particularly those with significant temple
-          or religious site visits, have specific dress expectations that differ
-          from general beach-holiday attire.
+          <Link href={HOME} className={ARTICLE_LINK}>
+            Many tropical destinations
+          </Link>
+          , particularly those with significant temple or religious site visits, have
+          specific dress expectations that differ from general beach-holiday attire.
         </P>
 
-        <DataTable
+        <BlogTable
           headers={["Destination Type", "Typical Dress Expectation"]}
           rows={[
             [
@@ -294,7 +327,7 @@ export default function PackingGuideArticle({
         eyebrow="How Much"
         heading="Packing List by Trip Length"
       >
-        <DataTable
+        <BlogTable
           headers={["Trip Length", "Clothing Quantity Guidance"]}
           rows={[
             ["3–4 days", "4–5 outfits, 1 swimwear set, 1 modest outfit"],
@@ -357,7 +390,7 @@ export default function PackingGuideArticle({
         eyebrow="The Bag Itself"
         heading="Luggage Considerations for Tropical Travel"
       >
-        <DataTable
+        <BlogTable
           headers={["Luggage Type", "Best Suited For"]}
           rows={[
             [

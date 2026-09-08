@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import AllPagesHero from "@/src/components/AllPagesHero";
@@ -36,6 +37,19 @@ const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
+
+// The draft's own internal links. Each destination row links to the old
+// holidayidea.com.my listing for that place; the two prose links point at the
+// old homepage, which on a page that is not about one destination has no more
+// specific equivalent than our own homepage.
+const HOME = "/";
+
+const INLINE_LINK =
+  "font-semibold text-teal-navy underline decoration-primary/40 underline-offset-4 hover:decoration-primary transition-colors";
+
+// Same underline, set for the dark hero.
+const HERO_LINK =
+  "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
 
 const windows = [
   { term: "Term 1 mid-break", dates: "Around March", duration: "1 week" },
@@ -79,30 +93,35 @@ const earlyFactors = [
 const destinations = [
   {
     place: "Bali",
+    href: "/tours/indonesia/bali",
     image: "/images/seasonal/sh-bali-tanah-lot.jpg",
     alt: "Waves breaking below the Tanah Lot sea temple in Bali",
     why: "Short flight, family-friendly resorts, manageable pacing for kids",
   },
   {
     place: "Hong Kong",
+    href: "/tours/hong-kong",
     image: "/images/guides/hk-disneyland-castle.jpg",
     alt: "Disney characters in front of the castle at Hong Kong Disneyland",
     why: "Compact, Disneyland-anchored, efficient transport for families",
   },
   {
     place: "Australia",
+    href: "/tours/australia",
     image: "/images/seasonal/sh-australia-bondi.jpg",
     alt: "Bondi Beach and its surf from the air, Sydney",
     why: "Iconic attractions, aligns well with year-end break timing",
   },
   {
     place: "Thailand (Phuket/Krabi)",
+    href: "/tours/thailand",
     image: "/images/seasonal/sh-thailand-krabi.jpg",
     alt: "A longtail boat below limestone cliffs in the Andaman Sea",
     why: "Beach relaxation with flexible, less rushed pacing",
   },
   {
     place: "Vietnam",
+    href: "/tours/vietnam",
     image: "/images/seasonal/sh-vietnam-hoi-an.jpg",
     alt: "Lantern boats on the river at Hoi An after dark",
     why: "Good value, culturally engaging without being overwhelming for children",
@@ -215,7 +234,18 @@ export default function SchoolHolidayContent({
         eyebrow="Seasonal"
         title="School Holiday Deals 2026"
         titleAccent="Family Packages While Availability Lasts"
-        intro="The holiday seasons of the schools undoubtedly have to be the most demanding travel seasons of the year for the citizens of Malaysia, and it is safe to say that there is a certain relationship between the high demand and prices. The following pages will contain information about the school holidays of Malaysia in 2026."
+        intro={
+          <>
+            The holiday seasons of the schools undoubtedly have to be the most demanding
+            travel seasons of the year for the citizens of Malaysia, and it is safe to say
+            that there is a certain relationship between the{" "}
+            <Link href={HOME} className={HERO_LINK}>
+              high demand and prices.
+            </Link>{" "}
+            The following pages will contain information about the school holidays of
+            Malaysia in 2026.
+          </>
+        }
         actions={[{ label: "Request a Free Quote", href: "/contact" }]}
       />
 
@@ -289,7 +319,9 @@ export default function SchoolHolidayContent({
                 </div>
                 <span className="block h-[2px] w-10 bg-primary mb-4" aria-hidden />
                 <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-2">
-                  {row.place}
+                  <Link href={row.href} className={INLINE_LINK}>
+                    {row.place}
+                  </Link>
                 </h3>
                 <p className="text-gray-600 text-[15px] leading-relaxed">{row.why}</p>
               </div>
@@ -440,9 +472,12 @@ export default function SchoolHolidayContent({
           Families with children at different schools occasionally face a practical challenge:
           slightly different school holiday dates depending on the specific school or state.
           It&rsquo;s worth confirming exact dates for every child in your family as early as
-          possible when planning school holiday travel, since even a one or two day mismatch
-          can affect your available travel window and should be factored into your booking
-          timeline.
+          possible when{" "}
+          <Link href={HOME} className={INLINE_LINK}>
+            planning school holiday travel,
+          </Link>{" "}
+          since even a one or two day mismatch can affect your available travel window and
+          should be factored into your booking timeline.
         </p>
       </Section>
 

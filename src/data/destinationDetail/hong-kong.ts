@@ -46,7 +46,7 @@ export const HONG_KONG_THEMES: HongKongLandingPage[] = [
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/HongKongGuide.tsx.
     intro:
-      "The allure of Hong Kong for the average Malaysian holidaymaker, most especially family groups, is due to the city’s distinctive offering of state-of-the-art theme park entertainment, bustling shopping areas, and a convenient and easily-navigable urban layout.",
+      "The allure of Hong Kong for the average Malaysian holidaymaker, most especially family groups, is due to the city’s distinctive offering of state-of-the-art theme park entertainment, bustling shopping areas, and a convenient and easily-navigable urban layout. This article takes a look at what an average holiday to Hong Kong involves and how it suits short breaks.",
     canonicalUrl: "/tours/hong-kong/hong-kong-tour-travel-guide-2026",
     ogTitle:
       "Hong Kong Tour Packages From Malaysia: Disneyland, Family Fun & Shopping",

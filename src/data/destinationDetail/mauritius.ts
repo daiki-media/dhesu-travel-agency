@@ -1,4 +1,5 @@
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { IntroLink } from "./types";
 
 /**
  * Landing pages under /tours/mauritius.
@@ -17,6 +18,8 @@ export interface MauritiusLandingPage {
   metaDescription: string;
   h1: string;
   intro: string;
+  /** The draft's own hyperlink inside `intro`, when it has one. */
+  introLink?: IntroLink;
   canonicalUrl: string;
   ogTitle: string;
   ogDescription: string;
@@ -46,7 +49,8 @@ export const MAURITIUS_THEMES: MauritiusLandingPage[] = [
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/MauritiusGuide.tsx.
     intro:
-      "Mauritius is well-known internationally as one of the world’s top destinations for honeymoons. The attractiveness of Mauritius to honeymooning couples from Malaysia lies in the perfect combination of its turquoise lagoons, luxury resorts, and romantic privacy.",
+      "Mauritius is well-known internationally as one of the world’s top destinations for honeymoons. The attractiveness of Mauritius to honeymooning couples from Malaysia lies in the perfect combination of its turquoise lagoons, luxury resorts, and romantic privacy. The guide below describes everything you need to know about Mauritius as an ideal destination for honeymooning couples and how to plan your holiday there.",
+    introLink: { text: "ideal destination", href: "/tours/mauritius" },
     canonicalUrl: "/tours/mauritius/mauritius-honeymoon-travel-guide-2026",
     ogTitle:
       "Mauritius Honeymoon Packages From Malaysia: Island Luxury for Couples",

@@ -4,23 +4,20 @@ import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
+import { Bullet, DataTable, GuideFigure, INLINE_LINK, Section } from "./primitives";
 
-/**
- * Body copy is taken verbatim from
- * content-document/destinations-in-asia/Cambodia Tour Packages From Malaysia_
- * Angkor Wat & Siem Reap.docx — the draft's own order, headings and wording.
- * The opening paragraph is not repeated here; it is the hero lead, set as
- * `intro` on src/data/destinationDetail/cambodia.ts.
- *
- * Shape follows BaliGuide.tsx in this folder: same section devices, same type
- * sizes, same spacing.
- */
-
-// In-article break image. Chosen to match what this page is actually
-// about, not to decorate it; see public/images/guides/.
 const PHOTO = "/images/guides/ta-prohm.jpg";
 const PHOTO_ALT = "Fig roots growing over the ruins of Ta Prohm at Angkor";
+
+// The draft's own internal links. The .docx still points at the old
+// holidayidea.com.my search pages (search-travel.php?s=<place>&c=75, and a bare
+// s=Cambodia for the country-wide ones); each is remapped to the page that now
+// covers it. The Vietnam links are not the draft's — they were already on the
+// page and are kept, since the draft's copy names Vietnam three times.
+const CAMBODIA = "/tours/cambodia";
+const SIEM_REAP = "/tours/cambodia/siem-reap";
+const PHNOM_PENH = "/tours/cambodia/phnom-penh";
+const VIETNAM = "/tours/vietnam";
 
 
 const temples = [
@@ -69,9 +66,12 @@ export default function CambodiaGuide() {
         heading="Why Siem Reap anchors almost every Cambodia itinerary"
       >
         <p className="text-gray-600 leading-relaxed">
-          The City of Siem Reap is the gateway city to the famous Angkor archaeological park,
-          and this makes it the obvious first stop in Cambodia for almost every tourist who
-          comes here. Not only does Siem Reap have the benefit of being close to Angkor Wat,
+          The City of Siem Reap is the gateway city to the famous{" "}
+          <Link href={SIEM_REAP} className={INLINE_LINK}>
+            Angkor archaeological park
+          </Link>
+          , and this makes it the obvious first stop in Cambodia for almost every tourist
+          who comes here. Not only does Siem Reap have the benefit of being close to Angkor Wat,
           but it is a tourist destination in its own right.
         </p>
       </Section>
@@ -109,9 +109,13 @@ export default function CambodiaGuide() {
 
       <Section label="Beyond Siem Reap" heading="Beyond Siem Reap: Phnom Penh">
         <p className="text-gray-600 leading-relaxed">
-          Siem Reap may be the highlight of most itineraries to Cambodia, however, the capital
-          of Phnom Penh gives travelers an alternative perspective to visit, such as the Royal
-          Palace, Silver Pagoda, and the history of the country within the last few years.
+          Siem Reap may be the highlight of most itineraries to Cambodia, however, the
+          capital of{" "}
+          <Link href={PHNOM_PENH} className={INLINE_LINK}>
+            Phnom Penh
+          </Link>{" "}
+          gives travelers an alternative perspective to visit, such as the Royal Palace,
+          Silver Pagoda, and the history of the country within the last few years.
           While most itineraries to Cambodia will concentrate only on Siem Reap, one can
           include Phnom Penh in their itinerary to get a glimpse of the entire country.
         </p>
@@ -122,7 +126,7 @@ export default function CambodiaGuide() {
       <Section label="Multi-Country" heading="Combining Cambodia with Vietnam">
         <p className="text-gray-600 leading-relaxed mb-8">
           Given that both Cambodia and{" "}
-          <Link href="/tours/vietnam" className="text-primary underline underline-offset-2">
+          <Link href={VIETNAM} className={INLINE_LINK}>
             Vietnam
           </Link>{" "}
           are close neighbours with short flight and travel distances, putting together both
@@ -138,7 +142,7 @@ export default function CambodiaGuide() {
         />
       </Section>
 
-      <Section label="Inclusions" heading="What's typically included in a Cambodia package">
+      <Section label="Inclusions" heading="What's typically included">
         <ul className="space-y-4">
           {included.map((item) => (
             <Bullet key={item}>{item}</Bullet>
@@ -164,7 +168,7 @@ export default function CambodiaGuide() {
           know the country a little bit better, visiting Phnom Penh will help you understand
           the modern face of Cambodia beyond its ancient past. In case you are planning to
           travel around the region, a combination with{" "}
-          <Link href="/tours/vietnam" className="text-primary underline underline-offset-2">
+          <Link href={VIETNAM} className={INLINE_LINK}>
             Vietnam
           </Link>{" "}
           will be a perfect choice.
@@ -177,9 +181,12 @@ export default function CambodiaGuide() {
           additional depth worth including. Traditional Apsara dance performances, depicting
           stories from Khmer mythology through intricate hand and body movements, are commonly
           offered as an evening experience in Siem Reap, providing cultural context that
-          complements the historical temple sites during the day. Cambodian cuisine, distinct
-          from its Thai and Vietnamese neighbours despite some overlapping ingredients, is also
-          worth exploring through the city&rsquo;s growing range of restaurants blending
+          complements the historical temple sites during the day.{" "}
+          <Link href={CAMBODIA} className={INLINE_LINK}>
+            Cambodian cuisine
+          </Link>
+          , distinct from its Thai and Vietnamese neighbours despite some overlapping
+          ingredients, is also worth exploring through the city&rsquo;s growing range of restaurants blending
           traditional and modern approaches.
         </p>
       </Section>
@@ -205,7 +212,7 @@ export default function CambodiaGuide() {
             Discover the grandeur of Angkor Wat and Cambodia&rsquo;s rich heritage, with the
             option to combine it with{" "}
             <Link
-              href="/tours/vietnam"
+              href={VIETNAM}
               className="text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors"
             >
               Vietnam

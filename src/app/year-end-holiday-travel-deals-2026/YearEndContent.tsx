@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import AllPagesHero from "@/src/components/AllPagesHero";
@@ -45,6 +46,20 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
+// The draft's own internal links. Two point at the old Europe & Canada listing,
+// which the Europe hub now covers; the other two point at the old homepage,
+// which on a page that is not about one destination has no more specific
+// equivalent than our own homepage.
+const EUROPE = "/tours/europe";
+const HOME = "/";
+
+const INLINE_LINK =
+  "font-semibold text-teal-navy underline decoration-primary/40 underline-offset-4 hover:decoration-primary transition-colors";
+
+// Same underline, set for the dark hero.
+const HERO_LINK =
+  "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
+
 const intensifiers = [
   {
     factor: "Extended school break",
@@ -77,7 +92,11 @@ const destinations = [
     place: "Japan",
     why: "Winter scenery, illuminations, and New Year cultural traditions",
   },
-  { place: "Europe", why: "Christmas markets and festive city atmospheres" },
+  {
+    place: "Europe",
+    href: EUROPE,
+    why: "Christmas markets and festive city atmospheres",
+  },
   { place: "Bali", why: "A reliable, shorter-flight escape for a festive family trip" },
   { place: "Korea", why: "Winter activities and festive city experiences" },
 ];
@@ -219,7 +238,18 @@ export default function YearEndContent({
         eyebrow="Seasonal"
         title="Year-End Holiday Deals 2026"
         titleAccent="Malaysia&rsquo;s Busiest Travel Window"
-        intro="The year end period, which is from the long break of the school, through Christmas, and to the New Year period, is always the busiest travel period of the year for Malaysians. This is a real busy time to plan for, because not only are there two holiday periods involved but the travel needs of domestic and international travelers will overlap making this an important time."
+        intro={
+          <>
+            The year end period, which is from the long break of the school, through
+            Christmas, and to the New Year period, is always the busiest travel period of
+            the year for Malaysians. This is a real busy time to plan for, because not only
+            are there two holiday periods involved but the travel needs of{" "}
+            <Link href={HOME} className={HERO_LINK}>
+              domestic and international travelers
+            </Link>{" "}
+            will overlap making this an important time.
+          </>
+        }
         actions={[{ label: "Request a Free Quote", href: "/contact" }]}
       />
 
@@ -248,7 +278,13 @@ export default function YearEndContent({
               <div key={row.place}>
                 <span className="block h-[2px] w-10 bg-primary mb-4" aria-hidden />
                 <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-2">
-                  {row.place}
+                  {"href" in row && row.href ? (
+                    <Link href={row.href} className={INLINE_LINK}>
+                      {row.place}
+                    </Link>
+                  ) : (
+                    row.place
+                  )}
                 </h3>
                 <p className="text-gray-600 text-[15px] leading-relaxed">{row.why}</p>
               </div>
@@ -365,9 +401,12 @@ export default function YearEndContent({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           <p className="lg:col-span-7 text-gray-600 leading-relaxed">
             Indeed, there are many who travel especially to participate in festive happenings
-            that cannot be experienced in any other time of the year, such as Christmas
-            markets in Europe, winter illumination events in Japan, or New Year&rsquo;s Eve
-            celebrations in big cities. It is therefore wise to find out about the timing and
+            that cannot be experienced in any other time of the year, such as{" "}
+            <Link href={EUROPE} className={INLINE_LINK}>
+              Christmas markets in Europe
+            </Link>
+            , winter illumination events in Japan, or New Year&rsquo;s Eve celebrations in
+            big cities. It is therefore wise to find out about the timing and
             the availability of such festivities as soon as possible because their schedule
             does not change regardless of your booking timing.
           </p>
@@ -464,8 +503,12 @@ export default function YearEndContent({
             </h3>
             <p className="text-gray-600 leading-relaxed">
               Since so much money is spent on planning a holiday of this sort in a year,
-              considering all the financial investment and the limited holiday time available
-              to a family, travel insurance assumes special importance in this case. This is
+              considering all the financial investment and the{" "}
+              <Link href={HOME} className={INLINE_LINK}>
+                limited holiday time
+              </Link>{" "}
+              available to a family, travel insurance assumes special importance in this
+              case. This is
               because the problems of peak season are more probable in this period than in any
               other time of the year.
             </p>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
+import { Bullet, DataTable, GuideFigure, INLINE_LINK, Section } from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -23,6 +23,15 @@ import { Bullet, DataTable, GuideFigure, Section } from "./primitives";
 // about, not to decorate it; see public/images/guides/.
 const PHOTO = "/images/guides/blue-mountains.jpg";
 const PHOTO_ALT = "The Three Sisters rock formation in the Blue Mountains, New South Wales";
+
+// The draft's own internal links. The .docx points at the old
+// holidayidea.com.my search pages — s=Australia for the country-wide anchors
+// and s=Sydney&c=96 for the two Sydney ones. Australia has no city landing
+// pages on this site, only the /tours/australia hub, so both resolve there.
+// The School Holiday Deals link is not the draft's own hyperlink, but the
+// draft's sentence names that page, so it is kept.
+const AUSTRALIA = "/tours/australia";
+const SCHOOL_HOLIDAY_DEALS = "/school-holiday-travel-deals-2026";
 
 
 const sydneyVsMelbourne = [
@@ -53,9 +62,13 @@ const sydneyVsMelbourne = [
   },
 ];
 
-const sydneyHighlights = [
+const sydneyHighlights: { name: React.ReactNode; why: string }[] = [
   {
-    name: "Sydney Opera House & Harbour Bridge",
+    name: (
+      <Link href={AUSTRALIA} className={INLINE_LINK}>
+        Sydney Opera House &amp; Harbour Bridge
+      </Link>
+    ),
     why: "The city's most iconic photo opportunity and cultural landmark",
   },
   {
@@ -186,8 +199,11 @@ export default function AustraliaGuide() {
           directly linked with the school holidays of Malaysia because, naturally,
           families book international travels based on the school holidays. It is
           particularly significant to book in advance for the peak of the school
-          holidays season because prices for air tickets and hotel accommodations in
-          Australia increase greatly.
+          holidays season because prices for air tickets and hotel accommodations in{" "}
+          <Link href={AUSTRALIA} className={INLINE_LINK}>
+            Australia
+          </Link>{" "}
+          increase greatly.
         </p>
         <p className="text-gray-600 leading-relaxed mb-4">
           Why timing matters more for Australia specifically:
@@ -200,7 +216,7 @@ export default function AustraliaGuide() {
         <p className="text-gray-600 leading-relaxed">
           For destination-specific school holiday timing guidance and current deals,
           see our dedicated{" "}
-          <Link href="/school-holiday-travel-deals-2026" className="text-primary-dark underline">
+          <Link href={SCHOOL_HOLIDAY_DEALS} className={INLINE_LINK}>
             School Holiday Deals page
           </Link>
           .
@@ -242,8 +258,11 @@ export default function AustraliaGuide() {
       <Section label="Practical" heading="Practical Travel Considerations for Australia">
         <p className="text-gray-600 leading-relaxed">
           However, the time zone difference that exists between Australia and Malaysia
-          varies from one city to another and based on the season (as a result of
-          Daylight Saving Time observed in some Southern States), a consideration that
+          varies from one city to another and based on the season (as a result of{" "}
+          <Link href={AUSTRALIA} className={INLINE_LINK}>
+            Daylight Saving
+          </Link>{" "}
+          Time observed in some Southern States), a consideration that
           is important especially during the first couple of days when getting used to
           the environment. While distances between different sights are usually not
           very far for a visit around Sydney and Melbourne, day trips such as Blue
@@ -256,8 +275,11 @@ export default function AustraliaGuide() {
           Those with extra time can opt for a trip which covers not only Australia but
           also New Zealand due to the proximity of the countries and the short distance
           between them via plane. This package is good for tourists who wish to
-          combine the experience of urban and coastal travel in Australia with the
-          natural adventure in New Zealand.
+          combine the experience of urban and{" "}
+          <Link href={AUSTRALIA} className={INLINE_LINK}>
+            coastal travel in Australia
+          </Link>{" "}
+          with the natural adventure in New Zealand.
         </p>
       </Section>
 

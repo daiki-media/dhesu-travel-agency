@@ -7,6 +7,7 @@
  * instead of carrying one hand-written branch per country.
  */
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { IntroLink } from "./types";
 
 import { getIndiaLandingPage, INDIA_LANDING_PAGES } from "./india";
 import { getNepalLandingPage, NEPAL_LANDING_PAGES } from "./nepal";
@@ -46,6 +47,8 @@ export interface LandingPage {
   metaDescription: string;
   h1: string;
   intro: string;
+  /** The draft's own hyperlink inside `intro`, when it has one. */
+  introLink?: IntroLink;
   canonicalUrl: string;
   ogTitle: string;
   ogDescription: string;

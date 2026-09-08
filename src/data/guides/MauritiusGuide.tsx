@@ -1,9 +1,17 @@
 "use client";
 
+import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives";
+import {
+  Bullet,
+  DataTable,
+  GuideFigure,
+  INLINE_LINK,
+  Section,
+  TripRows,
+} from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -22,6 +30,12 @@ import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives"
 // about, not to decorate it; see public/images/guides/.
 const PHOTO = "/images/guides/trou-aux-cerfs.jpg";
 const PHOTO_ALT = "The Trou aux Cerfs crater above Curepipe, Mauritius";
+
+// The draft's own internal links. Like the Hong Kong draft, all three point at
+// the old holidayidea.com.my homepage (promo/index.php) rather than a search
+// page, so none names a specific target; Mauritius has no sub-pages here
+// either, so all three resolve to the /tours/mauritius hub.
+const MAURITIUS = "/tours/mauritius";
 
 
 const whatCouplesWant = [
@@ -217,9 +231,11 @@ export default function MauritiusGuide() {
           holiday at, your resort will provide good opportunities to enjoy many
           excursions without the need of travelling for long periods. You can be
           confident about being able to communicate effectively in English or French
-          due to the colonial past of the country. It is advisable to find out the
-          package details provided by your resort, since prices differ depending on
-          accommodation type.
+          due to the colonial past of the country. It is advisable to find out the{" "}
+          <Link href={MAURITIUS} className={INLINE_LINK}>
+            package details
+          </Link>{" "}
+          provided by your resort, since prices differ depending on accommodation type.
         </p>
       </Section>
 
@@ -228,7 +244,10 @@ export default function MauritiusGuide() {
           While Mauritius is primarily marketed toward couples, it&apos;s worth noting
           that some honeymooners choose to extend their trip into a broader family
           celebration, particularly for milestone weddings. Many resorts offer both
-          adults-only sections for the couple&apos;s private time and family-friendly
+          adults-only sections for the couple&apos;s private time and{" "}
+          <Link href={MAURITIUS} className={INLINE_LINK}>
+            family-friendly
+          </Link>{" "}
           areas for relatives joining part of the trip, making it a flexible option for
           couples wanting to combine their honeymoon with some shared family
           celebration time.

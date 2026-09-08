@@ -1,4 +1,5 @@
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { IntroLink } from "./types";
 
 export interface CambodiaLandingPage {
   key: string;
@@ -11,6 +12,8 @@ export interface CambodiaLandingPage {
   metaDescription: string;
   h1: string;
   intro: string;
+  /** The draft's own hyperlink inside `intro`, when it has one. */
+  introLink?: IntroLink;
   canonicalUrl: string;
   ogTitle: string;
   ogDescription: string;
@@ -125,7 +128,9 @@ export const CAMBODIA_THEMES: CambodiaLandingPage[] = [
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/CambodiaGuide.tsx.
     intro:
-      "Tourism in Cambodia revolves completely around one single remarkable site, Angkor Wat, which happens to be the biggest temple on earth. A Cambodia vacation that revolves around Siem Reap could be truly memorable for tourists coming from Malaysia, while at the same time being followed by a vacation in Vietnam.",
+      "Tourism in Cambodia revolves completely around one single remarkable site, Angkor Wat, which happens to be the biggest temple on earth. A Cambodia vacation that revolves around Siem Reap could be truly memorable for tourists coming from Malaysia, while at the same time being followed by a vacation in Vietnam. This would be done by people wanting to visit other places in Southeast Asia. Below is a description of a Cambodia vacation and how it fits into a multinational tour.",
+    // "Cambodia" appears three times in the intro; the draft links the second.
+    introLink: { text: "Cambodia", href: "/tours/cambodia", occurrence: 2 },
     canonicalUrl: "/tours/cambodia/cambodia-tour-travel-guide-2026",
     ogTitle: "Cambodia Tour Packages From Malaysia: Angkor Wat & Siem Reap",
     ogDescription:

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import AllPagesHero from "@/src/components/AllPagesHero";
@@ -37,6 +38,23 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
+// The draft's own internal links. Three destination rows link to the old
+// holidayidea.com.my listings — Indonesia and UAE are covered by our own hubs,
+// Egypt has no page here so it falls back to the all-destinations index. The
+// three prose links point at the old homepage, which on a seasonal page with no
+// single destination has no more specific equivalent than our own homepage.
+const INDONESIA = "/tours/indonesia";
+const UAE = "/tours/dubai";
+const EGYPT = "/tours";
+const HOME = "/";
+
+const INLINE_LINK =
+  "font-semibold text-teal-navy underline decoration-primary/40 underline-offset-4 hover:decoration-primary transition-colors";
+
+// Same underline, set for the dark hero and the dark timeline band.
+const LIGHT_LINK =
+  "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
+
 const contrast = [
   {
     standard: "General destination appeal",
@@ -69,18 +87,21 @@ const destinations = [
   },
   {
     place: "Indonesia (Bali & beyond)",
+    href: INDONESIA,
     image: "/images/seasonal/raya-indonesia-mosque.jpg",
     alt: "An Indonesian mosque with minarets rising above the palms",
     why: "Majority-Muslim country, easy halal access, short flight time",
   },
   {
     place: "UAE (Dubai/Abu Dhabi)",
+    href: UAE,
     image: "/images/seasonal/raya-uae-dhow.jpg",
     alt: "A lantern-lit dhow cruising past the Dubai Marina skyline",
     why: "Excellent halal infrastructure, family-friendly attractions",
   },
   {
     place: "Egypt",
+    href: EGYPT,
     image: "/images/seasonal/raya-egypt-karnak.jpg",
     alt: "The avenue of sphinxes at the entrance to Karnak Temple, Egypt",
     why: "Islamic heritage sites, reliable halal food access",
@@ -230,7 +251,18 @@ export default function RayaContent({
         eyebrow="Festive Season"
         title="Raya Holiday Packages"
         titleAccent="Festive Travel Made Muslim-Friendly"
-        intro="The Hari Raya holiday period is probably the most significant time of the year for Malaysian Muslim families to go traveling, and there are certain planning issues involved in this type of holiday that make it different from a regular holiday booking. There are some places that are friendly toward Muslims, and other planning aspects that take into account the importance of the holiday period."
+        intro={
+          <>
+            The Hari Raya holiday period is probably the most significant time of the year
+            for Malaysian Muslim families to go traveling, and there are certain planning
+            issues involved in this type of holiday that make it different from a regular{" "}
+            <Link href={HOME} className={LIGHT_LINK}>
+              holiday booking.
+            </Link>{" "}
+            There are some places that are friendly toward Muslims, and other planning
+            aspects that take into account the importance of the holiday period.
+          </>
+        }
         actions={[{ label: "Request a Free Quote", href: "/contact" }]}
       />
 
@@ -292,7 +324,13 @@ export default function RayaContent({
                 </div>
                 <span className="block h-[2px] w-10 bg-primary mb-4" aria-hidden />
                 <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-2">
-                  {row.place}
+                  {"href" in row && row.href ? (
+                    <Link href={row.href} className={INLINE_LINK}>
+                      {row.place}
+                    </Link>
+                  ) : (
+                    row.place
+                  )}
                 </h3>
                 <p className="text-gray-600 text-[15px] leading-relaxed">{row.why}</p>
               </div>
@@ -339,7 +377,10 @@ export default function RayaContent({
               Because the exact Raya dates shift annually based on the Islamic lunar calendar,
               it&rsquo;s worth confirming projected dates as early as possible when planning
               travel around this period, since flight and accommodation demand spikes sharply
-              around the confirmed public holiday window.
+              around the confirmed{" "}
+              <Link href={HOME} className={LIGHT_LINK}>
+                public holiday window.
+              </Link>
             </p>
           </motion.div>
         </div>
@@ -475,7 +516,10 @@ export default function RayaContent({
                 small gifts for relatives abroad fit into your travel plans, particularly if
                 part of the trip involves visiting family overseas. Discussing these
                 expectations within the family ahead of time helps avoid any last-minute
-                scrambling once you&rsquo;ve already arrived at your destination.
+                scrambling once you&rsquo;ve already arrived at your{" "}
+                <Link href={HOME} className={INLINE_LINK}>
+                  destination.
+                </Link>
               </p>
             </div>
           </div>

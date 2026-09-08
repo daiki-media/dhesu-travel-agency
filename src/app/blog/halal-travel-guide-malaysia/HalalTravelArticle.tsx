@@ -3,14 +3,15 @@
 import Link from "next/link";
 import BlogArticleLayout, {
   ArticleSection,
+  ARTICLE_LINK,
+  BlogTable,
   Bullets,
   Callout,
   Checklist,
-  DataTable,
   Figure,
   FigurePair,
   P,
-} from "@/src/components/BlogArticleLayout";
+} from "@/src/components/blog/BlogArticleLayout";
 
 /**
  * "Halal Travel Guide: Ranking the Best Muslim-Friendly Destinations" —
@@ -30,6 +31,14 @@ import BlogArticleLayout, {
  */
 
 const IMG = "/images/blog/halal-travel-guide-malaysia";
+
+// The draft's own internal links, remapped off the old holidayidea.com.my
+// search pages: s=UAE, s=Egypt, and s=Europe & Canada for the two Western-
+// destination anchors. There is no Egypt page here, so that one falls back to
+// the all-destinations index.
+const UAE = "/tours/dubai/dubai-holiday-travel-guide-2026";
+const EGYPT = "/tours";
+const EUROPE = "/tours/europe";
 
 const SECTIONS = [
   { id: "what-makes-it-halal-friendly", label: "What Counts as Halal-Friendly" },
@@ -75,7 +84,7 @@ export default function HalalTravelArticle({
         eyebrow="The Criteria"
         heading="What Makes a Destination Genuinely Halal-Friendly"
       >
-        <DataTable
+        <BlogTable
           headers={["Factor", "Why It Matters"]}
           rows={[
             [
@@ -111,7 +120,7 @@ export default function HalalTravelArticle({
         eyebrow="The Ranking"
         heading="Destination Rankings by Halal Travel Ease"
       >
-        <DataTable
+        <BlogTable
           headers={["Tier", "Destinations", "Why"]}
           rows={[
             [
@@ -191,14 +200,14 @@ export default function HalalTravelArticle({
         heading="UAE: Modern Infrastructure With Strong Halal Access"
       >
         <P>
-          {"The UAE, particularly "}
-          <Link
-            href="/tours/dubai/dubai-holiday-travel-guide-2026"
-            className="text-primary-dark underline underline-offset-2 hover:text-primary"
-          >
-            Dubai
-          </Link>
-          {" and Abu Dhabi, combines a majority-Muslim population with world-class modern tourism infrastructure, resulting in extensive halal dining options and readily accessible prayer facilities even within major shopping malls and tourist attractions."}
+          The UAE, particularly{" "}
+          <Link href={UAE} className={ARTICLE_LINK}>
+            Dubai and Abu Dhabi,
+          </Link>{" "}
+          combines a majority-Muslim population with world-class modern tourism
+          infrastructure, resulting in extensive halal dining options and readily
+          accessible prayer facilities even within major shopping malls and tourist
+          attractions.
         </P>
         <FigurePair
           items={[
@@ -220,7 +229,13 @@ export default function HalalTravelArticle({
         heading="Egypt: Deep Heritage With Some Extra Planning"
       >
         <P>
-          {"Egypt offers profound Islamic historical significance alongside its famous ancient heritage sites, and halal food is generally straightforward to find. That said, tourist-area pricing and infrastructure can vary more than in some other destinations, so working with a knowledgeable consultant helps ensure smoother logistics."}
+          Egypt offers profound Islamic historical significance alongside its famous{" "}
+          <Link href={EGYPT} className={ARTICLE_LINK}>
+            ancient heritage sites,
+          </Link>{" "}
+          and halal food is generally straightforward to find. That said, tourist-area
+          pricing and infrastructure can vary more than in some other destinations, so
+          working with a knowledgeable consultant helps ensure smoother logistics.
         </P>
         <Figure
           src={`${IMG}/egypt-museum-colossus.jpg`}
@@ -234,7 +249,17 @@ export default function HalalTravelArticle({
         heading="Western Destinations: Growing but Requires Verification"
       >
         <P>
-          {"There has been a significant development in the provision of halal food in major cities of Europe, North America, and Australia in recent years, especially in places where there are substantial Muslim populations. However, it is much less prevalent than in predominantly Muslim countries, which makes it important to do research prior to travel."}
+          There has been a significant development in the provision of halal food in major
+          cities of{" "}
+          <Link href={EUROPE} className={ARTICLE_LINK}>
+            Europe
+          </Link>
+          , North America, and Australia in recent years, especially in places where there
+          are substantial Muslim populations. However, it is much less prevalent than in
+          predominantly Muslim countries, which makes it important to do research{" "}
+          <Link href={EUROPE} className={ARTICLE_LINK}>
+            prior to travel.
+          </Link>
         </P>
         <Figure
           src={`${IMG}/european-street-walk.jpg`}
@@ -287,7 +312,7 @@ export default function HalalTravelArticle({
         eyebrow="Matching Up"
         heading="Combining Halal Travel With Specific Trip Goals"
       >
-        <DataTable
+        <BlogTable
           headers={["Trip Goal", "Well-Suited Halal-Friendly Destination"]}
           rows={[
             ["Beach and relaxation", "Indonesia (Bali), UAE"],

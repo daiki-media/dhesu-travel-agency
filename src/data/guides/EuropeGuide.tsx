@@ -1,9 +1,17 @@
 "use client";
 
+import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives";
+import {
+  Bullet,
+  DataTable,
+  GuideFigure,
+  INLINE_LINK,
+  Section,
+  TripRows,
+} from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -21,6 +29,12 @@ import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives"
 // about, not to decorate it; see public/images/guides/.
 const PHOTO = "/images/guides/rhine-river-cruise.jpg";
 const PHOTO_ALT = "A river cruise ship passing the castle town of Cochem";
+
+// The draft's own internal links. All three point at the same old
+// holidayidea.com.my listing (search-travel.php?s=Europe & Canada) — a combined
+// Europe/Canada listing with no equivalent here — so each resolves to the
+// /tours/europe hub.
+const EUROPE = "/tours/europe";
 
 
 const diyChallenges = [
@@ -253,8 +267,11 @@ export default function EuropeGuide() {
 
       <Section label="Practical" heading="Currency and Practical Travel Tips for Europe">
         <p className="text-gray-600 leading-relaxed">
-          Traveling through more than one country in Europe means that you could
-          encounter different currencies, such as those within the Schengen Area using
+          Traveling through more than one country in{" "}
+          <Link href={EUROPE} className={INLINE_LINK}>
+            Europe
+          </Link>{" "}
+          means that you could encounter different currencies, such as those within the Schengen Area using
           the Euro currency, while others like Switzerland and Eastern Europe don&apos;t
           have the same currency system. It would be prudent to find out what
           currencies you would require for your individual travel itinerary since
@@ -270,8 +287,11 @@ export default function EuropeGuide() {
           format suits travellers who want to see multiple countries without
           independently managing train schedules, hotel transfers, and border logistics
           across several different countries. Days typically combine guided sightseeing
-          at major landmarks with some free time for independent exploration, dining, or
-          shopping within each city.
+          at major landmarks with some free time for{" "}
+          <Link href={EUROPE} className={INLINE_LINK}>
+            independent exploration
+          </Link>
+          , dining, or shopping within each city.
         </p>
       </Section>
 

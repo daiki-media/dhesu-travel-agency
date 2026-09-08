@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import AllPagesHero from "@/src/components/AllPagesHero";
@@ -41,6 +42,20 @@ const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
+
+// The draft's own internal links. Two point at the old quote form, one at the
+// old holidayidea.com.my homepage; the quote form is now /contact, and the
+// homepage link has no more specific equivalent on a page that is not about
+// one destination.
+const QUOTE = "/contact";
+const HOME = "/";
+
+const INLINE_LINK =
+  "font-semibold text-teal-navy underline decoration-primary/40 underline-offset-4 hover:decoration-primary transition-colors";
+
+// Same underline, set for the dark hero.
+const HERO_LINK =
+  "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
 
 const compare = [
   {
@@ -209,7 +224,18 @@ export default function StarCruiseContent({
         eyebrow="Cruise Holidays"
         title="Star Cruise Packages From Malaysia"
         titleAccent="Itineraries, Cabins &amp; What to Expect"
-        intro="Cruising has gained popularity among tourists from Malaysia as a means of seeing many destinations without having to plan several flights and hotels. Star Cruises is one of the easiest ways to go on a cruise out of the region. The following guide will help you learn about Star Cruises packages, cabins and choosing the appropriate cruise."
+        intro={
+          <>
+            Cruising has gained popularity among tourists from Malaysia as a means of
+            seeing many destinations without having to plan several flights and hotels.
+            Star Cruises is one of the easiest ways to go on a cruise out of the region.
+            The following guide will help you learn about{" "}
+            <Link href={QUOTE} className={HERO_LINK}>
+              Star Cruises packages,
+            </Link>{" "}
+            cabins and choosing the appropriate cruise.
+          </>
+        }
         actions={[{ label: "Request a Free Quote", href: "/contact" }]}
       />
 
@@ -420,8 +446,11 @@ export default function StarCruiseContent({
       >
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           <p className="lg:col-span-7 text-gray-600 leading-relaxed">
-            The Star Cruises&rsquo; ships, on the other hand, are designed to be very
-            entertaining and family oriented, providing a lot of things to do on the ship,
+            The Star Cruises&rsquo; ships, on the other hand, are designed to be very{" "}
+            <Link href={QUOTE} className={INLINE_LINK}>
+              entertaining and family oriented,
+            </Link>{" "}
+            providing a lot of things to do on the ship,
             depending on what kind of traveller you are from shows, pools, diverse dining
             options to kid&rsquo;s clubs on bigger ships for family cruises. The large number
             of options makes cruising a good choice for those who would rather not plan
@@ -523,8 +552,10 @@ export default function StarCruiseContent({
               codes for casual dining venues, though some specialty restaurants or formal
               evenings may have smart-casual expectations. It&rsquo;s worth packing at least
               one slightly dressier outfit even for a shorter cruise, in case a formal dinner
-              night or special onboard event is part of your specific sailing&rsquo;s
-              schedule.
+              night or special onboard event is part of your specific{" "}
+              <Link href={HOME} className={INLINE_LINK}>
+                sailing&rsquo;s schedule.
+              </Link>
             </p>
           </div>
         </div>

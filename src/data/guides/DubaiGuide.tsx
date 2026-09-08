@@ -1,9 +1,17 @@
 "use client";
 
+import Link from "next/link";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
-import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives";
+import {
+  Bullet,
+  DataTable,
+  GuideFigure,
+  INLINE_LINK,
+  Section,
+  TripRows,
+} from "./primitives";
 
 /**
  * Every string of copy is taken verbatim from
@@ -22,6 +30,11 @@ import { Bullet, DataTable, GuideFigure, Section, TripRows } from "./primitives"
 // about, not to decorate it; see public/images/guides/.
 const PHOTO = "/images/guides/dubai-desert-drive.jpg";
 const PHOTO_ALT = "A four-wheel drive cresting a dune on a Dubai desert safari";
+
+// The draft's own internal links. All four point at the same old
+// holidayidea.com.my search page (search-travel.php?s=Dubai&c=86), and Dubai
+// has no sub-pages on this site, so each resolves to the /tours/dubai hub.
+const DUBAI = "/tours/dubai";
 
 
 const travellerFit = [
@@ -175,9 +188,12 @@ export default function DubaiGuide() {
 
       <Section label="Signature Add-On" heading="Desert Safari: Dubai's Signature Add-On">
         <p className="text-gray-600 leading-relaxed mb-6">
-          A desert safari is one of the most consistently requested add-ons to any Dubai
-          itinerary, and for good reason it offers a genuinely different experience from
-          the city&apos;s modern skyline.
+          A desert safari is one of the most consistently requested add-ons to any{" "}
+          <Link href={DUBAI} className={INLINE_LINK}>
+            Dubai itinerary
+          </Link>
+          , and for good reason it offers a genuinely different experience from the
+          city&apos;s modern skyline.
         </p>
         <p className="text-gray-600 leading-relaxed mb-4">
           What a typical desert safari includes:
@@ -224,8 +240,11 @@ export default function DubaiGuide() {
 
       <Section label="Luxury" heading="Luxury Dubai Packages">
         <p className="text-gray-600 leading-relaxed">
-          For travellers wanting a fully premium experience, Dubai offers some of the
-          world&apos;s most recognised luxury hospitality brands, private guided tours,
+          For travellers wanting a fully premium experience,{" "}
+          <Link href={DUBAI} className={INLINE_LINK}>
+            Dubai
+          </Link>{" "}
+          offers some of the world&apos;s most recognised luxury hospitality brands, private guided tours,
           and exclusive experiences such as helicopter tours over Palm Jumeirah or
           private yacht charters. Luxury packages are generally built entirely around
           your specific preferences rather than a fixed template, so it&apos;s worth
@@ -273,8 +292,11 @@ export default function DubaiGuide() {
         <p className="text-gray-600 leading-relaxed">
           Dubai&apos;s retail scene spans everything from ultra-luxury boutiques to
           traditional souks, and it&apos;s worth budgeting time specifically for
-          shopping if this is a priority for your trip. The Dubai Mall remains the most
-          visited retail destination, combining international brands with entertainment
+          shopping if this is a priority for your trip. The{" "}
+          <Link href={DUBAI} className={INLINE_LINK}>
+            Dubai Mall
+          </Link>{" "}
+          remains the most visited retail destination, combining international brands with entertainment
           attractions like the in-mall aquarium, while the Gold Souk in Deira offers a
           more traditional, market-style experience for jewellery and traditional goods
           at negotiable pricing.

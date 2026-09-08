@@ -236,6 +236,7 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
               label={page.label}
               h1={page.h1}
               intro={page.intro}
+              introLink={page.introLink}
               heroImage={page.ogImage}
               packages={packages}
               cta={hub.cta}

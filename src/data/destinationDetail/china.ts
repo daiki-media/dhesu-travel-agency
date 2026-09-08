@@ -1,4 +1,5 @@
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { IntroLink } from "./types";
 
 /**
  * Landing pages under /tours/china.
@@ -18,6 +19,8 @@ export interface ChinaLandingPage {
   metaDescription: string;
   h1: string;
   intro: string;
+  /** The draft's own hyperlink inside `intro`, when it has one. */
+  introLink?: IntroLink;
   canonicalUrl: string;
   ogTitle: string;
   ogDescription: string;
@@ -46,7 +49,8 @@ export const CHINA_THEMES: ChinaLandingPage[] = [
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/ChinaGuide.tsx.
     intro:
-      "From the history of the Forbidden City in Beijing and its world-famous Wall, to Shanghai’s stunning modern architecture, to the incredible natural scenery of Zhangjiajie and the ancient wonder of Xi’an, there is much to see and experience in China.",
+      "From the history of the Forbidden City in Beijing and its world-famous Wall, to Shanghai’s stunning modern architecture, to the incredible natural scenery of Zhangjiajie and the ancient wonder of Xi’an, there is much to see and experience in China. This guide takes a look at what there is to see in China for Malaysia’s travelers, visas required, and city-hopping itineraries.",
+    introLink: { text: "China", href: "/tours/china" },
     canonicalUrl: "/tours/china/china-tour-travel-guide-2026",
     ogTitle: "China Tour Packages From Malaysia: Major Cities & the Great Wall",
     ogDescription:

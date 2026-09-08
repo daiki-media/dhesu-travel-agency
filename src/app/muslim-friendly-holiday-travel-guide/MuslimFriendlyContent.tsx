@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import AllPagesHero from "@/src/components/AllPagesHero";
@@ -36,6 +37,20 @@ const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
+
+// The draft's own internal links. The .docx still points at the old
+// holidayidea.com.my search pages: s=UAE for the three UAE anchors, s=Egypt for
+// the Egypt row. The UAE listing is covered by the Dubai hub; there is no Egypt
+// page on this site, so that row falls back to the all-destinations index.
+const UAE = "/tours/dubai";
+const EGYPT = "/tours";
+
+const INLINE_LINK =
+  "font-semibold text-teal-navy underline decoration-primary/40 underline-offset-4 hover:decoration-primary transition-colors";
+
+// Same underline, set for the dark hero.
+const HERO_LINK =
+  "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
 
 const practice = [
   {
@@ -74,6 +89,7 @@ const destinations = [
   },
   {
     place: "UAE (Dubai/Abu Dhabi)",
+    href: UAE,
     image: "/images/tour-types/mf-uae.jpg",
     alt: "The Madinat Jumeirah waterway with Burj Al Arab beyond",
     why: "Strong halal food infrastructure and prayer facilities throughout",
@@ -86,6 +102,7 @@ const destinations = [
   },
   {
     place: "Egypt",
+    href: EGYPT,
     image: "/images/tour-types/mf-egypt.jpg",
     alt: "The colonnade and statues of Luxor Temple",
     why: "Rich Islamic heritage sites alongside reliable halal food access",
@@ -259,7 +276,18 @@ export default function MuslimFriendlyContent({
         eyebrow="Tour Types"
         title="Muslim-Friendly Tour Packages"
         titleAccent="Travel With Confidence and Convenience"
-        intro="For Muslims who wish to enjoy their holiday, however, it should not be enough to have an excellent view of the area or stay in good accommodation; it is also equally important that there is easy access to halal food as well as suitable praying places. This article will discuss the factors that determine a truly Muslim tour package and the destinations where such tourism plans can be made."
+        intro={
+          <>
+            For Muslims who wish to enjoy their holiday, however, it should not be enough
+            to have an excellent view of the area or stay in good accommodation; it is also
+            equally important that there is easy access to halal food as well as suitable
+            praying places. This article will discuss the factors that determine a truly{" "}
+            <Link href={UAE} className={HERO_LINK}>
+              Muslim tour package
+            </Link>{" "}
+            and the destinations where such tourism plans can be made.
+          </>
+        }
         actions={[{ label: "Request a Free Quote", href: "/contact" }]}
       />
 
@@ -311,7 +339,13 @@ export default function MuslimFriendlyContent({
               </div>
               <span className="block h-[2px] w-10 bg-primary mb-4" aria-hidden />
               <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-2">
-                {row.place}
+                {row.href ? (
+                  <Link href={row.href} className={INLINE_LINK}>
+                    {row.place}
+                  </Link>
+                ) : (
+                  row.place
+                )}
               </h3>
               <p className="text-gray-600 text-[15px] leading-relaxed">{row.why}</p>
             </div>
@@ -416,8 +450,11 @@ export default function MuslimFriendlyContent({
           <p className="lg:col-span-7 text-gray-600 leading-relaxed">
             Halal verification for certification standards, locations of mosques, and suitable
             activities require extensive research when traveling to new destinations unlike
-            other travels. A consultant who understands the concerns of Muslims traveling is
-            capable of pre-verifying the above facts, and hence you will be saved from the
+            other travels. A consultant who understands the concerns of{" "}
+            <Link href={UAE} className={INLINE_LINK}>
+              Muslims traveling
+            </Link>{" "}
+            is capable of pre-verifying the above facts, and hence you will be saved from the
             trouble of finding that halal certification and mosque locations are not sufficient
             in the destinations you are visiting.
           </p>

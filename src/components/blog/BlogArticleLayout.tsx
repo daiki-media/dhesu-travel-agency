@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -10,14 +9,23 @@ import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { company } from "@/src/data/company";
 
+export { default as BlogTable } from "./BlogTable";
+
 /**
  * Shared shell for the six Holiday Idea blog articles.
  *
  * The destination guides under /tours each get their own visual treatment
  * because each one sells a different place. The blog is the opposite case: six
  * articles that a reader moves between, so they deliberately share one shell —
- * same hero, same reading measure, same table and callout devices, same
- * on-this-page rail. Only the words and the photography change.
+ * same hero, same reading measure, same table and callout devices. Only the
+ * words and the photography change.
+ *
+ * The body is a single centred column rather than a column beside a rail. These
+ * are articles, not documentation: a fixed reading measure of roughly 70
+ * characters is what makes long prose readable, and a sticky sidebar competes
+ * with the text for attention while costing the mobile reader nothing but a
+ * wider layout. The contents list is inline above the article instead, where it
+ * is available to every reader and to search engines as jump links.
  *
  * Every primitive an article needs is exported from here, so an article file
  * contains its copy and nothing else.
@@ -99,90 +107,45 @@ export function ArticleSection({
       className="scroll-mt-28"
     >
       {eyebrow && <SectionLabel text={eyebrow} />}
-      <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-[1.75rem] leading-[1.2] tracking-[-0.01em] mb-5">
+      <h2 className="font-primary font-bold text-[#1a1a1a] text-[1.6rem] md:text-[2rem] leading-[1.18] tracking-[-0.015em] mb-5">
         {heading}
       </h2>
-      <div className="space-y-5">{children}</div>
+      <div className="space-y-6">{children}</div>
     </motion.section>
   );
 }
 
-/** Body paragraph at the article's reading size. */
+/**
+ * Inline link styles, shared by the articles so every draft's own hyperlink
+ * reads the same. `LEAD_LINK` is the same underline set for the dark hero the
+ * lead paragraph sits on.
+ */
+export const ARTICLE_LINK =
+  "underline decoration-primary/40 underline-offset-4 hover:text-primary-dark transition-colors";
+
+export const LEAD_LINK =
+  "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
+
+/**
+ * Body paragraph at the article's reading size.
+ *
+ * 17px at 1.75 line-height, in a near-black grey rather than a mid grey: long
+ * prose needs both the size and the contrast that a UI label does not.
+ */
 export function P({ children }: { children: React.ReactNode }) {
   return (
-    <p className="text-gray-600 text-[15px] md:text-base leading-relaxed">{children}</p>
+    <p className="text-[16.5px] md:text-[17px] leading-[1.75] text-gray-700">
+      {children}
+    </p>
   );
 }
 
 /** Sub-heading inside a section, for a draft's third-level breaks. */
 export function H3({ children }: { children: React.ReactNode }) {
   return (
-    <h3 className="font-primary font-bold text-teal-navy text-lg md:text-xl leading-snug pt-2">
+    <h3 className="font-primary font-bold text-teal-navy text-lg md:text-xl leading-snug pt-3">
       {children}
     </h3>
-  );
-}
-
-/**
- * Data table.
- *
- * The drafts are table-heavy, and a four-column table cannot shrink to a phone
- * without either wrapping into mush or pushing the page sideways — so the table
- * scrolls inside its own frame and the page never does.
- */
-export function DataTable({
-  headers,
-  rows,
-  caption,
-}: {
-  headers: string[];
-  rows: React.ReactNode[][];
-  caption?: string;
-}) {
-  return (
-    <figure className="my-2">
-      <div className="overflow-x-auto rounded-2xl border border-gray-200">
-        <table className="w-full min-w-[34rem] border-collapse text-left">
-          <thead>
-            <tr className="bg-teal-navy">
-              {headers.map((header) => (
-                <th
-                  key={header}
-                  scope="col"
-                  className="px-5 py-3.5 font-primary font-semibold text-white text-xs uppercase tracking-[0.12em] whitespace-nowrap"
-                >
-                  {header}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((row, i) => (
-              <tr
-                key={i}
-                className={i % 2 === 1 ? "bg-gray-50/70" : "bg-white"}
-              >
-                {row.map((cell, j) => (
-                  <td
-                    key={j}
-                    className={`px-5 py-4 align-top text-[14px] leading-relaxed border-t border-gray-100 ${
-                      j === 0
-                        ? "font-semibold text-teal-navy"
-                        : "text-gray-600"
-                    }`}
-                  >
-                    {cell}
-                  </td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      {caption && (
-        <figcaption className="mt-2.5 text-gray-400 text-xs">{caption}</figcaption>
-      )}
-    </figure>
   );
 }
 
@@ -199,7 +162,7 @@ export function Bullets({
         return (
           <li key={label} className="flex gap-4">
             <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
-            <span className="text-gray-600 text-[15px] leading-relaxed">
+            <span className="text-[16.5px] leading-[1.7] text-gray-700">
               {typeof item === "string" ? (
                 item
               ) : (
@@ -232,7 +195,7 @@ export function Checklist({ items }: { items: string[] }) {
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="M4 10.5l4 4 8-9" />
           </svg>
-          <span className="text-gray-600 text-[15px] leading-relaxed">{item}</span>
+          <span className="text-[16px] leading-[1.7] text-gray-700">{item}</span>
         </li>
       ))}
     </ul>
@@ -253,7 +216,7 @@ export function Callout({
       <p className="font-primary font-bold text-white text-lg md:text-xl leading-snug mb-3">
         {title}
       </p>
-      <div className="text-white/75 text-[15px] leading-relaxed space-y-3">
+      <div className="text-white/80 text-[16px] leading-[1.7] space-y-3">
         {children}
       </div>
     </div>
@@ -316,55 +279,45 @@ export function FigurePair({
   );
 }
 
-// ─── On-this-page rail ─────────────────────────────────────────────────────────
+// ─── Contents ──────────────────────────────────────────────────────────────────
 
 /**
- * Highlights whichever section is currently in view.
+ * Jump links to the article's sections.
  *
- * These articles run long and are answer-shaped — a reader arriving from search
- * usually wants one section, not the whole piece.
+ * These pieces run long and are answer-shaped: a reader arriving from search
+ * usually wants one section, not the whole article. It sits inline above the
+ * body rather than in a sidebar so phone readers get it too, and it is plain
+ * anchors — no observer, no client state — which is also what lets a search
+ * engine read them as jump links to the page.
  */
-function OnThisPage({ sections }: { sections: { id: string; label: string }[] }) {
-  const [active, setActive] = useState(sections[0]?.id);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
-        if (visible) setActive(visible.target.id);
-      },
-      { rootMargin: "-96px 0px -60% 0px", threshold: 0 },
-    );
-    sections.forEach(({ id }) => {
-      const el = document.getElementById(id);
-      if (el) observer.observe(el);
-    });
-    return () => observer.disconnect();
-  }, [sections]);
+function Contents({ sections }: { sections: { id: string; label: string }[] }) {
+  if (sections.length === 0) return null;
 
   return (
-    <nav aria-label="On this page">
-      <p className="text-primary font-semibold text-xs uppercase tracking-widest font-primary mb-4">
-        On this page
+    <nav
+      aria-label="On this page"
+      className="rounded-2xl border border-gray-200 bg-[#fbfbfb] px-6 py-6 md:px-8 md:py-7"
+    >
+      <p className="font-primary text-xs font-semibold uppercase tracking-widest text-primary mb-4">
+        In this article
       </p>
-      <ul className="space-y-1 border-l border-gray-200">
-        {sections.map((section) => (
+      <ol className="grid grid-cols-1 gap-x-8 gap-y-1 sm:grid-cols-2">
+        {sections.map((section, i) => (
           <li key={section.id}>
             <a
               href={`#${section.id}`}
-              className={`block py-1.5 pl-4 -ml-px border-l-2 text-[13px] leading-snug transition-colors ${
-                active === section.id
-                  ? "border-primary text-teal-navy font-semibold"
-                  : "border-transparent text-gray-400 hover:text-teal-navy"
-              }`}
+              className="group flex gap-3 py-1.5 text-[15px] leading-snug text-gray-600 transition-colors hover:text-teal-navy"
             >
-              {section.label}
+              <span className="w-5 shrink-0 pt-px font-primary text-xs font-semibold tabular-nums text-gray-300 transition-colors group-hover:text-primary">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <span className="underline decoration-transparent underline-offset-4 transition-colors group-hover:decoration-primary/50">
+                {section.label}
+              </span>
             </a>
           </li>
         ))}
-      </ul>
+      </ol>
     </nav>
   );
 }
@@ -378,7 +331,8 @@ export interface BlogArticleLayoutProps {
   category: string;
   title: string;
   /** The draft's opening paragraph, shown under the h1. */
-  lead: string;
+  /** Opening paragraph. Takes nodes so a draft's own in-lead links survive. */
+  lead: React.ReactNode;
   heroImage: string;
   heroAlt: string;
   /** Short facts under the hero, e.g. "8 min read". */
@@ -448,41 +402,13 @@ export default function BlogArticleLayout({
         </div>
       )}
 
-      {/* ── ARTICLE + RAIL ───────────────────────────────────────────────── */}
-      <section className="max-w-7xl mx-auto px-6 lg:px-12 py-10 lg:py-14">
-        <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_260px] gap-10 lg:gap-16">
-          <article className="min-w-0 space-y-12 lg:space-y-14">{children}</article>
-
-          <aside className="hidden lg:block">
-            <div className="sticky top-24 space-y-8">
-              <OnThisPage sections={sections} />
-
-              <div className="rounded-2xl border border-gray-200 p-5">
-                <p className="font-primary font-bold text-teal-navy text-[15px] leading-snug mb-2">
-                  Questions about your trip?
-                </p>
-                <p className="text-gray-500 text-[13px] leading-relaxed mb-4">
-                  A consultant can confirm the details for your dates before you
-                  book anything.
-                </p>
-                <a
-                  href={`https://wa.me/${whatsapp}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block rounded-xl bg-[#25D366] px-4 py-2.5 text-center text-white text-[13px] font-semibold hover:bg-[#20b858] transition-colors"
-                >
-                  WhatsApp us
-                </a>
-                <Link
-                  href="/contact"
-                  className="mt-2 block rounded-xl border border-gray-200 px-4 py-2.5 text-center text-teal-navy text-[13px] font-semibold hover:border-primary transition-colors"
-                >
-                  Request a quote
-                </Link>
-              </div>
-            </div>
-          </aside>
-        </div>
+      {/* ── ARTICLE ──────────────────────────────────────────────────────
+          One centred column at a ~70-character measure. Everything the reader
+          needs is in the flow of the piece; nothing sits beside it competing
+          for attention. */}
+      <section className="mx-auto max-w-6xl px-6 py-10 lg:py-14">
+        <Contents sections={sections} />
+        <article className="mt-12 space-y-14 lg:space-y-16">{children}</article>
       </section>
 
       <FaqSection faqs={faqs} className="bg-pattern scroll-mt-28" />

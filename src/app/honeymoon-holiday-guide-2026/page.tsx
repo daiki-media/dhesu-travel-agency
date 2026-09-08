@@ -9,10 +9,10 @@ import {
 } from "@/src/data/structuredData";
 
 // Holiday Idea sheet, "Honeymoon Packages (Hub)" row. Title, description and
-// primary keyword are copied verbatim from the sheet. The hub's job per the
-// sheet is to "cross-link Bali, Mauritius and Europe as honeymoon-suited
-// destinations", so the body is a comparison that routes to the three existing
-// destination guides rather than a fourth guide of its own.
+// primary keyword are copied verbatim from the sheet. The body copy now comes
+// from the draft the sheet's row refers to — content-document/tour-types/
+// Honeymoon Packages From Malaysia_ Comparing the Top Destinations.docx — which
+// is also the comparison that routes to the three destination guides.
 const PATH = "/honeymoon-holiday-guide-2026";
 const TITLE = "Honeymoon Packages From Malaysia: Comparing the Top Destinations";
 const DESCRIPTION =
@@ -37,34 +37,45 @@ export const metadata: Metadata = {
 // same list drives the rendered FAQ and the FAQPage markup below.
 const faqs = [
   {
-    question: "Which honeymoon destination is easiest to reach from Malaysia?",
+    question: "Which destination would be ideal for a short honeymoon vacation?",
     answer:
-      "Bali is the shortest flight of the three and needs no stopover, which is why it suits couples with a week or less. Mauritius takes longer but is still a single long-haul hop, while Europe usually means a connection and the longest total travel time.",
+      "The ideal short honeymoon destination would be Bali, since the destination has a short flight duration as well as an extensive romantic resort network.",
   },
   {
-    question: "How long should we set aside for each destination?",
+    question:
+      "Is the longer flight duration for Mauritius worth it compared to that of Bali?",
     answer:
-      "Bali works well as a short honeymoon because the island is compact and you can stay in one place. Mauritius suits a resort-based week or ten days. A multi-country Europe honeymoon needs the most time, because the travel between cities is part of the itinerary.",
+      "Many couples find the extra time invested in flying worthwhile considering Mauritius's strong honeymoon resort culture.",
   },
   {
-    question: "Which one suits a beach-and-privacy honeymoon?",
+    question: "How long would a honeymoon holiday in Europe be?",
     answer:
-      "Bali and Mauritius both do. Bali leans towards private pool villas, sunset cruises and romantic dining set against terraced fields and cliffs. Mauritius leans towards beach resorts and private experiences, with a slower pace once you arrive.",
+      "Most European honeymoon tours take up to 10 to 14 days due to the lengthy flights and the multiple destinations.",
   },
   {
-    question: "Which one suits couples who want sightseeing as well as romance?",
+    question: "Which is the most affordable honeymoon destination?",
     answer:
-      "Europe. A multi-country European tour gives you cultural interest and a range of attractions alongside the romance, which is a different proposition from a beach resort honeymoon.",
+      "Bali can be considered the most affordable honeymoon destination while providing an authentic romantic atmosphere.",
   },
   {
-    question: "Can these honeymoon packages be customised?",
+    question: "Are the honeymoon tour packages customizable?",
     answer:
-      "Yes. Every honeymoon we arrange is planned around the couple, from as few as two travellers, so the itinerary, hotels and pace are set to suit you rather than sold as a fixed departure.",
+      "Yes, honeymoon tours are usually customizable to include other activities according to preference.",
   },
   {
-    question: "When should we book a honeymoon?",
+    question: "Is Mauritius or Bali better for total privacy?",
     answer:
-      "As early as you can once your dates are known. Honeymoon-grade rooms — pool villas, beachfront categories and the better city hotels — are the first to sell out, and booking early is also how you hold the price.",
+      "Mauritius generally offers more dedicated seclusion, particularly through adults-only resort sections, though Bali also offers private villa options.",
+  },
+  {
+    question: "Should we choose a beach destination or a European trip for our honeymoon?",
+    answer:
+      "This depends on your shared travel style. Beach destinations suit couples wanting relaxation, while Europe suits those who enjoy active sightseeing together.",
+  },
+  {
+    question: "How far in advance should we book our honeymoon?",
+    answer:
+      "Booking several months ahead is advisable, particularly for peak wedding season periods, to secure preferred resorts, dates, and pricing.",
   },
 ];
 

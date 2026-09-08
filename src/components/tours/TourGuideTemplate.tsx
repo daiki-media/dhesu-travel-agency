@@ -7,6 +7,7 @@ import { PackageCard, SectionLabel } from "@/src/components/tours/TourDestinatio
 import { InquiryForm } from "@/src/components/tours/TourPackageDetailTemplate";
 import { company } from "@/src/data/company";
 import type { TourPackage, TourPageData } from "@/src/data/tourPages/types";
+import type { IntroLink } from "@/src/data/destinationDetail/types";
 
 /**
  * Layout for the Holiday Idea destination guides at /tours/<country>/<guide>.
@@ -31,12 +32,46 @@ const fadeUp = {
   }),
 };
 
+/**
+ * Renders the hero lead, linkifying the one phrase the source draft linked.
+ *
+ * The intro is stored as a plain string, so the anchor is located by substring
+ * rather than carried as markup. A phrase that is not found — or a draft with
+ * no link at all — falls back to the plain paragraph, so a copy edit can never
+ * break the hero.
+ */
+function renderIntro(intro: string, link?: IntroLink) {
+  if (!link) return intro;
+
+  // Walk to the requested occurrence; the anchor phrase is not always unique.
+  let at = -1;
+  for (let n = 0; n < (link.occurrence ?? 1); n += 1) {
+    at = intro.indexOf(link.text, at + 1);
+    if (at === -1) return intro;
+  }
+
+  return (
+    <>
+      {intro.slice(0, at)}
+      <Link
+        href={link.href}
+        className="text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors"
+      >
+        {link.text}
+      </Link>
+      {intro.slice(at + link.text.length)}
+    </>
+  );
+}
+
 export interface TourGuideTemplateProps {
   /** Small label above the h1, e.g. "Bali Travel Guide 2026". */
   label: string;
   h1: string;
   /** Lead paragraph, shown under the h1 in the hero. */
   intro: string;
+  /** The source draft's own hyperlink inside `intro`, when it has one. */
+  introLink?: IntroLink;
   heroImage: string;
   /** Short factual chips under the hero, e.g. "Daily departures". */
   facts?: string[];
@@ -53,6 +88,7 @@ export default function TourGuideTemplate({
   label,
   h1,
   intro,
+  introLink,
   heroImage,
   facts = [],
   children,
@@ -139,7 +175,7 @@ export default function TourGuideTemplate({
             transition={{ duration: 0.6, delay: 0.2, ease: easeOut }}
             className="text-white/80 text-base lg:text-lg max-w-2xl leading-relaxed"
           >
-            {intro}
+            {renderIntro(intro, introLink)}
           </motion.p>
         </div>
       </section>

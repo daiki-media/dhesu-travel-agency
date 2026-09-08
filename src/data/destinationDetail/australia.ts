@@ -1,4 +1,5 @@
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { IntroLink } from "./types";
 
 /**
  * Landing pages under /tours/australia.
@@ -17,6 +18,8 @@ export interface AustraliaLandingPage {
   metaDescription: string;
   h1: string;
   intro: string;
+  /** The draft's own hyperlink inside `intro`, when it has one. */
+  introLink?: IntroLink;
   canonicalUrl: string;
   ogTitle: string;
   ogDescription: string;
@@ -46,7 +49,8 @@ export const AUSTRALIA_THEMES: AustraliaLandingPage[] = [
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/AustraliaGuide.tsx.
     intro:
-      "Australia remains a consistently popular destination for Malaysian families, particularly during school holiday periods, thanks to its combination of iconic city landmarks, accessible nature experiences, and a relatively easy adjustment in terms of time zone and general comfort.",
+      "Australia remains a consistently popular destination for Malaysian families, particularly during school holiday periods, thanks to its combination of iconic city landmarks, accessible nature experiences, and a relatively easy adjustment for Malaysian travellers in terms of time zone and general comfort. This guide covers the two most requested Australian cities and how timing your trip around school holidays affects planning.",
+    introLink: { text: "Australian cities", href: "/tours/australia" },
     canonicalUrl: "/tours/australia/australia-holiday-travel-guide-2026",
     ogTitle:
       "Australia Holiday Packages From Malaysia: Sydney, Melbourne & Family Travel",

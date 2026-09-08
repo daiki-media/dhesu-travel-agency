@@ -1,4 +1,5 @@
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { IntroLink } from "./types";
 
 /**
  * Landing pages under /tours/europe.
@@ -19,6 +20,8 @@ export interface EuropeLandingPage {
   metaDescription: string;
   h1: string;
   intro: string;
+  /** The draft's own hyperlink inside `intro`, when it has one. */
+  introLink?: IntroLink;
   canonicalUrl: string;
   ogTitle: string;
   ogDescription: string;
@@ -47,7 +50,8 @@ export const EUROPE_THEMES: EuropeLandingPage[] = [
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/EuropeGuide.tsx.
     intro:
-      "A tour to Europe is usually a rare thing in the life of Malaysians, which is the very reason multi-nation group tours are still in fashion — they make it possible to visit many countries’ attractions in one trip without the hassle of organising it independently across different languages, currencies and modes of transport.",
+      "A tour to Europe is usually a rare thing in the life of Malaysians, as that is the very reason why multi-nation group tours are still in fashion they make it possible to visit many countries' attractions in just one trip without the hassle of organizing such an adventure independently in different languages, currencies and modes of transportation. The present guide contains information on the most popular multi-nation tours to Europe and Schengen visa issues for Malaysians.",
+    introLink: { text: "Europe", href: "/tours/europe" },
     canonicalUrl: "/tours/europe/europe-tour-travel-guide-2026",
     ogTitle: "Europe Tour Packages From Malaysia: Multi-Country Group Tours",
     ogDescription:

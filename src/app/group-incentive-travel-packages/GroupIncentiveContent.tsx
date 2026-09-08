@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import AllPagesHero from "@/src/components/AllPagesHero";
@@ -32,6 +33,19 @@ const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
+
+// The draft's own internal links. Both point at the old holidayidea.com.my
+// homepage (promo/index.php) rather than a listing, so neither names a
+// specific target; on a page that is not about one destination, the site's own
+// homepage is the equivalent.
+const HOME = "/";
+
+const INLINE_LINK =
+  "font-semibold text-teal-navy underline decoration-primary/40 underline-offset-4 hover:decoration-primary transition-colors";
+
+// Same underline, set for the dark hero.
+const HERO_LINK =
+  "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
 
 const contrast = [
   {
@@ -266,7 +280,19 @@ export default function GroupIncentiveContent({
         eyebrow="Corporate Travel"
         title="Group &amp; Incentive Travel"
         titleAccent="Corporate Packages That Reward and Build Teams"
-        intro="Incentive travel has been proven to be among the best ways through which firms can reward their top employees, develop company culture, and celebrate important company milestones, and organizing a successful incentive trip entails much more than just organizing an ordinary leisure vacation. This section highlights everything there is to know about corporate groups and incentive travel and how a travel partner helps with the same."
+        intro={
+          <>
+            Incentive travel has been proven to be among the best ways through which firms
+            can reward their top employees, develop company culture, and celebrate
+            important company milestones, and organizing a successful incentive trip
+            entails much more than just organizing an ordinary{" "}
+            <Link href={HOME} className={HERO_LINK}>
+              leisure vacation
+            </Link>
+            . This section highlights everything there is to know about corporate groups
+            and incentive travel and how a travel partner helps with the same.
+          </>
+        }
         actions={[{ label: "Request a Formal Quote", href: "/contact" }]}
       />
 
@@ -448,9 +474,12 @@ export default function GroupIncentiveContent({
             There is greater responsibility involved when dealing with corporate and incentive
             travel than there is when arranging individual vacations after all, not only the
             internal clients, but also the budget holders and even big groups of employees are
-            counting on you to arrange everything properly. Using an officially recognized
-            travel agency instead of an independent one means using their skills, experience,
-            and accountability when needed.
+            counting on you to arrange everything properly. Using an officially{" "}
+            <Link href={HOME} className={INLINE_LINK}>
+              recognized travel agency
+            </Link>{" "}
+            instead of an independent one means using their skills, experience, and
+            accountability when needed.
           </p>
           <div className="lg:col-span-5 border-l-2 border-primary pl-8">
             <p className="text-gray-400 text-xs uppercase tracking-[0.18em] font-semibold mb-3">
