@@ -1,6 +1,7 @@
 import { company } from "@/src/data/company";
 import { destinations } from "@/src/data/destinations";
 import { SITE_URL } from "@/src/data/site";
+import { getBlogList } from "@/src/lib/cms";
 
 /**
  * /llms.txt — a plain-text brief for AI agents and LLM-backed browsers.
@@ -31,16 +32,14 @@ const holidayIdeaPages = [
   ["/raya-holiday-travel-deals-2026/", "Raya packages built around Muslim-friendly destinations."],
 ];
 
-const blogArticles = [
-  ["/blog/best-time-to-visit-bali-2026/", "Best time to visit Bali: month-by-month weather, crowd levels and pricing."],
-  ["/blog/malaysia-travel-visa-guide-2026/", "Visa requirements for Malaysian travellers by destination, including Schengen."],
-  ["/blog/budget-family-travel-tips-2026/", "Budget travel tips for families: booking, accommodation and on-the-ground costs."],
-  ["/blog/tropical-holiday-packing-guide/", "Packing checklist for tropical destinations, including temple dress codes."],
-  ["/blog/halal-travel-guide-malaysia/", "Halal travel guide ranking destinations by food, prayer and cultural ease."],
-  ["/blog/solo-vs-group-travel-guide/", "Solo versus group travel compared on cost, safety, flexibility and planning effort."],
-];
+export async function GET(): Promise<Response> {
+  // Blog articles come from the CMS, so a post published there reaches this
+  // file on the next build without anyone editing it.
+  const blogArticles: [string, string][] = (await getBlogList()).map((post) => [
+    `/blog/${post.slug}/`,
+    post.meta_description ?? post.title,
+  ]);
 
-export function GET(): Response {
   const hours = company.hours.map((h) => `- ${h.days}: ${h.time}`).join("\n");
   const phones = company.phones.map((p) => `- ${p.label}: ${p.display}`).join("\n");
   const emails = company.emails.map((e) => `- ${e.label}: ${e.address}`).join("\n");

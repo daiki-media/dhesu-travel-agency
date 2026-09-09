@@ -4,7 +4,7 @@ import Button from "@/src/components/Button";
 import Link from "next/link";
 import { ChevronDown, Menu, X } from "lucide-react";
 import Image from "next/image";
-import { navLinks, NavLink } from "./NavbarData";
+import { navLinks, NavLink, NavItem } from "./NavbarData";
 
 // ─── Mega-menu (multi-column) ────────────────────────────────────────────────
 function MegaMenu({ link }: { link: NavLink }) {
@@ -128,10 +128,22 @@ function MobileNavItem({
 }
 
 // ─── Navbar ──────────────────────────────────────────────────────────────────
-export default function Navbar() {
+
+/**
+ * `blogArticles` is the Blog dropdown's article list, read from the CMS by the
+ * root layout and passed down. It arrives as a prop rather than being fetched
+ * here because this is a client component and the API key is build-time only.
+ */
+export default function Navbar({ blogArticles = [] }: { blogArticles?: NavItem[] }) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [mobileDropdown, setMobileDropdown] = useState<string | null>(null);
+
+  const links: NavLink[] = navLinks.map((link) =>
+    link.label === "Blog" && blogArticles.length > 0
+      ? { ...link, simple: [...blogArticles, ...(link.simple ?? [])] }
+      : link,
+  );
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -171,7 +183,7 @@ export default function Navbar() {
 
         {/* Desktop nav links */}
         <div className="hidden lg:flex items-center gap-6 px-8 flex-1 justify-center">
-          {navLinks.map((link) => {
+          {links.map((link) => {
             const hasMega = !!link.columns;
             const hasSimple = !!link.simple;
             const hasDropdown = hasMega || hasSimple;
@@ -220,7 +232,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       {mobileOpen && (
         <div className="lg:hidden bg-white border-t border-gray-100 px-5 py-4 shadow-lg max-h-[80vh] overflow-y-auto">
-          {navLinks.map((link) => (
+          {links.map((link) => (
             <MobileNavItem
               key={link.label}
               link={link}

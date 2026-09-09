@@ -21,6 +21,13 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "www.holidayidea.com.my",
       },
+      // Blog featured images. The CMS stores them under its own public/blogs,
+      // so they are served from cms.dhesu.com rather than this repo. The custom
+      // loader passes non-Unsplash remote URLs through untouched.
+      {
+        protocol: "https",
+        hostname: "cms.dhesu.com",
+      },
     ],
   },
   experimental: {

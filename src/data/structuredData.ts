@@ -522,10 +522,10 @@ type BlogPostingOptions = {
 /**
  * BlogPosting for an article page.
  *
- * NOTE: unused at the time of writing — the site has no /blog section (see the
- * note in components/navbar/NavbarData.ts). Kept here so that when posts are
- * added the route only has to call this and emit it alongside webPage() and
- * breadcrumbList(), rather than reinventing the author/publisher wiring.
+ * NOTE: still unused. /blog/[slug] emits a WebPage (plus FAQPage) instead,
+ * because BlogPosting needs a real publication date and the CMS rows carry only
+ * created_at, which is a record-creation timestamp rather than a stated
+ * publication date. Kept here for when the CMS gains a real published_at.
  */
 export function blogPosting({
   path,

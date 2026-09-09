@@ -9,55 +9,12 @@ import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { company } from "@/src/data/company";
 
-export { default as BlogTable } from "./BlogTable";
-
-
 const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: easeOut } },
 };
-
-/** The six articles, in sheet order — the source for the "read next" strip. */
-export const BLOG_ARTICLES = [
-  {
-    slug: "best-time-to-visit-bali-2026",
-    title: "Best Time to Visit Bali",
-    blurb: "Month-by-month weather, crowds and pricing.",
-    image: "/images/blog/best-time-to-visit-bali-2026/uluwatu-coastline.jpg",
-  },
-  {
-    slug: "malaysia-travel-visa-guide-2026",
-    title: "Visa Requirements for Malaysian Travellers",
-    blurb: "Visa-free, e-visa and Schengen, destination by destination.",
-    image: "/images/blog/malaysia-travel-visa-guide-2026/border-flag-ceremony.jpg",
-  },
-  {
-    slug: "budget-family-travel-tips-2026",
-    title: "Budget Travel Tips for Families",
-    blurb: "Getting more from every ringgit on a family holiday.",
-    image: "/images/blog/budget-family-travel-tips-2026/family-banana-boat.jpg",
-  },
-  {
-    slug: "tropical-holiday-packing-guide",
-    title: "Packing Guide for Tropical Destinations",
-    blurb: "The complete checklist, from temple wear to dry bags.",
-    image: "/images/blog/tropical-holiday-packing-guide/tropical-beach-loungers.jpg",
-  },
-  {
-    slug: "halal-travel-guide-malaysia",
-    title: "Halal Travel Guide",
-    blurb: "Ranking destinations by food, prayer and cultural ease.",
-    image: "/images/blog/halal-travel-guide-malaysia/hagia-sophia-aerial.jpg",
-  },
-  {
-    slug: "solo-vs-group-travel-guide",
-    title: "Solo vs. Group Travel",
-    blurb: "Cost, safety, flexibility — which fits your next trip.",
-    image: "/images/blog/solo-vs-group-travel-guide/group-dolphin-cruise.jpg",
-  },
-] as const;
 
 // ─── Primitives ────────────────────────────────────────────────────────────────
 
@@ -93,165 +50,6 @@ export function ArticleSection({
       </h2>
       <div className="space-y-6">{children}</div>
     </motion.section>
-  );
-}
-
-/**
- * Inline link styles, shared by the articles so every draft's own hyperlink
- * reads the same. `LEAD_LINK` is the same underline set for the dark hero the
- * lead paragraph sits on.
- */
-export const ARTICLE_LINK =
-  "underline decoration-primary/40 underline-offset-4 hover:text-primary-dark transition-colors";
-
-export const LEAD_LINK =
-  "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
-
-
-export function P({ children }: { children: React.ReactNode }) {
-  return (
-    <p className="text-[16.5px] md:text-[17px] leading-[1.75] text-gray-700">
-      {children}
-    </p>
-  );
-}
-
-/** Sub-heading inside a section, for a draft's third-level breaks. */
-export function H3({ children }: { children: React.ReactNode }) {
-  return (
-    <h3 className="font-primary font-bold text-teal-navy text-lg md:text-xl leading-snug pt-3">
-      {children}
-    </h3>
-  );
-}
-
-/** Rule-marked list, matching the bullet device used across the new pages. */
-export function Bullets({
-  items,
-}: {
-  items: (string | { label: string; body: string })[];
-}) {
-  return (
-    <ul className="space-y-4">
-      {items.map((item) => {
-        const label = typeof item === "string" ? item : item.label;
-        return (
-          <li key={label} className="flex gap-4">
-            <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
-            <span className="text-[16.5px] leading-[1.7] text-gray-700">
-              {typeof item === "string" ? (
-                item
-              ) : (
-                <>
-                  <span className="font-semibold text-teal-navy">{item.label}</span>{" "}
-                  — {item.body}
-                </>
-              )}
-            </span>
-          </li>
-        );
-      })}
-    </ul>
-  );
-}
-
-/** Tick list, for the drafts' explicit checklists. */
-export function Checklist({ items }: { items: string[] }) {
-  return (
-    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3.5">
-      {items.map((item) => (
-        <li key={item} className="flex gap-3">
-          <svg
-            className="mt-[0.3rem] h-4 w-4 shrink-0 text-primary"
-            viewBox="0 0 20 20"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth={2.4}
-            aria-hidden
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M4 10.5l4 4 8-9" />
-          </svg>
-          <span className="text-[16px] leading-[1.7] text-gray-700">{item}</span>
-        </li>
-      ))}
-    </ul>
-  );
-}
-
-/** Pull-out note on the brand's anchor colour. */
-export function Callout({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="rounded-2xl bg-teal-navy px-6 py-7 md:px-8 md:py-8">
-      <span className="block h-[2px] w-10 bg-primary mb-4" aria-hidden />
-      <p className="font-primary font-bold text-white text-lg md:text-xl leading-snug mb-3">
-        {title}
-      </p>
-      <div className="text-white/80 text-[16px] leading-[1.7] space-y-3">
-        {children}
-      </div>
-    </div>
-  );
-}
-
-/** Photograph in a rounded frame. */
-export function Figure({
-  src,
-  alt,
-  caption,
-  className = "h-60 md:h-[22rem]",
-  sizes = "(max-width: 1024px) 100vw, 720px",
-  priority = false,
-}: {
-  src: string;
-  alt: string;
-  caption?: string;
-  className?: string;
-  sizes?: string;
-  priority?: boolean;
-}) {
-  return (
-    <figure>
-      <div className={`relative overflow-hidden rounded-2xl ${className}`}>
-        <Image
-          src={src}
-          alt={alt}
-          fill
-          className="object-cover"
-          sizes={sizes}
-          priority={priority}
-        />
-      </div>
-      {caption && (
-        <figcaption className="mt-2.5 text-gray-400 text-xs">{caption}</figcaption>
-      )}
-    </figure>
-  );
-}
-
-/** Two photographs side by side, for the wider breaks between arguments. */
-export function FigurePair({
-  items,
-}: {
-  items: { src: string; alt: string }[];
-}) {
-  return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      {items.map((item) => (
-        <Figure
-          key={item.src}
-          src={item.src}
-          alt={item.alt}
-          className="h-48 md:h-64"
-          sizes="(max-width: 640px) 100vw, 360px"
-        />
-      ))}
-    </div>
   );
 }
 
@@ -301,13 +99,10 @@ function Contents({ sections }: { sections: { id: string; label: string }[] }) {
 // ─── Layout ────────────────────────────────────────────────────────────────────
 
 export interface BlogArticleLayoutProps {
-  /** Slug of this article, used to drop it from the "read next" strip. */
-  slug: string;
-  /** Chip above the h1, e.g. "Destination Timing". */
+  /** Chip above the h1, e.g. "Destination Guides". */
   category: string;
   title: string;
-  /** The draft's opening paragraph, shown under the h1. */
-  /** Opening paragraph. Takes nodes so a draft's own in-lead links survive. */
+  /** Opening paragraph. Takes nodes so the article's own in-lead links survive. */
   lead: React.ReactNode;
   heroImage: string;
   heroAlt: string;
@@ -315,15 +110,16 @@ export interface BlogArticleLayoutProps {
   facts?: string[];
   /** Section ids and labels for the on-this-page rail, in document order. */
   sections: { id: string; label: string }[];
-  /** The article body, built from the primitives above. */
+  /** The article body, one ArticleSection per <h2> in the CMS content. */
   children: React.ReactNode;
   faqs: { question: string; answer: string }[];
-  /** The draft's closing block. */
+  /** The closing CTA band. */
   closing: { heading: string; body: string; href: string; linkLabel: string };
+  /** The three "read next" cards, from the CMS list endpoint. */
+  readNext: { slug: string; title: string; blurb: string; image: string }[];
 }
 
 export default function BlogArticleLayout({
-  slug,
   category,
   title,
   lead,
@@ -334,9 +130,9 @@ export default function BlogArticleLayout({
   children,
   faqs,
   closing,
+  readNext,
 }: BlogArticleLayoutProps) {
   const whatsapp = company.whatsapp[0].number;
-  const readNext = BLOG_ARTICLES.filter((article) => article.slug !== slug).slice(0, 3);
 
   // A <div>, not a <main>: the route file already owns the page's <main>, and
   // nesting a second one would leave the document with two main landmarks.

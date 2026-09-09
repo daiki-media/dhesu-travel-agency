@@ -7,13 +7,21 @@ import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import { company } from "@/src/data/company";
 
 /**
- * Index for the six Holiday Idea blog articles.
+ * Index for the blog articles published in the CMS.
  *
- * The cards carry the sheet's own meta title and description, so what a reader
- * sees here is what a search result shows them. The article list itself is
- * declared in BlogArticleLayout — this page adds the longer blurb and the
- * category chip, which only the index needs.
+ * The cards carry each post's own meta description, so what a reader sees here
+ * is what a search result shows them. The list arrives from cms.dhesu.com,
+ * newest first, and is fetched by the route in page.tsx at build time.
  */
+
+export type BlogCard = {
+  href: string;
+  category: string;
+  title: string;
+  blurb: string;
+  image: string;
+  alt: string;
+};
 
 const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -22,70 +30,10 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: easeOut } },
 };
 
-const articles = [
-  {
-    href: "/blog/best-time-to-visit-bali-2026",
-    category: "Destination Timing",
-    title: "Best Time to Visit Bali: A Month-by-Month Guide",
-    blurb:
-      "When's the best time to visit Bali? A month-by-month breakdown of weather, crowds, and pricing to help you plan the perfect trip.",
-    image: "/images/blog/best-time-to-visit-bali-2026/uluwatu-coastline.jpg",
-    alt: "Surf breaking below the cliffs of southern Bali",
-  },
-  {
-    href: "/blog/malaysia-travel-visa-guide-2026",
-    category: "Travel Admin",
-    title:
-      "Visa Requirements for Malaysian Travellers: A Practical Guide by Destination",
-    blurb:
-      "A practical visa guide for Malaysian travellers covering popular destinations — visa-free access, e-visas, and where requirements often change.",
-    image:
-      "/images/blog/malaysia-travel-visa-guide-2026/border-flag-ceremony.jpg",
-    alt: "Guards and national flags at a land border ceremony",
-  },
-  {
-    href: "/blog/budget-family-travel-tips-2026",
-    category: "Family Budget",
-    title: "Budget Travel Tips for Families: Getting More From Every Ringgit",
-    blurb:
-      "Practical budget travel tips for Malaysian families — save on flights, accommodation, and activities without compromising on a great holiday.",
-    image: "/images/blog/budget-family-travel-tips-2026/family-banana-boat.jpg",
-    alt: "Four people laughing on a banana boat ride",
-  },
-  {
-    href: "/blog/tropical-holiday-packing-guide",
-    category: "Packing",
-    title: "Packing Guide for Tropical Destinations: The Complete Checklist",
-    blurb:
-      "A complete packing checklist for tropical destinations like Bali, Thailand, and Vietnam — clothing, essentials, and what to leave at home.",
-    image:
-      "/images/blog/tropical-holiday-packing-guide/tropical-beach-loungers.jpg",
-    alt: "A thatched parasol and loungers on white sand",
-  },
-  {
-    href: "/blog/halal-travel-guide-malaysia",
-    category: "Halal Travel",
-    title: "Halal Travel Guide: Ranking the Best Muslim-Friendly Destinations",
-    blurb:
-      "A practical halal travel guide ranking the best Muslim-friendly destinations by food access, prayer facilities, and overall travel ease.",
-    image: "/images/blog/halal-travel-guide-malaysia/hagia-sophia-aerial.jpg",
-    alt: "Hagia Sophia and its grounds seen from above in Istanbul",
-  },
-  {
-    href: "/blog/solo-vs-group-travel-guide",
-    category: "Travel Styles",
-    title: "Solo vs. Group Travel: Which Suits Your Next Trip?",
-    blurb:
-      "Solo or group travel — which fits your next trip? Compare cost, safety, flexibility, and experience to decide what suits you best.",
-    image:
-      "/images/blog/solo-vs-group-travel-guide/group-dolphin-cruise.jpg",
-    alt: "A boatful of travellers watching a dolphin leap alongside",
-  },
-];
+export default function BlogContent({ articles }: { articles: BlogCard[] }) {
+  const [lead, ...rest] = articles;
+  if (!lead) return null;
 
-const [lead, ...rest] = articles;
-
-export default function BlogContent() {
   return (
     <div className="bg-white">
       {/* ── MASTHEAD ─────────────────────────────────────────────────────

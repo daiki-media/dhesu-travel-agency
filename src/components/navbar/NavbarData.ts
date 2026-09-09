@@ -156,36 +156,13 @@ export const navLinks: NavLink[] = [
     ],
   },
 
-  // Restored: /blog and its six article routes now exist.
-  // Labels here are shortened for menu width — the full SEO titles live in
-  // src/data/pageSeo.ts and are what the pages themselves render.
+  // The article links under Blog are not listed here: they come from the CMS
+  // and are injected at build time by the root layout, which passes them to
+  // <Navbar />. "All Articles" is the only fixed entry.
   {
     label: "Blog",
     href: "/blog",
-    simple: [
-      {
-        label: "Best Time to Visit Bali",
-        href: "/blog/best-time-to-visit-bali-2026/",
-      },
-      {
-        label: "Visa Guide for Malaysians",
-        href: "/blog/malaysia-travel-visa-guide-2026/",
-      },
-      {
-        label: "Budget Family Travel Tips",
-        href: "/blog/budget-family-travel-tips-2026/",
-      },
-      {
-        label: "Tropical Packing Guide",
-        href: "/blog/tropical-holiday-packing-guide/",
-      },
-      { label: "Halal Travel Guide", href: "/blog/halal-travel-guide-malaysia/" },
-      {
-        label: "Solo vs Group Travel",
-        href: "/blog/solo-vs-group-travel-guide/",
-      },
-      { label: "All Articles", href: "/blog/" },
-    ],
+    simple: [{ label: "All Articles", href: "/blog/" }],
   },
 
   {

@@ -3,6 +3,7 @@ import { SITE_URL } from "@/src/data/site";
 import packageDetails from "@/src/data/tourPackages";
 import { tourSlugs } from "@/src/data/tourPages";
 import { landingPagesByDestination } from "@/src/data/destinationDetail";
+import { getBlogList } from "@/src/lib/cms";
 
 const BASE_URL = SITE_URL;
 
@@ -13,7 +14,16 @@ const url = (path: string) => `${BASE_URL}${path.replace(/\/+$/, "")}/`;
 // Statically generated to /sitemap.xml at build time (works with output: "export").
 export const dynamic = "force-static";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // Blog posts come from the CMS, so a post added there reaches the sitemap on
+  // the next build without anyone editing this file.
+  const blogPosts = (await getBlogList()).map((post) => ({
+    url: url(`/blog/${post.slug}`),
+    lastModified: new Date(post.updated_at),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+
   const staticPages = ["", "/tours", "/about-us", "/contact-us"].map((path) => ({
     url: url(path),
     changeFrequency: "weekly" as const,
@@ -33,12 +43,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/year-end-holiday-travel-deals-2026",
     "/raya-holiday-travel-deals-2026",
     "/blog",
-    "/blog/best-time-to-visit-bali-2026",
-    "/blog/malaysia-travel-visa-guide-2026",
-    "/blog/budget-family-travel-tips-2026",
-    "/blog/tropical-holiday-packing-guide",
-    "/blog/halal-travel-guide-malaysia",
-    "/blog/solo-vs-group-travel-guide",
     "/promotions",
     "/custom-itinerary-request",
   ].map((path) => ({
@@ -82,6 +86,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages,
     ...planPages,
+    ...blogPosts,
     ...destinationPages,
     ...landingPages,
     ...packagePages,
