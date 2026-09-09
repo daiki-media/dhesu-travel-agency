@@ -35,8 +35,17 @@ archive.on("error", (err) => {
   throw err;
 });
 
+// finalize() resolving is not enough — it says the archive stopped emitting,
+// not that the 190 MB reached disk. Waiting on the stream instead; exiting
+// early truncates the zip past its central directory and it will not open.
+const written = new Promise((resolve, reject) => {
+  output.on("close", resolve);
+  output.on("error", reject);
+});
+
 archive.pipe(output);
 // Zip the *contents* of out/, not the folder itself, so extracting on the
 // server drops index.html straight into the web root.
 archive.directory(outDir, false);
-await archive.finalize();
+archive.finalize();
+await written;

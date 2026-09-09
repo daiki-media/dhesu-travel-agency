@@ -10,6 +10,9 @@
  * than quietly ship an empty /blog and drop six indexed pages off the site.
  */
 
+/** `next dev`. Never true during `next build`, which runs in production mode. */
+const DEV = process.env.NODE_ENV === "development";
+
 const CMS_ORIGIN = "https://cms.dhesu.com";
 const API_BASE = `${CMS_ORIGIN}/api`;
 
@@ -67,11 +70,12 @@ async function getJson<T>(path: string): Promise<T> {
   try {
     response = await fetch(url, {
       headers: { "X-API-Key": key, Accept: "application/json" },
-      // force-cache is required: an uncached fetch makes every route that
-      // reaches this bail out of static generation under output: "export".
-      // scripts/clear-cms-cache.mjs drops the entries before each build so a
-      // rebuild cannot serve last build's post list.
-      cache: "force-cache",
+      // Build: force-cache is required, or an uncached fetch makes every
+      // route that reaches this bail out of static generation under
+      // output: "export". scripts/clear-cms-cache.mjs drops the entries
+      // beforehand so a rebuild cannot serve last build's post list.
+      // Dev: nothing is prerendered, so skip the cache and always ask the CMS.
+      cache: DEV ? "no-store" : "force-cache",
     });
   } catch (cause) {
     throw new Error(`CMS request failed: ${url} could not be reached.`, { cause });
@@ -90,14 +94,8 @@ async function getJson<T>(path: string): Promise<T> {
   return (await response.json()) as T;
 }
 
-// One list fetch per build process, reused by the index, every article page and
-// the sitemap. The API allows 60 requests a minute; calling it once per page
-// would start eating into that as the post count grows.
-let listPromise: Promise<BlogSummary[]> | null = null;
-
-/** Every published post, newest first. Excludes `content`. */
-export function getBlogList(): Promise<BlogSummary[]> {
-  listPromise ??= getJson<BlogSummary[]>("/blogs").then((posts) => {
+function fetchBlogList(): Promise<BlogSummary[]> {
+  return getJson<BlogSummary[]>("/blogs").then((posts) => {
     if (!Array.isArray(posts) || posts.length === 0) {
       throw new Error(
         "CMS returned no published blog posts. Refusing to build an empty " +
@@ -106,6 +104,19 @@ export function getBlogList(): Promise<BlogSummary[]> {
     }
     return posts;
   });
+}
+
+// One list fetch per build process, reused by the index, every article page and
+// the sitemap. The API allows 60 requests a minute; calling it once per page
+// would start eating into that as the post count grows.
+let listPromise: Promise<BlogSummary[]> | null = null;
+
+/** Every published post, newest first. Excludes `content`. */
+export function getBlogList(): Promise<BlogSummary[]> {
+  // The dev server is one long-lived process, so memoizing would pin the list
+  // to whatever the CMS held when it started. Refetch instead.
+  if (DEV) return fetchBlogList();
+  listPromise ??= fetchBlogList();
   return listPromise;
 }
 
