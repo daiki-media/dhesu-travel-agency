@@ -4,6 +4,7 @@ import packageDetails from "@/src/data/tourPackages";
 import { tourSlugs } from "@/src/data/tourPages";
 import { landingPagesByDestination } from "@/src/data/destinationDetail";
 import { getBlogList } from "@/src/lib/cms";
+import { getBlogIndexPageCount } from "@/src/lib/blog-index";
 
 const BASE_URL = SITE_URL;
 
@@ -23,6 +24,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     changeFrequency: "weekly" as const,
     priority: 0.7,
   }));
+
+  // /blog is listed with the plan pages; these are its numbered pages.
+  const blogIndexPages = Array.from(
+    { length: (await getBlogIndexPageCount()) - 1 },
+    (_, i) => ({
+      url: url(`/blog/page/${i + 2}`),
+      changeFrequency: "weekly" as const,
+      priority: 0.4,
+    }),
+  );
 
   const staticPages = ["", "/tours", "/about-us", "/contact-us"].map((path) => ({
     url: url(path),
@@ -87,6 +98,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...staticPages,
     ...planPages,
     ...blogPosts,
+    ...blogIndexPages,
     ...destinationPages,
     ...landingPages,
     ...packagePages,

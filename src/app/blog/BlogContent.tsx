@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
+import BlogPagination from "@/src/components/blog/BlogPagination";
 import { company } from "@/src/data/company";
 
 /**
@@ -30,9 +31,18 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: easeOut } },
 };
 
-export default function BlogContent({ articles }: { articles: BlogCard[] }) {
-  const [lead, ...rest] = articles;
-  if (!lead) return null;
+export default function BlogContent({
+  lead,
+  cards,
+  page,
+  totalPages,
+}: {
+  lead: BlogCard | null;
+  cards: BlogCard[];
+  page: number;
+  totalPages: number;
+}) {
+  if (!lead && cards.length === 0) return null;
 
   return (
     <div className="bg-white">
@@ -60,6 +70,7 @@ export default function BlogContent({ articles }: { articles: BlogCard[] }) {
       </section>
 
       {/* ── LEAD ARTICLE ─────────────────────────────────────────────────── */}
+      {lead && (
       <section className="py-10 lg:py-12">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <motion.div
@@ -99,13 +110,14 @@ export default function BlogContent({ articles }: { articles: BlogCard[] }) {
           </motion.div>
         </div>
       </section>
+      )}
 
       {/* ── THE REST ─────────────────────────────────────────────────────── */}
-      <section className="pb-12 lg:pb-16">
+      <section className={`pb-12 lg:pb-16 ${lead ? "" : "pt-10 lg:pt-12"}`}>
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <SectionLabel text="All Articles" />
           <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
-            {rest.map((article, i) => (
+            {cards.map((article, i) => (
               <motion.li
                 key={article.href}
                 initial="hidden"
@@ -120,6 +132,7 @@ export default function BlogContent({ articles }: { articles: BlogCard[] }) {
                       src={article.image}
                       alt={article.alt}
                       fill
+                      priority={!lead && i === 0}
                       className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 380px"
                     />
@@ -140,6 +153,8 @@ export default function BlogContent({ articles }: { articles: BlogCard[] }) {
               </motion.li>
             ))}
           </ul>
+
+          <BlogPagination page={page} totalPages={totalPages} />
         </div>
       </section>
     </div>
