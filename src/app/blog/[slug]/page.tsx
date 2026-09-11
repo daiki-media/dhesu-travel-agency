@@ -11,6 +11,7 @@ import {
 import { parseArticle } from "@/src/lib/blog-content";
 import { optimizeContentImages } from "@/src/lib/cms-images";
 import {
+  blogPosting,
   breadcrumbList,
   faqQuestions,
   graph,
@@ -79,17 +80,32 @@ export default async function BlogArticlePage({
   const content = optimizeContentImages(post.content);
   const article = parseArticle(content);
   const path = `/blog/${post.slug}`;
+  const hero = heroFor({ ...post, content });
+  // read_time lives on the list rows only, not on the detail response.
+  const readTime = posts.find((entry) => entry.slug === post.slug)?.read_time;
 
-  // A plain WebPage rather than BlogPosting, as before: the FAQ markup is safe
-  // because the same questions and answers are rendered in the accordion below.
+  // The FAQ markup is safe because the same questions and answers are rendered
+  // in the accordion below.
   const articleJsonLd = graph([
     webPage({
       path,
       name: post.meta_title ?? post.title,
       description: post.meta_description ?? undefined,
       type: article.faqs.length > 0 ? ["WebPage", "FAQPage"] : "WebPage",
+      image: hero,
       hasBreadcrumb: true,
       ...(article.faqs.length > 0 ? { mainEntity: faqQuestions(article.faqs) } : {}),
+    }),
+    blogPosting({
+      path,
+      headline: post.title,
+      description: post.meta_description ?? undefined,
+      image: hero,
+      authorName: post.author,
+      section: post.category,
+      datePublished: post.created_at,
+      dateModified: post.updated_at,
+      readMinutes: readTime,
     }),
     breadcrumbList(path, [
       { name: "Home", url: "/" },
@@ -104,9 +120,9 @@ export default async function BlogArticlePage({
       <CmsArticle
         title={post.title}
         category={post.category}
-        heroImage={heroFor({ ...post, content })}
+        heroImage={hero}
         heroAlt={post.featuredImageAlt ?? ""}
-        readTime={post.read_time}
+        readTime={readTime}
         article={article}
         readNext={readNextFrom(posts, post.slug)}
       />

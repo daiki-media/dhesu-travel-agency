@@ -375,9 +375,9 @@ html[data-reveal="on"] [data-reveal="right"] {
 }
 
 .blog-html a {
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--color-primary) 40%, transparent);
-  text-underline-offset: 4px;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
@@ -548,9 +548,9 @@ html[data-reveal="on"] [data-reveal="right"] {
   font-weight: inherit;
 }
 
+/* Red on the red pull-quote would vanish, so these stay light. */
 .blog-html blockquote a {
   color: #fff;
-  text-decoration-color: var(--color-primary);
 }
 
 .blog-html blockquote a:hover {
@@ -665,9 +665,10 @@ html[data-reveal="on"] [data-reveal="right"] {
   }
 }
 
-/* The hero intro sits on the dark band, so its links take the light treatment. */
+/* The hero intro sits over the photo, so its links keep the light treatment and
+   the underline — red would not hold contrast, and white alone reads as prose. */
 .blog-lead a {
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
   text-decoration: underline;
   text-decoration-color: var(--color-primary);

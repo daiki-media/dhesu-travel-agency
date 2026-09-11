@@ -510,22 +510,40 @@ type BlogPostingOptions = {
   path: string;
   headline: string;
   description?: string;
-  /** Site-relative path of the featured image. */
+  /** Absolute or site-relative URL of the featured image. */
   image: string;
-  /** Author name as credited by the post's byline. */
-  authorName: string;
-  /** ISO-8601 date, e.g. "2026-03-14". */
+  /** Author name as credited by the CMS row. */
+  authorName?: string | null;
+  /** Category the post is filed under. */
+  section?: string | null;
+  /** Timestamp from the CMS, e.g. "2026-09-03T06:46:58.000000Z". */
   datePublished: string;
-  dateModified?: string;
+  dateModified?: string | null;
+  /** Reading time in minutes, as shown under the hero. */
+  readMinutes?: number | null;
 };
+
+/**
+ * Trims the sub-second precision Laravel serialises, which schema.org
+ * consumers accept but nothing benefits from.
+ */
+function isoTimestamp(value: string): string {
+  return value.replace(/\.\d+(?=Z|[+-]\d{2}:?\d{2}$)/, "");
+}
+
+/** Bylines like "Dhesu Editorial Team" are a group, not a person. */
+const GROUP_BYLINE = /\b(team|editorial|staff|desk|editors)\b/i;
+
+function authorNode(name: string) {
+  return { "@type": GROUP_BYLINE.test(name) ? "Organization" : "Person", name };
+}
 
 /**
  * BlogPosting for an article page.
  *
- * NOTE: still unused. /blog/[slug] emits a WebPage (plus FAQPage) instead,
- * because BlogPosting needs a real publication date and the CMS rows carry only
- * created_at, which is a record-creation timestamp rather than a stated
- * publication date. Kept here for when the CMS gains a real published_at.
+ * `datePublished` comes from the CMS row's created_at: posts are created in the
+ * CMS when they are written, so it is the closest thing to a stated publication
+ * date the API offers. Swap it for a real published_at if the CMS gains one.
  */
 export function blogPosting({
   path,
@@ -533,8 +551,10 @@ export function blogPosting({
   description,
   image,
   authorName,
+  section,
   datePublished,
   dateModified,
+  readMinutes,
 }: BlogPostingOptions) {
   return {
     "@type": "BlogPosting",
@@ -542,10 +562,18 @@ export function blogPosting({
     headline,
     ...(description ? { description } : {}),
     image,
-    author: { "@type": "Person", name: authorName },
+    url: path,
+    // Falls back to the agency itself when the CMS credits no one, rather than
+    // emitting an Article with no author at all.
+    author: authorName ? authorNode(authorName) : orgRef,
     publisher: orgRef,
-    datePublished,
-    dateModified: dateModified ?? datePublished,
+    datePublished: isoTimestamp(datePublished),
+    dateModified: isoTimestamp(dateModified || datePublished),
+    ...(section ? { articleSection: section } : {}),
+    ...(readMinutes
+      ? { timeRequired: `PT${Math.round(readMinutes)}M` }
+      : {}),
+    isPartOf: { "@id": WEBSITE_ID },
     inLanguage: "en",
     mainEntityOfPage: { "@id": nodeId(path, "webpage") },
   };

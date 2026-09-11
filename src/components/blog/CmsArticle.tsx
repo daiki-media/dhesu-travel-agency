@@ -25,7 +25,7 @@ export type CmsArticleProps = {
   category: string;
   heroImage: string;
   heroAlt: string;
-  readTime: number;
+  readTime?: number;
   article: ParsedArticle;
   readNext: { slug: string; title: string; blurb: string; image: string }[];
 };
@@ -48,7 +48,7 @@ export default function CmsArticle({
       }
       heroImage={heroImage}
       heroAlt={heroAlt}
-      facts={[category, `${readTime} min read`]}
+      facts={readTime ? [category, `${readTime} min read`] : [category]}
       sections={article.sections.map(({ id, navLabel }) => ({ id, label: navLabel }))}
       faqs={article.faqs}
       closing={article.cta ?? FALLBACK_CTA}
