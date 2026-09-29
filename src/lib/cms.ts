@@ -60,6 +60,11 @@ function apiKey(): string {
   return key;
 }
 
+const MAX_ATTEMPTS = 5;
+const RETRY_DELAY_MS = 2000;
+
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
 async function getJson<T>(path: string): Promise<T> {
   const url = `${API_BASE}${path}`;
   // Read the key outside the try: a missing key is a configuration error and
@@ -67,18 +72,30 @@ async function getJson<T>(path: string): Promise<T> {
   const key = apiKey();
 
   let response: Response;
-  try {
-    response = await fetch(url, {
-      headers: { "X-API-Key": key, Accept: "application/json" },
-      // Build: force-cache is required, or an uncached fetch makes every
-      // route that reaches this bail out of static generation under
-      // output: "export". scripts/clear-cms-cache.mjs drops the entries
-      // beforehand so a rebuild cannot serve last build's post list.
-      // Dev: nothing is prerendered, so skip the cache and always ask the CMS.
-      cache: DEV ? "no-store" : "force-cache",
-    });
-  } catch (cause) {
-    throw new Error(`CMS request failed: ${url} could not be reached.`, { cause });
+  for (let attempt = 1; ; attempt++) {
+    try {
+      response = await fetch(url, {
+        headers: { "X-API-Key": key, Accept: "application/json" },
+        // Build: force-cache is required, or an uncached fetch makes every
+        // route that reaches this bail out of static generation under
+        // output: "export". scripts/clear-cms-cache.mjs drops the entries
+        // beforehand so a rebuild cannot serve last build's post list.
+        // Dev: nothing is prerendered, so skip the cache and always ask the CMS.
+        cache: DEV ? "no-store" : "force-cache",
+      });
+    } catch (cause) {
+      if (attempt < MAX_ATTEMPTS) {
+        await sleep(RETRY_DELAY_MS * attempt);
+        continue;
+      }
+      throw new Error(`CMS request failed: ${url} could not be reached.`, { cause });
+    }
+
+    // The CMS sits on shared hosting whose database refuses connections when
+    // the build requests many posts at once, which surfaces as a 500.
+    const transient = response.status >= 500 || response.status === 429;
+    if (!transient || attempt >= MAX_ATTEMPTS) break;
+    await sleep(RETRY_DELAY_MS * attempt);
   }
 
   if (!response.ok) {
