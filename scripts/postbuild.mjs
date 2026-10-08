@@ -8,10 +8,11 @@
  *      payload fixes it on any static host, with no rewrite rules.
  *
  *   2. pruneExport — `next build` copies all of `public/` into `out/`, but
- *      nothing links to `/images/**` any more: every reference goes through the
- *      WebP variants in `/_img/**` (via src/lib/image-loader.ts, and index.css
- *      for the background pattern). Drops the originals, then any generated
- *      variant no emitted page actually references.
+ *      pages render through the WebP variants in `/_img/**` (via
+ *      src/lib/image-loader.ts, and index.css for the background pattern). Drops
+ *      the originals — except those that `<meta>` tags (og:image, twitter:image)
+ *      and JSON-LD still point at, since crawlers fetch those URLs as written —
+ *      then any generated variant no emitted page actually references.
  *
  * Order matters: the prune pass decides what to keep by scanning the emitted
  * files, so the aliases must exist before it runs.
@@ -71,6 +72,22 @@ async function aliasPrefetchPayloads(dir, stats) {
 
 // ── 2. Prune ─────────────────────────────────────────────────────────────────
 
+const ORIGINAL_URL = /(?:https?:\/\/[^/"'\\]+)?(\/images\/[A-Za-z0-9_@%./-]+?\.(?:jpe?g|png))/gi;
+const META_OR_LD =
+  /<meta\b[^>]*>|<script\b[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi;
+
+/** `/images/...` originals that og/twitter tags or JSON-LD link to. */
+export async function originalsReferencedByMetadata(htmlFiles) {
+  const refs = new Set();
+  for (const file of htmlFiles) {
+    const text = await fs.readFile(file, "utf8");
+    for (const block of text.match(META_OR_LD) ?? []) {
+      for (const m of block.matchAll(ORIGINAL_URL)) refs.add(decodeURIComponent(m[1]));
+    }
+  }
+  return refs;
+}
+
 async function pruneExport() {
   if (!(await exists(IMAGES))) return;
   if (!(await exists(OPTIMIZED))) {
@@ -81,18 +98,22 @@ async function pruneExport() {
   let removed = 0;
   let bytes = 0;
 
-  // Originals whose optimized twin actually shipped.
+  const html = (await walk(OUT)).filter((f) => f.endsWith(".html"));
+  const keep = await originalsReferencedByMetadata(html);
+
+  // Originals whose optimized twin actually shipped, unless metadata links to them.
   for (const file of await walk(IMAGES)) {
     if (!RASTER.has(path.extname(file).toLowerCase())) continue;
     const rel = path.relative(IMAGES, file);
     const stem = rel.slice(0, -path.extname(rel).length);
     if (!(await exists(path.join(OPTIMIZED, stem)))) continue;
+    if (keep.has("/images/" + rel.split(path.sep).join("/"))) continue;
     bytes += (await fs.stat(file)).size;
     await fs.rm(file);
     removed++;
   }
   await pruneEmptyDirs(IMAGES);
-  console.log(`[postbuild] removed ${removed} unreferenced originals (${MB(bytes)} MB).`);
+  console.log(`[postbuild] removed ${removed} unreferenced originals (${MB(bytes)} MB); ${keep.size} kept for metadata.`);
 
   // Generated variants nothing links to.
   const referenced = new Set();
