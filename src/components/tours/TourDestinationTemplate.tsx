@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Button from "@/src/components/Button";
 import ArrowRight from "@/src/components/icons/ArrowRight";
+import FaqSection from "@/src/components/FaqSection";
 import type {
   TourPageData,
   TourPackage,
@@ -250,7 +251,7 @@ export default function TourDestinationTemplate({
 }: {
   data: TourPageData;
 }) {
-  const { meta, hero, why, zones, bestTime, tripLength, packages, whyBook, cta } = data;
+  const { meta, hero, why, zones, bestTime, tripLength, packages, whyBook, cta, faq } = data;
 
   return (
     <main className="bg-white overflow-x-hidden">
@@ -279,6 +280,21 @@ export default function TourDestinationTemplate({
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-16 w-full">
           <div className="max-w-3xl">
+            {/* Breadcrumb — the same trail the page's BreadcrumbList markup describes */}
+            <motion.nav
+              aria-label="Breadcrumb"
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="flex items-center gap-2 text-white/70 text-sm mb-5 font-primary"
+            >
+              <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              <span>/</span>
+              <Link href="/tours" className="hover:text-white transition-colors">Tours</Link>
+              <span>/</span>
+              <span className="text-white">{meta.name}</span>
+            </motion.nav>
+
             {/* Badge */}
             <motion.div
               initial={{ opacity: 0, y: 16 }}
@@ -645,6 +661,16 @@ export default function TourDestinationTemplate({
           </div>
         </div>
       </section>
+
+      {/* ── FAQ — only when the hub's JSON carries approved questions ────────── */}
+      {faq && faq.items.length > 0 && (
+        <FaqSection
+          faqs={faq.items}
+          label={faq.sectionLabel ?? "Questions"}
+          heading={faq.heading ?? `${meta.name} travel questions, answered`}
+          className="bg-white border-t border-gray-100"
+        />
+      )}
 
       {/* ── CTA BANNER ────────────────────────────────────────────────────────── */}
       <section className="relative py-12 lg:py-16 overflow-hidden">

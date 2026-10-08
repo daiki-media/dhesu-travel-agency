@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Button from "@/src/components/Button";
+import FaqSection, { type Faq } from "@/src/components/FaqSection";
 import { PackageCard, SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import type { TourPackage, TourPageData } from "@/src/data/tourPages/types";
 
@@ -30,6 +31,11 @@ export interface TourRegionTemplateProps {
   destination?: string;
   /** Display name of the parent destination, e.g. "India", "Bhutan". Defaults to "India". */
   destinationLabel?: string;
+  /**
+   * Questions rendered above the CTA. The route emits FAQPage markup for the
+   * same list, so the two can never disagree about what is on the page.
+   */
+  faqs?: Faq[];
 }
 
 // ─── Region / Theme Listing Template ────────────────────────────────────────────
@@ -42,6 +48,7 @@ export default function TourRegionTemplate({
   cta,
   destination = "india",
   destinationLabel = "India",
+  faqs = [],
 }: TourRegionTemplateProps) {
   return (
     <main className="bg-white overflow-x-hidden">
@@ -75,6 +82,8 @@ export default function TourRegionTemplate({
             className="flex items-center gap-2 text-white/70 text-sm mb-5 font-primary"
           >
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span>/</span>
+            <Link href="/tours" className="hover:text-white transition-colors">Tours</Link>
             <span>/</span>
             <Link href={`/tours/${destination}`} className="hover:text-white transition-colors">{destinationLabel}</Link>
             <span>/</span>
@@ -139,6 +148,15 @@ export default function TourRegionTemplate({
           </div>
         </div>
       </section>
+
+      {/* ── FAQ — only when approved questions exist for this page ──────────── */}
+      {faqs.length > 0 && (
+        <FaqSection
+          faqs={faqs}
+          heading={`${label} travel questions, answered`}
+          className="bg-white border-t border-gray-100"
+        />
+      )}
 
       {/* ── CTA BANNER ────────────────────────────────────────────────────────── */}
       <section className="relative py-12 lg:py-16 overflow-hidden">

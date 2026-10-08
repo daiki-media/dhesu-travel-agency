@@ -6,6 +6,7 @@ import { getTourPage, tourSlugs, type TourPageData } from "@/src/data/tourPages"
 import { guidePackageItems } from "@/src/data/destinationDetail";
 import {
   breadcrumbList,
+  faqQuestions,
   graph,
   nodeId,
   packageItemList,
@@ -59,16 +60,21 @@ function destinationJsonLd(data: TourPageData) {
     .filter((pkg) => pkg.slug)
     .map((pkg) => ({ name: pkg.name, url: `${path}/${pkg.slug}` }));
 
+  // The hub renders its FAQ accordion from the same list (TourDestinationTemplate),
+  // so the FAQPage markup only ever describes questions that are on the page.
+  const faqs = data.faq?.items ?? [];
+
   return graph([
     webPage({
       path,
       name: data.meta.title,
       description: data.meta.description,
-      type: "CollectionPage",
+      type: faqs.length > 0 ? ["CollectionPage", "FAQPage"] : "CollectionPage",
       image: data.hero.bgImage,
       hasBreadcrumb: true,
       about: { "@id": nodeId(path, "destination") },
-      mainEntity: { "@id": nodeId(path, "packages") },
+      mainEntity:
+        faqs.length > 0 ? faqQuestions(faqs) : { "@id": nodeId(path, "packages") },
     }),
     breadcrumbList(path, [
       { name: "Home", url: "/" },

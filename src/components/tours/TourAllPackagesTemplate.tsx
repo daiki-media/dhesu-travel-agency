@@ -56,6 +56,8 @@ export default function TourAllPackagesTemplate({ data }: { data: TourPageData }
           >
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
+            <Link href="/tours" className="hover:text-white transition-colors">Tours</Link>
+            <span>/</span>
             <Link href={`/tours/${meta.slug}`} className="hover:text-white transition-colors">
               {meta.name}
             </Link>

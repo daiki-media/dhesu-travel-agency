@@ -9,6 +9,30 @@ DirectoryIndex index.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # ===========================================================================
+  # CANONICAL ORIGIN (8 Oct 2026, developer sprint 2)
+  # http://dhesu.com, https://www.dhesu.com and http://www.dhesu.com all
+  # answered 200 with the same pages, so every URL existed at four origins.
+  # The canonical tags already name https://dhesu.com (src/data/site.ts); this
+  # makes the server agree with a single 301. Scoped to the dhesu.com hosts so
+  # a preview domain served from the same export is left alone.
+  # ===========================================================================
+  RewriteCond %{HTTP_HOST} ^(www\.)?dhesu\.com$ [NC]
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteRule ^ https://dhesu.com%{REQUEST_URI} [R=301,L]
+
+  # /<page>/index.html served the same document as /<page>/ (checked live on
+  # /index.html and /tours/india/index.html). Send the explicit filename back
+  # to the folder URL every canonical tag names. THE_REQUEST, not REQUEST_URI,
+  # so the internal rewrite to index.html below does not loop.
+  RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?]
+  RewriteRule ^(.*/)?index\.html$ /$1 [R=301,L]
+
+  # Legacy URLs. Mirrors redirects.ts, which `output: "export"` cannot apply:
+  # /contact was answering 404 on the live site.
+  RewriteRule ^contact/?$ /contact-us/ [R=301,L]
+
   # If a request maps to a real file, serve it as-is.
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d

@@ -263,6 +263,9 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
             cta={hub.cta}
             destination={destination}
             destinationLabel={hub.meta.name}
+            // Same list landingPageJsonLd() marks up, so the FAQPage markup
+            // and the accordion can never describe different questions.
+            faqs={getGuideFaqs(destination, packageSlug[0])}
           />
         </>
       );

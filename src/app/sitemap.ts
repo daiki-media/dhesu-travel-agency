@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/src/data/site";
 import packageDetails from "@/src/data/tourPackages";
-import { tourSlugs } from "@/src/data/tourPages";
+import { tourPages, tourSlugs } from "@/src/data/tourPages";
 import { landingPagesByDestination } from "@/src/data/destinationDetail";
 import { getBlogList } from "@/src/lib/cms";
 import { getBlogIndexPageCount } from "@/src/lib/blog-index";
@@ -68,11 +68,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "weekly" as const,
       priority: 0.8,
     },
-    {
-      url: url(`/tours/${slug}/all-packages`),
-      changeFrequency: "weekly" as const,
-      priority: 0.6,
-    },
+    // A hub whose itineraries are still being written (China, Hong Kong, …)
+    // has nothing to list on /all-packages beyond the guide card the hub
+    // already shows. The page still exists; it is just not offered to crawlers
+    // as a listing until there are packages to list.
+    ...(tourPages[slug].packages.items.length > 0
+      ? [
+          {
+            url: url(`/tours/${slug}/all-packages`),
+            changeFrequency: "weekly" as const,
+            priority: 0.6,
+          },
+        ]
+      : []),
   ]);
 
   // Read from the registry the catch-all route resolves against, rather than a

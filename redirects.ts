@@ -1,4 +1,6 @@
 // Not applied by `output: "export"` — only `next dev` and a real Next server.
+// On the static host the same redirects live in public/.htaccess (RewriteRule
+// lines under "Legacy URLs"); add new entries in both places.
 
 export interface Redirect {
   source: string;

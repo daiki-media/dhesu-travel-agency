@@ -84,6 +84,11 @@ export interface TourPackage {
   popular?: boolean;
 }
 
+export interface TourFaq {
+  question: string;
+  answer: string;
+}
+
 export interface TrustPoint {
   icon: "shield" | "clock" | "map" | "tag";
   title: string;
@@ -150,6 +155,16 @@ export interface TourPageData {
     heading: string;
     body: string;
     points: TrustPoint[];
+  };
+  /**
+   * Optional. Rendered as the FAQ accordion above the CTA banner, and emitted
+   * as FAQPage markup by the route — so only add questions that should be
+   * visible on the page. Absent on hubs whose FAQ copy has not been approved.
+   */
+  faq?: {
+    sectionLabel?: string;
+    heading?: string;
+    items: TourFaq[];
   };
   cta: {
     heading: string;
