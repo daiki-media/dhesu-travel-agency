@@ -33,6 +33,13 @@ DirectoryIndex index.html
   # /contact was answering 404 on the live site.
   RewriteRule ^contact/?$ /contact-us/ [R=301,L]
 
+  # /api/, /images/ and /_next/ answered with a public file listing. A folder
+  # without its own index.html is refused instead (mod_rewrite, because the
+  # host may not allow `Options -Indexes` here).
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html !-f
+  RewriteRule ^ - [F]
+
   # If a request maps to a real file, serve it as-is.
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
@@ -76,6 +83,16 @@ DirectoryIndex index.html
 # HTML stays revalidated so a redeploy is picked up immediately.
 # =============================================================================
 <IfModule mod_headers.c>
+  # Security headers (securityheaders.com graded the site F on 15 Oct 2026).
+  # The CSP deliberately does not restrict scripts: GTM injects tags at
+  # runtime, and a script allowlist would silently break tracking.
+  Header always set Strict-Transport-Security "max-age=31536000"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+  Header always set Content-Security-Policy "frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests"
+
   <FilesMatch "\.(webp|avif|jpe?g|png|gif|svg|ico|woff2?|ttf|otf|eot)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>

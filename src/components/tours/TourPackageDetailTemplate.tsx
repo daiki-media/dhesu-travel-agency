@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Button from "@/src/components/Button";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
+import { sendEnquiry } from "@/src/lib/send-enquiry";
 
 // ─── Types ─────────────────────────────────────────────────────────────────────
 
@@ -188,6 +189,12 @@ export function InquiryForm({ packageName, whatsapp }: { packageName: string; wh
   });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [honeypot, setHoneypot] = useState("");
+  const shownAt = useRef(0);
+  useEffect(() => {
+    shownAt.current = Date.now();
+  }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setForm(prev => ({ ...prev, [e.target.name]: e.target.value }));
@@ -210,14 +217,31 @@ export function InquiryForm({ packageName, whatsapp }: { packageName: string; wh
     return encodeURIComponent(lines);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.name || !form.phone) return;
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-    }, 600);
+    setError("");
+    const result = await sendEnquiry({
+      form: "package",
+      name: form.name,
+      email: form.email,
+      phone: form.phone,
+      topic: packageName,
+      details: {
+        "Travel date": form.travelDate || "TBC",
+        Adults: form.adults,
+        "Children (with bed)": form.childWithBed,
+        "Children (no bed)": form.childNoBed,
+        "Hotel preference": form.hotelTier,
+        Message: form.message,
+      },
+      website: honeypot,
+      elapsed: Date.now() - shownAt.current,
+    });
+    setLoading(false);
+    if (result.ok) setSubmitted(true);
+    else setError(result.error || "We could not send your enquiry right now.");
   };
 
   const handleWhatsApp = () => {
@@ -373,6 +397,23 @@ export function InquiryForm({ packageName, whatsapp }: { packageName: string; wh
         >
           {loading ? "Sending..." : "Send Enquiry"}
         </button>
+
+        <input
+          type="text"
+          name="website"
+          value={honeypot}
+          onChange={e => setHoneypot(e.target.value)}
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          className="hidden"
+        />
+
+        {error && (
+          <p role="alert" className="text-sm text-red-700 bg-red-50 rounded-xl px-4 py-3">
+            {error} Please try WhatsApp below.
+          </p>
+        )}
 
         {/* WhatsApp shortcut */}
         <button

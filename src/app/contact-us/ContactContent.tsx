@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Clock3, MessageCircle } from "lucide-react";
@@ -11,6 +11,7 @@ import AllPagesHero from "@/src/components/AllPagesHero";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
 import { company } from "@/src/data/company";
+import { sendEnquiry } from "@/src/lib/send-enquiry";
 
 const easeOut: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -103,9 +104,15 @@ export default function ContactContent({
     departure: "",
     message: "",
   });
-
-  // The site is a static export with no backend, so the enquiry is handed off
-  // to WhatsApp (or the visitor's mail client) as a pre-filled message.
+  const [honeypot, setHoneypot] = useState("");
+  const shownAt = useRef(0);
+  useEffect(() => {
+    shownAt.current = Date.now();
+  }, []);
+  const [emailStatus, setEmailStatus] = useState<{
+    state: "idle" | "sending" | "sent" | "error";
+    message?: string;
+  }>({ state: "idle" });
   function buildEnquiry() {
     const lines = [
       "New enquiry from dhesu.com",
@@ -130,11 +137,30 @@ export default function ContactContent({
     window.open(url, "_blank", "noopener,noreferrer");
   }
 
-  function sendEmail() {
-    const subject = `Holiday enquiry${form.destination ? ` — ${form.destination}` : ""}`;
-    window.location.href = `mailto:${company.emails[1].address}?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(buildEnquiry())}`;
+  async function sendEmail(e: React.MouseEvent<HTMLButtonElement>) {
+    const formEl = e.currentTarget.form;
+    if (formEl && !formEl.reportValidity()) return;
+    setEmailStatus({ state: "sending" });
+    const result = await sendEnquiry({
+      form: "contact",
+      name: form.name,
+      email: form.email,
+      phone: form.phone,
+      topic: form.destination,
+      details: {
+        Travellers: form.travellers,
+        "Departure date": form.departure,
+        Message: form.message,
+      },
+      website: honeypot,
+      elapsed: Date.now() - shownAt.current,
+    });
+    if (result.ok) {
+      setEmailStatus({ state: "sent" });
+      setForm({ name: "", email: "", phone: "", destination: "", travellers: "", departure: "", message: "" });
+    } else {
+      setEmailStatus({ state: "error", message: result.error });
+    }
   }
 
   const update =
@@ -462,7 +488,7 @@ export default function ContactContent({
                 Request a free quote
               </h2>
               <p className="text-gray-500 mb-8">
-                Fill this in and send it straight to our team on WhatsApp, or use email instead.
+                Fill this in and send it straight to our team by email, or on WhatsApp.
               </p>
 
               <form onSubmit={sendWhatsApp} className="space-y-5">
@@ -582,10 +608,38 @@ export default function ContactContent({
                     variant="dark"
                     size="lg"
                     onClick={sendEmail}
+                    disabled={emailStatus.state === "sending"}
                   >
-                    Send via Email
+                    {emailStatus.state === "sending" ? "Sending…" : "Send via Email"}
                   </Button>
                 </div>
+
+                <input
+                  type="text"
+                  name="website"
+                  value={honeypot}
+                  onChange={(e) => setHoneypot(e.target.value)}
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  className="hidden"
+                />
+
+                {emailStatus.state === "sent" && (
+                  <p role="status" className="text-sm text-green-700 bg-green-50 rounded-xl px-4 py-3">
+                    Thank you — your enquiry has been sent. Our team will reply within one working day.
+                  </p>
+                )}
+                {emailStatus.state === "error" && (
+                  <p role="alert" className="text-sm text-red-700 bg-red-50 rounded-xl px-4 py-3">
+                    {emailStatus.message || "We could not send your enquiry right now."} Please try
+                    WhatsApp or email us at{" "}
+                    <a href={`mailto:${company.emails[1].address}`} className="underline">
+                      {company.emails[1].address}
+                    </a>
+                    .
+                  </p>
+                )}
               </form>
             </motion.div>
 
