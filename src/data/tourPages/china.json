@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "China",
-    "title": "China Tour Package from Malaysia | Dhesu Travel & Tours",
-    "description": "Beijing, Shanghai, Xi'an and the Great Wall. China tour packages from Malaysia with Dhesu Travel, a Malaysian travel agent since 1988.",
+    "title": "China Tour Package from Malaysia, Custom Itineraries | Dhesu",
+    "description": "China tour packages from Malaysia built around your dates. Beijing, the Great Wall, Shanghai and Xi'an with a Malaysian agent since 1988. Get a quote.",
     "slug": "china",
     "targetKeyword": "china tour package malaysia",
     "region": "East Asia",
@@ -11,8 +11,8 @@
   "hero": {
     "badge": "Great Wall, Terracotta Warriors, Modern Cities",
     "headline": "China Tour Packages",
-    "headlineAccent": "From Malaysia.",
-    "body": "Beijing, Shanghai, Xi'an and the Great Wall. China itineraries are being finalised — tell us your dates and we will build one around them.",
+    "headlineAccent": "from Malaysia",
+    "body": "China has become one of the easiest big trips a Malaysian can take. Malaysians can currently enter for short stays without a visa, flights from Kuala Lumpur take only around 4 to 6 hours, and the high-speed trains between cities are faster than most people expect. The harder part is deciding where to go, because the country is huge.",
     "bgImage": "/images/guides/tiananmen-gate.jpg",
     "stats": [
       { "value": "Since 1988", "label": "Planning Malaysian Holidays" },
@@ -180,5 +180,38 @@
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
     "bgImage": "/images/guides/shanghai-pudong.jpg"
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for China?",
+        "answer": "Not for short stays at the moment. A mutual visa waiver took effect on 17 July 2025, allowing Malaysian ordinary passport holders up to 30 days for tourism, with a cap of 90 days in any 180. Always check the latest rules before you travel."
+      },
+      {
+        "question": "What is the best time to visit China from Malaysia?",
+        "answer": "April to May and September to October are the safest bets. The weather is mild in most big cities, and the scenery looks its best. Summer is hot and crowded, and the north gets very cold in winter."
+      },
+      {
+        "question": "How many days do I need for China?",
+        "answer": "Five to six days is enough for one city. Eight to nine days works for two cities, and 12 days or more lets you add scenery destinations like Zhangjiajie."
+      },
+      {
+        "question": "Which cities should first timers visit?",
+        "answer": "Beijing for the Great Wall and the Forbidden City, then either Xi'an for the Terracotta Army or Shanghai for the modern skyline. That pair covers most of what people picture when they think of China."
+      },
+      {
+        "question": "Is China suitable for Muslim travellers?",
+        "answer": "Many Malaysian Muslims enjoy China, and Xi'an's Muslim Quarter is a good example. Halal options vary by city, so tell us your needs and we'll plan meals and daily timings around them. You can also read our Muslim-friendly holiday guide."
+      },
+      {
+        "question": "Do I need Alipay or WeChat Pay in China?",
+        "answer": "Mobile payment is used almost everywhere. It's worth setting up Alipay or WeChat Pay with your overseas card before you go, and carrying some cash as a backup."
+      },
+      {
+        "question": "Can Dhesu arrange flights, hotels and guides?",
+        "answer": "Yes. We plan China trips around your dates and pace, and one team handles flights, hotels, guides and transfers."
+      }
+    ]
   }
 }

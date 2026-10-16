@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Button from "@/src/components/Button";
 import FaqSection, { type Faq } from "@/src/components/FaqSection";
 import { PackageCard, SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
+import type { PageContent } from "@/src/data/pageContent";
 import type { TourPackage, TourPageData } from "@/src/data/tourPages/types";
 
 // ─── Animation ──────────────────────────────────────────────────────────────────
@@ -36,6 +37,7 @@ export interface TourRegionTemplateProps {
    * same list, so the two can never disagree about what is on the page.
    */
   faqs?: Faq[];
+  content?: PageContent;
 }
 
 // ─── Region / Theme Listing Template ────────────────────────────────────────────
@@ -49,6 +51,7 @@ export default function TourRegionTemplate({
   destination = "india",
   destinationLabel = "India",
   faqs = [],
+  content,
 }: TourRegionTemplateProps) {
   return (
     <main className="bg-white overflow-x-hidden">
@@ -116,6 +119,10 @@ export default function TourRegionTemplate({
             <p className="text-gray-600 text-lg leading-relaxed">{intro}</p>
           </motion.div>
 
+          {content && (
+            <div className="max-w-4xl mb-16 space-y-16">{content.body}</div>
+          )}
+
           {/* Count */}
           <motion.p
             initial="hidden"
@@ -153,12 +160,13 @@ export default function TourRegionTemplate({
       {faqs.length > 0 && (
         <FaqSection
           faqs={faqs}
-          heading={`${label} travel questions, answered`}
+          heading={content?.faqHeading ?? `${label} travel questions, answered`}
           className="bg-white border-t border-gray-100"
         />
       )}
 
       {/* ── CTA BANNER ────────────────────────────────────────────────────────── */}
+      {content?.closing ?? (
       <section className="relative py-12 lg:py-16 overflow-hidden">
         <div className="absolute inset-0">
           <Image
@@ -209,6 +217,7 @@ export default function TourRegionTemplate({
           </motion.div>
         </div>
       </section>
+      )}
 
     </main>
   );

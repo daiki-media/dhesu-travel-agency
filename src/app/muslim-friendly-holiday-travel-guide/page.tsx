@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
 import MuslimFriendlyContent from "./MuslimFriendlyContent";
+import { linkedFaqsAsText, type LinkedFaq } from "@/src/data/linkedFaq";
 import {
   breadcrumbList,
   faqQuestions,
@@ -8,8 +9,7 @@ import {
   webPage,
 } from "@/src/data/structuredData";
 
-// Holiday Idea sheet, row 28. Title and description are copied verbatim; the
-// body copy comes from content-document/tour-types/.
+// Holiday Idea sheet, row 28. Title and description are copied verbatim.
 // Per-country versions already exist at /tours/nepal/muslim-friendly and
 // /tours/sri-lanka/muslim-friendly; this is the page above them.
 const PATH = "/muslim-friendly-holiday-travel-guide";
@@ -34,48 +34,56 @@ export const metadata: Metadata = {
 // Owned by the page, not the component: the accordion is a client component, and
 // exporting an array from one hands the server a client reference rather than
 // the array. The same list drives the rendered FAQ and the FAQPage markup.
-const faqs = [
+const faqs: LinkedFaq[] = [
   {
-    question:
-      "What makes the package truly Muslim-friendly compared to a general package?",
-    answer:
-      "It explicitly provides certification for halal food, takes into account the time needed for prayers in terms of itinerary planning, and includes cultural awareness while choosing destinations and activities.",
+    question: "What makes a package Muslim-friendly rather than a normal tour?",
+    answer: [
+      "In a regular package, halal food and prayer are left to chance. In a Muslim-friendly one they’re planned: meals are arranged with halal in mind, prayer stops are built into the day, and activities are chosen with modesty in mind.",
+    ],
   },
   {
-    question: "Which are the easiest destinations for Muslim-friendly travel?",
-    answer:
-      "Destinations where Muslims constitute the majority population such as Turkey, Indonesia, and UAE are among those that would provide the easiest halal food and prayer facilities access.",
+    question: "Which destinations are easiest for a first Muslim-friendly trip?",
+    answer: [
+      "Indonesia is the simplest, because halal food is the norm and flights are short. Kashmir and Kerala are also easy for halal access, and a short Golden Triangle trip suits travellers who want heritage sites.",
+    ],
   },
   {
-    question: "Is it possible to ensure halal food in advance at the hotels?",
-    answer:
-      "Yes, the well-planned itinerary ensures that halal-certified facilities for eating are available in hotels and restaurants during your travel.",
+    question: "Can I be sure of halal food at hotels?",
+    answer: [
+      "Not automatically. Ask whether breakfast is prepared in a halal-certified kitchen and whether included meals are halal or only pork-free. In non-Muslim countries, a hotel may offer vegetarian or seafood options instead of certified halal meat.",
+    ],
   },
   {
-    question: "Is Europe an appropriate destination for Muslim-friendly travel?",
-    answer:
-      "Traveling to Europe may be possible if you are properly prepared, since the number of halal food places in major cities is increasing.",
+    question: "How do I know a restaurant’s halal claim is genuine?",
+    answer: [
+      "Look for a certificate from a recognised body, such as JAKIM in Malaysia or BPJPH in Indonesia. In countries without a single regulator, like India, a Muslim-owned restaurant is a good sign but isn’t the same as certification.",
+    ],
   },
   {
-    question:
-      "How does an itinerary take into consideration prayer timings in sightseeing?",
-    answer:
-      "A good itinerary always has time buffer allowance for prayer breaks, especially considering Friday Jumu'ah prayer timings when needed.",
+    question: "How are prayers handled during sightseeing?",
+    answer: [
+      "Good itineraries leave buffers around prayer times and note where the nearest mosque or prayer space is. Fridays and long transfer days need extra thought. Tell your guide your prayer needs when you book.",
+    ],
   },
   {
-    question: "Is a Muslim-friendly package more costly than a regular package?",
-    answer:
-      "No, not necessarily, the price will depend upon the destination and the contents of the package in general and not because it is a Muslim-friendly package.",
+    question: "Is Europe suitable for Muslim-friendly travel?",
+    answer: [
+      "Yes, but it takes more planning. Halal options are growing in big cities, though prayer spaces are less common than in Muslim-majority countries. We arrange ",
+      { text: "European trips", href: "/tours/europe/" },
+      " to order.",
+    ],
   },
   {
-    question: "Is a Muslim-friendly tour possible at the same time as a family vacation?",
-    answer:
-      "Yes, there are destinations such as the UAE and Turkey, where both aspects of travel are available simultaneously.",
+    question: "Does a Muslim-friendly package cost more?",
+    answer: [
+      "Not necessarily. The cost depends on the destination, hotel and season rather than the label. Some routes add a little for halal-certified meals, so ask for a quote that shows what’s included.",
+    ],
   },
   {
-    question: "How do I know if a destination's halal claims are reliable?",
-    answer:
-      "Working with a consultant experienced in Muslim-friendly travel planning helps verify genuine certification rather than relying on general marketing claims.",
+    question: "Can I combine a Muslim-friendly tour with a family holiday?",
+    answer: [
+      "Yes. Family routes such as Kerala and Bali combine halal convenience with activities for children and grandparents, and the slower pace suits mixed-age groups.",
+    ],
   },
 ];
 
@@ -87,7 +95,7 @@ const muslimFriendlyJsonLd = graph([
     type: ["WebPage", "FAQPage"],
     image: "/images/tour-types/mosque-night-istanbul.jpg",
     hasBreadcrumb: true,
-    mainEntity: faqQuestions(faqs),
+    mainEntity: faqQuestions(linkedFaqsAsText(faqs)),
   }),
   breadcrumbList(PATH, [
     { name: "Home", url: "/" },

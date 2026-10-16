@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Button from "@/src/components/Button";
 import ArrowRight from "@/src/components/icons/ArrowRight";
 import FaqSection from "@/src/components/FaqSection";
+import type { PageContent } from "@/src/data/pageContent";
 import type {
   TourPageData,
   TourPackage,
@@ -248,8 +249,10 @@ function HighlightCard({ item, index }: { item: TourHighlight; index: number }) 
 // ─── Reusable Destination Hub Template ─────────────────────────────────────────
 export default function TourDestinationTemplate({
   data,
+  content,
 }: {
   data: TourPageData;
+  content?: PageContent;
 }) {
   const { meta, hero, why, zones, bestTime, tripLength, packages, whyBook, cta, faq } = data;
 
@@ -316,6 +319,7 @@ export default function TourDestinationTemplate({
               >
                 {hero.headline}
               </motion.span>
+              {" "}
               <motion.span
                 initial={{ opacity: 0, y: 28 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -369,6 +373,12 @@ export default function TourDestinationTemplate({
         </div>
       </section>
 
+      {content ? (
+        <section className="py-12 lg:py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-12 space-y-16">{content.body}</div>
+        </section>
+      ) : (
+        <>
       {/* ── WHY ────────────────────────────────────────────────────────────────── */}
       <section className="py-12 lg:py-12 lg:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -552,6 +562,9 @@ export default function TourDestinationTemplate({
         </div>
       </section>
 
+        </>
+      )}
+
       {/* ── PACKAGES ──────────────────────────────────────────────────────────── */}
       <section id="packages" className="py-12 lg:py-12 lg:py-16 bg-pattern scroll-mt-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -606,6 +619,7 @@ export default function TourDestinationTemplate({
       </section>
 
       {/* ── WHY BOOK WITH DHESU ────────────────────────────────────────────────── */}
+      {!content && (
       <section className="py-12 lg:py-12 lg:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -661,18 +675,20 @@ export default function TourDestinationTemplate({
           </div>
         </div>
       </section>
+      )}
 
       {/* ── FAQ — only when the hub's JSON carries approved questions ────────── */}
       {faq && faq.items.length > 0 && (
         <FaqSection
           faqs={faq.items}
           label={faq.sectionLabel ?? "Questions"}
-          heading={faq.heading ?? `${meta.name} travel questions, answered`}
+          heading={content?.faqHeading ?? faq.heading ?? `${meta.name} travel questions, answered`}
           className="bg-white border-t border-gray-100"
         />
       )}
 
       {/* ── CTA BANNER ────────────────────────────────────────────────────────── */}
+      {content?.closing ?? (
       <section className="relative py-12 lg:py-16 overflow-hidden">
         {/* BG */}
         <div className="absolute inset-0">
@@ -726,6 +742,7 @@ export default function TourDestinationTemplate({
           </motion.div>
         </div>
       </section>
+      )}
 
     </main>
   );

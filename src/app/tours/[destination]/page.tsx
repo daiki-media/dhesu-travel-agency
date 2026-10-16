@@ -4,6 +4,7 @@ import JsonLd from "@/src/components/JsonLd";
 import TourDestinationTemplate from "@/src/components/tours/TourDestinationTemplate";
 import { getTourPage, tourSlugs, type TourPageData } from "@/src/data/tourPages";
 import { guidePackageItems } from "@/src/data/destinationDetail";
+import { getPageContent } from "@/src/data/pageContent";
 import {
   breadcrumbList,
   faqQuestions,
@@ -122,7 +123,7 @@ export default async function TourDestinationPage({ params }: PageProps) {
   return (
     <>
       <JsonLd data={destinationJsonLd(withGuides)} />
-      <TourDestinationTemplate data={withGuides} />
+      <TourDestinationTemplate data={withGuides} content={getPageContent(destination)} />
     </>
   );
 }

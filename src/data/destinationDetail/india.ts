@@ -49,16 +49,16 @@ export const REGIONS: IndiaLandingPage[] = [
     kind: "region",
     blurb: "Backwaters, Munnar tea hills and Fort Kochi. The slow, green south at its most restful.",
     select: startsWith("kerala/"),
-    metaTitle: "Kerala Tour Packages from Malaysia | Dhesu Travel & Tours",
+    metaTitle: "Kerala Tour Package from Malaysia | From RM598",
     metaDescription:
-      "Explore Kerala with Dhesu Travel, trusted since 1988. Alleppey backwaters, Munnar tea hills and Fort Kochi, with English-speaking guides and transfers.",
+      "Book a private Kerala tour from Malaysia. 9 packages, 3 to 9 days, from RM598 per person, with backwaters, Munnar, guide and airport transfers.",
     h1: "Kerala Tour Packages from Malaysia",
     intro:
-      "There is a reason people describe Kerala as God's Own Country. The pace here is different, slower, greener, softer at the edges. A Kerala tour package from Malaysia takes you drifting through the Alleppey backwaters on a converted rice barge, past villages where life still runs to the rhythm of the water. Up in the hills, the tea estates of Munnar roll out in every shade of green and the air turns cool and clean. Down on the coast, Fort Kochi blends Portuguese churches, Chinese fishing nets and old spice warehouses into something wholly its own. Add a Kathakali performance, a plate of Keralan seafood and an Ayurvedic massage, and the appeal becomes obvious. Every Dhesu Kerala package, arranged with care since 1988, comes with English-speaking guides and airport transfers handled, so all you have to do is slow right down.",
+      "There is a reason people describe Kerala as God's Own Country. The pace here is slower, greener and softer at the edges. A Kerala tour package from Malaysia takes you drifting through the Alleppey backwaters on a converted rice barge, past villages where life runs to the rhythm of the water. In the hills, the tea estates of Munnar roll out in every shade of green. On the coast, Fort Kochi blends Portuguese churches, Chinese fishing nets and old spice warehouses into something wholly its own.",
     canonicalUrl: "/tours/india/kerala",
-    ogTitle: "Kerala Tour Packages from Malaysia | Dhesu Travel",
+    ogTitle: "Kerala Tour Package from Malaysia | From RM598",
     ogDescription:
-      "Backwaters, tea hills and Fort Kochi. Plan your Kerala trip with Dhesu Travel, trusted since 1988.",
+      "Book a private Kerala tour from Malaysia. 9 packages, 3 to 9 days, from RM598 per person, with backwaters, Munnar, guide and airport transfers.",
     ogImage: "/images/gallery/16301.jpg",
   },
   {
@@ -139,16 +139,16 @@ export const REGIONS: IndiaLandingPage[] = [
     kind: "region",
     blurb: "Dal Lake houseboats, the green meadows of Gulmarg and the pine valleys of Pahalgam.",
     select: startsWith("kashmir/"),
-    metaTitle: "Kashmir Tour Packages from Malaysia | Dhesu Travel & Tours",
+    metaTitle: "Kashmir Tour Package from Malaysia | From RM1,088 | Dhesu",
     metaDescription:
-      "Experience Kashmir with Dhesu Travel, trusted since 1988. Dal Lake houseboats, Gulmarg meadows and Pahalgam valleys, with guides and airport transfers.",
+      "Book a private Kashmir tour from Malaysia. 8 packages, 4 to 12 days, from RM1,088 per person. Dal Lake houseboat, Gulmarg gondola, guide and transfers.",
     h1: "Kashmir Tour Packages from Malaysia",
     intro:
-      "Kashmir has a way of stopping people mid-sentence. A Kashmir tour package from Malaysia begins on Dal Lake, where wooden houseboats sit on still water and shikaras glide past at dawn. In summer, the meadows of Gulmarg turn an impossible green and the gondola climbs toward the snow line. In winter, the whole valley is white and the same slopes draw skiers. Pahalgam offers pine valleys and mountain rivers, while the Mughal gardens of Srinagar bloom in tidy terraces above the lake. It is cool when the plains are hot, beautiful in every season, and unlike anywhere else in India. Dhesu has been sending Malaysians to Kashmir since 1988, with trusted houseboat owners, English-speaking guides who know the valley, and airport transfers arranged, so you can simply settle in and let the most beautiful corner of India do the rest.",
+      "Kashmir has a way of stopping people mid-sentence. It begins on Dal Lake, where wooden houseboats sit on still water and shikaras glide past at dawn. In summer the meadows of Gulmarg turn an impossible green and the gondola climbs toward the snow line. In winter the whole valley goes white and the same slopes draw skiers. It is cool when the plains are hot, and it is beautiful in every season.",
     canonicalUrl: "/tours/india/kashmir",
-    ogTitle: "Kashmir Tour Packages from Malaysia | Dhesu Travel",
+    ogTitle: "Kashmir Tour Package from Malaysia | From RM1,088 | Dhesu",
     ogDescription:
-      "Dal Lake houseboats, Gulmarg and Pahalgam. Plan your Kashmir trip with Dhesu Travel, trusted since 1988.",
+      "Book a private Kashmir tour from Malaysia. 8 packages, 4 to 12 days, from RM1,088 per person. Dal Lake houseboat, Gulmarg gondola, guide and transfers.",
     ogImage: "/images/gallery/14620.jpg",
   },
 ];
@@ -162,16 +162,16 @@ export const THEMES: IndiaLandingPage[] = [
     kind: "theme",
     blurb: "Delhi, Agra and Jaipur in one classic loop, the route most first-timers start with.",
     select: matchesKeywords(["Golden Triangle", "Delhi Agra Jaipur"]),
-    metaTitle: "Delhi Agra Jaipur Tour Packages from Malaysia | Dhesu Travel & Tours",
+    metaTitle: "Delhi Agra Jaipur Tour Package from Malaysia | From RM1,388",
     metaDescription:
-      "Travel Delhi Agra Jaipur with Dhesu Travel, trusted since 1988. The Golden Triangle, Taj Mahal at sunrise and Jaipur forts, with guides and transfers.",
+      "Book a private Delhi Agra Jaipur Golden Triangle tour from Malaysia. 8 packages, 5 to 9 days, from RM1,388 per person, with guide and airport transfers.",
     h1: "Delhi Agra Jaipur Tour Packages from Malaysia",
     intro:
-      "The Golden Triangle is where most India journeys begin, and for good reason. A Delhi Agra Jaipur tour package from Malaysia links three unforgettable cities in one neat loop. Delhi sets the tone with its spice markets, Mughal monuments and the lanes of Chandni Chowk. Agra delivers the moment everyone comes for: the Taj Mahal at sunrise, turning from grey to gold as the sun lifts. Jaipur, the Pink City, finishes with hilltop forts, the City Palace and bazaars piled high with textiles and trinkets. It is the classic first-timer route, rich in history yet easy to travel, and it still takes your breath away in person. Dhesu has been running this circuit since 1988, with English-speaking guides who bring the history alive, hotels chosen for comfort, routes that beat the traffic, and airport transfers handled from start to finish.",
+      "The Golden Triangle is where most India journeys begin, and for good reason. A Delhi Agra Jaipur tour package from Malaysia links three unforgettable cities in one neat loop. Delhi sets the tone with its spice markets, Mughal monuments and the lanes of Chandni Chowk. Agra delivers the moment everyone comes for: the Taj Mahal at sunrise, turning from grey to gold as the sun lifts. Jaipur, the Pink City, finishes with hilltop forts, the City Palace and bazaars piled high with textiles.",
     canonicalUrl: "/tours/india/golden-triangle",
-    ogTitle: "Delhi Agra Jaipur Tour Packages from Malaysia | Dhesu Travel",
+    ogTitle: "Delhi Agra Jaipur Tour Package from Malaysia | From RM1,388",
     ogDescription:
-      "The classic Golden Triangle of Delhi, Agra and Jaipur. Plan it with Dhesu Travel, trusted since 1988.",
+      "Book a private Delhi Agra Jaipur Golden Triangle tour from Malaysia. 8 packages, 5 to 9 days, from RM1,388 per person, with guide and airport transfers.",
     ogImage: "/images/gallery/16336.jpg",
   },
   {
@@ -198,16 +198,16 @@ export const THEMES: IndiaLandingPage[] = [
     kind: "theme",
     blurb: "Dawn boat rides on the Ganga and the Ganga Aarti at dusk in one of earth's oldest cities.",
     select: matchesKeywords(["Varanasi"]),
-    metaTitle: "Varanasi Tour Packages from Malaysia | Dhesu Travel & Tours",
+    metaTitle: "Varanasi Tour Package from Malaysia | From RM698",
     metaDescription:
-      "Discover Varanasi with Dhesu Travel, trusted since 1988. Ganga Aarti, sunrise boat rides and Sarnath, with English-speaking guides and airport transfers.",
+      "Book a Varanasi tour from Malaysia. 7 packages, 3 to 11 days, from RM698 per person. Ganga Aarti, sunrise boat ride, Sarnath, guide and transfers.",
     h1: "Varanasi Tour Packages from Malaysia",
     intro:
-      "Varanasi is not a comfortable city, and that is the point. One of the oldest living cities on earth, it sits on the banks of the Ganga, where life and death play out openly along the ghats. A Varanasi tour package from Malaysia puts you on a boat at dawn, drifting past pilgrims bathing in the river as the sun comes up, and again at dusk for the Ganga Aarti at Dashashwamedh Ghat, a ceremony of fire, flowers and bells performed every single evening for centuries. Add Sarnath, where the Buddha gave his first sermon, and nearby Ayodhya, and the spiritual weight of it stays with you long after you leave. It is confronting, deeply real and impossible to forget. Dhesu has been guiding Malaysians here since 1988, with English-speaking guides, well-timed boat rides and airport transfers handled with care.",
+      "Varanasi is not a comfortable city, and that is the point. One of the oldest living cities on earth, it sits on the banks of the Ganga, where life and death play out openly along the ghats. You drift past pilgrims bathing in the river at dawn. You return at dusk for the Ganga Aarti at Dashashwamedh Ghat, a ceremony of fire, flowers and bells performed every evening. Add Sarnath, where the Buddha gave his first sermon, and the spiritual weight of it stays with you long after you leave.",
     canonicalUrl: "/tours/india/varanasi",
-    ogTitle: "Varanasi Tour Packages from Malaysia | Dhesu Travel",
+    ogTitle: "Varanasi Tour Package from Malaysia | From RM698",
     ogDescription:
-      "Ganga Aarti, sunrise boat rides and Sarnath. Plan your Varanasi trip with Dhesu Travel, trusted since 1988.",
+      "Book a Varanasi tour from Malaysia. 7 packages, 3 to 11 days, from RM698 per person. Ganga Aarti, sunrise boat ride, Sarnath, guide and transfers.",
     ogImage: "/images/gallery/14014.jpg",
   },
   {

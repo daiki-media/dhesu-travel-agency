@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "Nepal",
-    "title": "Nepal Tour Package from Malaysia | Dhesu Travel & Tours",
-    "description": "Explore Kathmandu's ancient temples, Pokhara's lakeside Himalayan views and Chitwan's jungle wildlife. Nepal tour packages from RM888. Dhesu — Malaysia's trusted travel agency since 1988. MATTA & IATA registered.",
+    "title": "Nepal Tour Package from Malaysia, From RM888 | Dhesu",
+    "description": "Nepal tour packages from RM888 with a Malaysian agent since 1988. Kathmandu temples, Pokhara lake views and Chitwan wildlife. Airport transfers included.",
     "slug": "nepal",
     "targetKeyword": "Nepal tour package from Malaysia",
     "region": "South Asia",
@@ -10,9 +10,9 @@
   },
   "hero": {
     "badge": "Eight of the World's Ten Highest Peaks",
-    "headline": "It Makes You Feel Small",
-    "headlineAccent": "in the Best Way.",
-    "body": "Stand at Phewa Lake as the first light turns Machapuchare gold above the water. Walk medieval squares that have not changed in six centuries. Hear the bells of Pashupatinath over the Bagmati River. Nepal is not scenery. It is an experience that stays with you for life.",
+    "headline": "Nepal Tour Packages",
+    "headlineAccent": "from Malaysia",
+    "body": "Nepal packs a lot into a small country. Medieval squares in Kathmandu, temple bells over the Bagmati River, Phewa Lake in Pokhara with the Annapurna range sitting behind it, and a jungle in the south where you can spot wild rhinos. Eight of the ten highest peaks on earth are here, and you don't need to be a mountaineer to enjoy them.",
     "bgImage": "/images/gallery/43.jpg",
     "stats": [
       { "value": "8 of 10", "label": "Highest Peaks on Earth" },
@@ -389,5 +389,38 @@
     "email": "tours@dhesu.travel",
     "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
     "bgImage": "/images/gallery/38.jpg"
+  },
+  "faq": {
+    "heading": "Nepal tour package FAQs",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for Nepal?",
+        "answer": "Yes, but it's simple. Malaysians can get a visa on arrival at Kathmandu airport. Fees depend on how long you stay, and rules can change, so confirm before you travel. We assist with visa documentation on every package."
+      },
+      {
+        "question": "How much does a Nepal tour package from Malaysia cost?",
+        "answer": "Packages start from RM888 per person for the 4 Days Super Saver. The popular 6 Days Best of Nepal starts from RM1,988 per person, and the Muslim-friendly version from RM2,088."
+      },
+      {
+        "question": "What is the best time to visit Nepal?",
+        "answer": "October to December gives the clearest skies and best Himalayan views. March to May is the second best window. During the monsoon from June to September, the mountains are often clouded, but Kathmandu and Chitwan still work well."
+      },
+      {
+        "question": "How many days do I need in Nepal?",
+        "answer": "Four days covers the Kathmandu Valley. Six to eight days is the best balance for Kathmandu and Pokhara, with extra stops like Nagarkot or Chitwan."
+      },
+      {
+        "question": "Are Muslim-friendly Nepal tours available?",
+        "answer": "Yes. Muslim Friendly Nepal trips include halal dining guidance, prayer-time awareness and a Muslim-aware private guide."
+      },
+      {
+        "question": "Is Nepal suitable for families and older travellers?",
+        "answer": "Yes, if you pick the right itinerary. Kathmandu, Pokhara and Chitwan involve very little trekking. Nagarkot sits at 2,200 metres and Muktinath at 3,800 metres, so if you're planning the higher stops, ask us about altitude and pacing first."
+      },
+      {
+        "question": "How do I get to Muktinath?",
+        "answer": "It's reached by a short flight from Pokhara. Because mountain flights can be delayed by weather, we recommend building a spare day into the schedule. Our Muktinath Yatra guide explains the route in detail."
+      }
+    ]
   }
 }

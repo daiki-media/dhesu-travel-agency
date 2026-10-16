@@ -8,6 +8,7 @@ import TourRegionTemplate from "@/src/components/tours/TourRegionTemplate";
 import TourGuideTemplate from "@/src/components/tours/TourGuideTemplate";
 import { getGuideContent } from "@/src/data/guides";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
+import { getPageContent } from "@/src/data/pageContent";
 import packageDetails, { getPackageDetail } from "@/src/data/tourPackages";
 import { getTourPage } from "@/src/data/tourPages";
 import {
@@ -266,6 +267,7 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
             // Same list landingPageJsonLd() marks up, so the FAQPage markup
             // and the accordion can never describe different questions.
             faqs={getGuideFaqs(destination, packageSlug[0])}
+            content={getPageContent(`${destination}/${packageSlug[0]}`)}
           />
         </>
       );

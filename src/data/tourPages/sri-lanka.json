@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "Sri Lanka",
-    "title": "Sri Lanka Tour Package from Malaysia | Dhesu Travel & Tours",
-    "description": "From ancient kingdoms to misty tea hills and wildlife safaris, explore Sri Lanka with Dhesu. Trusted Malaysian travel agency since 1988. Group, custom and honeymoon packages available.",
+    "title": "Sri Lanka Tour Package from Malaysia, Private Tours | Dhesu",
+    "description": "Private Sri Lanka tour packages from Malaysia, starting at RM888. Kandy, Sigiriya, Nuwara Eliya tea hills and Yala safaris. Get a quote. Since 1988.",
     "slug": "sri-lanka",
     "targetKeyword": "Sri Lanka tour package from Malaysia",
     "region": "South Asia",
@@ -10,9 +10,9 @@
   },
   "hero": {
     "badge": "The Pearl of the Indian Ocean",
-    "headline": "Sri Lanka Fits",
-    "headlineAccent": "Everything Into a Small Island.",
-    "body": "Ancient cities and sacred temples in the morning, mist-wrapped tea hills in the afternoon, and leopards in the national park at dusk. Sri Lanka is compact enough to do it all, and rich enough that you will never feel like you have.",
+    "headline": "Sri Lanka Tour Packages",
+    "headlineAccent": "from Malaysia",
+    "body": "Sri Lanka is small enough to cross in a day, and big enough that you'll want a week. Within a few hours of each other you get a rock fortress built by a king, tea hills you reach by train, a temple that holds a relic of the Buddha, and a national park with some of the highest leopard numbers anywhere. From Kuala Lumpur it's only about 3.5 hours by air, which is why so many Malaysians go back for a second trip.",
     "bgImage": "/images/gallery/87.jpg",
     "stats": [
       {
@@ -487,6 +487,39 @@
         "image": "/images/gallery/2193.jpg",
         "pkgid": "2194",
         "popular": false
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa for Sri Lanka?",
+        "answer": "Malaysians need an ETA before they arrive. Since 25 May 2026 it has been free for Malaysian nationals, valid for 30 days with double entry. You apply online on the official ETA portal. If you want to stay beyond 30 days, you'll need an extension and the extension fee applies. We guide you through the documents on every package."
+      },
+      {
+        "question": "What is the best time to visit Sri Lanka from Malaysia?",
+        "answer": "December to March is the best all-round window, because the west and south coasts and the hills are all at their best. February to July suits Yala for wildlife, and May to September suits the east coast. Because the island has two monsoons, the right month depends on where you're going."
+      },
+      {
+        "question": "When is the rainy season in Sri Lanka?",
+        "answer": "The southwest monsoon brings rain to the west and south coasts roughly from May to September. The northeast monsoon affects the Cultural Triangle, the east and the north roughly from October to January. Kandy and the hills can get showers at any time of year."
+      },
+      {
+        "question": "When is the best time to see leopards in Yala?",
+        "answer": "February to July is generally the best period, when the dry season pushes animals toward the remaining water. Dawn and dusk jeep safaris are the best bets. The park can close sections for a few weeks in the dry season, so confirm dates before you lock in your travel plans."
+      },
+      {
+        "question": "How many days do I need for Sri Lanka?",
+        "answer": "Three to four days is enough for Kandy and Colombo. A week gives you culture, tea hills and either wildlife or the south coast. If you want to cover north and south, plan on 9 to 12 days."
+      },
+      {
+        "question": "How much does a Sri Lanka tour package from Malaysia cost?",
+        "answer": "The 3 Days Kandy and Colombo trip starts from RM888 per person. The 5 Days Sri Lankan Adventure starts from RM1,688, and the 6 Days Best of Sri Lanka from RM2,098. The 4 Days Muslim Friendly trip starts from RM1,288. Prices shift with hotel level, dates and group size."
+      },
+      {
+        "question": "Are Muslim-friendly Sri Lanka tours available?",
+        "answer": "Yes. Our Muslim-friendly itineraries include halal meals, and we plan around prayer times. See the 4 Days Muslim Friendly package or ask us to build a custom one."
       }
     ]
   }

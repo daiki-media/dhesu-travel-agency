@@ -182,16 +182,13 @@ export const NEPAL_THEMES: NepalLandingPage[] = [
     kind: "theme",
     blurb: "Nepal's wonders with halal dining guidance, prayer-time awareness and a Muslim-aware private guide.",
     select: matchesKeywords(["Muslim Friendly", "Muslim"]),
-    metaTitle: "Muslim Friendly Nepal Tour Packages from Malaysia | Dhesu Travel & Tours",
-    metaDescription:
-      "Muslim friendly Nepal tour packages from Malaysia. Halal dining guidance, prayer-time awareness and private guides. Dhesu Travel, trusted since 1988.",
+    metaTitle: "Muslim Friendly Nepal Tour Package from Malaysia | Dhesu",
+    metaDescription: "Muslim friendly Nepal tour package from Malaysia with halal dining guidance, prayer times, qibla direction and a private guide. 6D5N from RM2,088.",
     h1: "Muslim Friendly Nepal Tour Packages from Malaysia",
-    intro:
-      "Nepal is increasingly popular with Malaysian Muslim travellers, and with good reason: the country is welcoming, the culture is fascinating, and the practical logistics — halal food, prayer times, private guiding — are entirely manageable with the right team. A Muslim-friendly Nepal tour package from Malaysia from Dhesu handles all of this. Kathmandu has a well-established Indian Muslim restaurant scene in Thamel and Lazimpat, with certified halal kitchens. Pokhara's lakeside has halal and vegetarian options. Our guides understand the importance of prayer schedules and build breaks into the itinerary accordingly — your private vehicle means you are never at the mercy of a group coach. We provide prayer times for your specific travel dates, the nearest masjid to each hotel, and qiblat direction information with every booking. Nepal's sacred Buddhist and Hindu sites are open to all respectful visitors, and walking the Boudhanath kora alongside monks and pilgrims, or standing at the Nagarkot ridge as the Himalaya turns gold, are experiences that transcend any single faith. Dhesu has been serving Malaysian Muslim travellers on Himalayan journeys since 1988.",
+    intro: "Nepal isn't the first place most Malaysian Muslims think of for a holiday, and that's a shame, because it works really well. The people are friendly, the sights are unlike anything in Southeast Asia, and the halal food question is easier than you'd expect. It just needs some planning, and that's the part we take care of.",
     canonicalUrl: "/tours/nepal/muslim-friendly",
-    ogTitle: "Muslim Friendly Nepal Tour Packages from Malaysia | Dhesu Travel",
-    ogDescription:
-      "Nepal for Muslim travellers: halal dining, prayer-time guidance and private tours. Plan with Dhesu Travel, since 1988.",
+    ogTitle: "Muslim Friendly Nepal Tour Package from Malaysia | Dhesu",
+    ogDescription: "Muslim friendly Nepal tour package from Malaysia with halal dining guidance, prayer times, qibla direction and a private guide. 6D5N from RM2,088.",
     ogImage: "/images/gallery/20.jpg",
   },
   {

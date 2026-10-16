@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "India",
-    "title": "India Tour Package from Malaysia | Dhesu Travel & Tours",
-    "description": "From the Himalayas to Kerala backwaters, explore India with Dhesu. Trusted Malaysian travel agency since 1988. Group, custom and honeymoon packages available.",
+    "title": "India Tour Package from Malaysia, Kerala to Kashmir | Dhesu",
+    "description": "India tour packages from Malaysia covering the Golden Triangle, Kashmir, Kerala and Varanasi. MATTA and IATA registered agent since 1988. Get a quote.",
     "slug": "india",
     "targetKeyword": "India tour package from Malaysia",
     "region": "South Asia",
@@ -10,9 +10,9 @@
   },
   "hero": {
     "badge": "A Continent Pretending to Be a Country",
-    "headline": "India Is Not",
-    "headlineAccent": "Just One Trip.",
-    "body": "The India at the foot of the Taj Mahal at dawn is a different India from the Kerala backwaters, which is different again from the ancient ghats of Varanasi. It asks a lot of you, and gives back far more.",
+    "headline": "India Tour Packages",
+    "headlineAccent": "from Malaysia",
+    "body": "India is really several holidays hiding under one name. The Taj Mahal at sunrise has nothing in common with a houseboat in Kerala, and neither of them feels like Varanasi at dusk. That's why people who go once usually go back and pick somewhere completely different.",
     "bgImage": "/images/gallery/14634.png",
     "stats": [
       {
@@ -1576,6 +1576,39 @@
         "image": "/images/gallery/14627.jpg",
         "pkgid": "2360",
         "popular": false
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Do Malaysians need a visa to travel to India?",
+        "answer": "Yes. Malaysians apply online for an e-Tourist visa before travel. At the moment the High Commission of India in KL offers a free 30-day, double-entry e-Tourist visa until 31 December 2026. Rules change, so check the official portal before you book, and we'll guide you through the documents."
+      },
+      {
+        "question": "How much does an India tour package from Malaysia cost?",
+        "answer": "Three-day city breaks start from RM398 per person. The 5 Days Golden Triangle starts from RM1,388 per person. Longer trips cost more, and the price shifts with hotel level, travel dates and group size."
+      },
+      {
+        "question": "What is the best time to visit India from Malaysia?",
+        "answer": "October to March is the most comfortable for the Golden Triangle and most of the country. The Himalayan hills suit May to October, and Kerala works for most of the year."
+      },
+      {
+        "question": "How many days do I need for India?",
+        "answer": "Plan 5 to 7 days for one region. If it's your first time and you want a real feel for the country, 10 days is a good number."
+      },
+      {
+        "question": "Which India tour is best for first timers?",
+        "answer": "Most first timers pick the 5 Days Golden Triangle. It covers Delhi, Agra and Jaipur in a manageable time."
+      },
+      {
+        "question": "Are Muslim-friendly India tours available?",
+        "answer": "We arrange halal-conscious itineraries with prayer-friendly scheduling. Tell us your requirements when you enquire and we'll plan around them."
+      },
+      {
+        "question": "Are flights included, and can I change a package?",
+        "answer": "International flights can be added on request. Hotels, activities and pace can all be adjusted, and we also do custom and group packages."
       }
     ]
   }

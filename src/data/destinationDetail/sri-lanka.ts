@@ -190,18 +190,13 @@ export const SRI_LANKA_THEMES: SriLankaLandingPage[] = [
       packages.filter((p) =>
         [p.name, ...(p.highlights ?? [])].join(" ").toLowerCase().includes("muslim"),
       ),
-    metaTitle:
-      "Muslim Friendly Sri Lanka Tour Packages from Malaysia | Dhesu Travel & Tours",
-    metaDescription:
-      "Muslim friendly Sri Lanka tour packages from Malaysia. Halal meals, prayer-time awareness and private English-speaking guides. Dhesu Travel, trusted since 1988.",
+    metaTitle: "Muslim Friendly Sri Lanka Tour Package from Malaysia | Dhesu",
+    metaDescription: "Muslim friendly Sri Lanka tour package from Malaysia with halal meals, prayer times in the daily schedule and a private guide. From RM1,288.",
     h1: "Muslim Friendly Sri Lanka Tour Packages from Malaysia",
-    intro:
-      "Sri Lanka is one of the most welcoming countries in Asia for Muslim travellers. Around 10 percent of the population is Muslim, and Sri Lanka's long history as a trading port means halal food is widely available, especially in Colombo, Kandy, Galle and along the coast. A Muslim-friendly Sri Lanka tour package from Dhesu handles all the practical details: halal meals confirmed at restaurants vetted for our Muslim clients, prayer times included in the daily schedule, and qibla direction information and the nearest masjid provided for each hotel. Your private vehicle means you are never at the mercy of a group coach timetable. Sri Lanka's Buddhist and Hindu sacred sites are open to respectful visitors of all faiths — climbing Sigiriya, walking the kora around Kandy Lake at dawn, or standing at the World's End cliff in Horton Plains are experiences that transcend any single tradition. Dhesu has been arranging Muslim-friendly Sri Lanka journeys for Malaysian travellers since 1988.",
+    intro: "Sri Lanka is one of the easiest countries in the region for Muslim travellers. Roughly 10 percent of the population is Muslim, the island has a long history as a trading port, and halal food is easy to find in Colombo, Kandy and Galle. What you still need is a plan, so you aren't working out lunch and prayer times while you're stuck in traffic on the way to Kandy. We build that plan for you.",
     canonicalUrl: "/tours/sri-lanka/muslim-friendly",
-    ogTitle:
-      "Muslim Friendly Sri Lanka Tour Packages from Malaysia | Dhesu Travel",
-    ogDescription:
-      "Halal meals, prayer-time scheduling and private tours. Plan your Muslim-friendly Sri Lanka trip with Dhesu Travel, since 1988.",
+    ogTitle: "Muslim Friendly Sri Lanka Tour Package from Malaysia | Dhesu",
+    ogDescription: "Muslim friendly Sri Lanka tour package from Malaysia with halal meals, prayer times in the daily schedule and a private guide. From RM1,288.",
     ogImage: "/images/gallery/424.jpg",
   },
   {

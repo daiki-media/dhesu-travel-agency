@@ -1,3 +1,7 @@
+import { goldenTriangleFaqs, kashmirFaqs, varanasiFaqs } from "./pageContent/india/landingFaqs";
+import { nepalMuslimFriendlyFaqs } from "./pageContent/nepal/muslimFriendlyFaqs";
+import { sriLankaMuslimFriendlyFaqs } from "./pageContent/sri-lanka/muslimFriendlyFaqs";
+
 /**
  * Frequently asked questions for the Holiday Idea destination guides.
  *
@@ -636,6 +640,48 @@ export const guideFaqs: Record<string, GuideFaq[]> = {
       "Mauritius generally offers more dedicated seclusion, particularly through adults-only resort sections, though Bali also offers private villa options.",
   },
 ],
+  "india/kerala": [
+    {
+      question: "How many days do I need for Kerala?",
+      answer:
+        "Three to four days covers Kochi and the backwaters. Five to six days adds Munnar or Thekkady. Eight to nine days covers the full state, including Kovalam.",
+    },
+    {
+      question: "Do Malaysians need a visa for India?",
+      answer:
+        "Yes. A 30-day e-Visa applies, and the fee is not included in the package price. We guide you through the documents.",
+    },
+    {
+      question: "What is the best time to visit Kerala?",
+      answer:
+        "September to March is the most pleasant period, with cooler and drier weather. June to August is monsoon season, when the backwaters are greener but rain can disrupt outdoor plans.",
+    },
+    {
+      question: "Is the overnight houseboat included?",
+      answer:
+        "It is included in the 6 day backwaters overnight package, and the Alleppey houseboat features in the 8 and 9 day packages. Check each itinerary for details.",
+    },
+    {
+      question: "Is Kerala suitable for families and seniors?",
+      answer:
+        "Yes. The pace is relaxed, distances are manageable, and you travel with your own private vehicle and guide.",
+    },
+    {
+      question: "Can I customize a Kerala package?",
+      answer:
+        "Yes. Hotel category, trip length and activities can all be adjusted. Send a custom itinerary request.",
+    },
+    {
+      question: "How much does a Kerala tour from Malaysia cost?",
+      answer:
+        "Packages start from RM598 per person for 3 days and go up to RM2,788 for the 9 day Kanyakumari circuit. Price depends on hotel tier, group size and travel dates.",
+    },
+  ],
+  "india/golden-triangle": goldenTriangleFaqs,
+  "india/kashmir": kashmirFaqs,
+  "india/varanasi": varanasiFaqs,
+  "nepal/muslim-friendly": nepalMuslimFriendlyFaqs,
+  "sri-lanka/muslim-friendly": sriLankaMuslimFriendlyFaqs,
 };
 
 /** The FAQ list for a guide, or an empty array if it has none. */
