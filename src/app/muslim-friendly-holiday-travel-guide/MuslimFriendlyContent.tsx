@@ -457,7 +457,19 @@ export default function MuslimFriendlyContent({ faqs }: { faqs: LinkedFaq[] }) {
       {/* ── CTA ───────────────────────────────────────────────────────────── */}
       <CtaSection
         heading="Plan Your Muslim-Friendly Holiday"
-        body="Tell us where you’d like to go, your dates and who is travelling."
+        body={
+          <>
+            Tell us where you’d like to go, your dates and who is travelling.{" "}
+            <Link href="/contact-us/" className="text-white underline underline-offset-4 hover:text-white/80">
+              Request a free quote
+            </Link>{" "}
+            or{" "}
+            <a href="https://wa.me/60193364465" target="_blank" rel="noopener noreferrer" className="text-white underline underline-offset-4 hover:text-white/80">
+              WhatsApp us on +6019 336 4465
+            </a>
+            .
+          </>
+        }
         actions={[
           { label: "Request a free quote", href: "/contact-us/" },
           { label: "WhatsApp us on +6019 336 4465", href: "https://wa.me/60193364465" },

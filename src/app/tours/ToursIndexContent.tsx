@@ -437,7 +437,20 @@ export default function ToursIndexContent({ faqs }: { faqs: LinkedFaq[] }) {
 
         <CtaSection
           heading="Plan Your Trip"
-          body="Not sure where to go? Tell us your dates, budget and who’s travelling, and we’ll suggest a shortlist."
+          body={
+            <>
+              Not sure where to go? Tell us your dates, budget and who’s travelling, and we’ll suggest a
+              shortlist.{" "}
+              <Link href="/custom-itinerary-request/" className="text-white underline underline-offset-4 hover:text-white/80">
+                Send a custom itinerary request
+              </Link>{" "}
+              or{" "}
+              <a href="https://wa.me/60193364465" target="_blank" rel="noopener noreferrer" className="text-white underline underline-offset-4 hover:text-white/80">
+                WhatsApp us on +6019 336 4465
+              </a>
+              .
+            </>
+          }
           actions={[
             { label: "Send a custom itinerary request", href: "/custom-itinerary-request/" },
             { label: "WhatsApp us on +6019 336 4465", href: "https://wa.me/60193364465" },
