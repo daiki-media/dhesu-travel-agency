@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   description: "With 30years of experience this award winning Travel Agent offers the widest choice of holidays, including ground only holidays, all inclusive holidays, group holidays and incentive travel plans for co. Let Us Plan Your Vacation For You. Book Flights, Hotels, Tours & Incentive Trips With Us.",
   verification: {
     google: "aNPzTbZC9UPNAfmwNW82oVD0WbtQ25f9tMNMYHlcBtU",
+    other: {
+      "facebook-domain-verification": "adcpsm53qzcoau4p3y3em6bu6w71v0",
+    },
   },
 };
 
