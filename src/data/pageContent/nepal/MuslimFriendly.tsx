@@ -1,5 +1,6 @@
 "use client";
 
+import { whatsappHref } from "@/src/lib/whatsapp";
 import Link from "next/link";
 import CtaSection from "@/src/components/CtaSection";
 import { Bullet, DataTable, INLINE_LINK, Section } from "@/src/data/guides/primitives";
@@ -264,7 +265,7 @@ export function NepalMuslimFriendlyClosing() {
       body="Get your Nepal quote or message us on WhatsApp."
       actions={[
         { label: "Get your Nepal quote", href: "/contact-us/#free-quote" },
-        { label: "WhatsApp", href: "https://wa.me/60193364465" },
+        { label: "WhatsApp", href: whatsappHref("tours") },
       ]}
       image="/images/gallery/20.jpg"
     />

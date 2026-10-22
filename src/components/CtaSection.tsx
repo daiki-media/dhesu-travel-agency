@@ -1,3 +1,4 @@
+import { whatsappHref } from "@/src/lib/whatsapp";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@/src/components/Button";
@@ -65,7 +66,7 @@ export default function CtaSection({
   ) : (
     <>
       <a
-        href={`https://wa.me/${company.whatsapp[0].number}`}
+        href={whatsappHref("general")}
         target="_blank"
         rel="noopener noreferrer"
         className="btn-base btn-light px-8 py-3.5 text-base font-primary"

@@ -1,5 +1,6 @@
 "use client";
 
+import { whatsappHref, whatsappDisplay } from "@/src/lib/whatsapp";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -445,15 +446,15 @@ export default function ToursIndexContent({ faqs }: { faqs: LinkedFaq[] }) {
                 Send a custom itinerary request
               </Link>{" "}
               or{" "}
-              <a href="https://wa.me/60193364465" target="_blank" rel="noopener noreferrer" className="text-white underline underline-offset-4 hover:text-white/80">
-                WhatsApp us on +6019 336 4465
+              <a href={whatsappHref("tours")} target="_blank" rel="noopener noreferrer" className="text-white underline underline-offset-4 hover:text-white/80">
+                WhatsApp us on {whatsappDisplay}
               </a>
               .
             </>
           }
           actions={[
             { label: "Send a custom itinerary request", href: "/custom-itinerary-request/" },
-            { label: "WhatsApp us on +6019 336 4465", href: "https://wa.me/60193364465" },
+            { label: `WhatsApp us on ${whatsappDisplay}`, href: whatsappHref("tours") },
           ]}
         />
       </main>

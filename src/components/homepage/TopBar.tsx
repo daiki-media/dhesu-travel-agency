@@ -1,3 +1,4 @@
+import { whatsappHref } from "@/src/lib/whatsapp";
 import { MapPin, Clock3, Phone, MessageCircle } from "lucide-react";
 import { company } from "@/src/data/company";
 export default function TopBar() {
@@ -25,7 +26,7 @@ export default function TopBar() {
           </a>
           <span className="text-gray-300">|</span>
           <a
-            href={`https://wa.me/${company.whatsapp[0].number}`}
+            href={whatsappHref("general")}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 hover:text-primary transition-colors duration-200"

@@ -1,3 +1,4 @@
+import { whatsappHref } from "@/src/lib/whatsapp";
 import { MessageCircle, ChevronRight, Send, Phone, MapPin, Clock } from "lucide-react";
 import { FacebookIcon } from "@/src/components/icons/SocialIcons";
 import Image from "next/image";
@@ -33,7 +34,7 @@ const socials = [
   { icon: <FacebookIcon size={16} />, href: company.socials.facebook, label: "Facebook" },
   {
     icon: <MessageCircle size={16} />,
-    href: `https://wa.me/${company.whatsapp[0].number}`,
+    href: whatsappHref("general"),
     label: "WhatsApp",
   },
 ];

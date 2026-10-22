@@ -1,5 +1,6 @@
 "use client";
 
+import { whatsappHref } from "@/src/lib/whatsapp";
 import Link from "next/link";
 import CtaSection from "@/src/components/CtaSection";
 import { Bullet, INLINE_LINK, Section, TripRows } from "@/src/data/guides/primitives";
@@ -140,7 +141,7 @@ export function ChinaHubClosing() {
       body="Tell us which part of China you want to see. Get your China quote or message us on WhatsApp."
       actions={[
         { label: "Get your China quote", href: "/contact-us/#free-quote" },
-        { label: "WhatsApp", href: "https://wa.me/60193364465" },
+        { label: "WhatsApp", href: whatsappHref("tours") },
       ]}
       image="/images/guides/shanghai-pudong.jpg"
     />

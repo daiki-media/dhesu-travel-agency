@@ -9,7 +9,7 @@ return [
     'password' => 'CHANGE_ME',
     'from' => 'noreply@dhesu.com',
     'from_name' => 'Dhesu Website',
-    'to' => ['info@dhesu.travel', 'tours@dhesu.travel'],
+    'to' => ['info@travel.dhesu.com', 'tours@travel.dhesu.com'],
     'cc' => ['seo@daikimedia.com'],
     'allowed_origins' => ['https://dhesu.com'],
 ];

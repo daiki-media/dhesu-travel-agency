@@ -1,5 +1,6 @@
 "use client";
 
+import { whatsappHref, trackWhatsAppClick } from "@/src/lib/whatsapp";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -131,9 +132,8 @@ export default function ContactContent({
 
   function sendWhatsApp(e: React.FormEvent) {
     e.preventDefault();
-    const url = `https://wa.me/${company.whatsapp[0].number}?text=${encodeURIComponent(
-      buildEnquiry()
-    )}`;
+    const url = whatsappHref("general", buildEnquiry());
+    trackWhatsAppClick(url, "Contact form");
     window.open(url, "_blank", "noopener,noreferrer");
   }
 
@@ -233,7 +233,7 @@ export default function ContactContent({
                 {company.whatsapp.map((w) => (
                   <a
                     key={w.number}
-                    href={`https://wa.me/${w.number}`}
+                    href={whatsappHref("general")}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-gray-600 text-sm hover:text-primary transition-colors"
@@ -721,7 +721,7 @@ export default function ContactContent({
                     <FacebookIcon size={16} />
                   </a>
                   <a
-                    href={`https://wa.me/${company.whatsapp[0].number}`}
+                    href={whatsappHref("general")}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Dhesu on WhatsApp"
@@ -757,7 +757,7 @@ export default function ContactContent({
         actions={[
           {
             label: `WhatsApp ${company.whatsapp[0].display}`,
-            href: `https://wa.me/${company.whatsapp[0].number}`,
+            href: whatsappHref("general"),
           },
           {
             label: `Call ${company.phones[0].display}`,

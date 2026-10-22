@@ -1,5 +1,6 @@
 "use client";
 
+import { whatsappHref } from "@/src/lib/whatsapp";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -217,7 +218,7 @@ export default function CustomItineraryContent({
                   {company.whatsapp.map((w) => (
                     <a
                       key={w.number}
-                      href={`https://wa.me/${w.number}`}
+                      href={whatsappHref("tours")}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 px-4 py-3 hover:border-primary transition-colors"
@@ -608,7 +609,7 @@ export default function CustomItineraryContent({
                   {company.whatsapp.map((w) => (
                     <a
                       key={w.number}
-                      href={`https://wa.me/${w.number}`}
+                      href={whatsappHref("tours")}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-white/75 text-[15px] hover:text-primary transition-colors"

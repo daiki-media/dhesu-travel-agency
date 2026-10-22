@@ -1,5 +1,6 @@
 "use client";
 
+import { whatsappHref, whatsappDisplay } from "@/src/lib/whatsapp";
 import Link from "next/link";
 import Button from "@/src/components/Button";
 import CtaSection from "@/src/components/CtaSection";
@@ -193,7 +194,7 @@ export function NepalHubClosing() {
             Get your Nepal quote
           </Link>{" "}
           or message us on{" "}
-          <a href="https://wa.me/60193364465" target="_blank" rel="noopener noreferrer" className={CTA_LINK}>
+          <a href={whatsappHref("tours")} target="_blank" rel="noopener noreferrer" className={CTA_LINK}>
             WhatsApp
           </a>
           .
@@ -201,7 +202,7 @@ export function NepalHubClosing() {
       }
       actions={[
         { label: "Get your Nepal quote", href: "/contact-us/#free-quote" },
-        { label: "WhatsApp us on +6019 336 4465", href: "https://wa.me/60193364465" },
+        { label: `WhatsApp us on ${whatsappDisplay}`, href: whatsappHref("tours") },
       ]}
       image="/images/gallery/38.jpg"
     />

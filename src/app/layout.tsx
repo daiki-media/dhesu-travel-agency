@@ -5,6 +5,7 @@ import JsonLd from "@/src/components/JsonLd";
 import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/Footer";
+import ContactClickTracker from "@/src/components/ContactClickTracker";
 import { SITE_URL } from "@/src/data/site";
 import { graph, organisationSchema, websiteSchema } from "@/src/data/structuredData";
 import { getBlogList } from "@/src/lib/cms";
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   verification: {
     google: "aNPzTbZC9UPNAfmwNW82oVD0WbtQ25f9tMNMYHlcBtU",
     other: {
-      "facebook-domain-verification": "adcpsm53qzcoau4p3y3em6bu6w71v0",
+      "facebook-domain-verification": "yrt86fga633fqnn054ajdhtulbdpia",
     },
   },
 };
@@ -101,6 +102,7 @@ export default async function RootLayout({
         <Navbar blogArticles={blogArticles} />
         {children}
         <Footer />
+        <ContactClickTracker />
       </body>
     </html>
   );

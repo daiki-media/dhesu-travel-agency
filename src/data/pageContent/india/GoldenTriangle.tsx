@@ -1,5 +1,6 @@
 "use client";
 
+import { whatsappHref, whatsappDisplay } from "@/src/lib/whatsapp";
 import Link from "next/link";
 import CtaSection from "@/src/components/CtaSection";
 import { Bullet, DataTable, INLINE_LINK, Section } from "@/src/data/guides/primitives";
@@ -288,7 +289,7 @@ export function GoldenTriangleClosing() {
       }
       actions={[
         { label: "Get a free quote", href: "/contact-us/#free-quote" },
-        { label: "WhatsApp us on +6019 336 4465", href: "https://wa.me/60193364465" },
+        { label: `WhatsApp us on ${whatsappDisplay}`, href: whatsappHref("tours") },
       ]}
       image="/images/gallery/16336.jpg"
     />

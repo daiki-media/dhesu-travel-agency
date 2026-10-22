@@ -1,3 +1,4 @@
+import { whatsappHref, whatsappDisplay } from "@/src/lib/whatsapp";
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
 import ToursIndexContent from "./ToursIndexContent";
@@ -110,7 +111,7 @@ const faqs: LinkedFaq[] = [
       "Dhesu is licensed by the Ministry of Tourism Malaysia (KKKP 1439) and accredited by IATA, PATA and MATTA. You can ",
       { text: "contact our Kuala Lumpur office", href: "/contact-us/" },
       " or message us on ",
-      { text: "WhatsApp at +6019 336 4465", href: "https://wa.me/60193364465" },
+      { text: `WhatsApp at ${whatsappDisplay}`, href: whatsappHref("tours") },
       ".",
     ],
   },

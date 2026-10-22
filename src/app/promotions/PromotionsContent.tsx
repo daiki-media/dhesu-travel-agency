@@ -1,5 +1,6 @@
 "use client";
 
+import { whatsappHref } from "@/src/lib/whatsapp";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -325,7 +326,7 @@ export default function PromotionsContent({
 
               <div className="flex flex-wrap gap-4 mt-8">
                 <a
-                  href={`https://wa.me/${company.whatsapp[0].number}`}
+                  href={whatsappHref("tours")}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -707,7 +708,7 @@ export default function PromotionsContent({
                     {company.whatsapp.map((wa) => (
                       <li key={wa.number}>
                         <a
-                          href={`https://wa.me/${wa.number}`}
+                          href={whatsappHref("tours")}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-white text-[15px] hover:text-primary transition-colors"

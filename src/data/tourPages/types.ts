@@ -169,9 +169,6 @@ export interface TourPageData {
   cta: {
     heading: string;
     subheading: string;
-    phone: string;
-    email: string;
-    address: string;
     bgImage: string;
   };
 }

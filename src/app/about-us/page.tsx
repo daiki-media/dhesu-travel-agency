@@ -1,3 +1,4 @@
+import { contact } from "@/src/data/company";
 import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
 import AboutContent from "./AboutContent";
@@ -61,7 +62,7 @@ const FAQS = [
   {
     question: "How do I get in touch with Dhesu Travel & Tours?",
     answer:
-      "You can contact the agency using the telephone and WhatsApp numbers 019 336 4465 | 019 263 8877 / 03 2287 5525, or visit the office in Bangsar.",
+      `You can call or WhatsApp the agency on ${contact.phone.display}, or visit the office in Bangsar.`,
   },
 ];
 const aboutJsonLd = graph([

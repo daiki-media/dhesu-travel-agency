@@ -1,5 +1,6 @@
 "use client";
 
+import { whatsappHref } from "@/src/lib/whatsapp";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -132,7 +133,6 @@ export default function BlogArticleLayout({
   closing,
   readNext,
 }: BlogArticleLayoutProps) {
-  const whatsapp = company.whatsapp[0].number;
 
   // A <div>, not a <main>: the route file already owns the page's <main>, and
   // nesting a second one would leave the document with two main landmarks.
@@ -188,7 +188,7 @@ export default function BlogArticleLayout({
           { label: closing.linkLabel, href: closing.href },
           {
             label: `WhatsApp ${company.whatsapp[0].display}`,
-            href: `https://wa.me/${whatsapp}`,
+            href: whatsappHref("general"),
           },
         ]}
       />

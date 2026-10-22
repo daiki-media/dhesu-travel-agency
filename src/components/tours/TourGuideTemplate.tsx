@@ -1,11 +1,12 @@
 "use client";
 
+import { whatsappHref, whatsappDisplay } from "@/src/lib/whatsapp";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { PackageCard, SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import { InquiryForm } from "@/src/components/tours/TourPackageDetailTemplate";
-import { company } from "@/src/data/company";
+import { contact } from "@/src/data/company";
 import type { TourPackage, TourPageData } from "@/src/data/tourPages/types";
 import type { IntroLink } from "@/src/data/destinationDetail/types";
 
@@ -99,7 +100,7 @@ export default function TourGuideTemplate({
 }: TourGuideTemplateProps) {
   // TourPageData's cta has no WhatsApp number — that field belongs to the
   // package type. Use the company record, which is where it actually lives.
-  const whatsapp = company.whatsapp[0].number;
+  const whatsapp = contact.whatsapp.number;
   const [headline, ...rest] = h1.split(":");
   const accent = rest.join(":").trim();
 
@@ -205,16 +206,16 @@ export default function TourGuideTemplate({
               <div className="mt-4 text-center text-sm text-gray-500 space-y-1">
                 <p>Or call us directly</p>
                 <a
-                  href={`tel:${cta.phone.replace(/\s/g, "")}`}
+                  href={`tel:${contact.phone.tel}`}
                   className="font-bold text-primary block hover:underline"
                 >
-                  {cta.phone}
+                  {contact.phone.display}
                 </a>
                 <a
-                  href={`mailto:${cta.email}`}
+                  href={`mailto:${contact.email}`}
                   className="text-gray-400 text-xs hover:text-primary transition-colors block"
                 >
-                  {cta.email}
+                  {contact.email}
                 </a>
               </div>
             </div>
@@ -290,21 +291,21 @@ export default function TourGuideTemplate({
             <p className="text-white/75 text-base mb-8">{cta.subheading}</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href={`https://wa.me/${whatsapp}`}
+                href={whatsappHref("tours")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-7 py-3.5 rounded-xl font-semibold text-sm hover:bg-[#20b858] transition-colors"
               >
-                WhatsApp {cta.phone}
+                WhatsApp {whatsappDisplay}
               </a>
               <a
-                href={`mailto:${cta.email}`}
+                href={`mailto:${contact.email}`}
                 className="inline-flex items-center justify-center gap-2 border border-white/40 text-white px-7 py-3.5 rounded-xl font-semibold text-sm hover:bg-white/10 transition-colors"
               >
-                {cta.email}
+                {contact.email}
               </a>
             </div>
-            <p className="text-white/40 text-xs mt-6">{cta.address}</p>
+            <p className="text-white/40 text-xs mt-6">{contact.address}</p>
           </motion.div>
         </div>
       </section>
