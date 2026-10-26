@@ -4,8 +4,8 @@ import { contact } from "@/src/data/company";
 import { whatsappHref, whatsappDisplay, whatsappText, trackWhatsAppClick } from "@/src/lib/whatsapp";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { useEffect, useId, useRef, useState } from "react";
+import { motion } from "framer-motion";
 import Button from "@/src/components/Button";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import { sendEnquiry } from "@/src/lib/send-enquiry";
@@ -432,45 +432,58 @@ export function InquiryForm({ packageName, whatsapp }: { packageName: string; wh
 
 // ─── FAQ Accordion ─────────────────────────────────────────────────────────────
 
+// Every answer is always rendered, so it is in the static HTML that search
+// engines read and matches the FAQPage JSON-LD. Closed answers are only
+// collapsed with CSS. They used to be mounted on click, so the exported HTML
+// had the questions but none of the answers (W42-036).
 export function FaqAccordion({ items }: { items: { question: string; answer: string }[] }) {
   const [open, setOpen] = useState<number | null>(null);
+  const baseId = useId();
 
   return (
     <div className="space-y-3">
-      {items.map((item, i) => (
+      {items.map((item, i) => {
+        const isOpen = open === i;
+        const panelId = `${baseId}-faq-${i}`;
+        return (
         <div key={i} className="border border-gray-200 rounded-xl overflow-hidden">
           <button
-            onClick={() => setOpen(open === i ? null : i)}
+            type="button"
+            onClick={() => setOpen(isOpen ? null : i)}
+            aria-expanded={isOpen}
+            aria-controls={panelId}
             className="w-full flex items-center justify-between px-5 py-4 text-left bg-white hover:bg-gray-50 transition-colors"
           >
             <span className="font-semibold text-[#1a1a1a] text-sm pr-4">{item.question}</span>
             <motion.span
-              animate={{ rotate: open === i ? 45 : 0 }}
+              animate={{ rotate: isOpen ? 45 : 0 }}
               transition={{ duration: 0.2 }}
               className="flex-shrink-0 w-5 h-5 text-primary"
+              aria-hidden="true"
             >
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
               </svg>
             </motion.span>
           </button>
-          <AnimatePresence>
-            {open === i && (
-              <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={{ height: "auto", opacity: 1 }}
-                exit={{ height: 0, opacity: 0 }}
-                transition={{ duration: 0.25, ease: "easeOut" }}
-                className="overflow-hidden"
-              >
-                <div className="px-5 pb-5 pt-1 text-gray-600 text-sm leading-relaxed border-t border-gray-100">
-                  {item.answer}
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
+          {/* grid-rows 0fr -> 1fr animates to the answer's natural height. */}
+          <div
+            id={panelId}
+            role="region"
+            aria-hidden={!isOpen}
+            className={`grid transition-[grid-template-rows,opacity] duration-[250ms] ease-out ${
+              isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+            }`}
+          >
+            <div className="overflow-hidden">
+              <div className="px-5 pb-5 pt-1 text-gray-600 text-sm leading-relaxed border-t border-gray-100">
+                {item.answer}
+              </div>
+            </div>
+          </div>
         </div>
-      ))}
+        );
+      })}
     </div>
   );
 }
