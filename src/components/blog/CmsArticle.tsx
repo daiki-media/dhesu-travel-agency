@@ -54,6 +54,9 @@ export default function CmsArticle({
       closing={article.cta ?? FALLBACK_CTA}
       readNext={readNext}
     >
+      {article.intro ? (
+        <div className="blog-html" dangerouslySetInnerHTML={{ __html: article.intro }} />
+      ) : null}
       {article.sections.map((section) => (
         <ArticleSection
           key={section.id}

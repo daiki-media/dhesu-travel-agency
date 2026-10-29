@@ -39,6 +39,11 @@ export type ArticleCta = {
 export type ParsedArticle = {
   /** Inline HTML for the hero's intro paragraph. */
   lead: string;
+  /**
+   * Raw HTML of anything else before the first <h2> (e.g. a second intro
+   * paragraph), rendered at the top of the article body. Empty for most posts.
+   */
+  intro: string;
   sections: ArticleSection[];
   faqs: ArticleFaq[];
   cta: ArticleCta | null;
@@ -155,6 +160,9 @@ export function parseArticle(content: string): ParsedArticle {
     // The hero renders the intro inside its own <p>, so the lead is handed over
     // as the paragraph's inline contents rather than the paragraph itself.
     lead: firstParagraph?.[1].trim() ?? "",
+    intro: firstParagraph
+      ? preamble.slice((firstParagraph.index ?? 0) + firstParagraph[0].length).trim()
+      : "",
     sections,
     faqs,
     cta,

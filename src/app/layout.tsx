@@ -6,6 +6,7 @@ import TopBar from "@/src/components/homepage/TopBar";
 import Navbar from "@/src/components/navbar/Navbar";
 import Footer from "@/src/components/Footer";
 import ContactClickTracker from "@/src/components/ContactClickTracker";
+import PageHistoryTracker from "@/src/components/PageHistoryTracker";
 import { SITE_URL } from "@/src/data/site";
 import { graph, organisationSchema, websiteSchema } from "@/src/data/structuredData";
 import { getBlogList } from "@/src/lib/cms";
@@ -103,6 +104,7 @@ export default async function RootLayout({
         {children}
         <Footer />
         <ContactClickTracker />
+        <PageHistoryTracker />
       </body>
     </html>
   );

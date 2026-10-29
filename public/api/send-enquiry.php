@@ -63,6 +63,16 @@ $phone = oneLine(clean($input['phone'] ?? '', 40));
 $topic = oneLine(clean($input['topic'] ?? '', 150));
 $source = in_array($input['form'] ?? '', ['contact', 'package'], true) ? $input['form'] : 'contact';
 
+// Page context from the form (D03): the page the form is on and the dhesu.com
+// page the visitor came from. Only dhesu.com URLs are accepted.
+function siteUrl(mixed $value): string
+{
+    $url = oneLine(clean($value, 300));
+    return preg_match('~^https://(www\.)?dhesu\.com(/[^\s?#]*)?$~i', $url) ? $url : '';
+}
+$page = siteUrl($input['page'] ?? '');
+$from = siteUrl($input['from'] ?? '');
+
 if ($name === '' || ($email === '' && $phone === '')) {
     respond(422, ['ok' => false, 'error' => 'Please give your name and a phone number or email.']);
 }
@@ -122,7 +132,11 @@ foreach ($details as $key => $value) {
     $lines[] = $key . ': ' . ($value !== '' ? $value : '-');
 }
 $lines[] = '';
-$lines[] = 'Sent ' . gmdate('Y-m-d H:i') . ' UTC from ' . ($_SERVER['HTTP_REFERER'] ?? 'dhesu.com');
+$lines[] = 'Enquiry page: ' . ($page ?: ($_SERVER['HTTP_REFERER'] ?? 'dhesu.com'));
+if ($from !== '') {
+    $lines[] = 'Came from: ' . $from;
+}
+$lines[] = 'Sent ' . gmdate('Y-m-d H:i') . ' UTC';
 $body = implode("\r\n", $lines);
 
 try {
