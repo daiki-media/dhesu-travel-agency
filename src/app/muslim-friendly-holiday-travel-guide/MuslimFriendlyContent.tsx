@@ -365,7 +365,7 @@ export default function MuslimFriendlyContent({
         <div className="mt-10 space-y-12">
           {budgetTiers.map((tier) => (
             <div key={tier.heading}>
-              <h3 className="font-primary font-bold text-[#1a1a1a] text-xl md:text-2xl leading-snug mb-3 max-w-3xl">
+              <h3 className="font-primary font-bold text-teal-navy text-xl leading-snug mb-3">
                 {tier.heading}
               </h3>
               <p className={`${BODY} max-w-3xl mb-6`}>{tier.text}</p>
@@ -375,7 +375,7 @@ export default function MuslimFriendlyContent({
                     key={pkg.heading}
                     className="rounded-2xl border border-gray-200 bg-white p-6"
                   >
-                    <h4 className="font-primary font-bold text-[#1a1a1a] text-lg leading-snug mb-3">
+                    <h4 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-3">
                       {pkg.heading}
                     </h4>
                     <p className={`${BODY} mb-4`}>{pkg.lead}</p>
@@ -412,7 +412,7 @@ export default function MuslimFriendlyContent({
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
           {highlights.map((item) => (
             <div key={item.heading}>
-              <h3 className="font-primary font-bold text-[#1a1a1a] text-xl leading-snug mb-3">
+              <h3 className="font-primary font-bold text-teal-navy text-xl leading-snug mb-3">
                 {item.heading}
               </h3>
               <p className={BODY}>{item.text}</p>
