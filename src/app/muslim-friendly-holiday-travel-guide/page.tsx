@@ -11,20 +11,19 @@ import {
   webPage,
 } from "@/src/data/structuredData";
 
-// Holiday Idea sheet, row 28. The title is unchanged here (DHS-T3 owns it); the
-// description is the "Meta Description" line of the DHS-T4 copy, verbatim.
+// Holiday Idea sheet, row 28. Title, meta description and H1 are the DHS-T2
+// SEO sheet's, verbatim (it wins over the DHS-T4 copy for these three).
 // Per-country versions already exist at /tours/nepal/muslim-friendly and
 // /tours/sri-lanka/muslim-friendly; this is the page above them.
 const PATH = "/muslim-friendly-holiday-travel-guide";
 const TITLE = "Muslim-Friendly Tour Packages from Malaysia | Dhesu";
 const DESCRIPTION =
-  "Explore verified Muslim-friendly tour packages from Malaysia with Dhesu Travel (MOTAC KKKP 1439). Enjoy handpicked halal dining, guaranteed prayer intervals, and authentic cultural exploration across Asia. Packages start from RM1,088 per person.";
+  "Muslim-friendly tour packages from Malaysia with halal meals and prayer stops: Kashmir, Golden Triangle, Nepal and Sri Lanka, with prices in RM.";
 
 // datePublished is when this page was first committed; dateModified is the
 // DHS-T4 copy going live.
-// The H1 as rendered by the hero (title + titleAccent).
-const HEADLINE =
-  "Muslim-Friendly Tour Packages Hub: Verified Itineraries, Halal Dining, and Prayer Schedules";
+// The H1 as rendered by the hero.
+const HEADLINE = "Muslim-Friendly Tour Packages from Malaysia";
 const HERO_IMAGE = "/images/tour-types/mosque-night-istanbul.jpg";
 
 const DATE_PUBLISHED = "2026-09-03T14:46:05+07:00";

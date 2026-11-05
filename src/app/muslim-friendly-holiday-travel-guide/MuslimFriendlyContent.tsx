@@ -285,8 +285,10 @@ export default function MuslimFriendlyContent({
         image={PHOTO.hero}
         imageAlt={PHOTO.heroAlt}
         eyebrow="Tour Types"
-        title="Muslim-Friendly Tour Packages Hub: "
-        titleAccent="Verified Itineraries, Halal Dining, and Prayer Schedules"
+        // DHS-T3: the h1 is the SEO sheet's; the DHS-T4 headline stays as a
+        // sub-heading paragraph.
+        title="Muslim-Friendly Tour Packages from Malaysia"
+        subheading="Muslim-Friendly Tour Packages Hub: Verified Itineraries, Halal Dining, and Prayer Schedules"
         intro={
           <>
             Planning a vacation that balances spiritual obligations with seamless travel logistics
