@@ -59,10 +59,13 @@ export function PackageCard({
   pkg,
   index,
   slug,
+  nameHref,
 }: {
   pkg: TourPackage;
   index: number;
   slug: string;
+  /** Optional link on the package name, for a list whose copy links the name elsewhere (e.g. to its hub). */
+  nameHref?: string;
 }) {
   return (
     <motion.div
@@ -112,7 +115,13 @@ export function PackageCard({
         </span>
 
         <h3 className="font-primary font-bold text-[#1a1a1a] text-lg mb-3 leading-snug">
-          {pkg.name}
+          {nameHref ? (
+            <Link href={nameHref} className="hover:text-primary transition-colors">
+              {pkg.name}
+            </Link>
+          ) : (
+            pkg.name
+          )}
         </h3>
 
         {/* Highlights, or — for a guide, which has none — what the article covers. */}
@@ -474,12 +483,12 @@ export default function TourDestinationTemplate({
               className="max-w-3xl"
             >
               <SectionLabel text={gettingThere.sectionLabel} />
-              <h2 className="font-primary font-bold text-[#1a1a1a] text-4xl md:text-5xl leading-tight mb-6">
+              <h2 className="font-primary font-bold text-[#1a1a1a] text-4xl md:text-5xl leading-tight mb-4">
                 {gettingThere.heading}
               </h2>
               <div className="space-y-5">
                 {gettingThere.paragraphs.map((parts, i) => (
-                  <p key={i} className="text-gray-600 text-lg leading-relaxed">
+                  <p key={i} className="text-gray-500 text-lg leading-relaxed">
                     <LinkedText parts={parts} />
                   </p>
                 ))}

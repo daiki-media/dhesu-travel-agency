@@ -1,13 +1,18 @@
 "use client";
 
+import { whatsappHref, whatsappDisplay } from "@/src/lib/whatsapp";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { PackageCard, SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import AllPagesHero from "@/src/components/AllPagesHero";
+import Button from "@/src/components/Button";
+import CtaSection from "@/src/components/CtaSection";
 import LinkedFaqSection from "@/src/components/LinkedFaqSection";
 import type { LinkedFaq } from "@/src/data/linkedFaq";
+import type { TourPackage } from "@/src/data/tourPages/types";
 
-/** One row of the copy's package table, rendered as a card. */
+/** One row of the copy's package table, rendered as a standard package card. */
 export type MuslimFriendlyPackage = {
   name: string;
   /** Where the package name links (the name column of the copy). */
@@ -17,7 +22,36 @@ export type MuslimFriendlyPackage = {
   inclusions: string;
   /** The "Direct Package Link" column of the copy. */
   packageHref: string;
+  /** Card photo and tag, from the package or hub the row links to. */
+  image: string;
+  tag: string;
+  tagColor: TourPackage["tagColor"];
 };
+
+/**
+ * A copy row in the shape PackageCard reads. The card links to
+ * /tours/{slug}/{pkg.slug}, so the "Direct Package Link" is split into those
+ * two parts; the key inclusions go in `blurb`, the card's one-paragraph slot,
+ * so they stay the copy's sentence word for word.
+ */
+function toCard(pkg: MuslimFriendlyPackage): { card: TourPackage; slug: string } {
+  const [slug, ...rest] = pkg.packageHref.replace(/^\/tours\/|\/$/g, "").split("/");
+  return {
+    slug,
+    card: {
+      id: pkg.packageHref + pkg.name,
+      slug: rest.join("/"),
+      name: pkg.name,
+      blurb: pkg.inclusions,
+      duration: pkg.duration,
+      price: pkg.price,
+      priceNote: "Starting Price (MYR)",
+      tag: pkg.tag,
+      tagColor: pkg.tagColor,
+      image: pkg.image,
+    },
+  };
+}
 
 const PHOTO = {
   hero: "/images/tour-types/mosque-night-istanbul.jpg",
@@ -32,10 +66,6 @@ const fadeUp = {
 };
 
 const BODY = "text-gray-600 text-[15px] leading-relaxed";
-
-const BUTTON = "btn-base btn-light px-8 py-3.5 text-base font-primary inline-flex";
-
-const CARD_LABEL = "text-xs font-semibold uppercase tracking-wider text-gray-400 font-primary";
 
 // ─── Copy ──────────────────────────────────────────────────────────────────────
 
@@ -197,10 +227,12 @@ const highlights: { heading: string; text: string }[] = [
 // ─── Building blocks ───────────────────────────────────────────────────────────
 
 function Section({
+  label,
   heading,
   children,
   className = "",
 }: {
+  label: string;
   heading: string;
   children: React.ReactNode;
   className?: string;
@@ -214,6 +246,7 @@ function Section({
           viewport={{ once: true, margin: "-60px" }}
           variants={fadeUp}
         >
+          <SectionLabel text={label} />
           <h2 className="font-primary font-bold text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-6 max-w-3xl">
             {heading}
           </h2>
@@ -229,42 +262,6 @@ function Bullet({ children }: { children: React.ReactNode }) {
     <li className="flex gap-4">
       <span className="mt-[0.7rem] h-px w-5 shrink-0 bg-primary" aria-hidden />
       <span className={BODY}>{children}</span>
-    </li>
-  );
-}
-
-function PackageCard({ pkg }: { pkg: MuslimFriendlyPackage }) {
-  return (
-    <li className="flex flex-col h-full rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-      <dl className="grid grid-cols-2 gap-4">
-        <div className="col-span-2">
-          <dt className={CARD_LABEL}>Destination &amp; Tour Name</dt>
-          <dd className="mt-1 font-primary font-bold text-lg leading-snug text-[#1a1a1a]">
-            <Link href={pkg.nameHref} className="hover:text-primary transition-colors">
-              {pkg.name}
-            </Link>
-          </dd>
-        </div>
-        <div>
-          <dt className={CARD_LABEL}>Duration</dt>
-          <dd className="mt-1 text-[15px] text-[#1a1a1a]">{pkg.duration}</dd>
-        </div>
-        <div>
-          <dt className={CARD_LABEL}>Starting Price (MYR)</dt>
-          <dd className="mt-1 font-primary font-bold text-lg text-primary">{pkg.price}</dd>
-        </div>
-        <div className="col-span-2">
-          <dt className={CARD_LABEL}>Key Inclusions</dt>
-          <dd className={`mt-1 ${BODY}`}>{pkg.inclusions}</dd>
-        </div>
-      </dl>
-      <Link
-        href={pkg.packageHref}
-        className="mt-auto pt-6 inline-flex items-center gap-2 font-primary font-semibold text-teal-navy hover:text-primary transition-colors"
-      >
-        Direct Package Link
-        <span aria-hidden>&rarr;</span>
-      </Link>
     </li>
   );
 }
@@ -312,20 +309,28 @@ export default function MuslimFriendlyContent({
       </section>
 
       {/* ── PACKAGES WITH PRICES ──────────────────────────────────────────── */}
-      <Section heading="Muslim-Friendly Tour Packages with Prices" className="bg-white">
+      <Section
+        label="Packages"
+        heading="Muslim-Friendly Tour Packages with Prices"
+        className="bg-white"
+      >
         <p className={`${BODY} max-w-3xl mb-8`}>
           The table below highlights our most popular packages, featuring confirmed
           land-arrangement pricing, destinations, trip durations, and core package inclusions.
         </p>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {packages.map((pkg) => (
-            <PackageCard key={pkg.name} pkg={pkg} />
-          ))}
-        </ul>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
+          {packages.map((pkg, i) => {
+            const { card, slug } = toCard(pkg);
+            return (
+              <PackageCard key={card.id} pkg={card} index={i} slug={slug} nameHref={pkg.nameHref} />
+            );
+          })}
+        </div>
       </Section>
 
       {/* ── WHY DHESU ─────────────────────────────────────────────────────── */}
       <Section
+        label="Why Dhesu"
         heading="Why Malaysians Choose Dhesu as a Muslim-Friendly Travel Agency"
         className="bg-teal-light/40"
       >
@@ -342,14 +347,16 @@ export default function MuslimFriendlyContent({
           ))}
         </ul>
         <div className="mt-10">
-          <Link href="/contact-us/" className={BUTTON}>
-            <span className="btn-content">Contact Us</span>
+          <Link href="/contact-us/">
+            <Button variant="light" showArrow>
+              Contact Us
+            </Button>
           </Link>
         </div>
       </Section>
 
       {/* ── BY BUDGET ─────────────────────────────────────────────────────── */}
-      <Section heading="Muslim-Friendly Packages by Budget" className="bg-white">
+      <Section label="By Budget" heading="Muslim-Friendly Packages by Budget" className="bg-white">
         <p className={`${BODY} max-w-3xl`}>
           Understanding trip expenses upfront allows you to plan your family getaways,
           anniversaries, or solo adventures with absolute clarity. Our packages fall into three
@@ -394,6 +401,7 @@ export default function MuslimFriendlyContent({
 
       {/* ── DESTINATION HIGHLIGHTS ────────────────────────────────────────── */}
       <Section
+        label="Where It Works"
         heading="In-Depth Muslim-Friendly Destination Highlights"
         className="bg-teal-light/40"
       >
@@ -414,7 +422,7 @@ export default function MuslimFriendlyContent({
       </Section>
 
       {/* ── PLANNING COMPANION ────────────────────────────────────────────── */}
-      <Section heading="Planning Companion" className="bg-white">
+      <Section label="Planning" heading="Planning Companion" className="bg-white">
         <p className={`${BODY} max-w-3xl`}>
           If you are evaluating options across different parts of Asia, our dedicated travel guide
           compares flight times, seasonal weather, and local facilities. We offer a complete
@@ -447,14 +455,29 @@ export default function MuslimFriendlyContent({
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
       <LinkedFaqSection faqs={faqs} heading="Frequently Asked Questions" />
 
-      {/* ── PLAN YOUR TRIP ────────────────────────────────────────────────── */}
-      <section className="py-12 lg:py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-12 text-center">
-          <Link href="/contact-us/" className={BUTTON}>
-            <span className="btn-content">Plan Your Trip</span>
-          </Link>
-        </div>
-      </section>
+      {/* ── CTA ───────────────────────────────────────────────────────────── */}
+      {/* Heading and body as the page had them before the DHS-T4 copy; the
+          copy's own "Plan Your Trip" is the primary action. */}
+      <CtaSection
+        heading="Plan Your Muslim-Friendly Holiday"
+        body={
+          <>
+            Tell us where you’d like to go, your dates and who is travelling.{" "}
+            <Link href="/contact-us/" className="text-white underline underline-offset-4 hover:text-white/80">
+              Request a free quote
+            </Link>{" "}
+            or{" "}
+            <a href={whatsappHref("tours")} target="_blank" rel="noopener noreferrer" className="text-white underline underline-offset-4 hover:text-white/80">
+              WhatsApp us on {whatsappDisplay}
+            </a>
+            .
+          </>
+        }
+        actions={[
+          { label: "Plan Your Trip", href: "/contact-us/" },
+          { label: `WhatsApp us on ${whatsappDisplay}`, href: whatsappHref("tours") },
+        ]}
+      />
     </>
   );
 }

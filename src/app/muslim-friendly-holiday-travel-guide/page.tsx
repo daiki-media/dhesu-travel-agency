@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
 import MuslimFriendlyContent, { type MuslimFriendlyPackage } from "./MuslimFriendlyContent";
 import { linkedFaqsAsText, type LinkedFaq } from "@/src/data/linkedFaq";
+import { getTourPage } from "@/src/data/tourPages";
+import type { TourPackage } from "@/src/data/tourPages/types";
 import {
   blogPosting,
   breadcrumbList,
@@ -43,11 +45,27 @@ export const metadata: Metadata = {
   },
 };
 
-// The package table of the copy, rendered as cards. Owned by the page for the
-// same reason as the FAQs below; it also drives the ItemList markup.
-// nameHref is where the name column links; packageHref is the "Direct Package
-// Link" column. Prices are the copy's, as written.
-const packages: MuslimFriendlyPackage[] = [
+// The card photo and tag of a row come from what its "Direct Package Link"
+// points at: the package's own entry in the hub JSON, or, for a link to a hub
+// (Bali, Kashmir), that hub's card on its country page. Same photo and tag as
+// the hubs show, so the card here is the one visitors already know.
+function cardArt(packageHref: string): Pick<TourPackage, "image" | "tag" | "tagColor"> {
+  const [destination, ...rest] = packageHref.replace(/^\/tours\/|\/$/g, "").split("/");
+  const hub = getTourPage(destination);
+  const slug = rest.join("/");
+  const pkg = hub?.packages.items.find((p) => p.slug === slug);
+  if (pkg) return { image: pkg.image, tag: pkg.tag, tagColor: pkg.tagColor };
+  const zone = hub?.zones.areas.find((z) => z.href === `/tours/${destination}/${slug}`);
+  if (zone) return { image: zone.image, tag: zone.tag, tagColor: zone.tagColor };
+  throw new Error(`No package or hub card for ${packageHref}`);
+}
+
+// The package table of the copy, rendered as the standard package cards. Owned
+// by the page for the same reason as the FAQs below; it also drives the
+// ItemList markup. nameHref is where the name column links; packageHref is the
+// "Direct Package Link" column. Name, duration, price and inclusions are the
+// copy's, as written.
+const packageRows: Omit<MuslimFriendlyPackage, "image" | "tag" | "tagColor">[] = [
   {
     name: "Kashmir Super Saver",
     nameHref: "/tours/india/kashmir/",
@@ -103,6 +121,11 @@ const packages: MuslimFriendlyPackage[] = [
     packageHref: "/tours/india/kashmir/",
   },
 ];
+
+const packages: MuslimFriendlyPackage[] = packageRows.map((row) => ({
+  ...row,
+  ...cardArt(row.packageHref),
+}));
 
 // Owned by the page, not the component: the accordion is a client component, and
 // exporting an array from one hands the server a client reference rather than
