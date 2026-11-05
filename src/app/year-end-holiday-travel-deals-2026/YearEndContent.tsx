@@ -236,8 +236,10 @@ export default function YearEndContent({
         image={PHOTO.hero}
         imageAlt={PHOTO.heroAlt}
         eyebrow="Seasonal"
-        title="Year-End Holiday Deals 2026"
-        titleAccent="Malaysia&rsquo;s Busiest Travel Window"
+        // DHS-T3: the h1 is the SEO sheet's; the creative line stays as a
+        // sub-heading paragraph.
+        title="Year-End Holiday Packages 2026"
+        subheading="Malaysia&rsquo;s Busiest Travel Window"
         intro={
           <>
             The year end period, which is from the long break of the school, through

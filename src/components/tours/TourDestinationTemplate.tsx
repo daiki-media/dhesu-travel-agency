@@ -314,25 +314,49 @@ export default function TourDestinationTemplate({
             </motion.div>
 
             {/* Headline */}
-            <h1 className="font-primary font-bold text-5xl md:text-7xl leading-[1.05] mb-6">
-              <motion.span
-                initial={{ opacity: 0, y: 28 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.1, ease: easeOut }}
-                className="block text-white mb-2"
-              >
-                {hero.headline}
-              </motion.span>
-              {" "}
-              <motion.span
-                initial={{ opacity: 0, y: 28 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
-                className="block text-primary"
-              >
-                {hero.headlineAccent}
-              </motion.span>
-            </h1>
+            {hero.h1 ? (
+              <>
+                {/* The SEO h1, with the creative headline kept as a sub-heading
+                    paragraph so the page still has exactly one h1. */}
+                <motion.h1
+                  initial={{ opacity: 0, y: 28 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.1, ease: easeOut }}
+                  className="font-primary font-bold text-white text-4xl md:text-6xl leading-[1.05] mb-4"
+                >
+                  {hero.h1}
+                </motion.h1>
+                <motion.p
+                  initial={{ opacity: 0, y: 28 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
+                  className="font-primary font-semibold text-2xl md:text-3xl leading-tight mb-6"
+                >
+                  <span className="text-white">{hero.headline}</span>{" "}
+                  <span className="text-primary">{hero.headlineAccent}</span>
+                </motion.p>
+              </>
+            ) : (
+              <h1 className="font-primary font-bold text-5xl md:text-7xl leading-[1.05] mb-6">
+                <motion.span
+                  initial={{ opacity: 0, y: 28 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.1, ease: easeOut }}
+                  className="block text-white mb-2"
+                >
+                  {hero.headline}
+                </motion.span>
+                {" "}
+                <motion.span
+                  initial={{ opacity: 0, y: 28 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
+                  className="block text-primary"
+                >
+                  {hero.headlineAccent}
+                </motion.span>
+              </h1>
+            )}
 
             {/* Body */}
             <motion.p

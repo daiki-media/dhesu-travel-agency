@@ -1,6 +1,7 @@
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { GuidePageExtras } from "./types";
 
-export interface IndonesiaLandingPage {
+export interface IndonesiaLandingPage extends GuidePageExtras {
   key: string;
   label: string;
   kind: "region" | "theme";
@@ -32,10 +33,9 @@ export const INDONESIA_REGIONS: IndonesiaLandingPage[] = [
     blurb:
       "13 packages from RM398. Uluwatu sunset, Ubud rice terraces, Tanah Lot, Nusa Penida sea cliffs and Gates of Heaven — Bali delivers the island life, the Hindu temple culture and the beach. Private tours, island hopping, romantic escapes and ATV adventures.",
     select: startsWith("bali/"),
-    metaTitle:
-      "Bali Tour Packages from Malaysia | Private Tours | Dhesu Travel",
+    metaTitle: "Bali Tour Packages from Malaysia | From RM398 | Dhesu",
     metaDescription:
-      "Bali tour packages from RM398 with Dhesu Travel, trusted since 1988. Uluwatu sunset, Ubud highlands, Tanah Lot, Nusa Penida, Gates of Heaven and romantic pool villas. 13 100% private packages — MATTA & IATA registered.",
+      "Private Bali tour packages from Malaysia and KL, 3 to 6 days, from RM398 per person. Nusa Penida, Ubud, pool villas and honeymoon trips. Get a free quote.",
     h1: "Bali Tour Packages from Malaysia",
     intro:
       "Bali is among the most visited islands on Earth, and for good reason: it is small enough to understand in a week but layered enough to keep returning to for a decade. The Hindu-Balinese culture that survived the Islamisation of Java in the 15th and 16th centuries by retreating here has produced a religious and artistic life unlike anything else in Southeast Asia. Every compound has its shrine. Every village has its annual temple festival. Every morning, offerings of flower petals and incense are placed on thresholds, motorbikes, kitchen counters, shop fronts and hotel reception desks — a practice that has continued uninterrupted for centuries and shows no sign of stopping.\n\nUluwatu Temple sits at the southwest tip of the Bukit Peninsula — a limestone promontory that juts south from the main body of Bali — on a cliff 70 metres above the Indian Ocean. The temple is one of Bali's six kayangan jagat, the sacred directional temples that spiritually protect the island, and has been a site of worship since the 11th century. The Kecak fire dance performed at the cliff-edge amphitheatre at sunset — 50 to 100 bare-chested men in black-and-white checked sarongs, their arms swaying and their voices creating the interlocking chant that replaces the gamelan orchestra — is the most theatrical thing you can see in Bali, and the view behind them is the Indian Ocean turning orange.\n\nTegalalang Rice Terraces, 15 minutes north of Ubud, are the most photographed landscape in Bali. The UNESCO-recognised subak irrigation system — a cooperative water management network controlled by the priests of Pura Ulun Danu temple — has shaped the terraced hillsides of Bali for over a thousand years. Tegalalang's terraces cascade down a steep valley, with the Tirta Manik Mas river at the bottom. The light is best in the morning (facing east before 10:00 AM) or in the late afternoon. The Bali Swing — a series of wooden swings and platforms constructed over the valley edge — has become the most Instagrammed experience in Bali, with the terraces as backdrop.\n\nUbud is Bali's cultural centre and the base for most highland programmes. The Ubud Royal Palace at the intersection of Jalan Raya Ubud and Monkey Forest Road was built in the 19th century for the local Sukawati dynasty and is still the family residence — but the compound's outer pavilions are open daily for visitors, and traditional dance performances are staged in the courtyard most evenings. The Ubud Art Market directly opposite has been selling Balinese textiles, carvings, silver jewellery and batik cloth since the 1970s. The Sacred Monkey Forest Sanctuary at the south end of Jalan Monkey Forest protects a 12.5-hectare patch of ancient banyan forest containing three Hindu temple compounds and approximately 700 Balinese long-tailed macaques.\n\nTanah Lot, 20 kilometres southwest of Ubud on the west coast of Bali, is the single most visited site on the island. A sea stack connected to the mainland at low tide by a causeway of volcanic rock, topped by a 16th-century Balinese sea temple, facing west into the sunset — the image has appeared on postcards, screensavers, and travel magazine covers so many times that seeing it in person still feels like a surprise. The temple itself is accessible at low tide; the outer terrace of the compound (accessible to non-Hindus with a sarong) affords views of the temple from the rock above the surf on all sides. The surrounding area has been developed into a tourist complex with restaurants, art markets and a Hard Rock Café, but none of it diminishes the temple itself at sunset.\n\nNusa Penida is an island 20 kilometres southeast of Bali, accessible by a 45-minute fast boat from Sanur beach. Until 2016 it was largely ignored by international tourism; since then it has become one of the most-visited destinations in Indonesia. The reason is Kelingking Beach — a T-shaped limestone peninsula shaped like a Tyrannosaurus Rex skull, with a 200-metre vertical cliff face and a strip of white sand accessible only by a steep 45-minute hike down the cliff path. Angel's Billabong, a few kilometres north, is a natural infinity pool in the rocks at the cliff edge where crystal-clear water pools above the ocean at low tide. Crystal Bay is the top snorkelling site — on the right day between July and October, manta rays cruise the cleaning station at Manta Point just offshore.\n\nEvery Bali package from Dhesu is 100% private — your own driver-guide, your own vehicle, your own schedule. You will not share transport or tours with strangers. The driver-guides in Bali are licensed, English-speaking, and typically have 10–20 years of experience. Halal meals can be arranged on request. All entrance fees, temple sarongs, and transfers are included in the stated price.",
@@ -179,21 +179,31 @@ export const INDONESIA_THEMES: IndonesiaLandingPage[] = [
     blurb:
       "A planning guide to Bali for Malaysian travellers: how honeymoon, family and budget trips differ, and which itinerary suits which kind of holiday.",
     select: startsWith("bali/"),
-    primaryKeyword: "bali holiday package malaysia",
+    // DHS-T3: the guide no longer targets a "package" keyword (that is the hub's),
+    // so no keywords meta. Kept as "" because primaryKeyword marks a guide page
+    // (getGuidePages); an empty value is not emitted by the route.
+    primaryKeyword: "",
     metaTitle:
-      "Bali Holiday Packages From Malaysia: Honeymoon, Family & Budget Options",
+      "Bali Travel Guide for Malaysians: Weather, Costs, Tips",
     metaDescription:
-      "Bali holiday packages from Malaysia: honeymoon, family, and budget options. Private tours with sunset cruises, ATV adventures, and cultural sites.",
-    h1: "Bali Holiday Packages From Malaysia: Honeymoon, Family & Budget Options",
+      "Comprehensive Bali travel guide for Malaysians: weather, costs, Nusa Penida, Ubud, pool villas and top itineraries. Practical tips from Dhesu.",
+    h1: "Bali Travel Guide for Malaysians: Weather, Costs, Tips",
+    // DHS-T3: the previous creative headline line, kept as a sub-heading.
+    subheading: "Honeymoon, Family & Budget Options",
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/BaliGuide.tsx.
     intro:
       "Even today, Bali continues to be one of the most sought-after tourist spots for the people from Malaysia, and not without reason its proximity to Malaysia, the combination of culture and beauty, and sufficient variety that allows it to accommodate the requirements of honeymoon couples as well as families who are on vacation or budget travelers. The following article provides an insight into the various types of Bali packages available.",
+    // DHS-T3: intro link from the guide to its hub, exact anchor from the sheet.
+    hubLine: {
+      text: "Ready to book? See our Bali tour packages from Malaysia.",
+      link: { text: "Bali tour packages from Malaysia", href: "/tours/indonesia/bali/" },
+    },
     canonicalUrl: "/tours/indonesia/bali-holiday-travel-guide-2026",
     ogTitle:
-      "Bali Holiday Packages From Malaysia: Honeymoon, Family & Budget Options",
+      "Bali Travel Guide for Malaysians: Weather, Costs, Tips",
     ogDescription:
-      "Bali holiday packages from Malaysia: honeymoon, family, and budget options. Private tours with sunset cruises, ATV adventures, and cultural sites.",
+      "Comprehensive Bali travel guide for Malaysians: weather, costs, Nusa Penida, Ubud, pool villas and top itineraries. Practical tips from Dhesu.",
     ogImage: "/images/guides/ulun-danu-beratan.jpg",
   },
   {

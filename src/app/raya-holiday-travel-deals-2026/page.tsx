@@ -11,9 +11,9 @@ import {
 // Holiday Idea sheet, row 34. Title and description are copied verbatim; the
 // body copy comes from content-document/sesional&school-holiday/.
 const PATH = "/raya-holiday-travel-deals-2026";
-const TITLE = "Raya Holiday Packages: Malaysian Festive Travel Made Muslim-Friendly";
+const TITLE = "Hari Raya 2027 Holiday Packages from Malaysia | Dhesu";
 const DESCRIPTION =
-  "Raya holiday packages from Malaysia — Muslim-friendly destinations with halal food and prayer access, timed perfectly around the festive break.";
+  "Plan Hari Raya 2027 travel now: Muslim-friendly Kashmir, Bali, Sri Lanka and Nepal packages from Malaysia with halal meals and prayer stops. Free quote.";
 
 export const metadata: Metadata = {
   title: TITLE,

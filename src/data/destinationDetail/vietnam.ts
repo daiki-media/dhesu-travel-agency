@@ -1,6 +1,7 @@
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { GuidePageExtras } from "./types";
 
-export interface VietnamLandingPage {
+export interface VietnamLandingPage extends GuidePageExtras {
   key: string;
   label: string;
   kind: "region" | "theme";
@@ -141,21 +142,31 @@ export const VIETNAM_THEMES: VietnamLandingPage[] = [
     // A country-level guide speaks to the whole range, so it lists every
     // Vietnam package rather than filtering to a subset.
     select: (packages) => packages,
-    primaryKeyword: "vietnam tour package malaysia",
+    // DHS-T3: the guide no longer targets a "package" keyword (that is the hub's),
+    // so no keywords meta. Kept as "" because primaryKeyword marks a guide page
+    // (getGuidePages); an empty value is not emitted by the route.
+    primaryKeyword: "",
     metaTitle:
-      "Vietnam Tour Packages From Malaysia: North, Central & South Options",
+      "Vietnam Travel Guide for Malaysians: Weather, Routes, Tips",
     metaDescription:
-      "Vietnam tour packages from Malaysia: Hanoi, Halong Bay, Da Nang, Hoi An & Ho Chi Minh City. Visa info and multi-region itineraries included.",
-    h1: "Vietnam Tour Packages From Malaysia: North, Central & South Options",
+      "Ultimate Vietnam travel guide for Malaysians: weather overview, scenic routes across Hanoi, Halong Bay, Da Nang, and Ho Chi Minh City.",
+    h1: "Vietnam Travel Guide for Malaysians: Weather, Routes, Tips",
+    // DHS-T3: the previous creative headline line, kept as a sub-heading.
+    subheading: "North, Central & South Options",
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/VietnamGuide.tsx.
     intro:
       "Vietnam is one of the most diverse geographic locations in Southeast Asia, with the beautiful past of Hanoi and the majestic rocks in Halong Bay in the north, the streets illuminated by lights and Ba Na Hills in the center, as well as the busy city of Ho Chi Minh and Mekong Delta in the south. This travel guide will consider the different regions from which you can choose during your trip from Malaysia to Vietnam.",
+    // DHS-T3: intro link from the guide to its hub, exact anchor from the sheet.
+    hubLine: {
+      text: "Ready to book? See our Vietnam tour packages from Malaysia.",
+      link: { text: "Vietnam tour packages from Malaysia", href: "/tours/vietnam/" },
+    },
     canonicalUrl: "/tours/vietnam/vietnam-tour-travel-guide-2026",
     ogTitle:
-      "Vietnam Tour Packages From Malaysia: North, Central & South Options",
+      "Vietnam Travel Guide for Malaysians: Weather, Routes, Tips",
     ogDescription:
-      "Vietnam tour packages from Malaysia: Hanoi, Halong Bay, Da Nang, Hoi An & Ho Chi Minh City. Visa info and multi-region itineraries included.",
+      "Ultimate Vietnam travel guide for Malaysians: weather overview, scenic routes across Hanoi, Halong Bay, Da Nang, and Ho Chi Minh City.",
     ogImage: "/images/guides/ha-long-bay.jpg",
   },
 ];

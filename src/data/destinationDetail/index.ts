@@ -7,7 +7,7 @@
  * instead of carrying one hand-written branch per country.
  */
 import type { TourPackage } from "@/src/data/tourPages/types";
-import type { IntroLink } from "./types";
+import type { GuidePageExtras, IntroLink } from "./types";
 
 import { getIndiaLandingPage, INDIA_LANDING_PAGES } from "./india";
 import { getNepalLandingPage, NEPAL_LANDING_PAGES } from "./nepal";
@@ -28,7 +28,7 @@ import { getAustraliaLandingPage, AUSTRALIA_LANDING_PAGES } from "./australia";
 import { getMauritiusLandingPage, MAURITIUS_LANDING_PAGES } from "./mauritius";
 
 /** The shape every destination's landing-page interface already satisfies. */
-export interface LandingPage {
+export interface LandingPage extends GuidePageExtras {
   key: string;
   label: string;
   /**

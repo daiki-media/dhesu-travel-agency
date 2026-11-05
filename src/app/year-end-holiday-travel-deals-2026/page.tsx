@@ -11,9 +11,9 @@ import {
 // Holiday Idea sheet, row 33. Title and description are copied verbatim; the
 // body copy comes from content-document/sesional&school-holiday/.
 const PATH = "/year-end-holiday-travel-deals-2026";
-const TITLE = "Year-End Holiday Deals 2026: Malaysia's Busiest Travel Window";
+const TITLE = "Year-End Holiday Packages 2026 from Malaysia | Dhesu";
 const DESCRIPTION =
-  "Year-end holiday packages for 2026 — the busiest travel window of the year. Lock in pricing and availability before peak season demand hits.";
+  "Year-end 2026 holiday packages from Malaysia for November and December trips: Bali, Kashmir snow, Vietnam and Sri Lanka, with RM prices. Book early.";
 
 export const metadata: Metadata = {
   title: TITLE,

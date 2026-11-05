@@ -1,7 +1,7 @@
 import type { TourPackage } from "@/src/data/tourPages/types";
-import type { IntroLink } from "./types";
+import type { GuidePageExtras, IntroLink } from "./types";
 
-export interface CambodiaLandingPage {
+export interface CambodiaLandingPage extends GuidePageExtras {
   key: string;
   label: string;
   kind: "region" | "theme";
@@ -119,22 +119,32 @@ export const CAMBODIA_THEMES: CambodiaLandingPage[] = [
     // A country-level guide speaks to the whole range, so it lists every
     // Cambodia package rather than filtering to a subset.
     select: (packages) => packages,
-    primaryKeyword: "cambodia tour package malaysia",
+    // DHS-T3: the guide no longer targets a "package" keyword (that is the hub's),
+    // so no keywords meta. Kept as "" because primaryKeyword marks a guide page
+    // (getGuidePages); an empty value is not emitted by the route.
+    primaryKeyword: "",
     metaTitle:
-      "Cambodia Tour Packages From Malaysia: Angkor Wat & Siem Reap",
+      "Cambodia Travel Guide for Malaysians: Angkor, Visa, Tips",
     metaDescription:
-      "Cambodia tour packages from Malaysia: Angkor Wat, Siem Reap, and Tonle Sap Lake. Combine with Vietnam for a multi-country Southeast Asia trip.",
-    h1: "Cambodia Tour Packages From Malaysia: Angkor Wat & Siem Reap",
+      "In-depth Cambodia travel guide for Malaysians: Angkor Wat sunrise, e-visa process, Siem Reap, Phnom Penh, weather, and budgeting advice.",
+    h1: "Cambodia Travel Guide for Malaysians: Angkor, Visa, Tips",
+    // DHS-T3: the previous creative headline line, kept as a sub-heading.
+    subheading: "Angkor Wat & Siem Reap",
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/CambodiaGuide.tsx.
     intro:
       "Tourism in Cambodia revolves completely around one single remarkable site, Angkor Wat, which happens to be the biggest temple on earth. A Cambodia vacation that revolves around Siem Reap could be truly memorable for tourists coming from Malaysia, while at the same time being followed by a vacation in Vietnam. This would be done by people wanting to visit other places in Southeast Asia. Below is a description of a Cambodia vacation and how it fits into a multinational tour.",
     // "Cambodia" appears three times in the intro; the draft links the second.
     introLink: { text: "Cambodia", href: "/tours/cambodia", occurrence: 2 },
+    // DHS-T3: intro link from the guide to its hub, exact anchor from the sheet.
+    hubLine: {
+      text: "Ready to book? See our Cambodia tour packages from Malaysia.",
+      link: { text: "Cambodia tour packages from Malaysia", href: "/tours/cambodia/" },
+    },
     canonicalUrl: "/tours/cambodia/cambodia-tour-travel-guide-2026",
-    ogTitle: "Cambodia Tour Packages From Malaysia: Angkor Wat & Siem Reap",
+    ogTitle: "Cambodia Travel Guide for Malaysians: Angkor, Visa, Tips",
     ogDescription:
-      "Cambodia tour packages from Malaysia: Angkor Wat, Siem Reap, and Tonle Sap Lake. Combine with Vietnam for a multi-country Southeast Asia trip.",
+      "In-depth Cambodia travel guide for Malaysians: Angkor Wat sunrise, e-visa process, Siem Reap, Phnom Penh, weather, and budgeting advice.",
     ogImage: "/images/guides/angkor-wat-sunrise.jpg",
   },
 ];

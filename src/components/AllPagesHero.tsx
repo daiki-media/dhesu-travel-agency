@@ -20,6 +20,7 @@ export default function AllPagesHero({
   badge,
   title,
   titleAccent,
+  subheading,
   intro,
   image,
   imageAlt,
@@ -37,6 +38,12 @@ export default function AllPagesHero({
   title: string;
   /** Second heading line, rendered in the accent colour. */
   titleAccent?: string;
+  /**
+   * A line under the h1 in the accent colour, set as a paragraph rather than a
+   * heading — for a page whose h1 is its SEO heading but whose earlier
+   * creative headline stays on screen (DHS-T3).
+   */
+  subheading?: React.ReactNode;
   intro?: React.ReactNode;
   image: string;
   imageAlt: string;
@@ -126,6 +133,15 @@ export default function AllPagesHero({
             </span>
           )}
         </h1>
+
+        {subheading && (
+          <p
+            className="animate-fade-up mt-4 font-primary font-semibold text-primary text-xl md:text-2xl lg:text-3xl leading-tight max-w-4xl"
+            style={{ "--d": "180ms" } as React.CSSProperties}
+          >
+            {subheading}
+          </p>
+        )}
 
         {intro && (
           <p

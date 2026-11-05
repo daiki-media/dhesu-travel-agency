@@ -5,8 +5,9 @@
 // name, highlights and slug.
 
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { GuidePageExtras } from "./types";
 
-export interface IndiaLandingPage {
+export interface IndiaLandingPage extends GuidePageExtras {
   /** URL segment, e.g. "kerala" or "golden-triangle". Page lives at /tours/india/{key}. */
   key: string;
   /** Human label used in breadcrumbs, headings and nav, e.g. "Delhi Agra Jaipur". */
@@ -221,21 +222,31 @@ export const THEMES: IndiaLandingPage[] = [
     // A country-level guide speaks to the whole range, so it lists every
     // India package rather than filtering to a subset.
     select: (packages) => packages,
-    primaryKeyword: "india tour package from malaysia",
+    // DHS-T3: the guide no longer targets a "package" keyword (that is the hub's),
+    // so no keywords meta. Kept as "" because primaryKeyword marks a guide page
+    // (getGuidePages); an empty value is not emitted by the route.
+    primaryKeyword: "",
     metaTitle:
-      "India Tour Packages From Malaysia: Taj Mahal, Kerala, Kashmir & Beyond",
+      "India Travel Guide for Malaysians: Visa, Weather, Costs",
     metaDescription:
-      "India tour packages from Malaysia: Taj Mahal, Kerala backwaters, Kashmir, and spiritual journeys. Private, customizable itineraries available.",
-    h1: "India Tour Packages From Malaysia: Taj Mahal, Kerala, Kashmir & Beyond",
+      "Essential India travel guide for Malaysians: e-visa requirements, weather seasons, travel costs, Golden Triangle, Kashmir and Kerala advice.",
+    h1: "India Travel Guide for Malaysians: Visa, Weather, Costs",
+    // DHS-T3: the previous creative headline line, kept as a sub-heading.
+    subheading: "Taj Mahal, Kerala, Kashmir & Beyond",
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/IndiaGuide.tsx.
     intro:
       "Not many countries can boast the variety of experiences that India does right from the majestic white domes of the Taj Mahal to the peaceful backwaters of Kerala to the snowy peaks of Kashmir and its cable cars. In addition, for the Malaysian traveler, there is something about India that naturally draws one towards it, both culturally and spiritually. This guide helps you understand the different regions of India favored by Malaysian tourists and what they include.",
+    // DHS-T3: intro link from the guide to its hub, exact anchor from the sheet.
+    hubLine: {
+      text: "Ready to book? See our India tour packages from Malaysia.",
+      link: { text: "India tour packages from Malaysia", href: "/tours/india/" },
+    },
     canonicalUrl: "/tours/india/india-tour-travel-guide-2026",
     ogTitle:
-      "India Tour Packages From Malaysia: Taj Mahal, Kerala, Kashmir & Beyond",
+      "India Travel Guide for Malaysians: Visa, Weather, Costs",
     ogDescription:
-      "India tour packages from Malaysia: Taj Mahal, Kerala backwaters, Kashmir, and spiritual journeys. Private, customizable itineraries available.",
+      "Essential India travel guide for Malaysians: e-visa requirements, weather seasons, travel costs, Golden Triangle, Kashmir and Kerala advice.",
     ogImage: "/images/guides/taj-mahal.jpg",
   },
 ];

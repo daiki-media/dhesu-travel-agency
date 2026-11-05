@@ -113,6 +113,12 @@ export interface TourPageData {
   };
   hero: {
     badge: string;
+    /**
+     * The SEO h1, when the page has one (DHS-T3). With it set, `headline` +
+     * `headlineAccent` stay on screen as a sub-heading paragraph under the h1;
+     * without it they are the h1, as before.
+     */
+    h1?: string;
     headline: string;
     headlineAccent: string;
     body: string;

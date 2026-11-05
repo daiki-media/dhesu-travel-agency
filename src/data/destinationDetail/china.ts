@@ -1,5 +1,5 @@
 import type { TourPackage } from "@/src/data/tourPages/types";
-import type { IntroLink } from "./types";
+import type { GuidePageExtras, IntroLink } from "./types";
 
 /**
  * Landing pages under /tours/china.
@@ -8,7 +8,7 @@ import type { IntroLink } from "./types";
  * both added for the Holiday Idea content plan. Region pages for Beijing,
  * Shanghai and Xi'an are still to come.
  */
-export interface ChinaLandingPage {
+export interface ChinaLandingPage extends GuidePageExtras {
   key: string;
   label: string;
   kind: "region" | "theme";
@@ -41,20 +41,30 @@ export const CHINA_THEMES: ChinaLandingPage[] = [
     // A country-level guide speaks to the whole range, so it lists every
     // China package rather than filtering to a subset.
     select: (packages) => packages,
-    primaryKeyword: "china tour package malaysia",
-    metaTitle: "China Tour Packages From Malaysia: Major Cities & the Great Wall",
+    // DHS-T3: the guide no longer targets a "package" keyword (that is the hub's),
+    // so no keywords meta. Kept as "" because primaryKeyword marks a guide page
+    // (getGuidePages); an empty value is not emitted by the route.
+    primaryKeyword: "",
+    metaTitle: "China Travel Guide for Malaysians: Entry, Weather, Tips",
     metaDescription:
-      "China tour packages from Malaysia: Beijing, Shanghai, the Great Wall, and more. Visa requirements and multi-city itinerary options explained.",
-    h1: "China Tour Packages From Malaysia: Major Cities & the Great Wall",
+      "Detailed China travel guide for Malaysians: visa-free entry guidelines, best seasons, top scenic destinations, and practical transit tips.",
+    h1: "China Travel Guide for Malaysians: Entry, Weather, Tips",
+    // DHS-T3: the previous creative headline line, kept as a sub-heading.
+    subheading: "Major Cities & the Great Wall",
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/ChinaGuide.tsx.
     intro:
       "From the history of the Forbidden City in Beijing and its world-famous Wall, to Shanghai’s stunning modern architecture, to the incredible natural scenery of Zhangjiajie and the ancient wonder of Xi’an, there is much to see and experience in China. This guide takes a look at what there is to see in China for Malaysia’s travelers, visas required, and city-hopping itineraries.",
     introLink: { text: "China", href: "/tours/china" },
+    // DHS-T3: intro link from the guide to its hub, exact anchor from the sheet.
+    hubLine: {
+      text: "Ready to book? See our China tour packages from Malaysia.",
+      link: { text: "China tour packages from Malaysia", href: "/tours/china/" },
+    },
     canonicalUrl: "/tours/china/china-tour-travel-guide-2026",
-    ogTitle: "China Tour Packages From Malaysia: Major Cities & the Great Wall",
+    ogTitle: "China Travel Guide for Malaysians: Entry, Weather, Tips",
     ogDescription:
-      "China tour packages from Malaysia: Beijing, Shanghai, the Great Wall, and more. Visa requirements and multi-city itinerary options explained.",
+      "Detailed China travel guide for Malaysians: visa-free entry guidelines, best seasons, top scenic destinations, and practical transit tips.",
     ogImage: "/images/guides/forbidden-city.jpg",
   },
 ];

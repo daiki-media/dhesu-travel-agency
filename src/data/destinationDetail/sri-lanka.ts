@@ -3,8 +3,9 @@
 // Selectors use pkgid so the filter is exact regardless of name wording.
 
 import type { TourPackage } from "@/src/data/tourPages/types";
+import type { GuidePageExtras } from "./types";
 
-export interface SriLankaLandingPage {
+export interface SriLankaLandingPage extends GuidePageExtras {
   /** URL segment, e.g. "kandy". Page lives at /tours/sri-lanka/{key}. */
   key: string;
   /** Human label used in breadcrumbs, headings and nav. */
@@ -210,21 +211,31 @@ export const SRI_LANKA_THEMES: SriLankaLandingPage[] = [
     // A country-level guide speaks to the whole range, so it lists every
     // Sri Lanka package rather than filtering to a subset.
     select: (packages) => packages,
-    primaryKeyword: "sri lanka tour package malaysia",
+    // DHS-T3: the guide no longer targets a "package" keyword (that is the hub's),
+    // so no keywords meta. Kept as "" because primaryKeyword marks a guide page
+    // (getGuidePages); an empty value is not emitted by the route.
+    primaryKeyword: "",
     metaTitle:
-      "Sri Lanka Tour Packages From Malaysia: Culture, Hill Country & Wildlife",
+      "Sri Lanka Travel Guide for Malaysians: ETA, Weather, Tips",
     metaDescription:
-      "Sri Lanka tour packages from Malaysia: cultural heritage, hill country tea estates, wildlife safaris, and beach combinations in one itinerary.",
-    h1: "Sri Lanka Tour Packages From Malaysia: Culture, Hill Country & Wildlife",
+      "Complete Sri Lanka travel guide for Malaysians: ETA application, weather patterns, hill country, beaches, cultural sites and holiday tips.",
+    h1: "Sri Lanka Travel Guide for Malaysians: ETA, Weather, Tips",
+    // DHS-T3: the previous creative headline line, kept as a sub-heading.
+    subheading: "Culture, Hill Country & Wildlife",
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/SriLankaGuide.tsx.
     intro:
       "With the rise of Sri Lanka among Malaysian vacation searchers in recent times, it is no surprise that this small yet densely packed island contains all the elements necessary for an excellent trip in one package. The following discussion is dedicated to the key travel topics of Sri Lanka and how to put together the best package for your visit.",
+    // DHS-T3: intro link from the guide to its hub, exact anchor from the sheet.
+    hubLine: {
+      text: "Ready to book? See our Sri Lanka tour packages from Malaysia.",
+      link: { text: "Sri Lanka tour packages from Malaysia", href: "/tours/sri-lanka/" },
+    },
     canonicalUrl: "/tours/sri-lanka/sri-lanka-tour-travel-guide-2026",
     ogTitle:
-      "Sri Lanka Tour Packages From Malaysia: Culture, Hill Country & Wildlife",
+      "Sri Lanka Travel Guide for Malaysians: ETA, Weather, Tips",
     ogDescription:
-      "Sri Lanka tour packages from Malaysia: cultural heritage, hill country tea estates, wildlife safaris, and beach combinations in one itinerary.",
+      "Complete Sri Lanka travel guide for Malaysians: ETA application, weather patterns, hill country, beaches, cultural sites and holiday tips.",
     ogImage: "/images/guides/sigiriya-rock.jpg",
   },
 ];

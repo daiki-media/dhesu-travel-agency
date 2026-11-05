@@ -16,7 +16,7 @@ import {
 // Per-country versions already exist at /tours/nepal/muslim-friendly and
 // /tours/sri-lanka/muslim-friendly; this is the page above them.
 const PATH = "/muslim-friendly-holiday-travel-guide";
-const TITLE = "Muslim-Friendly Tour Packages: Travel With Confidence and Convenience";
+const TITLE = "Muslim-Friendly Tour Packages from Malaysia | Dhesu";
 const DESCRIPTION =
   "Explore verified Muslim-friendly tour packages from Malaysia with Dhesu Travel (MOTAC KKKP 1439). Enjoy handpicked halal dining, guaranteed prayer intervals, and authentic cultural exploration across Asia. Packages start from RM1,088 per person.";
 

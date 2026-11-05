@@ -16,9 +16,9 @@ import CtaSection from "@/src/components/CtaSection";
 // Holiday Idea sheet, row 6. Before this the homepage set no title at all and
 // inherited the root layout's.
 const TITLE =
-  "Daily Customized & Ready-Made Holidays, Trusted by Malaysian Travellers Since 1988";
+  "Dhesu Travel & Tours | Malaysia Travel Agency Since 1988";
 const DESCRIPTION =
-  "Malaysia's trusted travel agency for 30+ years. Customized and ready-made holidays to Sri Lanka, India, Bali, Nepal, Vietnam & more. Get a free quote.";
+  "Dhesu Travel & Tours, a MOTAC-licensed Malaysian travel agency since 1988. Private India, Kashmir, Bali, Sri Lanka and Nepal packages. Get a free quote.";
 
 export const metadata: Metadata = {
   title: TITLE,

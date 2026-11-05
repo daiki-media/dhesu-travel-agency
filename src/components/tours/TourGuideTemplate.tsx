@@ -8,7 +8,8 @@ import { PackageCard, SectionLabel } from "@/src/components/tours/TourDestinatio
 import { InquiryForm } from "@/src/components/tours/TourPackageDetailTemplate";
 import { contact } from "@/src/data/company";
 import type { TourPackage, TourPageData } from "@/src/data/tourPages/types";
-import type { IntroLink } from "@/src/data/destinationDetail/types";
+import type { HubLine, IntroLink } from "@/src/data/destinationDetail/types";
+import { INLINE_LINK } from "@/src/data/guides/primitives";
 
 /**
  * Layout for the Holiday Idea destination guides at /tours/<country>/<guide>.
@@ -41,7 +42,10 @@ const fadeUp = {
  * no link at all — falls back to the plain paragraph, so a copy edit can never
  * break the hero.
  */
-function renderIntro(intro: string, link?: IntroLink) {
+const HERO_LINK =
+  "text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
+
+function renderIntro(intro: string, link?: IntroLink, className = HERO_LINK) {
   if (!link) return intro;
 
   // Walk to the requested occurrence; the anchor phrase is not always unique.
@@ -54,10 +58,7 @@ function renderIntro(intro: string, link?: IntroLink) {
   return (
     <>
       {intro.slice(0, at)}
-      <Link
-        href={link.href}
-        className="text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors"
-      >
+      <Link href={link.href} className={className}>
         {link.text}
       </Link>
       {intro.slice(at + link.text.length)}
@@ -73,6 +74,10 @@ export interface TourGuideTemplateProps {
   intro: string;
   /** The source draft's own hyperlink inside `intro`, when it has one. */
   introLink?: IntroLink;
+  /** Creative line kept under the h1 as a paragraph sub-heading (DHS-T3). */
+  subheading?: string;
+  /** "Ready to book?" sentence linking to the hub, opening the article (DHS-T3). */
+  hubLine?: HubLine;
   heroImage: string;
   /** Short factual chips under the hero, e.g. "Daily departures". */
   facts?: string[];
@@ -90,6 +95,8 @@ export default function TourGuideTemplate({
   h1,
   intro,
   introLink,
+  subheading,
+  hubLine,
   heroImage,
   facts = [],
   children,
@@ -170,6 +177,17 @@ export default function TourGuideTemplate({
             {accent && <span className="text-red-300">: {accent}</span>}
           </motion.h1>
 
+          {subheading && (
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.15, ease: easeOut }}
+              className="font-primary font-semibold text-white/90 text-xl md:text-2xl leading-snug mb-4 max-w-3xl"
+            >
+              {subheading}
+            </motion.p>
+          )}
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -198,7 +216,14 @@ export default function TourGuideTemplate({
       {/* ── READING COLUMN + STICKY ENQUIRY RAIL ─────────────────────────── */}
       <section className="max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-12 lg:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-10 lg:gap-14">
-          <div className="min-w-0 space-y-16">{children}</div>
+          <div className="min-w-0 space-y-16">
+            {hubLine && (
+              <p className="text-gray-600 leading-relaxed border-l-2 border-primary pl-4">
+                {renderIntro(hubLine.text, hubLine.link, INLINE_LINK)}
+              </p>
+            )}
+            {children}
+          </div>
 
           <div className="hidden lg:block">
             <div className="sticky top-24">

@@ -249,8 +249,10 @@ export default function RayaContent({
         image={PHOTO.hero}
         imageAlt={PHOTO.heroAlt}
         eyebrow="Festive Season"
-        title="Raya Holiday Packages"
-        titleAccent="Festive Travel Made Muslim-Friendly"
+        // DHS-T3: the h1 is the SEO sheet's; the creative line stays as a
+        // sub-heading paragraph.
+        title="Hari Raya 2027 Holiday Packages"
+        subheading="Festive Travel Made Muslim-Friendly"
         intro={
           <>
             The Hari Raya holiday period is probably the most significant time of the year

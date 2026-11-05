@@ -4,9 +4,9 @@
 // prefix; themes select by keyword match against the package name and slug.
 
 import type { TourPackage } from "@/src/data/tourPages/types";
-import type { IntroLink } from "./types";
+import type { GuidePageExtras, IntroLink } from "./types";
 
-export interface NepalLandingPage {
+export interface NepalLandingPage extends GuidePageExtras {
   /** URL segment, e.g. "kathmandu". Page lives at /tours/nepal/{key}. */
   key: string;
   /** Human label used in breadcrumbs, headings and nav. */
@@ -202,22 +202,32 @@ export const NEPAL_THEMES: NepalLandingPage[] = [
     // A country-level guide speaks to the whole range, so it lists every
     // Nepal package rather than filtering to a subset.
     select: (packages) => packages,
-    primaryKeyword: "nepal tour package malaysia",
+    // DHS-T3: the guide no longer targets a "package" keyword (that is the hub's),
+    // so no keywords meta. Kept as "" because primaryKeyword marks a guide page
+    // (getGuidePages); an empty value is not emitted by the route.
+    primaryKeyword: "",
     metaTitle:
-      "Nepal Tour Packages From Malaysia: Himalayan Views Without the Hardcore Trek",
+      "Nepal Travel Guide for Malaysians: Visa, Seasons, Costs",
     metaDescription:
-      "Nepal tour packages from Malaysia: Kathmandu culture, Himalayan sunrise views, and light trekking options. No hardcore trekking experience needed.",
-    h1: "Nepal Tour Packages From Malaysia: Himalayan Views Without the Hardcore Trek",
+      "Practical Nepal travel guide for Malaysians: on-arrival visa, best trekking seasons, trip costs, Kathmandu heritage and Himalayas tips.",
+    h1: "Nepal Travel Guide for Malaysians: Visa, Seasons, Costs",
+    // DHS-T3: the previous creative headline line, kept as a sub-heading.
+    subheading: "Himalayan Views Without the Hardcore Trek",
     // Opening paragraph of the draft; the rest of the article is in
     // src/data/guides/NepalGuide.tsx.
     intro:
       "Nepal is usually famous for treks, which take several weeks to accomplish; but this is a perception that is not in line with the possibilities that exist in the country for tourists who are less adventurous in nature and just want to go for a holiday. Malaysian tourists interested in seeing the beauty of the Himalayas and wildlife do not necessarily have to do any difficult trek to enjoy their stay in Nepal.",
     introLink: { text: "Himalayas and wildlife", href: "/tours/nepal" },
+    // DHS-T3: intro link from the guide to its hub, exact anchor from the sheet.
+    hubLine: {
+      text: "Ready to book? See our Nepal tour packages from Malaysia.",
+      link: { text: "Nepal tour packages from Malaysia", href: "/tours/nepal/" },
+    },
     canonicalUrl: "/tours/nepal/nepal-tour-travel-guide-2026",
     ogTitle:
-      "Nepal Tour Packages From Malaysia: Himalayan Views Without the Hardcore Trek",
+      "Nepal Travel Guide for Malaysians: Visa, Seasons, Costs",
     ogDescription:
-      "Nepal tour packages from Malaysia: Kathmandu culture, Himalayan sunrise views, and light trekking options. No hardcore trekking experience needed.",
+      "Practical Nepal travel guide for Malaysians: on-arrival visa, best trekking seasons, trip costs, Kathmandu heritage and Himalayas tips.",
     ogImage: "/images/guides/pokhara-annapurna.jpg",
   },
 ];
