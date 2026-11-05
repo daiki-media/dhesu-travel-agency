@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import Button from "@/src/components/Button";
 import ArrowRight from "@/src/components/icons/ArrowRight";
 import FaqSection from "@/src/components/FaqSection";
+import LinkedText from "@/src/components/LinkedText";
 import type { PageContent } from "@/src/data/pageContent";
 import type {
   TourPageData,
@@ -256,7 +257,8 @@ export default function TourDestinationTemplate({
   data: TourPageData;
   content?: PageContent;
 }) {
-  const { meta, hero, why, zones, bestTime, tripLength, packages, whyBook, cta, faq } = data;
+  const { meta, hero, why, zones, gettingThere, bestTime, tripLength, packages, whyBook, cta, faq } =
+    data;
 
   return (
     <main className="bg-white overflow-x-hidden">
@@ -435,6 +437,33 @@ export default function TourDestinationTemplate({
 
         </div>
       </section>
+
+      {/* ── GETTING THERE — only when the hub's JSON carries this copy ──────────── */}
+      {gettingThere && (
+        <section className="py-12 lg:py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-6 lg:px-12">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              className="max-w-3xl"
+            >
+              <SectionLabel text={gettingThere.sectionLabel} />
+              <h2 className="font-primary font-bold text-[#1a1a1a] text-4xl md:text-5xl leading-tight mb-6">
+                {gettingThere.heading}
+              </h2>
+              <div className="space-y-5">
+                {gettingThere.paragraphs.map((parts, i) => (
+                  <p key={i} className="text-gray-600 text-lg leading-relaxed">
+                    <LinkedText parts={parts} />
+                  </p>
+                ))}
+              </div>
+            </motion.div>
+          </div>
+        </section>
+      )}
 
       {/* ── BEST TIME + TRIP LENGTH ────────────────────────────────────────────── */}
       <section className="py-12 lg:py-12 lg:py-16 bg-white">
@@ -620,6 +649,16 @@ export default function TourDestinationTemplate({
         </div>
       </section>
 
+      {/* ── FAQ — only when the hub's JSON carries approved questions ────────── */}
+      {faq && faq.items.length > 0 && (
+        <FaqSection
+          faqs={faq.items}
+          label={faq.sectionLabel ?? "Questions"}
+          heading={content?.faqHeading ?? faq.heading ?? `${meta.name} travel questions, answered`}
+          className="bg-white border-t border-gray-100"
+        />
+      )}
+
       {/* ── WHY BOOK WITH DHESU ────────────────────────────────────────────────── */}
       {!content && (
       <section className="py-12 lg:py-12 lg:py-16 bg-white">
@@ -677,16 +716,6 @@ export default function TourDestinationTemplate({
           </div>
         </div>
       </section>
-      )}
-
-      {/* ── FAQ — only when the hub's JSON carries approved questions ────────── */}
-      {faq && faq.items.length > 0 && (
-        <FaqSection
-          faqs={faq.items}
-          label={faq.sectionLabel ?? "Questions"}
-          heading={content?.faqHeading ?? faq.heading ?? `${meta.name} travel questions, answered`}
-          className="bg-white border-t border-gray-100"
-        />
       )}
 
       {/* ── CTA BANNER ────────────────────────────────────────────────────────── */}

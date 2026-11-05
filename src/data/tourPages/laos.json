@@ -87,6 +87,33 @@
       }
     ]
   },
+  "gettingThere": {
+    "sectionLabel": "Getting There",
+    "heading": "Getting from Malaysia to Laos",
+    "paragraphs": [
+      [
+        "The simplest way from Malaysia to Laos is the nonstop AirAsia flight from Kuala Lumpur to Vientiane, which takes about two hours and forty minutes. It does not fly every day, so most trips are planned around the flight days, and it is worth checking the current schedule before you lock in dates. Vientiane is an hour behind Malaysia, and Wattay International Airport sits close to the city centre, so you are at your hotel quickly after landing."
+      ],
+      [
+        "Malaysians can enter Laos without a visa for up to 30 days, as long as the passport has at least six months left. Starting in ",
+        {
+          "text": "Vientiane",
+          "href": "/tours/laos/vientiane/"
+        },
+        " suits most itineraries, since its main temples can be covered in a day before heading north. From there, the high-speed Laos-China railway reaches ",
+        {
+          "text": "Luang Prabang",
+          "href": "/tours/laos/luang-prabang/"
+        },
+        " in about two hours, and the ",
+        {
+          "text": "4 day Sacred Laos package",
+          "href": "/tours/laos/vientiane-luang-prabang/4-day-sacred-laos-by-train/"
+        },
+        " has the first-class train seats and airport transfers already arranged."
+      ]
+    ]
+  },
   "bestTime": {
     "sectionLabel": "When to Visit",
     "heading": "Best Time to Visit Laos from Malaysia",
@@ -217,6 +244,57 @@
           "Items not stated under inclusions"
         ],
         "validUntil": "2027-03-31"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Questions",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How do I fly from Kuala Lumpur to Vientiane?",
+        "answer": "AirAsia flies nonstop from Kuala Lumpur to Vientiane, and it takes about two hours forty minutes. It only runs a few days a week, so it helps to fix your dates around the flight days."
+      },
+      {
+        "question": "Do Malaysians need a visa for Laos?",
+        "answer": "No, Malaysians can enter Laos visa-free for up to 30 days as tourists. Your passport needs six months of validity left, and immigration may ask to see a return or onward ticket."
+      },
+      {
+        "question": "What is the best month to visit Laos?",
+        "answer": [
+          "November to February is the sweet spot, with clear skies, cooler days and low humidity. December and January are the coolest but also the busiest, so the ",
+          {
+            "text": "year-end holiday deals",
+            "href": "/year-end-holiday-travel-deals-2026/"
+          },
+          " are worth booking early."
+        ]
+      },
+      {
+        "question": "How do I buy Laos-China railway tickets?",
+        "answer": [
+          "Laos-China railway tickets are booked for you on the ",
+          {
+            "text": "4 day Sacred Laos package",
+            "href": "/tours/laos/vientiane-luang-prabang/4-day-sacred-laos-by-train/"
+          },
+          ", with first-class seats between Vientiane and Luang Prabang. Travelling on your own, you would buy at a station ticket office or on a booking site, and busy dates sell out fast."
+        ]
+      },
+      {
+        "question": "How much does a Laos trip from Malaysia cost?",
+        "answer": [
+          "The 4 day Sacred Laos package starts from RM1,888 per person and includes first-class train seats and airport transfers. Longer or private trips are priced on request, so a ",
+          {
+            "text": "custom itinerary request",
+            "href": "/custom-itinerary-request/"
+          },
+          " with your dates gets you an exact figure."
+        ]
+      },
+      {
+        "question": "Is halal food available in Laos?",
+        "answer": "Yes, though choices are limited and mostly in Vientiane and Luang Prabang, often at Indian restaurants. Halal meals are arranged on request, and Muslim travellers get a briefing on mosques and halal dining before they go."
       }
     ]
   },

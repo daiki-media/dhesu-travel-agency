@@ -1,6 +1,7 @@
 import { goldenTriangleFaqs, kashmirFaqs, varanasiFaqs } from "./pageContent/india/landingFaqs";
 import { nepalMuslimFriendlyFaqs } from "./pageContent/nepal/muslimFriendlyFaqs";
 import { sriLankaMuslimFriendlyFaqs } from "./pageContent/sri-lanka/muslimFriendlyFaqs";
+import type { FaqAnswer } from "./linkedFaq";
 
 /**
  * Frequently asked questions for the Holiday Idea destination guides.
@@ -15,7 +16,7 @@ import { sriLankaMuslimFriendlyFaqs } from "./pageContent/sri-lanka/muslimFriend
  * Every question and answer is taken verbatim from the approved .docx draft for
  * its page. Keyed by `<destination>/<key>`, matching the guide registry.
  */
-export type GuideFaq = { question: string; answer: string };
+export type GuideFaq = { question: string; answer: FaqAnswer };
 
 export const guideFaqs: Record<string, GuideFaq[]> = {
   "indonesia/bali-holiday-travel-guide-2026": [

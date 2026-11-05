@@ -1,7 +1,8 @@
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import { FaqAccordion } from "@/src/components/tours/TourPackageDetailTemplate";
+import type { FaqAnswer } from "@/src/data/linkedFaq";
 
-export type Faq = { question: string; answer: string };
+export type Faq = { question: string; answer: FaqAnswer };
 
 /**
  * The FAQ block that closes almost every page.

@@ -28,6 +28,7 @@
  */
 import { company } from "@/src/data/company";
 import { SITE_URL, absoluteUrl } from "@/src/data/site";
+import { faqAnswerText, type FaqAnswer } from "@/src/data/linkedFaq";
 
 /** Canonical `@id`s for the two nodes the root layout emits site-wide. */
 export const ORGANISATION_ID = `${SITE_URL}/#organization`;
@@ -261,12 +262,14 @@ export function webPage({
  *
  * Only call this when the identical questions and answers are rendered on the
  * page — Google treats FAQ markup that is not visible as a policy violation.
+ *
+ * Linked answers are flattened to their visible text.
  */
-export function faqQuestions(items: { question: string; answer: string }[]) {
+export function faqQuestions(items: { question: string; answer: FaqAnswer }[]) {
   return items.map((item) => ({
     "@type": "Question",
     name: item.question,
-    acceptedAnswer: { "@type": "Answer", text: item.answer },
+    acceptedAnswer: { "@type": "Answer", text: faqAnswerText(item.answer) },
   }));
 }
 

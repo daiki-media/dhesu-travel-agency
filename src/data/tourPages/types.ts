@@ -3,6 +3,8 @@
 // src/app/tours/[destination]/page.tsx loads the matching JSON and feeds it to
 // the TourDestinationTemplate component.
 
+import type { FaqAnswer, FaqPart } from "@/src/data/linkedFaq";
+
 export interface TourStat {
   value: string;
   label: string;
@@ -86,7 +88,8 @@ export interface TourPackage {
 
 export interface TourFaq {
   question: string;
-  answer: string;
+  /** Plain text, or text with inline links ({ text, href } parts). */
+  answer: FaqAnswer;
 }
 
 export interface TrustPoint {
@@ -128,6 +131,15 @@ export interface TourPageData {
     subheading: string;
     areas: TourZone[];
   };
+  /**
+   * Optional prose section rendered between the zones and the best-time
+   * section. Each paragraph is a list of text and { text, href } link parts.
+   */
+  gettingThere?: {
+    sectionLabel: string;
+    heading: string;
+    paragraphs: FaqPart[][];
+  };
   bestTime: {
     sectionLabel: string;
     heading: string;
@@ -157,7 +169,7 @@ export interface TourPageData {
     points: TrustPoint[];
   };
   /**
-   * Optional. Rendered as the FAQ accordion above the CTA banner, and emitted
+   * Optional. Rendered as the FAQ accordion after the packages, and emitted
    * as FAQPage markup by the route — so only add questions that should be
    * visible on the page. Absent on hubs whose FAQ copy has not been approved.
    */

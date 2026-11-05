@@ -193,6 +193,26 @@ export function KashmirBody() {
         </Section>
       </div>
 
+      <Section label="Getting There" heading="Kashmir Trip Package from KL: Flights and Routing">
+        <div className="space-y-5">
+          <p className={BODY}>
+            There is no nonstop flight from Kuala Lumpur to Srinagar, so every Kashmir trip package
+            from KL starts with a connection. Most travellers fly to Delhi first, which takes around
+            five and a half hours, then take a short domestic hop of about an hour and a half into
+            Srinagar. Add the layover and it usually works out to 10 to 14 hours in total, door to
+            door. Mumbai and Chennai also work as connecting points, but Delhi is the common choice.
+            Air India and IndiGo both cover the whole route themselves.
+          </p>
+          <p className={BODY}>
+            Flights are not part of the package price, apart from the domestic legs on the{" "}
+            <L href="/tours/india/kashmir/7-day-varanasi-kashmir/">7 day Varanasi and Kashmir package</L>.
+            What the packages do cover starts when you land: airport transfers, a private vehicle and
+            an English-speaking guide. Tell the team your travel dates before you book tickets, and
+            they can plan day one around your arrival time.
+          </p>
+        </div>
+      </Section>
+
       <Section label="Tips" heading="Planning Tips for Malaysian Travellers">
         <ul className="space-y-4">
           <Bullet>

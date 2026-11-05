@@ -8,6 +8,8 @@ import { useEffect, useId, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Button from "@/src/components/Button";
 import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
+import LinkedText from "@/src/components/LinkedText";
+import type { FaqAnswer } from "@/src/data/linkedFaq";
 import { sendEnquiry } from "@/src/lib/send-enquiry";
 
 // ─── Types ─────────────────────────────────────────────────────────────────────
@@ -436,7 +438,7 @@ export function InquiryForm({ packageName, whatsapp }: { packageName: string; wh
 // engines read and matches the FAQPage JSON-LD. Closed answers are only
 // collapsed with CSS. They used to be mounted on click, so the exported HTML
 // had the questions but none of the answers (W42-036).
-export function FaqAccordion({ items }: { items: { question: string; answer: string }[] }) {
+export function FaqAccordion({ items }: { items: { question: string; answer: FaqAnswer }[] }) {
   const [open, setOpen] = useState<number | null>(null);
   const baseId = useId();
 
@@ -477,7 +479,7 @@ export function FaqAccordion({ items }: { items: { question: string; answer: str
           >
             <div className="overflow-hidden">
               <div className="px-5 pb-5 pt-1 text-gray-600 text-sm leading-relaxed border-t border-gray-100">
-                {item.answer}
+                {typeof item.answer === "string" ? item.answer : <LinkedText parts={item.answer} />}
               </div>
             </div>
           </div>

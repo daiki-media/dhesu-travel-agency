@@ -1,4 +1,6 @@
-type LandingFaq = { question: string; answer: string };
+import type { FaqAnswer } from "@/src/data/linkedFaq";
+
+type LandingFaq = { question: string; answer: FaqAnswer };
 
 export const goldenTriangleFaqs: LandingFaq[] = [
   {
@@ -56,6 +58,24 @@ export const kashmirFaqs: LandingFaq[] = [
   {
     question: "Is there a Kashmir package with flights included?",
     answer: "The 7 day Varanasi and Kashmir package includes domestic flights.",
+  },
+  {
+    question: "How do I fly from Kuala Lumpur to Srinagar?",
+    answer:
+      "There is no nonstop flight, so you connect through Delhi, Mumbai or Chennai, with Delhi the most common. Expect roughly 10 to 14 hours in total, including the layover. Flights are not in the package price, so send us your dates and we will plan the land part around your arrival.",
+  },
+  {
+    question: "Is Kashmir snow season good for Malaysians?",
+    answer: [
+      "Yes, and for many Malaysians it is their first real snow. It usually settles from late December to February, with January often the heaviest, mostly around Gulmarg and the ",
+      {
+        text: "5 day Kashmir ski resort and cable car package",
+        href: "/tours/india/kashmir/5-day-ski-resort-cable-car/",
+      },
+      ". Snow is the draw then, but the ",
+      { text: "best time to visit Kashmir", href: "/blog/best-time-to-visit-kashmir/" },
+      " depends on whether you want ski slopes, tulips or golden chinar leaves.",
+    ],
   },
   {
     question: "Can I skip the Taj Mahal and just do Kashmir?",
