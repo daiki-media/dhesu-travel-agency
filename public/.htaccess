@@ -120,3 +120,15 @@ DirectoryIndex index.html
   AddType image/webp .webp
   AddType font/woff2 .woff2
 </IfModule>
+
+# PHP version for api/send-enquiry.php (10 Nov 2026). This host only honours
+# the alt-php handlers: with "ea-php84" selected in MultiPHP Manager the site
+# actually ran PHP 5.6 and the enquiry form crashed. Every deploy replaces this
+# file, so the block cPanel writes must live here too or the form breaks again.
+# If the version is changed in MultiPHP Manager, copy the new block back here.
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “alt-php83” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php83 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

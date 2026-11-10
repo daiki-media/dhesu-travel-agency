@@ -48,8 +48,14 @@ if (!empty($input['website']) || (int) ($input['elapsed'] ?? 0) < 2500) {
 function clean(mixed $value, int $max): string
 {
     $value = is_scalar($value) ? (string) $value : '';
-    $value = preg_replace('/[\x00-\x09\x0B-\x1F\x7F]/u', '', $value) ?? '';
-    return mb_substr(trim($value), 0, $max);
+    $value = trim(preg_replace('/[\x00-\x09\x0B-\x1F\x7F]/u', '', $value) ?? '');
+    if (function_exists('mb_substr')) {
+        return mb_substr($value, 0, $max);
+    }
+    // The host's PHP 8.3 (alt-php83) ships without mbstring. Cut on whole
+    // UTF-8 characters with PCRE instead, so a name in Tamil or Chinese is
+    // never split mid-character.
+    return preg_match('/^.{0,' . $max . '}/us', $value, $m) ? $m[0] : '';
 }
 
 function oneLine(string $value): string
