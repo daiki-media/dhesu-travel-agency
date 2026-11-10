@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import JsonLd from "@/src/components/JsonLd";
+import TrackingContext from "@/src/components/TrackingContext";
 import TourPackageDetailTemplate, {
   type PackageDetailData,
 } from "@/src/components/tours/TourPackageDetailTemplate";
@@ -222,6 +223,13 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
       }
 
       const packages = page.select(hub.packages.items);
+      // A region (Kashmir) is reported as its own destination; a theme
+      // (Honeymoon) is not a place, so it counts towards the country.
+      const tracking = (
+        <TrackingContext
+          destination={page.kind === "region" ? page.label : hub.meta.name}
+        />
+      );
 
       // A Holiday Idea guide is a landing page with a long-form article behind
       // it, so it renders through the guide template instead of the plain
@@ -233,6 +241,7 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
             <JsonLd
               data={landingPageJsonLd(page, destination, hub.meta.name, packages)}
             />
+            {tracking}
             <TourGuideTemplate
               label={page.label}
               h1={page.h1}
@@ -257,6 +266,7 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
           <JsonLd
             data={landingPageJsonLd(page, destination, hub.meta.name, packages)}
           />
+          {tracking}
           <TourRegionTemplate
             label={page.label}
             h1={page.h1}
@@ -284,9 +294,20 @@ export default async function TourPackageDetailPage({ params }: PageProps) {
     notFound();
   }
 
+  // Packages live under their region (/tours/india/kashmir/...), so they are
+  // grouped with that region's own page; the country is the fallback.
+  const region = packageSlug.length > 1 ? getLandingPage(destination, packageSlug[0]) : undefined;
+  const packageDestination =
+    region?.kind === "region" ? region.label : getTourPage(destination)?.meta.name;
+  // The breadcrumb's short name ("4 Days Kashmir Super Saver") stays put when
+  // the H1 is reworded for SEO, so a package keeps one row in GA4 reports.
+  const packageName =
+    data.hero.breadcrumb.at(-1)?.label || `${data.hero.title} ${data.hero.titleAccent}`.trim();
+
   return (
     <>
       <JsonLd data={packageDetailJsonLd(data)} />
+      <TrackingContext destination={packageDestination} packageName={packageName} />
       <TourPackageDetailTemplate data={data} />
     </>
   );

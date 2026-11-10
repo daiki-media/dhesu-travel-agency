@@ -1,4 +1,5 @@
 import { previousPath } from "@/src/lib/page-history";
+import { pageTrackingContext } from "@/src/lib/tracking-context";
 
 export type Enquiry = {
   form: "contact" | "package";
@@ -40,6 +41,7 @@ function trackEnquirySubmitted(enquiry: Enquiry, context: { page: string; from: 
     enquiry_topic: (enquiry.topic ?? "").slice(0, 100),
     page_path: window.location.pathname,
     enquiry_from: context.from ? new URL(context.from).pathname : "",
+    ...pageTrackingContext(),
   });
 }
 

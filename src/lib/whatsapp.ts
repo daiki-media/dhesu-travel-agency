@@ -1,4 +1,5 @@
 import { company } from "@/src/data/company";
+import { pageTrackingContext } from "@/src/lib/tracking-context";
 
 // Every WhatsApp button on the site goes to the GHL-connected number with a
 // prefilled message. The "Ref:" code lets GoHighLevel spot website leads and
@@ -50,6 +51,7 @@ export function trackWhatsAppClick(href: string, label = "") {
     link_url: href.split("?")[0],
     link_text: label.trim().slice(0, 100),
     page_path: window.location.pathname,
+    ...pageTrackingContext(),
   });
 }
 

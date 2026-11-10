@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import JsonLd from "@/src/components/JsonLd";
+import TrackingContext from "@/src/components/TrackingContext";
 import TourDestinationTemplate from "@/src/components/tours/TourDestinationTemplate";
 import { getTourPage, tourSlugs, type TourPageData } from "@/src/data/tourPages";
 import { guidePackageItems } from "@/src/data/destinationDetail";
@@ -123,6 +124,7 @@ export default async function TourDestinationPage({ params }: PageProps) {
   return (
     <>
       <JsonLd data={destinationJsonLd(withGuides)} />
+      <TrackingContext destination={data.meta.name} />
       <TourDestinationTemplate data={withGuides} content={getPageContent(destination)} />
     </>
   );
