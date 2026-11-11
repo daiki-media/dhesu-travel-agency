@@ -9,8 +9,9 @@ export const WHATSAPP_MESSAGES = {
     "Hi DHESU Travel, I visited dhesu.com and would like more information. Ref: DHESU-WEB-GENERAL",
   tours: "Hi DHESU Travel, I'm interested in your tours. Ref: DHESU-WEB-TOURS",
   // DHE-08/09: the last-minute December button on the year-end deals page.
+  // Worded as the DHE-08 copy has it, code in brackets rather than "Ref:".
   yearend:
-    "Hi DHESU Travel, I am inquiring about last-minute December departures. Ref: DHESU-WEB-YEAREND",
+    "Hi Dhesu Travel, I am inquiring about last-minute December departures [DHESU-WEB-YEAREND]",
 } as const;
 
 export type WhatsAppEnquiry = keyof typeof WHATSAPP_MESSAGES;
@@ -45,7 +46,8 @@ export function trackWhatsAppClick(href: string, label = "") {
       return "";
     }
   })();
-  const ref = text.match(/Ref:\s*(DHESU-WEB-[A-Z]+)/)?.[1] ?? "none";
+  // "Ref: DHESU-WEB-X", or "[DHESU-WEB-X]" as the year-end copy writes it.
+  const ref = text.match(/(?:Ref:\s*|\[)(DHESU-WEB-[A-Z]+)/)?.[1] ?? "none";
   const w = window as DataLayerWindow;
   w.dataLayer = w.dataLayer || [];
   w.dataLayer.push({

@@ -124,18 +124,16 @@ const intensifiers = [
   },
 ];
 
-// DHE-08's school holiday dates. Group A is the three states with a Friday and
-// Saturday weekend; Johor, listed with them in the copy, moved to a Saturday and
-// Sunday weekend in 2025 and so breaks with Group B.
+// DHE-08's school holiday dates, as the copy writes them (Rudy, 11 Nov: follow
+// the copy as written).
 const schoolHolidays = [
   {
-    term: "Group A: 4 – 31 December 2026",
-    detail: "Kedah, Kelantan and Terengganu",
+    term: "Group A (Kedah, Kelantan, Terengganu, Johor)",
+    detail: "4 December 2026 – 31 December 2026",
   },
   {
-    term: "Group B: 5 – 31 December 2026",
-    detail:
-      "Kuala Lumpur, Selangor, Johor, Penang, Melaka, Negeri Sembilan, Perak, Perlis, Pahang, Sabah, Sarawak, Putrajaya and Labuan",
+    term: "Group B (Kuala Lumpur, Selangor, Penang, Melaka, Perak, Pahang, Sabah, Sarawak, Putrajaya, Labuan)",
+    detail: "5 December 2026 – 31 December 2026",
   },
 ];
 
@@ -324,11 +322,8 @@ export default function YearEndContent({
             ))}
           </div>
           <div className="lg:col-span-5 border-l-2 border-primary pl-8">
-            <p className="text-gray-400 text-xs uppercase tracking-[0.18em] font-semibold mb-3">
-              Peak surcharge notice
-            </p>
             <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-3">
-              Christmas and New Year Peak Surcharge
+              Peak Surcharge Notice
             </h3>
             <p className="text-gray-600 text-[15px] leading-relaxed">
               Departures falling within the Christmas and New Year festive peak window (24
