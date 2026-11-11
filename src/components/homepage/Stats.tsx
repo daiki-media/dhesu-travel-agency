@@ -10,11 +10,19 @@ const stats = [
   { value: 6, suffix: "", label: "Trending Destinations", dotPos: "top" },
 ];
 
-function Counter({ end, suffix, start }: { end: number; suffix: string; start: boolean }) {
-  const [count, setCount] = useState(0);
+// "static" is what the server renders, so the real figures are in the HTML for
+// crawlers and for visitors without JS (they used to read "0"). Once the page
+// is running, a section that is still below the fold is "armed" (reset to 0,
+// unseen) and "run" counts it up when it scrolls into view.
+type Phase = "static" | "armed" | "run";
+
+function Counter({ end, suffix, phase }: { end: number; suffix: string; phase: Phase }) {
+  // null until the count-up's first tick, so an armed or just-started counter
+  // shows 0 rather than flashing the final figure.
+  const [count, setCount] = useState<number | null>(null);
 
   useEffect(() => {
-    if (!start) return;
+    if (phase !== "run") return;
     let current = 0;
     const duration = 2000;
     const steps = 60;
@@ -32,11 +40,11 @@ function Counter({ end, suffix, start }: { end: number; suffix: string; start: b
     }, interval);
 
     return () => clearInterval(timer);
-  }, [start, end]);
+  }, [phase, end]);
 
   return (
     <span>
-      {count}
+      {phase === "static" ? end : (count ?? 0)}
       {suffix}
     </span>
   );
@@ -44,17 +52,28 @@ function Counter({ end, suffix, start }: { end: number; suffix: string; start: b
 
 export default function Stats() {
   const ref = useRef<HTMLElement>(null);
-  const [inView, setInView] = useState(false);
+  const [phase, setPhase] = useState<Phase>("static");
 
-  // The counters need to start on scroll, which is the only reason this stays a
-  // client component — a bare IntersectionObserver replaces framer's useInView.
+  // The counters start on scroll, which is the only reason this stays a client
+  // component. A section already on screen, or a visitor who asked for reduced
+  // motion, keeps the static figures instead of flashing back to 0.
   useEffect(() => {
     const el = ref.current;
-    if (!el) return;
+    if (!el || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let first = true;
     const io = new IntersectionObserver(
       ([entry]) => {
+        if (first) {
+          first = false;
+          if (entry.isIntersecting) {
+            io.disconnect();
+          } else {
+            setPhase("armed");
+          }
+          return;
+        }
         if (entry.isIntersecting) {
-          setInView(true);
+          setPhase("run");
           io.disconnect();
         }
       },
@@ -94,7 +113,7 @@ export default function Stats() {
                 {/* Inner filled circle */}
                 <div className="w-36 h-36 rounded-full bg-primary-dark/10 flex flex-col items-center justify-center shadow-inner">
                   <div className="text-4xl font-black text-teal-navy">
-                    <Counter end={stat.value} suffix={stat.suffix} start={inView} />
+                    <Counter end={stat.value} suffix={stat.suffix} phase={phase} />
                   </div>
                   <div className="text-gray-500 text-sm mt-1 text-center font-medium">
                     {stat.label}

@@ -10,6 +10,18 @@ DirectoryIndex index.html
   RewriteEngine On
 
   # ===========================================================================
+  # MAIL SUBDOMAIN (11 Nov 2026, DHE-11)
+  # mail.dhesu.com points at this same folder, so it served a full copy of the
+  # site and Google indexed it. Web requests go to the real site. Only HTTP is
+  # affected: mail itself (MX, SMTP for the enquiry form) never reads this
+  # file. /.well-known/ stays reachable so the host can renew the mail.
+  # certificate the SMTP connection relies on.
+  # ===========================================================================
+  RewriteCond %{HTTP_HOST} ^mail\.dhesu\.com$ [NC]
+  RewriteCond %{REQUEST_URI} !^/\.well-known/
+  RewriteRule ^ https://dhesu.com%{REQUEST_URI} [R=301,L]
+
+  # ===========================================================================
   # CANONICAL ORIGIN (8 Oct 2026, developer sprint 2)
   # http://dhesu.com, https://www.dhesu.com and http://www.dhesu.com all
   # answered 200 with the same pages, so every URL existed at four origins.
