@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
 import { faqQuestions, graph, orgRef, webPage } from "@/src/data/structuredData";
 import Hero from "@/src/components/homepage/Hero";
+import YearEndStrip from "@/src/components/homepage/YearEndStrip";
 import TourCategories from "@/src/components/homepage/TourCategories";
 import HolidayIdeas from "@/src/components/homepage/HolidayIdeas";
 import PlanYourTrip from "@/src/components/homepage/PlanYourTrip";
@@ -88,6 +89,8 @@ export default function Home() {
   return (
     <main>
       <JsonLd data={homeJsonLd} />
+      {/* Above the hero: the hero's search box hangs into the section below it. */}
+      <YearEndStrip />
       <Hero />
       <TourCategories />
       <PlanYourTrip />

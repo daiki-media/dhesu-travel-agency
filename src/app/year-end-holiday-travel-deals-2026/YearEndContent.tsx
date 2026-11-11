@@ -3,10 +3,53 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
+import { PackageCard, SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import AllPagesHero from "@/src/components/AllPagesHero";
+import Button from "@/src/components/Button";
 import FaqSection from "@/src/components/FaqSection";
 import CtaSection from "@/src/components/CtaSection";
+import { whatsappHref } from "@/src/lib/whatsapp";
+import type { TourPackage } from "@/src/data/tourPages/types";
+
+/** One of DHE-08's featured products, rendered as a standard package card. */
+export type YearEndPackage = {
+  name: string;
+  price: string;
+  description: string;
+  /** Where the copy links the product name (its hub or region page). */
+  nameHref: string;
+  /** The package behind the price, which the card's "Book Now" opens. */
+  packageHref: string;
+  /** Card photo, tag and duration, from that package. */
+  image: string;
+  tag: string;
+  tagColor: TourPackage["tagColor"];
+  duration: string;
+};
+
+/**
+ * A product in the shape PackageCard reads. The card links to
+ * /tours/{slug}/{pkg.slug}, so packageHref is split into those two parts; the
+ * copy's description goes in `blurb`, the card's one-paragraph slot.
+ */
+function toCard(pkg: YearEndPackage): { card: TourPackage; slug: string } {
+  const [slug, ...rest] = pkg.packageHref.replace(/^\/tours\/|\/$/g, "").split("/");
+  return {
+    slug,
+    card: {
+      id: pkg.packageHref,
+      slug: rest.join("/"),
+      name: pkg.name,
+      blurb: pkg.description,
+      duration: pkg.duration,
+      price: pkg.price,
+      priceNote: "per person",
+      tag: pkg.tag,
+      tagColor: pkg.tagColor,
+      image: pkg.image,
+    },
+  };
+}
 
 /**
  * Body copy is taken verbatim from
@@ -23,8 +66,6 @@ import CtaSection from "@/src/components/CtaSection";
 const PHOTO = {
   hero: "/images/seasonal/winter-ice-festival.jpg",
   heroAlt: "Visitors at an outdoor winter ice festival",
-  destinations: "/images/seasonal/christmas-market.jpg",
-  destinationsAlt: "A Christmas market lit up in a European old-town square",
   festive: "/images/seasonal/festive-park-night.jpg",
   festiveAlt: "A theme park lit up at dusk during the festive season",
   types: "/images/seasonal/winter-snow-park.jpg",
@@ -83,22 +124,19 @@ const intensifiers = [
   },
 ];
 
-const destinations = [
+// DHE-08's school holiday dates. Group A is the three states with a Friday and
+// Saturday weekend; Johor, listed with them in the copy, moved to a Saturday and
+// Sunday weekend in 2025 and so breaks with Group B.
+const schoolHolidays = [
   {
-    place: "Australia",
-    why: "Summer season locally, aligning well with the festive period",
+    term: "Group A: 4 – 31 December 2026",
+    detail: "Kedah, Kelantan and Terengganu",
   },
   {
-    place: "Japan",
-    why: "Winter scenery, illuminations, and New Year cultural traditions",
+    term: "Group B: 5 – 31 December 2026",
+    detail:
+      "Kuala Lumpur, Selangor, Johor, Penang, Melaka, Negeri Sembilan, Perak, Perlis, Pahang, Sabah, Sarawak, Putrajaya and Labuan",
   },
-  {
-    place: "Europe",
-    href: EUROPE,
-    why: "Christmas markets and festive city atmospheres",
-  },
-  { place: "Bali", why: "A reliable, shorter-flight escape for a festive family trip" },
-  { place: "Korea", why: "Winter activities and festive city experiences" },
 ];
 
 // `weight` is the share of the bar that is filled — the price climb made visible.
@@ -225,9 +263,12 @@ function DefinitionRow({ term, detail }: { term: string; detail: string }) {
 
 export default function YearEndContent({
   faqs,
+  packages,
 }: {
   /** Owned by the page so the same list drives the FAQPage markup. */
   faqs: { question: string; answer: string }[];
+  /** Owned by the page so the same list drives the ItemList markup. */
+  packages: YearEndPackage[];
 }) {
   return (
     <>
@@ -268,39 +309,76 @@ export default function YearEndContent({
         </div>
       </Section>
 
-      {/* ── DESTINATIONS ──────────────────────────────────────────────────── */}
+      {/* ── SCHOOL HOLIDAY DATES ───────────────────────────────────────────
+          DHE-08 puts the dates directly above the product grid, so the
+          window is read before the prices that apply to it. */}
+      <Section
+        label="School Holidays"
+        heading="School Holiday Dates 2026"
+        className="bg-teal-light/40"
+      >
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+          <div className="lg:col-span-7 border-t-2 border-teal-navy">
+            {schoolHolidays.map((row) => (
+              <DefinitionRow key={row.term} term={row.term} detail={row.detail} />
+            ))}
+          </div>
+          <div className="lg:col-span-5 border-l-2 border-primary pl-8">
+            <p className="text-gray-400 text-xs uppercase tracking-[0.18em] font-semibold mb-3">
+              Peak surcharge notice
+            </p>
+            <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-3">
+              Christmas and New Year Peak Surcharge
+            </h3>
+            <p className="text-gray-600 text-[15px] leading-relaxed">
+              Departures falling within the Christmas and New Year festive peak window (24
+              December 2026 &ndash; 1 January 2027) are subject to seasonal flight and hotel
+              peak surcharges. Early booking is highly recommended to secure base pricing.
+            </p>
+          </div>
+        </div>
+      </Section>
+
+      {/* ── FEATURED PACKAGES ─────────────────────────────────────────────
+          DHE-08's products replace the generic destination list (Australia,
+          Japan, Korea), which named trips Dhesu does not sell as fixed
+          packages. Standard package cards, as on the hubs. */}
       <Section
         label="Where To Go"
         heading="Popular Year-End Destinations"
-        className="bg-teal-light/40"
+        className="bg-white"
       >
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-          <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-8">
-            {destinations.map((row) => (
-              <div key={row.place}>
-                <span className="block h-[2px] w-10 bg-primary mb-4" aria-hidden />
-                <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-2">
-                  {"href" in row && row.href ? (
-                    <Link href={row.href} className={INLINE_LINK}>
-                      {row.place}
-                    </Link>
-                  ) : (
-                    row.place
-                  )}
-                </h3>
-                <p className="text-gray-600 text-[15px] leading-relaxed">{row.why}</p>
-              </div>
-            ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
+          {packages.map((pkg, i) => {
+            const { card, slug } = toCard(pkg);
+            return (
+              <PackageCard key={card.id} pkg={card} index={i} slug={slug} nameHref={pkg.nameHref} />
+            );
+          })}
+        </div>
+
+        {/* DHE-08's urgent-enquiry button, set as the homepage's note callout.
+            Its own WhatsApp ref (DHESU-WEB-YEAREND) tells these leads apart in
+            GHL and GA4. */}
+        <div className="mt-12 bg-teal-light/40 rounded-2xl p-6 md:p-8 border-l-4 border-primary flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          <div>
+            <p className="text-gray-400 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
+              Last minute
+            </p>
+            <h3 className="font-primary font-bold text-teal-navy text-lg md:text-xl leading-snug">
+              Last-Minute December Departures
+            </h3>
           </div>
-          <div className="lg:col-span-5 relative h-56 lg:h-80 overflow-hidden rounded-2xl">
-            <Image
-              src={PHOTO.destinations}
-              alt={PHOTO.destinationsAlt}
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 40vw"
-            />
-          </div>
+          <a
+            href={whatsappHref("yearend")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0"
+          >
+            <Button variant="light" showArrow size="md">
+              Inquiry for Last-Minute December Departures
+            </Button>
+          </a>
         </div>
       </Section>
 

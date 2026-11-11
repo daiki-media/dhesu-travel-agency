@@ -41,6 +41,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: path === "" ? 1 : 0.8,
   }));
 
+  // Last real content change of a plan page, sent as <lastmod>. Only pages
+  // with a known date are listed; the rest go out without one, as before.
+  const planLastModified: Record<string, string> = {
+    "/year-end-holiday-travel-deals-2026": "2026-11-11", // DHE-08/09 update
+  };
+
   // Standalone pages from the Holiday Idea content plan. The destination
   // guides are not listed here — they are landing pages, so they already come
   // through `landingPages` below.
@@ -58,6 +64,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/custom-itinerary-request",
   ].map((path) => ({
     url: url(path),
+    ...(planLastModified[path] ? { lastModified: new Date(planLastModified[path]) } : {}),
     changeFrequency: "weekly" as const,
     priority: 0.7,
   }));

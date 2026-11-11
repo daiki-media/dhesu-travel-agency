@@ -8,6 +8,9 @@ export const WHATSAPP_MESSAGES = {
   general:
     "Hi DHESU Travel, I visited dhesu.com and would like more information. Ref: DHESU-WEB-GENERAL",
   tours: "Hi DHESU Travel, I'm interested in your tours. Ref: DHESU-WEB-TOURS",
+  // DHE-08/09: the last-minute December button on the year-end deals page.
+  yearend:
+    "Hi DHESU Travel, I am inquiring about last-minute December departures. Ref: DHESU-WEB-YEAREND",
 } as const;
 
 export type WhatsAppEnquiry = keyof typeof WHATSAPP_MESSAGES;
