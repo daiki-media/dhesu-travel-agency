@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import JsonLd from "@/src/components/JsonLd";
 import MuslimFriendlyContent, { type MuslimFriendlyPackage } from "./MuslimFriendlyContent";
 import { linkedFaqsAsText, type LinkedFaq } from "@/src/data/linkedFaq";
-import { getTourPage } from "@/src/data/tourPages";
-import type { TourPackage } from "@/src/data/tourPages/types";
 import {
   blogPosting,
   breadcrumbList,
@@ -13,23 +11,25 @@ import {
   webPage,
 } from "@/src/data/structuredData";
 
-// Holiday Idea sheet, row 28. Title, meta description and H1 are the DHS-T2
-// SEO sheet's, verbatim (it wins over the DHS-T4 copy for these three).
+// Holiday Idea sheet, row 28. Title, meta description, H1 and copy are the
+// DHE-02 copy's, verbatim. The site adds no "| Dhesu" suffix to page titles, so
+// the copy's full title is used, not its shortened fallback.
 // Per-country versions already exist at /tours/nepal/muslim-friendly and
 // /tours/sri-lanka/muslim-friendly; this is the page above them.
 const PATH = "/muslim-friendly-holiday-travel-guide";
-const TITLE = "Muslim-Friendly Tour Packages from Malaysia | Dhesu";
+const TITLE = "Muslim-Friendly Tour Packages 2026/27 from Malaysia | From RM1,288";
 const DESCRIPTION =
-  "Muslim-friendly tour packages from Malaysia with halal meals and prayer stops: Kashmir, Golden Triangle, Nepal and Sri Lanka, with prices in RM.";
+  "Muslim-friendly tour packages from Malaysia: Nepal, Sri Lanka, India, Bali and Sabah. Halal meals arranged, prayer times planned. Licensed KKKP 1439. Get a quote.";
 
-// datePublished is when this page was first committed; dateModified is the
-// DHS-T4 copy going live.
 // The H1 as rendered by the hero.
-const HEADLINE = "Muslim-Friendly Tour Packages from Malaysia";
+const HEADLINE =
+  "Muslim-Friendly Tour Packages from Malaysia: Halal Dining & Prayer-Planned Itineraries (2026/27)";
 const HERO_IMAGE = "/images/tour-types/mosque-night-istanbul.jpg";
 
+// datePublished is when this page was first committed; dateModified is the
+// DHE-02 copy going live.
 const DATE_PUBLISHED = "2026-09-03T14:46:05+07:00";
-const DATE_MODIFIED = "2026-11-05T00:00:00+08:00";
+const DATE_MODIFIED = "2026-11-13T00:00:00+08:00";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -45,124 +45,106 @@ export const metadata: Metadata = {
   },
 };
 
-// The card photo and tag of a row come from what its "Direct Package Link"
-// points at: the package's own entry in the hub JSON, or, for a link to a hub
-// (Bali, Kashmir), that hub's card on its country page. Same photo and tag as
-// the hubs show, so the card here is the one visitors already know.
-function cardArt(packageHref: string): Pick<TourPackage, "image" | "tag" | "tagColor"> {
-  const [destination, ...rest] = packageHref.replace(/^\/tours\/|\/$/g, "").split("/");
-  const hub = getTourPage(destination);
-  const slug = rest.join("/");
-  const pkg = hub?.packages.items.find((p) => p.slug === slug);
-  if (pkg) return { image: pkg.image, tag: pkg.tag, tagColor: pkg.tagColor };
-  const zone = hub?.zones.areas.find((z) => z.href === `/tours/${destination}/${slug}`);
-  if (zone) return { image: zone.image, tag: zone.tag, tagColor: zone.tagColor };
-  throw new Error(`No package or hub card for ${packageHref}`);
-}
-
-// The package table of the copy, rendered as the standard package cards. Owned
-// by the page for the same reason as the FAQs below; it also drives the
-// ItemList markup. nameHref is where the name column links; packageHref is the
-// "Direct Package Link" column. Name, duration, price and inclusions are the
-// copy's, as written.
-const packageRows: Omit<MuslimFriendlyPackage, "image" | "tag" | "tagColor">[] = [
+// The package table of the copy, row for row. Owned by the page for the same
+// reason as the FAQs below; it also drives the ItemList markup. The copy's link
+// cells are placeholders, so packageHref is the package URL the DHE-02 brief
+// gives for each row.
+const packages: MuslimFriendlyPackage[] = [
   {
-    name: "Kashmir Super Saver",
-    nameHref: "/tours/india/kashmir/",
-    duration: "4 Days / 3 Nights",
-    price: "RM 1,088",
-    inclusions:
-      "Srinagar houseboat stay, Shikara ride on Dal Lake, Gulmarg gondola base excursion, certified halal meals",
-    packageHref: "/tours/india/kashmir/4-day-super-saver/",
+    name: "6D Nepal Mountain Discovery (Muslim-Friendly)",
+    days: "6 Days / 5 Nights",
+    price: "From RM2,088",
+    muslimFriendly:
+      "Arranged halal meals in Kathmandu & Pokhara, prayer breaks along the Trishuli highway, and visits to Nepali Jame Masjid",
+    linkLabel: "View Nepal Package",
+    packageHref: "/tours/nepal/muslim-friendly/",
   },
   {
-    name: "North India Golden Triangle",
-    nameHref: "/tours/india/golden-triangle/",
-    duration: "5 Days / 4 Nights",
-    price: "RM 1,650",
-    inclusions:
-      "Delhi, Agra, and Jaipur; visits to Jama Masjid & Taj Mahal; designated prayer halts; private AC transport",
-    packageHref: "/tours/india/north-india/5-day-golden-triangle-muslim/",
-  },
-  {
-    name: "Nepal Mountain Discovery",
-    nameHref: "/tours/nepal/",
-    duration: "6 Days / 5 Nights",
-    price: "RM 2,180",
-    inclusions:
-      "Kathmandu & Pokhara valley, Himalayan viewpoint at Sarangkot, visits to local community masjids, halal-friendly dining",
-    packageHref: "/tours/nepal/kathmandu-pokhara/6-day-muslim-friendly/",
-  },
-  {
-    name: "Sri Lanka Hill Country Escape",
-    nameHref: "/tours/sri-lanka/",
-    duration: "4 Days / 3 Nights",
-    price: "RM 1,420",
-    inclusions:
-      "Colombo, Kandy, and Nuwara Eliya tea estates; scenic hill railway trip; halal culinary circuit",
+    name: "4D Sri Lanka Nuwara Eliya Muslim-Friendly",
+    days: "4 Days / 3 Nights",
+    price: "From RM1,288",
+    muslimFriendly:
+      "Halal restaurants arranged in Colombo, Kandy & Nuwara Eliya, prayer stops near historic mosques including Red Mosque (Jami Ul-Alfar)",
+    linkLabel: "View Sri Lanka Package",
     packageHref: "/tours/sri-lanka/nuwara-eliya/4-day-muslim-friendly/",
   },
   {
-    name: "Classic Bali Private Retreat",
-    nameHref: "/tours/indonesia/",
-    duration: "4 Days / 3 Nights",
-    price: "RM 1,290",
-    inclusions:
-      "Ubud cultural touring, private pool villa options, Tanah Lot sunset, certified halal-certified warungs",
+    name: "5D North India Golden Triangle (Muslim-Friendly Option)",
+    days: "5 Days / 4 Nights",
+    // The copy's "(Confirm price with client)" is a note to the team, not page text.
+    price: "Request Quote",
+    muslimFriendly:
+      "Halal meals arranged in Delhi, Agra & Jaipur, guided visit to Jama Masjid Delhi, and scheduled Zohor/Asar prayer stops",
+    linkLabel: "View Golden Triangle",
+    packageHref: "/tours/india/golden-triangle/",
+  },
+  {
+    name: "4D Kashmir Super Saver",
+    days: "4 Days / 3 Nights",
+    price: "From RM1,088",
+    muslimFriendly:
+      "Dal Lake cedar houseboat stay, daily halal Kashmiri meals arranged, and convenient prayer halts in Srinagar & Gulmarg",
+    linkLabel: "View Kashmir Package",
+    packageHref: "/tours/india/kashmir/",
+  },
+  {
+    name: "Bali Private Muslim-Friendly Tours",
+    days: "3D to 5D (Custom)",
+    price: "From RM398",
+    muslimFriendly:
+      "Private vehicle & driver, halal meals arranged on request at Muslim-owned and vetted warungs, flexible Solat timing",
+    linkLabel: "View Bali Tours",
     packageHref: "/tours/indonesia/bali/",
   },
   {
-    name: "Grand Kashmir & Ladakh",
-    nameHref: "/tours/india/kashmir/",
-    duration: "7 Days / 6 Nights",
-    price: "RM 3,450",
-    inclusions:
-      "Srinagar, Pahalgam, Sonamarg & Leh; historic Jama Masjid Srinagar; high-altitude scenic transfers",
-    packageHref: "/tours/india/kashmir/",
+    name: "Sabah Nature & Island Getaways",
+    days: "3D to 5D",
+    price: "Request Quote",
+    muslimFriendly:
+      "Domestic Malaysian holiday with halal dining readily available, mosque stops mapped, and family-friendly private or group pacing",
+    linkLabel: "View Sabah Tours",
+    packageHref: "/tours/malaysia/sabah/",
   },
 ];
-
-const packages: MuslimFriendlyPackage[] = packageRows.map((row) => ({
-  ...row,
-  ...cardArt(row.packageHref),
-}));
 
 // Owned by the page, not the component: the accordion is a client component, and
 // exporting an array from one hands the server a client reference rather than
 // the array. The same list drives the rendered FAQ and the FAQPage markup.
 const faqs: LinkedFaq[] = [
   {
-    question: "Which Muslim-friendly tour package from Malaysia is cheapest?",
+    question: "How much is a Muslim-friendly tour package from Malaysia?",
     answer: [
-      "Our most economical package is the 4-Day Kashmir Super Saver, starting at RM 1,088 per person (land arrangement). This itinerary covers traditional houseboat stays on Dal Lake, scenic transport across Srinagar and Gulmarg, daily halal meals, and dedicated prayer stops, delivering strong value without cutting corners on comfort.",
+      "Land-arrangement prices start from RM398 per person for short private Bali tours, RM1,088 per person for our 4-day Kashmir package, RM1,288 per person for our 4-day Sri Lanka Nuwara Eliya Muslim-friendly tour, and RM2,088 per person for our 6-day Nepal Muslim-friendly package (based on twin sharing, excluding international flights). Multi-day Sabah and 5-day India Golden Triangle packages are quoted according to your travel dates and group size.",
     ],
   },
   {
-    question: "Do your guides know prayer times and halal restaurants?",
+    question: "Are meals halal on Dhesu Muslim-friendly tours?",
     answer: [
-      "Yes. Our regional tour guides and drivers are trained to accommodate Muslim travel routines. They monitor local prayer calls, identify clean wudhu amenities, schedule prayer breaks along travel routes, and take you exclusively to verified halal restaurants, Muslim-run kitchens, or vetted vegetarian and seafood dining locations.",
+      "Yes—halal meals are arranged throughout your itinerary, and our guides recommend vetted halal restaurants and Muslim-owned eateries at every stop. Because official halal certification bodies vary by country (especially in destinations such as Nepal, India, and Bali), we arrange dining at Muslim-owned kitchens, locally recognized halal establishments, or dedicated seafood and vegetarian restaurants free from alcohol and non-halal ingredients.",
     ],
   },
   {
-    question: "How are Friday Jumu'ah prayers managed during our trip?",
+    question: "Can we join a Muslim-friendly group tour in December 2026?",
     answer: [
-      "When your tour dates cover a Friday, our operational teams align driving times to stop at accessible local central mosques. Your guide coordinates parking and drop-off to ensure sufficient time for the Khutbah and congregational prayers before continuing with the afternoon's sightseeing schedule.",
+      "Yes. December 2026 falls during the Malaysian year-end school holidays, and we run both small-group departures and private family departures for Kashmir, Nepal, Sri Lanka, Bali, and Sabah. Because December flights and hotels fill up early, we recommend requesting a quote at least 6 to 8 weeks ahead to lock in twin-sharing rates and preferred dates.",
     ],
   },
   {
-    question: "Can itineraries be customized for private family or senior groups?",
+    question: "Do your guides plan daily prayer times and Friday Jumu'ah stops?",
     answer: [
-      "Yes. Every package listed on our hub can be converted into a bespoke private tour. We adjust walking paces, supply private multi-seater vans, arrange ground-floor hotel rooms, and incorporate specific dietary requirements upon request.",
+      "Yes. Our local guides and drivers track daily Solat windows along your route and schedule stops at local mosques or clean prayer facilities with wudhu access. On Fridays, itineraries are timed so male guests can attend Jumu'ah prayers comfortably.",
     ],
   },
   {
-    question: "What documents are required for booking?",
+    question: "Can we customize a private itinerary or add flights from Kuala Lumpur?",
     answer: [
-      "Malaysian passport holders must have at least six months of validity from the date of travel. Our operations team provides up-to-date guidance on destination-specific visas, electronic entry cards, and country regulations during the booking process.",
+      "Yes. Every package on this page can be customized for private families, couples, or corporate groups, and our Kuala Lumpur ticketing desk can quote return flights from KLIA alongside your land package.",
     ],
   },
 ];
 
+// The organisation (TravelAgency) node is emitted site-wide by the root layout,
+// so the nodes here reference it by @id rather than declaring a second one.
 const muslimFriendlyJsonLd = graph([
   webPage({
     path: PATH,
@@ -177,14 +159,14 @@ const muslimFriendlyJsonLd = graph([
     { name: "Home", url: "/" },
     { name: "Muslim-Friendly Tour Packages" },
   ]),
-  // The six package cards, each pointing at its direct package link.
+  // The six package rows, each pointing at its package URL.
   packageItemList(
     PATH,
     packages.map((pkg) => ({
       name: pkg.name,
       url: pkg.packageHref,
       price: pkg.price,
-      duration: pkg.duration,
+      duration: pkg.days,
     })),
   ),
   // No byline in the copy, so the helper credits the agency as author.
