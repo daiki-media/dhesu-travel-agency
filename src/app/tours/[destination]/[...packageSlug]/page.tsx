@@ -10,6 +10,7 @@ import TourGuideTemplate from "@/src/components/tours/TourGuideTemplate";
 import { getGuideContent } from "@/src/data/guides";
 import { getGuideFaqs } from "@/src/data/guideFaqs";
 import { getPageContent } from "@/src/data/pageContent";
+import { kashmirPackages } from "@/src/data/pageContent/india/kashmirPackages";
 import packageDetails, { getPackageDetail } from "@/src/data/tourPackages";
 import { getTourPage } from "@/src/data/tourPages";
 import {
@@ -155,7 +156,21 @@ function landingPageJsonLd(
           image: page.ogImage,
         })
       : null,
-    packageItemList(
+    destination === "india" && page.key === "kashmir" ? {
+      "@type": "ItemList",
+      "@id": nodeId(path, "packages"),
+      numberOfItems: kashmirPackages.length,
+      itemListElement: kashmirPackages.map(([name, href, , price], i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `https://dhesu.com${href}`,
+        item: {
+          "@type": "Product",
+          name,
+          offers: { "@type": "Offer", price: price.replace(/[^0-9.]/g, ""), priceCurrency: "MYR" },
+        },
+      })),
+    } : packageItemList(
       path,
       packages
         .filter((pkg) => pkg.slug)

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "5 Days Kashmir Ski Resort + Cable Car from Malaysia | Dhesu Travel & Tours",
-    "description": "5-day Kashmir tour with Gulmarg gondola, Pahalgam, Dal Lake houseboat and shikara ride. From RM2388 per person.",
+    "description": "5-day Kashmir tour with Gulmarg gondola, Pahalgam, Dal Lake houseboat and shikara ride. From RM1688 per person.",
     "keywords": "5 Days Kashmir Ski Resort + Cable Car from Malaysia, India tour package, Kashmir tour package Malaysia, Dhesu travel",
     "slug": "kashmir/5-day-ski-resort-cable-car",
     "canonicalUrl": "/tours/india/kashmir/5-day-ski-resort-cable-car",
@@ -36,10 +36,10 @@
   },
   "quickFacts": {
     "duration": "5 Days / 4 Nights",
-    "startingPrice": "From RM2,388",
+    "startingPrice": "From RM1,688",
     "priceNote": "per person (twin sharing)",
-    "originalPrice": "RM2,866",
-    "saving": "Save RM955 per couple",
+    "originalPrice": "",
+    "saving": "",
     "groupSize": "Private & flexible",
     "includes": [
       "Hotel & Houseboat Stay (4 nights)",
@@ -320,14 +320,14 @@
   "schema": {
     "type": "TouristTrip",
     "name": "5 Days Kashmir Ski Resort Cable Car Tour from Malaysia",
-    "description": "5-day Kashmir tour with Gulmarg gondola, Pahalgam, Dal Lake houseboat and shikara ride. From RM2388 per person.",
+    "description": "5-day Kashmir tour with Gulmarg gondola, Pahalgam, Dal Lake houseboat and shikara ride. From RM1688 per person.",
     "provider": "Dhesu Travel & Tours",
     "url": "https://dhesu.travel/tours/india/kashmir/5-day-ski-resort-cable-car",
     "startLocation": "Sheikh ul-Alam International Airport",
     "endLocation": "Sheikh ul-Alam International Airport",
     "duration": "P5D",
     "offers": {
-      "price": "2388",
+      "price": "1688",
       "priceCurrency": "MYR",
       "availability": "https://schema.org/InStock"
     }

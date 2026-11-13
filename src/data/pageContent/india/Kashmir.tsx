@@ -9,22 +9,7 @@ const BODY = "text-gray-600 text-[15px] leading-relaxed";
 
 const H3 = "font-primary font-bold text-[#1a1a1a] text-xl mt-12 mb-5";
 
-const SKI_CABLE_CAR = "/tours/india/kashmir/5-day-ski-resort-cable-car/";
-const SKI_TAJ_MAHAL = "/tours/india/kashmir/5-day-ski-taj-mahal/";
-
-// DHE-04 price table, row for row: name, package page, days, from, hotel tier,
-// includes. The copy's link cells are placeholders, so a row links only where a
-// package page with the same package exists; rows 2, 5, 6 and 7 have none yet.
-const packages: [string, string | null, string, string, string, string][] = [
-  ["1. 4D Kashmir Super Saver", "/tours/india/kashmir/4-day-super-saver/", "4D / 3N", "From RM1,088", "Standard 3-Star / Deluxe Houseboat", "2N Srinagar hotel, 1N Dal Lake houseboat, daily breakfast & dinner, Shikara ride, private AC vehicle & driver"],
-  ["2. 5D Kashmir Valley & Gulmarg Snow", null, "5D / 4N", "From RM1,388", "3-Star / 4-Star & Deluxe Houseboat", "Srinagar, Gulmarg & Pahalgam day trips, 1N houseboat, daily halal meals, Shikara ride, private transfers"],
-  ["3. 5D Kashmir Ski Resort & Cable Car", SKI_CABLE_CAR, "5D / 4N", "From RM1,688", "4-Star Ski Resort & Deluxe Houseboat", "2N Gulmarg resort, 1N Srinagar hotel, 1N houseboat, Gondola Phase 1 ticket, daily meals, private 4x4/heated transfer"],
-  ["4. 5D Kashmir Ski & Taj Mahal Combo", SKI_TAJ_MAHAL, "5D / 4N", "From RM1,888", "4-Star Hotels & Deluxe Houseboat", "Srinagar, Gulmarg snow excursion, Agra Taj Mahal guided tour, daily meals, private transfers (excludes domestic flight)"],
-  ["5. 6D Classic Kashmir & Sonamarg", null, "6D / 5N", "From RM1,688", "4-Star Hotels & Super Deluxe Houseboat", "Srinagar Mughal Gardens, Gulmarg, Pahalgam, Sonamarg excursion, 1N houseboat, daily meals, private transport"],
-  ["6. 7D Kashmir & Golden Triangle", null, "7D / 6N", "From RM2,188", "4-Star Hotels & Deluxe Houseboat", "Srinagar, Gulmarg, Delhi, Agra (Taj Mahal) & Jaipur sightseeing, daily halal meals, private vehicle & guide"],
-  ["7. 8D Complete Kashmir & North India", null, "8D / 7N", "From RM2,488", "4-Star Hotels & Super Deluxe Houseboat", "Srinagar, Gulmarg, Pahalgam, Sonamarg + Delhi & Agra, daily meals, Shikara ride, private transfers"],
-  ["8. 12D Grand Himalayan Kashmir & Ladakh", "/tours/india/kashmir/12-day-srinagar-leh-road-trip/", "12D / 11N", "From RM3,688", "4-Star / Boutique Hotels & Houseboat", "Extended Kashmir Valley + Leh-Ladakh overland/flight circuit, daily meals, permits, private SUV & guide"],
-];
+import { kashmirPackages as packages, SKI_CABLE_CAR } from "@/src/data/pageContent/india/kashmirPackages";
 
 // DHE-12 will supply verified traveller reviews. Until then the list is empty
 // and the section renders nothing; the container stays ready for them.
@@ -80,7 +65,7 @@ export function KashmirBody() {
           </Bullet>
           <Bullet>
             <strong>
-              <L href={SKI_TAJ_MAHAL}>5D Kashmir Ski &amp; Taj Mahal Combo Package</L>
+              <L href="/tours/india/kashmir/">5D Kashmir Ski &amp; Taj Mahal Combo Package</L>
             </strong>
             : Pairs Gulmarg snow activities and Srinagar sightseeing with a private Agra excursion to
             visit the Taj Mahal.
@@ -105,6 +90,7 @@ export function KashmirBody() {
         </ul>
       </Section>
 
+      <div id="packages">
       <Section label="Packages" heading="Kashmir Package Prices from Malaysia">
         <p className={`${BODY} mb-6`}>
           Compare all 8 private Kashmir tour packages from Malaysia below. Rates are
@@ -133,6 +119,7 @@ export function KashmirBody() {
           Note: Prices valid for travel until 31 Mar 2027, subject to availability.
         </p>
       </Section>
+      </div>
 
       {testimonials.length > 0 && (
         <Section label="Reviews" heading="Traveller Testimonials">
