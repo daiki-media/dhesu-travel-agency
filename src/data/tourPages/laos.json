@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "Laos",
-    "title": "Laos Tour Package from Malaysia | From RM1,888 | Dhesu",
-    "description": "Laos tour package from Malaysia: 4 days in Vientiane and Luang Prabang by high-speed train with private guide and hotels. From RM1,888 per person.",
+    "title": "Laos Tour Package from Malaysia | Luang Prabang by Train From RM1,888",
+    "description": "Book a Laos tour package from Malaysia from RM1,888. Explore Vientiane & UNESCO Luang Prabang by first-class high-speed train. Visa-free entry for Malaysians. Get a quote.",
     "slug": "laos",
     "targetKeyword": "Laos tour package from Malaysia",
     "secondaryKeywords": [
@@ -17,10 +17,11 @@
   },
   "hero": {
     "badge": "Southeast Asia's Most Peaceful Destination",
-    "h1": "Laos Tour Packages from Malaysia",
+    "h1": "Laos Tour Package from Malaysia: Vientiane and Luang Prabang by Train",
+    "subheadingTag": "h2",
     "headline": "Sacred Laos.",
     "headlineAccent": "Unhurried and Untouched.",
-    "body": "Saffron-robed monks file silently through Luang Prabang's misty streets at dawn. Pha That Luang's golden stupa rises above Vientiane's quiet skyline as the Mekong catches the last light. A high-speed train cuts through karst mountains in two hours. Laos is everything Southeast Asia used to be — and somehow still is.",
+    "body": "Saffron-robed monks file silently through Luang Prabang's misty streets at dawn. Pha That Luang's golden stupa rises above Vientiane's quiet skyline as the Mekong catches the last light. A high-speed train cuts through karst mountains in two hours. Laos is everything Southeast Asia used to be, and somehow still is.",
     "bgImage": "/images/gallery/16469.jpg",
     "stats": [
       { "value": "UNESCO", "label": "Luang Prabang World Heritage" },
@@ -88,33 +89,221 @@
       }
     ]
   },
-  "gettingThere": {
-    "sectionLabel": "Getting There",
-    "heading": "Getting from Malaysia to Laos",
-    "paragraphs": [
-      [
-        "The simplest way from Malaysia to Laos is the nonstop AirAsia flight from Kuala Lumpur to Vientiane, which takes about two hours and forty minutes. It does not fly every day, so most trips are planned around the flight days, and it is worth checking the current schedule before you lock in dates. Vientiane is an hour behind Malaysia, and Wattay International Airport sits close to the city centre, so you are at your hotel quickly after landing."
-      ],
-      [
-        "Malaysians can enter Laos without a visa for up to 30 days, as long as the passport has at least six months left. Starting in ",
+  "sections": [
+    {
+      "sectionLabel": "Getting There",
+      "heading": "How to Get to Laos from Malaysia",
+      "blocks": [
         {
-          "text": "Vientiane",
-          "href": "/tours/laos/vientiane/"
+          "type": "paragraph",
+          "parts": [
+            "Travelling from Kuala Lumpur to Laos is straightforward, with direct flights and visa-free entry for Malaysian passport holders:"
+          ]
         },
-        " suits most itineraries, since its main temples can be covered in a day before heading north. From there, the high-speed Laos-China railway reaches ",
         {
-          "text": "Luang Prabang",
-          "href": "/tours/laos/luang-prabang/"
-        },
-        " in about two hours, and the ",
-        {
-          "text": "4 day Sacred Laos package",
-          "href": "/tours/laos/vientiane-luang-prabang/4-day-sacred-laos-by-train/"
-        },
-        " has the first-class train seats and airport transfers already arranged."
+          "type": "list",
+          "items": [
+            {
+              "parts": [
+                {
+                  "text": "Direct Flights from KLIA:",
+                  "bold": true
+                },
+                " AirAsia operates direct flights from Kuala Lumpur International Airport (KLIA Terminal 2) to Vientiane Wattay International Airport (VTE), with a flight duration of approximately 2 hours and 45 minutes. Connecting flights via Bangkok, Hanoi, or Singapore are also available for travellers flying directly into Luang Prabang (LPQ) or departing from Penang and Johor Bahru."
+              ]
+            },
+            {
+              "parts": [
+                {
+                  "text": "Visa-Free Entry for Malaysians (Up to 30 Days):",
+                  "bold": true
+                },
+                " Malaysian citizens holding an ordinary passport enjoy ",
+                {
+                  "text": "visa-free entry into Laos for stays of up to 30 days",
+                  "bold": true
+                },
+                " under the ASEAN visa exemption arrangement. Ensure your Malaysian passport has at least ",
+                {
+                  "text": "6 months of validity",
+                  "bold": true
+                },
+                " from your arrival date, carry proof of your return or onward flight and hotel booking, and complete the ",
+                {
+                  "text": "Lao Digital Immigration Form (LDIF)",
+                  "bold": true
+                },
+                " online within 3 days prior to arrival as required at international checkpoints."
+              ]
+            }
+          ]
+        }
       ]
-    ]
-  },
+    },
+    {
+      "sectionLabel": "Package Price",
+      "heading": "Laos Package Price and What Is Included",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "parts": [
+            "Dhesu Travel offers a ready-to-book ",
+            {
+              "text": "4 Days / 3 Nights Sacred Laos: Vientiane & Luang Prabang by Train",
+              "bold": true
+            },
+            " land package starting from RM1,888 per person (twin sharing, promotional rate reduced from RM2,266 per person)."
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Package Component",
+            "What Is Included (From RM1,888 / Pax)"
+          ],
+          "rows": [
+            [
+              [
+                "Accommodation"
+              ],
+              [
+                "3 nights in centrally located hotels (1 night in Vientiane walkable to major temples + 2 nights in Luang Prabang within the UNESCO heritage zone)"
+              ]
+            ],
+            [
+              [
+                "High-Speed Train"
+              ],
+              [
+                {
+                  "text": "First-class high-speed train tickets",
+                  "bold": true
+                },
+                " between Vientiane and Luang Prabang (approx. 2 hours through karst mountain valleys)"
+              ]
+            ],
+            [
+              [
+                "Transfers & Transport"
+              ],
+              [
+                "Private air-conditioned airport transfers in Vientiane and Luang Prabang, station transfers, and private sightseeing vehicle"
+              ]
+            ],
+            [
+              [
+                "Guided Sightseeing"
+              ],
+              [
+                "English-speaking local guide covering Pha That Luang, Wat Si Saket, Patuxai Monument, Wat Xieng Thong, Royal Palace Museum, Mount Phousi, and Kuang Si Waterfall"
+              ]
+            ],
+            [
+              [
+                "Meals & Dining"
+              ],
+              [
+                "Daily hotel breakfast; halal meal arrangements or Muslim-friendly restaurant briefings available upon request"
+              ]
+            ],
+            [
+              [
+                "Excluded"
+              ],
+              [
+                "Return international flights from Malaysia (can be quoted separately via Dhesu's IATA ticketing desk), personal expenses, tips, and travel insurance"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "parts": [
+            "Price Validity Notice: Starting price of RM1,888 per person is based on twin-sharing occupancy for land arrangements and is subject to hotel and train seat availability during peak travel months."
+          ]
+        }
+      ]
+    },
+    {
+      "sectionLabel": "Custom Trips",
+      "heading": "Combine With Indochina & Custom Laos Itineraries",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "parts": [
+            "Because many Malaysian travellers pair Laos with neighbouring Mekong countries or prefer a slower 5- to 7-day pace, you can extend your trip or request a custom route:"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "parts": [
+                {
+                  "text": "Combine Laos with Neighbouring Destinations:",
+                  "bold": true
+                }
+              ],
+              "children": [
+                [
+                  "Explore multi-city Indochina routes by pairing your Laos rail journey with our ",
+                  {
+                    "text": "Vietnam tour packages from Malaysia",
+                    "href": "/tours/vietnam/"
+                  },
+                  " (easy flight connections between Luang Prabang/Vientiane and Hanoi or Ho Chi Minh City)."
+                ],
+                [
+                  "Add temple heritage across the southern border by combining Laos with our ",
+                  {
+                    "text": "Cambodia tour packages from Malaysia",
+                    "href": "/tours/cambodia/"
+                  },
+                  " (direct flights linking Vientiane or Luang Prabang with Siem Reap and Phnom Penh)."
+                ]
+              ]
+            },
+            {
+              "parts": [
+                {
+                  "text": "Need a 5D, 6D, or Custom Laos Itinerary?",
+                  "bold": true
+                }
+              ],
+              "detail": [
+                "Currently, our featured fixed departure is the 4D3N Vientiane & Luang Prabang rail itinerary. If you want to add ",
+                {
+                  "text": "Vang Vieng",
+                  "bold": true
+                },
+                " (Blue Lagoon, Nam Song River, limestone karsts), the ",
+                {
+                  "text": "dawn alms-giving ceremony",
+                  "bold": true
+                },
+                ", ",
+                {
+                  "text": "Pak Ou Caves",
+                  "bold": true
+                },
+                ", or ",
+                {
+                  "text": "Phonsavan (Plain of Jars)",
+                  "bold": true
+                },
+                ", our Kuala Lumpur team can build a tailored private itinerary around your dates."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "Request a Custom Laos Itinerary",
+          "href": "/contact-us/"
+        }
+      ]
+    }
+  ],
   "bestTime": {
     "sectionLabel": "When to Visit",
     "heading": "Best Time to Visit Laos from Malaysia",
@@ -253,49 +442,24 @@
     "heading": "Frequently Asked Questions",
     "items": [
       {
-        "question": "How do I fly from Kuala Lumpur to Vientiane?",
-        "answer": "AirAsia flies nonstop from Kuala Lumpur to Vientiane, and it takes about two hours forty minutes. It only runs a few days a week, so it helps to fix your dates around the flight days."
+        "question": "How much does a Laos tour package from Malaysia cost?",
+        "answer": "Our 4-day, 3-night Vientiane and Luang Prabang by Train land package starts from RM1,888 per person based on twin sharing. This includes 3 nights of centrally located hotel stays, daily breakfast, private airport and sightseeing transfers, entrance fees, an English-speaking guide, and first-class high-speed train tickets between Vientiane and Luang Prabang (excluding return flights from Kuala Lumpur)."
       },
       {
-        "question": "Do Malaysians need a visa for Laos?",
-        "answer": "No, Malaysians can enter Laos visa-free for up to 30 days as tourists. Your passport needs six months of validity left, and immigration may ask to see a return or onward ticket."
+        "question": "When is the best time to visit Laos from Malaysia?",
+        "answer": "The most comfortable window to visit Laos is during the cool dry season from November to March (especially November to February), when daytime temperatures average 20°C to 28°C with clear skies and low humidity. This period is ideal for walking tours in Luang Prabang's old town, visiting Vientiane's monuments, and seeing Kuang Si Waterfall in clear turquoise tones."
       },
       {
-        "question": "What is the best month to visit Laos?",
-        "answer": [
-          "November to February is the sweet spot, with clear skies, cooler days and low humidity. December and January are the coolest but also the busiest, so the ",
-          {
-            "text": "year-end holiday deals",
-            "href": "/year-end-holiday-travel-deals-2026/"
-          },
-          " are worth booking early."
-        ]
+        "question": "How many days do I need for a Laos trip?",
+        "answer": "4 days (3 nights) is sufficient to cover the main highlights of Vientiane and Luang Prabang using the 2-hour Laos–China high-speed railway. If you would like to include Vang Vieng (located midway along the rail line between Vientiane and Luang Prabang), a Mekong sunset cruise, or a slower pace in Luang Prabang, 5 to 6 days is recommended."
       },
       {
-        "question": "How do I buy Laos-China railway tickets?",
-        "answer": [
-          "Laos-China railway tickets are booked for you on the ",
-          {
-            "text": "4 day Sacred Laos package",
-            "href": "/tours/laos/vientiane-luang-prabang/4-day-sacred-laos-by-train/"
-          },
-          ", with first-class seats between Vientiane and Luang Prabang. Travelling on your own, you would buy at a station ticket office or on a booking site, and busy dates sell out fast."
-        ]
+        "question": "Is halal food available in Vientiane and Luang Prabang?",
+        "answer": "Yes, Muslim-friendly and halal dining options are available in both cities, though choices are more limited than in Malaysia. In Vientiane, halal restaurants and Indian-Muslim eateries can be found near Masjid Al-Azhar (Cambodia Mosque) and the city centre. In Luang Prabang, dedicated halal Indian and South Asian restaurants operate near the old town and night market area. Let our team know when booking so we can arrange halal meals or provide an updated dining list."
       },
       {
-        "question": "How much does a Laos trip from Malaysia cost?",
-        "answer": [
-          "The 4 day Sacred Laos package starts from RM1,888 per person and includes first-class train seats and airport transfers. Longer or private trips are priced on request, so a ",
-          {
-            "text": "custom itinerary request",
-            "href": "/custom-itinerary-request/"
-          },
-          " with your dates gets you an exact figure."
-        ]
-      },
-      {
-        "question": "Is halal food available in Laos?",
-        "answer": "Yes, though choices are limited and mostly in Vientiane and Luang Prabang, often at Indian restaurants. Halal meals are arranged on request, and Muslim travellers get a briefing on mosques and halal dining before they go."
+        "question": "How are Laos high-speed train tickets booked?",
+        "answer": "Tickets on the Laos–China Railway between Vientiane and Luang Prabang open for booking only a few days before departure and sell out quickly during peak months. When you book a Laos package with Dhesu Travel, our ground team handles the first-class train ticket reservation for your group in advance so you do not need to queue at the station or navigate local ticketing apps."
       }
     ]
   },

@@ -9,6 +9,7 @@ import Button from "@/src/components/Button";
 import ArrowRight from "@/src/components/icons/ArrowRight";
 import FaqSection from "@/src/components/FaqSection";
 import LinkedText from "@/src/components/LinkedText";
+import HubSections from "@/src/components/tours/HubSections";
 import type { PageContent } from "@/src/data/pageContent";
 import type {
   TourPageData,
@@ -266,7 +267,7 @@ export default function TourDestinationTemplate({
   data: TourPageData;
   content?: PageContent;
 }) {
-  const { meta, hero, why, zones, gettingThere, bestTime, tripLength, packages, whyBook, cta, faq } =
+  const { meta, hero, why, zones, gettingThere, sections, bestTime, tripLength, packages, whyBook, cta, faq } =
     data;
 
   return (
@@ -335,15 +336,27 @@ export default function TourDestinationTemplate({
                 >
                   {hero.h1}
                 </motion.h1>
-                <motion.p
-                  initial={{ opacity: 0, y: 28 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
-                  className="font-primary font-semibold text-2xl md:text-3xl leading-tight mb-6"
-                >
-                  <span className="text-white">{hero.headline}</span>{" "}
-                  <span className="text-primary">{hero.headlineAccent}</span>
-                </motion.p>
+                {hero.subheadingTag === "h2" ? (
+                  <motion.h2
+                    initial={{ opacity: 0, y: 28 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
+                    className="font-primary font-semibold text-2xl md:text-3xl leading-tight mb-6"
+                  >
+                    <span className="text-white">{hero.headline}</span>{" "}
+                    <span className="text-primary">{hero.headlineAccent}</span>
+                  </motion.h2>
+                ) : (
+                  <motion.p
+                    initial={{ opacity: 0, y: 28 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.18, ease: easeOut }}
+                    className="font-primary font-semibold text-2xl md:text-3xl leading-tight mb-6"
+                  >
+                    <span className="text-white">{hero.headline}</span>{" "}
+                    <span className="text-primary">{hero.headlineAccent}</span>
+                  </motion.p>
+                )}
               </>
             ) : (
               <h1 className="font-primary font-bold text-5xl md:text-7xl leading-[1.05] mb-6">
@@ -497,6 +510,9 @@ export default function TourDestinationTemplate({
           </div>
         </section>
       )}
+
+      {/* ── HUB COPY SECTIONS — only when the hub's JSON carries them ──────────── */}
+      {sections && sections.length > 0 && <HubSections sections={sections} />}
 
       {/* ── BEST TIME + TRIP LENGTH ────────────────────────────────────────────── */}
       <section className="py-12 lg:py-12 lg:py-16 bg-white">

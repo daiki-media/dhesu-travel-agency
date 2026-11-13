@@ -18,6 +18,30 @@ export interface TourHighlight {
   places: string[];
 }
 
+/** Inline copy: text, a { text, href } link, or { text, bold } emphasis. */
+export type RichPart = FaqPart | { text: string; bold: true };
+
+/** One block of a hub copy section. */
+export type HubBlock =
+  | { type: "paragraph"; parts: RichPart[] }
+  | {
+      type: "list";
+      items: {
+        parts: RichPart[];
+        /** Paragraph under the item, as a line break in the copy puts it. */
+        detail?: RichPart[];
+        children?: RichPart[][];
+      }[];
+    }
+  | { type: "table"; headers: string[]; rows: RichPart[][][] }
+  | { type: "button"; label: string; href: string };
+
+export interface HubSection {
+  sectionLabel: string;
+  heading: string;
+  blocks: HubBlock[];
+}
+
 export interface TourZone {
   name: string;
   tag: string;
@@ -119,6 +143,11 @@ export interface TourPageData {
      * without it they are the h1, as before.
      */
     h1?: string;
+    /**
+     * Set to "h2" when the copy marks the sub-heading under the h1 as an H2
+     * (DHE-06, Laos); it renders as a paragraph otherwise.
+     */
+    subheadingTag?: "h2";
     headline: string;
     headlineAccent: string;
     body: string;
@@ -146,6 +175,12 @@ export interface TourPageData {
     heading: string;
     paragraphs: FaqPart[][];
   };
+  /**
+   * Optional copy sections rendered after `gettingThere`, in order, for hubs
+   * whose approved copy carries lists, bold lead-ins, tables or a button
+   * (DHE-06, Laos).
+   */
+  sections?: HubSection[];
   bestTime: {
     sectionLabel: string;
     heading: string;
