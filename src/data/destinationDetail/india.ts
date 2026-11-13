@@ -140,10 +140,10 @@ export const REGIONS: IndiaLandingPage[] = [
     kind: "region",
     blurb: "Dal Lake houseboats, the green meadows of Gulmarg and the pine valleys of Pahalgam.",
     select: startsWith("kashmir/"),
-    metaTitle: "Kashmir Tour Package from Malaysia | From RM1,088 | Dhesu",
+    metaTitle: "Kashmir Tour Package from Malaysia 2026/27 | Snow Season From RM1,088",
     metaDescription:
-      "Book a private Kashmir tour from Malaysia. 8 packages, 4 to 12 days, from RM1,088 per person. Dal Lake houseboat, Gulmarg gondola, guide and transfers.",
-    h1: "Kashmir Tour Packages from Malaysia",
+      "Private Kashmir tour packages from Malaysia: Srinagar, Gulmarg snow, Pahalgam, houseboat. 4 to 12 days from RM1,088 per person. Licensed since 1988. WhatsApp for dates.",
+    h1: "Kashmir Tour Packages from Malaysia (2026/27 Snow & All-Season Itineraries)",
     intro:
       "Kashmir has a way of stopping people mid-sentence. It begins on Dal Lake, where wooden houseboats sit on still water and shikaras glide past at dawn. In summer the meadows of Gulmarg turn an impossible green and the gondola climbs toward the snow line. In winter the whole valley goes white and the same slopes draw skiers. It is cool when the plains are hot, and it is beautiful in every season.",
     canonicalUrl: "/tours/india/kashmir",

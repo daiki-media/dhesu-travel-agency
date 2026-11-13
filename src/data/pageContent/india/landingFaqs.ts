@@ -90,6 +90,20 @@ export const kashmirFaqs: LandingFaq[] = [
     answer:
       "Packages start from RM1,088 per person for 4 days and run up to RM5,988 for the 12 day road trip to Leh.",
   },
+  // DHE-04: the two FAQs of the snow-season copy, as written.
+  {
+    question: "How much is a Kashmir trip from Malaysia?",
+    answer: [
+      "A 4-day private land package in Kashmir starts from RM1,088 per person (twin sharing), while 5-day to 8-day snow and multi-city packages typically range from RM1,388 to RM2,488 per person depending on hotel tier and season, excluding return international flights from Kuala Lumpur. For a full breakdown of flight fares, Gondola tickets, seasonal budgets, and visa fees, read our guide on ",
+      { text: "Kashmir trip cost from Malaysia", href: "/blog/kashmir-trip-cost-from-malaysia/" },
+      ".",
+    ],
+  },
+  {
+    question: "Is Kashmir safe and open for Malaysian tourists in 2026?",
+    answer:
+      "Yes, the main tourist circuit in the Kashmir Valley—including Srinagar, Dal Lake, Gulmarg, Pahalgam, and Sonamarg—is open to international and Malaysian travellers in 2026, with regular daily flights operating from New Delhi and Mumbai into Srinagar Airport. Before travelling, Malaysian citizens should check the latest travel advisories issued by the Ministry of Foreign Affairs Malaysia (Wisma Putra) and register their itinerary via the e-Konsular portal. While local tourist zones maintain visible security and Dhesu Travel operates with vetted local drivers and licensed guides, travellers should follow local weather and road advisories, especially during heavy winter snowfall.",
+  },
 ];
 
 export const varanasiFaqs: LandingFaq[] = [

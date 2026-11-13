@@ -7,16 +7,29 @@ import { Bullet, DataTable, INLINE_LINK, Section } from "@/src/data/guides/primi
 
 const BODY = "text-gray-600 text-[15px] leading-relaxed";
 
-const packages: [string, string, string, string, string, string][] = [
-  ["4 Days Kashmir Super Saver", "/tours/india/kashmir/4-day-super-saver/", "4D3N", "RM1,088", "RM435", "Dal Lake houseboat, Mughal Gardens"],
-  ["5 Days Kashmir Ski Resort & Cable Car", "/tours/india/kashmir/5-day-ski-resort-cable-car/", "5D4N", "RM2,388", "RM955", "Gulmarg gondola, Pahalgam saffron fields"],
-  ["5 Days Kashmir + Delhi Bazaar Shopping", "/tours/india/kashmir/5-day-paradise-delhi-shopping/", "5D4N", "RM2,588", "RM1,035", "Houseboat, saffron fields, Delhi markets"],
-  ["5 Days Kashmir Ski Resort + Taj Mahal", "/tours/india/kashmir/5-day-ski-taj-mahal/", "5D4N", "RM2,798", "RM1,119", "Gulmarg skiing, Taj Mahal"],
-  ["6 Days Best of Kashmir + Taj Mahal", "/tours/india/kashmir/6-day-best-of-kashmir-taj/", "6D5N", "RM3,118", "RM1,247", "Houseboat, Gulmarg, Taj Mahal sunrise"],
-  ["7 Days Exclusive Kashmir Escape", "/tours/india/kashmir/7-day-exclusive-escape/", "7D6N", "RM3,288", "RM1,315", "Gulmarg overnight, Pahalgam, private tour"],
-  ["7 Days Varanasi + Kashmir", "/tours/india/kashmir/7-day-varanasi-kashmir/", "7D6N", "RM4,688", "RM1,875", "Ganga Aarti, domestic flights included"],
-  ["12 Days Srinagar to Leh Road Trip", "/tours/india/kashmir/12-day-srinagar-leh-road-trip/", "12D11N", "RM5,988", "RM2,395", "Himalayan passes, Pangong Lake"],
+const H3 = "font-primary font-bold text-[#1a1a1a] text-xl mt-12 mb-5";
+
+const SKI_CABLE_CAR = "/tours/india/kashmir/5-day-ski-resort-cable-car/";
+const SKI_TAJ_MAHAL = "/tours/india/kashmir/5-day-ski-taj-mahal/";
+
+// DHE-04 price table, row for row: name, package page, days, from, hotel tier,
+// includes. The copy's link cells are placeholders, so a row links only where a
+// package page with the same package exists; rows 2, 5, 6 and 7 have none yet.
+const packages: [string, string | null, string, string, string, string][] = [
+  ["1. 4D Kashmir Super Saver", "/tours/india/kashmir/4-day-super-saver/", "4D / 3N", "From RM1,088", "Standard 3-Star / Deluxe Houseboat", "2N Srinagar hotel, 1N Dal Lake houseboat, daily breakfast & dinner, Shikara ride, private AC vehicle & driver"],
+  ["2. 5D Kashmir Valley & Gulmarg Snow", null, "5D / 4N", "From RM1,388", "3-Star / 4-Star & Deluxe Houseboat", "Srinagar, Gulmarg & Pahalgam day trips, 1N houseboat, daily halal meals, Shikara ride, private transfers"],
+  ["3. 5D Kashmir Ski Resort & Cable Car", SKI_CABLE_CAR, "5D / 4N", "From RM1,688", "4-Star Ski Resort & Deluxe Houseboat", "2N Gulmarg resort, 1N Srinagar hotel, 1N houseboat, Gondola Phase 1 ticket, daily meals, private 4x4/heated transfer"],
+  ["4. 5D Kashmir Ski & Taj Mahal Combo", SKI_TAJ_MAHAL, "5D / 4N", "From RM1,888", "4-Star Hotels & Deluxe Houseboat", "Srinagar, Gulmarg snow excursion, Agra Taj Mahal guided tour, daily meals, private transfers (excludes domestic flight)"],
+  ["5. 6D Classic Kashmir & Sonamarg", null, "6D / 5N", "From RM1,688", "4-Star Hotels & Super Deluxe Houseboat", "Srinagar Mughal Gardens, Gulmarg, Pahalgam, Sonamarg excursion, 1N houseboat, daily meals, private transport"],
+  ["6. 7D Kashmir & Golden Triangle", null, "7D / 6N", "From RM2,188", "4-Star Hotels & Deluxe Houseboat", "Srinagar, Gulmarg, Delhi, Agra (Taj Mahal) & Jaipur sightseeing, daily halal meals, private vehicle & guide"],
+  ["7. 8D Complete Kashmir & North India", null, "8D / 7N", "From RM2,488", "4-Star Hotels & Super Deluxe Houseboat", "Srinagar, Gulmarg, Pahalgam, Sonamarg + Delhi & Agra, daily meals, Shikara ride, private transfers"],
+  ["8. 12D Grand Himalayan Kashmir & Ladakh", "/tours/india/kashmir/12-day-srinagar-leh-road-trip/", "12D / 11N", "From RM3,688", "4-Star / Boutique Hotels & Houseboat", "Extended Kashmir Valley + Leh-Ladakh overland/flight circuit, daily meals, permits, private SUV & guide"],
 ];
+
+// DHE-12 will supply verified traveller reviews. Until then the list is empty
+// and the section renders nothing; the container stays ready for them.
+type Testimonial = { name: string; travelled: string; packageName: string; quote: string };
+const testimonials: Testimonial[] = [];
 
 const L = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <Link href={href} className={INLINE_LINK}>
@@ -38,20 +51,103 @@ export function KashmirBody() {
         </p>
       </div>
 
-      <Section label="Packages" heading="Kashmir Packages at a Glance">
+      <Section
+        label="Snow Season"
+        heading="Kashmir Snow Season Packages: December 2026 to February 2027"
+      >
+        <div className="space-y-5">
+          <p className={BODY}>
+            Winter transforms the Kashmir Valley into one of Asia&apos;s premier snow destinations
+            for Malaysian travellers, with peak snowfall across Gulmarg, Pahalgam, and Sonamarg
+            running from December 2026 through February 2027. Because the Malaysian year-end school
+            holidays fall between 5 December and 31 December 2026, early booking is recommended to
+            secure heated hotels, Dal Lake cedar houseboats, and peak-date land transport.
+          </p>
+          <p className={BODY}>
+            In Gulmarg, visitors can ride the Gulmarg Gondola (Phase 1 to Kongdoori and Phase 2 to
+            Apharwat Peak, weather permitting) for panoramic Himalayan snow views, beginner ski
+            lessons, snowboarding, and snow sledging.
+          </p>
+        </div>
+        <h3 className={H3}>Featured Snow Season Itineraries</h3>
+        <ul className="space-y-4">
+          <Bullet>
+            <strong>
+              <L href={SKI_CABLE_CAR}>5D Kashmir Ski Resort &amp; Gulmarg Cable Car Package</L>
+            </strong>
+            : Focused on Srinagar houseboat stays, two nights in Gulmarg with Gondola ride
+            inclusions, and private heated transport.
+          </Bullet>
+          <Bullet>
+            <strong>
+              <L href={SKI_TAJ_MAHAL}>5D Kashmir Ski &amp; Taj Mahal Combo Package</L>
+            </strong>
+            : Pairs Gulmarg snow activities and Srinagar sightseeing with a private Agra excursion to
+            visit the Taj Mahal.
+          </Bullet>
+        </ul>
+        <h3 className={H3}>What to Pack for Kashmir Winter (December–February)</h3>
+        <p className={`${BODY} mb-5`}>
+          Daytime temperatures range from 2°C to 8°C and drop below freezing at night (-2°C to -8°C
+          in Gulmarg):
+        </p>
+        <ul className="space-y-4">
+          <Bullet>Thermal base layers (top and bottom) and fleece mid-layers</Bullet>
+          <Bullet>Waterproof windbreaker or down winter jacket</Bullet>
+          <Bullet>
+            Waterproof snow boots with good grip (snow boots and heavy coats can also be rented
+            locally in Tangmarg on the way up to Gulmarg)
+          </Bullet>
+          <Bullet>
+            Woollen beanie, scarf, waterproof gloves, sunglasses (to prevent snow glare), and
+            high-SPF sunscreen/lip balm
+          </Bullet>
+        </ul>
+      </Section>
+
+      <Section label="Packages" heading="Kashmir Package Prices from Malaysia">
+        <p className={`${BODY} mb-6`}>
+          Compare all 8 private Kashmir tour packages from Malaysia below. Rates are
+          land-arrangement starting prices per person based on twin sharing (international flights
+          from Kuala Lumpur to Srinagar/Delhi excluded unless specified).
+        </p>
         <DataTable
-          headers={["Package", "Days", "From (per person)", "Saving per couple", "Highlights"]}
-          rows={packages.map(([name, href, days, price, saving, highlights]) => [
-            <L key={href} href={href}>
-              {name}
-            </L>,
+          headers={["Package Name", "Days", "From (RM)", "Hotel Tier", "Includes"]}
+          rows={packages.map(([name, href, days, price, tier, includes]) => [
+            href ? (
+              <L key={name} href={href}>
+                {name}
+              </L>
+            ) : (
+              name
+            ),
             days,
             price,
-            saving,
-            highlights,
+            tier,
+            includes,
           ])}
         />
+        {/* The copy's "(confirm exact seasonal surcharges and tier rates with
+            client)" is a note to the team, not page text. */}
+        <p className={`${BODY} mt-5`}>
+          Note: Prices valid for travel until 31 Mar 2027, subject to availability.
+        </p>
       </Section>
+
+      {testimonials.length > 0 && (
+        <Section label="Reviews" heading="Traveller Testimonials">
+          <ul className="space-y-6">
+            {testimonials.map((t) => (
+              <li key={t.name + t.travelled}>
+                <p className={BODY}>&ldquo;{t.quote}&rdquo;</p>
+                <p className="mt-2 font-primary font-bold text-teal-navy text-[15px]">
+                  {t.name}, {t.travelled}, {t.packageName}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
 
       <Section label="Choose" heading="Which Kashmir Package Suits You?">
         <div className="space-y-5">
