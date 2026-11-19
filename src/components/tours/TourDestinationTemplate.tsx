@@ -61,12 +61,15 @@ export function PackageCard({
   index,
   slug,
   nameHref,
+  details,
 }: {
   pkg: TourPackage;
   index: number;
   slug: string;
   /** Optional link on the package name, for a list whose copy links the name elsewhere (e.g. to its hub). */
   nameHref?: string;
+  /** Optional labelled lines under the name (e.g. "Dates", "Muslim-friendly"), for a list whose copy gives them per package. */
+  details?: { label: string; text: string }[];
 }) {
   return (
     <motion.div
@@ -124,6 +127,17 @@ export function PackageCard({
             pkg.name
           )}
         </h3>
+
+        {details && details.length > 0 && (
+          <dl className="space-y-1.5 mb-3 text-sm leading-relaxed">
+            {details.map((d) => (
+              <div key={d.label}>
+                <dt className="inline font-semibold text-teal-navy">{d.label}:</dt>{" "}
+                <dd className="inline text-gray-600">{d.text}</dd>
+              </div>
+            ))}
+          </dl>
+        )}
 
         {/* Highlights, or — for a guide, which has none — what the article covers. */}
         {pkg.blurb ? (

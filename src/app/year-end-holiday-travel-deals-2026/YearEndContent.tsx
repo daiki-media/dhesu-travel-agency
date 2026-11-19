@@ -1,34 +1,33 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { PackageCard, SectionLabel } from "@/src/components/tours/TourDestinationTemplate";
 import AllPagesHero from "@/src/components/AllPagesHero";
 import Button from "@/src/components/Button";
 import FaqSection from "@/src/components/FaqSection";
-import CtaSection from "@/src/components/CtaSection";
 import { whatsappHref } from "@/src/lib/whatsapp";
 import type { TourPackage } from "@/src/data/tourPages/types";
 
-/** One of DHE-08's featured products, rendered as a standard package card. */
+/** One of DHE-101's packages, rendered as a standard package card. */
 export type YearEndPackage = {
   name: string;
+  /** "3 Days / 2 Nights", as the copy writes it. */
+  duration: string;
   price: string;
+  dates: string;
+  muslimFriendly: string;
   description: string;
-  /** Where the copy links the product name (its hub or region page). */
-  nameHref: string;
-  /** The package behind the price, which the card's "Book Now" opens. */
+  /** The package page the card's "Book Now" opens. */
   packageHref: string;
-  /** Card photo, tag and duration, from that package. */
+  /** Card photo and tag, from that package. */
   image: string;
   tag: string;
   tagColor: TourPackage["tagColor"];
-  duration: string;
 };
 
 /**
- * A product in the shape PackageCard reads. The card links to
+ * A package in the shape PackageCard reads. The card links to
  * /tours/{slug}/{pkg.slug}, so packageHref is split into those two parts; the
  * copy's description goes in `blurb`, the card's one-paragraph slot.
  */
@@ -52,34 +51,15 @@ function toCard(pkg: YearEndPackage): { card: TourPackage; slug: string } {
 }
 
 /**
- * Body copy is taken verbatim from
- * content-document/sesional&school-holiday/Year-End Holiday Deals 2026_
- * Malaysia's Busiest Travel Window.docx — the draft's own order, headings and
- * wording.
- *
- * Layout device: this page is about a price that only ever climbs, so the
- * pricing table is drawn as a rising bar — the width of the rule under each
- * band is the argument, not decoration. The planning timeline reuses the same
- * left-to-right reading so the two sections rhyme.
+ * All copy on this page is DHE-101's final page copy (Downloads/Year-End
+ * Holiday Packages 2026_ final page copy for the dev.docx, Rohan), verbatim:
+ * its order, headings, wording and links. The section labels above the
+ * headings are the site's design device, not copy.
  */
 
 const PHOTO = {
   hero: "/images/seasonal/winter-ice-festival.jpg",
   heroAlt: "Visitors at an outdoor winter ice festival",
-  festive: "/images/seasonal/festive-park-night.jpg",
-  festiveAlt: "A theme park lit up at dusk during the festive season",
-  types: "/images/seasonal/winter-snow-park.jpg",
-  typesAlt: "A snow-covered park with bare trees in winter",
-  band: "/images/seasonal/ye-rothenburg.jpg",
-  bandAlt: "The half-timbered old town of Rothenburg ob der Tauber",
-  korea: "/images/seasonal/ye-korea-gamcheon.jpg",
-  koreaAlt: "The painted hillside houses of Gamcheon Culture Village, Busan",
-  booksOut: "/images/seasonal/ye-vienna-opera.jpg",
-  booksOutAlt: "The Vienna State Opera lit up at night",
-  ski: "/images/seasonal/ye-ski-chairlift.jpg",
-  skiAlt: "Friends riding a chairlift above the snow",
-  alpine: "/images/seasonal/ye-alpine-cable-car.jpg",
-  alpineAlt: "A cable car crossing snow-covered Alpine peaks",
 };
 
 const fadeUp = {
@@ -87,132 +67,86 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
-// The draft's own internal links. Two point at the old Europe & Canada listing,
-// which the Europe hub now covers; the other two point at the old homepage,
-// which on a page that is not about one destination has no more specific
-// equivalent than our own homepage.
-const EUROPE = "/tours/europe";
-const HOME = "/";
+const BODY = "text-gray-600 text-[15px] leading-relaxed";
 
 const INLINE_LINK =
   "font-semibold text-teal-navy underline decoration-primary/40 underline-offset-4 hover:decoration-primary transition-colors";
 
-// Same underline, set for the dark hero.
-const HERO_LINK =
+// Same underline, set for the dark CTA band.
+const DARK_LINK =
   "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
 
-const intensifiers = [
-  {
-    factor: "Extended school break",
-    why: "Malaysia's longest school holiday window falls at year-end",
-  },
-  {
-    factor: "Global festive travel",
-    why: "Christmas and New Year drive worldwide travel demand simultaneously",
-  },
-  {
-    factor: "Corporate year-end trips",
-    why: "Companies often schedule incentive and retreat travel around this period too",
-  },
-  {
-    factor: "Limited flexibility",
-    why: "Most families and workers have fixed time-off windows, concentrating demand into the same dates",
-  },
-  {
-    factor: "Popular destination overlap",
-    why: "Many top destinations (Australia, Europe, Japan) are also in their own peak season",
-  },
-];
+const CONTACT = "/contact-us/";
 
-// DHE-08's school holiday dates, as the copy writes them (Rudy, 11 Nov: follow
-// the copy as written).
+// The copy's school holiday list, as written (Group A includes Johor).
 const schoolHolidays = [
   {
     term: "Group A (Kedah, Kelantan, Terengganu, Johor)",
-    detail: "4 December 2026 – 31 December 2026",
+    detail: "4 December to 31 December 2026",
   },
   {
     term: "Group B (Kuala Lumpur, Selangor, Penang, Melaka, Perak, Pahang, Sabah, Sarawak, Putrajaya, Labuan)",
-    detail: "5 December 2026 – 31 December 2026",
+    detail: "5 December to 31 December 2026",
+  },
+  {
+    term: "Peak surcharge window",
+    detail:
+      "24 December 2026 to 1 January 2027. Departures in this window carry seasonal flight and hotel surcharges, so the From prices below are starting rates.",
   },
 ];
 
-// `weight` is the share of the bar that is filled — the price climb made visible.
-const pricing = [
+// The copy's budget table, row for row; each entry links to its package.
+const budgetRows: { band: string; items: { label: string; href: string; price: string }[] }[] = [
   {
-    when: "6+ months ahead",
-    pattern: "Most competitive pricing and widest availability",
-    weight: 25,
+    band: "Under RM1,000",
+    items: [
+      { label: "Bali 3 Days Super Saver", href: "/tours/indonesia/bali/3-day-super-saver/", price: "RM398" },
+      {
+        label: "Hanoi and Halong Bay 3 Days",
+        href: "/tours/vietnam/north-vietnam/3-day-hanoi-halong-bay-super-saver/",
+        price: "RM688",
+      },
+      { label: "Angkor 3 Days", href: "/tours/cambodia/siem-reap/3-day-angkor-khmer-empire/", price: "RM888" },
+      { label: "Sri Lanka Kandy and Colombo", href: "/tours/sri-lanka/kandy/3-day-kandy-colombo/", price: "RM888" },
+      { label: "Nepal 4 Days Super Saver", href: "/tours/nepal/kathmandu/4-day-super-saver/", price: "RM888" },
+      { label: "Best of Bali 4 Days", href: "/tours/indonesia/bali/4-day-best-of-bali/", price: "RM988" },
+    ],
   },
   {
-    when: "3–5 months ahead",
-    pattern: "Moderate pricing; availability still reasonable for most destinations",
-    weight: 50,
+    band: "RM1,000 to RM1,500",
+    items: [
+      { label: "Kashmir 4 Days Super Saver", href: "/tours/india/kashmir/4-day-super-saver/", price: "RM1,088" },
+      {
+        label: "Bali 5 Days Bliss",
+        href: "/tours/indonesia/bali/5-day-bliss-temples-highlands-sunset/",
+        price: "RM1,188",
+      },
+      {
+        label: "Sri Lanka 4 Days Muslim Friendly",
+        href: "/tours/sri-lanka/nuwara-eliya/4-day-muslim-friendly/",
+        price: "RM1,288",
+      },
+      {
+        label: "India Golden Triangle 5 Days",
+        href: "/tours/india/north-india/5-day-golden-triangle/",
+        price: "RM1,388",
+      },
+    ],
   },
   {
-    when: "1–2 months ahead",
-    pattern:
-      "Pricing rises noticeably; preferred dates and hotels may already be limited",
-    weight: 75,
-  },
-  {
-    when: "Final weeks",
-    pattern: "Highest pricing of the year; availability significantly constrained",
-    weight: 100,
-  },
-];
-
-const booksOutFirst = [
-  {
-    term: "Direct or convenient flight routes",
-    detail: "Especially to high-demand destinations like Japan, Australia, and Europe",
-  },
-  {
-    term: "Family-friendly and centrally located hotels",
-    detail: "Preferred properties near key attractions fill quickly",
-  },
-  {
-    term: "New Year's Eve-specific experiences",
-    detail: "Dinners, events, and celebrations tied to specific dates",
-  },
-  {
-    term: "Popular multi-country group tours",
-    detail: "Fixed departure dates for group tours have limited capacity",
-  },
-];
-
-const timeline = [
-  {
-    when: "July–August",
-    action: "Begin researching destinations and requesting initial quotes",
-  },
-  {
-    when: "September–October",
-    action: "Confirm bookings to lock in pricing before the steepest increases",
-  },
-  {
-    when: "November",
-    action: "Finalise remaining details; expect limited flexibility on changes",
-  },
-  { when: "December", action: "Travel during the peak window itself" },
-];
-
-const travellerTypes = [
-  {
-    type: "Families",
-    style: "Destinations combining festive atmosphere with kid-friendly activities",
-  },
-  {
-    type: "Couples",
-    style: "Romantic city breaks with Christmas market or New Year's Eve experiences",
-  },
-  {
-    type: "Groups of friends",
-    style: "Multi-country tours or ski/winter destination trips",
-  },
-  {
-    type: "Corporate groups",
-    style: "Year-end retreats or incentive trips scheduled before the year closes",
+    band: "RM1,500 and above",
+    items: [
+      {
+        label: "Kashmir 5 Days Ski Resort and Cable Car",
+        href: "/tours/india/kashmir/5-day-ski-resort-cable-car/",
+        price: "RM1,688",
+      },
+      {
+        label: "Nepal 6 Days Muslim Friendly",
+        href: "/tours/nepal/kathmandu-pokhara/6-day-muslim-friendly/",
+        price: "RM2,088",
+      },
+    ],
   },
 ];
 
@@ -248,17 +182,6 @@ function Section({
   );
 }
 
-function DefinitionRow({ term, detail }: { term: string; detail: string }) {
-  return (
-    <div className="grid grid-cols-1 sm:grid-cols-12 gap-2 sm:gap-8 border-b border-gray-200 py-6">
-      <p className="sm:col-span-4 font-primary font-bold text-teal-navy text-[15px] leading-snug">
-        {term}
-      </p>
-      <p className="sm:col-span-8 text-gray-600 text-[15px] leading-relaxed">{detail}</p>
-    </div>
-  );
-}
-
 export default function YearEndContent({
   faqs,
   packages,
@@ -275,369 +198,236 @@ export default function YearEndContent({
         image={PHOTO.hero}
         imageAlt={PHOTO.heroAlt}
         eyebrow="Seasonal"
-        // DHS-T3: the h1 is the SEO sheet's; the creative line stays as a
-        // sub-heading paragraph.
-        title="Year-End Holiday Packages 2026"
-        subheading="Malaysia&rsquo;s Busiest Travel Window"
+        title="Year End Holiday Packages 2026 from Malaysia"
         intro={
           <>
-            The year end period, which is from the long break of the school, through
-            Christmas, and to the New Year period, is always the busiest travel period of
-            the year for Malaysians. This is a real busy time to plan for, because not only
-            are there two holiday periods involved but the travel needs of{" "}
-            <Link href={HOME} className={HERO_LINK}>
-              domestic and international travelers
-            </Link>{" "}
-            will overlap making this an important time.
+            Malaysian school holidays run from 4 December to 31 December 2026 for Group A
+            states and from 5 December for Group B. That long break rolls straight into
+            Christmas and New Year, so year end travel gets busy fast. Flights fill up, hotel
+            rates move and the good dates go first.
           </>
         }
-        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
       />
 
-      {/* ── WHY IT IS DIFFERENT ───────────────────────────────────────────── */}
-      <Section
-        label="The Pile-Up"
-        heading="Why Year-End Is Different From Other Peak Periods"
-        className="bg-white"
-      >
-        <div className="border-t-2 border-teal-navy max-w-4xl">
-          {intensifiers.map((row) => (
-            <DefinitionRow key={row.factor} term={row.factor} detail={row.why} />
-          ))}
+      {/* ── INTRO ─────────────────────────────────────────────────────────── */}
+      <section className="pt-12 lg:pt-16 bg-white">
+        <div className="max-w-6xl mx-auto px-6 lg:px-12">
+          <p className={`${BODY} max-w-3xl`}>
+            Below are 12 year end holiday packages from Dhesu with real From prices, so you can
+            see what fits your budget before you message us. They start at RM398 per person for
+            a 3 day Bali trip and go up to RM2,088 for a 6 day Nepal tour. Every one is a private
+            tour, so you agree the dates with our team inside the holiday window instead of
+            waiting for a group to fill.
+          </p>
         </div>
-      </Section>
+      </section>
 
-      {/* ── SCHOOL HOLIDAY DATES ───────────────────────────────────────────
-          DHE-08 puts the dates directly above the product grid, so the
-          window is read before the prices that apply to it. */}
+      {/* ── SCHOOL HOLIDAY DATES ──────────────────────────────────────────── */}
       <Section
         label="School Holidays"
-        heading="School Holiday Dates 2026"
-        className="bg-teal-light/40"
+        heading="December 2026 School Holiday Dates for Year End Travel"
+        className="bg-white"
       >
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-          <div className="lg:col-span-7 border-t-2 border-teal-navy">
-            {schoolHolidays.map((row) => (
-              <DefinitionRow key={row.term} term={row.term} detail={row.detail} />
-            ))}
-          </div>
-          <div className="lg:col-span-5 border-l-2 border-primary pl-8">
-            <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-3">
-              Peak Surcharge Notice
-            </h3>
-            <p className="text-gray-600 text-[15px] leading-relaxed">
-              Departures falling within the Christmas and New Year festive peak window (24
-              December 2026 &ndash; 1 January 2027) are subject to seasonal flight and hotel
-              peak surcharges. Early booking is highly recommended to secure base pricing.
-            </p>
-          </div>
+        <ul className="border-t-2 border-teal-navy max-w-4xl">
+          {schoolHolidays.map((row) => (
+            <li
+              key={row.term}
+              className="border-b border-gray-200 py-5 text-[15px] leading-relaxed text-gray-600"
+            >
+              <strong className="font-primary font-bold text-teal-navy">{row.term}:</strong>{" "}
+              {row.detail}
+            </li>
+          ))}
+        </ul>
+        <div className="mt-8">
+          <Link href={CONTACT}>
+            <Button variant="light" showArrow>
+              Send us your dates for a free quote
+            </Button>
+          </Link>
         </div>
       </Section>
 
-      {/* ── FEATURED PACKAGES ─────────────────────────────────────────────
-          DHE-08's products replace the generic destination list (Australia,
-          Japan, Korea), which named trips Dhesu does not sell as fixed
-          packages. Standard package cards, as on the hubs. */}
+      {/* ── PACKAGES ──────────────────────────────────────────────────────── */}
       <Section
-        label="Where To Go"
-        heading="Popular Year-End Destinations"
-        className="bg-white"
+        label="Packages"
+        heading="Year End Holiday Packages from Malaysia With Real Prices"
+        className="bg-teal-light/40"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
           {packages.map((pkg, i) => {
             const { card, slug } = toCard(pkg);
             return (
-              <PackageCard key={card.id} pkg={card} index={i} slug={slug} nameHref={pkg.nameHref} />
+              <PackageCard
+                key={card.id}
+                pkg={card}
+                index={i}
+                slug={slug}
+                details={[
+                  { label: "Dates", text: pkg.dates },
+                  { label: "Muslim-friendly", text: pkg.muslimFriendly },
+                ]}
+              />
             );
           })}
         </div>
-
-        {/* DHE-08's urgent-enquiry button, set as the homepage's note callout.
-            Its own WhatsApp ref (DHESU-WEB-YEAREND) tells these leads apart in
-            GHL and GA4. */}
-        <div className="mt-12 bg-teal-light/40 rounded-2xl p-6 md:p-8 border-l-4 border-primary flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-          <div>
-            <p className="text-gray-400 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
-              Last minute
-            </p>
-            <h3 className="font-primary font-bold text-teal-navy text-lg md:text-xl leading-snug">
-              Last-Minute December Departures
-            </h3>
-          </div>
-          <a
-            href={whatsappHref("yearend")}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="shrink-0"
-          >
-            <Button variant="light" showArrow size="md">
-              Inquiry for Last-Minute December Departures
-            </Button>
-          </a>
-        </div>
+        {/* The copy's small print under the cards. */}
+        <p className="mt-10 max-w-3xl text-gray-500 text-sm leading-relaxed">
+          From prices are per person for the land package. Departures between 24 December 2026
+          and 1 January 2027 carry peak surcharges. Hotel level, group size and dates change the
+          final price, so we send a written quote before you pay.{" "}
+          <Link href={CONTACT} className={INLINE_LINK}>
+            Send us your dates for a free quote
+          </Link>
+          .
+        </p>
       </Section>
 
-      {/* ── PRICING CLIMB ─────────────────────────────────────────────────
-          The rule under each band is drawn to its `weight`, so the section
-          reads as a rising cost before a word of it is read. */}
-      <section className="py-12 lg:py-12 lg:py-16 bg-teal-navy">
-        <div className="max-w-6xl mx-auto px-6 lg:px-12">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-60px" }}
-            variants={fadeUp}
-          >
-            <div className="flex items-center gap-3 mb-3">
-              <span className="w-8 h-[2px] bg-primary" />
-              <span className="text-white/70 font-semibold text-sm uppercase tracking-widest font-primary">
-                Pricing
-              </span>
-            </div>
-            <h2 className="font-primary font-bold text-white text-2xl md:text-3xl leading-tight mb-8 max-w-3xl">
-              Pricing Behaviour During Year-End Season
-            </h2>
-
-            <div className="space-y-8">
-              {pricing.map((row) => (
-                <div key={row.when}>
-                  <div className="grid grid-cols-1 sm:grid-cols-12 gap-2 sm:gap-8 mb-3">
-                    <p className="sm:col-span-4 font-primary font-bold text-white text-[15px]">
-                      {row.when}
-                    </p>
-                    <p className="sm:col-span-8 text-white/70 text-[15px] leading-relaxed">
-                      {row.pattern}
-                    </p>
-                  </div>
-                  <div
-                    className="h-[3px] w-full bg-white/10 overflow-hidden"
-                    role="presentation"
-                  >
-                    <div
-                      className="h-full bg-primary"
-                      style={{ width: `${row.weight}%` }}
-                    />
-                  </div>
-                </div>
+      {/* ── BY BUDGET ─────────────────────────────────────────────────────── */}
+      <Section label="By Budget" heading="Year End Holiday Deals by Budget" className="bg-white">
+        <div className="overflow-x-auto -mx-6 px-6 lg:mx-0 lg:px-0">
+          <table className="w-full min-w-[640px] border-collapse text-left">
+            <thead>
+              <tr className="border-b-2 border-teal-navy">
+                <th className="py-3 pr-6 font-primary font-bold text-teal-navy text-xs uppercase tracking-widest align-bottom">
+                  Budget per person
+                </th>
+                <th className="py-3 font-primary font-bold text-teal-navy text-xs uppercase tracking-widest align-bottom">
+                  Year end holiday packages
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {budgetRows.map((row) => (
+                <tr key={row.band} className="border-b border-gray-200">
+                  <td className="py-4 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] leading-snug align-top whitespace-nowrap">
+                    {row.band}
+                  </td>
+                  <td className={`py-4 align-top ${BODY}`}>
+                    {row.items.map((item, i) => (
+                      <span key={item.href}>
+                        {i > 0 && ", "}
+                        <Link href={item.href} className={INLINE_LINK}>
+                          {item.label}
+                        </Link>{" "}
+                        ({item.price})
+                      </span>
+                    ))}
+                  </td>
+                </tr>
               ))}
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* ── WHAT BOOKS OUT FIRST ──────────────────────────────────────────── */}
-      <Section
-        label="Gone First"
-        heading="What Books Out First During Year-End Season"
-        className="bg-white"
-      >
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-          <div className="lg:col-span-7 border-t-2 border-teal-navy">
-            {booksOutFirst.map((row) => (
-              <DefinitionRow key={row.term} term={row.term} detail={row.detail} />
-            ))}
-          </div>
-          <div className="lg:col-span-5 relative h-64 lg:h-[360px] overflow-hidden rounded-2xl">
-            <Image
-              src={PHOTO.booksOut}
-              alt={PHOTO.booksOutAlt}
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 40vw"
-            />
-          </div>
+            </tbody>
+          </table>
         </div>
       </Section>
 
-      {/* ── PLANNING TIMELINE ─────────────────────────────────────────────── */}
+      {/* ── WHY LATE DECEMBER COSTS MORE ──────────────────────────────────── */}
       <Section
-        label="Timeline"
-        heading="Suggested Planning Timeline"
+        label="Peak Season"
+        heading="Why Year End Travel Costs More in Late December"
         className="bg-teal-light/40"
       >
-        <ol className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {timeline.map((row) => (
-            <li key={row.when} className="border-t-2 border-primary pt-5">
-              <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-2">
-                {row.when}
-              </h3>
-              <p className="text-gray-600 text-[15px] leading-relaxed">{row.action}</p>
-            </li>
-          ))}
-        </ol>
-      </Section>
-
-      {/* ── FESTIVE EXPERIENCES ───────────────────────────────────────────── */}
-      <Section
-        label="Festive"
-        heading="Combining Year-End Travel With Festive Experiences"
-        className="bg-white"
-      >
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-          <p className="lg:col-span-7 text-gray-600 leading-relaxed">
-            Indeed, there are many who travel especially to participate in festive happenings
-            that cannot be experienced in any other time of the year, such as{" "}
-            <Link href={EUROPE} className={INLINE_LINK}>
-              Christmas markets in Europe
-            </Link>
-            , winter illumination events in Japan, or New Year&rsquo;s Eve celebrations in
-            big cities. It is therefore wise to find out about the timing and
-            the availability of such festivities as soon as possible because their schedule
-            does not change regardless of your booking timing.
+        <div className="space-y-5 max-w-3xl">
+          <p className={BODY}>
+            Year end is not like the mid-year break. The school holiday, Christmas and New Year
+            all land in the same four weeks, and families and companies are chasing the same
+            dates. That pushes flights and hotels up, mostly in the last week of December. It is
+            why the peak surcharge window exists, and why a year end holiday starting on 20
+            December can cost noticeably less than the same trip on 27 December.
           </p>
-          <div className="lg:col-span-5 relative h-56 lg:h-72 overflow-hidden rounded-2xl">
-            <Image
-              src={PHOTO.festive}
-              alt={PHOTO.festiveAlt}
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 40vw"
-            />
-          </div>
+          <p className={BODY}>
+            If you can move your dates, leaving early in the school holiday or after the New
+            Year rush is the easiest way to save. If you can’t, tell us your exact dates and we
+            will say what is open and what the surcharge looks like before you commit to
+            anything.
+          </p>
+          <p className={BODY}>
+            December also suits a few of these places well. Sri Lanka’s beaches and hills are
+            at their best from December to March, and{" "}
+            <Link href="/tours/sri-lanka/sri-lanka-tour-travel-guide-2026/" className={INLINE_LINK}>
+              our Sri Lanka travel guide
+            </Link>{" "}
+            explains how the monsoon seasons split the island. Nepal’s mountain views are
+            clearest from October to December. Kashmir turns to snow, which is why people book
+            Gulmarg now, and the{" "}
+            <Link href="/blog/kashmir-trip-cost-from-malaysia/" className={INLINE_LINK}>
+              Kashmir trip cost breakdown for Malaysians
+            </Link>{" "}
+            shows what a full trip adds up to once flights are in.
+          </p>
         </div>
       </Section>
 
-      {/* ── TRAVELLER TYPES ───────────────────────────────────────────────── */}
+      {/* ── MUSLIM-FRIENDLY ───────────────────────────────────────────────── */}
       <Section
-        label="Who Travels"
-        heading="Year-End Travel for Different Traveller Types"
+        label="Muslim-Friendly"
+        heading="Muslim-Friendly Year End Holiday Packages"
+        className="bg-white"
+      >
+        <p className={`${BODY} max-w-3xl`}>
+          Two of the year end holiday packages above are built as Muslim-friendly trips from the
+          start: the 4 day Sri Lanka tour with halal meals included, and the 6 day Nepal tour
+          with halal dining guidance and a Muslim-aware private guide. For every other package,
+          tell us what you need when you enquire and we plan meals and prayer times around it.
+          How that works across other routes is covered in{" "}
+          <Link href="/muslim-friendly-holiday-travel-guide/" className={INLINE_LINK}>
+            our Muslim-friendly holiday travel guide
+          </Link>
+          .
+        </p>
+      </Section>
+
+      {/* ── COMPANIES AND BIG FAMILIES ────────────────────────────────────── */}
+      <Section
+        label="Groups"
+        heading="Year End Holiday Trips for Companies and Big Families"
         className="bg-teal-light/40"
       >
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-          <div className="lg:col-span-5 relative h-56 lg:h-72 overflow-hidden rounded-2xl order-2 lg:order-1">
-            <Image
-              src={PHOTO.types}
-              alt={PHOTO.typesAlt}
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 40vw"
-            />
-          </div>
-          <div className="lg:col-span-7 border-t-2 border-teal-navy order-1 lg:order-2">
-            {travellerTypes.map((row) => (
-              <DefinitionRow key={row.type} term={row.type} detail={row.style} />
-            ))}
-          </div>
-        </div>
+        <p className={`${BODY} max-w-3xl`}>
+          Plenty of companies like to close the year with a retreat or incentive trip, and
+          extended families often want to travel together during the same school break. Both are
+          quoted by headcount and room setup rather than per package, so it is better to start
+          with a message than a booking. Details on{" "}
+          <Link href="/group-incentive-travel-packages/" className={INLINE_LINK}>
+            group and incentive travel packages for companies and clubs
+          </Link>{" "}
+          are on their own page.
+        </p>
       </Section>
-
-      {/* ── BALANCING, GROUPS, INSURANCE ──────────────────────────────────── */}
-      <Section
-        label="Practicalities"
-        heading="Balancing Festive Celebrations With Travel Plans"
-        className="bg-white"
-      >
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          {[
-            { src: PHOTO.ski, alt: PHOTO.skiAlt },
-            { src: PHOTO.alpine, alt: PHOTO.alpineAlt },
-          ].map((img) => (
-            <motion.div
-              key={img.src}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-60px" }}
-              variants={fadeUp}
-              className="relative h-56 md:h-72 overflow-hidden rounded-2xl"
-            >
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </motion.div>
-          ))}
-        </div>
-        <div className="space-y-8 max-w-3xl">
-          <p className="text-gray-600 leading-relaxed">
-            For many families, there exists an authentic dilemma that arises at the year-end
-            period when it comes to planning: choosing between observing local festivities and
-            family meetings versus traveling during the break. The most commonly adopted
-            solution involves planning to depart for a trip after local festivities or family
-            engagements are concluded and use the remaining days in the break period for
-            traveling.
-          </p>
-          <div>
-            <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-3">
-              Managing Group Bookings During Year-End Season
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              For families or friend groups travelling together during year-end, coordinating
-              a larger group booking adds another layer of planning complexity during an
-              already high-demand period. Confirming everyone&rsquo;s availability and
-              commitment early, then booking as a coordinated group rather than individually,
-              both simplifies logistics and often secures better group-rate pricing during
-              this competitive booking window.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-3">
-              Year-End Travel Insurance Considerations
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              Since so much money is spent on planning a holiday of this sort in a year,
-              considering all the financial investment and the{" "}
-              <Link href={HOME} className={INLINE_LINK}>
-                limited holiday time
-              </Link>{" "}
-              available to a family, travel insurance assumes special importance in this
-              case. This is
-              because the problems of peak season are more probable in this period than in any
-              other time of the year.
-            </p>
-          </div>
-        </div>
-      </Section>
-
-      {/* ── PLATE BEFORE THE FAQ ──────────────────────────────────────────── */}
-      <section className="pb-12 lg:pb-16 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-60px" }}
-              variants={fadeUp}
-              className="relative h-64 md:h-80 overflow-hidden rounded-2xl"
-            >
-              <Image
-                src={PHOTO.band}
-                alt={PHOTO.bandAlt}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </motion.div>
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-60px" }}
-              variants={fadeUp}
-              className="relative h-64 md:h-80 overflow-hidden rounded-2xl"
-            >
-              <Image
-                src={PHOTO.korea}
-                alt={PHOTO.koreaAlt}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </motion.div>
-          </div>
-        </div>
-      </section>
 
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
       <FaqSection faqs={faqs} heading="Frequently Asked Questions" />
 
-      {/* ── CTA ───────────────────────────────────────────────────────────── */}
-      <CtaSection
-        heading="Lock In Your Year-End Holiday Now"
-        body="The year-end travel window fills up fast, and pricing only rises the closer you get to peak dates. Request a free, personalised quote today to secure your preferred destination."
-        actions={[{ label: "Request a Free Quote", href: "/contact-us" }]}
-      />
+      {/* ── CTA ───────────────────────────────────────────────────────────────
+          The house CTA band, without CtaSection's buttons: the copy's two
+          calls to action are inline links in its paragraph. The WhatsApp one
+          carries the DHESU-WEB-YEAREND code that tells these leads apart in
+          GHL and GA4. */}
+      <section className="relative py-12 lg:py-16 overflow-hidden bg-teal-navy">
+        <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-12 text-center" data-reveal>
+          <h2 className="font-primary font-bold text-white leading-tight mb-4 text-3xl md:text-5xl">
+            Book Your Year End Holiday Package Now
+          </h2>
+          <p className="text-white/70 text-lg max-w-2xl mx-auto leading-relaxed">
+            December is already filling up, and prices only go one way from here. Send us your
+            dates, how many of you are travelling and the ages of any children, and we will come
+            back with a written quote and what is currently open. You can{" "}
+            <Link href={CONTACT} className={DARK_LINK}>
+              request a free quote through our contact page
+            </Link>
+            , or{" "}
+            <a
+              href={whatsappHref("yearend")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={DARK_LINK}
+            >
+              message us on WhatsApp about last-minute December departures
+            </a>
+            .
+          </p>
+        </div>
+      </section>
     </>
   );
 }

@@ -6,17 +6,22 @@ import {
   breadcrumbList,
   faqQuestions,
   graph,
-  packageItemList,
+  nodeId,
+  offer,
+  orgRef,
+  parsePrice,
   webPage,
 } from "@/src/data/structuredData";
 
-// Holiday Idea sheet, row 33. Title and description are DHE-08's
-// (Downloads/Dhesu Page Update.docx, 11 Nov 2026), verbatim; the rest of the
-// body copy comes from content-document/sesional&school-holiday/.
+// Holiday Idea sheet, row 33. Title, meta description and all body copy are
+// DHE-101's final page copy (Downloads/Year-End Holiday Packages 2026_ final
+// page copy for the dev.docx, Rohan), verbatim. The site adds no title
+// template, so the copy's "| Dhesu" is part of the title as written.
 const PATH = "/year-end-holiday-travel-deals-2026";
-const TITLE = "Year-End Holiday Packages Dec 2026 from Malaysia | From RM398";
+const TITLE = "Year End Holiday Packages 2026 From RM398 | Dhesu";
 const DESCRIPTION =
-  "Explore year-end holiday packages from Malaysia for the December 2026 school holidays (5 to 31 Dec 2026). Featured deals to Bali, Vietnam, Kashmir, Golden Triangle, Sri Lanka & Nepal. Book with Dhesu Travel.";
+  "Year end holiday packages from Malaysia for the Dec 2026 school holidays. Bali, Vietnam, Sri Lanka, Nepal, Kashmir and India from RM398. Get a free quote.";
+const HERO_IMAGE = "/images/seasonal/winter-ice-festival.jpg";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -27,73 +32,145 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: PATH,
-    images: [{ url: "/images/seasonal/winter-ice-festival.jpg" }],
+    images: [{ url: HERO_IMAGE }],
     type: "website",
   },
 };
 
-// The card photo, tag and duration of a row come from the package its card
-// links to, so the card here is the one visitors already know from the hub.
-function cardArt(
-  packageHref: string,
-): Pick<YearEndPackage, "image" | "tag" | "tagColor" | "duration"> {
+// The card photo and tag come from the package its "Book Now" opens, so the
+// card here is the one visitors already know from the hub.
+function cardArt(packageHref: string): Pick<YearEndPackage, "image" | "tag" | "tagColor"> {
   const [destination, ...rest] = packageHref.replace(/^\/tours\/|\/$/g, "").split("/");
   const slug = rest.join("/");
   const pkg = getTourPage(destination)?.packages.items.find((p) => p.slug === slug);
   if (!pkg) throw new Error(`No package card for ${packageHref}`);
-  return { image: pkg.image, tag: pkg.tag, tagColor: pkg.tagColor, duration: pkg.duration ?? "" };
+  return { image: pkg.image, tag: pkg.tag, tagColor: pkg.tagColor };
 }
 
-// DHE-08's featured products, in its order. Name, price, description and the
-// link on the name are the copy's; the card's "Book Now" opens the package
-// behind that price. Owned by the page because it also drives the ItemList.
-const packageRows: Omit<YearEndPackage, "image" | "tag" | "tagColor" | "duration">[] = [
+// DHE-101's twelve packages, in the copy's order. Name, duration, price,
+// dates, Muslim-friendly line, description and the "Book Now" link are the
+// copy's. Owned by the page because it also drives the ItemList markup.
+const packageRows: Omit<YearEndPackage, "image" | "tag" | "tagColor">[] = [
   {
-    name: "Bali 3D Super Saver",
+    name: "Bali 3 Days Super Saver Year End Holiday Package",
+    duration: "3 Days / 2 Nights",
     price: "From RM398",
-    nameHref: "/tours/indonesia/bali/",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly: "Halal meals on request",
     description:
-      "Budget-friendly island getaway covering key cultural sites, beaches, and local dining during the December holiday window.",
+      "The cheapest way into a December holiday. Uluwatu cliff temple with the Kecak fire dance, seafood BBQ at Jimbaran Bay and the Tegalalang rice terraces.",
     packageHref: "/tours/indonesia/bali/3-day-super-saver/",
   },
   {
-    name: "Vietnam Hanoi & Halong 3D",
+    name: "Hanoi and Halong Bay 3 Days Year End Travel Package",
+    duration: "3 Days / 2 Nights",
     price: "From RM688",
-    nameHref: "/tours/vietnam/",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly: "Ask us",
     description:
-      "Classic northern Vietnam itinerary featuring Hanoi historic quarters and a Halong Bay scenic cruise.",
+      "Hanoi’s old quarter and a scenic cruise on Halong Bay, packed into a long weekend.",
     packageHref: "/tours/vietnam/north-vietnam/3-day-hanoi-halong-bay-super-saver/",
   },
   {
-    name: "Kashmir Snow Experience 4D",
-    price: "From RM1,088",
-    nameHref: "/tours/india/kashmir/",
-    description:
-      "Winter alpine package featuring Srinagar houseboats, Gulmarg snow slopes, and scenic valley transfers.",
-    packageHref: "/tours/india/kashmir/4-day-super-saver/",
-  },
-  {
-    name: "Golden Triangle India 5D",
-    price: "From RM1,388",
-    nameHref: "/tours/india/golden-triangle/",
-    description:
-      "Comprehensive cultural circuit covering Delhi, Agra (Taj Mahal), and Jaipur with structured guided tours.",
-    packageHref: "/tours/india/north-india/5-day-golden-triangle/",
-  },
-  {
-    name: "Sri Lanka Highlights",
+    name: "Angkor and Khmer Empire 3 Days Year End Holiday Package",
+    duration: "3 Days / 2 Nights",
     price: "From RM888",
-    nameHref: "/tours/sri-lanka/",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly: "Ask us",
     description:
-      "Tropical exploration route encompassing heritage monuments, tea plantation highlands, and coastal stops.",
+      "A private three day trip to Siem Reap built around Angkor and the temples of the Khmer Empire.",
+    packageHref: "/tours/cambodia/siem-reap/3-day-angkor-khmer-empire/",
+  },
+  {
+    name: "Sri Lanka 3 Days Kandy and Colombo December Holiday Package",
+    duration: "3 Days / 2 Nights",
+    price: "From RM888",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly: "Ask us, or choose the dedicated Muslim-friendly Sri Lanka trip below",
+    description:
+      "The Temple of the Sacred Tooth Relic, an evening Kandy cultural show and a Colombo city tour. December to March is the best all-round window for the island.",
     packageHref: "/tours/sri-lanka/kandy/3-day-kandy-colombo/",
   },
   {
-    name: "Nepal Muslim-Friendly Tour 6D",
-    price: "From RM2,088",
-    nameHref: "/tours/nepal/muslim-friendly/",
+    name: "Nepal 4 Days Super Saver Year End Holiday Package",
+    duration: "4 Days / 3 Nights",
+    price: "From RM888",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly: "Ask us, or choose the dedicated Muslim-friendly Nepal trip below",
     description:
-      "Tailored mountain and valley itinerary featuring halal-certified meal arrangements and dedicated prayer stops across Kathmandu and Pokhara.",
+      "Pashupatinath, the Monkey Temple at Swayambhunath and Himalayan views from Nagarkot. October to December gives Nepal its clearest mountain air.",
+    packageHref: "/tours/nepal/kathmandu/4-day-super-saver/",
+  },
+  {
+    name: "Best of Bali 4 Days Year End Holiday Package",
+    duration: "4 Days / 3 Nights",
+    price: "From RM988",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly: "Halal meals on request",
+    description:
+      "Our bestselling Bali trip. Uluwatu and the Kecak dance, Tegalalang rice terraces, Tanah Lot at sunset and Tirta Empul temple.",
+    packageHref: "/tours/indonesia/bali/4-day-best-of-bali/",
+  },
+  {
+    name: "Kashmir 4 Days Super Saver Year End Travel Package",
+    duration: "4 Days / 3 Nights",
+    price: "From RM1,088",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly: "Ask us (halal food is easy to find in Kashmir)",
+    description:
+      "A night on a Dal Lake houseboat, the Mughal gardens and Srinagar sightseeing. This one stays in Srinagar and does not include Gulmarg, so choose the ski resort package below if snow is the goal.",
+    packageHref: "/tours/india/kashmir/4-day-super-saver/",
+  },
+  {
+    name: "Bali 5 Days Bliss December Holiday Package",
+    duration: "5 Days / 4 Nights",
+    price: "From RM1,188",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly: "Halal meals on request",
+    description:
+      "The fuller Bali trip. The highland circuit, the floating temple at Bedugul, Uluwatu with the Kecak dance and an optional Nusa Penida day.",
+    packageHref: "/tours/indonesia/bali/5-day-bliss-temples-highlands-sunset/",
+  },
+  {
+    name: "Sri Lanka 4 Days Muslim-Friendly Year End Holiday Package",
+    duration: "4 Days / 3 Nights",
+    price: "From RM1,288",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly: "Yes, halal meals included",
+    description:
+      "Kandy, the tea hills of Nuwara Eliya, a beach and hill resort stay and waterfall stops along the way.",
+    packageHref: "/tours/sri-lanka/nuwara-eliya/4-day-muslim-friendly/",
+  },
+  {
+    name: "India Golden Triangle 5 Days Year End Holiday Package",
+    duration: "5 Days / 4 Nights",
+    price: "From RM1,388",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly: "On request, tell us your needs when you enquire",
+    description:
+      "Old Delhi, the Taj Mahal and Jaipur’s forts. October to March is the comfortable season for North India, so December works well.",
+    packageHref: "/tours/india/north-india/5-day-golden-triangle/",
+  },
+  {
+    name: "Kashmir 5 Days Ski Resort and Cable Car Snow Holiday Package",
+    duration: "5 Days / 4 Nights",
+    price: "From RM1,688",
+    dates:
+      "Snow season, December 2026 to February 2027. Snow usually settles from late December.",
+    muslimFriendly: "Ask us (halal food is easy to find in Kashmir)",
+    description:
+      "Gulmarg ski resort, a ride on the Gondola cable car and a houseboat night on Dal Lake. For plenty of Malaysians it is their first real snow.",
+    packageHref: "/tours/india/kashmir/5-day-ski-resort-cable-car/",
+  },
+  {
+    name: "Nepal 6 Days Best of Nepal Muslim-Friendly Year End Holiday Package",
+    duration: "6 Days / 5 Nights",
+    price: "From RM2,088",
+    dates: "Private departure, any date in December 2026",
+    muslimFriendly:
+      "Yes, halal dining guidance, prayer-time awareness and a Muslim-aware private guide",
+    description:
+      "A private guided trip with a Phewa Lake boat ride, Nagarkot sunrise and the Kathmandu heritage circuit.",
     packageHref: "/tours/nepal/kathmandu-pokhara/6-day-muslim-friendly/",
   },
 ];
@@ -108,48 +185,81 @@ const packages: YearEndPackage[] = packageRows.map((row) => ({
 // the array. The same list drives the rendered FAQ and the FAQPage markup.
 const faqs = [
   {
-    question: "Why is the end-of-year period considered the busiest time for traveling?",
+    question: "When are the December 2026 school holidays in Malaysia?",
     answer:
-      "This is the time when there are the longest school holidays in Malaysia coupled with Christmas and New Year travel needs worldwide.",
-  },
-  // DHE-08 updated these two with the 2026 school holiday dates. They replace
-  // the booking-window answer and the Australia/Japan/Europe one, which went
-  // with the generic destination cards.
-  {
-    question: "When should I book my December 2026 year-end holiday package?",
-    answer:
-      "For maximum flight availability and standard hotel rates, we recommend booking your December 2026 tour by September or October. The official Malaysian school holiday period runs from 4/5 December to 31 December 2026. Peak travel demand occurs during the festive window between 24 December 2026 and 1 January 2027, where seats sell out early and seasonal peak surcharges apply.",
+      "Group A states (Kedah, Kelantan, Terengganu and Johor) break from 4 to 31 December 2026. Group B (Kuala Lumpur, Selangor, Penang, Melaka, Perak, Pahang, Sabah, Sarawak, Putrajaya and Labuan) breaks from 5 to 31 December.",
   },
   {
-    question: "Are Dhesu Travel packages suitable for family travel during school holidays?",
+    question: "What is the cheapest year end holiday package from Malaysia?",
     answer:
-      "Yes, all featured year-end packages are structured specifically for family groups traveling during the December school holiday period (4 Dec – 31 Dec 2026). Itineraries like the Bali 3D Super Saver and Vietnam Hanoi & Halong 3D offer balanced schedules suitable for all age groups, while our Nepal Muslim-Friendly Tour 6D provides full halal meal planning and prayer stop arrangements for multi-generational Muslim family trips.",
+      "The 3 day Bali Super Saver starts from RM398 per person. The 3 day Hanoi and Halong Bay trip starts from RM688, and the Angkor, Kandy and Colombo, and Nepal Super Saver trips all start from RM888.",
   },
   {
-    question: "Can I arrange for the New Year Eve party on my own separately?",
+    question: "Is it too late to book a year end holiday package for December?",
     answer:
-      "Yes, but it is better to fix it before coming here because these parties usually take place according to a schedule and at a limited number of places.",
+      "December is close, so the better dates are going. Because our packages are private tours, we can still check what is open for your dates. Send them to us on WhatsApp and we will tell you straight.",
   },
   {
-    question: "Does year-end pricing impact all locations equally?",
+    question: "Do year end travel prices go up at Christmas and New Year?",
     answer:
-      "No; those locations which happen to be in their own peak season (such as Australian summer season) usually experience the highest prices increase.",
+      "Yes. Departures between 24 December 2026 and 1 January 2027 carry seasonal flight and hotel peak surcharges. The From prices on this page are starting rates, so ask for a quote on your exact dates.",
   },
   {
-    question: "Will it be easy to get a good deal if I book closer to year-end?",
+    question: "Which year end holiday packages are Muslim-friendly?",
     answer:
-      "No, since it will be much more difficult to get access to good options in terms of flights, hotels, and other experiences at that time.",
+      "The 4 day Sri Lanka package includes halal meals, and the 6 day Nepal package is a dedicated Muslim-friendly trip. For any other package, tell us your requirements when you enquire and we plan around them.",
   },
   {
-    question: "Is year-end a good time for an incentive travel trip?",
-    answer: "Yes; many companies prefer having an incentive travel trip at year-end.",
+    question: "Where can I see snow on a December holiday from Malaysia?",
+    answer:
+      "Kashmir is the one on this page. Snow usually settles around Gulmarg from late December, and January is often the heaviest. The 5 day ski resort package includes the Gondola cable car, and daytime temperatures sit around 2 to 8°C, so pack warm.",
   },
   {
-    question: "What's the ideal trip length for a year-end holiday?",
+    question: "Are the year end holiday package prices per person, and are flights included?",
     answer:
-      "This depends on your specific school or work break length, though the extended year-end window often allows for longer trips than other holiday periods.",
+      "They are per person for the land package. International flights from Kuala Lumpur are quoted separately unless a package says otherwise, and we can add them on request.",
+  },
+  {
+    question: "Can I change a year end holiday package or book for a big group?",
+    answer:
+      "Yes. Hotels, pace and activities can all be adjusted, and anything changed is repriced before you commit. For larger groups, send us the headcount and dates and we put together one quote.",
   },
 ];
+
+/**
+ * The twelve cards as an ItemList whose entries are the packages themselves:
+ * each a Product/TouristTrip (the repo's tour type) with an Offer carrying the
+ * card's From price. Every value is one the card displays; the Offer's url is
+ * the package page its "Book Now" opens.
+ */
+function yearEndItemList(items: YearEndPackage[]) {
+  return {
+    "@type": "ItemList",
+    "@id": nodeId(PATH, "packages"),
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    numberOfItems: items.length,
+    itemListElement: items.map((pkg, i) => {
+      const base = offer({ url: pkg.packageHref, price: pkg.price });
+      return {
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": ["Product", "TouristTrip"],
+          name: pkg.name,
+          description: pkg.description,
+          image: pkg.image,
+          url: pkg.packageHref,
+          brand: orgRef,
+          provider: orgRef,
+          additionalProperty: [
+            { "@type": "PropertyValue", name: "Duration", value: pkg.duration },
+          ],
+          ...(base ? { offers: { ...base, price: Number(parsePrice(pkg.price)) } } : {}),
+        },
+      };
+    }),
+  };
+}
 
 const yearEndJsonLd = graph([
   webPage({
@@ -157,7 +267,7 @@ const yearEndJsonLd = graph([
     name: TITLE,
     description: DESCRIPTION,
     type: ["WebPage", "FAQPage"],
-    image: "/images/seasonal/winter-ice-festival.jpg",
+    image: HERO_IMAGE,
     hasBreadcrumb: true,
     mainEntity: faqQuestions(faqs),
   }),
@@ -165,16 +275,7 @@ const yearEndJsonLd = graph([
     { name: "Home", url: "/" },
     { name: "Year-End Holiday Deals 2026" },
   ]),
-  // The six featured cards, each pointing at the package behind its price.
-  packageItemList(
-    PATH,
-    packages.map((pkg) => ({
-      name: pkg.name,
-      url: pkg.packageHref,
-      price: pkg.price,
-      duration: pkg.duration,
-    })),
-  ),
+  yearEndItemList(packages),
 ]);
 
 export default function YearEndPage() {
