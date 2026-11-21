@@ -56,7 +56,7 @@ export const MAURITIUS_THEMES: MauritiusLandingPage[] = [
       "Mauritius Honeymoon Packages From Malaysia: Island Luxury for Couples",
     ogDescription:
       "Mauritius honeymoon packages from Malaysia — luxury beach resorts, private experiences, and island romance. Get a free, personalised quote today.",
-    ogImage: "/images/guides/le-morne-aerial.jpg",
+    ogImage: "/images/guides/mauritius-le-morne-lagoon.jpg",
   },
   {
     // Holiday Idea sheet, row 27. That row is a single cross-destination page;
