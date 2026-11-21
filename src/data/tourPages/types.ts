@@ -157,7 +157,8 @@ export interface TourPageData {
   why: {
     sectionLabel: string;
     heading: string;
-    subheading: string;
+    /** Plain text, or text with inline links ({ text, href } parts). */
+    subheading: string | FaqPart[];
     highlights: TourHighlight[];
   };
   zones: {

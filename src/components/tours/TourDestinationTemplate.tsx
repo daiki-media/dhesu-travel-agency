@@ -458,7 +458,13 @@ export default function TourDestinationTemplate({
             <h2 className="font-primary font-bold text-[#1a1a1a] text-4xl md:text-5xl leading-tight mb-4">
               {why.heading}
             </h2>
-            <p className="text-gray-500 text-lg leading-relaxed">{why.subheading}</p>
+            <p className="text-gray-500 text-lg leading-relaxed">
+              {typeof why.subheading === "string" ? (
+                why.subheading
+              ) : (
+                <LinkedText parts={why.subheading} />
+              )}
+            </p>
           </motion.div>
 
           {/* 2x2 Grid */}

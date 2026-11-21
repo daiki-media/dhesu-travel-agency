@@ -8,19 +8,19 @@ import AllPagesHero from "@/src/components/AllPagesHero";
 import Button from "@/src/components/Button";
 import CtaSection from "@/src/components/CtaSection";
 import LinkedFaqSection from "@/src/components/LinkedFaqSection";
-import type { LinkedFaq } from "@/src/data/linkedFaq";
+import LinkedText from "@/src/components/LinkedText";
+import type { FaqPart, LinkedFaq } from "@/src/data/linkedFaq";
 
-/** One row of the copy's package table. */
+/** One row of the DHE-102 package table. */
 export type MuslimFriendlyPackage = {
+  /** The "Package" column; the name links to `packageHref`. */
   name: string;
-  days: string;
-  /** The "From (RM, per person twin)" column, as written. */
-  price: string;
-  /** The "What is Muslim-friendly" column. */
-  muslimFriendly: string;
-  /** The "Link" column's text. */
-  linkLabel: string;
   packageHref: string;
+  days: string;
+  /** The "From (RM per person)" column, as written. */
+  price: string;
+  /** The "What makes it Muslim-friendly" column. */
+  muslimFriendly: string;
 };
 
 const PHOTO = {
@@ -44,28 +44,45 @@ const BODY = "text-gray-600 text-[15px] leading-relaxed";
 const INLINE_LINK =
   "font-semibold text-teal-navy underline decoration-primary/40 underline-offset-4 hover:decoration-primary transition-colors";
 
+// Links inside the dark hero, as on the year-end and Raya pages.
+const HERO_LINK =
+  "font-semibold text-white underline decoration-primary decoration-2 underline-offset-4 hover:text-primary transition-colors";
+
 // ─── Copy ──────────────────────────────────────────────────────────────────────
 
-const TABLE_HEADERS = [
-  "Package",
-  "Days",
-  "From (RM, per person twin)",
-  "What is Muslim-friendly",
-  "Link",
-];
+const TABLE_HEADERS = ["Package", "Days", "From (RM per person)", "What makes it Muslim-friendly"];
 
-const travellerGroups: { lead: string; text: string }[] = [
+// The DHE-102 bullets, verbatim, with the handover's links.
+const travellerGroups: { lead: string; text: FaqPart[] }[] = [
   {
-    lead: "Families with Children & Elderly Parents:",
-    text: "Private air-conditioned vans or coaches reduce walking fatigue, with flexible rest stops, interconnecting or ground-floor room requests, and familiar halal meal choices so young children and seniors eat comfortably.",
+    lead: "Couples and honeymooners:",
+    text: [
+      "Couples often start from ",
+      {
+        text: "honeymoon destination ideas for Malaysian couples",
+        href: "/honeymoon-holiday-guide-2026/",
+      },
+      " and then narrow down to a Dal Lake houseboat night or the ",
+      {
+        text: "4-day Bali romantic escape with a private pool villa",
+        href: "/tours/indonesia/bali/4-day-romantic-escape-pool-villa/",
+      },
+      ", since both leave room for Maghrib and dinner.",
+    ],
   },
   {
-    lead: "Couples & Honeymooners:",
-    text: "Enjoy private airport transfers, scenic boutique stays—such as Dal Lake houseboats in Kashmir or private pool villas in Bali—and unhurried sightseeing schedules that leave time for Maghrib and dinner without rushing.",
+    lead: "Families:",
+    text: [
+      "Private air-conditioned vehicles, rest stops whenever someone needs one, and meals the kids will actually eat.",
+    ],
   },
   {
-    lead: "Corporate, Alumni & Small Private Groups (6 to 30+ Pax):",
-    text: "Group departures include dedicated tour leaders, coordinated Friday Jumu'ah mosque stops, and customizable meal budgets tailored to Malaysian palates.",
+    lead: "Groups of 6 to 30+:",
+    text: [
+      "A tour leader, Jumu’ah stops worked into the route, and meal budgets set around Malaysian tastes. ",
+      { text: "Group and incentive trips", href: "/group-incentive-travel-packages/" },
+      " can use the same routes.",
+    ],
   },
 ];
 
@@ -149,10 +166,35 @@ export default function MuslimFriendlyContent({
         title="Muslim-Friendly Tour Packages from Malaysia: Halal Dining & Prayer-Planned Itineraries (2026/27)"
         intro={
           <>
-            Planning an international holiday that respects your daily prayer routine and dietary
-            standards should feel effortless. Finding reputable halal restaurants, locating clean
-            wudhu and prayer spaces during intercity transfers, and scheduling Friday Jumu&apos;ah
-            prayers often take hours of advance research.
+            Looking for a Muslim travel package that doesn’t leave you hunting for halal food and a
+            prayer space at every stop? Dhesu Travel has been planning trips from Kuala Lumpur since
+            1988 (MOTAC licence KKKP 1439), and every Muslim holiday package from Malaysia has the
+            halal meals and Solat breaks sorted before you fly. The range runs from a{" "}
+            <Link href="/tours/nepal/kathmandu-pokhara/6-day-muslim-friendly/" className={HERO_LINK}>
+              Muslim-friendly Nepal tour
+            </Link>{" "}
+            and a{" "}
+            <Link href="/tours/sri-lanka/nuwara-eliya/4-day-muslim-friendly/" className={HERO_LINK}>
+              4-day Sri Lanka trip
+            </Link>{" "}
+            to the{" "}
+            <Link href="/tours/india/north-india/5-day-golden-triangle-muslim/" className={HERO_LINK}>
+              Golden Triangle with halal meals included
+            </Link>
+            , a{" "}
+            <Link href="/tours/india/kashmir/4-day-super-saver/" className={HERO_LINK}>
+              Kashmir houseboat stay
+            </Link>
+            ,{" "}
+            <Link href="/tours/indonesia/bali/3-day-super-saver/" className={HERO_LINK}>
+              private Bali tours
+            </Link>{" "}
+            and{" "}
+            <Link href="/tours/malaysia/sabah/3-day-kk-bongawan-cruise-dream-beach/" className={HERO_LINK}>
+              Sabah getaways closer to home
+            </Link>
+            . Each one comes with a private vehicle and a guide who knows where the mosques and
+            wudhu spots are.
           </>
         }
       />
@@ -200,8 +242,10 @@ export default function MuslimFriendlyContent({
             <tbody>
               {packages.map((pkg) => (
                 <tr key={pkg.name} className="border-b border-gray-200">
-                  <td className="py-4 pr-6 font-primary font-bold text-[#1a1a1a] text-[15px] leading-snug align-top">
-                    {pkg.name}
+                  <td className="py-4 pr-6 font-primary text-[15px] leading-snug align-top">
+                    <Link href={pkg.packageHref} className={INLINE_LINK}>
+                      {pkg.name}
+                    </Link>
                   </td>
                   <td className="py-4 pr-6 text-[15px] text-gray-600 align-top whitespace-nowrap">
                     {pkg.days}
@@ -209,13 +253,8 @@ export default function MuslimFriendlyContent({
                   <td className="py-4 pr-6 text-[15px] font-semibold text-teal-navy align-top whitespace-nowrap">
                     {pkg.price}
                   </td>
-                  <td className="py-4 pr-6 text-[15px] text-gray-600 leading-relaxed align-top">
+                  <td className="py-4 text-[15px] text-gray-600 leading-relaxed align-top">
                     {pkg.muslimFriendly}
-                  </td>
-                  <td className="py-4 text-[15px] align-top whitespace-nowrap">
-                    <Link href={pkg.packageHref} className={INLINE_LINK}>
-                      {pkg.linkLabel}
-                    </Link>
                   </td>
                 </tr>
               ))}
@@ -223,9 +262,10 @@ export default function MuslimFriendlyContent({
           </table>
         </div>
         <p className={`${BODY} max-w-3xl mt-6`}>
-          Price Validity Notice: Starting prices shown above are valid for travel periods through
-          31 March 2027 (excluding peak school holiday, Hari Raya, and year-end surcharges),
-          subject to hotel availability and twin-sharing occupancy. Contact Dhesu Travel for an
+          Prices are starting rates per person, land arrangements only, with flights not included.
+          Each package page spells out the room basis (usually twin sharing). Starting prices are
+          valid for travel through 31 March 2027, excluding peak school holiday, Hari Raya and
+          year-end surcharges, and are subject to hotel availability. Contact Dhesu Travel for an
           exact quote based on your travel dates and group size.
         </p>
       </Section>
@@ -243,7 +283,7 @@ export default function MuslimFriendlyContent({
         <ul className="space-y-4 max-w-3xl">
           {travellerGroups.map((group) => (
             <Bullet key={group.lead}>
-              <strong>{group.lead}</strong> {group.text}
+              <strong>{group.lead}</strong> <LinkedText parts={group.text} />
             </Bullet>
           ))}
         </ul>

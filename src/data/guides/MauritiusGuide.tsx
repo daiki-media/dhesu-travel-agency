@@ -31,10 +31,10 @@ import {
 const PHOTO = "/images/guides/trou-aux-cerfs.jpg";
 const PHOTO_ALT = "The Trou aux Cerfs crater above Curepipe, Mauritius";
 
-// The draft's own internal links. Like the Hong Kong draft, all three point at
-// the old holidayidea.com.my homepage (promo/index.php) rather than a search
-// page, so none names a specific target; Mauritius has no sub-pages here
-// either, so all three resolve to the /tours/mauritius hub.
+// The draft's own internal links. Like the Hong Kong draft, they point at the
+// old holidayidea.com.my homepage (promo/index.php) rather than a search page,
+// so none names a specific target; they resolve to the /tours/mauritius hub.
+// DHE-102 moved the Practical Tips one to the free-quote form.
 const MAURITIUS = "/tours/mauritius";
 
 
@@ -130,18 +130,65 @@ const tripLengths = [
   },
 ];
 
+// DHE-102 handover, section 2.3, verbatim.
 const bestTime = [
   {
-    season: "Dry Season",
-    months: "May–December",
-    conditions: "Cooler, less humid, generally considered the most favourable period",
+    season: "Dry season",
+    months: "May to November",
+    conditions:
+      "Cooler, less humid and generally the most comfortable time for beach days and sightseeing",
   },
   {
-    season: "Wet Season",
-    months: "January–April",
-    conditions: "Warmer and more humid, with a higher chance of cyclone activity",
+    season: "Wet season",
+    months: "December to April",
+    conditions:
+      "Warmer and more humid with more rain, and a higher chance of cyclones, mostly from January to March",
   },
 ];
+
+// DHE-102 handover, section 2.1 ("Mauritius Honeymoon Packages from
+// Malaysia"), verbatim. No prices: the handover says these are built to order.
+const packageStyles = [
+  {
+    style: "Short honeymoon escape",
+    length: "5 days",
+    bestFor: "Couples with limited leave",
+    includes:
+      "Resort stay, airport transfers, one honeymoon experience such as a private dinner or spa session",
+  },
+  {
+    style: "Classic honeymoon",
+    length: "7 days",
+    bestFor: "Most couples, a mix of beach days and excursions",
+    includes:
+      "Resort stay, airport transfers, an Île aux Cerfs or catamaran day, a Chamarel and south coast day, spa and private dining",
+  },
+  {
+    style: "Extended island honeymoon",
+    length: "10+ days",
+    bestFor: "Couples who want to see two coasts",
+    includes: "Stays split across two coasts and a wider mix of excursions",
+  },
+];
+
+const quoteFactors = [
+  {
+    lead: "Resort tier:",
+    text: "3-star is the budget-friendly option, 4-star gives the best value for comfort, and 5-star is the premium stay.",
+  },
+  {
+    lead: "Room and board:",
+    text: "Beachfront or overwater villas cost more than standard rooms, and all-inclusive or half-board options change the total too.",
+  },
+  {
+    lead: "Travel dates:",
+    text: "May to November is the cooler, drier stretch and the most comfortable for most couples. December to April is hotter and wetter, and the popular resorts fill fast around Malaysia’s peak wedding months.",
+  },
+];
+
+const FREE_QUOTE = "/contact-us/#free-quote";
+const COMPARISON_GUIDE = "/tours/mauritius/honeymoon-holiday-guide-2026/";
+const BALI_POOL_VILLA = "/tours/indonesia/bali/4-day-romantic-escape-pool-villa/";
 
 const included = [
   "Accommodation matched to your selected resort tier",
@@ -206,6 +253,54 @@ export default function MauritiusGuide() {
         </p>
       </Section>
 
+      <Section label="Packages" heading="Mauritius Honeymoon Packages from Malaysia">
+        <p className="text-gray-600 leading-relaxed mb-6">
+          Mauritius honeymoons are built to order, so there’s no fixed package list to pick
+          from. What you decide is how many days you’re going, which resort tier you want and
+          what you’d like included. Dhesu then quotes it in writing for your actual dates, and
+          flights from Kuala Lumpur can be quoted alongside.
+        </p>
+        <div className="mb-8">
+          <DataTable
+            headers={["Package style", "Trip length", "Best for", "Usually includes"]}
+            rows={packageStyles.map((r) => [r.style, r.length, r.bestFor, r.includes])}
+          />
+        </div>
+        <h3 className="font-primary font-bold text-teal-navy text-lg leading-snug mb-4">
+          What shapes your quote
+        </h3>
+        <ul className="space-y-4 mb-6">
+          {quoteFactors.map((item) => (
+            <Bullet key={item.lead}>
+              <strong>{item.lead}</strong> {item.text}
+            </Bullet>
+          ))}
+        </ul>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Send your dates, number of nights and preferred resort tier for a{" "}
+          <Link href={FREE_QUOTE} className={INLINE_LINK}>
+            free, personalised Mauritius quote
+          </Link>
+          .
+        </p>
+        <p className="text-gray-600 leading-relaxed">
+          Mauritius is an 8 to 9 hour flight from Malaysia, so many couples{" "}
+          <Link href={COMPARISON_GUIDE} className={INLINE_LINK}>
+            compare it with Bali and Europe on cost, flight time and pace
+          </Link>{" "}
+          before they commit, and the{" "}
+          <Link href={BALI_POOL_VILLA} className={INLINE_LINK}>
+            4-day Bali romantic escape with a private pool villa
+          </Link>{" "}
+          is the usual shorter-flight alternative. If halal dining and prayer times matter on
+          your honeymoon, the{" "}
+          <Link href="/muslim-friendly-holiday-travel-guide/" className={INLINE_LINK}>
+            Muslim-friendly holiday packages from Malaysia
+          </Link>{" "}
+          cover Nepal, Sri Lanka, India, Bali and Sabah with both built in.
+        </p>
+      </Section>
+
       <Section label="Trip Length" heading="Suggested Trip Length">
         <TripRows rows={tripLengths.map((r) => ({ label: r.length, detail: r.suits }))} />
       </Section>
@@ -231,11 +326,12 @@ export default function MauritiusGuide() {
           holiday at, your resort will provide good opportunities to enjoy many
           excursions without the need of travelling for long periods. You can be
           confident about being able to communicate effectively in English or French
-          due to the colonial past of the country. It is advisable to find out the{" "}
-          <Link href={MAURITIUS} className={INLINE_LINK}>
-            package details
+          due to the colonial past of the country. Prices differ by resort and room type, so
+          it helps to ask for a{" "}
+          <Link href={FREE_QUOTE} className={INLINE_LINK}>
+            free Mauritius quote
           </Link>{" "}
-          provided by your resort, since prices differ depending on accommodation type.
+          based on your dates.
         </p>
       </Section>
 

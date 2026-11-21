@@ -12,7 +12,7 @@
     "badge": "Island Luxury for Couples",
     "headline": "Mauritius Holiday Packages",
     "headlineAccent": "From Malaysia.",
-    "body": "Luxury beach resorts and island romance in the Indian Ocean. Mauritius itineraries are being finalised — tell us your dates and we will build one around them.",
+    "body": "Luxury beach resorts and island romance in the Indian Ocean. Mauritius holidays are built to order, so tell us your dates and we’ll plan one around them.",
     "bgImage": "/images/guides/mauritius-resort-garden.jpg",
     "stats": [
       { "value": "Since 1988", "label": "Planning Malaysian Holidays" },
@@ -22,26 +22,30 @@
   "why": {
     "sectionLabel": "Why Mauritius",
     "heading": "Why Mauritius Is a Top Honeymoon Destination",
-    "subheading": "Section outline taken from the approved draft; the supporting copy is still to be written.",
+    "subheading": [
+      "Mauritius suits couples who’d rather do very little, very well. The lagoons are the kind of turquoise you only see in photos, the beaches stay quiet, and the resorts treat a honeymoon as the main event. The flight from Malaysia is long at around 8 to 9 hours, but most couples find the privacy is worth it. Couples still choosing between islands often ",
+      { "text": "weigh Mauritius against Bali and Europe", "href": "/tours/mauritius/honeymoon-holiday-guide-2026/" },
+      " on cost, flight time and pace."
+    ],
     "highlights": [
       {
         "icon": "wave",
         "title": "Choosing the Right Coast",
-        "body": "Draft section pending. See the Mauritius draft in content-document/destinations-europe/.",
+        "body": "Each side of the island has its own feel, so pick the coast before the resort. The north is lively, the west is calm with the best sunsets, and the east is quiet and secluded. The south is wilder and less developed, which makes it better for a day drive than a base.",
         "image": "/images/guides/trou-aux-cerfs.jpg",
         "places": ["North Coast", "West Coast", "East Coast"]
       },
       {
         "icon": "temple",
         "title": "What to Look for in a Resort",
-        "body": "Draft section pending. See the Mauritius draft in content-document/destinations-europe/.",
+        "body": "Look for adults-only sections, beachfront or overwater villas, and half-board or all-inclusive so meals aren’t one more decision. Ask what the resort gives honeymooners for free, because upgrades and a private dinner are common.",
         "image": "/images/guides/mauritius-resort-pool.jpg",
         "places": ["Beachfront", "Private Villas", "Spa"]
       },
       {
         "icon": "food",
         "title": "Island Life and Practical Tips",
-        "body": "Draft section pending. See the Mauritius draft in content-document/destinations-europe/.",
+        "body": "Mauritius is small, so even a quiet resort has day trips within easy reach, and English and French are both widely spoken. The local food is worth leaving the resort for, and Malaysian passport holders can currently visit visa-free for up to 90 days.",
         "image": "/images/guides/caudan-waterfront.jpg",
         "places": ["Local Cuisine", "Island Tours"]
       }
@@ -50,13 +54,13 @@
   "zones": {
     "sectionLabel": "Mauritius Coasts",
     "heading": "Where to Stay and Why",
-    "subheading": "Coast list taken from the approved draft; descriptions are still to be written.",
+    "subheading": "Pick the coast that matches the honeymoon you have in mind. These are the three most couples choose between.",
     "areas": [
       {
         "name": "North Coast",
         "tag": "Lively",
         "tagColor": "orange",
-        "description": "Draft description pending.",
+        "description": "The most developed resort area, with restaurants and some nightlife close by. It’s a good pick if you want relaxation with a bit of evening buzz.",
         "image": "/images/guides/model-ship-museum.jpg",
         "vibe": "Sociable"
       },
@@ -64,7 +68,7 @@
         "name": "West Coast",
         "tag": "Sunsets",
         "tagColor": "red",
-        "description": "Draft description pending.",
+        "description": "Calmer water, dramatic sunsets and plenty of water sports and excursions close by.",
         "image": "/images/guides/fort-adelaide-port-louis.jpg",
         "vibe": "Scenic"
       },
@@ -72,7 +76,7 @@
         "name": "East Coast",
         "tag": "Secluded",
         "tagColor": "teal",
-        "description": "Draft description pending.",
+        "description": "The quietest and most private resorts on the island. It’s best for couples who care more about tranquillity than things to do.",
         "image": "/images/guides/mauritius-colonial-dusk.jpg",
         "vibe": "Quiet"
       }
@@ -81,14 +85,14 @@
   "bestTime": {
     "sectionLabel": "When to Go",
     "heading": "Best Time to Visit Mauritius",
-    "body": "Seasonal guidance is still to be written. See the Mauritius draft in content-document/destinations-europe/.",
+    "body": "Mauritius works all year, so it comes down to weather and crowds.",
     "seasons": [
       {
         "name": "Dry Season",
         "months": "May to November",
         "badge": "Most Popular",
         "badgeColor": "red",
-        "description": "Draft description pending.",
+        "description": "Cooler, less humid and generally the most comfortable time for beach days and sightseeing. The east and south coasts can get windy in July and August.",
         "icon": "sun"
       },
       {
@@ -96,7 +100,7 @@
         "months": "December to April",
         "badge": "Warmer Sea",
         "badgeColor": "blue",
-        "description": "Draft description pending.",
+        "description": "Hotter, more humid and wetter, with warmer sea. Cyclone risk is highest from January to March, although most trips in these months go ahead as planned.",
         "icon": "rain"
       }
     ]
@@ -108,25 +112,25 @@
       {
         "days": "5-6 Days",
         "label": "Resort Stay",
-        "description": "Draft description pending."
+        "description": "A short but proper honeymoon, mostly beach and spa time with one excursion."
       },
       {
         "days": "7-8 Days",
         "label": "Resort and Island Tours",
-        "description": "Draft description pending.",
+        "description": "The most common length, with enough time for a resort stay plus Île aux Cerfs, Chamarel and the south coast.",
         "recommended": true
       },
       {
         "days": "10+ Days",
         "label": "Two Coasts",
-        "description": "Draft description pending."
+        "description": "For couples who want to see more of the island, such as a quiet east coast resort for a few nights, then somewhere livelier on the west or north."
       }
     ]
   },
   "packages": {
     "sectionLabel": "Mauritius Packages",
     "heading": "Start With the Mauritius Travel Guide",
-    "subheading": "Our Mauritius planning guide is ready now. The itineraries are being finalised \u2014 tell us your dates and we will build one around them.",
+    "subheading": "Two free planning guides are ready now. Every itinerary is built to order, so tell us your dates and we’ll plan one around them.",
     "ctaNote": "Every Mauritius itinerary is planned around your dates, budget and pace.",
     "items": []
   },

@@ -553,44 +553,65 @@ export const guideFaqs: Record<string, GuideFaq[]> = {
       "Yes, it's commonly included as a full-day scenic drive excursion from Melbourne, featuring the iconic Twelve Apostles rock formations.",
   },
 ],
+  // Answers are the DHE-102 handover's (section 2.4), verbatim; the questions
+  // are unchanged, as the handover asks.
   "mauritius/mauritius-honeymoon-travel-guide-2026": [
   {
     question: "Why is Mauritius better than other island destinations for a honeymoon?",
-    answer:
-      "Mauritius has luxury resort facilities, stunning nature and a high level of privacy, which makes it especially suitable for honeymooners.",
+    answer: [
+      "It comes down to privacy and polish. Mauritius has adults-only resort sections, beachfront and overwater villas, and 5-star resort brands that treat a honeymoon as the main event. The flight is longer than to Bali, but many couples feel the seclusion makes up for it. Couples still deciding can ",
+      {
+        text: "compare Mauritius with Bali and Europe on cost, flight time and pace",
+        href: "/tours/mauritius/honeymoon-holiday-guide-2026/",
+      },
+      ".",
+    ],
   },
   {
     question: "Is there a certain coast of Mauritius that would be better for honeymooners?",
-    answer:
-      "This is up to individual preferences, but the East and the South coasts have a higher level of privacy, while the West and the North coasts have a more vibrant resort environment.",
+    answer: [
+      "It depends on the mood you want. The east coast is the quietest and most private, the west has calmer water and the best sunsets, and the north is the livelier resort area with some nightlife close by. The south is rugged and less developed, so it works better for a day drive than as a base. Tell us what kind of honeymoon you’re after and we’ll ",
+      { text: "put together a free, personalised Mauritius quote", href: "/contact-us/#free-quote" },
+      " on the right coast.",
+    ],
   },
   {
     question: "How many days will we need for our honeymoon trip in Mauritius?",
-    answer: "It takes seven days as a rule, but five days could also be enough.",
+    answer:
+      "Five days is a short but proper escape, and 7 days is the most common length because it fits resort time and a couple of excursions. If you want to see two coasts, plan on 10 days or more.",
   },
   {
     question: "What's the best time of year to visit Mauritius?",
     answer:
-      "The dry season, from May to December, generally offers the most favourable conditions, with cooler and less humid weather.",
+      "May to November is cooler, less humid and the most comfortable for most couples. December to April is hotter and wetter, with cyclone risk mostly between January and March, though many trips in those months go ahead without any trouble. Popular resorts fill fast around Malaysia’s wedding seasons, so book early whichever month you pick.",
   },
   {
     question: "Can I opt for an all-inclusive package in Mauritius?",
     answer:
-      "Sure, you may go for all-inclusive or half board packages to save you time on making unnecessary decisions during your holiday there.",
+      "Yes. Many resorts offer all-inclusive or half-board options, which cuts down the number of decisions once you arrive. Say which board basis you want when you ask for a quote, because it changes the total.",
   },
   {
     question: "Is Île aux Cerfs part of the must-have things to do in Mauritius?",
     answer:
-      "Yes, it is a popular place that serves as a great day trip with stunning beaches and various water activities.",
+      "It’s a popular pick. It’s a small islet reached by boat, known for pristine beaches and water activities, and it usually sits on day 4 of a 7-day honeymoon. If you’d rather spend every day at the resort, a sunset catamaran cruise is a good alternative.",
   },
   {
     question: "Does one need a visa to travel to Mauritius from Malaysia?",
-    answer: "Generally, people with Malaysian passports have a chance to enter Mauritius visa-free.",
+    answer:
+      "Malaysian passport holders can currently visit Mauritius for tourism without a visa for up to 90 days. You’ll need a valid passport and proof of a return or onward ticket. Rules can change, so check the latest entry requirements before you fly.",
   },
   {
     question: "Will it be good to combine Mauritius with another country for my honeymoon?",
-    answer:
-      "It may be done but usually Mauritius becomes a separate destination for its relaxing atmosphere.",
+    answer: [
+      "It can be, especially because the flight is already long at around 8 to 9 hours, so a second stop makes the journey feel worth it. Bali is the usual shorter-flight alternative, and the ",
+      {
+        text: "4-day Bali romantic escape with a private pool villa",
+        href: "/tours/indonesia/bali/4-day-romantic-escape-pool-villa/",
+      },
+      " shows what that looks like. If you have a combination in mind, send a ",
+      { text: "custom itinerary request", href: "/custom-itinerary-request/" },
+      " with your dates.",
+    ],
   },
 ],
   "indonesia/honeymoon-holiday-guide-2026": [
